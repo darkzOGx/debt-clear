@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function AnimatedBanner() {
   return (
-    <div className="relative w-full overflow-hidden bg-gradient-to-r from-gray-900 via-black to-gray-900 py-4">
+    <div className="relative w-full overflow-hidden bg-gradient-to-r from-gray-900 via-black to-gray-900 py-2">
       {/* Animated background pattern */}
       <div className="absolute inset-0 opacity-10">
         <motion.div
@@ -63,8 +63,8 @@ export default function AnimatedBanner() {
             transition={{ duration: 1.5, ease: "easeOut" }}
           />
           
-          {/* Center content */}
-          <div className="px-8 flex items-center gap-4">
+          {/* Center content - pulsing dots only */}
+          <div className="px-8 flex items-center gap-8">
             {/* Pulsing indicator */}
             <motion.div
               className="w-2 h-2 bg-white rounded-full"
@@ -78,23 +78,6 @@ export default function AnimatedBanner() {
                 ease: "easeInOut"
               }}
             />
-            
-            {/* Text with typewriter effect */}
-            <motion.div
-              className="text-white font-mono text-sm tracking-[0.15em] uppercase"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 1, delay: 0.5 }}
-            >
-              <motion.span
-                initial={{ width: 0 }}
-                animate={{ width: "auto" }}
-                transition={{ duration: 2, delay: 1 }}
-                className="inline-block overflow-hidden whitespace-nowrap"
-              >
-                PROFESSIONAL DEBT RESOLUTION SYSTEMS
-              </motion.span>
-            </motion.div>
             
             {/* Pulsing indicator */}
             <motion.div
