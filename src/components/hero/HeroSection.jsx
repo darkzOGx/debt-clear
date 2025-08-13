@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+import AnimatedBanner from '@/components/banner/AnimatedBanner';
 
 export default function HeroSection({ onScrollToCalculator, onScrollToConsultation }) {
   return (
@@ -14,6 +15,11 @@ export default function HeroSection({ onScrollToCalculator, onScrollToConsultati
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             className="lg:col-span-7">
+
+            {/* Animated Banner */}
+            <div className="mb-6 -mx-6 lg:-mx-8">
+              <AnimatedBanner />
+            </div>
 
             {/* Institutional Badge */}
             <div className="inline-flex items-center gap-3 mb-8">
