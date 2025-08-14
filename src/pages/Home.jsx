@@ -3,6 +3,7 @@ import HeroSection from '../components/hero/HeroSection';
 import DebtCalculator from '../components/calculator/DebtCalculator';
 import ServicesSection from '../components/services/ServicesSection';
 import TestimonialsSection from '../components/testimonials/TestimonialsSection';
+import BlogSection from '../components/blog/BlogSection';
 import ConsultationForm from '../components/consultation/ConsultationForm';
 import AiChatbot from '../components/chatbot/AiChatbot';
 
@@ -43,6 +44,9 @@ export default function Home() {
       {/* Case Studies */}
       <TestimonialsSection />
 
+      {/* Blog Section */}
+      <BlogSection />
+
       {/* Consultation Form */}
       <div ref={consultationRef}>
         <ConsultationForm />
@@ -64,14 +68,29 @@ export default function Home() {
               </div>
               
               <h3 className="text-2xl font-light mb-6 leading-tight">
-                Evidence-Based Financial
+                Orange County
                 <br />
-                <span className="font-mono">Recovery Solutions</span>
+                <span className="font-mono">Debt Settlement Specialists</span>
               </h3>
               
-              <div className="text-sm text-neutral-400 leading-relaxed">
-                Professional debt settlement services utilizing systematic research methodologies 
-                and algorithmic creditor negotiation protocols.
+              <div className="text-sm text-neutral-400 leading-relaxed mb-6">
+                Licensed debt settlement services serving Orange County residents with 
+                AI-powered negotiation and local market expertise.
+              </div>
+
+              <div className="space-y-2 text-sm">
+                <a href="/debt-settlement-anaheim" className="block text-neutral-400 hover:text-white transition-colors">
+                  Debt Settlement Anaheim
+                </a>
+                <a href="/debt-settlement-irvine" className="block text-neutral-400 hover:text-white transition-colors">
+                  Debt Settlement Irvine
+                </a>
+                <a href="/debt-settlement-santa-ana" className="block text-neutral-400 hover:text-white transition-colors">
+                  Debt Settlement Santa Ana
+                </a>
+                <a href="/debt-settlement-huntington-beach" className="block text-neutral-400 hover:text-white transition-colors">
+                  Debt Settlement Huntington Beach
+                </a>
               </div>
             </div>
             
@@ -79,13 +98,13 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-8">
                 <div>
                   <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4">
-                    Research Metrics
+                    Orange County Results
                   </div>
                   <div className="space-y-2 text-sm text-neutral-400">
-                    <div>50,000+ Cases Analyzed</div>
-                    <div>$2.1B+ Debt Resolved</div>
-                    <div>52.7% Average Reduction</div>
-                    <div>98.2% Success Rate</div>
+                    <div>2,847+ OC Families Helped</div>
+                    <div>$127M+ Debt Eliminated</div>
+                    <div>52% Average Reduction</div>
+                    <div>18 Months Average Timeline</div>
                   </div>
                 </div>
                 

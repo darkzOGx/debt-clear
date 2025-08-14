@@ -1,12 +1,20 @@
 import Layout from "./Layout.jsx";
 
 import Home from "./Home";
+import AnaheimDebtSettlement from "./AnaheimDebtSettlement";
+import IrvineDebtSettlement from "./IrvineDebtSettlement";
+import SantaAnaDebtSettlement from "./SantaAnaDebtSettlement";
+import HuntingtonBeachDebtSettlement from "./HuntingtonBeachDebtSettlement";
 
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
 const PAGES = {
     
     Home: Home,
+    AnaheimDebtSettlement: AnaheimDebtSettlement,
+    IrvineDebtSettlement: IrvineDebtSettlement,
+    SantaAnaDebtSettlement: SantaAnaDebtSettlement,
+    HuntingtonBeachDebtSettlement: HuntingtonBeachDebtSettlement,
     
 }
 
@@ -36,6 +44,10 @@ function PagesContent() {
                 
                 
                 <Route path="/Home" element={<Home />} />
+                <Route path="/debt-settlement-anaheim" element={<AnaheimDebtSettlement />} />
+                <Route path="/debt-settlement-irvine" element={<IrvineDebtSettlement />} />
+                <Route path="/debt-settlement-santa-ana" element={<SantaAnaDebtSettlement />} />
+                <Route path="/debt-settlement-huntington-beach" element={<HuntingtonBeachDebtSettlement />} />
                 
             </Routes>
         </Layout>

@@ -25,21 +25,21 @@ export default function HeroSection({ onScrollToCalculator, onScrollToConsultati
             <div className="inline-flex items-center gap-3 mb-8">
               <div className="w-2 h-2 bg-black"></div>
               <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-                CERTIFIED DEBT SETTLEMENT INSTITUTE
+                ORANGE COUNTY DEBT SETTLEMENT SPECIALISTS
               </span>
             </div>
 
             {/* Main Headline */}
             <h1 className="text-5xl lg:text-6xl xl:text-7xl font-light tracking-tight text-black mb-8 leading-[0.9]">
-              Debt Settlement
+              Orange County
               <br />
-              <span className="font-mono text-4xl lg:text-5xl xl:text-6xl">Solutions</span>
+              <span className="font-mono text-4xl lg:text-5xl xl:text-6xl">Debt Settlement</span>
             </h1>
 
             {/* Subheadline */}
             <p className="text-lg lg:text-xl text-neutral-700 max-w-2xl mb-12 leading-relaxed font-light">
-              Evidence-based debt elimination protocols. Our research-driven approach has 
-              systematically reduced client debt loads by an average of 52.7% across 50,000+ cases.
+              <strong>AI-powered debt relief</strong> serving Orange County residents. Our advanced technology 
+              negotiates with creditors to reduce your debt by up to 50%. Licensed, bonded, and trusted by over 1,200+ OC families.
             </p>
 
             {/* CTA */}

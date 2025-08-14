@@ -7,24 +7,24 @@ export default function ServicesSection({ onScrollToConsultation }) {
   const services = [
   {
     id: "01",
-    title: "Unsecured Debt Settlement",
-    scope: "Credit Cards • Personal Loans • Medical Debt",
-    methodology: "Algorithmic creditor negotiation protocols with performance-based fee structure",
-    outcome: "Average 52.7% debt reduction"
+    title: "AI-Powered Debt Settlement",
+    scope: "Credit Cards • Personal Loans • Medical Debt • Student Loans",
+    methodology: "Advanced AI algorithms analyze creditor patterns and negotiate optimal settlements for Orange County residents",
+    outcome: "Average 45-60% debt reduction in 24-48 months"
   },
   {
     id: "02",
-    title: "Creditor Communication Management",
-    scope: "Collection Calls • Legal Notices • Account Management",
-    methodology: "Systematic creditor contact redirection and professional representation",
-    outcome: "Immediate cessation of harassment"
+    title: "Orange County Legal Protection",
+    scope: "Collection Calls • Wage Garnishment • Court Actions",
+    methodology: "Local California law expertise with immediate creditor contact cessation under FDCPA guidelines",
+    outcome: "100% protection from creditor harassment"
   },
   {
     id: "03",
-    title: "Financial Rehabilitation Protocol",
-    scope: "Credit Recovery • Payment Planning • Long-term Strategy",
-    methodology: "Evidence-based financial reconstruction with ongoing monitoring",
-    outcome: "Structured path to financial stability"
+    title: "Credit Score Rehabilitation",
+    scope: "Credit Repair • Score Monitoring • Financial Education",
+    methodology: "Post-settlement credit rebuilding program designed for Orange County economic conditions",
+    outcome: "Average 120-point credit score improvement"
   }];
 
 
@@ -36,19 +36,19 @@ export default function ServicesSection({ onScrollToConsultation }) {
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
             <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-              RESEARCH METHODOLOGIES
+              ORANGE COUNTY DEBT RELIEF SERVICES
             </span>
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Systematic Debt
+            Why Choose VegaX AI for
             <br />
-            <span className="font-mono">Resolution Protocols</span>
+            <span className="font-mono">Orange County Debt Settlement</span>
           </h2>
           
           <p className="text-lg text-neutral-600 max-w-2xl font-light">
-            Our laboratory employs evidence-based methodologies developed through extensive 
-            case analysis and creditor behavior research.
+            Unlike national debt settlement companies, we specialize in Orange County's unique economic landscape. 
+            Our AI-powered approach combines local market knowledge with advanced technology for superior results.
           </p>
         </div>
 
