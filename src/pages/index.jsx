@@ -1,4 +1,5 @@
 import Layout from "./Layout.jsx";
+import ScrollToTop from "../components/ScrollToTop.jsx";
 
 import Home from "./Home";
 import AnaheimDebtSettlement from "./AnaheimDebtSettlement";
@@ -70,6 +71,7 @@ function PagesContent() {
     
     return (
         <Layout currentPageName={currentPage}>
+            <ScrollToTop />
             <Routes>            
                 
                     <Route path="/" element={<Home />} />
