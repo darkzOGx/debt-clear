@@ -107,32 +107,6 @@ export default function BlogSection() {
           ))}
         </div>
 
-        {/* Newsletter Signup */}
-        <div className="bg-black text-white p-12 text-center">
-          <h3 className="text-2xl font-light mb-4">
-            Stay Updated on <span className="font-mono">Orange County</span> Debt Laws
-          </h3>
-          
-          <p className="text-neutral-300 mb-8 max-w-xl mx-auto">
-            Get monthly insights on debt settlement regulations, consumer protection updates, 
-            and success stories from Orange County.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row max-w-md mx-auto gap-4">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 bg-white text-black text-sm font-mono"
-            />
-            <button className="px-6 py-3 bg-white text-black hover:bg-neutral-100 text-sm font-mono uppercase tracking-wide transition-colors">
-              Subscribe
-            </button>
-          </div>
-          
-          <p className="text-xs text-neutral-500 mt-4">
-            No spam. Unsubscribe anytime. Orange County debt relief updates only.
-          </p>
-        </div>
       </div>
     </section>
   );

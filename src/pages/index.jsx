@@ -5,6 +5,9 @@ import AnaheimDebtSettlement from "./AnaheimDebtSettlement";
 import IrvineDebtSettlement from "./IrvineDebtSettlement";
 import SantaAnaDebtSettlement from "./SantaAnaDebtSettlement";
 import HuntingtonBeachDebtSettlement from "./HuntingtonBeachDebtSettlement";
+import OrangeCountyDebtSettlementLaws from "./blog/OrangeCountyDebtSettlementLaws";
+import AiVsTraditionalDebtSettlement from "./blog/AiVsTraditionalDebtSettlement";
+import ChooseDebtSettlementCompanyOrangeCounty from "./blog/ChooseDebtSettlementCompanyOrangeCounty";
 
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
@@ -15,6 +18,9 @@ const PAGES = {
     IrvineDebtSettlement: IrvineDebtSettlement,
     SantaAnaDebtSettlement: SantaAnaDebtSettlement,
     HuntingtonBeachDebtSettlement: HuntingtonBeachDebtSettlement,
+    OrangeCountyDebtSettlementLaws: OrangeCountyDebtSettlementLaws,
+    AiVsTraditionalDebtSettlement: AiVsTraditionalDebtSettlement,
+    ChooseDebtSettlementCompanyOrangeCounty: ChooseDebtSettlementCompanyOrangeCounty,
     
 }
 
@@ -48,6 +54,9 @@ function PagesContent() {
                 <Route path="/debt-settlement-irvine" element={<IrvineDebtSettlement />} />
                 <Route path="/debt-settlement-santa-ana" element={<SantaAnaDebtSettlement />} />
                 <Route path="/debt-settlement-huntington-beach" element={<HuntingtonBeachDebtSettlement />} />
+                <Route path="/blog/orange-county-debt-settlement-laws" element={<OrangeCountyDebtSettlementLaws />} />
+                <Route path="/blog/ai-vs-traditional-debt-settlement" element={<AiVsTraditionalDebtSettlement />} />
+                <Route path="/blog/choose-debt-settlement-company-orange-county" element={<ChooseDebtSettlementCompanyOrangeCounty />} />
                 
             </Routes>
         </Layout>
