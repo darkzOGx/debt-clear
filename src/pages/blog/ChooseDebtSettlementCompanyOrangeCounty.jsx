@@ -396,6 +396,27 @@ export default function ChooseDebtSettlementCompanyOrangeCounty() {
         </div>
       </article>
 
+      {/* Free Consultation CTA */}
+      <section className="py-16 bg-black text-white">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-light mb-6">
+            Ready to Start Your <span className="font-mono">Debt Settlement</span> Journey?
+          </h2>
+          
+          <p className="text-neutral-300 mb-8 max-w-xl mx-auto">
+            Get a free consultation with our Orange County debt settlement specialists. 
+            No upfront fees, no obligations.
+          </p>
+          
+          <Link 
+            to="/#consultation"
+            className="inline-flex items-center gap-3 bg-white text-black px-8 py-4 font-mono text-sm uppercase tracking-wide hover:bg-neutral-100 transition-colors"
+          >
+            Schedule Free Consultation
+          </Link>
+        </div>
+      </section>
+
       {/* Related Articles */}
       <section className="py-12 bg-neutral-50 border-t border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

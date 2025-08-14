@@ -25,7 +25,7 @@ export default function Header() {
     },
     { name: 'Resources', href: '/blog' },
     { name: 'About', href: '#about' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Contact', href: '/#consultation' },
   ];
 
   return (
@@ -94,7 +94,7 @@ export default function Header() {
           {/* CTA Button */}
           <div className="hidden md:flex items-center">
             <Link
-              to="#consultation"
+              to="/#consultation"
               className="bg-black text-white px-6 py-2 text-sm font-mono uppercase tracking-wide hover:bg-neutral-800 transition-colors"
             >
               Free Consultation
@@ -164,7 +164,7 @@ export default function Header() {
               {/* Mobile CTA */}
               <div className="pt-4 border-t border-neutral-200">
                 <Link
-                  to="#consultation"
+                  to="/#consultation"
                   className="block w-full bg-black text-white px-6 py-3 text-sm font-mono uppercase tracking-wide text-center hover:bg-neutral-800 transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >

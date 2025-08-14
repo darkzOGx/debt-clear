@@ -155,7 +155,7 @@ export default function Home() {
           <div className="mt-12 pt-8 border-t border-neutral-800">
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
               <div className="text-xs font-mono text-neutral-500">
-                © 2024 Debt Settlement Research Laboratory. All methodologies proprietary.
+                © 2025 Debt Settlement Research Laboratory. All methodologies proprietary.
               </div>
               <div className="text-xs font-mono text-neutral-500">
                 CONFIDENTIAL • EVIDENCE-BASED • PERFORMANCE-GUARANTEED

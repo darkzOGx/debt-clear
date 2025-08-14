@@ -54,7 +54,7 @@ export default function DebtCalculator() {
   };
 
   return (
-    <section id="calculator" className="py-24 bg-white border-t border-neutral-200">
+    <section id="calculator" className="py-16 md:py-24 bg-white border-t border-neutral-200">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         {/* Header */}
         <div className="mb-16">
@@ -77,7 +77,7 @@ export default function DebtCalculator() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-12 gap-12">
+        <div className="grid lg:grid-cols-12 gap-8 lg:gap-12">
           {/* Input Form */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -141,9 +141,9 @@ export default function DebtCalculator() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="lg:col-span-7"
+              className="lg:col-span-7 mt-8 lg:mt-0"
             >
-              <div className="border border-neutral-200 p-8">
+              <div className="border border-neutral-200 p-6 md:p-8">
                 <div className="space-y-8">
                   <div>
                     <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-700 mb-2">
