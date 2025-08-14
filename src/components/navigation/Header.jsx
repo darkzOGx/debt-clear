@@ -1,14 +1,37 @@
-import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X, ChevronDown } from 'lucide-react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
 
   const isActive = (path) => {
     return location.pathname === path;
+  };
+
+  const handleConsultationClick = (e) => {
+    e.preventDefault();
+    
+    // If we're not on the homepage, navigate to it first
+    if (location.pathname !== '/') {
+      navigate('/');
+      // Wait for navigation to complete, then scroll
+      setTimeout(() => {
+        const consultationSection = document.getElementById('consultation');
+        if (consultationSection) {
+          consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
+    } else {
+      // If we're already on homepage, just scroll
+      const consultationSection = document.getElementById('consultation');
+      if (consultationSection) {
+        consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
   };
 
   const navigation = [
@@ -25,7 +48,6 @@ export default function Header() {
     },
     { name: 'Resources', href: '/blog' },
     { name: 'About', href: '#about' },
-    { name: 'Contact', href: '/#consultation' },
   ];
 
   return (
@@ -93,12 +115,12 @@ export default function Header() {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center">
-            <Link
-              to="/#consultation"
+            <button
+              onClick={handleConsultationClick}
               className="bg-black text-white px-6 py-2 text-sm font-mono uppercase tracking-wide hover:bg-neutral-800 transition-colors"
             >
               Free Consultation
-            </Link>
+            </button>
           </div>
 
           {/* Mobile menu button */}
@@ -163,13 +185,15 @@ export default function Header() {
               
               {/* Mobile CTA */}
               <div className="pt-4 border-t border-neutral-200">
-                <Link
-                  to="/#consultation"
+                <button
+                  onClick={(e) => {
+                    handleConsultationClick(e);
+                    setIsMenuOpen(false);
+                  }}
                   className="block w-full bg-black text-white px-6 py-3 text-sm font-mono uppercase tracking-wide text-center hover:bg-neutral-800 transition-colors"
-                  onClick={() => setIsMenuOpen(false)}
                 >
                   Free Consultation
-                </Link>
+                </button>
               </div>
             </div>
           </div>
