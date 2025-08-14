@@ -56,7 +56,7 @@ export default function Home() {
       <AiChatbot />
 
       {/* Newsletter Signup */}
-      <section className="py-16 bg-black text-white">
+      <section className="py-12 bg-black text-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h3 className="text-2xl font-light mb-4">
             Stay Updated on <span className="font-mono">Orange County</span> Debt Laws
@@ -85,9 +85,9 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-16 bg-black text-white border-t border-neutral-800">
+      <footer className="py-12 bg-black text-white border-t border-neutral-800">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <div className="grid lg:grid-cols-12 gap-12">
+          <div className="grid lg:grid-cols-12 gap-8">
             <div className="lg:col-span-6">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-2 h-2 bg-white"></div>

@@ -31,7 +31,7 @@ export default function Header() {
   return (
     <header className="bg-white border-b border-neutral-200 sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-12">
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center gap-3">
@@ -46,7 +46,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-6">
             {navigation.map((item) => (
               <div key={item.name} className="relative">
                 {item.submenu ? (

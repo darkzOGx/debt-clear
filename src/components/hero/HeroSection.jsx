@@ -6,9 +6,9 @@ import AnimatedBanner from '@/components/banner/AnimatedBanner';
 
 export default function HeroSection({ onScrollToCalculator, onScrollToConsultation }) {
   return (
-    <section className="relative min-h-screen bg-white flex items-center">
+    <section className="relative py-16 lg:py-20 bg-white">
       <div className="max-w-6xl mx-auto px-6 lg:px-8 w-full">
-        <div className="grid lg:grid-cols-12 gap-12 items-center">
+        <div className="grid lg:grid-cols-12 gap-8 items-center">
           {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -17,12 +17,12 @@ export default function HeroSection({ onScrollToCalculator, onScrollToConsultati
             className="lg:col-span-7">
 
             {/* Animated Banner */}
-            <div className="mb-6 -mx-6 lg:-mx-8">
+            <div className="mb-4 -mx-6 lg:-mx-8">
               <AnimatedBanner />
             </div>
 
             {/* Institutional Badge */}
-            <div className="inline-flex items-center gap-3 mb-8">
+            <div className="inline-flex items-center gap-3 mb-6">
               <div className="w-2 h-2 bg-black"></div>
               <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
                 ORANGE COUNTY DEBT SETTLEMENT SPECIALISTS
@@ -30,14 +30,14 @@ export default function HeroSection({ onScrollToCalculator, onScrollToConsultati
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-5xl lg:text-6xl xl:text-7xl font-light tracking-tight text-black mb-8 leading-[0.9]">
+            <h1 className="text-5xl lg:text-6xl xl:text-7xl font-light tracking-tight text-black mb-6 leading-[0.9]">
               Orange County
               <br />
               <span className="font-mono text-4xl lg:text-5xl xl:text-6xl">Debt Settlement</span>
             </h1>
 
             {/* Subheadline */}
-            <p className="text-lg lg:text-xl text-neutral-700 max-w-2xl mb-12 leading-relaxed font-light">
+            <p className="text-lg lg:text-xl text-neutral-700 max-w-2xl mb-8 leading-relaxed font-light">
               <strong>AI-powered debt relief</strong> serving Orange County residents. Our advanced technology 
               negotiates with creditors to reduce your debt by up to 50%. Licensed, bonded, and trusted by over 1,200+ OC families.
             </p>
@@ -65,8 +65,8 @@ export default function HeroSection({ onScrollToCalculator, onScrollToConsultati
             transition={{ duration: 0.8, delay: 0.2 }}
             className="lg:col-span-5">
 
-            <div className="bg-neutral-50 p-8 lg:p-12">
-              <div className="space-y-8">
+            <div className="bg-neutral-50 p-6 lg:p-8">
+              <div className="space-y-6">
                 <div>
                   <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-2">
                     Research Metrics
@@ -74,7 +74,7 @@ export default function HeroSection({ onScrollToCalculator, onScrollToConsultati
                   <div className="h-px bg-neutral-200 mb-6"></div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-8">
+                <div className="grid grid-cols-2 gap-6">
                   <div>
                     <div className="text-3xl lg:text-4xl font-mono text-black mb-2">
                       $2.1B
@@ -93,7 +93,7 @@ export default function HeroSection({ onScrollToCalculator, onScrollToConsultati
                   </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-8">
+                <div className="grid grid-cols-2 gap-6">
                   <div>
                     <div className="text-3xl lg:text-4xl font-mono text-black mb-2">
                       50K+

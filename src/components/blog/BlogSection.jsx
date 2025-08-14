@@ -32,10 +32,10 @@ export default function BlogSection() {
   ];
 
   return (
-    <section className="py-24 bg-white border-t border-neutral-200">
+    <section className="py-16 bg-white border-t border-neutral-200">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
             <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
@@ -56,7 +56,7 @@ export default function BlogSection() {
         </div>
 
         {/* Articles Grid */}
-        <div className="grid lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid lg:grid-cols-3 gap-6 mb-8">
           {articles.map((article, index) => (
             <motion.article
               key={index}
@@ -66,7 +66,7 @@ export default function BlogSection() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="bg-neutral-50 border border-neutral-200 overflow-hidden hover:border-black transition-colors duration-200"
             >
-              <div className="p-8">
+              <div className="p-6">
                 <div className="flex items-center gap-4 mb-4">
                   <span className="text-xs font-mono uppercase tracking-wide text-neutral-500">
                     {article.category}
@@ -108,7 +108,7 @@ export default function BlogSection() {
         </div>
 
         {/* View All Resources Link */}
-        <div className="text-center mt-12">
+        <div className="text-center mt-8">
           <Link 
             to="/blog"
             className="inline-flex items-center gap-2 px-8 py-4 bg-black text-white hover:bg-neutral-800 text-sm font-mono uppercase tracking-wide transition-colors"

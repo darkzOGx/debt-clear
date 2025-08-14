@@ -53,7 +53,7 @@ export default function AiVsTraditionalDebtSettlement() {
       </section>
 
       {/* Article Content */}
-      <article className="py-16">
+      <article className="py-12">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
             
@@ -367,7 +367,7 @@ export default function AiVsTraditionalDebtSettlement() {
       </article>
 
       {/* Related Articles */}
-      <section className="py-16 bg-neutral-50 border-t border-neutral-200">
+      <section className="py-12 bg-neutral-50 border-t border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-2xl font-light text-black mb-8">Related Articles</h2>
           

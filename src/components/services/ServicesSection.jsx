@@ -29,10 +29,10 @@ export default function ServicesSection({ onScrollToConsultation }) {
 
 
   return (
-    <section className="py-24 bg-neutral-50 border-t border-neutral-200">
+    <section className="py-16 bg-neutral-50 border-t border-neutral-200">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         {/* Header */}
-        <div className="mb-16">
+        <div className="mb-12">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
             <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">

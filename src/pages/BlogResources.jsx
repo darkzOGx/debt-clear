@@ -161,9 +161,9 @@ export default function BlogResources() {
       </section>
 
       {/* Articles Grid */}
-      <section className="py-24 bg-white">
+      <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <div className="grid lg:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-3 gap-6">
             {articles.map((article, index) => (
               <motion.article
                 key={index}
@@ -173,7 +173,7 @@ export default function BlogResources() {
                 transition={{ duration: 0.6, delay: index * 0.05 }}
                 className="bg-neutral-50 border border-neutral-200 overflow-hidden hover:border-black transition-colors duration-200"
               >
-                <div className="p-8">
+                <div className="p-6">
                   <div className="flex items-center gap-4 mb-4">
                     <span className="text-xs font-mono uppercase tracking-wide text-neutral-500">
                       {article.category}
@@ -217,7 +217,7 @@ export default function BlogResources() {
       </section>
 
       {/* Categories Filter */}
-      <section className="py-16 bg-neutral-50 border-t border-neutral-200">
+      <section className="py-12 bg-neutral-50 border-t border-neutral-200">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <h2 className="text-2xl font-light text-black mb-8">Browse by Category</h2>
           
@@ -242,7 +242,7 @@ export default function BlogResources() {
       </section>
 
       {/* Newsletter Signup */}
-      <section className="py-16 bg-black text-white">
+      <section className="py-12 bg-black text-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-light mb-6">
             Stay Updated on <span className="font-mono">Orange County</span> Debt Laws
