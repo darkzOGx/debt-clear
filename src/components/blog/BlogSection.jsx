@@ -9,7 +9,7 @@ export default function BlogSection() {
       title: "Orange County Debt Settlement Laws: What You Need to Know",
       excerpt: "Understanding California's debt settlement regulations and how they protect Orange County residents from predatory practices.",
       slug: "/blog/orange-county-debt-settlement-laws",
-      date: "Dec 15, 2024",
+      date: "Aug 15, 2025",
       readTime: "8 min read",
       category: "Legal Guide"
     },
@@ -17,7 +17,7 @@ export default function BlogSection() {
       title: "AI vs Traditional Debt Settlement: Orange County Case Studies",
       excerpt: "Real results comparing AI-powered debt negotiation with traditional companies for Orange County families.",
       slug: "/blog/ai-vs-traditional-debt-settlement",
-      date: "Dec 10, 2024", 
+      date: "Aug 10, 2025", 
       readTime: "12 min read",
       category: "Technology"
     },
@@ -25,7 +25,7 @@ export default function BlogSection() {
       title: "How to Choose a Debt Settlement Company in Orange County",
       excerpt: "Essential criteria for selecting a debt settlement provider, including licensing, fees, and success rates.",
       slug: "/blog/choose-debt-settlement-company-orange-county",
-      date: "Dec 5, 2024",
+      date: "Aug 5, 2025",
       readTime: "10 min read",
       category: "Consumer Guide"
     }

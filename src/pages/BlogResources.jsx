@@ -9,7 +9,7 @@ export default function BlogResources() {
       title: "Orange County Debt Settlement Laws: What You Need to Know",
       excerpt: "Understanding California's debt settlement regulations and how they protect Orange County residents from predatory practices.",
       slug: "/blog/orange-county-debt-settlement-laws",
-      date: "Dec 15, 2024",
+      date: "Aug 15, 2025",
       readTime: "8 min read",
       category: "Legal Guide"
     },
@@ -17,7 +17,7 @@ export default function BlogResources() {
       title: "AI vs Traditional Debt Settlement: Orange County Case Studies",
       excerpt: "Real results comparing AI-powered debt negotiation with traditional companies for Orange County families.",
       slug: "/blog/ai-vs-traditional-debt-settlement",
-      date: "Dec 10, 2024", 
+      date: "Aug 10, 2025", 
       readTime: "12 min read",
       category: "Technology"
     },
@@ -25,7 +25,7 @@ export default function BlogResources() {
       title: "How to Choose a Debt Settlement Company in Orange County",
       excerpt: "Essential criteria for selecting a debt settlement provider, including licensing, fees, and success rates.",
       slug: "/blog/choose-debt-settlement-company-orange-county",
-      date: "Dec 5, 2024",
+      date: "Aug 5, 2025",
       readTime: "10 min read",
       category: "Consumer Guide"
     },
@@ -33,7 +33,7 @@ export default function BlogResources() {
       title: "Orange County Bankruptcy vs Debt Settlement: Complete Comparison",
       excerpt: "Detailed analysis of bankruptcy and debt settlement options for Orange County residents, including pros, cons, and costs.",
       slug: "/blog/bankruptcy-vs-debt-settlement-orange-county",
-      date: "Dec 1, 2024",
+      date: "Aug 1, 2025",
       readTime: "15 min read",
       category: "Financial Planning"
     },
@@ -41,7 +41,7 @@ export default function BlogResources() {
       title: "Medical Debt Settlement in Orange County: Your Rights and Options",
       excerpt: "How to handle medical debt from Orange County hospitals and healthcare providers, including settlement strategies.",
       slug: "/blog/medical-debt-settlement-orange-county",
-      date: "Nov 28, 2024",
+      date: "Jul 28, 2025",
       readTime: "9 min read",
       category: "Medical Debt"
     },
@@ -49,7 +49,7 @@ export default function BlogResources() {
       title: "Credit Card Debt Settlement: Orange County Success Stories",
       excerpt: "Real examples of credit card debt settlements for Orange County residents, including timeline and outcomes.",
       slug: "/blog/credit-card-debt-settlement-orange-county",
-      date: "Nov 25, 2024",
+      date: "Jul 25, 2025",
       readTime: "11 min read",
       category: "Case Studies"
     },
@@ -57,7 +57,7 @@ export default function BlogResources() {
       title: "Orange County Small Business Debt Relief Options",
       excerpt: "Comprehensive guide to debt relief solutions for Orange County small businesses, from negotiation to restructuring.",
       slug: "/blog/small-business-debt-relief-orange-county",
-      date: "Nov 20, 2024",
+      date: "Jul 20, 2025",
       readTime: "13 min read",
       category: "Business Finance"
     },
@@ -65,7 +65,7 @@ export default function BlogResources() {
       title: "Tax Implications of Debt Settlement in California",
       excerpt: "Understanding the tax consequences of debt settlement for Orange County residents and how to minimize impact.",
       slug: "/blog/tax-implications-debt-settlement-california",
-      date: "Nov 15, 2024",
+      date: "Jul 15, 2025",
       readTime: "8 min read",
       category: "Tax Planning"
     },
@@ -73,7 +73,7 @@ export default function BlogResources() {
       title: "Debt Settlement for Orange County Seniors: Special Considerations",
       excerpt: "Age-specific debt relief strategies for Orange County seniors, including asset protection and fixed income planning.",
       slug: "/blog/debt-settlement-seniors-orange-county",
-      date: "Nov 12, 2024",
+      date: "Jul 12, 2025",
       readTime: "10 min read",
       category: "Senior Finance"
     },
@@ -81,7 +81,7 @@ export default function BlogResources() {
       title: "Student Loan Debt Relief in Orange County: Options Beyond Settlement",
       excerpt: "Comprehensive guide to student loan relief programs available to Orange County residents, including forgiveness options.",
       slug: "/blog/student-loan-debt-relief-orange-county",
-      date: "Nov 8, 2024",
+      date: "Jul 8, 2025",
       readTime: "14 min read",
       category: "Student Loans"
     },
@@ -89,7 +89,7 @@ export default function BlogResources() {
       title: "Orange County Property Protection During Debt Settlement",
       excerpt: "How to protect your Orange County home and assets during the debt settlement process using California exemptions.",
       slug: "/blog/property-protection-debt-settlement-orange-county",
-      date: "Nov 5, 2024",
+      date: "Jul 5, 2025",
       readTime: "12 min read",
       category: "Asset Protection"
     },
@@ -97,7 +97,7 @@ export default function BlogResources() {
       title: "Debt Settlement Timeline: What Orange County Residents Can Expect",
       excerpt: "Month-by-month breakdown of the debt settlement process for Orange County clients, from consultation to completion.",
       slug: "/blog/debt-settlement-timeline-orange-county",
-      date: "Nov 1, 2024",
+      date: "Jul 1, 2025",
       readTime: "9 min read",
       category: "Process Guide"
     },
@@ -105,7 +105,7 @@ export default function BlogResources() {
       title: "Orange County Debt Settlement Fees: Understanding the Costs",
       excerpt: "Transparent breakdown of debt settlement fees in Orange County, including what's legal and how to avoid overcharges.",
       slug: "/blog/debt-settlement-fees-orange-county",
-      date: "Oct 28, 2024",
+      date: "Jun 28, 2025",
       readTime: "7 min read",
       category: "Cost Analysis"
     },
@@ -113,7 +113,7 @@ export default function BlogResources() {
       title: "Credit Score Recovery After Debt Settlement in Orange County",
       excerpt: "Step-by-step guide to rebuilding credit after debt settlement, with timelines and strategies for Orange County residents.",
       slug: "/blog/credit-score-recovery-debt-settlement-orange-county",
-      date: "Oct 25, 2024",
+      date: "Jun 25, 2025",
       readTime: "11 min read",
       category: "Credit Repair"
     },
@@ -121,7 +121,7 @@ export default function BlogResources() {
       title: "Orange County Debt Collection Laws: Know Your Rights",
       excerpt: "Complete guide to debt collection regulations in Orange County, including illegal practices and how to file complaints.",
       slug: "/blog/debt-collection-laws-orange-county",
-      date: "Oct 20, 2024",
+      date: "Jun 20, 2025",
       readTime: "10 min read",
       category: "Consumer Rights"
     }

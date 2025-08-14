@@ -20,7 +20,7 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
             <span className="font-mono text-3xl lg:text-4xl">Debt Relief Options</span>
           </h1>
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>November 20, 2024</span></div>
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 20, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>13 min read</span></div>
             <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Business Finance Team</span></div>
           </div>

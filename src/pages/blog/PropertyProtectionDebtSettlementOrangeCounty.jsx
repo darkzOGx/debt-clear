@@ -11,7 +11,7 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
           <div className="flex items-center gap-3 mb-6"><div className="w-2 h-2 bg-black"></div><span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">ASSET PROTECTION</span></div>
           <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">Orange County Property Protection<br /><span className="font-mono text-3xl lg:text-4xl">During Debt Settlement</span></h1>
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>November 5, 2024</span></div>
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 5, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>12 min read</span></div>
             <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Asset Protection Team</span></div>
           </div>

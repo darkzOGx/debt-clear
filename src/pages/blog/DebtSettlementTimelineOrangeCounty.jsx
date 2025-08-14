@@ -11,7 +11,7 @@ export default function DebtSettlementTimelineOrangeCounty() {
           <div className="flex items-center gap-3 mb-6"><div className="w-2 h-2 bg-black"></div><span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">PROCESS GUIDE</span></div>
           <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">Debt Settlement Timeline:<br /><span className="font-mono text-3xl lg:text-4xl">What Orange County Residents Can Expect</span></h1>
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>November 1, 2024</span></div>
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 1, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>9 min read</span></div>
             <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Process Team</span></div>
           </div>

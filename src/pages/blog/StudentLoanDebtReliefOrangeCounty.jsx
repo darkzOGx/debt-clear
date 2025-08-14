@@ -11,7 +11,7 @@ export default function StudentLoanDebtReliefOrangeCounty() {
           <div className="flex items-center gap-3 mb-6"><div className="w-2 h-2 bg-black"></div><span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">STUDENT LOANS</span></div>
           <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">Student Loan Debt Relief in Orange County:<br /><span className="font-mono text-3xl lg:text-4xl">Options Beyond Settlement</span></h1>
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>November 8, 2024</span></div>
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 8, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>14 min read</span></div>
             <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Student Loan Team</span></div>
           </div>

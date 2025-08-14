@@ -11,7 +11,7 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
           <div className="flex items-center gap-3 mb-6"><div className="w-2 h-2 bg-black"></div><span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">CREDIT REPAIR</span></div>
           <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">Credit Score Recovery After Debt Settlement<br /><span className="font-mono text-3xl lg:text-4xl">in Orange County</span></h1>
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>October 25, 2024</span></div>
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>June 25, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>11 min read</span></div>
             <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Credit Recovery Team</span></div>
           </div>
