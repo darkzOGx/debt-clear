@@ -107,6 +107,17 @@ export default function BlogSection() {
           ))}
         </div>
 
+        {/* View All Resources Link */}
+        <div className="text-center mt-12">
+          <Link 
+            to="/blog"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-black text-white hover:bg-neutral-800 text-sm font-mono uppercase tracking-wide transition-colors"
+          >
+            View All Resources
+            <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
+
       </div>
     </section>
   );
