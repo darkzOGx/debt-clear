@@ -6,6 +6,13 @@ import AnaheimDebtSettlement from "./AnaheimDebtSettlement";
 import IrvineDebtSettlement from "./IrvineDebtSettlement";
 import SantaAnaDebtSettlement from "./SantaAnaDebtSettlement";
 import HuntingtonBeachDebtSettlement from "./HuntingtonBeachDebtSettlement";
+import NewportBeachDebtSettlement from "./NewportBeachDebtSettlement";
+import LagunaBeachDebtSettlement from "./LagunaBeachDebtSettlement";
+import YorbaLindaDebtSettlement from "./YorbaLindaDebtSettlement";
+import DanaPointDebtSettlement from "./DanaPointDebtSettlement";
+import LagunaNiguelDebtSettlement from "./LagunaNiguelDebtSettlement";
+import SealBeachDebtSettlement from "./SealBeachDebtSettlement";
+import LagunaWoodsDebtSettlement from "./LagunaWoodsDebtSettlement";
 import BlogResources from "./BlogResources";
 import OrangeCountyDebtSettlementLaws from "./blog/OrangeCountyDebtSettlementLaws";
 import AiVsTraditionalDebtSettlement from "./blog/AiVsTraditionalDebtSettlement";
@@ -32,6 +39,13 @@ const PAGES = {
     IrvineDebtSettlement: IrvineDebtSettlement,
     SantaAnaDebtSettlement: SantaAnaDebtSettlement,
     HuntingtonBeachDebtSettlement: HuntingtonBeachDebtSettlement,
+    NewportBeachDebtSettlement: NewportBeachDebtSettlement,
+    LagunaBeachDebtSettlement: LagunaBeachDebtSettlement,
+    YorbaLindaDebtSettlement: YorbaLindaDebtSettlement,
+    DanaPointDebtSettlement: DanaPointDebtSettlement,
+    LagunaNiguelDebtSettlement: LagunaNiguelDebtSettlement,
+    SealBeachDebtSettlement: SealBeachDebtSettlement,
+    LagunaWoodsDebtSettlement: LagunaWoodsDebtSettlement,
     BlogResources: BlogResources,
     OrangeCountyDebtSettlementLaws: OrangeCountyDebtSettlementLaws,
     AiVsTraditionalDebtSettlement: AiVsTraditionalDebtSettlement,
@@ -82,6 +96,13 @@ function PagesContent() {
                 <Route path="/debt-settlement-irvine" element={<IrvineDebtSettlement />} />
                 <Route path="/debt-settlement-santa-ana" element={<SantaAnaDebtSettlement />} />
                 <Route path="/debt-settlement-huntington-beach" element={<HuntingtonBeachDebtSettlement />} />
+                <Route path="/debt-settlement-newport-beach" element={<NewportBeachDebtSettlement />} />
+                <Route path="/debt-settlement-laguna-beach" element={<LagunaBeachDebtSettlement />} />
+                <Route path="/debt-settlement-yorba-linda" element={<YorbaLindaDebtSettlement />} />
+                <Route path="/debt-settlement-dana-point" element={<DanaPointDebtSettlement />} />
+                <Route path="/debt-settlement-laguna-niguel" element={<LagunaNiguelDebtSettlement />} />
+                <Route path="/debt-settlement-seal-beach" element={<SealBeachDebtSettlement />} />
+                <Route path="/debt-settlement-laguna-woods" element={<LagunaWoodsDebtSettlement />} />
                 <Route path="/blog" element={<BlogResources />} />
                 <Route path="/blog/orange-county-debt-settlement-laws" element={<OrangeCountyDebtSettlementLaws />} />
                 <Route path="/blog/ai-vs-traditional-debt-settlement" element={<AiVsTraditionalDebtSettlement />} />

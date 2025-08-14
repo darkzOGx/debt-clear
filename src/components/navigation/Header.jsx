@@ -44,6 +44,13 @@ export default function Header() {
         { name: 'Debt Settlement Irvine', href: '/debt-settlement-irvine' },
         { name: 'Debt Settlement Santa Ana', href: '/debt-settlement-santa-ana' },
         { name: 'Debt Settlement Huntington Beach', href: '/debt-settlement-huntington-beach' },
+        { name: 'Debt Settlement Newport Beach', href: '/debt-settlement-newport-beach' },
+        { name: 'Debt Settlement Laguna Beach', href: '/debt-settlement-laguna-beach' },
+        { name: 'Debt Settlement Yorba Linda', href: '/debt-settlement-yorba-linda' },
+        { name: 'Debt Settlement Dana Point', href: '/debt-settlement-dana-point' },
+        { name: 'Debt Settlement Laguna Niguel', href: '/debt-settlement-laguna-niguel' },
+        { name: 'Debt Settlement Seal Beach', href: '/debt-settlement-seal-beach' },
+        { name: 'Debt Settlement Laguna Woods', href: '/debt-settlement-laguna-woods' },
       ]
     },
     { name: 'Resources', href: '/blog' },
