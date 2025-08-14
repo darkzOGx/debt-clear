@@ -6,7 +6,6 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Checkbox } from '@/components/ui/checkbox';
 import { ArrowRight, CheckCircle } from 'lucide-react';
-import { Consultation } from '@/api/entities';
 
 export default function ConsultationForm() {
   const [formData, setFormData] = useState({
@@ -40,13 +39,41 @@ export default function ConsultationForm() {
     setIsSubmitting(true);
 
     try {
-      await Consultation.create({
-        ...formData,
-        debt_amount: parseFloat(formData.debt_amount)
+      // Get Formspree form ID from environment variables
+      const formspreeId = import.meta.env.VITE_FORMSPREE_ID;
+      
+      if (!formspreeId) {
+        throw new Error('Formspree form ID not configured. Please add VITE_FORMSPREE_ID to your environment variables.');
+      }
+
+      // Submit form data to Formspree
+      const response = await fetch(`https://formspree.io/f/${formspreeId}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          full_name: formData.full_name,
+          email: formData.email,
+          phone: formData.phone,
+          debt_amount: parseFloat(formData.debt_amount) || 0,
+          debt_types: formData.debt_types.join(', '),
+          preferred_contact: formData.preferred_contact,
+          consultation_time: formData.consultation_time,
+          additional_notes: formData.additional_notes,
+          form_name: 'Debt Settlement Consultation',
+          submission_date: new Date().toISOString()
+        })
       });
-      setIsSubmitted(true);
+
+      if (response.ok) {
+        setIsSubmitted(true);
+      } else {
+        throw new Error(`Form submission failed: ${response.status}`);
+      }
     } catch (error) {
       console.error('Error submitting consultation:', error);
+      alert('There was an error submitting your consultation request. Please try again or contact us directly.');
     }
 
     setIsSubmitting(false);
