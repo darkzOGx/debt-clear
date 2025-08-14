@@ -73,27 +73,29 @@ export default function Header() {
               <div key={item.name} className="relative">
                 {item.submenu ? (
                   <div 
-                    className="relative"
+                    className="relative group"
                     onMouseEnter={() => setIsServicesOpen(true)}
                     onMouseLeave={() => setIsServicesOpen(false)}
                   >
-                    <button className="flex items-center gap-1 text-sm font-mono uppercase tracking-wide text-neutral-700 hover:text-black transition-colors">
+                    <button className="flex items-center gap-1 text-sm font-mono uppercase tracking-wide text-neutral-700 hover:text-black transition-colors py-2">
                       {item.name}
                       <ChevronDown className="w-4 h-4" />
                     </button>
                     
                     {isServicesOpen && (
-                      <div className="absolute top-full left-0 mt-2 w-64 bg-white border border-neutral-200 shadow-lg">
-                        {item.submenu.map((subItem) => (
-                          <Link
-                            key={subItem.name}
-                            to={subItem.href}
-                            className="block px-4 py-3 text-sm text-neutral-700 hover:bg-neutral-50 hover:text-black transition-colors"
-                            onClick={() => setIsServicesOpen(false)}
-                          >
-                            {subItem.name}
-                          </Link>
-                        ))}
+                      <div className="absolute top-full left-0 pt-0 w-64">
+                        <div className="bg-white border border-neutral-200 shadow-lg">
+                          {item.submenu.map((subItem) => (
+                            <Link
+                              key={subItem.name}
+                              to={subItem.href}
+                              className="block px-4 py-3 text-sm text-neutral-700 hover:bg-neutral-50 hover:text-black transition-colors"
+                              onClick={() => setIsServicesOpen(false)}
+                            >
+                              {subItem.name}
+                            </Link>
+                          ))}
+                        </div>
                       </div>
                     )}
                   </div>
