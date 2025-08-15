@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, TrendingUp, Users, Building2, DollarSign, Home, Briefcase, GraduationCap, Heart, ArrowRight } from 'lucide-react';
+import { MapPin, TrendingUp, Users, Building2, DollarSign, Home, Briefcase, GraduationCap, Heart, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
 
@@ -83,6 +83,8 @@ const countyData = {
 
 export default function OrangeCountyHub() {
   const [selectedTab, setSelectedTab] = useState('overview');
+  const [cityStartIndex, setCityStartIndex] = useState(0);
+  const citiesPerPage = 5;
 
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');
@@ -90,6 +92,22 @@ export default function OrangeCountyHub() {
       consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   };
+
+  const nextCities = () => {
+    if (cityStartIndex + citiesPerPage < countyData.cities.length) {
+      setCityStartIndex(cityStartIndex + citiesPerPage);
+    }
+  };
+
+  const prevCities = () => {
+    if (cityStartIndex > 0) {
+      setCityStartIndex(Math.max(0, cityStartIndex - citiesPerPage));
+    }
+  };
+
+  const visibleCities = countyData.cities.slice(cityStartIndex, cityStartIndex + citiesPerPage);
+  const canGoNext = cityStartIndex + citiesPerPage < countyData.cities.length;
+  const canGoPrev = cityStartIndex > 0;
 
   return (
     <div className="min-h-screen bg-white">
@@ -226,29 +244,100 @@ export default function OrangeCountyHub() {
                 Orange County <span className="font-mono">Cities & Communities</span>
               </h2>
               
-              <div className="grid md:grid-cols-3 gap-4">
-                {countyData.cities.map((city) => (
-                  <Link
-                    key={city.name}
-                    to={city.link}
-                    className="bg-white p-6 border border-neutral-200 hover:border-black transition-colors group"
+              {/* Cities Navigation Header */}
+              <div className="flex justify-between items-center mb-6">
+                <div className="text-sm text-neutral-600">
+                  Showing {cityStartIndex + 1}-{Math.min(cityStartIndex + citiesPerPage, countyData.cities.length)} of {countyData.cities.length} cities
+                </div>
+                <div className="flex gap-2">
+                  <button
+                    onClick={prevCities}
+                    disabled={!canGoPrev}
+                    className={`p-2 border transition-colors ${
+                      canGoPrev 
+                        ? 'border-neutral-300 hover:border-black text-black hover:bg-neutral-50' 
+                        : 'border-neutral-200 text-neutral-400 cursor-not-allowed'
+                    }`}
                   >
-                    <div className="flex justify-between items-start mb-4">
-                      <h3 className="text-lg font-semibold text-black">{city.name}</h3>
-                      <ArrowRight className="w-4 h-4 text-neutral-400 group-hover:text-black transition-colors" />
-                    </div>
-                    <div className="space-y-2 text-sm">
-                      <div className="flex justify-between">
-                        <span className="text-neutral-600">Population</span>
-                        <span className="font-mono text-black">{city.population}</span>
+                    <ChevronLeft className="w-4 h-4" />
+                  </button>
+                  <button
+                    onClick={nextCities}
+                    disabled={!canGoNext}
+                    className={`p-2 border transition-colors ${
+                      canGoNext 
+                        ? 'border-neutral-300 hover:border-black text-black hover:bg-neutral-50' 
+                        : 'border-neutral-200 text-neutral-400 cursor-not-allowed'
+                    }`}
+                  >
+                    <ChevronRight className="w-4 h-4" />
+                  </button>
+                </div>
+              </div>
+              
+              {/* Cities Grid */}
+              <div className="grid md:grid-cols-3 gap-4 min-h-[400px]">
+                {visibleCities.map((city, index) => (
+                  <motion.div
+                    key={city.name}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.3, delay: index * 0.1 }}
+                  >
+                    <Link
+                      to={city.link}
+                      className="bg-white p-6 border border-neutral-200 hover:border-black transition-colors group block h-full"
+                    >
+                      <div className="flex justify-between items-start mb-4">
+                        <h3 className="text-lg font-semibold text-black">{city.name}</h3>
+                        <ArrowRight className="w-4 h-4 text-neutral-400 group-hover:text-black transition-colors" />
                       </div>
-                      <div className="flex justify-between">
-                        <span className="text-neutral-600">Median Income</span>
-                        <span className="font-mono text-black">{city.medianIncome}</span>
+                      <div className="space-y-2 text-sm">
+                        <div className="flex justify-between">
+                          <span className="text-neutral-600">Population</span>
+                          <span className="font-mono text-black">{city.population}</span>
+                        </div>
+                        <div className="flex justify-between">
+                          <span className="text-neutral-600">Median Income</span>
+                          <span className="font-mono text-black">{city.medianIncome}</span>
+                        </div>
                       </div>
-                    </div>
-                  </Link>
+                    </Link>
+                  </motion.div>
                 ))}
+              </div>
+
+              {/* Cities Navigation Footer */}
+              <div className="flex justify-center items-center mt-8 gap-4">
+                <button
+                  onClick={prevCities}
+                  disabled={!canGoPrev}
+                  className={`inline-flex items-center gap-2 px-4 py-2 border transition-colors ${
+                    canGoPrev 
+                      ? 'border-neutral-300 hover:border-black text-black hover:bg-neutral-50' 
+                      : 'border-neutral-200 text-neutral-400 cursor-not-allowed'
+                  }`}
+                >
+                  <ChevronLeft className="w-4 h-4" />
+                  <span className="font-mono text-sm">Previous</span>
+                </button>
+                
+                <div className="text-sm text-neutral-600 font-mono">
+                  {Math.floor(cityStartIndex / citiesPerPage) + 1} / {Math.ceil(countyData.cities.length / citiesPerPage)}
+                </div>
+                
+                <button
+                  onClick={nextCities}
+                  disabled={!canGoNext}
+                  className={`inline-flex items-center gap-2 px-4 py-2 border transition-colors ${
+                    canGoNext 
+                      ? 'border-neutral-300 hover:border-black text-black hover:bg-neutral-50' 
+                      : 'border-neutral-200 text-neutral-400 cursor-not-allowed'
+                  }`}
+                >
+                  <span className="font-mono text-sm">Next</span>
+                  <ChevronRight className="w-4 h-4" />
+                </button>
               </div>
 
               <div className="mt-12 p-8 bg-neutral-50 border border-neutral-200">
