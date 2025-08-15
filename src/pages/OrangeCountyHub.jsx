@@ -48,28 +48,28 @@ const countyData = {
     {
       category: "Government Resources",
       items: [
-        { name: "OC Community Services", url: "#", description: "County assistance programs" },
-        { name: "OC Housing Authority", url: "#", description: "Housing assistance and counseling" },
-        { name: "CalFresh OC", url: "#", description: "Food assistance programs" },
-        { name: "OC Health Care Agency", url: "#", description: "Medical debt assistance" }
+        { name: "OC Community Services", url: "https://www.occommunityservices.org", description: "County assistance programs" },
+        { name: "OC Housing Authority", url: "https://www.ochousing.org", description: "Housing assistance and counseling" },
+        { name: "CalFresh OC", url: "https://www.ssa.ocgov.com/gov/assistance/calfresh", description: "Food assistance programs" },
+        { name: "OC Health Care Agency", url: "https://www.ochealthinfo.com", description: "Medical debt assistance" }
       ]
     },
     {
       category: "Legal Resources",
       items: [
-        { name: "Legal Aid Society of OC", url: "#", description: "Free legal assistance" },
-        { name: "OC Bar Association", url: "#", description: "Lawyer referral service" },
-        { name: "Consumer Protection Unit", url: "#", description: "Fraud and scam protection" },
-        { name: "OC Superior Court", url: "#", description: "Self-help legal resources" }
+        { name: "Legal Aid Society of OC", url: "https://www.legal-aid.com", description: "Free legal assistance" },
+        { name: "OC Bar Association", url: "https://www.ocbar.org", description: "Lawyer referral service" },
+        { name: "Consumer Protection Unit", url: "https://www.orangecountyda.org/consumer", description: "Fraud and scam protection" },
+        { name: "OC Superior Court", url: "https://www.occourts.org", description: "Self-help legal resources" }
       ]
     },
     {
       category: "Financial Counseling",
       items: [
-        { name: "Consumer Credit Counseling", url: "#", description: "Non-profit credit counseling" },
-        { name: "Financial Literacy OC", url: "#", description: "Free financial education" },
-        { name: "OC United Way", url: "#", description: "Financial stability programs" },
-        { name: "Small Business Development", url: "#", description: "Business debt counseling" }
+        { name: "Consumer Credit Counseling", url: "https://www.nfcc.org", description: "Non-profit credit counseling" },
+        { name: "Financial Literacy OC", url: "https://www.ocde.us/adulted/pages/financial-literacy.aspx", description: "Free financial education" },
+        { name: "OC United Way", url: "https://www.unitedwayoc.org", description: "Financial stability programs" },
+        { name: "Small Business Development", url: "https://www.ocsbdc.org", description: "Business debt counseling" }
       ]
     }
   ]
@@ -150,7 +150,7 @@ export default function OrangeCountyHub() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <h2 className="text-3xl font-light text-black mb-8">
+              <h2 className="text-3xl font-light text-black mb-8 text-center">
                 Orange County <span className="font-mono">Economic Snapshot</span>
               </h2>
               
@@ -216,7 +216,7 @@ export default function OrangeCountyHub() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <h2 className="text-3xl font-light text-black mb-8">
+              <h2 className="text-3xl font-light text-black mb-8 text-center">
                 Orange County <span className="font-mono">Cities & Communities</span>
               </h2>
               
@@ -278,7 +278,7 @@ export default function OrangeCountyHub() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <h2 className="text-3xl font-light text-black mb-8">
+              <h2 className="text-3xl font-light text-black mb-8 text-center">
                 Orange County <span className="font-mono">Debt Statistics</span>
               </h2>
               
@@ -321,16 +321,17 @@ export default function OrangeCountyHub() {
               </div>
 
               <div className="bg-black text-white p-8">
-                <h3 className="text-2xl font-light mb-6">
+                <h3 className="text-2xl font-light mb-6 text-center">
                   Orange County residents carry <span className="font-mono">$52.4 billion</span> in consumer debt
                 </h3>
-                <p className="text-neutral-300 mb-8">
+                <p className="text-neutral-300 mb-8 text-center">
                   Our AI-powered debt settlement program has helped eliminate over $8.4 million in debt for Orange County families.
                 </p>
-                <button
-                  onClick={scrollToConsultation}
-                  className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 hover:bg-neutral-100 transition-colors"
-                >
+                <div className="text-center">
+                  <button
+                    onClick={scrollToConsultation}
+                    className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 hover:bg-neutral-100 transition-colors"
+                  >
                   <span className="font-mono text-sm uppercase tracking-wide">Get Your Free Analysis</span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
@@ -345,7 +346,7 @@ export default function OrangeCountyHub() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <h2 className="text-3xl font-light text-black mb-8">
+              <h2 className="text-3xl font-light text-black mb-8 text-center">
                 Major <span className="font-mono">Employment Sectors</span>
               </h2>
               
@@ -415,7 +416,7 @@ export default function OrangeCountyHub() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <h2 className="text-3xl font-light text-black mb-8">
+              <h2 className="text-3xl font-light text-black mb-8 text-center">
                 Local <span className="font-mono">Financial Resources</span>
               </h2>
               
@@ -456,20 +457,9 @@ export default function OrangeCountyHub() {
         </div>
       </section>
 
-      {/* Schedule Debt Analysis Session */}
-      <section id="consultation" className="py-16 bg-white border-t border-neutral-200">
+      {/* Research Consultation */}
+      <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-light text-black mb-6">
-              Schedule Debt
-              <br />
-              <span className="font-mono">Analysis Session</span>
-            </h2>
-            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-              Get a personalized debt analysis from our Orange County specialists. 
-              No upfront fees, no obligations, completely confidential.
-            </p>
-          </div>
           <ConsultationForm />
         </div>
       </section>
