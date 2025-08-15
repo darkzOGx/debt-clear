@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { MapPin, TrendingUp, Users, Building2, DollarSign, Home, Briefcase, GraduationCap, Heart, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ConsultationForm from '../components/consultation/ConsultationForm';
 
 // Orange County comprehensive data and statistics
 const countyData = {
@@ -76,6 +77,13 @@ const countyData = {
 
 export default function OrangeCountyHub() {
   const [selectedTab, setSelectedTab] = useState('overview');
+
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
 
   return (
     <div className="min-h-screen bg-white">
@@ -319,13 +327,13 @@ export default function OrangeCountyHub() {
                 <p className="text-neutral-300 mb-8">
                   Our AI-powered debt settlement program has helped eliminate over $8.4 million in debt for Orange County families.
                 </p>
-                <Link
-                  to="/get-started"
+                <button
+                  onClick={scrollToConsultation}
                   className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 hover:bg-neutral-100 transition-colors"
                 >
                   <span className="font-mono text-sm uppercase tracking-wide">Get Your Free Analysis</span>
                   <ArrowRight className="w-4 h-4" />
-                </Link>
+                </button>
               </div>
             </motion.div>
           )}
@@ -428,23 +436,41 @@ export default function OrangeCountyHub() {
                 </div>
               ))}
 
-              <div className="bg-black text-white p-8 mt-12">
+              <div className="bg-black text-white p-8 mt-12 text-center">
                 <h3 className="text-2xl font-light mb-4">
                   Need Immediate <span className="font-mono">Debt Relief?</span>
                 </h3>
                 <p className="text-neutral-300 mb-6">
                   Don't wait for your financial situation to worsen. Our AI-powered system can analyze your debt and create a personalized settlement plan today.
                 </p>
-                <Link
-                  to="/get-started"
+                <button
+                  onClick={scrollToConsultation}
                   className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 hover:bg-neutral-100 transition-colors"
                 >
                   <span className="font-mono text-sm uppercase tracking-wide">Schedule Free Consultation</span>
                   <ArrowRight className="w-4 h-4" />
-                </Link>
+                </button>
               </div>
             </motion.div>
           )}
+        </div>
+      </section>
+
+      {/* Schedule Debt Analysis Session */}
+      <section id="consultation" className="py-16 bg-white border-t border-neutral-200">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-light text-black mb-6">
+              Schedule Debt
+              <br />
+              <span className="font-mono">Analysis Session</span>
+            </h2>
+            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+              Get a personalized debt analysis from our Orange County specialists. 
+              No upfront fees, no obligations, completely confidential.
+            </p>
+          </div>
+          <ConsultationForm />
         </div>
       </section>
 
