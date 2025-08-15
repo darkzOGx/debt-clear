@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, MapPin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
 
 export default function DanaPointDebtSettlement() {
@@ -55,7 +56,13 @@ export default function DanaPointDebtSettlement() {
                 Free Dana Point Analysis
                 <ArrowRight className="w-4 h-4 ml-3" />
               </Button>
-              
+              <Link 
+                to="/blog"
+                className="border border-neutral-300 text-black px-8 py-6 hover:border-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
+              >
+                Learn More
+                <ArrowRight className="w-4 h-4" />
+              </Link>
             </div>
           </motion.div>
         </div>
