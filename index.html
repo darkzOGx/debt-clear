@@ -1,24 +1,66 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2BWMGQ5D0T"></script>
+    <!-- Optimized Google tag (gtag.js) -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
-      gtag('config', 'G-2BWMGQ5D0T');
+      gtag('config', 'G-2BWMGQ5D0T', {
+        send_page_view: false
+      });
+      
+      // Load GA script after page load for better performance
+      window.addEventListener('load', function() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-2BWMGQ5D0T';
+        document.head.appendChild(script);
+        
+        // Send page view after script loads
+        script.onload = function() {
+          gtag('event', 'page_view', {
+            page_title: document.title,
+            page_location: window.location.href
+          });
+        };
+      });
     </script>
     
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Performance Optimization -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://cdn.ampproject.org" />
+    
+    <!-- Critical CSS Inlined -->
+    <style>
+      /* Critical above-the-fold styles */
+      *,*::before,*::after{box-sizing:border-box}
+      body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;line-height:1.6;background:#fff;color:#1a1a1a}
+      .hero-section{background:#fff;padding:4rem 1.5rem}
+      .hero-container{max-width:72rem;margin:0 auto}
+      .hero-grid{display:grid;gap:2rem;align-items:center}
+      .hero-badge{display:inline-flex;align-items:center;gap:0.75rem;margin-bottom:1.5rem}
+      .hero-badge-dot{width:0.5rem;height:0.5rem;background:#000}
+      .hero-badge-text{font-size:0.75rem;text-transform:uppercase;letter-spacing:0.2em;color:#666;font-family:'Courier New',monospace}
+      .hero-headline{font-size:3rem;font-weight:300;color:#000;margin:0 0 1.5rem 0;line-height:0.9}
+      .hero-headline-accent{font-family:'Courier New',monospace;font-size:2.25rem}
+      .hero-subtext{font-size:1.125rem;color:#555;max-width:32rem;margin-bottom:2rem;font-weight:300}
+      .hero-cta{background:#000;color:#fff;border:none;padding:1rem 2rem;font-family:'Courier New',monospace;font-size:0.875rem;text-transform:uppercase;letter-spacing:0.1em;cursor:pointer;text-decoration:none;display:inline-block}
+      @media(min-width:1024px){.hero-grid{grid-template-columns:7fr 5fr}.hero-headline{font-size:4rem}.hero-headline-accent{font-size:3rem}}
+    </style>
     <title>Orange County Debt Settlement & Relief for County Residents</title>
     <meta name="description" content="Orange County debt settlement & county debt relief. Debt profile analysis for county residents. Expert debt settlement in months. Call (502) 232-8511">
     <meta name="keywords" content="orange county debt settlement, county debt relief, debt reduction, debt profile analysis, county residents, research, months, orange county debt">
     <link rel="canonical" href="https://vegaxai.com/" />
     <link rel="amphtml" href="https://vegaxai.com/amp" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#000000" />
     <meta name="geo.region" content="US-CA">
     <meta name="geo.placename" content="Orange County">
     <meta name="geo.position" content="33.6846;-117.8265">
@@ -253,5 +295,20 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/sw.js')
+            .then(function(registration) {
+              console.log('SW registered: ', registration);
+            })
+            .catch(function(registrationError) {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
   </body>
 </html>
