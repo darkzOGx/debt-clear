@@ -114,6 +114,18 @@
     <priority>0.8</priority>
     <lastmod>2025-08-15</lastmod>
   </url>
+  <url>
+    <loc>https://vegaxai.com/case-studies</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2025-08-15</lastmod>
+  </url>
+  <url>
+    <loc>https://vegaxai.com/orange-county-hub</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-15</lastmod>
+  </url>
   
   <!-- Blog Articles -->
   <url>

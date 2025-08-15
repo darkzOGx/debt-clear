@@ -43,6 +43,8 @@ import FountainValleyDebtSettlement from "./FountainValleyDebtSettlement";
 import FAQ from "./FAQ";
 import DebtSettlementVsBankruptcy from "./DebtSettlementVsBankruptcy";
 import AboutUs from "./AboutUs";
+import CaseStudies from "./CaseStudies";
+import OrangeCountyHub from "./OrangeCountyHub";
 
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
@@ -90,6 +92,8 @@ const PAGES = {
     FAQ: FAQ,
     DebtSettlementVsBankruptcy: DebtSettlementVsBankruptcy,
     AboutUs: AboutUs,
+    CaseStudies: CaseStudies,
+    OrangeCountyHub: OrangeCountyHub,
     
 }
 
@@ -161,6 +165,8 @@ function PagesContent() {
                 <Route path="/faq" element={<FAQ />} />
                 <Route path="/debt-settlement-vs-bankruptcy" element={<DebtSettlementVsBankruptcy />} />
                 <Route path="/about-us" element={<AboutUs />} />
+                <Route path="/case-studies" element={<CaseStudies />} />
+                <Route path="/orange-county-hub" element={<OrangeCountyHub />} />
                 
             </Routes>
         </Layout>

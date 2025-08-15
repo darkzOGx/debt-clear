@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, ChevronDown, ChevronUp, Phone, Clock, Shield, DollarSign } from 'lucide-react';
+import { ArrowRight, ChevronDown, ChevronUp, Phone, Clock, Shield, DollarSign, Mic, Search } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function FAQ() {
   const [openQuestion, setOpenQuestion] = useState(null);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [isListening, setIsListening] = useState(false);
 
   const faqCategories = [
     {
@@ -135,6 +137,72 @@ export default function FAQ() {
     }
   ];
 
+  // Voice Search Functionality
+  useEffect(() => {
+    if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      const recognition = new SpeechRecognition();
+      
+      recognition.continuous = false;
+      recognition.interimResults = false;
+      recognition.lang = 'en-US';
+      
+      recognition.onstart = () => {
+        setIsListening(true);
+      };
+      
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        setSearchQuery(transcript);
+        setIsListening(false);
+      };
+      
+      recognition.onerror = () => {
+        setIsListening(false);
+      };
+      
+      recognition.onend = () => {
+        setIsListening(false);
+      };
+      
+      window.voiceRecognition = recognition;
+    }
+  }, []);
+
+  const startVoiceSearch = () => {
+    if (window.voiceRecognition) {
+      window.voiceRecognition.start();
+    }
+  };
+
+  // Filter FAQs based on search query
+  const filteredFAQs = searchQuery
+    ? faqCategories.map(category => ({
+        ...category,
+        questions: category.questions.filter(
+          q => q.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
+               q.answer.toLowerCase().includes(searchQuery.toLowerCase())
+        )
+      })).filter(category => category.questions.length > 0)
+    : faqCategories;
+
+  // Generate schema for voice search optimization
+  const generateFAQSchema = () => {
+    const allQuestions = faqCategories.flatMap(cat => cat.questions);
+    return {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": allQuestions.map(q => ({
+        "@type": "Question",
+        "name": q.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": q.answer
+        }
+      }))
+    };
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
@@ -157,6 +225,42 @@ export default function FAQ() {
             Get answers to the most common questions about debt settlement, the process, 
             costs, and what to expect as an Orange County resident.
           </p>
+        </div>
+      </section>
+
+      {/* Voice Search Bar */}
+      <section className="py-8 bg-white border-b border-neutral-200">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="relative">
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Search FAQs or ask a question..."
+              className="w-full px-12 py-4 text-lg border border-neutral-300 focus:border-black focus:outline-none transition-colors"
+            />
+            <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-neutral-400" />
+            <button
+              onClick={startVoiceSearch}
+              className={`absolute right-4 top-1/2 transform -translate-y-1/2 p-2 ${
+                isListening ? 'bg-red-500 text-white' : 'bg-neutral-100 hover:bg-neutral-200'
+              } transition-colors`}
+              aria-label="Voice search"
+            >
+              <Mic className="w-5 h-5" />
+            </button>
+          </div>
+          {searchQuery && (
+            <div className="mt-4 text-sm text-neutral-600">
+              Showing results for: <span className="font-semibold text-black">"{searchQuery}"</span>
+              <button
+                onClick={() => setSearchQuery('')}
+                className="ml-4 text-black hover:underline"
+              >
+                Clear
+              </button>
+            </div>
+          )}
         </div>
       </section>
 
@@ -199,7 +303,7 @@ export default function FAQ() {
       {/* FAQ Categories */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          {faqCategories.map((category, categoryIndex) => (
+          {filteredFAQs.map((category, categoryIndex) => (
             <motion.div
               key={categoryIndex}
               initial={{ opacity: 0, y: 20 }}
@@ -335,6 +439,12 @@ export default function FAQ() {
           </div>
         </div>
       </section>
+
+      {/* Schema Markup for Voice Search SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFAQSchema()) }}
+      />
     </div>
   );
 }
