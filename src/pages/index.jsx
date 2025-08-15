@@ -39,6 +39,7 @@ import OrangeCountySeniorDebtRelief2025 from "./blog/OrangeCountySeniorDebtRelie
 import OrangeCountyTaxDebtRelief2025 from "./blog/OrangeCountyTaxDebtRelief2025";
 import OrangeCountyStudentLoanForgiveness2025 from "./blog/OrangeCountyStudentLoanForgiveness2025";
 import OrangeCountyBankruptcyAlternatives2025 from "./blog/OrangeCountyBankruptcyAlternatives2025";
+import HomesteadExemptionDebtSettlementOrangeCounty from "./blog/HomesteadExemptionDebtSettlementOrangeCounty";
 import FountainValleyDebtSettlement from "./FountainValleyDebtSettlement";
 import GardenGroveDebtSettlement from "./GardenGroveDebtSettlement";
 import FullertonDebtSettlement from "./FullertonDebtSettlement";
@@ -95,6 +96,7 @@ const PAGES = {
     OrangeCountyTaxDebtRelief2025: OrangeCountyTaxDebtRelief2025,
     OrangeCountyStudentLoanForgiveness2025: OrangeCountyStudentLoanForgiveness2025,
     OrangeCountyBankruptcyAlternatives2025: OrangeCountyBankruptcyAlternatives2025,
+    HomesteadExemptionDebtSettlementOrangeCounty: HomesteadExemptionDebtSettlementOrangeCounty,
     FountainValleyDebtSettlement: FountainValleyDebtSettlement,
     GardenGroveDebtSettlement: GardenGroveDebtSettlement,
     FullertonDebtSettlement: FullertonDebtSettlement,
@@ -175,6 +177,7 @@ function PagesContent() {
                 <Route path="/blog/orange-county-tax-debt-relief-2025" element={<OrangeCountyTaxDebtRelief2025 />} />
                 <Route path="/blog/orange-county-student-loan-forgiveness-2025" element={<OrangeCountyStudentLoanForgiveness2025 />} />
                 <Route path="/blog/orange-county-bankruptcy-alternatives-2025" element={<OrangeCountyBankruptcyAlternatives2025 />} />
+                <Route path="/blog/homestead-exemption-debt-settlement-orange-county" element={<HomesteadExemptionDebtSettlementOrangeCounty />} />
                 <Route path="/debt-settlement-fountain-valley" element={<FountainValleyDebtSettlement />} />
                 <Route path="/debt-settlement-garden-grove" element={<GardenGroveDebtSettlement />} />
                 <Route path="/debt-settlement-fullerton" element={<FullertonDebtSettlement />} />
