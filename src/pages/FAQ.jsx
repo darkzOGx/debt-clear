@@ -216,8 +216,8 @@ export default function FAQ() {
     <div className="min-h-screen bg-white">
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center gap-3 mb-6">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8 text-center">
+          <div className="flex items-center justify-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
             <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
               FREQUENTLY ASKED QUESTIONS
@@ -230,7 +230,7 @@ export default function FAQ() {
             <span className="font-mono text-3xl lg:text-4xl">Debt Settlement FAQ</span>
           </h1>
 
-          <p className="text-xl text-neutral-700 leading-relaxed font-light max-w-3xl">
+          <p className="text-xl text-neutral-700 leading-relaxed font-light max-w-3xl mx-auto">
             Get answers to the most common questions about debt settlement, the process, 
             costs, and what to expect as an Orange County resident.
           </p>
