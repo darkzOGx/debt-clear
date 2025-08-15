@@ -481,5 +481,3 @@ export default function OrangeCountyHub() {
     </div>
   );
 }
-
-export default OrangeCountyHub;
