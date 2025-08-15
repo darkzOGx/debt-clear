@@ -38,8 +38,8 @@ export default function HeroSection({ onScrollToCalculator, onScrollToConsultati
 
             {/* Subheadline */}
             <p className="text-lg lg:text-xl text-neutral-700 max-w-2xl mb-8 leading-relaxed font-light">
-              <strong>County debt settlement & debt relief</strong> for Orange County residents. Expert debt profile analysis and county debt settlement 
-              strategies reduce orange county debt by 50% in months. Licensed, bonded, and trusted by over 1,200+ county residents.
+              <strong>AI-powered debt reduction</strong> for Orange County residents. Expert debt profile analysis and research-based 
+              strategies reduce county debt by 50% in 12-24 months. Licensed, bonded, and trusted by over 1,200+ county residents.
             </p>
 
             {/* CTA */}
