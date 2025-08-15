@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, MapPin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function ServicesSection({ onScrollToConsultation }) {
   const services = [
@@ -27,6 +28,80 @@ export default function ServicesSection({ onScrollToConsultation }) {
     outcome: "Average 120-point credit score improvement"
   }];
 
+  const cityServices = [
+    {
+      name: "Anaheim",
+      description: "Debt settlement for Disney area residents and families",
+      link: "/debt-settlement-anaheim",
+      zipCodes: "92801-92899"
+    },
+    {
+      name: "Santa Ana",
+      description: "County seat debt relief with bilingual services",
+      link: "/debt-settlement-santa-ana", 
+      zipCodes: "92701-92799"
+    },
+    {
+      name: "Irvine",
+      description: "Tech professional and high-income debt solutions",
+      link: "/debt-settlement-irvine",
+      zipCodes: "92602-92697"
+    },
+    {
+      name: "Huntington Beach",
+      description: "Coastal community debt settlement specialists",
+      link: "/debt-settlement-huntington-beach",
+      zipCodes: "92605-92649"
+    },
+    {
+      name: "Garden Grove",
+      description: "Diverse community debt relief programs",
+      link: "/debt-settlement-garden-grove",
+      zipCodes: "92840-92845"
+    },
+    {
+      name: "Fullerton",
+      description: "Educational community and student debt specialists",
+      link: "/debt-settlement-fullerton",
+      zipCodes: "92831-92837"
+    },
+    {
+      name: "Orange",
+      description: "Historic Circle City debt settlement services",
+      link: "/debt-settlement-orange",
+      zipCodes: "92856-92869"
+    },
+    {
+      name: "Costa Mesa",
+      description: "Business district professionals and entrepreneurs",
+      link: "/debt-settlement-costa-mesa",
+      zipCodes: "92626-92628"
+    },
+    {
+      name: "Mission Viejo",
+      description: "Family-oriented community financial solutions",
+      link: "/debt-settlement-mission-viejo",
+      zipCodes: "92691-92694"
+    },
+    {
+      name: "Westminster",
+      description: "Multicultural community debt relief services",
+      link: "/debt-settlement-westminster",
+      zipCodes: "92683-92685"
+    },
+    {
+      name: "Newport Beach",
+      description: "Luxury coastal debt settlement for high-net-worth",
+      link: "/debt-settlement-newport-beach",
+      zipCodes: "92625-92663"
+    },
+    {
+      name: "Fountain Valley",
+      description: "Family community debt relief specialists",
+      link: "/debt-settlement-fountain-valley",
+      zipCodes: "92708"
+    }
+  ];
 
   return (
     <section className="py-16 bg-neutral-50 border-t border-neutral-200">
@@ -106,6 +181,68 @@ export default function ServicesSection({ onScrollToConsultation }) {
             </motion.div>
           )}
         </div>
+
+        {/* City-Specific Services */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="mt-20 pt-16 border-t border-neutral-200">
+          
+          <div className="mb-12">
+            <div className="flex items-center gap-3 mb-6">
+              <MapPin className="w-4 h-4 text-black" />
+              <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+                CITY-SPECIFIC DEBT SETTLEMENT SERVICES
+              </span>
+            </div>
+            
+            <h3 className="text-3xl lg:text-4xl font-light text-black mb-6 leading-tight">
+              Local Expertise for
+              <br />
+              <span className="font-mono">Orange County Communities</span>
+            </h3>
+            
+            <p className="text-lg text-neutral-600 max-w-3xl font-light">
+              Each Orange County city has unique economic characteristics, demographics, and financial challenges. 
+              Our specialized debt settlement programs are tailored to serve the specific needs of your community.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {cityServices.map((city, index) => (
+              <motion.div
+                key={city.name}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: index * 0.05 }}
+                className="group"
+              >
+                <Link 
+                  to={city.link}
+                  className="block bg-white border border-neutral-200 p-6 hover:border-black transition-colors h-full"
+                >
+                  <div className="flex justify-between items-start mb-4">
+                    <h4 className="text-lg font-semibold text-black group-hover:text-black transition-colors">
+                      {city.name}
+                    </h4>
+                    <ArrowRight className="w-4 h-4 text-neutral-400 group-hover:text-black transition-colors flex-shrink-0" />
+                  </div>
+                  
+                  <p className="text-sm text-neutral-600 leading-relaxed mb-4">
+                    {city.description}
+                  </p>
+                  
+                  <div className="text-xs font-mono text-neutral-500">
+                    ZIP: {city.zipCodes}
+                  </div>
+                </Link>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
 
         {/* CTA */}
         <motion.div

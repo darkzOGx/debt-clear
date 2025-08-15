@@ -40,6 +40,12 @@ import OrangeCountyTaxDebtRelief2025 from "./blog/OrangeCountyTaxDebtRelief2025"
 import OrangeCountyStudentLoanForgiveness2025 from "./blog/OrangeCountyStudentLoanForgiveness2025";
 import OrangeCountyBankruptcyAlternatives2025 from "./blog/OrangeCountyBankruptcyAlternatives2025";
 import FountainValleyDebtSettlement from "./FountainValleyDebtSettlement";
+import GardenGroveDebtSettlement from "./GardenGroveDebtSettlement";
+import FullertonDebtSettlement from "./FullertonDebtSettlement";
+import OrangeDebtSettlement from "./OrangeDebtSettlement";
+import CostaMesaDebtSettlement from "./CostaMesaDebtSettlement";
+import MissionViejoDebtSettlement from "./MissionViejoDebtSettlement";
+import WestminsterDebtSettlement from "./WestminsterDebtSettlement";
 import FAQ from "./FAQ";
 import DebtSettlementVsBankruptcy from "./DebtSettlementVsBankruptcy";
 import AboutUs from "./AboutUs";
@@ -89,6 +95,12 @@ const PAGES = {
     OrangeCountyStudentLoanForgiveness2025: OrangeCountyStudentLoanForgiveness2025,
     OrangeCountyBankruptcyAlternatives2025: OrangeCountyBankruptcyAlternatives2025,
     FountainValleyDebtSettlement: FountainValleyDebtSettlement,
+    GardenGroveDebtSettlement: GardenGroveDebtSettlement,
+    FullertonDebtSettlement: FullertonDebtSettlement,
+    OrangeDebtSettlement: OrangeDebtSettlement,
+    CostaMesaDebtSettlement: CostaMesaDebtSettlement,
+    MissionViejoDebtSettlement: MissionViejoDebtSettlement,
+    WestminsterDebtSettlement: WestminsterDebtSettlement,
     FAQ: FAQ,
     DebtSettlementVsBankruptcy: DebtSettlementVsBankruptcy,
     AboutUs: AboutUs,
@@ -162,6 +174,12 @@ function PagesContent() {
                 <Route path="/blog/orange-county-student-loan-forgiveness-2025" element={<OrangeCountyStudentLoanForgiveness2025 />} />
                 <Route path="/blog/orange-county-bankruptcy-alternatives-2025" element={<OrangeCountyBankruptcyAlternatives2025 />} />
                 <Route path="/debt-settlement-fountain-valley" element={<FountainValleyDebtSettlement />} />
+                <Route path="/debt-settlement-garden-grove" element={<GardenGroveDebtSettlement />} />
+                <Route path="/debt-settlement-fullerton" element={<FullertonDebtSettlement />} />
+                <Route path="/debt-settlement-orange" element={<OrangeDebtSettlement />} />
+                <Route path="/debt-settlement-costa-mesa" element={<CostaMesaDebtSettlement />} />
+                <Route path="/debt-settlement-mission-viejo" element={<MissionViejoDebtSettlement />} />
+                <Route path="/debt-settlement-westminster" element={<WestminsterDebtSettlement />} />
                 <Route path="/faq" element={<FAQ />} />
                 <Route path="/debt-settlement-vs-bankruptcy" element={<DebtSettlementVsBankruptcy />} />
                 <Route path="/about-us" element={<AboutUs />} />
