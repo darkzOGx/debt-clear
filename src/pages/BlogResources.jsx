@@ -253,7 +253,10 @@ export default function BlogResources() {
                 transition={{ duration: 0.6, delay: index * 0.05 }}
                 className="bg-neutral-50 border border-neutral-200 overflow-hidden hover:border-black transition-colors duration-200"
               >
-                <div className="p-6">
+                <Link 
+                  to={article.slug}
+                  className="block p-6 h-full cursor-pointer"
+                >
                   <div className="flex items-center gap-4 mb-4">
                     <span className="text-xs font-mono uppercase tracking-wide text-neutral-500">
                       {article.category}
@@ -281,15 +284,12 @@ export default function BlogResources() {
                       </div>
                     </div>
 
-                    <Link 
-                      to={article.slug}
-                      className="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-wide text-black hover:text-neutral-600 transition-colors"
-                    >
+                    <div className="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-wide text-black">
                       Read More
                       <ArrowRight className="w-3 h-3" />
-                    </Link>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </motion.article>
             ))}
           </div>
