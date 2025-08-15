@@ -332,9 +332,10 @@ export default function OrangeCountyHub() {
                     onClick={scrollToConsultation}
                     className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 hover:bg-neutral-100 transition-colors"
                   >
-                  <span className="font-mono text-sm uppercase tracking-wide">Get Your Free Analysis</span>
-                  <ArrowRight className="w-4 h-4" />
-                </button>
+                    <span className="font-mono text-sm uppercase tracking-wide">Get Your Free Analysis</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </button>
+                </div>
               </div>
             </motion.div>
           )}
