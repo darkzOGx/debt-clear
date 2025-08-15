@@ -2,8 +2,15 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Phone, CheckCircle, Star, MapPin, Clock, Users, DollarSign } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ConsultationForm from '../components/consultation/ConsultationForm';
 
 export default function FountainValleyDebtSettlement() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -36,7 +43,10 @@ export default function FountainValleyDebtSettlement() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <button className="bg-black text-white px-8 py-4 hover:bg-neutral-800 transition-colors flex items-center gap-2 font-mono text-sm uppercase tracking-wide">
+              <button 
+                onClick={scrollToConsultation}
+                className="bg-black text-white px-8 py-4 hover:bg-neutral-800 transition-colors flex items-center gap-2 font-mono text-sm uppercase tracking-wide"
+              >
                 <Phone className="w-4 h-4" />
                 Free Consultation
                 <ArrowRight className="w-4 h-4" />
@@ -373,9 +383,12 @@ export default function FountainValleyDebtSettlement() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-black px-8 py-4 hover:bg-neutral-100 transition-colors flex items-center gap-2 font-mono text-sm uppercase tracking-wide">
+              <button 
+                onClick={scrollToConsultation}
+                className="bg-white text-black px-8 py-4 hover:bg-neutral-100 transition-colors flex items-center gap-2 font-mono text-sm uppercase tracking-wide"
+              >
                 <Phone className="w-4 h-4" />
-                Call (800) DEBT-FREE
+                Free Consultation
                 <ArrowRight className="w-4 h-4" />
               </button>
               <Link
@@ -389,6 +402,9 @@ export default function FountainValleyDebtSettlement() {
           </motion.div>
         </div>
       </section>
+
+      {/* Consultation Form */}
+      <ConsultationForm />
     </div>
   );
 }
