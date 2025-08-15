@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Calendar, Clock, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function BlogResources() {
+  const [selectedCategory, setSelectedCategory] = useState('All');
   const articles = [
     {
       title: "Orange County Debt Settlement Laws: What You Need to Know",
@@ -207,6 +208,20 @@ export default function BlogResources() {
     }
   ];
 
+  // Get unique categories and add 'All' option
+  const categories = useMemo(() => {
+    const uniqueCategories = [...new Set(articles.map(article => article.category))];
+    return ['All', ...uniqueCategories.sort()];
+  }, []);
+
+  // Filter articles based on selected category
+  const filteredArticles = useMemo(() => {
+    if (selectedCategory === 'All') {
+      return articles;
+    }
+    return articles.filter(article => article.category === selectedCategory);
+  }, [selectedCategory]);
+
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
@@ -240,11 +255,36 @@ export default function BlogResources() {
         </div>
       </section>
 
+      {/* Category Filter Summary */}
+      {selectedCategory !== 'All' && (
+        <section className="py-8 bg-white border-b border-neutral-200">
+          <div className="max-w-6xl mx-auto px-6 lg:px-8">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-4">
+                <span className="text-sm text-neutral-600">Showing articles in:</span>
+                <span className="text-sm font-mono text-black bg-neutral-100 px-3 py-1">
+                  {selectedCategory}
+                </span>
+                <span className="text-sm text-neutral-500">
+                  ({filteredArticles.length} article{filteredArticles.length !== 1 ? 's' : ''})
+                </span>
+              </div>
+              <button 
+                onClick={() => setSelectedCategory('All')}
+                className="text-sm font-mono text-neutral-600 hover:text-black transition-colors"
+              >
+                Clear Filter
+              </button>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Articles Grid */}
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid lg:grid-cols-3 gap-6">
-            {articles.map((article, index) => (
+            {filteredArticles.map((article, index) => (
               <motion.article
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
@@ -302,21 +342,24 @@ export default function BlogResources() {
           <h2 className="text-2xl font-light text-black mb-8">Browse by Category</h2>
           
           <div className="grid md:grid-cols-4 gap-4">
-            {[
-              "Legal Guide", "Technology", "Consumer Guide", "Financial Planning", 
-              "Medical Debt", "Case Studies", "Business Finance", "Tax Planning",
-              "Senior Finance", "Student Loans", "Asset Protection", "Process Guide",
-              "Cost Analysis", "Credit Repair", "Consumer Rights", "Credit Card Debt",
-              "Debt Consolidation", "Foreclosure Prevention", "Tax Relief", "Bankruptcy Alternatives"
-            ].map((category, index) => (
-              <div 
+            {categories.map((category, index) => (
+              <button 
                 key={index}
-                className="bg-white p-4 border border-neutral-200 hover:border-black transition-colors cursor-pointer text-center"
+                onClick={() => setSelectedCategory(category)}
+                className={`p-4 border transition-colors cursor-pointer text-center ${
+                  selectedCategory === category 
+                    ? 'bg-black text-white border-black' 
+                    : 'bg-white border-neutral-200 hover:border-black'
+                }`}
               >
-                <span className="text-sm font-mono text-neutral-700 hover:text-black">
+                <span className={`text-sm font-mono ${
+                  selectedCategory === category 
+                    ? 'text-white' 
+                    : 'text-neutral-700 hover:text-black'
+                }`}>
                   {category}
                 </span>
-              </div>
+              </button>
             ))}
           </div>
         </div>
