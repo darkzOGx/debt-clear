@@ -1,5 +1,6 @@
 
 import Header from '../components/navigation/Header';
+import AiChatbot from '../components/chatbot/AiChatbot';
 
 export default function Layout({ children }) {
     return (
@@ -8,6 +9,7 @@ export default function Layout({ children }) {
             <main>
                 {children}
             </main>
+            <AiChatbot />
         </div>
     )
 }

@@ -5,7 +5,6 @@ import ServicesSection from '../components/services/ServicesSection';
 import TestimonialsSection from '../components/testimonials/TestimonialsSection';
 import BlogSection from '../components/blog/BlogSection';
 import ConsultationForm from '../components/consultation/ConsultationForm';
-import AiChatbot from '../components/chatbot/AiChatbot';
 
 export default function Home() {
   const calculatorRef = useRef(null);
@@ -52,8 +51,6 @@ export default function Home() {
         <ConsultationForm />
       </div>
 
-      {/* AI Research Assistant */}
-      <AiChatbot />
 
       {/* Newsletter Signup */}
       <section className="py-12 bg-black text-white">
