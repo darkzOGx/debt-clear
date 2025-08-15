@@ -51,6 +51,7 @@ import DebtSettlementVsBankruptcy from "./DebtSettlementVsBankruptcy";
 import AboutUs from "./AboutUs";
 import CaseStudies from "./CaseStudies";
 import OrangeCountyHub from "./OrangeCountyHub";
+import Resources from "./Resources";
 
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
@@ -106,6 +107,7 @@ const PAGES = {
     AboutUs: AboutUs,
     CaseStudies: CaseStudies,
     OrangeCountyHub: OrangeCountyHub,
+    Resources: Resources,
     
 }
 
@@ -185,6 +187,7 @@ function PagesContent() {
                 <Route path="/about-us" element={<AboutUs />} />
                 <Route path="/case-studies" element={<CaseStudies />} />
                 <Route path="/orange-county-hub" element={<OrangeCountyHub />} />
+                <Route path="/resources" element={<Resources />} />
                 
             </Routes>
         </Layout>

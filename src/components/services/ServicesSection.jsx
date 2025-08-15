@@ -154,9 +154,9 @@ export default function ServicesSection({ onScrollToConsultation }) {
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Why Choose VegaX AI for
+            Orange County Debt Relief:
             <br />
-            <span className="font-mono">Orange County Debt Settlement</span>
+            <span className="font-mono">Expert Analysis & Reduction</span>
           </h2>
           
           <p className="text-lg text-neutral-600 max-w-2xl font-light">

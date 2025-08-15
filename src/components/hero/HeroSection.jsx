@@ -31,15 +31,15 @@ export default function HeroSection({ onScrollToCalculator, onScrollToConsultati
 
             {/* Main Headline */}
             <h1 className="text-5xl lg:text-6xl xl:text-7xl font-light tracking-tight text-black mb-6 leading-[0.9]">
-              Orange County
+              Orange County Debt
               <br />
-              <span className="font-mono text-4xl lg:text-5xl xl:text-6xl">Debt Settlement</span>
+              <span className="font-mono text-4xl lg:text-5xl xl:text-6xl">Settlement & Relief</span>
             </h1>
 
             {/* Subheadline */}
             <p className="text-lg lg:text-xl text-neutral-700 max-w-2xl mb-8 leading-relaxed font-light">
-              <strong>AI-powered debt relief</strong> serving Orange County residents. Our advanced technology 
-              negotiates with creditors to reduce your debt by up to 50%. Licensed, bonded, and trusted by over 1,200+ OC families.
+              <strong>AI-powered debt reduction</strong> for Orange County residents. Expert debt profile analysis and research-based 
+              strategies reduce county debt by 50% in 12-24 months. Licensed, bonded, and trusted by over 1,200+ county residents.
             </p>
 
             {/* CTA */}

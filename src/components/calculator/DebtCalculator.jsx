@@ -66,14 +66,14 @@ export default function DebtCalculator() {
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Calculate Potential
+            Debt Profile Analysis:
             <br />
-            <span className="font-mono">Debt Reduction</span>
+            <span className="font-mono">Calculate Your Reduction</span>
           </h2>
           
           <p className="text-lg text-neutral-600 max-w-2xl font-light">
-            Our algorithmic model analyzes your debt profile against our database of 50,000+ 
-            successful settlement cases to project optimal reduction scenarios.
+            Our research-based analysis examines your county debt profile against 50,000+ 
+            Orange County resident cases to project optimal debt reduction in 12-24 months.
           </p>
         </div>
 
