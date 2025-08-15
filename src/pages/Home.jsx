@@ -107,19 +107,70 @@ export default function Home() {
                 AI-powered negotiation and local market expertise.
               </div>
 
-              <div className="space-y-2 text-sm">
-                <a href="/debt-settlement-anaheim" className="block text-neutral-400 hover:text-white transition-colors">
-                  Debt Settlement Anaheim
-                </a>
-                <a href="/debt-settlement-irvine" className="block text-neutral-400 hover:text-white transition-colors">
-                  Debt Settlement Irvine
-                </a>
-                <a href="/debt-settlement-santa-ana" className="block text-neutral-400 hover:text-white transition-colors">
-                  Debt Settlement Santa Ana
-                </a>
-                <a href="/debt-settlement-huntington-beach" className="block text-neutral-400 hover:text-white transition-colors">
-                  Debt Settlement Huntington Beach
-                </a>
+              <div className="grid grid-cols-1 gap-2 text-sm">
+                <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4">
+                  Orange County Services
+                </div>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-2 gap-2">
+                    <a href="/debt-settlement-anaheim" className="block text-neutral-400 hover:text-white transition-colors">
+                      Anaheim
+                    </a>
+                    <a href="/debt-settlement-santa-ana" className="block text-neutral-400 hover:text-white transition-colors">
+                      Santa Ana
+                    </a>
+                    <a href="/debt-settlement-irvine" className="block text-neutral-400 hover:text-white transition-colors">
+                      Irvine
+                    </a>
+                    <a href="/debt-settlement-huntington-beach" className="block text-neutral-400 hover:text-white transition-colors">
+                      Huntington Beach
+                    </a>
+                    <a href="/debt-settlement-garden-grove" className="block text-neutral-400 hover:text-white transition-colors">
+                      Garden Grove
+                    </a>
+                    <a href="/debt-settlement-fullerton" className="block text-neutral-400 hover:text-white transition-colors">
+                      Fullerton
+                    </a>
+                    <a href="/debt-settlement-orange" className="block text-neutral-400 hover:text-white transition-colors">
+                      Orange
+                    </a>
+                    <a href="/debt-settlement-costa-mesa" className="block text-neutral-400 hover:text-white transition-colors">
+                      Costa Mesa
+                    </a>
+                    <a href="/debt-settlement-mission-viejo" className="block text-neutral-400 hover:text-white transition-colors">
+                      Mission Viejo
+                    </a>
+                  </div>
+                  <div className="grid grid-cols-2 gap-2">
+                    <a href="/debt-settlement-westminster" className="block text-neutral-400 hover:text-white transition-colors">
+                      Westminster
+                    </a>
+                    <a href="/debt-settlement-newport-beach" className="block text-neutral-400 hover:text-white transition-colors">
+                      Newport Beach
+                    </a>
+                    <a href="/debt-settlement-fountain-valley" className="block text-neutral-400 hover:text-white transition-colors">
+                      Fountain Valley
+                    </a>
+                    <a href="/debt-settlement-laguna-beach" className="block text-neutral-400 hover:text-white transition-colors">
+                      Laguna Beach
+                    </a>
+                    <a href="/debt-settlement-yorba-linda" className="block text-neutral-400 hover:text-white transition-colors">
+                      Yorba Linda
+                    </a>
+                    <a href="/debt-settlement-dana-point" className="block text-neutral-400 hover:text-white transition-colors">
+                      Dana Point
+                    </a>
+                    <a href="/debt-settlement-laguna-niguel" className="block text-neutral-400 hover:text-white transition-colors">
+                      Laguna Niguel
+                    </a>
+                    <a href="/debt-settlement-seal-beach" className="block text-neutral-400 hover:text-white transition-colors">
+                      Seal Beach
+                    </a>
+                    <a href="/debt-settlement-laguna-woods" className="block text-neutral-400 hover:text-white transition-colors">
+                      Laguna Woods
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
             

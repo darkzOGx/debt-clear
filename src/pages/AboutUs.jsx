@@ -2,8 +2,15 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Award, Users, Shield, Clock, Star, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ConsultationForm from '../components/consultation/ConsultationForm';
 
 export default function AboutUs() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
   const teamMembers = [
     {
       name: "Sarah Chen, NFCC",
@@ -453,7 +460,10 @@ export default function AboutUs() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-black px-8 py-4 hover:bg-neutral-100 transition-colors flex items-center gap-2 font-mono text-sm uppercase tracking-wide">
+              <button 
+                onClick={scrollToConsultation}
+                className="bg-white text-black px-8 py-4 hover:bg-neutral-100 transition-colors flex items-center gap-2 font-mono text-sm uppercase tracking-wide"
+              >
                 Free Consultation
                 <ArrowRight className="w-4 h-4" />
               </button>
@@ -466,6 +476,13 @@ export default function AboutUs() {
               </Link>
             </div>
           </motion.div>
+        </div>
+      </section>
+
+      {/* Schedule Debt Analysis Session */}
+      <section id="consultation" className="py-16 bg-white border-t border-neutral-200">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <ConsultationForm />
         </div>
       </section>
     </div>
