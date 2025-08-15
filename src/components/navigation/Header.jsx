@@ -51,10 +51,12 @@ export default function Header() {
         { name: 'Debt Settlement Laguna Niguel', href: '/debt-settlement-laguna-niguel' },
         { name: 'Debt Settlement Seal Beach', href: '/debt-settlement-seal-beach' },
         { name: 'Debt Settlement Laguna Woods', href: '/debt-settlement-laguna-woods' },
+        { name: 'Debt Settlement Fountain Valley', href: '/debt-settlement-fountain-valley' },
       ]
     },
     { name: 'Resources', href: '/blog' },
-    { name: 'About', href: '#about' },
+    { name: 'FAQ', href: '/faq' },
+    { name: 'About', href: '/about-us' },
   ];
 
   return (

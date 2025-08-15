@@ -6,7 +6,9 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   server: {
-    allowedHosts: true
+    allowedHosts: true,
+    port: 3000,
+    open: true
   },
   resolve: {
     alias: {
@@ -21,4 +23,25 @@ export default defineConfig({
       },
     },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          router: ['react-router-dom'], 
+          animation: ['framer-motion'],
+          icons: ['lucide-react'],
+          ui: ['@radix-ui/react-accordion', '@radix-ui/react-dialog', '@radix-ui/react-tooltip']
+        }
+      }
+    },
+    sourcemap: false,
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true
+      }
+    }
+  }
 }) 

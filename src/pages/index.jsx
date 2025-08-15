@@ -39,6 +39,10 @@ import OrangeCountySeniorDebtRelief2025 from "./blog/OrangeCountySeniorDebtRelie
 import OrangeCountyTaxDebtRelief2025 from "./blog/OrangeCountyTaxDebtRelief2025";
 import OrangeCountyStudentLoanForgiveness2025 from "./blog/OrangeCountyStudentLoanForgiveness2025";
 import OrangeCountyBankruptcyAlternatives2025 from "./blog/OrangeCountyBankruptcyAlternatives2025";
+import FountainValleyDebtSettlement from "./FountainValleyDebtSettlement";
+import FAQ from "./FAQ";
+import DebtSettlementVsBankruptcy from "./DebtSettlementVsBankruptcy";
+import AboutUs from "./AboutUs";
 
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
@@ -82,6 +86,10 @@ const PAGES = {
     OrangeCountyTaxDebtRelief2025: OrangeCountyTaxDebtRelief2025,
     OrangeCountyStudentLoanForgiveness2025: OrangeCountyStudentLoanForgiveness2025,
     OrangeCountyBankruptcyAlternatives2025: OrangeCountyBankruptcyAlternatives2025,
+    FountainValleyDebtSettlement: FountainValleyDebtSettlement,
+    FAQ: FAQ,
+    DebtSettlementVsBankruptcy: DebtSettlementVsBankruptcy,
+    AboutUs: AboutUs,
     
 }
 
@@ -149,6 +157,10 @@ function PagesContent() {
                 <Route path="/blog/orange-county-tax-debt-relief-2025" element={<OrangeCountyTaxDebtRelief2025 />} />
                 <Route path="/blog/orange-county-student-loan-forgiveness-2025" element={<OrangeCountyStudentLoanForgiveness2025 />} />
                 <Route path="/blog/orange-county-bankruptcy-alternatives-2025" element={<OrangeCountyBankruptcyAlternatives2025 />} />
+                <Route path="/debt-settlement-fountain-valley" element={<FountainValleyDebtSettlement />} />
+                <Route path="/faq" element={<FAQ />} />
+                <Route path="/debt-settlement-vs-bankruptcy" element={<DebtSettlementVsBankruptcy />} />
+                <Route path="/about-us" element={<AboutUs />} />
                 
             </Routes>
         </Layout>
