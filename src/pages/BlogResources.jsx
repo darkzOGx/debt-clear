@@ -1,10 +1,11 @@
 import React, { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Calendar, Clock, ArrowLeft } from 'lucide-react';
+import { ArrowRight, Calendar, Clock, ArrowLeft, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function BlogResources() {
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const [categoryStartIndex, setCategoryStartIndex] = useState(0);
   const articles = [
     {
       title: "Orange County Debt Settlement Laws: What You Need to Know",
@@ -560,26 +561,57 @@ export default function BlogResources() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <h2 className="text-2xl font-light text-black mb-8">Browse by Category</h2>
           
-          <div className="grid md:grid-cols-4 gap-4">
-            {categories.map((category, index) => (
-              <button 
-                key={index}
-                onClick={() => setSelectedCategory(category)}
-                className={`p-4 border transition-colors cursor-pointer text-center ${
-                  selectedCategory === category 
-                    ? 'bg-black text-white border-black' 
-                    : 'bg-white border-neutral-200 hover:border-black'
-                }`}
-              >
-                <span className={`text-sm font-mono ${
-                  selectedCategory === category 
-                    ? 'text-white' 
-                    : 'text-neutral-700 hover:text-black'
-                }`}>
-                  {category}
-                </span>
-              </button>
-            ))}
+          <div className="flex items-center gap-4">
+            {/* Previous Arrow */}
+            <button
+              onClick={() => setCategoryStartIndex(Math.max(0, categoryStartIndex - 3))}
+              disabled={categoryStartIndex === 0}
+              className={`p-2 transition-colors ${
+                categoryStartIndex === 0 
+                  ? 'text-neutral-300 cursor-not-allowed' 
+                  : 'text-black hover:bg-neutral-200'
+              }`}
+              aria-label="Previous categories"
+            >
+              <ChevronLeft className="w-6 h-6" />
+            </button>
+
+            {/* Categories Display */}
+            <div className="flex-1 grid grid-cols-3 gap-4">
+              {categories.slice(categoryStartIndex, categoryStartIndex + 3).map((category, index) => (
+                <button 
+                  key={categoryStartIndex + index}
+                  onClick={() => setSelectedCategory(category)}
+                  className={`p-4 border transition-colors cursor-pointer text-center ${
+                    selectedCategory === category 
+                      ? 'bg-black text-white border-black' 
+                      : 'bg-white border-neutral-200 hover:border-black'
+                  }`}
+                >
+                  <span className={`text-sm font-mono ${
+                    selectedCategory === category 
+                      ? 'text-white' 
+                      : 'text-neutral-700 hover:text-black'
+                  }`}>
+                    {category}
+                  </span>
+                </button>
+              ))}
+            </div>
+
+            {/* Next Arrow */}
+            <button
+              onClick={() => setCategoryStartIndex(Math.min(categories.length - 3, categoryStartIndex + 3))}
+              disabled={categoryStartIndex >= categories.length - 3}
+              className={`p-2 transition-colors ${
+                categoryStartIndex >= categories.length - 3 
+                  ? 'text-neutral-300 cursor-not-allowed' 
+                  : 'text-black hover:bg-neutral-200'
+              }`}
+              aria-label="Next categories"
+            >
+              <ChevronRight className="w-6 h-6" />
+            </button>
           </div>
         </div>
       </section>

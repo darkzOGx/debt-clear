@@ -5,6 +5,7 @@ import ServicesSection from '../components/services/ServicesSection';
 import TestimonialsSection from '../components/testimonials/TestimonialsSection';
 import BlogSection from '../components/blog/BlogSection';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import NewsletterSignup from '../components/newsletter/NewsletterSignup';
 
 export default function Home() {
   const calculatorRef = useRef(null);
@@ -53,33 +54,7 @@ export default function Home() {
 
 
       {/* Newsletter Signup */}
-      <section className="py-12 bg-black text-white">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h3 className="text-2xl font-light mb-4">
-            Stay Updated on <span className="font-mono">Orange County</span> Debt Laws
-          </h3>
-          
-          <p className="text-neutral-300 mb-8 max-w-xl mx-auto">
-            Get monthly insights on debt settlement regulations, consumer protection updates, 
-            and success stories from Orange County.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row max-w-md mx-auto gap-4">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 bg-white text-black text-sm font-mono"
-            />
-            <button className="px-6 py-3 bg-white text-black hover:bg-neutral-100 text-sm font-mono uppercase tracking-wide transition-colors">
-              Subscribe
-            </button>
-          </div>
-          
-          <p className="text-xs text-neutral-500 mt-4">
-            No spam. Unsubscribe anytime. Orange County debt relief updates only.
-          </p>
-        </div>
-      </section>
+      <NewsletterSignup />
 
       {/* Footer */}
       <footer className="py-12 bg-black text-white border-t border-neutral-800">

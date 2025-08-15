@@ -26,7 +26,13 @@ const countyData = {
     { name: "Mission Viejo", population: "93,937", medianIncome: "$105,928", link: "/debt-settlement-mission-viejo" },
     { name: "Westminster", population: "90,857", medianIncome: "$66,616", link: "/debt-settlement-westminster" },
     { name: "Newport Beach", population: "85,239", medianIncome: "$142,265", link: "/debt-settlement-newport-beach" },
-    { name: "Laguna Beach", population: "22,827", medianIncome: "$129,983", link: "/debt-settlement-laguna-beach" }
+    { name: "Laguna Beach", population: "22,827", medianIncome: "$129,983", link: "/debt-settlement-laguna-beach" },
+    { name: "Fountain Valley", population: "55,313", medianIncome: "$90,824", link: "/debt-settlement-fountain-valley" },
+    { name: "Yorba Linda", population: "68,336", medianIncome: "$122,818", link: "/debt-settlement-yorba-linda" },
+    { name: "Dana Point", population: "33,107", medianIncome: "$96,924", link: "/debt-settlement-dana-point" },
+    { name: "Laguna Niguel", population: "64,355", medianIncome: "$108,949", link: "/debt-settlement-laguna-niguel" },
+    { name: "Seal Beach", population: "23,896", medianIncome: "$71,776", link: "/debt-settlement-seal-beach" },
+    { name: "Laguna Woods", population: "16,192", medianIncome: "$52,338", link: "/debt-settlement-laguna-woods" }
   ],
   debtStatistics: {
     averageDebt: "$47,820",
@@ -155,22 +161,22 @@ export default function OrangeCountyHub() {
               </h2>
               
               <div className="grid md:grid-cols-3 gap-6 mb-12">
-                <div className="bg-white p-6 border border-neutral-200">
-                  <Users className="w-8 h-8 text-black mb-4" />
+                <div className="bg-white p-6 border border-neutral-200 text-center">
+                  <Users className="w-8 h-8 text-black mb-4 mx-auto" />
                   <div className="text-3xl font-mono text-black mb-2">{countyData.overview.population}</div>
                   <div className="text-sm text-neutral-600">Total Population</div>
                   <div className="text-xs text-neutral-500 mt-2">3rd largest county in California</div>
                 </div>
                 
-                <div className="bg-white p-6 border border-neutral-200">
-                  <DollarSign className="w-8 h-8 text-black mb-4" />
+                <div className="bg-white p-6 border border-neutral-200 text-center">
+                  <DollarSign className="w-8 h-8 text-black mb-4 mx-auto" />
                   <div className="text-3xl font-mono text-black mb-2">{countyData.overview.medianIncome}</div>
                   <div className="text-sm text-neutral-600">Median Household Income</div>
                   <div className="text-xs text-neutral-500 mt-2">28% above national average</div>
                 </div>
                 
-                <div className="bg-white p-6 border border-neutral-200">
-                  <Home className="w-8 h-8 text-black mb-4" />
+                <div className="bg-white p-6 border border-neutral-200 text-center">
+                  <Home className="w-8 h-8 text-black mb-4 mx-auto" />
                   <div className="text-3xl font-mono text-black mb-2">{countyData.overview.medianHomePrice}</div>
                   <div className="text-sm text-neutral-600">Median Home Price</div>
                   <div className="text-xs text-neutral-500 mt-2">Top 5 most expensive in US</div>
@@ -283,37 +289,37 @@ export default function OrangeCountyHub() {
               </h2>
               
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-                <div className="bg-white p-6 border border-neutral-200">
+                <div className="bg-white p-6 border border-neutral-200 text-center">
                   <div className="text-xs font-mono uppercase text-neutral-600 mb-2">Average Total Debt</div>
                   <div className="text-3xl font-mono text-black mb-2">{countyData.debtStatistics.averageDebt}</div>
                   <div className="text-xs text-neutral-500">Per household (excluding mortgage)</div>
                 </div>
                 
-                <div className="bg-white p-6 border border-neutral-200">
+                <div className="bg-white p-6 border border-neutral-200 text-center">
                   <div className="text-xs font-mono uppercase text-neutral-600 mb-2">Credit Card Debt</div>
                   <div className="text-3xl font-mono text-black mb-2">{countyData.debtStatistics.creditCardDebt}</div>
                   <div className="text-xs text-neutral-500">Average balance per card holder</div>
                 </div>
                 
-                <div className="bg-white p-6 border border-neutral-200">
+                <div className="bg-white p-6 border border-neutral-200 text-center">
                   <div className="text-xs font-mono uppercase text-neutral-600 mb-2">Student Loan Debt</div>
                   <div className="text-3xl font-mono text-black mb-2">{countyData.debtStatistics.studentLoanDebt}</div>
                   <div className="text-xs text-neutral-500">Average per borrower</div>
                 </div>
                 
-                <div className="bg-white p-6 border border-neutral-200">
+                <div className="bg-white p-6 border border-neutral-200 text-center">
                   <div className="text-xs font-mono uppercase text-neutral-600 mb-2">Auto Loan Debt</div>
                   <div className="text-3xl font-mono text-black mb-2">{countyData.debtStatistics.autoLoanDebt}</div>
                   <div className="text-xs text-neutral-500">Average loan balance</div>
                 </div>
                 
-                <div className="bg-white p-6 border border-neutral-200">
+                <div className="bg-white p-6 border border-neutral-200 text-center">
                   <div className="text-xs font-mono uppercase text-neutral-600 mb-2">Mortgage Debt</div>
                   <div className="text-3xl font-mono text-black mb-2">{countyData.debtStatistics.mortgageDebt}</div>
                   <div className="text-xs text-neutral-500">Median mortgage balance</div>
                 </div>
                 
-                <div className="bg-white p-6 border border-neutral-200">
+                <div className="bg-white p-6 border border-neutral-200 text-center">
                   <div className="text-xs font-mono uppercase text-neutral-600 mb-2">Delinquency Rate</div>
                   <div className="text-3xl font-mono text-black mb-2">{countyData.debtStatistics.delinquencyRate}</div>
                   <div className="text-xs text-neutral-500">90+ days past due</div>
