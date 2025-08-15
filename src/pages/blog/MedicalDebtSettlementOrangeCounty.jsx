@@ -2,8 +2,16 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Heart, AlertCircle, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function MedicalDebtSettlementOrangeCounty() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
@@ -81,7 +89,7 @@ export default function MedicalDebtSettlementOrangeCounty() {
                     </div>
                     <div>
                       <div className="text-2xl font-mono text-red-800 mb-1">67%</div>
-                      <div class="text-xs text-red-700">Had Insurance When Debt Occurred</div>
+                      <div className="text-xs text-red-700">Had Insurance When Debt Occurred</div>
                     </div>
                   </div>
                 </div>
@@ -512,6 +520,24 @@ export default function MedicalDebtSettlementOrangeCounty() {
               <span className="text-xs font-mono text-neutral-500">11 min read</span>
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Schedule Debt Analysis Session */}
+      <section id="consultation" className="py-16 bg-white border-t border-neutral-200">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-light text-black mb-6">
+              Schedule Debt
+              <br />
+              <span className="font-mono">Analysis Session</span>
+            </h2>
+            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+              Get a personalized debt analysis from our Orange County specialists. 
+              No upfront fees, no obligations, completely confidential.
+            </p>
+          </div>
+          <ConsultationForm />
         </div>
       </section>
     </div>

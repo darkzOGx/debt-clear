@@ -1,8 +1,16 @@
 import React from 'react';
 import { ArrowLeft, Calendar, Clock, User, Briefcase } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function SmallBusinessDebtReliefOrangeCounty() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
@@ -102,7 +110,7 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
                 </div>
               </div>
             </div>
-            <h2 className="text-2xl font-semibant text-black mb-6 mt-12">Orange County SBA Resources</h2>
+            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Orange County SBA Resources</h2>
             <div className="bg-neutral-50 p-8 border border-neutral-200 mb-8">
               <h3 className="text-xl font-semibold text-black mb-4">Local SBA Support Centers</h3>
               <ul className="space-y-2 text-sm text-neutral-700">
@@ -139,6 +147,24 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
               <span className="text-xs font-mono text-neutral-500">15 min read</span>
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Schedule Debt Analysis Session */}
+      <section id="consultation" className="py-16 bg-white border-t border-neutral-200">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-light text-black mb-6">
+              Schedule Debt
+              <br />
+              <span className="font-mono">Analysis Session</span>
+            </h2>
+            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+              Get a personalized debt analysis from our Orange County specialists. 
+              No upfront fees, no obligations, completely confidential.
+            </p>
+          </div>
+          <ConsultationForm />
         </div>
       </section>
     </div>

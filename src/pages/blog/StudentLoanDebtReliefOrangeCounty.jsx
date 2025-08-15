@@ -1,8 +1,16 @@
 import React from 'react';
 import { ArrowLeft, Calendar, Clock, User, GraduationCap } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function StudentLoanDebtReliefOrangeCounty() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
@@ -36,7 +44,7 @@ export default function StudentLoanDebtReliefOrangeCounty() {
                 </div>
               </div>
             </div>
-            <h2 className="text-2xl font-semibant text-black mb-6 mt-12">Federal Loan Forgiveness Programs</h2>
+            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Federal Loan Forgiveness Programs</h2>
             <div className="space-y-6 mb-8">
               <div className="border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-3">Public Service Loan Forgiveness (PSLF)</h4>
@@ -49,11 +57,11 @@ export default function StudentLoanDebtReliefOrangeCounty() {
                 <div className="text-xs text-neutral-600"><strong>OC Qualifying Schools:</strong> Santa Ana USD, Anaheim Union High School District</div>
               </div>
             </div>
-            <h2 className="text-2xl font-semibant text-black mb-6 mt-12">Income-Driven Repayment Plans</h2>
+            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Income-Driven Repayment Plans</h2>
             <div className="bg-neutral-50 p-8 border border-neutral-200 mb-8">
-              <h3 className="text-xl font-semibant text-black mb-4">SAVE Plan (Replacing REPAYE)</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">SAVE Plan (Replacing REPAYE)</h3>
               <div className="grid md:grid-cols-2 gap-6 text-sm">
-                <div><h5 className="font-semibant text-black mb-2">Benefits:</h5>
+                <div><h5 className="font-semibold text-black mb-2">Benefits:</h5>
                   <ul className="text-neutral-700 space-y-1">
                     <li>• 5% of discretionary income (down from 10%)</li>
                     <li>• $0 payment if income ≤ 225% poverty level</li>
@@ -61,7 +69,7 @@ export default function StudentLoanDebtReliefOrangeCounty() {
                     <li>• Forgiveness after 20-25 years</li>
                   </ul>
                 </div>
-                <div><h5 className="font-semibant text-black mb-2">Example (OC resident):</h5>
+                <div><h5 className="font-semibold text-black mb-2">Example (OC resident):</h5>
                   <ul className="text-neutral-700 space-y-1">
                     <li>• Income: $60,000</li>
                     <li>• Family size: 2</li>
@@ -72,12 +80,30 @@ export default function StudentLoanDebtReliefOrangeCounty() {
               </div>
             </div>
             <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
-              <h3 className="text-xl font-semibant text-black mb-4">Student Loan Disclaimer</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">Student Loan Disclaimer</h3>
               <p className="text-sm text-neutral-600 leading-relaxed">Student loan laws and programs change frequently. This information is current as of publication but may not reflect the latest program updates. Individual eligibility varies. Always verify current program requirements with official sources and consult with qualified student loan counselors before making decisions.</p>
             </div>
           </div>
         </div>
       </article>
+
+      {/* Schedule Debt Analysis Session */}
+      <section id="consultation" className="py-16 bg-white border-t border-neutral-200">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-light text-black mb-6">
+              Schedule Debt
+              <br />
+              <span className="font-mono">Analysis Session</span>
+            </h2>
+            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+              Get a personalized debt analysis from our Orange County specialists. 
+              No upfront fees, no obligations, completely confidential.
+            </p>
+          </div>
+          <ConsultationForm />
+        </div>
+      </section>
     </div>
   );
 }

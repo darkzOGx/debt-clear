@@ -2,8 +2,16 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, CreditCard, TrendingDown, DollarSign } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function CreditCardDebtSettlementOrangeCounty() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
@@ -74,7 +82,7 @@ export default function CreditCardDebtSettlementOrangeCounty() {
                   <div className="grid md:grid-cols-4 gap-4 text-center">
                     <div>
                       <div className="text-2xl font-mono text-blue-800 mb-1">$8.9K</div>
-                      <div class="text-xs text-blue-700">Average CC Debt per Person</div>
+                      <div className="text-xs text-blue-700">Average CC Debt per Person</div>
                     </div>
                     <div>
                       <div className="text-2xl font-mono text-blue-800 mb-1">2.7</div>
@@ -367,7 +375,7 @@ export default function CreditCardDebtSettlementOrangeCounty() {
                 </div>
 
                 <div className="bg-white p-6 border border-blue-200">
-                  <h4 className="font-semibant text-blue-800 mb-4">Final Results Summary:</h4>
+                  <h4 className="font-semibold text-blue-800 mb-4">Final Results Summary:</h4>
                   <div className="grid md:grid-cols-3 gap-6 text-center">
                     <div>
                       <div className="text-2xl font-mono text-blue-800 mb-1">$43,200</div>
@@ -456,7 +464,7 @@ export default function CreditCardDebtSettlementOrangeCounty() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-semibant text-black mb-6 mt-12">Tax Implications for Orange County Residents</h2>
+            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Tax Implications for Orange County Residents</h2>
             
             <p className="text-neutral-700 leading-relaxed mb-6">
               Credit card debt forgiveness above $600 is typically reported as taxable income on Form 1099-C. 
@@ -531,6 +539,24 @@ export default function CreditCardDebtSettlementOrangeCounty() {
               <span className="text-xs font-mono text-neutral-500">9 min read</span>
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Schedule Debt Analysis Session */}
+      <section id="consultation" className="py-16 bg-white border-t border-neutral-200">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-light text-black mb-6">
+              Schedule Debt
+              <br />
+              <span className="font-mono">Analysis Session</span>
+            </h2>
+            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+              Get a personalized debt analysis from our Orange County specialists. 
+              No upfront fees, no obligations, completely confidential.
+            </p>
+          </div>
+          <ConsultationForm />
         </div>
       </section>
     </div>

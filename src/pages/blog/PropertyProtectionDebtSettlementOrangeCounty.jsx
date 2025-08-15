@@ -1,8 +1,16 @@
 import React from 'react';
 import { ArrowLeft, Calendar, Clock, User, Home } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function PropertyProtectionDebtSettlementOrangeCounty() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
@@ -21,7 +29,7 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
       <article className="py-16">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
-            <h2 className="text-2xl font-semibant text-black mb-6 mt-12">Orange County Real Estate Protection</h2>
+            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Orange County Real Estate Protection</h2>
             <p className="text-neutral-700 leading-relaxed mb-6">With median home values exceeding $1.2 million, Orange County homeowners have significant equity at stake during debt settlement. California's homestead exemption provides substantial protection for primary residences.</p>
             <div className="bg-emerald-50 border border-emerald-200 p-8 mb-8">
               <div className="flex items-start gap-3">
@@ -36,26 +44,26 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
                 </div>
               </div>
             </div>
-            <h2 className="text-2xl font-semibant text-black mb-6 mt-12">Asset Protection Strategies</h2>
+            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Asset Protection Strategies</h2>
             <div className="space-y-6 mb-8">
               <div className="border border-neutral-200 p-6">
-                <h4 className="font-semibant text-black mb-3">Retirement Account Protection</h4>
+                <h4 className="font-semibold text-black mb-3">Retirement Account Protection</h4>
                 <p className="text-sm text-neutral-700">401(k), 403(b), and pension plans are generally protected from creditors under ERISA. IRAs protected up to $1.36 million (2022 limit).</p>
               </div>
               <div className="border border-neutral-200 p-6">
-                <h4 className="font-semibant text-black mb-3">Personal Property Exemptions</h4>
+                <h4 className="font-semibold text-black mb-3">Personal Property Exemptions</h4>
                 <p className="text-sm text-neutral-700">Motor vehicles ($3,325), household goods ($8,000), jewelry ($8,000), and tools of trade are protected under California exemptions.</p>
               </div>
               <div className="border border-neutral-200 p-6">
-                <h4 className="font-semibant text-black mb-3">Life Insurance Protection</h4>
+                <h4 className="font-semibold text-black mb-3">Life Insurance Protection</h4>
                 <p className="text-sm text-neutral-700">Life insurance proceeds and cash values are generally protected from creditors when properly structured.</p>
               </div>
             </div>
-            <h2 className="text-2xl font-semibant text-black mb-6 mt-12">Orange County Case Example</h2>
+            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Orange County Case Example</h2>
             <div className="bg-blue-50 border border-blue-200 p-8 mb-8">
-              <h3 className="text-xl font-semibant text-blue-800 mb-4">Huntington Beach Professional</h3>
+              <h3 className="text-xl font-semibold text-blue-800 mb-4">Huntington Beach Professional</h3>
               <div className="grid md:grid-cols-2 gap-6 text-sm">
-                <div><h5 className="font-semibant text-black mb-2">Assets at Risk:</h5>
+                <div><h5 className="font-semibold text-black mb-2">Assets at Risk:</h5>
                   <ul className="text-neutral-700 space-y-1">
                     <li>• Home value: $1.8M</li>
                     <li>• Mortgage balance: $900K</li>
@@ -63,7 +71,7 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
                     <li>• 401(k): $450K</li>
                   </ul>
                 </div>
-                <div><h5 className="font-semibant text-black mb-2">Protection Strategy:</h5>
+                <div><h5 className="font-semibold text-black mb-2">Protection Strategy:</h5>
                   <ul className="text-neutral-700 space-y-1">
                     <li>• Homestead exemption: $600K protected</li>
                     <li>• Exposed equity: $300K</li>
@@ -74,12 +82,30 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
               </div>
             </div>
             <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
-              <h3 className="text-xl font-semibant text-black mb-4">Asset Protection Disclaimer</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">Asset Protection Disclaimer</h3>
               <p className="text-sm text-neutral-600 leading-relaxed">Asset protection laws are complex and vary by state and federal regulations. This information is for educational purposes only and does not constitute legal advice. Individual situations vary significantly. Always consult with qualified asset protection attorneys, estate planning professionals, and financial advisors before implementing protection strategies.</p>
             </div>
           </div>
         </div>
       </article>
+
+      {/* Schedule Debt Analysis Session */}
+      <section id="consultation" className="py-16 bg-white border-t border-neutral-200">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-light text-black mb-6">
+              Schedule Debt
+              <br />
+              <span className="font-mono">Analysis Session</span>
+            </h2>
+            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+              Get a personalized debt analysis from our Orange County specialists. 
+              No upfront fees, no obligations, completely confidential.
+            </p>
+          </div>
+          <ConsultationForm />
+        </div>
+      </section>
     </div>
   );
 }

@@ -2,8 +2,16 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, CheckCircle, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function ChooseDebtSettlementCompanyOrangeCounty() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
@@ -311,7 +319,7 @@ export default function ChooseDebtSettlementCompanyOrangeCounty() {
               </div>
 
               <div className="bg-purple-50 border border-purple-200 p-6">
-                <h4 className="font-semibant text-purple-800 mb-4">Contract Terms</h4>
+                <h4 className="font-semibold text-purple-800 mb-4">Contract Terms</h4>
                 <div className="space-y-2 text-sm text-purple-700">
                   <label className="flex items-center gap-2">
                     <input type="checkbox" className="w-4 h-4" />
@@ -408,12 +416,12 @@ export default function ChooseDebtSettlementCompanyOrangeCounty() {
             No upfront fees, no obligations.
           </p>
           
-          <Link 
-            to="/#consultation"
+          <button 
+            onClick={scrollToConsultation}
             className="inline-flex items-center gap-3 bg-white text-black px-8 py-4 font-mono text-sm uppercase tracking-wide hover:bg-neutral-100 transition-colors"
           >
             Schedule Free Consultation
-          </Link>
+          </button>
         </div>
       </section>
 
@@ -449,6 +457,24 @@ export default function ChooseDebtSettlementCompanyOrangeCounty() {
               <span className="text-xs font-mono text-neutral-500">12 min read</span>
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Schedule Debt Analysis Session */}
+      <section id="consultation" className="py-16 bg-white border-t border-neutral-200">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-light text-black mb-6">
+              Schedule Debt
+              <br />
+              <span className="font-mono">Analysis Session</span>
+            </h2>
+            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+              Get a personalized debt analysis from our Orange County specialists. 
+              No upfront fees, no obligations, completely confidential.
+            </p>
+          </div>
+          <ConsultationForm />
         </div>
       </section>
     </div>

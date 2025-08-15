@@ -1,8 +1,16 @@
 import React from 'react';
 import { ArrowLeft, Calendar, Clock, User, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function DebtSettlementSeniorsOrangeCounty() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
@@ -50,7 +58,7 @@ export default function DebtSettlementSeniorsOrangeCounty() {
                 </div>
               </div>
             </div>
-            <h2 className="text-2xl font-semibant text-black mb-6 mt-12">Senior-Specific Protections</h2>
+            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Senior-Specific Protections</h2>
             <div className="space-y-6 mb-8">
               <div className="border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-3">Social Security Protection</h4>
@@ -79,7 +87,7 @@ export default function DebtSettlementSeniorsOrangeCounty() {
                   </ul>
                 </div>
                 <div>
-                  <h5 className="font-semibant text-black mb-2">Outcome:</h5>
+                  <h5 className="font-semibold text-black mb-2">Outcome:</h5>
                   <ul className="text-neutral-700 space-y-1">
                     <li>• Medical debt: 80% reduction</li>
                     <li>• Credit cards: 65% reduction</li>
@@ -89,9 +97,9 @@ export default function DebtSettlementSeniorsOrangeCounty() {
                 </div>
               </div>
             </div>
-            <h2 className="text-2xl font-semibant text-black mb-6 mt-12">Orange County Senior Resources</h2>
+            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Orange County Senior Resources</h2>
             <div className="bg-neutral-50 p-8 border border-neutral-200 mb-8">
-              <h3 className="text-xl font-semibant text-black mb-4">Local Senior Support</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">Local Senior Support</h3>
               <ul className="space-y-2 text-sm text-neutral-700">
                 <li>• <strong>Orange County on Aging:</strong> Financial counseling and assistance programs</li>
                 <li>• <strong>AARP Foundation Tax-Aide:</strong> Free tax preparation for seniors</li>
@@ -111,6 +119,24 @@ export default function DebtSettlementSeniorsOrangeCounty() {
           </div>
         </div>
       </article>
+
+      {/* Schedule Debt Analysis Session */}
+      <section id="consultation" className="py-16 bg-white border-t border-neutral-200">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-light text-black mb-6">
+              Schedule Debt
+              <br />
+              <span className="font-mono">Analysis Session</span>
+            </h2>
+            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+              Get a personalized debt analysis from our Orange County specialists. 
+              No upfront fees, no obligations, completely confidential.
+            </p>
+          </div>
+          <ConsultationForm />
+        </div>
+      </section>
     </div>
   );
 }
