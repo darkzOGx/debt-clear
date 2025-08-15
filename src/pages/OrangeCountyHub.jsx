@@ -84,7 +84,7 @@ const countyData = {
 export default function OrangeCountyHub() {
   const [selectedTab, setSelectedTab] = useState('overview');
   const [cityStartIndex, setCityStartIndex] = useState(0);
-  const citiesPerPage = 5;
+  const citiesPerPage = 3;
 
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');
