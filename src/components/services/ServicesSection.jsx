@@ -100,6 +100,42 @@ export default function ServicesSection({ onScrollToConsultation }) {
       description: "Family community debt relief specialists",
       link: "/debt-settlement-fountain-valley",
       zipCodes: "92708"
+    },
+    {
+      name: "Laguna Beach",
+      description: "Artistic coastal community debt settlement",
+      link: "/debt-settlement-laguna-beach",
+      zipCodes: "92651-92652"
+    },
+    {
+      name: "Yorba Linda",
+      description: "Suburban family debt relief services",
+      link: "/debt-settlement-yorba-linda",
+      zipCodes: "92886-92887"
+    },
+    {
+      name: "Dana Point",
+      description: "Harbor community debt settlement specialists",
+      link: "/debt-settlement-dana-point",
+      zipCodes: "92629"
+    },
+    {
+      name: "Laguna Niguel",
+      description: "Master-planned community financial solutions",
+      link: "/debt-settlement-laguna-niguel",
+      zipCodes: "92677"
+    },
+    {
+      name: "Seal Beach",
+      description: "Beachfront community debt relief programs",
+      link: "/debt-settlement-seal-beach",
+      zipCodes: "90740"
+    },
+    {
+      name: "Laguna Woods",
+      description: "Senior community specialized debt services",
+      link: "/debt-settlement-laguna-woods",
+      zipCodes: "92637"
     }
   ];
 
