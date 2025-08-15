@@ -154,14 +154,14 @@ export default function ServicesSection({ onScrollToConsultation }) {
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Orange County Debt Research:
+            County Debt Settlement:
             <br />
-            <span className="font-mono">Analysis & Reduction in Months</span>
+            <span className="font-mono">Debt Relief for County Residents</span>
           </h2>
           
           <p className="text-lg text-neutral-600 max-w-2xl font-light">
-            Unlike national debt settlement companies, we specialize in Orange County's unique economic landscape. 
-            Our AI-powered approach combines local market knowledge with advanced technology for superior results.
+            Unlike national debt settlement companies, we specialize in orange county debt and debt profile analysis for county residents. 
+            Our county debt settlement approach combines local market knowledge with advanced technology for superior debt relief results.
           </p>
         </div>
 

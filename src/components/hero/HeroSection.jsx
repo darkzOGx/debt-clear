@@ -33,13 +33,13 @@ export default function HeroSection({ onScrollToCalculator, onScrollToConsultati
             <h1 className="text-5xl lg:text-6xl xl:text-7xl font-light tracking-tight text-black mb-6 leading-[0.9]">
               Orange County Debt
               <br />
-              <span className="font-mono text-4xl lg:text-5xl xl:text-6xl">Reduction & Analysis</span>
+              <span className="font-mono text-4xl lg:text-5xl xl:text-6xl">Settlement & Relief</span>
             </h1>
 
             {/* Subheadline */}
             <p className="text-lg lg:text-xl text-neutral-700 max-w-2xl mb-8 leading-relaxed font-light">
-              <strong>Research-based debt reduction analysis</strong> for Orange County residents. Expert debt profile analysis and research-driven 
-              strategies achieve 50% debt reduction in 12-24 months. Licensed, bonded, and trusted by over 1,200+ county residents.
+              <strong>County debt settlement & debt relief</strong> for Orange County residents. Expert debt profile analysis and county debt settlement 
+              strategies reduce orange county debt by 50% in months. Licensed, bonded, and trusted by over 1,200+ county residents.
             </p>
 
             {/* CTA */}
