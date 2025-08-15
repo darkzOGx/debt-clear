@@ -64,24 +64,24 @@ export default function Home() {
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-2 h-2 bg-white"></div>
                 <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
-                  Debt Settlement Research Laboratory
+                  Debt Settlement & Debt Relief Research Laboratory
                 </span>
               </div>
               
               <h3 className="text-2xl font-light mb-6 leading-tight">
                 Orange County
                 <br />
-                <span className="font-mono">Debt Settlement Specialists</span>
+                <span className="font-mono">Debt Settlement & Relief Specialists</span>
               </h3>
               
               <div className="text-sm text-neutral-400 leading-relaxed mb-6">
-                Licensed debt settlement services serving Orange County residents with 
+                Licensed debt settlement and debt relief services serving Orange County residents with 
                 AI-powered negotiation and local market expertise.
               </div>
 
               <div className="grid grid-cols-1 gap-2 text-sm">
                 <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4 text-center">
-                  Orange County Services
+                  Orange County Debt Settlement & Relief Services
                 </div>
                 <div className="grid grid-cols-6 gap-2">
                   <div className="space-y-1 text-center">

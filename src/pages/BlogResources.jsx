@@ -8,24 +8,24 @@ export default function BlogResources() {
   const [categoryStartIndex, setCategoryStartIndex] = useState(0);
   const articles = [
     {
-      title: "Orange County Debt Settlement Laws: What You Need to Know",
-      excerpt: "Understanding California's debt settlement regulations and how they protect Orange County residents from predatory practices.",
+      title: "Orange County Debt Settlement & Debt Relief Laws: What You Need to Know",
+      excerpt: "Understanding California's debt settlement and debt relief regulations and how they protect Orange County residents from predatory practices.",
       slug: "/blog/orange-county-debt-settlement-laws",
       date: "Aug 15, 2025",
       readTime: "8 min read",
       category: "Legal Guide"
     },
     {
-      title: "AI vs Traditional Debt Settlement: Orange County Case Studies",
-      excerpt: "Real results comparing AI-powered debt negotiation with traditional companies for Orange County families.",
+      title: "AI vs Traditional Debt Settlement & Debt Relief: Orange County Case Studies",
+      excerpt: "Real results comparing AI-powered debt settlement and debt relief with traditional companies for Orange County families.",
       slug: "/blog/ai-vs-traditional-debt-settlement",
       date: "Aug 14, 2025", 
       readTime: "12 min read",
       category: "Technology"
     },
     {
-      title: "How to Choose a Debt Settlement Company in Orange County",
-      excerpt: "Essential criteria for selecting a debt settlement provider, including licensing, fees, and success rates.",
+      title: "How to Choose a Debt Settlement & Debt Relief Company in Orange County",
+      excerpt: "Essential criteria for selecting a debt settlement and debt relief provider, including licensing, fees, and success rates.",
       slug: "/blog/choose-debt-settlement-company-orange-county",
       date: "Aug 13, 2025",
       readTime: "10 min read",
@@ -504,11 +504,11 @@ export default function BlogResources() {
           <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
             Orange County
             <br />
-            <span className="font-mono text-3xl lg:text-4xl">Debt Relief Resources</span>
+            <span className="font-mono text-3xl lg:text-4xl">Debt Settlement & Relief Resources</span>
           </h1>
 
           <p className="text-xl text-neutral-700 leading-relaxed font-light max-w-3xl mx-auto">
-            Comprehensive guides, case studies, and expert insights on debt settlement, consumer protection, 
+            Comprehensive guides, case studies, and expert insights on debt settlement, debt relief, consumer protection, 
             and financial recovery specifically for Orange County residents.
           </p>
         </div>

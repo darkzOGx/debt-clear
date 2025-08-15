@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, MapPin } from 'lucide-react';
@@ -7,6 +7,14 @@ import ConsultationForm from '../components/consultation/ConsultationForm';
 
 export default function AnaheimDebtSettlement() {
   const consultationRef = useRef(null);
+
+  useEffect(() => {
+    document.title = 'Anaheim Debt Settlement & Debt Relief Services - Licensed CA';
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Professional debt settlement and debt relief services in Anaheim, CA. Reduce debt up to 60% with our AI-powered debt settlement solutions. Free consultation for Anaheim residents.');
+    }
+  }, []);
 
   const scrollToConsultation = () => {
     consultationRef.current?.scrollIntoView({ 
@@ -30,21 +38,21 @@ export default function AnaheimDebtSettlement() {
             <div className="inline-flex items-center gap-3 mb-8">
               <MapPin className="w-4 h-4 text-black" />
               <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-                ANAHEIM DEBT SETTLEMENT SERVICES
+                ANAHEIM DEBT SETTLEMENT & DEBT RELIEF SERVICES
               </span>
             </div>
 
             {/* Main Headline */}
             <h1 className="text-5xl lg:text-6xl font-light tracking-tight text-black mb-8 leading-[0.9]">
-              Debt Settlement
+              Anaheim Debt Settlement
               <br />
-              <span className="font-mono text-4xl lg:text-5xl">Anaheim, CA</span>
+              <span className="font-mono text-4xl lg:text-5xl">& Debt Relief</span>
             </h1>
 
             {/* Subheadline */}
             <p className="text-xl text-neutral-700 max-w-3xl mx-auto mb-12 leading-relaxed font-light">
-              Serving Anaheim residents with AI-powered debt relief solutions. Our local expertise 
-              combined with advanced technology helps reduce your debt by up to 60% faster than traditional companies.
+              Serving Anaheim residents with AI-powered debt settlement and debt relief solutions. Our local debt settlement expertise 
+              combined with advanced debt relief technology helps reduce your debt by up to 60% faster than traditional companies.
             </p>
 
             {/* CTA Buttons */}
@@ -53,7 +61,7 @@ export default function AnaheimDebtSettlement() {
                 onClick={scrollToConsultation}
                 className="bg-black hover:bg-neutral-800 text-white px-8 py-6 text-base font-mono uppercase tracking-wide"
               >
-                Free Anaheim Debt Analysis
+                Free Anaheim Debt Settlement Analysis
                 <ArrowRight className="w-4 h-4 ml-3" />
               </Button>
               <Link 
@@ -73,10 +81,10 @@ export default function AnaheimDebtSettlement() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-light text-black mb-4">
-              Anaheim Debt Settlement <span className="font-mono">Results</span>
+              Anaheim Debt Settlement & <span className="font-mono">Debt Relief Results</span>
             </h2>
             <p className="text-neutral-600 max-w-2xl mx-auto">
-              Real results for Anaheim families struggling with debt
+              Real debt settlement and debt relief results for Anaheim families struggling with debt
             </p>
           </div>
 

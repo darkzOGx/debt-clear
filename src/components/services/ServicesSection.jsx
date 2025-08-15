@@ -33,109 +33,109 @@ export default function ServicesSection({ onScrollToConsultation }) {
   const cityServices = [
     {
       name: "Anaheim",
-      description: "Debt settlement for Disney area residents and families",
+      description: "Debt settlement and debt relief for Disney area residents and families",
       link: "/debt-settlement-anaheim",
       zipCodes: "92801-92899"
     },
     {
       name: "Santa Ana",
-      description: "County seat debt relief with bilingual services",
+      description: "County seat debt settlement and debt relief with bilingual services",
       link: "/debt-settlement-santa-ana", 
       zipCodes: "92701-92799"
     },
     {
       name: "Irvine",
-      description: "Tech professional and high-income debt solutions",
+      description: "Tech professional debt settlement and high-income debt relief solutions",
       link: "/debt-settlement-irvine",
       zipCodes: "92602-92697"
     },
     {
       name: "Huntington Beach",
-      description: "Coastal community debt settlement specialists",
+      description: "Coastal community debt settlement and debt relief specialists",
       link: "/debt-settlement-huntington-beach",
       zipCodes: "92605-92649"
     },
     {
       name: "Garden Grove",
-      description: "Diverse community debt relief programs",
+      description: "Diverse community debt settlement and debt relief programs",
       link: "/debt-settlement-garden-grove",
       zipCodes: "92840-92845"
     },
     {
       name: "Fullerton",
-      description: "Educational community and student debt specialists",
+      description: "Educational community debt settlement and student debt relief specialists",
       link: "/debt-settlement-fullerton",
       zipCodes: "92831-92837"
     },
     {
       name: "Orange",
-      description: "Historic Circle City debt settlement services",
+      description: "Historic Circle City debt settlement and debt relief services",
       link: "/debt-settlement-orange",
       zipCodes: "92856-92869"
     },
     {
       name: "Costa Mesa",
-      description: "Business district professionals and entrepreneurs",
+      description: "Business district debt settlement and debt relief for professionals",
       link: "/debt-settlement-costa-mesa",
       zipCodes: "92626-92628"
     },
     {
       name: "Mission Viejo",
-      description: "Family-oriented community financial solutions",
+      description: "Family-oriented debt settlement and debt relief solutions",
       link: "/debt-settlement-mission-viejo",
       zipCodes: "92691-92694"
     },
     {
       name: "Westminster",
-      description: "Multicultural community debt relief services",
+      description: "Multicultural community debt settlement and debt relief services",
       link: "/debt-settlement-westminster",
       zipCodes: "92683-92685"
     },
     {
       name: "Newport Beach",
-      description: "Luxury coastal debt settlement for high-net-worth",
+      description: "Luxury coastal debt settlement and debt relief for high-net-worth",
       link: "/debt-settlement-newport-beach",
       zipCodes: "92625-92663"
     },
     {
       name: "Fountain Valley",
-      description: "Family community debt relief specialists",
+      description: "Family community debt settlement and debt relief specialists",
       link: "/debt-settlement-fountain-valley",
       zipCodes: "92708"
     },
     {
       name: "Laguna Beach",
-      description: "Artistic coastal community debt settlement",
+      description: "Artistic coastal community debt settlement and debt relief",
       link: "/debt-settlement-laguna-beach",
       zipCodes: "92651-92652"
     },
     {
       name: "Yorba Linda",
-      description: "Suburban family debt relief services",
+      description: "Suburban family debt settlement and debt relief services",
       link: "/debt-settlement-yorba-linda",
       zipCodes: "92886-92887"
     },
     {
       name: "Dana Point",
-      description: "Harbor community debt settlement specialists",
+      description: "Harbor community debt settlement and debt relief specialists",
       link: "/debt-settlement-dana-point",
       zipCodes: "92629"
     },
     {
       name: "Laguna Niguel",
-      description: "Master-planned community financial solutions",
+      description: "Master-planned community debt settlement and debt relief solutions",
       link: "/debt-settlement-laguna-niguel",
       zipCodes: "92677"
     },
     {
       name: "Seal Beach",
-      description: "Beachfront community debt relief programs",
+      description: "Beachfront community debt settlement and debt relief programs",
       link: "/debt-settlement-seal-beach",
       zipCodes: "90740"
     },
     {
       name: "Laguna Woods",
-      description: "Senior community specialized debt services",
+      description: "Senior community specialized debt settlement and debt relief services",
       link: "/debt-settlement-laguna-woods",
       zipCodes: "92637"
     }
@@ -149,19 +149,19 @@ export default function ServicesSection({ onScrollToConsultation }) {
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
             <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-              ORANGE COUNTY DEBT RELIEF SERVICES
+              ORANGE COUNTY DEBT SETTLEMENT & DEBT RELIEF SERVICES
             </span>
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Orange County Debt Relief:
+            Orange County Debt Settlement:
             <br />
-            <span className="font-mono">Expert Analysis & Reduction</span>
+            <span className="font-mono">Expert Debt Relief & Analysis</span>
           </h2>
           
           <p className="text-lg text-neutral-600 max-w-2xl font-light">
-            Unlike national debt settlement companies, we specialize in Orange County's unique economic landscape. 
-            Our AI-powered approach combines local market knowledge with advanced technology for superior results.
+            Unlike national debt settlement companies, we specialize in Orange County debt settlement and debt relief services. 
+            Our AI-powered debt settlement approach combines local market knowledge with advanced debt relief technology for superior results.
           </p>
         </div>
 
