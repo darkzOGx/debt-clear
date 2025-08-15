@@ -154,9 +154,9 @@ export default function ServicesSection({ onScrollToConsultation }) {
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Orange County Debt Relief:
+            Orange County Debt Research:
             <br />
-            <span className="font-mono">Expert Analysis & Reduction</span>
+            <span className="font-mono">Analysis & Reduction in Months</span>
           </h2>
           
           <p className="text-lg text-neutral-600 max-w-2xl font-light">
