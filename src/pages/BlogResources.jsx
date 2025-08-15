@@ -555,6 +555,35 @@ export default function BlogResources() {
         </div>
       </section>
 
+      {/* Browse by Category */}
+      <section className="py-12 bg-neutral-50 border-t border-neutral-200">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <h2 className="text-2xl font-light text-black mb-8">Browse by Category</h2>
+          
+          <div className="grid md:grid-cols-4 gap-4">
+            {categories.map((category, index) => (
+              <button 
+                key={index}
+                onClick={() => setSelectedCategory(category)}
+                className={`p-4 border transition-colors cursor-pointer text-center ${
+                  selectedCategory === category 
+                    ? 'bg-black text-white border-black' 
+                    : 'bg-white border-neutral-200 hover:border-black'
+                }`}
+              >
+                <span className={`text-sm font-mono ${
+                  selectedCategory === category 
+                    ? 'text-white' 
+                    : 'text-neutral-700 hover:text-black'
+                }`}>
+                  {category}
+                </span>
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Category Filter Summary */}
       {selectedCategory !== 'All' && (
         <section className="py-8 bg-white border-b border-neutral-200">
@@ -636,34 +665,6 @@ export default function BlogResources() {
         </div>
       </section>
 
-      {/* Categories Filter */}
-      <section className="py-12 bg-neutral-50 border-t border-neutral-200">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <h2 className="text-2xl font-light text-black mb-8">Browse by Category</h2>
-          
-          <div className="grid md:grid-cols-4 gap-4">
-            {categories.map((category, index) => (
-              <button 
-                key={index}
-                onClick={() => setSelectedCategory(category)}
-                className={`p-4 border transition-colors cursor-pointer text-center ${
-                  selectedCategory === category 
-                    ? 'bg-black text-white border-black' 
-                    : 'bg-white border-neutral-200 hover:border-black'
-                }`}
-              >
-                <span className={`text-sm font-mono ${
-                  selectedCategory === category 
-                    ? 'text-white' 
-                    : 'text-neutral-700 hover:text-black'
-                }`}>
-                  {category}
-                </span>
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Newsletter Signup */}
       <section className="py-12 bg-black text-white">
