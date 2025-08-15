@@ -27,34 +27,42 @@ export default function NewsletterSignup() {
     setError('');
 
     try {
-      // Using Formspree for email collection (same service as consultation form)
-      const response = await fetch('https://formspree.io/f/mwpkkbpn', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          email: email,
-          type: 'newsletter_subscription',
-          source: 'debt-clear-website',
-          timestamp: new Date().toISOString()
-        }),
-      });
-
-      if (response.ok) {
-        setShowSuccess(true);
-        setEmail('');
-        
-        // Store in localStorage to track subscriptions
-        const subscriptions = JSON.parse(localStorage.getItem('newsletter_subscriptions') || '[]');
-        subscriptions.push({
-          email: email,
-          date: new Date().toISOString()
-        });
-        localStorage.setItem('newsletter_subscriptions', JSON.stringify(subscriptions));
-      } else {
-        throw new Error('Subscription failed');
+      // For now, we'll store locally and show success
+      // In production, replace with your actual email service endpoint
+      
+      // Simulate API call delay
+      await new Promise(resolve => setTimeout(resolve, 500));
+      
+      // Store in localStorage to track subscriptions
+      const subscriptions = JSON.parse(localStorage.getItem('newsletter_subscriptions') || '[]');
+      
+      // Check if already subscribed
+      if (subscriptions.some(sub => sub.email === email)) {
+        setError('This email is already subscribed!');
+        setIsLoading(false);
+        return;
       }
+      
+      subscriptions.push({
+        email: email,
+        date: new Date().toISOString()
+      });
+      localStorage.setItem('newsletter_subscriptions', JSON.stringify(subscriptions));
+      
+      // Log for testing (remove in production)
+      console.log('Newsletter subscription added:', email);
+      console.log('Total subscriptions:', subscriptions.length);
+      
+      setShowSuccess(true);
+      setEmail('');
+      
+      // Optional: Send to a webhook or API endpoint when available
+      // You can integrate with services like:
+      // - Mailchimp: https://mailchimp.com/developer/
+      // - SendGrid: https://sendgrid.com/
+      // - ConvertKit: https://developers.convertkit.com/
+      // - Or create your own backend endpoint
+      
     } catch (err) {
       setError('Something went wrong. Please try again later.');
       console.error('Newsletter subscription error:', err);
