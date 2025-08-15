@@ -87,20 +87,9 @@ export default function StudentLoanDebtReliefOrangeCounty() {
         </div>
       </article>
 
-      {/* Schedule Debt Analysis Session */}
-      <section id="consultation" className="py-16 bg-white border-t border-neutral-200">
+      {/* Research Consultation */}
+      <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-light text-black mb-6">
-              Schedule Debt
-              <br />
-              <span className="font-mono">Analysis Session</span>
-            </h2>
-            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-              Get a personalized debt analysis from our Orange County specialists. 
-              No upfront fees, no obligations, completely confidential.
-            </p>
-          </div>
           <ConsultationForm />
         </div>
       </section>
