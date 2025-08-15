@@ -48,7 +48,7 @@ export default function Home() {
       <BlogSection />
 
       {/* Consultation Form */}
-      <div ref={consultationRef}>
+      <div id="consultation" ref={consultationRef}>
         <ConsultationForm />
       </div>
 

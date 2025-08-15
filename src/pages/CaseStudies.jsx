@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, TrendingDown, Clock, Shield, Award, ChevronRight, Filter } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const caseStudies = [
   {
@@ -136,6 +136,7 @@ const categories = ["All", "Credit Card Debt", "Medical Debt", "Business Debt", 
 export default function CaseStudies() {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedStudy, setSelectedStudy] = useState(null);
+  const navigate = useNavigate();
 
   const filteredStudies = selectedCategory === "All" 
     ? caseStudies 
@@ -148,6 +149,20 @@ export default function CaseStudies() {
       minimumFractionDigits: 0,
       maximumFractionDigits: 0,
     }).format(amount);
+  };
+
+  const handleStartSuccessStory = () => {
+    navigate('/');
+    // Scroll to consultation form after navigation
+    setTimeout(() => {
+      const consultationElement = document.getElementById('consultation');
+      if (consultationElement) {
+        consultationElement.scrollIntoView({ 
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    }, 100); // Small delay to ensure page has loaded
   };
 
   return (
@@ -389,15 +404,15 @@ export default function CaseStudies() {
               </div>
 
               <div className="mt-8 pt-8 border-t border-neutral-200">
-                <Link
-                  to="/get-started"
+                <button
+                  onClick={handleStartSuccessStory}
                   className="inline-flex items-center gap-2 bg-black text-white px-6 py-3 hover:bg-neutral-800 transition-colors"
                 >
                   <span className="font-mono text-sm uppercase tracking-wide">
                     Start Your Success Story
                   </span>
                   <ArrowRight className="w-4 h-4" />
-                </Link>
+                </button>
               </div>
             </div>
           </motion.div>
