@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { MapPin, TrendingUp, Users, Building2, DollarSign, Home, Briefcase, GraduationCap, Heart, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+// Orange County comprehensive data and statistics
 const countyData = {
   overview: {
     population: "3,186,989",
