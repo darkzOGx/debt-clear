@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeft, Calendar, Clock, User, Timeline } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function DebtSettlementTimelineOrangeCounty() {
