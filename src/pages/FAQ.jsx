@@ -1,12 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, ChevronDown, ChevronUp, Phone, Clock, Shield, DollarSign, Mic, Search } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ConsultationForm from '../components/consultation/ConsultationForm';
 
 export default function FAQ() {
   const [openQuestion, setOpenQuestion] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [isListening, setIsListening] = useState(false);
+  const consultationRef = useRef(null);
 
   const faqCategories = [
     {
@@ -173,6 +175,13 @@ export default function FAQ() {
     if (window.voiceRecognition) {
       window.voiceRecognition.start();
     }
+  };
+
+  const scrollToConsultation = () => {
+    consultationRef.current?.scrollIntoView({ 
+      behavior: 'smooth',
+      block: 'start'
+    });
   };
 
   // Filter FAQs based on search query
@@ -378,7 +387,10 @@ export default function FAQ() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-black text-white px-8 py-4 hover:bg-neutral-800 transition-colors flex items-center gap-2 font-mono text-sm uppercase tracking-wide">
+              <button 
+                onClick={scrollToConsultation}
+                className="bg-black text-white px-8 py-4 hover:bg-neutral-800 transition-colors flex items-center gap-2 font-mono text-sm uppercase tracking-wide"
+              >
                 <Phone className="w-4 h-4" />
                 Free Consultation
                 <ArrowRight className="w-4 h-4" />
@@ -439,6 +451,11 @@ export default function FAQ() {
           </div>
         </div>
       </section>
+
+      {/* Schedule Debt Analysis Form */}
+      <div ref={consultationRef}>
+        <ConsultationForm />
+      </div>
 
       {/* Schema Markup for Voice Search SEO */}
       <script
