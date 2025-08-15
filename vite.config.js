@@ -24,46 +24,18 @@ export default defineConfig({
     },
   },
   build: {
-    target: 'esnext',
     sourcemap: false,
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true,
-        pure_funcs: ['console.log'],
-      },
-      mangle: {
-        safari10: true,
-      },
-    },
+    minify: 'esbuild',
     rollupOptions: {
       output: {
         manualChunks: {
           'react-vendor': ['react', 'react-dom', 'react-router-dom'],
           'ui-vendor': ['framer-motion', 'lucide-react'],
         },
-        // Optimize file names for caching
-        chunkFileNames: 'assets/[name]-[hash].js',
-        entryFileNames: 'assets/[name]-[hash].js',
-        assetFileNames: 'assets/[name]-[hash].[ext]',
       },
     },
-    chunkSizeWarningLimit: 500,
+    chunkSizeWarningLimit: 1000,
     cssCodeSplit: true,
-    assetsInlineLimit: 2048,
-    // Enable tree shaking
-    treeshake: {
-      moduleSideEffects: false,
-    },
-  },
-  // Optimize CSS processing
-  css: {
-    devSourcemap: false,
-    postcss: {
-      plugins: [
-        // Add autoprefixer for better browser compatibility
-      ],
-    },
+    assetsInlineLimit: 4096,
   }
 }) 
