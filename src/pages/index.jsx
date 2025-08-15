@@ -29,6 +29,16 @@ import DebtSettlementTimelineOrangeCounty from "./blog/DebtSettlementTimelineOra
 import DebtSettlementFeesOrangeCounty from "./blog/DebtSettlementFeesOrangeCounty";
 import CreditScoreRecoveryDebtSettlementOrangeCounty from "./blog/CreditScoreRecoveryDebtSettlementOrangeCounty";
 import DebtCollectionLawsOrangeCounty from "./blog/DebtCollectionLawsOrangeCounty";
+import CreditCardDebtReliefOrangeCounty2025 from "./blog/CreditCardDebtReliefOrangeCounty2025";
+import MedicalDebtReliefOrangeCounty2025 from "./blog/MedicalDebtReliefOrangeCounty2025";
+import OrangeCountyDebtConsolidation2025 from "./blog/OrangeCountyDebtConsolidation2025";
+import BusinessDebtReliefOrangeCounty2025 from "./blog/BusinessDebtReliefOrangeCounty2025";
+import OrangeCountyDebtLaws2025 from "./blog/OrangeCountyDebtLaws2025";
+import OrangeCountyForeclosureAlternatives2025 from "./blog/OrangeCountyForeclosureAlternatives2025";
+import OrangeCountySeniorDebtRelief2025 from "./blog/OrangeCountySeniorDebtRelief2025";
+import OrangeCountyTaxDebtRelief2025 from "./blog/OrangeCountyTaxDebtRelief2025";
+import OrangeCountyStudentLoanForgiveness2025 from "./blog/OrangeCountyStudentLoanForgiveness2025";
+import OrangeCountyBankruptcyAlternatives2025 from "./blog/OrangeCountyBankruptcyAlternatives2025";
 
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
@@ -62,6 +72,16 @@ const PAGES = {
     DebtSettlementFeesOrangeCounty: DebtSettlementFeesOrangeCounty,
     CreditScoreRecoveryDebtSettlementOrangeCounty: CreditScoreRecoveryDebtSettlementOrangeCounty,
     DebtCollectionLawsOrangeCounty: DebtCollectionLawsOrangeCounty,
+    CreditCardDebtReliefOrangeCounty2025: CreditCardDebtReliefOrangeCounty2025,
+    MedicalDebtReliefOrangeCounty2025: MedicalDebtReliefOrangeCounty2025,
+    OrangeCountyDebtConsolidation2025: OrangeCountyDebtConsolidation2025,
+    BusinessDebtReliefOrangeCounty2025: BusinessDebtReliefOrangeCounty2025,
+    OrangeCountyDebtLaws2025: OrangeCountyDebtLaws2025,
+    OrangeCountyForeclosureAlternatives2025: OrangeCountyForeclosureAlternatives2025,
+    OrangeCountySeniorDebtRelief2025: OrangeCountySeniorDebtRelief2025,
+    OrangeCountyTaxDebtRelief2025: OrangeCountyTaxDebtRelief2025,
+    OrangeCountyStudentLoanForgiveness2025: OrangeCountyStudentLoanForgiveness2025,
+    OrangeCountyBankruptcyAlternatives2025: OrangeCountyBankruptcyAlternatives2025,
     
 }
 
@@ -119,6 +139,16 @@ function PagesContent() {
                 <Route path="/blog/debt-settlement-fees-orange-county" element={<DebtSettlementFeesOrangeCounty />} />
                 <Route path="/blog/credit-score-recovery-debt-settlement-orange-county" element={<CreditScoreRecoveryDebtSettlementOrangeCounty />} />
                 <Route path="/blog/debt-collection-laws-orange-county" element={<DebtCollectionLawsOrangeCounty />} />
+                <Route path="/blog/credit-card-debt-relief-orange-county-2025" element={<CreditCardDebtReliefOrangeCounty2025 />} />
+                <Route path="/blog/medical-debt-relief-orange-county-2025" element={<MedicalDebtReliefOrangeCounty2025 />} />
+                <Route path="/blog/orange-county-debt-consolidation-2025" element={<OrangeCountyDebtConsolidation2025 />} />
+                <Route path="/blog/business-debt-relief-orange-county-2025" element={<BusinessDebtReliefOrangeCounty2025 />} />
+                <Route path="/blog/orange-county-debt-laws-2025" element={<OrangeCountyDebtLaws2025 />} />
+                <Route path="/blog/orange-county-foreclosure-alternatives-2025" element={<OrangeCountyForeclosureAlternatives2025 />} />
+                <Route path="/blog/orange-county-senior-debt-relief-2025" element={<OrangeCountySeniorDebtRelief2025 />} />
+                <Route path="/blog/orange-county-tax-debt-relief-2025" element={<OrangeCountyTaxDebtRelief2025 />} />
+                <Route path="/blog/orange-county-student-loan-forgiveness-2025" element={<OrangeCountyStudentLoanForgiveness2025 />} />
+                <Route path="/blog/orange-county-bankruptcy-alternatives-2025" element={<OrangeCountyBankruptcyAlternatives2025 />} />
                 
             </Routes>
         </Layout>

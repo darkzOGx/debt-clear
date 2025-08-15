@@ -124,6 +124,86 @@ export default function BlogResources() {
       date: "Jun 20, 2025",
       readTime: "10 min read",
       category: "Consumer Rights"
+    },
+    {
+      title: "Credit Card Debt Relief Orange County: Complete 2025 Guide",
+      excerpt: "Comprehensive strategies for Orange County residents struggling with credit card debt, including settlement options and AI-powered solutions.",
+      slug: "/blog/credit-card-debt-relief-orange-county-2025",
+      date: "Aug 15, 2025",
+      readTime: "14 min read",
+      category: "Credit Card Debt"
+    },
+    {
+      title: "Medical Debt Relief Orange County: Healthcare Debt Solutions",
+      excerpt: "Comprehensive guide to medical debt relief for Orange County residents, including hospital bill negotiations and insurance disputes.",
+      slug: "/blog/medical-debt-relief-orange-county-2025",
+      date: "Aug 15, 2025",
+      readTime: "13 min read",
+      category: "Medical Debt"
+    },
+    {
+      title: "Orange County Debt Consolidation: Complete 2025 Guide",
+      excerpt: "Comprehensive analysis of debt consolidation options for Orange County residents, including personal loans and balance transfers.",
+      slug: "/blog/orange-county-debt-consolidation-2025",
+      date: "Aug 15, 2025",
+      readTime: "16 min read",
+      category: "Debt Consolidation"
+    },
+    {
+      title: "Orange County Business Debt Relief: Small Business Solutions",
+      excerpt: "Comprehensive strategies for Orange County small businesses struggling with commercial debt, including SBA loan modifications.",
+      slug: "/blog/business-debt-relief-orange-county-2025",
+      date: "Aug 15, 2025",
+      readTime: "18 min read",
+      category: "Business Finance"
+    },
+    {
+      title: "Orange County Debt Laws 2025: Consumer Protection Guide",
+      excerpt: "Comprehensive overview of California debt collection laws, Orange County court procedures, and consumer rights for 2025.",
+      slug: "/blog/orange-county-debt-laws-2025",
+      date: "Aug 15, 2025",
+      readTime: "20 min read",
+      category: "Legal Guide"
+    },
+    {
+      title: "Orange County Foreclosure Alternatives: Save Your Home in 2025",
+      excerpt: "Comprehensive guide to foreclosure prevention in Orange County, including loan modifications and emergency assistance programs.",
+      slug: "/blog/orange-county-foreclosure-alternatives-2025",
+      date: "Aug 15, 2025",
+      readTime: "17 min read",
+      category: "Foreclosure Prevention"
+    },
+    {
+      title: "Orange County Senior Debt Relief: Fixed Income Solutions",
+      excerpt: "Specialized debt relief strategies for Orange County seniors on fixed incomes, including Social Security protection.",
+      slug: "/blog/orange-county-senior-debt-relief-2025",
+      date: "Aug 15, 2025",
+      readTime: "15 min read",
+      category: "Senior Finance"
+    },
+    {
+      title: "Orange County Tax Debt Relief: IRS & State Solutions",
+      excerpt: "Comprehensive guide to resolving IRS and California tax debt for Orange County residents, including installment agreements.",
+      slug: "/blog/orange-county-tax-debt-relief-2025",
+      date: "Aug 15, 2025",
+      readTime: "19 min read",
+      category: "Tax Relief"
+    },
+    {
+      title: "Orange County Student Loan Forgiveness: 2025 Relief Programs",
+      excerpt: "Complete guide to student loan forgiveness and relief programs for Orange County residents, including PSLF updates.",
+      slug: "/blog/orange-county-student-loan-forgiveness-2025",
+      date: "Aug 15, 2025",
+      readTime: "22 min read",
+      category: "Student Loans"
+    },
+    {
+      title: "Orange County Bankruptcy Alternatives: Better Solutions 2025",
+      excerpt: "Comprehensive exploration of bankruptcy alternatives for Orange County residents, including debt settlement and workout agreements.",
+      slug: "/blog/orange-county-bankruptcy-alternatives-2025",
+      date: "Aug 15, 2025",
+      readTime: "21 min read",
+      category: "Bankruptcy Alternatives"
     }
   ];
 
@@ -226,7 +306,8 @@ export default function BlogResources() {
               "Legal Guide", "Technology", "Consumer Guide", "Financial Planning", 
               "Medical Debt", "Case Studies", "Business Finance", "Tax Planning",
               "Senior Finance", "Student Loans", "Asset Protection", "Process Guide",
-              "Cost Analysis", "Credit Repair", "Consumer Rights"
+              "Cost Analysis", "Credit Repair", "Consumer Rights", "Credit Card Debt",
+              "Debt Consolidation", "Foreclosure Prevention", "Tax Relief", "Bankruptcy Alternatives"
             ].map((category, index) => (
               <div 
                 key={index}
