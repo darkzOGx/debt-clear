@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, MapPin, Phone } from 'lucide-react';
+import { ArrowRight, MapPin } from 'lucide-react';
 import ConsultationForm from '../components/consultation/ConsultationForm';
 
 export default function LagunaBeachDebtSettlement() {
@@ -56,10 +56,6 @@ export default function LagunaBeachDebtSettlement() {
                 <ArrowRight className="w-4 h-4 ml-3" />
               </Button>
               
-              <div className="flex items-center gap-2 text-sm font-mono text-neutral-600">
-                <Phone className="w-4 h-4" />
-                <span>(949) 581-3965</span>
-              </div>
             </div>
           </motion.div>
         </div>
