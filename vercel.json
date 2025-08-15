@@ -2,10 +2,22 @@
   "github": {
     "silent": true
   },
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "functions": {
+    "app/amp.html": {
+      "memory": 128
+    }
+  },
   "rewrites": [
     {
       "source": "/((?!api/).*)",
       "destination": "/index.html"
+    },
+    {
+      "source": "/amp",
+      "destination": "/amp.html"
     }
   ],
   "headers": [
@@ -35,6 +47,10 @@
         {
           "key": "Strict-Transport-Security",
           "value": "max-age=31536000; includeSubDomains; preload"
+        },
+        {
+          "key": "Alt-Svc",
+          "value": "h2=\":443\"; ma=86400"
         }
       ]
     },
