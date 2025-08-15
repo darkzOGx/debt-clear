@@ -36,22 +36,29 @@ export default function Header() {
 
   const navigation = [
     { name: 'Home', href: '/' },
+    { name: 'Orange County Hub', href: '/orange-county-hub' },
     { 
       name: 'Services',
       href: '#',
       submenu: [
         { name: 'Debt Settlement Anaheim', href: '/debt-settlement-anaheim' },
-        { name: 'Debt Settlement Irvine', href: '/debt-settlement-irvine' },
         { name: 'Debt Settlement Santa Ana', href: '/debt-settlement-santa-ana' },
+        { name: 'Debt Settlement Irvine', href: '/debt-settlement-irvine' },
         { name: 'Debt Settlement Huntington Beach', href: '/debt-settlement-huntington-beach' },
+        { name: 'Debt Settlement Garden Grove', href: '/debt-settlement-garden-grove' },
+        { name: 'Debt Settlement Fullerton', href: '/debt-settlement-fullerton' },
+        { name: 'Debt Settlement Orange', href: '/debt-settlement-orange' },
+        { name: 'Debt Settlement Costa Mesa', href: '/debt-settlement-costa-mesa' },
+        { name: 'Debt Settlement Mission Viejo', href: '/debt-settlement-mission-viejo' },
+        { name: 'Debt Settlement Westminster', href: '/debt-settlement-westminster' },
         { name: 'Debt Settlement Newport Beach', href: '/debt-settlement-newport-beach' },
+        { name: 'Debt Settlement Fountain Valley', href: '/debt-settlement-fountain-valley' },
         { name: 'Debt Settlement Laguna Beach', href: '/debt-settlement-laguna-beach' },
         { name: 'Debt Settlement Yorba Linda', href: '/debt-settlement-yorba-linda' },
         { name: 'Debt Settlement Dana Point', href: '/debt-settlement-dana-point' },
         { name: 'Debt Settlement Laguna Niguel', href: '/debt-settlement-laguna-niguel' },
         { name: 'Debt Settlement Seal Beach', href: '/debt-settlement-seal-beach' },
         { name: 'Debt Settlement Laguna Woods', href: '/debt-settlement-laguna-woods' },
-        { name: 'Debt Settlement Fountain Valley', href: '/debt-settlement-fountain-valley' },
       ]
     },
     { name: 'Resources', href: '/blog' },
