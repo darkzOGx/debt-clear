@@ -464,48 +464,6 @@ export default function BlogResources() {
       date: "Jun 15, 2025",
       readTime: "18 min read",
       category: "Foreclosure Prevention"
-    },
-    {
-      title: "Orange County Short Sale vs Debt Settlement: Real Estate Debt Solutions",
-      excerpt: "Comparing short sale and debt settlement options for Orange County homeowners with underwater mortgages and financial distress.",
-      slug: "/blog/short-sale-vs-debt-settlement-orange-county",
-      date: "Jun 15, 2025",
-      readTime: "14 min read",
-      category: "Foreclosure Prevention"
-    },
-    // Additional Tax Relief articles
-    {
-      title: "IRS Payment Plans vs Debt Settlement: Orange County Tax Relief Options",
-      excerpt: "Comprehensive comparison of IRS payment plans and debt settlement for Orange County residents with federal tax debt problems.",
-      slug: "/blog/irs-payment-plans-vs-debt-settlement-orange-county",
-      date: "Jun 15, 2025",
-      readTime: "16 min read",
-      category: "Tax Relief"
-    },
-    {
-      title: "California FTB Debt Settlement: State Tax Relief for Orange County Residents",
-      excerpt: "Specialized guide to California Franchise Tax Board debt settlement and relief options for Orange County residents with state tax debt.",
-      slug: "/blog/california-ftb-debt-settlement-orange-county",
-      date: "Jun 15, 2025",
-      readTime: "12 min read",
-      category: "Tax Relief"
-    },
-    // Additional Bankruptcy Alternatives articles
-    {
-      title: "Chapter 7 vs Debt Settlement: Orange County Resident Decision Guide",
-      excerpt: "Detailed comparison of Chapter 7 bankruptcy and debt settlement for Orange County residents, including eligibility and long-term impacts.",
-      slug: "/blog/chapter-7-vs-debt-settlement-orange-county",
-      date: "Jun 15, 2025",
-      readTime: "17 min read",
-      category: "Bankruptcy Alternatives"
-    },
-    {
-      title: "Debt Management Plans vs Debt Settlement: Orange County Consumer Options",
-      excerpt: "Comprehensive comparison of debt management plans and debt settlement for Orange County consumers, including pros, cons, and qualification requirements.",
-      slug: "/blog/debt-management-plans-vs-debt-settlement-orange-county",
-      date: "Jun 15, 2025",
-      readTime: "14 min read",
-      category: "Bankruptcy Alternatives"
     }
   ];
 
