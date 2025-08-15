@@ -108,8 +108,8 @@ export default function Home() {
                 <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4">
                   Orange County Services
                 </div>
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="grid grid-cols-2 gap-2">
+                <div className="grid grid-cols-6 gap-2">
+                  <div className="space-y-1">
                     <a href="/debt-settlement-anaheim" className="block text-neutral-400 hover:text-white transition-colors">
                       Anaheim
                     </a>
@@ -119,6 +119,8 @@ export default function Home() {
                     <a href="/debt-settlement-irvine" className="block text-neutral-400 hover:text-white transition-colors">
                       Irvine
                     </a>
+                  </div>
+                  <div className="space-y-1">
                     <a href="/debt-settlement-huntington-beach" className="block text-neutral-400 hover:text-white transition-colors">
                       Huntington Beach
                     </a>
@@ -128,6 +130,8 @@ export default function Home() {
                     <a href="/debt-settlement-fullerton" className="block text-neutral-400 hover:text-white transition-colors">
                       Fullerton
                     </a>
+                  </div>
+                  <div className="space-y-1">
                     <a href="/debt-settlement-orange" className="block text-neutral-400 hover:text-white transition-colors">
                       Orange
                     </a>
@@ -138,7 +142,7 @@ export default function Home() {
                       Mission Viejo
                     </a>
                   </div>
-                  <div className="grid grid-cols-2 gap-2">
+                  <div className="space-y-1">
                     <a href="/debt-settlement-westminster" className="block text-neutral-400 hover:text-white transition-colors">
                       Westminster
                     </a>
@@ -148,6 +152,8 @@ export default function Home() {
                     <a href="/debt-settlement-fountain-valley" className="block text-neutral-400 hover:text-white transition-colors">
                       Fountain Valley
                     </a>
+                  </div>
+                  <div className="space-y-1">
                     <a href="/debt-settlement-laguna-beach" className="block text-neutral-400 hover:text-white transition-colors">
                       Laguna Beach
                     </a>
@@ -157,6 +163,8 @@ export default function Home() {
                     <a href="/debt-settlement-dana-point" className="block text-neutral-400 hover:text-white transition-colors">
                       Dana Point
                     </a>
+                  </div>
+                  <div className="space-y-1">
                     <a href="/debt-settlement-laguna-niguel" className="block text-neutral-400 hover:text-white transition-colors">
                       Laguna Niguel
                     </a>
