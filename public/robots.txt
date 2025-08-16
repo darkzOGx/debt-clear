@@ -13,6 +13,7 @@ Disallow: /api/internal/
 # Allow important pages
 Allow: /blog/
 Allow: /debt-settlement-*/
+Allow: /orange-county-debt-statistics
 
 # Crawl delay for better server performance
 Crawl-delay: 1

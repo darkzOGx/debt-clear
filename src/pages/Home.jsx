@@ -158,10 +158,16 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-8">
                 <div>
                   <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4">
-                    Contact Information
+                    Research & Data
                   </div>
                   <div className="space-y-2 text-sm text-neutral-400">
-                    <div className="font-semibold text-white">Call: (502) 232-8511</div>
+                    <Link to="/orange-county-debt-statistics" className="block hover:text-white transition-colors">
+                      Orange County Debt Statistics
+                    </Link>
+                    <Link to="/blog" className="block hover:text-white transition-colors">
+                      Debt Settlement Research
+                    </Link>
+                    <div className="font-semibold text-white mt-4">Call: (502) 232-8511</div>
                     <div>400 Spectrum Center Drive</div>
                     <div>Suite 1000</div>
                     <div>Irvine, CA 92618</div>

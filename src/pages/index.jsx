@@ -14,6 +14,7 @@ import LagunaNiguelDebtSettlement from "./LagunaNiguelDebtSettlement";
 import SealBeachDebtSettlement from "./SealBeachDebtSettlement";
 import LagunaWoodsDebtSettlement from "./LagunaWoodsDebtSettlement";
 import BlogResources from "./BlogResources";
+import OrangeCountyDebtStatistics from "./OrangeCountyDebtStatistics";
 import OrangeCountyDebtSettlementLaws from "./blog/OrangeCountyDebtSettlementLaws";
 import AiVsTraditionalDebtSettlement from "./blog/AiVsTraditionalDebtSettlement";
 import ChooseDebtSettlementCompanyOrangeCounty from "./blog/ChooseDebtSettlementCompanyOrangeCounty";
@@ -220,6 +221,7 @@ function PagesContent() {
                 <Route path="/debt-settlement-seal-beach" element={<SealBeachDebtSettlement />} />
                 <Route path="/debt-settlement-laguna-woods" element={<LagunaWoodsDebtSettlement />} />
                 <Route path="/blog" element={<BlogResources />} />
+                <Route path="/orange-county-debt-statistics" element={<OrangeCountyDebtStatistics />} />
                 <Route path="/blog/orange-county-debt-settlement-laws" element={<OrangeCountyDebtSettlementLaws />} />
                 <Route path="/blog/ai-vs-traditional-debt-settlement" element={<AiVsTraditionalDebtSettlement />} />
                 <Route path="/blog/choose-debt-settlement-company-orange-county" element={<ChooseDebtSettlementCompanyOrangeCounty />} />

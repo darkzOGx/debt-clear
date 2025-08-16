@@ -179,10 +179,12 @@ export default function IrvineDebtSettlement() {
             
             <div className="bg-neutral-50 p-8 lg:p-12 border border-neutral-200">
               <h3 className="text-2xl font-light text-black mb-8">
-                Common Debt Types in <span className="font-mono">Irvine</span>
+                Irvine Debt Market <span className="font-mono">Analysis 2025</span>
               </h3>
               
-              <div className="space-y-6">
+              {/* Debt Types */}
+              <div className="space-y-6 mb-8">
+                <h4 className="text-lg font-semibold text-black mb-4">Common Debt Types in Irvine</h4>
                 <div className="flex justify-between items-center pb-2 border-b border-neutral-200">
                   <span className="text-sm font-mono text-neutral-700">Credit Card Debt</span>
                   <span className="text-sm font-mono text-black">72%</span>
@@ -204,10 +206,60 @@ export default function IrvineDebtSettlement() {
                   <span className="text-sm font-mono text-black">27%</span>
                 </div>
               </div>
+
+              {/* Economic Indicators */}
+              <div className="space-y-6 mb-8 pt-6 border-t border-neutral-200">
+                <h4 className="text-lg font-semibold text-black mb-4">Irvine Economic Context</h4>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="text-center p-4 bg-white border border-neutral-200">
+                    <div className="text-2xl font-mono text-black mb-1">$94,000</div>
+                    <div className="text-xs font-mono text-neutral-600">Median Household Income</div>
+                  </div>
+                  <div className="text-center p-4 bg-white border border-neutral-200">
+                    <div className="text-2xl font-mono text-black mb-1">$1.4M</div>
+                    <div className="text-xs font-mono text-neutral-600">Median Home Price</div>
+                  </div>
+                  <div className="text-center p-4 bg-white border border-neutral-200">
+                    <div className="text-2xl font-mono text-black mb-1">$47,500</div>
+                    <div className="text-xs font-mono text-neutral-600">Avg Debt Per Household</div>
+                  </div>
+                  <div className="text-center p-4 bg-white border border-neutral-200">
+                    <div className="text-2xl font-mono text-black mb-1">18.2%</div>
+                    <div className="text-xs font-mono text-neutral-600">Housing Cost Burden</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Industry Breakdown */}
+              <div className="space-y-4 pt-6 border-t border-neutral-200">
+                <h4 className="text-lg font-semibold text-black mb-4">Top Industries (Debt Settlement Clients)</h4>
+                <div className="space-y-2">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-neutral-700">Technology/Software</span>
+                    <span className="text-sm font-mono text-black">34%</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-neutral-700">Healthcare/Biotech</span>
+                    <span className="text-sm font-mono text-black">23%</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-neutral-700">Education (UCI)</span>
+                    <span className="text-sm font-mono text-black">19%</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-neutral-700">Finance/Real Estate</span>
+                    <span className="text-sm font-mono text-black">15%</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-neutral-700">Other</span>
+                    <span className="text-sm font-mono text-black">9%</span>
+                  </div>
+                </div>
+              </div>
               
               <div className="mt-8 pt-6 border-t border-neutral-200">
                 <p className="text-xs font-mono text-neutral-500">
-                  * Based on 1,247 Irvine clients served 2020-2024
+                  * Based on 1,247 Irvine clients served 2020-2024 | Data: US Census, CA Dept of Finance, MLS
                 </p>
               </div>
             </div>
