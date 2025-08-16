@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Facebook } from 'lucide-react';
+import LLMOptimizedSEO from '../components/seo/LLMOptimizedSEO';
+import { CommonDebtQuestions, KeyStatistics } from '../components/seo/ConversationalContent';
 import HeroSection from '../components/hero/HeroSection';
 import DebtCalculator from '../components/calculator/DebtCalculator';
 import ServicesSection from '../components/services/ServicesSection';
@@ -29,6 +31,16 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white">
+      <LLMOptimizedSEO 
+        pageType="WebPage"
+        title="Orange County Debt Settlement & Relief - VegaX AI"
+        description="AI-powered debt settlement for Orange County residents. Reduce debt 40-60% with licensed specialists. Free consultation. 2,500+ families helped."
+        url="https://vegaxai.com"
+        serviceName="Orange County Debt Settlement"
+        city="Orange County"
+        faqItems={CommonDebtQuestions.slice(0, 5)}
+        keyStats={KeyStatistics}
+      />
       {/* Hero Section */}
       <HeroSection 
         onScrollToCalculator={scrollToCalculator}
