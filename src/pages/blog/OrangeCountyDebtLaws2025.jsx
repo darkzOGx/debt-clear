@@ -2,10 +2,34 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Scale, Shield, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function OrangeCountyDebtLaws2025() {
+  const faqItems = [
+    {
+      question: "What new debt collection laws apply in Orange County 2025?",
+      answer: "California's 2025 debt collection laws include expanded consumer protections, mandatory settlement offer disclosures, stricter licensing requirements for debt collectors, and enhanced penalties for violations."
+    },
+    {
+      question: "Can debt collectors garnish wages in Orange County?",
+      answer: "Yes, but only after obtaining a court judgment. California limits wage garnishment to 25% of disposable income or amount over 40 times minimum wage, whichever is less. Head of household protections may apply."
+    },
+    {
+      question: "What is the statute of limitations for debt collection in California?",
+      answer: "In California, the statute of limitations is 4 years for written contracts (including credit cards) and 2 years for oral agreements. Orange County courts follow these state-wide limitations."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Orange County Debt Laws 2025 - California Collection Rights & Consumer Protection"
+        description="Complete guide to Orange County debt collection laws, consumer rights, and legal protections. Know your rights against debt collectors. Updated for 2025."
+        keywords="orange county debt collection laws, california debt statute limitations 2025, debt collector rights orange county, consumer protection laws oc"
+        slug="orange-county-debt-laws-2025"
+        datePublished="2025-01-10"
+        faqItems={faqItems}
+      />
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

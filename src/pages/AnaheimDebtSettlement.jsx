@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import CityPageSEO from '../components/seo/CityPageSEO';
 
 export default function AnaheimDebtSettlement() {
   const consultationRef = useRef(null);
@@ -25,6 +26,15 @@ export default function AnaheimDebtSettlement() {
 
   return (
     <div className="min-h-screen bg-white">
+      <CityPageSEO 
+        city="Anaheim"
+        title="Debt Settlement Anaheim CA - Reduce Debt 40-60% | VegaX AI 2025"
+        description="Expert debt settlement in Anaheim, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Anaheim residents since 2020."
+        keywords="debt settlement anaheim, debt relief anaheim, anaheim debt settlement company, debt negotiation anaheim ca, credit card debt relief anaheim"
+        slug="debt-settlement-anaheim"
+        latitude={33.8366}
+        longitude={-117.9143}
+      />
       {/* Hero Section */}
       <section className="relative py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">

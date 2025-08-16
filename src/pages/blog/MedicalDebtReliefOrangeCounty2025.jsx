@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Heart, DollarSign, FileText } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -6,9 +7,120 @@ import { Link } from 'react-router-dom';
 export default function MedicalDebtReliefOrangeCounty2025() {
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Medical Debt Relief Orange County 2025 - Hospital Bill Settlement</title>
+        <meta name="description" content="Reduce medical debt 50-80% in Orange County. UCI Health, CHOC, Kaiser bill negotiation. New 2025 protections. Free medical debt consultation." />
+        <meta name="keywords" content="medical debt relief orange county, hospital debt settlement oc, uci health debt relief, choc debt settlement, kaiser debt negotiation orange county" />
+        <link rel="canonical" href="https://vegaxai.com/blog/medical-debt-relief-orange-county-2025" />
+        
+        {/* Open Graph */}
+        <meta property="og:title" content="Medical Debt Relief Orange County 2025 - Hospital Bill Settlement" />
+        <meta property="og:description" content="Reduce medical debt 50-80% in Orange County. UCI Health, CHOC, Kaiser bill negotiation. New 2025 protections." />
+        <meta property="og:url" content="https://vegaxai.com/blog/medical-debt-relief-orange-county-2025" />
+        <meta property="og:type" content="article" />
+        
+        {/* Article Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Medical Debt Relief Orange County 2025 - Complete Guide",
+            "author": {
+              "@type": "Organization",
+              "name": "VegaX AI Medical Debt Relief Team"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "VegaX AI",
+              "logo": {
+                "@type": "ImageObject", 
+                "url": "https://vegaxai.com/logo.png"
+              }
+            },
+            "datePublished": "2025-01-15",
+            "dateModified": "2025-08-16",
+            "description": "Reduce medical debt 50-80% in Orange County. UCI Health, CHOC, Kaiser bill negotiation. New 2025 protections. Free medical debt consultation.",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://vegaxai.com/blog/medical-debt-relief-orange-county-2025"
+            }
+          })}
+        </script>
+
+        {/* FAQ Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Can medical debt be settled in Orange County?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, medical debt can be settled in Orange County. Most hospitals including UCI Health, CHOC, and Kaiser accept settlements of 40-80% off the original balance. New 2025 consumer protections provide additional negotiation leverage."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What new medical debt protections exist in California 2025?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "California's 2025 medical debt laws include: no medical debt on credit reports for 1 year, expanded charity care requirements, mandatory payment plan options, and protection from aggressive collection practices."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much can medical debt settlement reduce my Orange County hospital bills?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Medical debt settlement in Orange County typically reduces bills by 50-80%. Emergency room bills often settle for 60-70% reduction, while outpatient procedures average 40-60% reduction."
+                }
+              }
+            ]
+          })}
+        </script>
+
+        {/* Breadcrumb Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://vegaxai.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://vegaxai.com/blog"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Medical Debt Relief Orange County 2025",
+                "item": "https://vegaxai.com/blog/medical-debt-relief-orange-county-2025"
+              }
+            ]
+          })}
+        </script>
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          {/* Breadcrumb Navigation */}
+          <nav className="breadcrumb text-sm font-mono text-neutral-600 mb-4">
+            <Link to="/" className="hover:text-black transition-colors">Home</Link>
+            <span className="mx-2">&gt;</span>
+            <Link to="/blog" className="hover:text-black transition-colors">Blog</Link>
+            <span className="mx-2">&gt;</span>
+            <span className="text-neutral-800">Medical Debt Relief Orange County 2025</span>
+          </nav>
+          
           <Link 
             to="/blog"
             className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
@@ -25,9 +137,9 @@ export default function MedicalDebtReliefOrangeCounty2025() {
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Medical Debt Relief Orange County:
+            Medical Debt Relief Orange County 2025
             <br />
-            <span className="font-mono text-3xl lg:text-4xl">Healthcare Debt Solutions</span>
+            <span className="font-mono text-3xl lg:text-4xl">Hospital Bill Settlement Guide</span>
           </h1>
 
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
