@@ -16,7 +16,7 @@ export default function CostaMesaDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Costa Mesa"
-        title="Debt Settlement Costa Mesa CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Costa Mesa Debt Settlement - Reduce 40-60%"
         description="Expert debt settlement in Costa Mesa, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Costa Mesa residents since 2020."
         keywords="debt settlement costa mesa, debt relief costa mesa, costa mesa debt settlement company, debt negotiation costa mesa ca, credit card debt relief costa mesa"
         slug="debt-settlement-costa-mesa"

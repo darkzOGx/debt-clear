@@ -1,10 +1,67 @@
-/sitemap.xml
-  Content-Type: application/xml
-
-/robots.txt
-  Content-Type: text/plain
-
+# HTTP/2 and Security Headers
 /*
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
   Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  # HTTP/2 and HTTP/3 support
+  Alt-Svc: h2=":443"; ma=86400, h3=":443"; ma=86400
+  # Resource hints for critical assets
+  Link: </assets/index.css>; rel=preload; as=style; crossorigin, </assets/index.js>; rel=preload; as=script; crossorigin
+
+# Static asset caching optimized for HTTP/2
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+  # Brotli and Gzip compression
+  Content-Encoding: br
+
+# CSS and JS files
+*.css
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: text/css
+
+*.js
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: application/javascript
+
+# Font files
+*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: font/woff2
+  
+*.woff
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: font/woff
+
+# Image files
+*.png
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: image/png
+
+*.jpg
+*.jpeg
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: image/jpeg
+
+*.svg
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: image/svg+xml
+
+*.webp
+  Cache-Control: public, max-age=31536000, immutable
+  Content-Type: image/webp
+
+# XML and text files
+/sitemap.xml
+  Content-Type: application/xml
+  Cache-Control: public, max-age=3600, s-maxage=3600
+
+/robots.txt
+  Content-Type: text/plain
+  Cache-Control: public, max-age=3600, s-maxage=3600
+
+# PDF files
+*.pdf
+  Content-Type: application/pdf
+  Cache-Control: public, max-age=86400

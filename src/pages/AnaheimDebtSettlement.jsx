@@ -28,8 +28,8 @@ export default function AnaheimDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Anaheim"
-        title="Debt Settlement Anaheim CA - Reduce Debt 40-60% | VegaX AI 2025"
-        description="Expert debt settlement in Anaheim, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Anaheim residents since 2020."
+        shortTitle="Anaheim Debt Settlement - Reduce Debt 40-60%"
+        description="Expert debt settlement in Anaheim, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation."
         keywords="debt settlement anaheim, debt relief anaheim, anaheim debt settlement company, debt negotiation anaheim ca, credit card debt relief anaheim"
         slug="debt-settlement-anaheim"
         latitude={33.8366}

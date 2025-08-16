@@ -16,7 +16,7 @@ export default function FullertonDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Fullerton"
-        title="Debt Settlement Fullerton CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Fullerton Debt Settlement - Reduce 40-60%"
         description="Expert debt settlement in Fullerton, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Fullerton residents since 2020."
         keywords="debt settlement fullerton, debt relief fullerton, fullerton debt settlement company, debt negotiation fullerton ca, credit card debt relief fullerton"
         slug="debt-settlement-fullerton"

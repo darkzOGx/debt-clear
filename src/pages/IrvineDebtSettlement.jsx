@@ -20,7 +20,7 @@ export default function IrvineDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Irvine"
-        title="Debt Settlement Irvine CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Irvine Debt Settlement - Reduce Debt 40-60%"
         description="Expert debt settlement in Irvine, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Irvine residents since 2020."
         keywords="debt settlement irvine, debt relief irvine, irvine debt settlement company, debt negotiation irvine ca, credit card debt relief irvine"
         slug="debt-settlement-irvine"

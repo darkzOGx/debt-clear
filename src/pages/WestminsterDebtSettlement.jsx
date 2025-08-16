@@ -16,7 +16,7 @@ export default function WestminsterDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Westminster"
-        title="Debt Settlement Westminster CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Westminster Debt Settlement - Reduce 40-60%"
         description="Expert debt settlement in Westminster, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Westminster residents since 2020."
         keywords="debt settlement westminster, debt relief westminster, westminster debt settlement company, debt negotiation westminster ca, credit card debt relief westminster"
         slug="debt-settlement-westminster"

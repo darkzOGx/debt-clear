@@ -20,7 +20,7 @@ export default function LagunaNiguelDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Laguna Niguel"
-        title="Debt Settlement Laguna Niguel CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Laguna Niguel Debt Settlement - Reduce 40-60%"
         description="Expert debt settlement in Laguna Niguel, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Laguna Niguel residents since 2020."
         keywords="debt settlement laguna niguel, debt relief laguna niguel, laguna niguel debt settlement company, debt negotiation laguna niguel ca, credit card debt relief laguna niguel"
         slug="debt-settlement-laguna-niguel"

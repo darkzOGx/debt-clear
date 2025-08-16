@@ -42,7 +42,15 @@
         },
         {
           "key": "Alt-Svc",
-          "value": "h2=\":443\"; ma=86400"
+          "value": "h2=\":443\"; ma=86400, h3=\":443\"; ma=86400"
+        },
+        {
+          "key": "HTTP2-Settings",
+          "value": "max-concurrent-streams=100, max-frame-size=16384"
+        },
+        {
+          "key": "Link",
+          "value": "</assets/index.css>; rel=preload; as=style, </assets/index.js>; rel=preload; as=script"
         }
       ]
     },
@@ -92,6 +100,33 @@
     },
     {
       "source": "/(.*).woff2",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*).png",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*).jpg",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*).svg",
       "headers": [
         {
           "key": "Cache-Control",

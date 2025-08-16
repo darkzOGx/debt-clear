@@ -20,7 +20,7 @@ export default function HuntingtonBeachDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Huntington Beach"
-        title="Debt Settlement Huntington Beach CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Huntington Beach Debt Settlement - Reduce 40-60%"
         description="Expert debt settlement in Huntington Beach, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Huntington Beach residents since 2020."
         keywords="debt settlement huntington beach, debt relief huntington beach, huntington beach debt settlement company, debt negotiation huntington beach ca, credit card debt relief huntington beach"
         slug="debt-settlement-huntington-beach"

@@ -9,20 +9,35 @@ export default function BlogSEO({
   author = "VegaX AI Research Team",
   datePublished,
   dateModified = "2025-08-16",
-  faqItems = []
+  faqItems = [],
+  shortTitle = null
 }) {
+  
+  // Generate optimized title if not provided (under 60 chars)
+  const optimizedTitle = shortTitle || title;
+  
+  // Ensure title is under 60 characters
+  const finalTitle = optimizedTitle.length > 60 
+    ? optimizedTitle.substring(0, 57) + "..."
+    : optimizedTitle;
+
+  // Optimize meta description (under 160 characters)
+  const optimizedDescription = description && description.length > 160 
+    ? description.substring(0, 157) + "..."
+    : description;
+    
   const canonicalUrl = `https://vegaxai.com/blog/${slug}`;
   
   return (
     <Helmet>
-      <title>{title}</title>
-      <meta name="description" content={description} />
+      <title>{finalTitle}</title>
+      <meta name="description" content={optimizedDescription} />
       <meta name="keywords" content={keywords} />
       <link rel="canonical" href={canonicalUrl} />
       
       {/* Open Graph */}
       <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
+      <meta property="og:description" content={optimizedDescription} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:type" content="article" />
       
@@ -46,7 +61,7 @@ export default function BlogSEO({
           },
           "datePublished": datePublished,
           "dateModified": dateModified,
-          "description": description,
+          "description": optimizedDescription,
           "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": canonicalUrl

@@ -20,7 +20,7 @@ export default function NewportBeachDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Newport Beach"
-        title="Debt Settlement Newport Beach CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Newport Beach Debt Settlement - Reduce 40-60%"
         description="Expert debt settlement in Newport Beach, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Newport Beach residents since 2020."
         keywords="debt settlement newport beach, debt relief newport beach, newport beach debt settlement company, debt negotiation newport beach ca, credit card debt relief newport beach"
         slug="debt-settlement-newport-beach"

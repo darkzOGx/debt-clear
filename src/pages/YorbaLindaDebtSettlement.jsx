@@ -20,7 +20,7 @@ export default function YorbaLindaDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Yorba Linda"
-        title="Debt Settlement Yorba Linda CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Yorba Linda Debt Settlement - Reduce 40-60%"
         description="Expert debt settlement in Yorba Linda, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Yorba Linda residents since 2020."
         keywords="debt settlement yorba linda, debt relief yorba linda, yorba linda debt settlement company, debt negotiation yorba linda ca, credit card debt relief yorba linda"
         slug="debt-settlement-yorba-linda"

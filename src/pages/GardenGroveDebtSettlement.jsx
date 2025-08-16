@@ -16,7 +16,7 @@ export default function GardenGroveDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Garden Grove"
-        title="Debt Settlement Garden Grove CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Garden Grove Debt Settlement - Reduce 40-60%"
         description="Expert debt settlement in Garden Grove, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Garden Grove residents since 2020."
         keywords="debt settlement garden grove, debt relief garden grove, garden grove debt settlement company, debt negotiation garden grove ca, credit card debt relief garden grove"
         slug="debt-settlement-garden-grove"

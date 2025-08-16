@@ -16,7 +16,7 @@ export default function OrangeDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Orange"
-        title="Debt Settlement Orange CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Orange Debt Settlement - Reduce Debt 40-60%"
         description="Expert debt settlement in Orange, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Orange residents since 2020."
         keywords="debt settlement orange, debt relief orange, orange debt settlement company, debt negotiation orange ca, credit card debt relief orange"
         slug="debt-settlement-orange"

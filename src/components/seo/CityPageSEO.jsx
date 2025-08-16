@@ -9,8 +9,23 @@ export default function CityPageSEO({
   slug,
   latitude,
   longitude,
-  services = []
+  services = [],
+  shortTitle = null
 }) {
+  
+  // Generate optimized title if not provided (under 60 chars)
+  const optimizedTitle = shortTitle || title || `${city} Debt Settlement - Reduce Debt 40-60%`;
+  
+  // Ensure title is under 60 characters
+  const finalTitle = optimizedTitle.length > 60 
+    ? `${city} Debt Settlement CA - Reduce Debt 40-60%`
+    : optimizedTitle;
+
+  // Optimize meta description (under 160 characters)
+  const optimizedDescription = description && description.length > 160 
+    ? `Expert debt settlement in ${city}, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation.`
+    : description || `Expert debt settlement in ${city}, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation.`;
+    
   const canonicalUrl = `https://vegaxai.com/${slug}`;
   
   const defaultServices = [
@@ -32,14 +47,14 @@ export default function CityPageSEO({
   
   return (
     <Helmet>
-      <title>{title}</title>
-      <meta name="description" content={description} />
+      <title>{finalTitle}</title>
+      <meta name="description" content={optimizedDescription} />
       <meta name="keywords" content={keywords} />
       <link rel="canonical" href={canonicalUrl} />
       
       {/* Open Graph */}
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={description} />
+      <meta property="og:title" content={finalTitle} />
+      <meta property="og:description" content={optimizedDescription} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:type" content="website" />
       

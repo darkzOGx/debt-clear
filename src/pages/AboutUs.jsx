@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Award, Users, Shield, Clock, Star, CheckCircle } from 'lucide-react';
+import { ArrowRight, Award, Users, Shield, Clock, Star, CheckCircle, Facebook } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
 
@@ -429,9 +429,25 @@ export default function AboutUs() {
               
               <div className="mt-6 pt-6 border-t border-neutral-200">
                 <div className="text-sm font-medium text-black mb-2">Community Recognition</div>
-                <div className="text-sm text-neutral-600">
+                <div className="text-sm text-neutral-600 mb-4">
                   Recognized by the Orange County Business Council for our commitment 
                   to ethical debt relief practices and community financial wellness.
+                </div>
+                
+                <div className="text-sm font-medium text-black mb-3">Connect With Us</div>
+                <div className="flex items-center gap-3">
+                  <a 
+                    href="https://www.facebook.com/profile.php?id=61579767561222"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-neutral-600 hover:text-black transition-colors"
+                  >
+                    <Facebook className="w-4 h-4" />
+                    <span className="text-sm">Follow us on Facebook</span>
+                  </a>
+                </div>
+                <div className="text-xs text-neutral-500 mt-2">
+                  Stay updated on debt relief tips, success stories, and Orange County financial news
                 </div>
               </div>
             </motion.div>

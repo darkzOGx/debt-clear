@@ -16,7 +16,7 @@ export default function FountainValleyDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Fountain Valley"
-        title="Debt Settlement Fountain Valley CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Fountain Valley Debt Settlement - Reduce 40-60%"
         description="Expert debt settlement in Fountain Valley, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Fountain Valley residents since 2020."
         keywords="debt settlement fountain valley, debt relief fountain valley, fountain valley debt settlement company, debt negotiation fountain valley ca, credit card debt relief fountain valley"
         slug="debt-settlement-fountain-valley"

@@ -20,7 +20,7 @@ export default function SealBeachDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Seal Beach"
-        title="Debt Settlement Seal Beach CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Seal Beach Debt Settlement - Reduce 40-60%"
         description="Expert debt settlement in Seal Beach, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Seal Beach residents since 2020."
         keywords="debt settlement seal beach, debt relief seal beach, seal beach debt settlement company, debt negotiation seal beach ca, credit card debt relief seal beach"
         slug="debt-settlement-seal-beach"

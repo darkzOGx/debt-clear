@@ -28,7 +28,7 @@ export default function SantaAnaDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Santa Ana"
-        title="Debt Settlement Santa Ana CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Santa Ana Debt Settlement - Reduce Debt 40-60%"
         description="Expert debt settlement in Santa Ana, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Santa Ana residents since 2020."
         keywords="debt settlement santa ana, debt relief santa ana, santa ana debt settlement company, debt negotiation santa ana ca, credit card debt relief santa ana"
         slug="debt-settlement-santa-ana"

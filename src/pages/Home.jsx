@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { Facebook } from 'lucide-react';
 import HeroSection from '../components/hero/HeroSection';
 import DebtCalculator from '../components/calculator/DebtCalculator';
 import ServicesSection from '../components/services/ServicesSection';
@@ -172,6 +173,21 @@ export default function Home() {
                     <div>400 Spectrum Center Drive</div>
                     <div>Suite 1000</div>
                     <div>Irvine, CA 92618</div>
+                    
+                    <div className="mt-4 pt-4 border-t border-neutral-700">
+                      <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-2">
+                        Follow Us
+                      </div>
+                      <a 
+                        href="https://www.facebook.com/profile.php?id=61579767561222"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-neutral-400 hover:text-white transition-colors"
+                      >
+                        <Facebook className="w-4 h-4" />
+                        <span className="text-sm">Facebook</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
                 

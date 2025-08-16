@@ -16,7 +16,7 @@ export default function MissionViejoDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Mission Viejo"
-        title="Debt Settlement Mission Viejo CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Mission Viejo Debt Settlement - Reduce 40-60%"
         description="Expert debt settlement in Mission Viejo, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Mission Viejo residents since 2020."
         keywords="debt settlement mission viejo, debt relief mission viejo, mission viejo debt settlement company, debt negotiation mission viejo ca, credit card debt relief mission viejo"
         slug="debt-settlement-mission-viejo"

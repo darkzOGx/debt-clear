@@ -26,13 +26,21 @@ export default defineConfig({
   build: {
     sourcemap: false,
     minify: 'esbuild',
+    target: 'es2020',
+    cssCodeSplit: true,
+    assetsInlineLimit: 4096,
+    chunkSizeWarningLimit: 500,
     rollupOptions: {
       output: {
+        // HTTP/2 optimized chunking strategy
         manualChunks(id) {
-          // Vendor chunks
+          // Core vendor chunks - smaller for HTTP/2 multiplexing
           if (id.includes('node_modules')) {
-            if (id.includes('react') || id.includes('react-dom') || id.includes('react-router')) {
+            if (id.includes('react') || id.includes('react-dom')) {
               return 'react-vendor';
+            }
+            if (id.includes('react-router')) {
+              return 'router-vendor';
             }
             if (id.includes('framer-motion')) {
               return 'animation-vendor';
@@ -40,10 +48,18 @@ export default defineConfig({
             if (id.includes('lucide-react')) {
               return 'icons-vendor';
             }
+            if (id.includes('react-helmet')) {
+              return 'seo-vendor';
+            }
             return 'vendor';
           }
           
-          // Split blog pages into smaller chunks
+          // SEO components for HTTP/2 parallel loading
+          if (id.includes('/seo/')) {
+            return 'seo-components';
+          }
+          
+          // Blog chunks - optimized for HTTP/2
           if (id.includes('/blog/')) {
             if (id.includes('OrangeCounty') || id.includes('DebtSettlement')) {
               return 'blog-debt-settlement';
@@ -51,27 +67,32 @@ export default defineConfig({
             if (id.includes('Tax') || id.includes('Legal')) {
               return 'blog-tax-legal';
             }
-            if (id.includes('Homestead') || id.includes('Property')) {
-              return 'blog-property';
+            if (id.includes('Credit') || id.includes('Medical')) {
+              return 'blog-debt-types';
             }
             return 'blog-general';
           }
           
-          // City pages chunk  
+          // City pages - separate chunk for parallel loading
           if (id.includes('DebtSettlement.jsx') && !id.includes('OrangeCountyHub')) {
             return 'city-pages';
           }
           
-          // Components chunk
+          // UI components chunk
+          if (id.includes('/ui/')) {
+            return 'ui-components';
+          }
+          
+          // Other components
           if (id.includes('/components/')) {
             return 'components';
           }
         },
+        // HTTP/2 friendly file naming
+        entryFileNames: 'assets/[name]-[hash].js',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]'
       },
     },
-    chunkSizeWarningLimit: 500,
-    cssCodeSplit: true,
-    assetsInlineLimit: 4096,
-    target: 'es2015',
   }
 }) 

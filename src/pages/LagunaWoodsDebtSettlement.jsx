@@ -20,7 +20,7 @@ export default function LagunaWoodsDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Laguna Woods"
-        title="Debt Settlement Laguna Woods CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Laguna Woods Debt Settlement - Reduce 40-60%"
         description="Expert debt settlement in Laguna Woods, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Laguna Woods residents since 2020."
         keywords="debt settlement laguna woods, debt relief laguna woods, laguna woods debt settlement company, debt negotiation laguna woods ca, credit card debt relief laguna woods"
         slug="debt-settlement-laguna-woods"

@@ -20,7 +20,7 @@ export default function LagunaBeachDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Laguna Beach"
-        title="Debt Settlement Laguna Beach CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Laguna Beach Debt Settlement - Reduce 40-60%"
         description="Expert debt settlement in Laguna Beach, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Laguna Beach residents since 2020."
         keywords="debt settlement laguna beach, debt relief laguna beach, laguna beach debt settlement company, debt negotiation laguna beach ca, credit card debt relief laguna beach"
         slug="debt-settlement-laguna-beach"

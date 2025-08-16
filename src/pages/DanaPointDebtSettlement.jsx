@@ -20,7 +20,7 @@ export default function DanaPointDebtSettlement() {
     <div className="min-h-screen bg-white">
       <CityPageSEO 
         city="Dana Point"
-        title="Debt Settlement Dana Point CA - Reduce Debt 40-60% | VegaX AI 2025"
+        shortTitle="Dana Point Debt Settlement - Reduce 40-60%"
         description="Expert debt settlement in Dana Point, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Dana Point residents since 2020."
         keywords="debt settlement dana point, debt relief dana point, dana point debt settlement company, debt negotiation dana point ca, credit card debt relief dana point"
         slug="debt-settlement-dana-point"
