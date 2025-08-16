@@ -1,0 +1,7 @@
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black square background -->
+  <rect width="180" height="180" fill="#000000"/>
+  
+  <!-- White V letter -->
+  <path d="M45 45 L90 135 L135 45 L112.5 45 L90 90 L67.5 45 Z" fill="#ffffff"/>
+</svg>
