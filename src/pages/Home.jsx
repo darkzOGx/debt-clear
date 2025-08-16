@@ -1,13 +1,11 @@
-import React, { useRef, Suspense, lazy } from 'react';
+import React, { useRef } from 'react';
 import HeroSection from '../components/hero/HeroSection';
 import DebtCalculator from '../components/calculator/DebtCalculator';
 import ServicesSection from '../components/services/ServicesSection';
 import TestimonialsSection from '../components/testimonials/TestimonialsSection';
+import BlogSection from '../components/blog/BlogSection';
 import ConsultationForm from '../components/consultation/ConsultationForm';
 import NewsletterSignup from '../components/newsletter/NewsletterSignup';
-
-// Lazy load below-the-fold components
-const BlogSection = lazy(() => import('../components/blog/BlogSection'));
 
 export default function Home() {
   const calculatorRef = useRef(null);
@@ -47,9 +45,7 @@ export default function Home() {
       <TestimonialsSection />
 
       {/* Blog Section */}
-      <Suspense fallback={<div className="py-16 text-center">Loading...</div>}>
-        <BlogSection />
-      </Suspense>
+      <BlogSection />
 
       {/* Consultation Form */}
       <div id="consultation" ref={consultationRef}>
