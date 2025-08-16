@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowLeft, Calendar, Clock, User, GraduationCap } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function StudentLoanDebtReliefOrangeCounty() {
   const scrollToConsultation = () => {
@@ -11,19 +12,57 @@ export default function StudentLoanDebtReliefOrangeCounty() {
     }
   };
 
+  const faqItems = [
+    {
+      question: "What student loan forgiveness programs are available to Orange County residents?",
+      answer: "Orange County residents can access Public Service Loan Forgiveness (PSLF) working for OC government, UCI Health, school districts, or nonprofits. Teacher Loan Forgiveness up to $17,500 is available after 5 years in low-income schools like Santa Ana USD. Income-driven repayment plans (SAVE, IBR, PAYE) offer forgiveness after 20-25 years of payments."
+    },
+    {
+      question: "How does the SAVE plan help Orange County student loan borrowers?",
+      answer: "The SAVE plan reduces payments to 5% of discretionary income (down from 10%), offers $0 payments if income is ≤225% poverty level, eliminates capitalized interest, and provides forgiveness after 20-25 years. For example, an Orange County resident earning $60,000 with family of 2 pays $203/month vs $389 on standard repayment."
+    },
+    {
+      question: "Which Orange County employers qualify for Public Service Loan Forgiveness?",
+      answer: "Qualifying employers include Orange County government departments, all city governments (Irvine, Santa Ana, Anaheim), OC Superior Court, UCI Health, CHOC, OC Fire Authority, OC Sheriff's Department, school districts, United Way, Legal Aid Society, and other 501(c)(3) nonprofits. Full-time employment required for 120 qualifying payments."
+    },
+    {
+      question: "What options exist for defaulted student loans in Orange County?",
+      answer: "Three options: 1) Loan rehabilitation with 9 consecutive on-time payments removes default from credit report, 2) Full payment immediately resolves default but doesn't remove credit history, 3) Consolidation into Direct Loan after 3 payments or agreeing to income-driven repayment. Rehabilitation is usually the best option for credit repair."
+    },
+    {
+      question: "Are private student loans eligible for forgiveness in Orange County?",
+      answer: "Private student loans generally don't qualify for federal forgiveness programs. Options include loan modification, refinancing to lower rates, rare settlement in extreme hardship, or discharge in bankruptcy (extremely difficult). Wells Fargo, Bank of America, and Chase are major private lenders in Orange County that may offer modification programs."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Student Loan Debt Relief Orange County 2025 - Forgiveness Programs"
+        description="Student loan debt relief options in Orange County. Forgiveness programs, income-driven repayment, consolidation. Get help with student loans."
+        keywords="student loan debt relief orange county, student loan forgiveness oc, student loan help orange county"
+        slug="student-loan-debt-relief-orange-county"
+        datePublished="2025-01-01"
+        faqItems={faqItems}
+      />
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"><ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6"><div className="w-2 h-2 bg-black"></div><span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">STUDENT LOANS</span></div>
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">Student Loan Debt Relief in Orange County:<br /><span className="font-mono text-3xl lg:text-4xl">Options Beyond Settlement</span></h1>
+          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+            Student Loan Debt Relief Orange County 2025:
+            <br />
+            <span className="font-mono text-3xl lg:text-4xl">Forgiveness Programs</span>
+          </h1>
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 8, 2025</span></div>
-            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>14 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Student Loan Team</span></div>
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>January 1, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>18 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>Debt Settlement Specialist</span></div>
           </div>
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">Comprehensive guide to student loan relief programs available to Orange County residents, including forgiveness options, income-driven repayment plans, and discharge possibilities.</p>
+          <p className="text-xl text-neutral-700 leading-relaxed font-light">
+            Student loan debt relief options in Orange County. Forgiveness programs, income-driven repayment, 
+            consolidation. Get help with student loans from federal and state programs.
+          </p>
         </div>
       </section>
       <article className="py-16">

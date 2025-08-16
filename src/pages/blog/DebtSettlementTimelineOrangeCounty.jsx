@@ -2,21 +2,67 @@ import React from 'react';
 import { ArrowLeft, Calendar, Clock, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function DebtSettlementTimelineOrangeCounty() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
+  const faqItems = [
+    {
+      question: "How long does debt settlement take in Orange County?",
+      answer: "Debt settlement in Orange County typically takes 12-18 months from enrollment to completion. Orange County residents often see faster results (15 months average) due to high cost of living factors that creditors recognize as genuine hardship. The process includes 1-2 months setup, 3-6 months account aging, 6-12 months active settlement, and 12-18 months final resolution."
+    },
+    {
+      question: "What happens during the first 6 months of debt settlement in Orange County?",
+      answer: "The first 6 months involve program setup, stopping payments to creditors, building settlement funds through monthly deposits ($400-$1,200 typical), and allowing accounts to age. Orange County residents will experience increased creditor calls, account charge-offs at 120-180 days, and credit score drops of 100-200 points during this phase."
+    },
+    {
+      question: "When do most debt settlements occur for Orange County residents?",
+      answer: "Most debt settlements (60%) occur between months 6-12 of the program. Orange County creditors often begin settlement discussions at 4-6 months vs. 6-8 months nationally due to recognition of local economic conditions. Typical settlements range from 40-60% of original debt balances during this peak period."
+    },
+    {
+      question: "What factors can delay debt settlement timelines in Orange County?",
+      answer: "Common timeline delays include inconsistent payments (+3-6 months), high-balance accounts (+2-4 months), premium credit cards (+1-3 months), legal action threats (+2-6 months), and multiple collection agencies (+1-4 months). Orange County's high-income professionals may face longer timelines (20-24 months) as creditors pursue larger settlements."
+    },
+    {
+      question: "Can Orange County debt settlement timelines be accelerated?",
+      answer: "Yes, Orange County debt settlement can be accelerated through lump sum availability (reducing timeline to 6-10 months), strong hardship documentation (2-4 month acceleration), and professional attorney representation (20-30% timeline reduction). Access to inheritance, bonuses, or home equity can significantly speed the process."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Debt Settlement Timeline Orange County 2025 - Complete Step-by-Step Guide"
+        description="Complete debt settlement timeline for Orange County residents. Step-by-step process, milestones, typical duration. What to expect during settlement."
+        keywords="debt settlement timeline orange county, debt settlement process oc, how long debt settlement takes orange county"
+        slug="debt-settlement-timeline-orange-county"
+        datePublished="2025-01-08"
+        faqItems={faqItems}
+      />
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"><ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6"><div className="w-2 h-2 bg-black"></div><span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">PROCESS GUIDE</span></div>
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">Debt Settlement Timeline:<br /><span className="font-mono text-3xl lg:text-4xl">What Orange County Residents Can Expect</span></h1>
+          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+            Debt Settlement Timeline Orange County 2025:
+            <br />
+            <span className="font-mono text-3xl lg:text-4xl">Complete Step-by-Step Guide</span>
+          </h1>
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 1, 2025</span></div>
-            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>9 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Process Team</span></div>
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>January 8, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>12 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>Debt Settlement Specialist</span></div>
           </div>
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">Month-by-month breakdown of the debt settlement process for Orange County clients, from initial consultation to final completion.</p>
+          <p className="text-xl text-neutral-700 leading-relaxed font-light">
+            Complete debt settlement timeline for Orange County residents. Step-by-step process, 
+            milestones, typical duration. What to expect during settlement from initial consultation to final completion.
+          </p>
         </div>
       </section>
       <article className="py-16">

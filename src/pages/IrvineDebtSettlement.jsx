@@ -1,20 +1,13 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import CityPageSEO from '../components/seo/CityPageSEO';
 
 export default function IrvineDebtSettlement() {
   const consultationRef = useRef(null);
-
-  useEffect(() => {
-    document.title = 'Irvine Debt Settlement & Debt Relief Services - Licensed CA';
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 'Professional debt settlement and debt relief services in Irvine, CA. Reduce debt up to 60% with our AI-powered debt settlement solutions. Free consultation for Irvine residents.');
-    }
-  }, []);
 
   const scrollToConsultation = () => {
     consultationRef.current?.scrollIntoView({ 
@@ -25,6 +18,15 @@ export default function IrvineDebtSettlement() {
 
   return (
     <div className="min-h-screen bg-white">
+      <CityPageSEO 
+        city="Irvine"
+        title="Debt Settlement Irvine CA - Reduce Debt 40-60% | VegaX AI 2025"
+        description="Expert debt settlement in Irvine, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Irvine residents since 2020."
+        keywords="debt settlement irvine, debt relief irvine, irvine debt settlement company, debt negotiation irvine ca, credit card debt relief irvine"
+        slug="debt-settlement-irvine"
+        latitude={33.6846}
+        longitude={-117.8265}
+      />
       {/* Hero Section */}
       <section className="relative py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">

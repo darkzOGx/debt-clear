@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Phone, CheckCircle, Star, MapPin, Clock, Users, DollarSign } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import CityPageSEO from '../components/seo/CityPageSEO';
 
 export default function GardenGroveDebtSettlement() {
   const scrollToConsultation = () => {
@@ -13,6 +14,15 @@ export default function GardenGroveDebtSettlement() {
   };
   return (
     <div className="min-h-screen bg-white">
+      <CityPageSEO 
+        city="Garden Grove"
+        title="Debt Settlement Garden Grove CA - Reduce Debt 40-60% | VegaX AI 2025"
+        description="Expert debt settlement in Garden Grove, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Garden Grove residents since 2020."
+        keywords="debt settlement garden grove, debt relief garden grove, garden grove debt settlement company, debt negotiation garden grove ca, credit card debt relief garden grove"
+        slug="debt-settlement-garden-grove"
+        latitude={33.7739}
+        longitude={-117.9415}
+      />
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-neutral-50 to-white overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(0,0,0,.02)_50%,transparent_75%)]"></div>

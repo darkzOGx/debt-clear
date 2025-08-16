@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Phone, CheckCircle, Star, MapPin, Clock, Users, DollarSign } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import CityPageSEO from '../components/seo/CityPageSEO';
 
 export default function MissionViejoDebtSettlement() {
   const scrollToConsultation = () => {
@@ -13,6 +14,15 @@ export default function MissionViejoDebtSettlement() {
   };
   return (
     <div className="min-h-screen bg-white">
+      <CityPageSEO 
+        city="Mission Viejo"
+        title="Debt Settlement Mission Viejo CA - Reduce Debt 40-60% | VegaX AI 2025"
+        description="Expert debt settlement in Mission Viejo, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Mission Viejo residents since 2020."
+        keywords="debt settlement mission viejo, debt relief mission viejo, mission viejo debt settlement company, debt negotiation mission viejo ca, credit card debt relief mission viejo"
+        slug="debt-settlement-mission-viejo"
+        latitude={33.6000}
+        longitude={-117.6720}
+      />
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-neutral-50 to-white overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(0,0,0,.02)_50%,transparent_75%)]"></div>

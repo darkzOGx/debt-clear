@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function OrangeCountyDebtSettlementLaws() {
   const scrollToConsultation = () => {
@@ -12,8 +13,39 @@ export default function OrangeCountyDebtSettlementLaws() {
     }
   };
 
+  const faqItems = [
+    {
+      question: "What are the legal requirements for debt settlement companies in Orange County?",
+      answer: "Debt settlement companies in California must be licensed, cannot charge upfront fees before settling debts, must provide written contracts with clear terms, and must give clients a 3-day cancellation period. They must also maintain proper escrow accounts for client funds."
+    },
+    {
+      question: "Can debt settlement companies guarantee specific results in Orange County?",
+      answer: "No, legitimate debt settlement companies cannot guarantee specific debt reduction percentages or outcomes. California law prohibits such guarantees as results depend on creditor willingness to negotiate and individual financial circumstances."
+    },
+    {
+      question: "What protections do Orange County residents have against predatory debt settlement practices?",
+      answer: "California residents are protected by state consumer protection laws including prohibition of upfront fees, mandatory written contracts, 3-day cancellation rights, licensing requirements, and homestead exemptions protecting up to $600,000 in home equity from creditors."
+    },
+    {
+      question: "How much can creditors garnish from my wages in Orange County?",
+      answer: "In California, creditors can garnish up to 25% of your disposable income or the amount exceeding 40 times the state minimum wage weekly, whichever is less. For Orange County's median income of $84,000, this typically means maximum garnishment of $400-500 per week."
+    },
+    {
+      question: "Where can I verify if a debt settlement company is licensed in California?",
+      answer: "You can verify licensing through the California Department of Financial Protection and Innovation. Also check with the Better Business Bureau for ratings and complaint history, and the Orange County Bar Association for attorney referrals if needed."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Orange County Debt Settlement Laws 2025 - Legal Requirements & Protections"
+        description="Orange County debt settlement laws and regulations. Licensing requirements, consumer protections, legal compliance. Know your rights."
+        keywords="orange county debt settlement laws, debt settlement regulations oc, debt settlement legal requirements"
+        slug="orange-county-debt-settlement-laws"
+        datePublished="2025-08-15"
+        faqItems={faqItems}
+      />
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

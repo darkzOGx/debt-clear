@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowLeft, Calendar, Clock, User, Shield } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function DebtCollectionLawsOrangeCounty() {
   const scrollToConsultation = () => {
@@ -11,19 +12,57 @@ export default function DebtCollectionLawsOrangeCounty() {
     }
   };
 
+  const faqItems = [
+    {
+      question: "What debt collection laws protect Orange County residents?",
+      answer: "Orange County residents are protected by both federal Fair Debt Collection Practices Act (FDCPA) and California's Rosenthal Fair Debt Collection Practices Act. These laws prohibit calling before 8 AM or after 9 PM, using threatening language, misrepresenting debt amounts, contacting you at work if prohibited, and continuing contact after a cease and desist letter."
+    },
+    {
+      question: "What are illegal debt collection practices in Orange County?",
+      answer: "Illegal practices include calling outside 8 AM-9 PM hours, using profane or threatening language, misrepresenting debt amounts or legal consequences, discussing your debt with third parties, threatening arrest or jail time, falsely claiming to be attorneys or government agents, and continuing contact after receiving a written cease and desist letter."
+    },
+    {
+      question: "How can Orange County residents stop debt collector harassment?",
+      answer: "Send a written cease and desist letter requesting they stop contacting you. After receiving it, collectors can only contact you to confirm receipt, notify of specific legal action, or inform you they're ending collection efforts. Document all violations and file complaints with the FTC, CFPB, California Attorney General, and Orange County District Attorney."
+    },
+    {
+      question: "What damages can Orange County residents recover from debt collection violations?",
+      answer: "Under FDCPA, you can recover up to $1,000 per violation plus attorney fees and court costs. California also allows actual damages for emotional distress and lost wages, plus punitive damages for willful violations. All damages must be documented and proven in court with proper evidence collection."
+    },
+    {
+      question: "Where do Orange County residents file debt collection complaints?",
+      answer: "File complaints with: Federal Trade Commission (ftc.gov/complaint), Consumer Financial Protection Bureau (consumerfinance.gov/complaint), California Attorney General (oag.ca.gov), and Orange County District Attorney Consumer Protection Unit (714) 347-8400. Free legal aid is available through Legal Aid Society of Orange County and Public Law Center."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Orange County Debt Collection Laws 2025 - Know Your Rights"
+        description="Orange County debt collection laws and consumer rights. FDCPA protections, California laws, how to stop harassment. Legal guide."
+        keywords="orange county debt collection laws, debt collector rights oc, fdcpa protection orange county"
+        slug="debt-collection-laws-orange-county"
+        datePublished="2025-01-03"
+        faqItems={faqItems}
+      />
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"><ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6"><div className="w-2 h-2 bg-black"></div><span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">CONSUMER RIGHTS</span></div>
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">Orange County Debt Collection Laws:<br /><span className="font-mono text-3xl lg:text-4xl">Know Your Rights</span></h1>
+          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+            Orange County Debt Collection Laws 2025:
+            <br />
+            <span className="font-mono text-3xl lg:text-4xl">Know Your Rights</span>
+          </h1>
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>June 20, 2025</span></div>
-            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>10 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Consumer Rights Team</span></div>
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>January 3, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>12 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>Debt Settlement Specialist</span></div>
           </div>
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">Complete guide to debt collection regulations in Orange County, including illegal practices, consumer protections, and how to file complaints.</p>
+          <p className="text-xl text-neutral-700 leading-relaxed font-light">
+            Orange County debt collection laws and consumer rights. FDCPA protections, California laws, 
+            how to stop harassment. Complete legal guide for Orange County residents.
+          </p>
         </div>
       </section>
       <article className="py-16">

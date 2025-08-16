@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, AlertTriangle, Shield, Eye } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function DebtSettlementScamsOrangeCounty() {
   const scrollToConsultation = () => {
@@ -12,8 +13,39 @@ export default function DebtSettlementScamsOrangeCounty() {
     }
   };
 
+  const faqItems = [
+    {
+      question: "What are the most common debt settlement scams in Orange County?",
+      answer: "The most common Orange County debt settlement scams include advance fee scams demanding upfront payments, fake government program scams claiming access to secret forgiveness programs, and credit repair combo scams bundling services with excessive fees. Always verify company licenses before paying anything."
+    },
+    {
+      question: "How can I spot a debt settlement scam in Orange County?",
+      answer: "Red flags include demands for upfront fees, guarantees of specific debt reduction amounts, pressure tactics with limited-time offers, claims of government affiliation, and refusal to provide written information. Legitimate companies only charge fees after successful settlement."
+    },
+    {
+      question: "Where can I report debt settlement scams in Orange County?",
+      answer: "Report debt settlement scams to the Federal Trade Commission (FTC), Consumer Financial Protection Bureau (CFPB), California Attorney General's Office, Department of Business Oversight, and Orange County District Attorney's Office. Multiple reports help protect other consumers."
+    },
+    {
+      question: "How do I verify a legitimate debt settlement company in Orange County?",
+      answer: "Verify companies through the California Department of Financial Protection and Innovation database, check Better Business Bureau ratings, search for complaints online, verify attorney credentials with the California State Bar, and request written documentation of all licenses."
+    },
+    {
+      question: "What should I do if I've been scammed by a debt settlement company in Orange County?",
+      answer: "If scammed, immediately stop all payments, document all communications, file reports with federal and state agencies, contact your bank about unauthorized charges, consider legal action, and seek help from legitimate debt relief professionals or consumer protection attorneys."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Debt Settlement Scams Orange County - Red Flags & How to Avoid Fraud 2025"
+        description="Avoid debt settlement scams in Orange County. Red flags, warning signs, legitimate companies vs fraudulent ones. Consumer protection guide."
+        keywords="debt settlement scam orange county, how to avoid debt relief fraud, debt settlement scam warning oc"
+        slug="debt-settlement-scams-orange-county"
+        datePublished="2025-01-12"
+        faqItems={faqItems}
+      />
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

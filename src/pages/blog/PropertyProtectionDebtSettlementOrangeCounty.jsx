@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowLeft, Calendar, Clock, User, Home } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function PropertyProtectionDebtSettlementOrangeCounty() {
   const scrollToConsultation = () => {
@@ -11,19 +12,57 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
     }
   };
 
+  const faqItems = [
+    {
+      question: "How much of my Orange County home is protected during debt settlement?",
+      answer: "California's homestead exemption protects $300,000 for single persons and $600,000 for families, seniors (65+), or disabled individuals. With Orange County median home values exceeding $1.2 million, homeowners may have exposed equity above the exemption limits. For example, a $1.8M home with $900K mortgage leaves $900K equity, with $600K protected and $300K potentially exposed."
+    },
+    {
+      question: "What assets are fully protected from creditors in Orange County?",
+      answer: "Fully protected assets include 401(k) and 403(b) retirement plans (unlimited ERISA protection), pension plans, IRAs up to $1.36 million, Social Security benefits, unemployment benefits, and properly structured life insurance. Personal property exemptions include $3,325 for vehicles, $8,000 for household goods, $8,000 for jewelry, and $8,000 for tools of trade."
+    },
+    {
+      question: "Can I transfer assets to protect them during debt settlement in Orange County?",
+      answer: "Asset transfers made with intent to defraud creditors violate California's Uniform Fraudulent Transfer Act and can be reversed. Safe transfers include those made for reasonably equivalent value, in ordinary course of business, or more than 4 years before creditor claims. Always consult asset protection attorneys before making transfers to avoid fraudulent transfer violations."
+    },
+    {
+      question: "Should Orange County homeowners choose California System 1 or System 2 exemptions?",
+      answer: "Most Orange County homeowners should choose System 1 (California specific) due to the higher homestead exemption ($300K-$600K vs $27,900 federal). System 1 provides better protection for real estate equity but lower protection for personal property. You cannot mix systems - must choose one complete exemption system for all assets."
+    },
+    {
+      question: "What advanced asset protection strategies work for high-net-worth Orange County residents?",
+      answer: "Strategies include maximizing retirement account contributions before debt issues, domestic asset protection trusts ($15K-$50K setup cost), LLCs for investment properties, umbrella liability insurance ($1M-$5M coverage), and life insurance cash value protection. Professional practice owners need business entity selection, professional liability insurance, and D&O coverage. All strategies must be implemented before creditor claims arise."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Property Protection During Debt Settlement Orange County - Asset Safety"
+        description="Protect your home and assets during debt settlement in Orange County. Homestead exemptions, asset protection strategies."
+        keywords="property protection debt settlement orange county, homestead exemption oc, asset protection orange county"
+        slug="property-protection-debt-settlement-orange-county"
+        datePublished="2024-12-25"
+        faqItems={faqItems}
+      />
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"><ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6"><div className="w-2 h-2 bg-black"></div><span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">ASSET PROTECTION</span></div>
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">Orange County Property Protection<br /><span className="font-mono text-3xl lg:text-4xl">During Debt Settlement</span></h1>
+          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+            Property Protection During Debt Settlement Orange County:
+            <br />
+            <span className="font-mono text-3xl lg:text-4xl">Asset Safety</span>
+          </h1>
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 5, 2025</span></div>
-            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>12 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Asset Protection Team</span></div>
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>December 25, 2024</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>16 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>Debt Settlement Specialist</span></div>
           </div>
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">How to protect your Orange County home and assets during the debt settlement process using California exemptions and strategic planning.</p>
+          <p className="text-xl text-neutral-700 leading-relaxed font-light">
+            Protect your home and assets during debt settlement in Orange County. Homestead exemptions, 
+            asset protection strategies using California exemptions and strategic planning.
+          </p>
         </div>
       </section>
       <article className="py-16">

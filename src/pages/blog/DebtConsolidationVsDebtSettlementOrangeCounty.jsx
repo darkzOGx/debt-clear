@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Scale, TrendingUp, DollarSign, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
   const scrollToConsultation = () => {
@@ -12,8 +13,39 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
     }
   };
 
+  const faqItems = [
+    {
+      question: "What's the difference between debt consolidation and debt settlement in Orange County?",
+      answer: "Debt consolidation combines multiple debts into one loan with potentially lower interest rates, while debt settlement negotiates with creditors to pay less than the full amount owed. Consolidation requires good credit and steady income, while settlement is for those who cannot afford their current payments."
+    },
+    {
+      question: "Which option is better for Orange County residents with good credit?",
+      answer: "Debt consolidation is typically better for those with good credit (650+) who can qualify for low-interest consolidation loans or balance transfer cards. This preserves your credit score while simplifying payments and potentially reducing interest costs over time."
+    },
+    {
+      question: "When should Orange County residents choose debt settlement over consolidation?",
+      answer: "Choose debt settlement when you cannot afford current minimum payments, have severely damaged credit, face potential bankruptcy, or owe more than 40% of your annual income in unsecured debt. Settlement is a last resort before bankruptcy but can provide significant debt reduction."
+    },
+    {
+      question: "How do the credit impacts compare between consolidation and settlement in Orange County?",
+      answer: "Debt consolidation typically improves credit scores by reducing utilization ratios and simplifying payments. Debt settlement severely damages credit scores (dropping 100-150 points initially) as it requires stopping payments and settling for less than owed, but offers faster recovery than bankruptcy."
+    },
+    {
+      question: "What are the costs of debt consolidation vs debt settlement for Orange County residents?",
+      answer: "Debt consolidation costs include loan interest (6-20% APR), origination fees (1-8%), and potential balance transfer fees (3-5%). Debt settlement fees range from 15-25% of enrolled debt, but you pay less total debt. Consolidation costs more long-term but preserves credit; settlement costs less but damages credit short-term."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Debt Consolidation vs Debt Settlement Orange County - Complete Comparison"
+        description="Compare debt consolidation vs debt settlement options in Orange County. Pros, cons, costs, credit impact. Choose the right debt relief strategy."
+        keywords="debt consolidation vs debt settlement orange county, debt relief comparison oc, consolidation vs settlement california"
+        slug="debt-consolidation-vs-debt-settlement-orange-county"
+        datePublished="2025-05-25"
+        faqItems={faqItems}
+      />
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

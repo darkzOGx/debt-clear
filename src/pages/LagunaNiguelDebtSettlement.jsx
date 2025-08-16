@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import CityPageSEO from '../components/seo/CityPageSEO';
 
 export default function LagunaNiguelDebtSettlement() {
   const consultationRef = useRef(null);
@@ -17,6 +18,15 @@ export default function LagunaNiguelDebtSettlement() {
 
   return (
     <div className="min-h-screen bg-white">
+      <CityPageSEO 
+        city="Laguna Niguel"
+        title="Debt Settlement Laguna Niguel CA - Reduce Debt 40-60% | VegaX AI 2025"
+        description="Expert debt settlement in Laguna Niguel, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Laguna Niguel residents since 2020."
+        keywords="debt settlement laguna niguel, debt relief laguna niguel, laguna niguel debt settlement company, debt negotiation laguna niguel ca, credit card debt relief laguna niguel"
+        slug="debt-settlement-laguna-niguel"
+        latitude={33.5225}
+        longitude={-117.7076}
+      />
       {/* Hero Section */}
       <section className="relative py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">

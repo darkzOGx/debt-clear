@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Heart, AlertCircle, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function MedicalDebtSettlementOrangeCounty() {
   const scrollToConsultation = () => {
@@ -12,8 +13,39 @@ export default function MedicalDebtSettlementOrangeCounty() {
     }
   };
 
+  const faqItems = [
+    {
+      question: "How do I settle medical debt with Orange County hospitals?",
+      answer: "Start by applying for financial assistance programs - hospitals like UCI Health, Kaiser, and Hoag offer charity care up to 350% of federal poverty level. If you don't qualify, negotiate directly with billing departments for 30-60% settlements. Always get agreements in writing and verify debt accuracy first. Professional settlement services achieve 85-90% success rates."
+    },
+    {
+      question: "What medical debt protections exist in Orange County?",
+      answer: "California's AB 1020 requires hospitals to provide charity care up to 350% of poverty level and discounted care up to 400%. SB 1061 prohibits medical debt credit reporting for charity care eligible patients. The No Surprise Billing Act protects against emergency and out-of-network surprise bills. Orange County residents have strong legal protections."
+    },
+    {
+      question: "Can I negotiate with UCI Health, Kaiser, and Hoag for lower medical bills?",
+      answer: "Yes, all major Orange County hospitals negotiate. UCI Health typically settles for 30-60% with payment plans up to 24 months. Kaiser has integrated collection systems and charity care, settling for 25-50%. Hoag offers aggressive early settlement offers and typically settles for 40-70%. Financial hardship programs are available at all facilities."
+    },
+    {
+      question: "What income qualifies for medical debt relief in Orange County?",
+      answer: "For 2024, free care is available up to 350% of federal poverty level: $51,030 (1 person), $69,020 (2 people), $87,010 (3 people), $105,000 (4 people). Discounted care extends to 400% FPL. Even higher incomes may qualify for payment plans or reduced settlements based on financial hardship."
+    },
+    {
+      question: "How long do I have to settle medical debt in Orange County?",
+      answer: "California's statute of limitations for medical debt is 4 years from the last payment or charge. However, act quickly - apply for charity care within 240 days of first billing statement for maximum protection. Many hospitals have internal policies requiring financial assistance applications before debt collection, giving you leverage for negotiations."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Medical Debt Settlement Orange County - Hospital Bill Negotiation"
+        description="Medical debt settlement and hospital bill negotiation in Orange County. Charity care, payment plans, settlement strategies."
+        keywords="medical debt settlement orange county, hospital debt negotiation oc, medical bill relief orange county"
+        slug="medical-debt-settlement-orange-county"
+        datePublished="2024-12-28"
+        faqItems={faqItems}
+      />
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -33,29 +65,29 @@ export default function MedicalDebtSettlementOrangeCounty() {
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Medical Debt Settlement in Orange County:
+            Medical Debt Settlement Orange County:
             <br />
-            <span className="font-mono text-3xl lg:text-4xl">Your Rights and Options</span>
+            <span className="font-mono text-3xl lg:text-4xl">Hospital Bill Negotiation</span>
           </h1>
 
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
-              <span>July 28, 2025</span>
+              <span>December 28, 2024</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
-              <span>9 min read</span>
+              <span>14 min read</span>
             </div>
             <div className="flex items-center gap-2">
               <User className="w-4 h-4" />
-              <span>VegaX Medical Debt Specialists</span>
+              <span>Debt Settlement Specialist</span>
             </div>
           </div>
 
           <p className="text-xl text-neutral-700 leading-relaxed font-light">
-            How to handle medical debt from Orange County hospitals and healthcare providers, including settlement strategies, 
-            patient protection laws, and specific options for major OC health systems like UCI Health and Kaiser Permanente.
+            Medical debt settlement and hospital bill negotiation in Orange County. Charity care, payment plans, 
+            settlement strategies for UCI Health, Kaiser, Hoag, and other OC healthcare providers.
           </p>
         </div>
       </section>

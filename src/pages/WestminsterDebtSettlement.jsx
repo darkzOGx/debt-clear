@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Phone, CheckCircle, Star, MapPin, Clock, Users, DollarSign } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import CityPageSEO from '../components/seo/CityPageSEO';
 
 export default function WestminsterDebtSettlement() {
   const scrollToConsultation = () => {
@@ -13,6 +14,15 @@ export default function WestminsterDebtSettlement() {
   };
   return (
     <div className="min-h-screen bg-white">
+      <CityPageSEO 
+        city="Westminster"
+        title="Debt Settlement Westminster CA - Reduce Debt 40-60% | VegaX AI 2025"
+        description="Expert debt settlement in Westminster, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Westminster residents since 2020."
+        keywords="debt settlement westminster, debt relief westminster, westminster debt settlement company, debt negotiation westminster ca, credit card debt relief westminster"
+        slug="debt-settlement-westminster"
+        latitude={33.7593}
+        longitude={-118.0062}
+      />
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-neutral-50 to-white overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(0,0,0,.02)_50%,transparent_75%)]"></div>

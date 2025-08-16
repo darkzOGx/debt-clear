@@ -1,20 +1,13 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import CityPageSEO from '../components/seo/CityPageSEO';
 
 export default function NewportBeachDebtSettlement() {
   const consultationRef = useRef(null);
-
-  useEffect(() => {
-    document.title = 'Newport Beach Debt Settlement & Debt Relief Services - Licensed CA';
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 'Professional debt settlement and debt relief services in Newport Beach, CA. Reduce debt up to 60% with our AI-powered debt settlement solutions. Free consultation for Newport Beach residents.');
-    }
-  }, []);
 
   const scrollToConsultation = () => {
     consultationRef.current?.scrollIntoView({ 
@@ -25,6 +18,15 @@ export default function NewportBeachDebtSettlement() {
 
   return (
     <div className="min-h-screen bg-white">
+      <CityPageSEO 
+        city="Newport Beach"
+        title="Debt Settlement Newport Beach CA - Reduce Debt 40-60% | VegaX AI 2025"
+        description="Expert debt settlement in Newport Beach, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Newport Beach residents since 2020."
+        keywords="debt settlement newport beach, debt relief newport beach, newport beach debt settlement company, debt negotiation newport beach ca, credit card debt relief newport beach"
+        slug="debt-settlement-newport-beach"
+        latitude={33.6189}
+        longitude={-117.9298}
+      />
       {/* Hero Section */}
       <section className="relative py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">

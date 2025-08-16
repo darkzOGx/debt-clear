@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import CityPageSEO from '../components/seo/CityPageSEO';
 
 export default function DanaPointDebtSettlement() {
   const consultationRef = useRef(null);
@@ -17,6 +18,15 @@ export default function DanaPointDebtSettlement() {
 
   return (
     <div className="min-h-screen bg-white">
+      <CityPageSEO 
+        city="Dana Point"
+        title="Debt Settlement Dana Point CA - Reduce Debt 40-60% | VegaX AI 2025"
+        description="Expert debt settlement in Dana Point, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Dana Point residents since 2020."
+        keywords="debt settlement dana point, debt relief dana point, dana point debt settlement company, debt negotiation dana point ca, credit card debt relief dana point"
+        slug="debt-settlement-dana-point"
+        latitude={33.4669}
+        longitude={-117.6981}
+      />
       {/* Hero Section */}
       <section className="relative py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">

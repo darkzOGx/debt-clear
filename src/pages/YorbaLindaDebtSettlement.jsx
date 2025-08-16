@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import CityPageSEO from '../components/seo/CityPageSEO';
 
 export default function YorbaLindaDebtSettlement() {
   const consultationRef = useRef(null);
@@ -17,6 +18,15 @@ export default function YorbaLindaDebtSettlement() {
 
   return (
     <div className="min-h-screen bg-white">
+      <CityPageSEO 
+        city="Yorba Linda"
+        title="Debt Settlement Yorba Linda CA - Reduce Debt 40-60% | VegaX AI 2025"
+        description="Expert debt settlement in Yorba Linda, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Yorba Linda residents since 2020."
+        keywords="debt settlement yorba linda, debt relief yorba linda, yorba linda debt settlement company, debt negotiation yorba linda ca, credit card debt relief yorba linda"
+        slug="debt-settlement-yorba-linda"
+        latitude={33.8886}
+        longitude={-117.8131}
+      />
       {/* Hero Section */}
       <section className="relative py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">

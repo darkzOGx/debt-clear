@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import CityPageSEO from '../components/seo/CityPageSEO';
 
 export default function SealBeachDebtSettlement() {
   const consultationRef = useRef(null);
@@ -17,6 +18,15 @@ export default function SealBeachDebtSettlement() {
 
   return (
     <div className="min-h-screen bg-white">
+      <CityPageSEO 
+        city="Seal Beach"
+        title="Debt Settlement Seal Beach CA - Reduce Debt 40-60% | VegaX AI 2025"
+        description="Expert debt settlement in Seal Beach, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Seal Beach residents since 2020."
+        keywords="debt settlement seal beach, debt relief seal beach, seal beach debt settlement company, debt negotiation seal beach ca, credit card debt relief seal beach"
+        slug="debt-settlement-seal-beach"
+        latitude={33.7414}
+        longitude={-118.1048}
+      />
       {/* Hero Section */}
       <section className="relative py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">

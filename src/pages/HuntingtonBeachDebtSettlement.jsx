@@ -1,20 +1,13 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, MapPin, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import CityPageSEO from '../components/seo/CityPageSEO';
 
 export default function HuntingtonBeachDebtSettlement() {
   const consultationRef = useRef(null);
-
-  useEffect(() => {
-    document.title = 'Huntington Beach Debt Settlement & Debt Relief Services - Licensed CA';
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 'Professional debt settlement and debt relief services in Huntington Beach, CA. Reduce debt up to 60% with our AI-powered debt settlement solutions. Free consultation for Huntington Beach residents.');
-    }
-  }, []);
 
   const scrollToConsultation = () => {
     consultationRef.current?.scrollIntoView({ 
@@ -25,6 +18,15 @@ export default function HuntingtonBeachDebtSettlement() {
 
   return (
     <div className="min-h-screen bg-white">
+      <CityPageSEO 
+        city="Huntington Beach"
+        title="Debt Settlement Huntington Beach CA - Reduce Debt 40-60% | VegaX AI 2025"
+        description="Expert debt settlement in Huntington Beach, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Huntington Beach residents since 2020."
+        keywords="debt settlement huntington beach, debt relief huntington beach, huntington beach debt settlement company, debt negotiation huntington beach ca, credit card debt relief huntington beach"
+        slug="debt-settlement-huntington-beach"
+        latitude={33.6606}
+        longitude={-118.0020}
+      />
       {/* Hero Section */}
       <section className="relative py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">

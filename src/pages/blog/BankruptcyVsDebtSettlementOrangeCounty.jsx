@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, DollarSign, TrendingDown, Shield } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function BankruptcyVsDebtSettlementOrangeCounty() {
   const scrollToConsultation = () => {
@@ -12,8 +13,39 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
     }
   };
 
+  const faqItems = [
+    {
+      question: "What are the cost differences between bankruptcy and debt settlement in Orange County?",
+      answer: "Chapter 7 bankruptcy costs $1,500-$3,500 total, Chapter 13 costs $2,500-$5,000, while debt settlement costs 15-25% of settled debt. For $50,000 in debt, bankruptcy might cost $3,000 vs debt settlement at $6,000-$8,000, but debt settlement reduces the actual debt amount."
+    },
+    {
+      question: "How long does bankruptcy vs debt settlement take in Orange County?",
+      answer: "Chapter 7 bankruptcy takes 3-6 months, Chapter 13 takes 3-5 years, while debt settlement typically takes 12-24 months. Orange County residents choosing debt settlement can be debt-free faster than Chapter 13 but slower than Chapter 7."
+    },
+    {
+      question: "Which option better protects assets in Orange County?",
+      answer: "Debt settlement provides full asset protection since it's a private negotiation. Chapter 7 has limited exemptions ($600K homestead for families), while Chapter 13 allows keeping most assets. Orange County's high property values make asset protection crucial in the decision."
+    },
+    {
+      question: "How do bankruptcy and debt settlement affect credit scores in Orange County?",
+      answer: "Chapter 7 stays on credit reports for 10 years, Chapter 13 for 7 years, while debt settlement accounts are removed after 7 years but recovery begins immediately. Orange County residents typically see credit recovery within 12-18 months after debt settlement completion."
+    },
+    {
+      question: "Can Orange County residents choose between bankruptcy and debt settlement?",
+      answer: "Most Orange County residents qualify for either option, but income levels affect bankruptcy eligibility. High earners may not qualify for Chapter 7, while those with regular income can choose Chapter 13 or debt settlement based on their priorities and circumstances."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Orange County Bankruptcy vs Debt Settlement 2025 - Complete Cost Comparison"
+        description="Compare bankruptcy vs debt settlement costs in Orange County. Chapter 7, Chapter 13, and debt settlement options. Free consultation with debt experts."
+        keywords="bankruptcy vs debt settlement orange county cost, chapter 7 vs debt settlement oc, orange county bankruptcy alternatives"
+        slug="bankruptcy-vs-debt-settlement-orange-county"
+        datePublished="2025-01-18"
+        faqItems={faqItems}
+      />
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

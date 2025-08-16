@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, CreditCard, DollarSign, Target, TrendingDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
   const scrollToConsultation = () => {
@@ -12,8 +13,39 @@ export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
     }
   };
 
+  const faqItems = [
+    {
+      question: "Which major credit card companies settle debt most frequently in Orange County?",
+      answer: "Capital One, Synchrony Bank, and Citi are generally more willing to settle debts, often accepting 40-60% of the balance. Chase and American Express are traditionally more aggressive but will settle when accounts are significantly delinquent. Bank of America falls in the middle range for settlement acceptance."
+    },
+    {
+      question: "What percentage of credit card debt can I expect to settle for with major banks in Orange County?",
+      answer: "Settlement percentages vary by bank and circumstances. Typically: Capital One (30-50%), Citi (40-60%), Chase (50-70%), Bank of America (45-65%), and American Express (60-80%). Factors include debt age, account history, and your financial hardship situation."
+    },
+    {
+      question: "How long does credit card debt settlement take with major banks in Orange County?",
+      answer: "The process typically takes 2-4 years depending on the creditor and debt amount. Some banks like Capital One may settle within 6-12 months of delinquency, while others like American Express may require 18-24 months. Complex cases with multiple creditors can take longer."
+    },
+    {
+      question: "Will major credit card companies sue Orange County residents during debt settlement?",
+      answer: "Yes, major banks frequently sue for unpaid debts, especially amounts over $5,000. Chase, Bank of America, and Citi are particularly litigious. However, they often prefer to settle once legal action begins rather than pursue lengthy court proceedings, especially if you're represented."
+    },
+    {
+      question: "Can I negotiate directly with major credit card companies instead of using a debt settlement company?",
+      answer: "Yes, you can negotiate directly with creditors. Many Orange County residents successfully settle their own debts. However, major banks often give better settlement terms to professional negotiators who understand their specific policies and have established relationships with their loss mitigation departments."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Credit Card Debt Settlement Major Banks Orange County - Bank-Specific Guide"
+        description="Settle credit card debt with major banks in Orange County. Chase, Citi, Bank of America settlement strategies. Bank-specific negotiation tactics."
+        keywords="credit card debt settlement major banks orange county, chase debt settlement oc, bank of america debt relief"
+        slug="credit-card-debt-settlement-major-banks-orange-county"
+        datePublished="2025-05-10"
+        faqItems={faqItems}
+      />
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

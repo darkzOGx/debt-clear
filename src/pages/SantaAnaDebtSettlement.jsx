@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, MapPin, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import CityPageSEO from '../components/seo/CityPageSEO';
 
 export default function SantaAnaDebtSettlement() {
   const consultationRef = useRef(null);
@@ -25,6 +26,15 @@ export default function SantaAnaDebtSettlement() {
 
   return (
     <div className="min-h-screen bg-white">
+      <CityPageSEO 
+        city="Santa Ana"
+        title="Debt Settlement Santa Ana CA - Reduce Debt 40-60% | VegaX AI 2025"
+        description="Expert debt settlement in Santa Ana, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Santa Ana residents since 2020."
+        keywords="debt settlement santa ana, debt relief santa ana, santa ana debt settlement company, debt negotiation santa ana ca, credit card debt relief santa ana"
+        slug="debt-settlement-santa-ana"
+        latitude={33.7456}
+        longitude={-117.8678}
+      />
       {/* Hero Section */}
       <section className="relative py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">

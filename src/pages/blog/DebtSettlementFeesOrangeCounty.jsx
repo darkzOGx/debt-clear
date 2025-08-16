@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowLeft, Calendar, Clock, User, DollarSign } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function DebtSettlementFeesOrangeCounty() {
   const scrollToConsultation = () => {
@@ -11,19 +12,57 @@ export default function DebtSettlementFeesOrangeCounty() {
     }
   };
 
+  const faqItems = [
+    {
+      question: "What are typical debt settlement fees in Orange County?",
+      answer: "Debt settlement fees in Orange County typically range from 15-30% of the settled amount. AI-powered companies charge 15-20%, local boutique firms 18-23%, national companies 20-25%, and attorney-based services 25-30%. California law prohibits upfront fees - all fees must be charged only after successful settlement."
+    },
+    {
+      question: "Are upfront fees legal for debt settlement in Orange County?",
+      answer: "No, California law strictly prohibits debt settlement companies from charging upfront fees. All fees must be charged only after successful settlement of each individual debt. Fees must be a percentage of the settled amount, not the original debt, and all costs must be disclosed in writing before enrollment."
+    },
+    {
+      question: "How much will debt settlement cost for $50,000 in Orange County?",
+      answer: "For $50,000 in debt settled to $22,500 (typical 55% reduction), fees would range from $3,375 (15% fee) to $6,750 (30% fee). An 18% fee would cost $4,050, while a 25% fee would cost $5,625 - a difference of $1,575. The exact cost depends on the company and complexity of your case."
+    },
+    {
+      question: "What hidden fees should Orange County residents watch for?",
+      answer: "Common hidden fees include monthly escrow fees ($25-$50), setup fees, administrative fees, credit monitoring fees, and early termination fees. Legitimate companies should disclose all fees upfront. Watch for companies requiring upfront payments, monthly fees exceeding $50, or additional charges not clearly outlined in the contract."
+    },
+    {
+      question: "How can Orange County residents reduce debt settlement costs?",
+      answer: "To reduce costs: compare multiple companies' fee structures, choose AI-powered companies (15-20% vs 25-30%), negotiate fee percentages for large debt amounts, avoid companies with monthly fees, and ensure all fees are success-based only. Also consider companies that charge fees on settled amount rather than original debt."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Debt Settlement Fees Orange County 2025 - Complete Cost Breakdown"
+        description="Debt settlement fees and costs in Orange County. Industry standards, hidden fees to avoid, payment structures. Get transparent pricing."
+        keywords="debt settlement fees orange county, debt settlement cost oc, debt settlement pricing orange county"
+        slug="debt-settlement-fees-orange-county"
+        datePublished="2025-01-06"
+        faqItems={faqItems}
+      />
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"><ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6"><div className="w-2 h-2 bg-black"></div><span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">COST ANALYSIS</span></div>
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">Orange County Debt Settlement Fees:<br /><span className="font-mono text-3xl lg:text-4xl">Understanding the Costs</span></h1>
+          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+            Debt Settlement Fees Orange County 2025:
+            <br />
+            <span className="font-mono text-3xl lg:text-4xl">Complete Cost Breakdown</span>
+          </h1>
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>June 28, 2025</span></div>
-            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>7 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Cost Analysis Team</span></div>
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>January 6, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>10 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>Debt Settlement Specialist</span></div>
           </div>
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">Transparent breakdown of debt settlement fees in Orange County, including what's legal, typical costs, and how to avoid overcharges.</p>
+          <p className="text-xl text-neutral-700 leading-relaxed font-light">
+            Debt settlement fees and costs in Orange County. Industry standards, hidden fees to avoid, 
+            payment structures. Get transparent pricing and understand what's legal vs. what's not.
+          </p>
         </div>
       </section>
       <article className="py-16">

@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowLeft, Calendar, Clock, User, TrendingUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
   const scrollToConsultation = () => {
@@ -11,19 +12,57 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
     }
   };
 
+  const faqItems = [
+    {
+      question: "How long does credit score recovery take after debt settlement in Orange County?",
+      answer: "Credit score recovery after debt settlement in Orange County typically takes 24-36 months to return to pre-settlement levels. Initial recovery shows 20-40 point improvements in months 6-12, 50-80 point improvements in months 12-24, and full recovery by months 24-36 with proper credit rebuilding strategies including secured cards and on-time payments."
+    },
+    {
+      question: "What credit cards can Orange County residents get after debt settlement?",
+      answer: "Orange County residents can start with secured credit cards from local institutions like Orange County's Credit Union ($300-5,000 limit), SchoolsFirst Federal CU ($500-5,000), or national options like Capital One Platinum Secured ($200-3,000). After 12 months, unsecured cards like Capital One or Credit One become available, followed by better options like Discover or Chase Freedom after 18-24 months."
+    },
+    {
+      question: "How does debt settlement initially impact credit scores for Orange County residents?",
+      answer: "Debt settlement typically causes a 75-150 point credit score drop initially for Orange County residents. The impact depends on pre-settlement score and number of accounts settled. Higher initial scores experience larger drops, but recovery potential is also greater. Credit scores stabilize within 1-6 months after settlement completion."
+    },
+    {
+      question: "What's the best credit rebuilding strategy after debt settlement in Orange County?",
+      answer: "The best strategy includes: 1) Open secured credit cards within 3 months, 2) Keep utilization under 10%, 3) Make 100% on-time payments, 4) Consider credit builder loans from Orange County credit unions, 5) Become authorized user on family member's account, 6) Apply for unsecured cards after 12 months, 7) Monitor credit reports monthly for errors."
+    },
+    {
+      question: "When can Orange County residents qualify for mortgages after debt settlement?",
+      answer: "Orange County residents can qualify for FHA mortgages 24 months after debt settlement with 580+ credit score, conventional mortgages at 36 months with 620+ score, and jumbo loans (common in Orange County) at 36+ months with 700+ score. Auto loans become available at 6-12 months post-settlement with subprime lenders, improving to prime rates after 24 months."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Credit Score Recovery After Debt Settlement Orange County - Repair Guide"
+        description="Rebuild credit after debt settlement in Orange County. Timeline, strategies, credit repair steps. Recover your credit score fast."
+        keywords="credit repair after debt settlement orange county, credit score recovery oc, rebuild credit after settlement"
+        slug="credit-score-recovery-debt-settlement-orange-county"
+        datePublished="2025-01-05"
+        faqItems={faqItems}
+      />
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"><ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6"><div className="w-2 h-2 bg-black"></div><span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">CREDIT REPAIR</span></div>
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">Credit Score Recovery After Debt Settlement<br /><span className="font-mono text-3xl lg:text-4xl">in Orange County</span></h1>
+          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+            Credit Score Recovery After Debt Settlement Orange County:
+            <br />
+            <span className="font-mono text-3xl lg:text-4xl">Repair Guide</span>
+          </h1>
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>June 25, 2025</span></div>
-            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>11 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Credit Recovery Team</span></div>
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>January 5, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>15 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>Debt Settlement Specialist</span></div>
           </div>
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">Step-by-step guide to rebuilding credit after debt settlement, with timelines and strategies specific to Orange County residents.</p>
+          <p className="text-xl text-neutral-700 leading-relaxed font-light">
+            Rebuild credit after debt settlement in Orange County. Timeline, strategies, credit repair steps. 
+            Recover your credit score fast with proven techniques and local resources.
+          </p>
         </div>
       </section>
       <article className="py-16">

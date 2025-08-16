@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Building, DollarSign, Shield, FileText } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function HospitalDebtSettlementOrangeCounty() {
   const scrollToConsultation = () => {
@@ -12,8 +13,39 @@ export default function HospitalDebtSettlementOrangeCounty() {
     }
   };
 
+  const faqItems = [
+    {
+      question: "Can I negotiate directly with Orange County hospitals to reduce my medical debt?",
+      answer: "Yes, most Orange County hospitals have financial assistance programs and will negotiate payment plans or debt reductions. Contact the hospital's billing department or patient financial services immediately. Many hospitals prefer to work directly with patients rather than sending debts to collections."
+    },
+    {
+      question: "What percentage of hospital debt can typically be settled for in Orange County?",
+      answer: "Hospital debt settlements in Orange County typically range from 30-70% of the original balance, depending on the hospital's policies, your financial situation, and whether the debt has been sold to collections. Nonprofit hospitals often offer deeper discounts through charity care programs."
+    },
+    {
+      question: "Do Orange County hospitals have to provide charity care for low-income patients?",
+      answer: "Yes, nonprofit hospitals in Orange County are required by law to provide charity care programs for patients with incomes up to 400% of the Federal Poverty Level. This can result in significant discounts or complete debt forgiveness for qualifying patients."
+    },
+    {
+      question: "How long do I have to settle hospital debt before it goes to collections in Orange County?",
+      answer: "Most Orange County hospitals wait 90-180 days before sending unpaid bills to collections. However, you should contact the hospital immediately upon receiving bills to discuss payment options, financial assistance, or settlement arrangements before the debt is transferred."
+    },
+    {
+      question: "Will settling hospital debt affect my credit score differently than other debt types?",
+      answer: "Medical debt has some special protections - it cannot appear on credit reports until it's 180 days past due, and paid medical collections are removed from credit reports. However, unpaid hospital debt settlements will still negatively impact your credit score, though potentially less than other types of settled debt."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Hospital Debt Settlement Orange County - Medical Debt Relief Options"
+        description="Settle hospital debt in Orange County. Medical bill negotiation, charity care programs, payment plans. Reduce medical debt burden legally."
+        keywords="hospital debt settlement orange county, medical debt relief oc, hospital bill negotiation california"
+        slug="hospital-debt-settlement-orange-county"
+        datePublished="2025-07-01"
+        faqItems={faqItems}
+      />
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

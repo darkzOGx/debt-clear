@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, FileText, DollarSign, AlertTriangle, Calculator } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function TaxImplicationsDebtSettlementOrangeCounty() {
   const scrollToConsultation = () => {
@@ -12,8 +13,39 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
     }
   };
 
+  const faqItems = [
+    {
+      question: "Do I have to pay taxes on forgiven debt from settlement in Orange County?",
+      answer: "Yes, forgiven debt of $600 or more is generally considered taxable income. However, if you were insolvent at the time of settlement, you may qualify for the insolvency exception. You'll receive Form 1099-C and must report the forgiven amount unless you qualify for an exemption."
+    },
+    {
+      question: "What is the insolvency exception for debt settlement taxes?",
+      answer: "The insolvency exception applies when your total debts exceed your total assets immediately before debt settlement. You can exclude forgiven debt from taxable income up to the amount you were insolvent. You must file Form 982 with your tax return to claim this exception."
+    },
+    {
+      question: "How much will I owe in taxes on settled debt in California?",
+      answer: "Tax liability depends on your income bracket and the amount of forgiven debt. In California, you'll face both federal taxes (10-37%) and state taxes (up to 13.3%). For example, $35,000 in forgiven debt could result in $8,400 federal tax plus $3,500 California state tax for someone in the 24% bracket."
+    },
+    {
+      question: "When will I receive Form 1099-C for my debt settlement?",
+      answer: "Creditors must issue Form 1099-C by January 31st for the previous tax year. You should receive it by early February. The form will show the amount of cancelled debt in Box 2. Even if you don't receive the form, you're still required to report forgiven debt as income."
+    },
+    {
+      question: "Can I avoid taxes on debt settlement by timing the settlement strategically?",
+      answer: "Yes, strategic timing can help minimize tax impact. Consider settling debts in low-income years, spreading settlements across multiple tax years to avoid higher brackets, or coordinating with retirement contributions to offset the income. Always consult a tax professional for your specific situation."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Tax Implications of Debt Settlement Orange County - California Tax Guide"
+        description="Tax implications of debt settlement in Orange County. 1099-C forms, taxable income, California tax laws. Minimize tax impact."
+        keywords="tax implications debt settlement orange county, 1099-c tax california, debt forgiveness tax oc"
+        slug="tax-implications-debt-settlement-orange-county"
+        datePublished="2025-03-15"
+        faqItems={faqItems}
+      />
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

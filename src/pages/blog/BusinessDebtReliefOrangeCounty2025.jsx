@@ -2,10 +2,50 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Building, Briefcase, TrendingDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function BusinessDebtReliefOrangeCounty2025() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
+  const faqItems = [
+    {
+      question: "What types of business debt can be settled in Orange County?",
+      answer: "Most unsecured business debts can be settled including credit cards, lines of credit, equipment financing, merchant cash advances, and supplier debts. However, secured debts, payroll taxes, and certain government obligations typically cannot be settled through traditional debt settlement processes."
+    },
+    {
+      question: "How does business debt settlement differ from personal debt settlement in Orange County?",
+      answer: "Business debt settlement often involves more complex negotiations, higher debt amounts, and different legal protections. Businesses have fewer exemptions than individuals, and creditors may be more aggressive. However, businesses also have more negotiating leverage and restructuring options available."
+    },
+    {
+      question: "Can I settle business debt while keeping my Orange County business operational?",
+      answer: "Yes, many businesses continue operating during debt settlement. The key is maintaining essential vendor relationships and cash flow for operations while negotiating with creditors. Some businesses may need to restructure operations or seek alternative financing during the process."
+    },
+    {
+      question: "What are the tax implications of business debt settlement in Orange County?",
+      answer: "Forgiven business debt is generally considered taxable income for the business. This could result in significant tax liability. However, businesses may qualify for insolvency exceptions or other tax relief provisions. It's crucial to consult with a tax professional before proceeding with settlements."
+    },
+    {
+      question: "Should I consider bankruptcy instead of debt settlement for my Orange County business?",
+      answer: "The choice depends on your business viability, asset protection needs, and future plans. Chapter 11 reorganization may be better for businesses with significant assets or ongoing operations, while debt settlement might work for businesses with primarily unsecured debt and sufficient cash flow for settlements."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Business Debt Relief Orange County 2025 - Small Business Solutions"
+        description="Business debt relief options for Orange County companies. Debt settlement, restructuring, bankruptcy alternatives. Expert business debt solutions."
+        keywords="business debt relief orange county, small business debt settlement oc, commercial debt help california"
+        slug="business-debt-relief-orange-county-2025"
+        datePublished="2025-04-15"
+        faqItems={faqItems}
+      />
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

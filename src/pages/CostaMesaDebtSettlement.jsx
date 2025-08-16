@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Phone, CheckCircle, Star, MapPin, Clock, Users, DollarSign } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import CityPageSEO from '../components/seo/CityPageSEO';
 
 export default function CostaMesaDebtSettlement() {
   const scrollToConsultation = () => {
@@ -13,6 +14,15 @@ export default function CostaMesaDebtSettlement() {
   };
   return (
     <div className="min-h-screen bg-white">
+      <CityPageSEO 
+        city="Costa Mesa"
+        title="Debt Settlement Costa Mesa CA - Reduce Debt 40-60% | VegaX AI 2025"
+        description="Expert debt settlement in Costa Mesa, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Costa Mesa residents since 2020."
+        keywords="debt settlement costa mesa, debt relief costa mesa, costa mesa debt settlement company, debt negotiation costa mesa ca, credit card debt relief costa mesa"
+        slug="debt-settlement-costa-mesa"
+        latitude={33.6412}
+        longitude={-117.9187}
+      />
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-neutral-50 to-white overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(0,0,0,.02)_50%,transparent_75%)]"></div>

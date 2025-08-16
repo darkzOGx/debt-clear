@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, CheckCircle, TrendingDown, Home } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function DebtSettlementSuccessStoriesOrangeCounty2025() {
   const scrollToConsultation = () => {
@@ -12,8 +13,39 @@ export default function DebtSettlementSuccessStoriesOrangeCounty2025() {
     }
   };
 
+  const faqItems = [
+    {
+      question: "What are typical debt settlement results for Orange County residents in 2025?",
+      answer: "Orange County residents typically achieve 40-70% debt reduction through settlement programs. Average settlement timeframes range from 18-36 months, with most clients saving $15,000-$50,000 in total debt elimination. Success rates are highest for those with $10,000+ in unsecured debt who can commit to the full program."
+    },
+    {
+      question: "How long does it take to see results from debt settlement in Orange County?",
+      answer: "Initial settlement offers often begin within 6-12 months of enrollment. Complete program resolution typically takes 2-4 years depending on debt amount and creditor cooperation. Orange County residents often see first settlements within 8-10 months with established debt settlement companies."
+    },
+    {
+      question: "What types of debt are most successfully settled for Orange County families?",
+      answer: "Credit card debt settles most successfully (50-70% reduction), followed by personal loans (40-60%) and medical debt (30-60%). Store credit cards and private label cards often settle for even less. Secured debts like mortgages and auto loans cannot be settled through these programs."
+    },
+    {
+      question: "How much do Orange County residents typically save through debt settlement?",
+      answer: "Successful cases show average savings of 50-60% of enrolled debt after fees. For example, $50,000 in debt might settle for $20,000-25,000 total including program fees. However, results vary significantly based on creditor, debt age, and individual financial circumstances."
+    },
+    {
+      question: "What factors contribute to successful debt settlement outcomes in Orange County?",
+      answer: "Key success factors include: having legitimate financial hardship, maintaining program payments consistently, working with licensed and experienced negotiators, being patient through the process, and having realistic expectations about timeline and credit impact. Consistency and commitment are crucial for success."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Debt Settlement Success Stories Orange County 2025 - Real Results"
+        description="Real debt settlement success stories from Orange County residents in 2025. Actual results, timelines, savings. See what's possible with professional debt relief."
+        keywords="debt settlement success stories orange county, debt relief results oc, debt settlement case studies california"
+        slug="debt-settlement-success-stories-orange-county-2025"
+        datePublished="2025-08-05"
+        faqItems={faqItems}
+      />
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

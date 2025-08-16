@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowLeft, Calendar, Clock, User, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import BlogSEO from '../../components/seo/BlogSEO';
 
 export default function DebtSettlementSeniorsOrangeCounty() {
   const scrollToConsultation = () => {
@@ -11,8 +12,39 @@ export default function DebtSettlementSeniorsOrangeCounty() {
     }
   };
 
+  const faqItems = [
+    {
+      question: "Can creditors garnish my Social Security benefits for debt settlement in Orange County?",
+      answer: "No, Social Security benefits are generally protected from garnishment by creditors. However, these protections may not apply to certain government debts like unpaid taxes or student loans. It's important to keep Social Security funds in a separate account to maintain protection."
+    },
+    {
+      question: "Will debt settlement affect my Medicare benefits as an Orange County senior?",
+      answer: "Debt settlement will not directly affect your Medicare eligibility or benefits. However, any forgiven debt may be considered taxable income, which could potentially affect your Modified Adjusted Gross Income (MAGI) and impact Medicare Part B premiums in future years."
+    },
+    {
+      question: "Should seniors in Orange County consider debt settlement on a fixed income?",
+      answer: "Debt settlement can be beneficial for seniors on fixed incomes who cannot afford minimum payments. However, it's important to consider the tax implications of forgiven debt and ensure essential expenses like housing, healthcare, and food remain covered during the settlement process."
+    },
+    {
+      question: "What special protections do Orange County seniors have during debt settlement?",
+      answer: "California seniors have additional protections including enhanced homestead exemptions, Social Security protection, pension protections, and special consideration under elder abuse laws. Seniors also have longer statute of limitations periods and additional consumer protection rights."
+    },
+    {
+      question: "How does debt settlement affect estate planning for Orange County seniors?",
+      answer: "Debt settlement can simplify estate planning by reducing overall debt burden. However, seniors should consider timing of settlements to minimize tax impacts on beneficiaries and ensure essential assets remain protected. Consult with both a debt specialist and estate planning attorney."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
+      <BlogSEO 
+        title="Debt Settlement for Seniors Orange County - Fixed Income Solutions"
+        description="Debt settlement options for Orange County seniors on fixed income. Social Security protection, Medicare considerations, senior-specific solutions."
+        keywords="debt settlement seniors orange county, senior debt relief oc, fixed income debt help"
+        slug="debt-settlement-seniors-orange-county"
+        datePublished="2025-07-12"
+        faqItems={faqItems}
+      />
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8">

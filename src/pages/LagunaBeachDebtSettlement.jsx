@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import CityPageSEO from '../components/seo/CityPageSEO';
 
 export default function LagunaBeachDebtSettlement() {
   const consultationRef = useRef(null);
@@ -17,6 +18,15 @@ export default function LagunaBeachDebtSettlement() {
 
   return (
     <div className="min-h-screen bg-white">
+      <CityPageSEO 
+        city="Laguna Beach"
+        title="Debt Settlement Laguna Beach CA - Reduce Debt 40-60% | VegaX AI 2025"
+        description="Expert debt settlement in Laguna Beach, CA. Reduce credit card, medical, business debt 40-60%. Licensed & bonded. Free consultation. Serving Laguna Beach residents since 2020."
+        keywords="debt settlement laguna beach, debt relief laguna beach, laguna beach debt settlement company, debt negotiation laguna beach ca, credit card debt relief laguna beach"
+        slug="debt-settlement-laguna-beach"
+        latitude={33.5427}
+        longitude={-117.7834}
+      />
       {/* Hero Section */}
       <section className="relative py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
