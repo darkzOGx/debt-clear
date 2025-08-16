@@ -13,8 +13,13 @@ export default function OrangeCountyDebtStatistics() {
   }, []);
 
   const downloadReport = () => {
-    // This would trigger a download of a comprehensive PDF report
-    alert('PDF report download would be triggered here');
+    // Create the PDF report download
+    const link = document.createElement('a');
+    link.href = '/orange-county-debt-statistics-2025.pdf';
+    link.download = 'Orange County Debt Statistics 2025 Market Analysis.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   const shareStatistics = () => {

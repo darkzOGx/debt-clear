@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, TrendingUp, Users, Building2, DollarSign, Home, Briefcase, GraduationCap, Heart, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
+import { MapPin, TrendingUp, Users, Building2, DollarSign, Home, Briefcase, GraduationCap, Heart, ArrowRight, ChevronLeft, ChevronRight, Download, FileText, BarChart3 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
 
@@ -93,6 +93,16 @@ export default function OrangeCountyHub() {
     }
   };
 
+  const downloadFullReport = () => {
+    // Create the PDF report link
+    const link = document.createElement('a');
+    link.href = '/orange-county-debt-statistics-2025.pdf';
+    link.download = 'Orange County Debt Statistics 2025 Market Analysis.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   const nextCities = () => {
     if (cityStartIndex + citiesPerPage < countyData.cities.length) {
       setCityStartIndex(cityStartIndex + citiesPerPage);
@@ -145,7 +155,7 @@ export default function OrangeCountyHub() {
       <section className="bg-neutral-50 border-b border-neutral-200 sticky top-0 z-10">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="flex gap-8 overflow-x-auto py-4">
-            {['overview', 'cities', 'statistics', 'industries', 'resources'].map((tab) => (
+            {['overview', 'market-analysis', 'cities', 'statistics', 'industries', 'resources'].map((tab) => (
               <button
                 key={tab}
                 onClick={() => setSelectedTab(tab)}
@@ -228,6 +238,128 @@ export default function OrangeCountyHub() {
                       Private school and college costs drive families into significant educational debt.
                     </p>
                   </div>
+                </div>
+              </div>
+            </motion.div>
+          )}
+
+          {/* Market Analysis Tab */}
+          {selectedTab === 'market-analysis' && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5 }}
+            >
+              <div className="text-center mb-12">
+                <h2 className="text-3xl font-light text-black mb-4">
+                  Orange County Debt Statistics <span className="font-mono">2025 Market Analysis</span>
+                </h2>
+                <p className="text-lg text-neutral-600 max-w-3xl mx-auto mb-8">
+                  Comprehensive data analysis of debt settlement, debt relief, and financial hardship trends 
+                  across Orange County's 34 cities. Essential resource for researchers, journalists, and financial professionals.
+                </p>
+                <Link 
+                  to="/orange-county-debt-statistics"
+                  className="inline-flex items-center gap-3 bg-black text-white px-6 py-3 hover:bg-neutral-800 transition-colors font-mono text-sm uppercase tracking-wide mr-4"
+                >
+                  <BarChart3 className="w-4 h-4" />
+                  View Interactive Report
+                </Link>
+                <button 
+                  onClick={downloadFullReport}
+                  className="inline-flex items-center gap-3 border border-neutral-300 text-black px-6 py-3 hover:border-black transition-colors font-mono text-sm uppercase tracking-wide"
+                >
+                  <Download className="w-4 h-4" />
+                  Download Full PDF Report
+                </button>
+              </div>
+
+              {/* Key Statistics Preview */}
+              <div className="grid md:grid-cols-4 gap-6 mb-12">
+                <div className="bg-neutral-50 p-6 border border-neutral-200 text-center">
+                  <DollarSign className="w-8 h-8 text-black mx-auto mb-3" />
+                  <div className="text-3xl font-mono text-black mb-2">$8.2B</div>
+                  <div className="text-sm text-neutral-600">Total Consumer Debt</div>
+                  <div className="text-xs text-neutral-500 mt-1">Orange County Residents</div>
+                </div>
+                <div className="bg-neutral-50 p-6 border border-neutral-200 text-center">
+                  <Users className="w-8 h-8 text-black mx-auto mb-3" />
+                  <div className="text-3xl font-mono text-black mb-2">247K</div>
+                  <div className="text-sm text-neutral-600">Households in Debt</div>
+                  <div className="text-xs text-neutral-500 mt-1">73% of All Households</div>
+                </div>
+                <div className="bg-neutral-50 p-6 border border-neutral-200 text-center">
+                  <TrendingUp className="w-8 h-8 text-black mx-auto mb-3" />
+                  <div className="text-3xl font-mono text-black mb-2">52%</div>
+                  <div className="text-sm text-neutral-600">Avg Debt Reduction</div>
+                  <div className="text-xs text-neutral-500 mt-1">Settlement Programs</div>
+                </div>
+                <div className="bg-neutral-50 p-6 border border-neutral-200 text-center">
+                  <FileText className="w-8 h-8 text-black mx-auto mb-3" />
+                  <div className="text-3xl font-mono text-black mb-2">47</div>
+                  <div className="text-sm text-neutral-600">Page Report</div>
+                  <div className="text-xs text-neutral-500 mt-1">Comprehensive Analysis</div>
+                </div>
+              </div>
+
+              {/* Report Features */}
+              <div className="bg-white border border-neutral-200 p-8 mb-12">
+                <h3 className="text-2xl font-semibold text-black mb-6 text-center">What's Included in the Full Report</h3>
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-neutral-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <BarChart3 className="w-6 h-6 text-black" />
+                    </div>
+                    <h4 className="font-semibold text-black mb-2">City-by-City Breakdown</h4>
+                    <p className="text-sm text-neutral-600">Detailed debt statistics for all 34 Orange County cities</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-neutral-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Building2 className="w-6 h-6 text-black" />
+                    </div>
+                    <h4 className="font-semibold text-black mb-2">Industry Analysis</h4>
+                    <p className="text-sm text-neutral-600">Debt patterns across major employment sectors</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-neutral-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <TrendingUp className="w-6 h-6 text-black" />
+                    </div>
+                    <h4 className="font-semibold text-black mb-2">5-Year Trends</h4>
+                    <p className="text-sm text-neutral-600">Historical data and future projections</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-neutral-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Users className="w-6 h-6 text-black" />
+                    </div>
+                    <h4 className="font-semibold text-black mb-2">Demographics</h4>
+                    <p className="text-sm text-neutral-600">Age, income, and household composition analysis</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-neutral-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <FileText className="w-6 h-6 text-black" />
+                    </div>
+                    <h4 className="font-semibold text-black mb-2">Research Methodology</h4>
+                    <p className="text-sm text-neutral-600">Data sources, sample sizes, and statistical methods</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-12 h-12 bg-neutral-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                      <Home className="w-6 h-6 text-black" />
+                    </div>
+                    <h4 className="font-semibold text-black mb-2">Housing Impact</h4>
+                    <p className="text-sm text-neutral-600">How housing costs affect debt accumulation</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Citation Information */}
+              <div className="bg-neutral-50 p-6 border border-neutral-200">
+                <h4 className="font-semibold text-black mb-3">For Researchers & Journalists</h4>
+                <p className="text-sm text-neutral-600 mb-4">
+                  This report is free for academic research, journalism, and non-commercial use. Please cite as:
+                </p>
+                <div className="bg-white p-4 border border-neutral-200 font-mono text-xs text-neutral-700">
+                  VegaX AI Research Laboratory. (2025). "Orange County Debt Statistics: 2025 Market Analysis." 
+                  Orange County Debt Settlement Research. Retrieved from https://vegaxai.com/orange-county-debt-statistics
                 </div>
               </div>
             </motion.div>
