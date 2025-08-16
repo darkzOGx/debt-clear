@@ -43,9 +43,18 @@ export default defineConfig({
             return 'vendor';
           }
           
-          // Blog pages chunk
+          // Split blog pages into smaller chunks
           if (id.includes('/blog/')) {
-            return 'blog-pages';
+            if (id.includes('OrangeCounty') || id.includes('DebtSettlement')) {
+              return 'blog-debt-settlement';
+            }
+            if (id.includes('Tax') || id.includes('Legal')) {
+              return 'blog-tax-legal';
+            }
+            if (id.includes('Homestead') || id.includes('Property')) {
+              return 'blog-property';
+            }
+            return 'blog-general';
           }
           
           // City pages chunk  
