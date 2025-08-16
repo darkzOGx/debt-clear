@@ -38,8 +38,7 @@ export default function HeroSection({ onScrollToCalculator, onScrollToConsultati
 
             {/* Subheadline */}
             <p className="text-lg lg:text-xl text-neutral-700 max-w-2xl mb-8 leading-relaxed font-light">
-              <strong>AI-powered debt settlement and debt relief</strong> for Orange County residents. Expert <strong>orange county debt consolidation</strong> and 
-              <strong>debt settlement services</strong> reduce your debt by 50% in 12-24 months. Licensed <strong>debt relief specialists</strong> trusted by over 1,200+ county residents.
+              <strong>AI-powered debt settlement and debt relief</strong> for Orange County residents. Expert <strong>orange county debt consolidation</strong> and <strong>debt settlement services</strong> reduce your debt by 50% in 12-24 months. Licensed <strong>debt relief specialists</strong> trusted by over 1,200+ county residents.
             </p>
 
             {/* CTA */}
