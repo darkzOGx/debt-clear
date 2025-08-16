@@ -1,95 +1,110 @@
+import React, { Suspense, lazy } from 'react';
 import Layout from "./Layout.jsx";
 import ScrollToTop from "../components/ScrollToTop.jsx";
 
+// Keep Home page for immediate loading
 import Home from "./Home";
-import AnaheimDebtSettlement from "./AnaheimDebtSettlement";
-import IrvineDebtSettlement from "./IrvineDebtSettlement";
-import SantaAnaDebtSettlement from "./SantaAnaDebtSettlement";
-import HuntingtonBeachDebtSettlement from "./HuntingtonBeachDebtSettlement";
-import NewportBeachDebtSettlement from "./NewportBeachDebtSettlement";
-import LagunaBeachDebtSettlement from "./LagunaBeachDebtSettlement";
-import YorbaLindaDebtSettlement from "./YorbaLindaDebtSettlement";
-import DanaPointDebtSettlement from "./DanaPointDebtSettlement";
-import LagunaNiguelDebtSettlement from "./LagunaNiguelDebtSettlement";
-import SealBeachDebtSettlement from "./SealBeachDebtSettlement";
-import LagunaWoodsDebtSettlement from "./LagunaWoodsDebtSettlement";
-import BlogResources from "./BlogResources";
-import OrangeCountyDebtStatistics from "./OrangeCountyDebtStatistics";
-import OrangeCountyDebtSettlementLaws from "./blog/OrangeCountyDebtSettlementLaws";
-import AiVsTraditionalDebtSettlement from "./blog/AiVsTraditionalDebtSettlement";
-import ChooseDebtSettlementCompanyOrangeCounty from "./blog/ChooseDebtSettlementCompanyOrangeCounty";
-import BankruptcyVsDebtSettlementOrangeCounty from "./blog/BankruptcyVsDebtSettlementOrangeCounty";
-import MedicalDebtSettlementOrangeCounty from "./blog/MedicalDebtSettlementOrangeCounty";
-import CreditCardDebtSettlementOrangeCounty from "./blog/CreditCardDebtSettlementOrangeCounty";
-import SmallBusinessDebtReliefOrangeCounty from "./blog/SmallBusinessDebtReliefOrangeCounty";
-import TaxImplicationsDebtSettlementCalifornia from "./blog/TaxImplicationsDebtSettlementCalifornia";
-import DebtSettlementSeniorsOrangeCounty from "./blog/DebtSettlementSeniorsOrangeCounty";
-import StudentLoanDebtReliefOrangeCounty from "./blog/StudentLoanDebtReliefOrangeCounty";
-import PropertyProtectionDebtSettlementOrangeCounty from "./blog/PropertyProtectionDebtSettlementOrangeCounty";
-import DebtSettlementTimelineOrangeCounty from "./blog/DebtSettlementTimelineOrangeCounty";
-import DebtSettlementFeesOrangeCounty from "./blog/DebtSettlementFeesOrangeCounty";
-import CreditScoreRecoveryDebtSettlementOrangeCounty from "./blog/CreditScoreRecoveryDebtSettlementOrangeCounty";
-import DebtCollectionLawsOrangeCounty from "./blog/DebtCollectionLawsOrangeCounty";
-import CreditCardDebtReliefOrangeCounty2025 from "./blog/CreditCardDebtReliefOrangeCounty2025";
-import MedicalDebtReliefOrangeCounty2025 from "./blog/MedicalDebtReliefOrangeCounty2025";
-import OrangeCountyDebtConsolidation2025 from "./blog/OrangeCountyDebtConsolidation2025";
-import BusinessDebtReliefOrangeCounty2025 from "./blog/BusinessDebtReliefOrangeCounty2025";
-import OrangeCountyDebtLaws2025 from "./blog/OrangeCountyDebtLaws2025";
-import OrangeCountyForeclosureAlternatives2025 from "./blog/OrangeCountyForeclosureAlternatives2025";
-import OrangeCountySeniorDebtRelief2025 from "./blog/OrangeCountySeniorDebtRelief2025";
-import OrangeCountyTaxDebtRelief2025 from "./blog/OrangeCountyTaxDebtRelief2025";
-import OrangeCountyStudentLoanForgiveness2025 from "./blog/OrangeCountyStudentLoanForgiveness2025";
-import OrangeCountyBankruptcyAlternatives2025 from "./blog/OrangeCountyBankruptcyAlternatives2025";
-import HomesteadExemptionDebtSettlementOrangeCounty from "./blog/HomesteadExemptionDebtSettlementOrangeCounty";
-import TaxFormsDebtSettlementOrangeCounty from "./blog/1099cTaxFormsDebtSettlementOrangeCounty";
-import AiDebtSettlementTechnologyOrangeCounty from "./blog/AiDebtSettlementTechnologyOrangeCounty";
-import AssetProtectionTrustsDebtSettlementOrangeCounty from "./blog/AssetProtectionTrustsDebtSettlementOrangeCounty";
-import BalanceTransferVsDebtSettlementOrangeCounty from "./blog/BalanceTransferVsDebtSettlementOrangeCounty";
-import BuildingCreditDuringDebtSettlementOrangeCounty from "./blog/BuildingCreditDuringDebtSettlementOrangeCounty";
-import CaliforniaTaxImplicationsDebtReliefOrangeCounty from "./blog/CaliforniaTaxImplicationsDebtReliefOrangeCounty";
-import CommercialDebtSettlementOrangeCounty from "./blog/CommercialDebtSettlementOrangeCounty";
-import CreditCardDebtSettlementMajorBanksOrangeCounty from "./blog/CreditCardDebtSettlementMajorBanksOrangeCounty";
-import CreditRepairAfterDebtSettlementOrangeCounty from "./blog/CreditRepairAfterDebtSettlementOrangeCounty";
-import DebtCollectorHarassmentRightsOrangeCounty from "./blog/DebtCollectorHarassmentRightsOrangeCounty";
-import DebtConsolidationLoansComparisonOrangeCounty from "./blog/DebtConsolidationLoansComparisonOrangeCounty";
-import DebtConsolidationVsDebtSettlementOrangeCounty from "./blog/DebtConsolidationVsDebtSettlementOrangeCounty";
-import DebtSettlementAttorneyOrangeCounty from "./blog/DebtSettlementAttorneyOrangeCounty";
-import DebtSettlementChecklistOrangeCounty from "./blog/DebtSettlementChecklistOrangeCounty";
-import DebtSettlementNegotiationsOrangeCounty from "./blog/DebtSettlementNegotiationsOrangeCounty";
-import DebtSettlementProcessGuideOrangeCounty2025 from "./blog/DebtSettlementProcessGuideOrangeCounty2025";
-import DebtSettlementScamsOrangeCounty from "./blog/DebtSettlementScamsOrangeCounty";
-import DebtSettlementSuccessStoriesOrangeCounty2025 from "./blog/DebtSettlementSuccessStoriesOrangeCounty2025";
-import DebtSettlementVsBankruptcyCostComparisonOrangeCounty from "./blog/DebtSettlementVsBankruptcyCostComparisonOrangeCounty";
-import EmergencyFundBuildingDebtReliefOrangeCounty from "./blog/EmergencyFundBuildingDebtReliefOrangeCounty";
-import FdcpaConsumerProtectionOrangeCounty from "./blog/FdcpaConsumerProtectionOrangeCounty";
-import FinancialPlanningAfterDebtSettlementOrangeCounty from "./blog/FinancialPlanningAfterDebtSettlementOrangeCounty";
-import HiddenCostsDebtSettlementOrangeCounty from "./blog/HiddenCostsDebtSettlementOrangeCounty";
-import HighInterestCreditCardDebtReliefOrangeCounty from "./blog/HighInterestCreditCardDebtReliefOrangeCounty";
-import HospitalDebtSettlementOrangeCounty from "./blog/HospitalDebtSettlementOrangeCounty";
-import InvestmentStrategiesDebtSettlementOrangeCounty from "./blog/InvestmentStrategiesDebtSettlementOrangeCounty";
-import LegalRightsDebtSettlementOrangeCounty from "./blog/LegalRightsDebtSettlementOrangeCounty";
-import MachineLearningDebtReliefOrangeCounty from "./blog/MachineLearningDebtReliefOrangeCounty";
-import MortgageModificationVsDebtSettlementOrangeCounty from "./blog/MortgageModificationVsDebtSettlementOrangeCounty";
-import PrivateStudentLoanSettlementOrangeCounty from "./blog/PrivateStudentLoanSettlementOrangeCounty";
-import RetirementPlanningAfterDebtReliefOrangeCounty from "./blog/RetirementPlanningAfterDebtReliefOrangeCounty";
-import SmallBusinessDebtSettlementCaseStudiesOrangeCounty from "./blog/SmallBusinessDebtSettlementCaseStudiesOrangeCounty";
-import SocialSecurityDebtSettlementOrangeCountySeniors from "./blog/SocialSecurityDebtSettlementOrangeCountySeniors";
-import TaxImplicationsDebtSettlementOrangeCounty from "./blog/TaxImplicationsDebtSettlementOrangeCounty";
-import FountainValleyDebtSettlement from "./FountainValleyDebtSettlement";
-import GardenGroveDebtSettlement from "./GardenGroveDebtSettlement";
-import FullertonDebtSettlement from "./FullertonDebtSettlement";
-import OrangeDebtSettlement from "./OrangeDebtSettlement";
-import CostaMesaDebtSettlement from "./CostaMesaDebtSettlement";
-import MissionViejoDebtSettlement from "./MissionViejoDebtSettlement";
-import WestminsterDebtSettlement from "./WestminsterDebtSettlement";
-import FAQ from "./FAQ";
-import DebtSettlementVsBankruptcy from "./DebtSettlementVsBankruptcy";
-import AboutUs from "./AboutUs";
-import CaseStudies from "./CaseStudies";
-import OrangeCountyHub from "./OrangeCountyHub";
-import Resources from "./Resources";
+
+// Lazy load all other pages
+const AnaheimDebtSettlement = lazy(() => import("./AnaheimDebtSettlement"));
+const IrvineDebtSettlement = lazy(() => import("./IrvineDebtSettlement"));
+const SantaAnaDebtSettlement = lazy(() => import("./SantaAnaDebtSettlement"));
+const HuntingtonBeachDebtSettlement = lazy(() => import("./HuntingtonBeachDebtSettlement"));
+const NewportBeachDebtSettlement = lazy(() => import("./NewportBeachDebtSettlement"));
+const LagunaBeachDebtSettlement = lazy(() => import("./LagunaBeachDebtSettlement"));
+const YorbaLindaDebtSettlement = lazy(() => import("./YorbaLindaDebtSettlement"));
+const DanaPointDebtSettlement = lazy(() => import("./DanaPointDebtSettlement"));
+const LagunaNiguelDebtSettlement = lazy(() => import("./LagunaNiguelDebtSettlement"));
+const SealBeachDebtSettlement = lazy(() => import("./SealBeachDebtSettlement"));
+const LagunaWoodsDebtSettlement = lazy(() => import("./LagunaWoodsDebtSettlement"));
+const BlogResources = lazy(() => import("./BlogResources"));
+const OrangeCountyDebtStatistics = lazy(() => import("./OrangeCountyDebtStatistics"));
+// Lazy load all blog pages
+const OrangeCountyDebtSettlementLaws = lazy(() => import("./blog/OrangeCountyDebtSettlementLaws"));
+const AiVsTraditionalDebtSettlement = lazy(() => import("./blog/AiVsTraditionalDebtSettlement"));
+const ChooseDebtSettlementCompanyOrangeCounty = lazy(() => import("./blog/ChooseDebtSettlementCompanyOrangeCounty"));
+const BankruptcyVsDebtSettlementOrangeCounty = lazy(() => import("./blog/BankruptcyVsDebtSettlementOrangeCounty"));
+const MedicalDebtSettlementOrangeCounty = lazy(() => import("./blog/MedicalDebtSettlementOrangeCounty"));
+const CreditCardDebtSettlementOrangeCounty = lazy(() => import("./blog/CreditCardDebtSettlementOrangeCounty"));
+const SmallBusinessDebtReliefOrangeCounty = lazy(() => import("./blog/SmallBusinessDebtReliefOrangeCounty"));
+const TaxImplicationsDebtSettlementCalifornia = lazy(() => import("./blog/TaxImplicationsDebtSettlementCalifornia"));
+const DebtSettlementSeniorsOrangeCounty = lazy(() => import("./blog/DebtSettlementSeniorsOrangeCounty"));
+const StudentLoanDebtReliefOrangeCounty = lazy(() => import("./blog/StudentLoanDebtReliefOrangeCounty"));
+const PropertyProtectionDebtSettlementOrangeCounty = lazy(() => import("./blog/PropertyProtectionDebtSettlementOrangeCounty"));
+const DebtSettlementTimelineOrangeCounty = lazy(() => import("./blog/DebtSettlementTimelineOrangeCounty"));
+const DebtSettlementFeesOrangeCounty = lazy(() => import("./blog/DebtSettlementFeesOrangeCounty"));
+const CreditScoreRecoveryDebtSettlementOrangeCounty = lazy(() => import("./blog/CreditScoreRecoveryDebtSettlementOrangeCounty"));
+const DebtCollectionLawsOrangeCounty = lazy(() => import("./blog/DebtCollectionLawsOrangeCounty"));
+const CreditCardDebtReliefOrangeCounty2025 = lazy(() => import("./blog/CreditCardDebtReliefOrangeCounty2025"));
+const MedicalDebtReliefOrangeCounty2025 = lazy(() => import("./blog/MedicalDebtReliefOrangeCounty2025"));
+const OrangeCountyDebtConsolidation2025 = lazy(() => import("./blog/OrangeCountyDebtConsolidation2025"));
+const BusinessDebtReliefOrangeCounty2025 = lazy(() => import("./blog/BusinessDebtReliefOrangeCounty2025"));
+const OrangeCountyDebtLaws2025 = lazy(() => import("./blog/OrangeCountyDebtLaws2025"));
+const OrangeCountyForeclosureAlternatives2025 = lazy(() => import("./blog/OrangeCountyForeclosureAlternatives2025"));
+const OrangeCountySeniorDebtRelief2025 = lazy(() => import("./blog/OrangeCountySeniorDebtRelief2025"));
+const OrangeCountyTaxDebtRelief2025 = lazy(() => import("./blog/OrangeCountyTaxDebtRelief2025"));
+const OrangeCountyStudentLoanForgiveness2025 = lazy(() => import("./blog/OrangeCountyStudentLoanForgiveness2025"));
+const OrangeCountyBankruptcyAlternatives2025 = lazy(() => import("./blog/OrangeCountyBankruptcyAlternatives2025"));
+const HomesteadExemptionDebtSettlementOrangeCounty = lazy(() => import("./blog/HomesteadExemptionDebtSettlementOrangeCounty"));
+const TaxFormsDebtSettlementOrangeCounty = lazy(() => import("./blog/1099cTaxFormsDebtSettlementOrangeCounty"));
+const AiDebtSettlementTechnologyOrangeCounty = lazy(() => import("./blog/AiDebtSettlementTechnologyOrangeCounty"));
+const AssetProtectionTrustsDebtSettlementOrangeCounty = lazy(() => import("./blog/AssetProtectionTrustsDebtSettlementOrangeCounty"));
+const BalanceTransferVsDebtSettlementOrangeCounty = lazy(() => import("./blog/BalanceTransferVsDebtSettlementOrangeCounty"));
+const BuildingCreditDuringDebtSettlementOrangeCounty = lazy(() => import("./blog/BuildingCreditDuringDebtSettlementOrangeCounty"));
+const CaliforniaTaxImplicationsDebtReliefOrangeCounty = lazy(() => import("./blog/CaliforniaTaxImplicationsDebtReliefOrangeCounty"));
+const CommercialDebtSettlementOrangeCounty = lazy(() => import("./blog/CommercialDebtSettlementOrangeCounty"));
+const CreditCardDebtSettlementMajorBanksOrangeCounty = lazy(() => import("./blog/CreditCardDebtSettlementMajorBanksOrangeCounty"));
+const CreditRepairAfterDebtSettlementOrangeCounty = lazy(() => import("./blog/CreditRepairAfterDebtSettlementOrangeCounty"));
+const DebtCollectorHarassmentRightsOrangeCounty = lazy(() => import("./blog/DebtCollectorHarassmentRightsOrangeCounty"));
+const DebtConsolidationLoansComparisonOrangeCounty = lazy(() => import("./blog/DebtConsolidationLoansComparisonOrangeCounty"));
+const DebtConsolidationVsDebtSettlementOrangeCounty = lazy(() => import("./blog/DebtConsolidationVsDebtSettlementOrangeCounty"));
+const DebtSettlementAttorneyOrangeCounty = lazy(() => import("./blog/DebtSettlementAttorneyOrangeCounty"));
+const DebtSettlementChecklistOrangeCounty = lazy(() => import("./blog/DebtSettlementChecklistOrangeCounty"));
+const DebtSettlementNegotiationsOrangeCounty = lazy(() => import("./blog/DebtSettlementNegotiationsOrangeCounty"));
+const DebtSettlementProcessGuideOrangeCounty2025 = lazy(() => import("./blog/DebtSettlementProcessGuideOrangeCounty2025"));
+const DebtSettlementScamsOrangeCounty = lazy(() => import("./blog/DebtSettlementScamsOrangeCounty"));
+const DebtSettlementSuccessStoriesOrangeCounty2025 = lazy(() => import("./blog/DebtSettlementSuccessStoriesOrangeCounty2025"));
+const DebtSettlementVsBankruptcyCostComparisonOrangeCounty = lazy(() => import("./blog/DebtSettlementVsBankruptcyCostComparisonOrangeCounty"));
+const EmergencyFundBuildingDebtReliefOrangeCounty = lazy(() => import("./blog/EmergencyFundBuildingDebtReliefOrangeCounty"));
+const FdcpaConsumerProtectionOrangeCounty = lazy(() => import("./blog/FdcpaConsumerProtectionOrangeCounty"));
+const FinancialPlanningAfterDebtSettlementOrangeCounty = lazy(() => import("./blog/FinancialPlanningAfterDebtSettlementOrangeCounty"));
+const HiddenCostsDebtSettlementOrangeCounty = lazy(() => import("./blog/HiddenCostsDebtSettlementOrangeCounty"));
+const HighInterestCreditCardDebtReliefOrangeCounty = lazy(() => import("./blog/HighInterestCreditCardDebtReliefOrangeCounty"));
+const HospitalDebtSettlementOrangeCounty = lazy(() => import("./blog/HospitalDebtSettlementOrangeCounty"));
+const InvestmentStrategiesDebtSettlementOrangeCounty = lazy(() => import("./blog/InvestmentStrategiesDebtSettlementOrangeCounty"));
+const LegalRightsDebtSettlementOrangeCounty = lazy(() => import("./blog/LegalRightsDebtSettlementOrangeCounty"));
+const MachineLearningDebtReliefOrangeCounty = lazy(() => import("./blog/MachineLearningDebtReliefOrangeCounty"));
+const MortgageModificationVsDebtSettlementOrangeCounty = lazy(() => import("./blog/MortgageModificationVsDebtSettlementOrangeCounty"));
+const PrivateStudentLoanSettlementOrangeCounty = lazy(() => import("./blog/PrivateStudentLoanSettlementOrangeCounty"));
+const RetirementPlanningAfterDebtReliefOrangeCounty = lazy(() => import("./blog/RetirementPlanningAfterDebtReliefOrangeCounty"));
+const SmallBusinessDebtSettlementCaseStudiesOrangeCounty = lazy(() => import("./blog/SmallBusinessDebtSettlementCaseStudiesOrangeCounty"));
+const SocialSecurityDebtSettlementOrangeCountySeniors = lazy(() => import("./blog/SocialSecurityDebtSettlementOrangeCountySeniors"));
+const TaxImplicationsDebtSettlementOrangeCounty = lazy(() => import("./blog/TaxImplicationsDebtSettlementOrangeCounty"));
+const FountainValleyDebtSettlement = lazy(() => import("./FountainValleyDebtSettlement"));
+const GardenGroveDebtSettlement = lazy(() => import("./GardenGroveDebtSettlement"));
+const FullertonDebtSettlement = lazy(() => import("./FullertonDebtSettlement"));
+const OrangeDebtSettlement = lazy(() => import("./OrangeDebtSettlement"));
+const CostaMesaDebtSettlement = lazy(() => import("./CostaMesaDebtSettlement"));
+const MissionViejoDebtSettlement = lazy(() => import("./MissionViejoDebtSettlement"));
+const WestminsterDebtSettlement = lazy(() => import("./WestminsterDebtSettlement"));
+const FAQ = lazy(() => import("./FAQ"));
+const DebtSettlementVsBankruptcy = lazy(() => import("./DebtSettlementVsBankruptcy"));
+const AboutUs = lazy(() => import("./AboutUs"));
+const CaseStudies = lazy(() => import("./CaseStudies"));
+const OrangeCountyHub = lazy(() => import("./OrangeCountyHub"));
+const Resources = lazy(() => import("./Resources"));
 
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+
+// Loading component for lazy routes
+const LoadingSpinner = () => (
+  <div className="min-h-screen flex items-center justify-center bg-white">
+    <div className="text-center">
+      <div className="w-8 h-8 border-2 border-black border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+      <div className="text-sm font-mono text-neutral-600 uppercase tracking-wide">Loading...</div>
+    </div>
+  </div>
+);
 
 const PAGES = {
     
@@ -203,7 +218,8 @@ function PagesContent() {
     return (
         <Layout currentPageName={currentPage}>
             <ScrollToTop />
-            <Routes>            
+            <Suspense fallback={<LoadingSpinner />}>
+                <Routes>            
                 
                     <Route path="/" element={<Home />} />
                 
@@ -296,7 +312,8 @@ function PagesContent() {
                 <Route path="/orange-county-hub" element={<OrangeCountyHub />} />
                 <Route path="/resources" element={<Resources />} />
                 
-            </Routes>
+                </Routes>
+            </Suspense>
         </Layout>
     );
 }

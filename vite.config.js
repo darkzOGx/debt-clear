@@ -28,14 +28,41 @@ export default defineConfig({
     minify: 'esbuild',
     rollupOptions: {
       output: {
-        manualChunks: {
-          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
-          'ui-vendor': ['framer-motion', 'lucide-react'],
+        manualChunks(id) {
+          // Vendor chunks
+          if (id.includes('node_modules')) {
+            if (id.includes('react') || id.includes('react-dom') || id.includes('react-router')) {
+              return 'react-vendor';
+            }
+            if (id.includes('framer-motion')) {
+              return 'animation-vendor';
+            }
+            if (id.includes('lucide-react')) {
+              return 'icons-vendor';
+            }
+            return 'vendor';
+          }
+          
+          // Blog pages chunk
+          if (id.includes('/blog/')) {
+            return 'blog-pages';
+          }
+          
+          // City pages chunk  
+          if (id.includes('DebtSettlement.jsx') && !id.includes('OrangeCountyHub')) {
+            return 'city-pages';
+          }
+          
+          // Components chunk
+          if (id.includes('/components/')) {
+            return 'components';
+          }
         },
       },
     },
-    chunkSizeWarningLimit: 1000,
+    chunkSizeWarningLimit: 500,
     cssCodeSplit: true,
     assetsInlineLimit: 4096,
+    target: 'es2015',
   }
 }) 
