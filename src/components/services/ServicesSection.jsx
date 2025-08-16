@@ -160,8 +160,8 @@ export default function ServicesSection({ onScrollToConsultation }) {
           </h2>
           
           <p className="text-lg text-neutral-600 max-w-2xl font-light">
-            Unlike national debt settlement companies, we specialize in Orange County debt settlement and debt relief services. 
-            Our AI-powered debt settlement approach combines local market knowledge with advanced debt relief technology for superior results.
+            Unlike national <strong>debt settlement companies</strong>, we specialize in <strong>Orange County debt settlement</strong> and <strong>debt relief services</strong>. 
+            Our AI-powered <strong>debt settlement</strong> approach combines local market knowledge with advanced <strong>orange county debt consolidation</strong> and <strong>debt relief technology</strong> for superior results.
           </p>
         </div>
 

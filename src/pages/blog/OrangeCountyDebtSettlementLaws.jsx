@@ -68,8 +68,9 @@ export default function OrangeCountyDebtSettlementLaws() {
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">California Debt Settlement Protection Laws</h2>
             
             <p className="text-neutral-700 leading-relaxed mb-6">
-              California has some of the strongest consumer protection laws in the nation when it comes to debt settlement. 
-              Orange County residents benefit from both state and federal regulations that govern how debt settlement companies operate.
+              California has some of the strongest consumer protection laws in the nation when it comes to <Link to="/" className="text-blue-600 hover:text-blue-800 underline">debt settlement</Link>. 
+              Orange County residents benefit from both state and federal regulations that govern how <Link to="/" className="text-blue-600 hover:text-blue-800 underline">debt settlement companies</Link> operate.
+              Understanding these laws is crucial whether you're considering <Link to="/blog/orange-county-debt-consolidation-2025" className="text-blue-600 hover:text-blue-800 underline">orange county debt consolidation</Link> or full debt settlement services.
             </p>
 
             <div className="bg-neutral-50 p-8 border border-neutral-200 mb-8">
@@ -121,8 +122,9 @@ export default function OrangeCountyDebtSettlementLaws() {
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Legitimate Debt Settlement Process</h2>
             
             <p className="text-neutral-700 leading-relaxed mb-6">
-              A legitimate debt settlement company in Orange County should follow a structured process 
-              that complies with California law:
+              A legitimate <Link to="/" className="text-blue-600 hover:text-blue-800 underline">debt settlement company</Link> in Orange County should follow a structured process 
+              that complies with California law. For specific city requirements, see our guides for <Link to="/debt-settlement-irvine" className="text-blue-600 hover:text-blue-800 underline">Irvine debt settlement</Link> and 
+              <Link to="/debt-settlement-anaheim" className="text-blue-600 hover:text-blue-800 underline">Anaheim debt settlement</Link> services:
             </p>
 
             <div className="space-y-6 mb-8">
@@ -190,7 +192,9 @@ export default function OrangeCountyDebtSettlementLaws() {
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Resources for Orange County Residents</h2>
             
             <p className="text-neutral-700 leading-relaxed mb-6">
-              If you're considering debt settlement in Orange County, take advantage of these local resources:
+              If you're considering <Link to="/blog/debt-settlement-process-guide-orange-county-2025" className="text-blue-600 hover:text-blue-800 underline">debt settlement</Link> in Orange County, take advantage of these local resources.
+              You may also want to explore <Link to="/blog/orange-county-bankruptcy-alternatives-2025" className="text-blue-600 hover:text-blue-800 underline">bankruptcy alternatives</Link> and 
+              <Link to="/blog/credit-card-debt-relief-orange-county-2025" className="text-blue-600 hover:text-blue-800 underline">credit card debt relief</Link> options:
             </p>
 
             <ul className="space-y-3 text-neutral-700 mb-8">

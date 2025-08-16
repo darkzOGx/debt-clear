@@ -27,41 +27,48 @@ export default function NewsletterSignup() {
     setError('');
 
     try {
-      // For now, we'll store locally and show success
-      // In production, replace with your actual email service endpoint
-      
-      // Simulate API call delay
-      await new Promise(resolve => setTimeout(resolve, 500));
-      
-      // Store in localStorage to track subscriptions
-      const subscriptions = JSON.parse(localStorage.getItem('newsletter_subscriptions') || '[]');
-      
-      // Check if already subscribed
-      if (subscriptions.some(sub => sub.email === email)) {
-        setError('This email is already subscribed!');
-        setIsLoading(false);
-        return;
+      // Formspree Integration - Replace with your actual Formspree endpoint
+      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: email,
+          source: 'Orange County Debt Settlement Newsletter',
+          interests: 'debt settlement, debt relief, Orange County',
+          timestamp: new Date().toISOString(),
+          page: window.location.href
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
       }
       
-      subscriptions.push({
-        email: email,
-        date: new Date().toISOString()
-      });
-      localStorage.setItem('newsletter_subscriptions', JSON.stringify(subscriptions));
+      // Store in localStorage to track subscriptions (for UI purposes)
+      const subscriptions = JSON.parse(localStorage.getItem('newsletter_subscriptions') || '[]');
       
-      // Log for testing (remove in production)
-      console.log('Newsletter subscription added:', email);
-      console.log('Total subscriptions:', subscriptions.length);
+      // Check if already subscribed locally (Formspree handles duplicates server-side)
+      if (!subscriptions.some(sub => sub.email === email)) {
+        subscriptions.push({
+          email: email,
+          date: new Date().toISOString()
+        });
+        localStorage.setItem('newsletter_subscriptions', JSON.stringify(subscriptions));
+      }
       
       setShowSuccess(true);
       setEmail('');
       
-      // Optional: Send to a webhook or API endpoint when available
-      // You can integrate with services like:
-      // - Mailchimp: https://mailchimp.com/developer/
-      // - SendGrid: https://sendgrid.com/
-      // - ConvertKit: https://developers.convertkit.com/
-      // - Or create your own backend endpoint
+      // Track with Google Analytics if available
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'newsletter_signup', {
+          event_category: 'engagement',
+          event_label: 'debt_settlement_newsletter',
+          value: 1
+        });
+      }
       
     } catch (err) {
       setError('Something went wrong. Please try again later.');
@@ -76,12 +83,12 @@ export default function NewsletterSignup() {
       <section className="py-12 bg-black text-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h3 className="text-2xl font-light mb-4">
-            Stay Updated on <span className="font-mono">Orange County</span> Debt Laws
+            Stay Updated on <span className="font-mono">Orange County</span> Debt Settlement & Relief
           </h3>
           
           <p className="text-neutral-300 mb-8 max-w-xl mx-auto">
-            Get monthly insights on debt settlement regulations, consumer protection updates, 
-            and success stories from Orange County.
+            Get monthly insights on debt settlement regulations, debt relief strategies, consumer protection updates, 
+            and success stories from Orange County residents.
           </p>
           
           <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row max-w-md mx-auto gap-4">
