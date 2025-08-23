@@ -43,6 +43,7 @@ import SimpleDebtSettlementVsTaxReliefOrangeCounty from "./blog/SimpleDebtSettle
 import SimpleIrsTaxSettlementStrategiesOrangeCounty from "./blog/SimpleIrsTaxSettlementStrategiesOrangeCounty";
 import SimpleComprehensiveDebtTaxReliefGuideOrangeCounty from "./blog/SimpleComprehensiveDebtTaxReliefGuideOrangeCounty";
 import TestBlogPost from "./blog/TestBlogPost";
+import TestRoute from "./TestRoute";
 import FountainValleyDebtSettlement from "./FountainValleyDebtSettlement";
 import GardenGroveDebtSettlement from "./GardenGroveDebtSettlement";
 import FullertonDebtSettlement from "./FullertonDebtSettlement";
@@ -185,6 +186,7 @@ function PagesContent() {
                 <Route path="/blog/irs-tax-settlement-strategies-orange-county" element={<SimpleIrsTaxSettlementStrategiesOrangeCounty />} />
                 <Route path="/blog/comprehensive-debt-tax-relief-guide-orange-county" element={<SimpleComprehensiveDebtTaxReliefGuideOrangeCounty />} />
                 <Route path="/blog/test" element={<TestBlogPost />} />
+                <Route path="/test-route" element={<TestRoute />} />
                 <Route path="/blog/" element={<BlogResources />} />
                 <Route path="/blog" element={<BlogResources />} />
                 <Route path="/debt-settlement-fountain-valley" element={<FountainValleyDebtSettlement />} />
