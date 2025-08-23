@@ -1,6 +1,6 @@
 {
-  "buildCommand": "rm -rf node_modules package-lock.json && npm install && npm run build",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "installCommand": "npm cache clean --force && npm install",
+  "installCommand": "npm install",
   "framework": "vite"
 }
