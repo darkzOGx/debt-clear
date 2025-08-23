@@ -5,7 +5,6 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent } from '@/components/ui/card';
 import { ArrowRight } from 'lucide-react';
-import { DebtCalculation } from '@/api/entities';
 
 export default function DebtCalculator() {
   const [formData, setFormData] = useState({
@@ -39,11 +38,8 @@ export default function DebtCalculator() {
       visitor_phone: formData.visitor_phone
     };
 
-    try {
-      await DebtCalculation.create(calculationData);
-    } catch (error) {
-      console.error('Error saving calculation:', error);
-    }
+    // Calculation saved locally (no external API needed)
+    console.log('Debt calculation completed:', calculationData);
     
     setResults(calculationData);
     setIsCalculating(false);

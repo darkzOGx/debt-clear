@@ -3,8 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { MessageCircle, Send, X, Bot, User } from 'lucide-react';
-import { InvokeLLM } from '@/api/integrations';
-import { ChatMessage } from '@/api/entities';
 
 export default function AiChatbot() {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,50 +40,38 @@ export default function AiChatbot() {
     setInputValue('');
     setIsTyping(true);
 
-    try {
-      const response = await InvokeLLM({
-        prompt: `You are a research assistant for a professional debt settlement laboratory. 
-        The user asked: "${inputValue}"
-        
-        Respond in a professional, academic tone with these key points:
-        - Our laboratory uses evidence-based debt settlement methodologies
-        - We've analyzed 50,000+ cases with 52.7% average debt reduction
-        - No upfront fees - performance-based fee structure
-        - Confidential research consultations available
-        - A+ BBB rating and IAPDA certification
-        
-        Keep responses concise and professional. If they want calculations, direct them to our analysis tool. 
-        If they want consultations, mention our research sessions.
-        
-        Use formal, research-oriented language but remain helpful.`,
-        add_context_from_internet: false
-      });
+    // Simulate AI response with predefined answers
+    const response = generateResponse(inputValue);
+    
+    // Log conversation locally (no external API needed)
+    console.log('Chat interaction:', {
+      message: inputValue,
+      response: response,
+      intent: detectIntent(inputValue)
+    });
 
-      await ChatMessage.create({
-        message: inputValue,
-        response: response,
-        intent: detectIntent(inputValue)
-      });
+    const botMessage = {
+      id: Date.now() + 1,
+      text: response,
+      isBot: true,
+      timestamp: new Date()
+    };
 
-      const botMessage = {
-        id: Date.now() + 1,
-        text: response,
-        isBot: true,
-        timestamp: new Date()
-      };
-
-      setMessages(prev => [...prev, botMessage]);
-    } catch (error) {
-      const errorMessage = {
-        id: Date.now() + 1,
-        text: "I'm experiencing technical difficulties. Please contact our research team directly or submit a consultation request.",
-        isBot: true,
-        timestamp: new Date()
-      };
-      setMessages(prev => [...prev, errorMessage]);
-    }
+    setMessages(prev => [...prev, botMessage]);
 
     setIsTyping(false);
+  };
+
+  const generateResponse = (message) => {
+    const intent = detectIntent(message);
+    const responses = {
+      calculator: "I recommend using our debt analysis tool above to calculate your projected savings. Our research-based algorithm analyzes your profile against 50,000+ Orange County cases to provide accurate reduction estimates.",
+      consultation: "Our research team offers confidential consultation sessions to review your debt profile. These sessions analyze your specific situation using our proprietary methodologies. Would you like to schedule a consultation?",
+      services: "Our laboratory uses evidence-based debt settlement methodologies with a 52.7% average debt reduction rate. We operate on a performance-based fee structure with no upfront costs and maintain an A+ BBB rating with IAPDA certification.",
+      testimonials: "Our research has successfully analyzed over 50,000 cases with an average debt reduction of 52.7%. Clients typically see resolution in 12-24 months. Each case is handled with strict confidentiality and professional oversight.",
+      question: "I can provide information about our research methodologies, debt analysis protocols, or consultation services. Our laboratory specializes in evidence-based debt settlement with proven results across Orange County residents."
+    };
+    return responses[intent] || responses.question;
   };
 
   const detectIntent = (message) => {
