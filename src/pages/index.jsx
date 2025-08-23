@@ -156,7 +156,6 @@ function PagesContent() {
                 <Route path="/debt-settlement-laguna-niguel" element={<LagunaNiguelDebtSettlement />} />
                 <Route path="/debt-settlement-seal-beach" element={<SealBeachDebtSettlement />} />
                 <Route path="/debt-settlement-laguna-woods" element={<LagunaWoodsDebtSettlement />} />
-                <Route path="/blog" element={<BlogResources />} />
                 <Route path="/blog/orange-county-debt-settlement-laws" element={<OrangeCountyDebtSettlementLaws />} />
                 <Route path="/blog/ai-vs-traditional-debt-settlement" element={<AiVsTraditionalDebtSettlement />} />
                 <Route path="/blog/choose-debt-settlement-company-orange-county" element={<ChooseDebtSettlementCompanyOrangeCounty />} />
@@ -186,6 +185,8 @@ function PagesContent() {
                 <Route path="/blog/irs-tax-settlement-strategies-orange-county" element={<IrsTaxSettlementStrategiesOrangeCounty />} />
                 <Route path="/blog/comprehensive-debt-tax-relief-guide-orange-county" element={<ComprehensiveDebtTaxReliefGuideOrangeCounty />} />
                 <Route path="/blog/test" element={<TestBlogPost />} />
+                <Route path="/blog/" element={<BlogResources />} />
+                <Route path="/blog" element={<BlogResources />} />
                 <Route path="/debt-settlement-fountain-valley" element={<FountainValleyDebtSettlement />} />
                 <Route path="/debt-settlement-garden-grove" element={<GardenGroveDebtSettlement />} />
                 <Route path="/debt-settlement-fullerton" element={<FullertonDebtSettlement />} />
