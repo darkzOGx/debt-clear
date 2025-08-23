@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { HelmetProvider } from 'react-helmet-async'
-import SimpleApp from '@/SimpleApp.jsx'
+import App from '@/App.jsx'
 import '@/index.css'
 
 console.log('React app starting...')
@@ -12,7 +12,7 @@ try {
     
     ReactDOM.createRoot(root).render(
         <HelmetProvider>
-            <SimpleApp />
+            <App />
         </HelmetProvider>
     )
     console.log('React app rendered successfully')
