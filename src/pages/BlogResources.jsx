@@ -8,6 +8,30 @@ export default function BlogResources() {
   const [categoryStartIndex, setCategoryStartIndex] = useState(0);
   const articles = [
     {
+      title: "The Complete Orange County Guide to Debt & Tax Relief: Every Option, Strategy, and Solution",
+      excerpt: "Orange County residents face unique financial challenges with a median household debt of $127,000. This comprehensive guide provides every tool, strategy, and resource needed to achieve financial freedom.",
+      slug: "/blog/comprehensive-debt-tax-relief-guide-orange-county",
+      date: "Aug 23, 2025",
+      readTime: "25 min read",
+      category: "Comprehensive Guide"
+    },
+    {
+      title: "IRS Tax Settlement Strategies for Orange County Residents: Complete 2025 Guide",
+      excerpt: "Orange County residents facing IRS debt have multiple settlement options. This guide covers every strategy available to resolve tax obligations efficiently and cost-effectively.",
+      slug: "/blog/irs-tax-settlement-strategies-orange-county",
+      date: "Aug 23, 2025",
+      readTime: "20 min read",
+      category: "Tax Relief"
+    },
+    {
+      title: "Debt Settlement vs Tax Relief in Orange County: Which Solution Fits Your Financial Crisis?",
+      excerpt: "Orange County residents facing both credit card debt and IRS obligations need clarity on their options. This comprehensive guide compares debt settlement and tax relief strategies.",
+      slug: "/blog/debt-settlement-vs-tax-relief-orange-county",
+      date: "Aug 23, 2025",
+      readTime: "18 min read",
+      category: "Strategy Comparison"
+    },
+    {
       title: "Orange County Debt Settlement Laws: What You Need to Know",
       excerpt: "Understanding California's debt settlement regulations and how they protect Orange County residents from predatory practices.",
       slug: "/blog/orange-county-debt-settlement-laws",
