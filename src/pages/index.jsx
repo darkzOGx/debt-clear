@@ -39,9 +39,9 @@ import OrangeCountySeniorDebtRelief2025 from "./blog/OrangeCountySeniorDebtRelie
 import OrangeCountyTaxDebtRelief2025 from "./blog/OrangeCountyTaxDebtRelief2025";
 import OrangeCountyStudentLoanForgiveness2025 from "./blog/OrangeCountyStudentLoanForgiveness2025";
 import OrangeCountyBankruptcyAlternatives2025 from "./blog/OrangeCountyBankruptcyAlternatives2025";
-import SimpleDebtSettlementVsTaxReliefOrangeCounty from "./blog/SimpleDebtSettlementVsTaxReliefOrangeCounty";
-import SimpleIrsTaxSettlementStrategiesOrangeCounty from "./blog/SimpleIrsTaxSettlementStrategiesOrangeCounty";
-import SimpleComprehensiveDebtTaxReliefGuideOrangeCounty from "./blog/SimpleComprehensiveDebtTaxReliefGuideOrangeCounty";
+import DebtSettlementVsTaxReliefOrangeCounty from "./blog/DebtSettlementVsTaxReliefOrangeCounty";
+import IrsTaxSettlementStrategiesOrangeCounty from "./blog/IrsTaxSettlementStrategiesOrangeCounty";
+import ComprehensiveDebtTaxReliefGuideOrangeCounty from "./blog/ComprehensiveDebtTaxReliefGuideOrangeCounty";
 import TestBlogPost from "./blog/TestBlogPost";
 import TestRoute from "./TestRoute";
 import FountainValleyDebtSettlement from "./FountainValleyDebtSettlement";
@@ -100,9 +100,9 @@ const PAGES = {
     OrangeCountyTaxDebtRelief2025: OrangeCountyTaxDebtRelief2025,
     OrangeCountyStudentLoanForgiveness2025: OrangeCountyStudentLoanForgiveness2025,
     OrangeCountyBankruptcyAlternatives2025: OrangeCountyBankruptcyAlternatives2025,
-    DebtSettlementVsTaxReliefOrangeCounty: SimpleDebtSettlementVsTaxReliefOrangeCounty,
-    IrsTaxSettlementStrategiesOrangeCounty: SimpleIrsTaxSettlementStrategiesOrangeCounty,
-    ComprehensiveDebtTaxReliefGuideOrangeCounty: SimpleComprehensiveDebtTaxReliefGuideOrangeCounty,
+    DebtSettlementVsTaxReliefOrangeCounty: DebtSettlementVsTaxReliefOrangeCounty,
+    IrsTaxSettlementStrategiesOrangeCounty: IrsTaxSettlementStrategiesOrangeCounty,
+    ComprehensiveDebtTaxReliefGuideOrangeCounty: ComprehensiveDebtTaxReliefGuideOrangeCounty,
     FountainValleyDebtSettlement: FountainValleyDebtSettlement,
     GardenGroveDebtSettlement: GardenGroveDebtSettlement,
     FullertonDebtSettlement: FullertonDebtSettlement,
@@ -182,9 +182,9 @@ function PagesContent() {
                 <Route path="/blog/orange-county-tax-debt-relief-2025" element={<OrangeCountyTaxDebtRelief2025 />} />
                 <Route path="/blog/orange-county-student-loan-forgiveness-2025" element={<OrangeCountyStudentLoanForgiveness2025 />} />
                 <Route path="/blog/orange-county-bankruptcy-alternatives-2025" element={<OrangeCountyBankruptcyAlternatives2025 />} />
-                <Route path="/blog/debt-settlement-vs-tax-relief-orange-county" element={<SimpleDebtSettlementVsTaxReliefOrangeCounty />} />
-                <Route path="/blog/irs-tax-settlement-strategies-orange-county" element={<SimpleIrsTaxSettlementStrategiesOrangeCounty />} />
-                <Route path="/blog/comprehensive-debt-tax-relief-guide-orange-county" element={<SimpleComprehensiveDebtTaxReliefGuideOrangeCounty />} />
+                <Route path="/blog/debt-settlement-vs-tax-relief-orange-county" element={<DebtSettlementVsTaxReliefOrangeCounty />} />
+                <Route path="/blog/irs-tax-settlement-strategies-orange-county" element={<IrsTaxSettlementStrategiesOrangeCounty />} />
+                <Route path="/blog/comprehensive-debt-tax-relief-guide-orange-county" element={<ComprehensiveDebtTaxReliefGuideOrangeCounty />} />
                 <Route path="/blog/test" element={<TestBlogPost />} />
                 <Route path="/test-route" element={<TestRoute />} />
                 <Route path="/blog/" element={<BlogResources />} />
