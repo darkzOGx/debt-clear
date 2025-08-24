@@ -166,29 +166,15 @@ export default function Footer() {
           </div>
           
           <div className="lg:col-span-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4">
-                  Contact Information
-                </div>
-                <div className="space-y-2 text-sm text-neutral-400">
-                  <div className="font-semibold text-white">Call: (502) 232-8511</div>
-                  <div>400 Spectrum Center Drive</div>
-                  <div>Suite 1000</div>
-                  <div>Irvine, CA 92618</div>
-                </div>
+            <div>
+              <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4">
+                Contact Information
               </div>
-              
-              <div>
-                <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4">
-                  Orange County Results
-                </div>
-                <div className="space-y-2 text-sm text-neutral-400">
-                  <div>2,847+ County Residents Helped</div>
-                  <div>$127M+ County Debt Eliminated</div>
-                  <div>52% Average Reduction</div>
-                  <div>12-24 Months Timeline</div>
-                </div>
+              <div className="space-y-2 text-sm text-neutral-400">
+                <div className="font-semibold text-white">Call: (502) 232-8511</div>
+                <div>400 Spectrum Center Drive</div>
+                <div>Suite 1000</div>
+                <div>Irvine, CA 92618</div>
               </div>
             </div>
           </div>
