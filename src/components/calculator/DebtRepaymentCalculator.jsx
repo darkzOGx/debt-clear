@@ -51,8 +51,8 @@ export default function DebtRepaymentCalculator() {
         <h5 className="font-semibold text-white mb-2">Payoff Timeline:</h5>
         <div className="space-y-1 text-sm text-white">
           <div>Time to Pay Off: <span className="font-bold text-green-400">{Math.ceil(monthsToPayOff)} months ({Math.ceil(monthsToPayOff/12)} years)</span></div>
-          <div>Total Interest: <span className="font-medium text-red-400">${totalInterest.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
-          <div>Total Amount Paid: <span className="font-medium text-red-400">${totalPaid.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Total Interest: <span className="font-medium text-green-400">${totalInterest.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Total Amount Paid: <span className="font-medium text-green-400">${totalPaid.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
         </div>
       </div>
     </div>

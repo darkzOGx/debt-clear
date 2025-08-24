@@ -49,9 +49,9 @@ export default function StudentLoanCalculator() {
       <div className="bg-black p-4 rounded-lg">
         <h5 className="font-semibold text-white mb-2">Repayment Summary:</h5>
         <div className="space-y-1 text-sm text-white">
-          <div>Monthly Payment: <span className="font-bold text-red-400">${monthlyPayment.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
-          <div>Total Interest: <span className="font-medium text-red-400">${totalInterest.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
-          <div>Total Amount Paid: <span className="font-medium text-red-400">${totalPaid.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Monthly Payment: <span className="font-bold text-green-400">${monthlyPayment.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Total Interest: <span className="font-medium text-green-400">${totalInterest.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Total Amount Paid: <span className="font-medium text-green-400">${totalPaid.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
           <div>Loan Term: <span className="font-medium text-white">{loanTerm} years ({numberOfPayments} payments)</span></div>
         </div>
       </div>

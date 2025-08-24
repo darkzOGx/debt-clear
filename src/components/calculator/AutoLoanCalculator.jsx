@@ -60,9 +60,9 @@ export default function AutoLoanCalculator() {
         <h5 className="font-semibold text-white mb-2">Loan Summary:</h5>
         <div className="space-y-1 text-sm text-white">
           <div>Loan Amount: <span className="font-medium text-white">${loanAmount.toLocaleString('en-US')}</span></div>
-          <div>Monthly Payment: <span className="font-bold text-red-400">${monthlyPayment.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
-          <div>Total Interest: <span className="font-medium text-red-400">${totalInterest.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
-          <div>Total Cost: <span className="font-medium text-red-400">${totalPaid.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Monthly Payment: <span className="font-bold text-green-400">${monthlyPayment.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Total Interest: <span className="font-medium text-green-400">${totalInterest.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Total Cost: <span className="font-medium text-green-400">${totalPaid.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
         </div>
       </div>
     </div>
