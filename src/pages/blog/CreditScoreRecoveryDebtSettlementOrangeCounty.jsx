@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { ArrowLeft, Calendar, Clock, User, TrendingUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
@@ -13,6 +14,15 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Credit Score Recovery After Debt Settlement | Orange County Guide</title>
+        <meta name="description" content="Expert strategies for recovering credit scores after debt settlement in Orange County. Learn timeline expectations and proven credit rebuilding techniques." />
+        <meta name="keywords" content="credit score recovery Orange County, debt settlement credit impact, rebuild credit score California, post-settlement credit repair" />
+        <meta property="og:title" content="Credit Score Recovery After Debt Settlement - Orange County" />
+        <meta property="og:description" content="Professional guidance for Orange County residents recovering credit scores after debt settlement with proven rebuilding strategies." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/credit-score-recovery-debt-settlement-orange-county" />
+      </Helmet>
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"><ArrowLeft className="w-4 h-4" />Back to Resources</Link>

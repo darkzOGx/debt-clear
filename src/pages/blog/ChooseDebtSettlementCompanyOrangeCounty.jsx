@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, CheckCircle, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,18 @@ export default function ChooseDebtSettlementCompanyOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>How to Choose a Debt Settlement Company in Orange County | 2025 Guide</title>
+        <meta name="description" content="Essential guide for Orange County residents choosing debt settlement companies. Learn about licensing requirements, fee structures, success rates, and red flags to avoid." />
+        <meta name="keywords" content="Orange County debt settlement company, choose debt settlement, debt settlement reviews Orange County, debt relief companies California" />
+        <meta property="og:title" content="How to Choose a Debt Settlement Company in Orange County" />
+        <meta property="og:description" content="Comprehensive guide to selecting legitimate debt settlement companies in Orange County with expert tips on licensing, fees, and success rates." />
+        <meta property="og:type" content="article" />
+        <meta property="article:author" content="VegaX Consumer Protection Team" />
+        <meta property="article:published_time" content="2025-08-05" />
+        <meta property="article:section" content="Consumer Guide" />
+        <link rel="canonical" href="https://debtclear.com/blog/choose-debt-settlement-company-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

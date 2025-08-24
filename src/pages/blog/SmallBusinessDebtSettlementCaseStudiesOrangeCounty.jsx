@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Building2, TrendingUp, DollarSign, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function SmallBusinessDebtSettlementCaseStudiesOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Small Business Debt Settlement Case Studies | Orange County Success Stories</title>
+        <meta name="description" content="Real small business debt settlement case studies from Orange County. See actual results, strategies used, and lessons learned from successful business debt relief." />
+        <meta name="keywords" content="small business debt settlement case studies Orange County, business debt relief success stories California, commercial debt settlement examples" />
+        <meta property="og:title" content="Small Business Debt Settlement Case Studies - Orange County" />
+        <meta property="og:description" content="Detailed case studies of successful small business debt settlements in Orange County with real results and strategic insights." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/small-business-debt-settlement-case-studies-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

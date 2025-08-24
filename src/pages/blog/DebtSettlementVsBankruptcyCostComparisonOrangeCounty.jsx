@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, DollarSign, Calculator, TrendingDown, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function DebtSettlementVsBankruptcyCostComparisonOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Debt Settlement vs Bankruptcy Cost Comparison | Orange County Guide</title>
+        <meta name="description" content="Comprehensive cost comparison of debt settlement vs bankruptcy for Orange County residents. Analyze total costs, fees, and long-term financial impact." />
+        <meta name="keywords" content="debt settlement vs bankruptcy costs Orange County, bankruptcy vs settlement comparison California, debt relief cost analysis" />
+        <meta property="og:title" content="Debt Settlement vs Bankruptcy Cost Comparison - Orange County" />
+        <meta property="og:description" content="Detailed cost analysis comparing debt settlement and bankruptcy options for Orange County residents with expert financial guidance." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-vs-bankruptcy-cost-comparison-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { ArrowLeft, Calendar, Clock, User, Home } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
@@ -13,6 +14,15 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Property Protection During Debt Settlement | Orange County Guide</title>
+        <meta name="description" content="Protect your Orange County property during debt settlement. Learn asset protection strategies, exemption laws, and legal safeguards for homeowners." />
+        <meta name="keywords" content="property protection debt settlement Orange County, asset protection California, homeowner rights debt settlement, property exemptions Orange County" />
+        <meta property="og:title" content="Property Protection During Debt Settlement - Orange County" />
+        <meta property="og:description" content="Essential property protection strategies for Orange County residents during debt settlement with expert guidance on asset safeguards." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/property-protection-debt-settlement-orange-county" />
+      </Helmet>
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"><ArrowLeft className="w-4 h-4" />Back to Resources</Link>

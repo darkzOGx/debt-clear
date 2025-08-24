@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, TrendingUp, DollarSign, BarChart3, PieChart } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function InvestmentStrategiesDebtSettlementOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Investment Strategies During Debt Settlement | Orange County Guide</title>
+        <meta name="description" content="Smart investment strategies for Orange County residents during debt settlement. Balance debt relief with wealth building and financial recovery planning." />
+        <meta name="keywords" content="investment strategies debt settlement Orange County, investing during debt relief, financial recovery California, wealth building debt settlement" />
+        <meta property="og:title" content="Investment Strategies During Debt Settlement - Orange County" />
+        <meta property="og:description" content="Expert investment guidance for Orange County residents managing debt settlement while building long-term wealth and financial stability." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/investment-strategies-debt-settlement-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

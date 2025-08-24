@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, AlertTriangle, Shield, Eye } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function DebtSettlementScamsOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Debt Settlement Scams Orange County | Protection Guide & Red Flags</title>
+        <meta name="description" content="Protect yourself from debt settlement scams in Orange County. Learn red flags, warning signs, and how to identify legitimate debt relief companies." />
+        <meta name="keywords" content="debt settlement scams Orange County, debt relief scams California, avoid debt settlement fraud, legitimate debt settlement companies" />
+        <meta property="og:title" content="Debt Settlement Scams Orange County - Protection Guide" />
+        <meta property="og:description" content="Essential guide to identifying and avoiding debt settlement scams in Orange County with expert protection strategies and warning signs." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-scams-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

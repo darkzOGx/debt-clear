@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, TrendingUp, PiggyBank, Target } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function FinancialPlanningAfterDebtSettlementOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Financial Planning After Debt Settlement | Orange County Recovery Guide</title>
+        <meta name="description" content="Complete financial planning guide for Orange County residents after debt settlement. Rebuild savings, improve credit, and achieve long-term financial stability." />
+        <meta name="keywords" content="financial planning after debt settlement Orange County, post-settlement financial recovery, rebuild finances California, financial stability after debt relief" />
+        <meta property="og:title" content="Financial Planning After Debt Settlement - Orange County Guide" />
+        <meta property="og:description" content="Expert financial planning strategies for Orange County residents recovering from debt settlement with comprehensive rebuilding guidance." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/financial-planning-after-debt-settlement-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

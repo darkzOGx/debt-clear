@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, CreditCard, TrendingDown, DollarSign } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function CreditCardDebtSettlementOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Orange County Credit Card Debt Settlement | Expert Guide & Strategies</title>
+        <meta name="description" content="Complete guide to credit card debt settlement in Orange County. Learn negotiation strategies, settlement rates, and legal protections for CA residents." />
+        <meta name="keywords" content="Orange County credit card debt settlement, credit card debt negotiation, debt settlement Orange County, credit card relief California" />
+        <meta property="og:title" content="Orange County Credit Card Debt Settlement - Expert Guide" />
+        <meta property="og:description" content="Professional credit card debt settlement strategies and guidance for Orange County residents seeking debt relief solutions." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/credit-card-debt-settlement-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

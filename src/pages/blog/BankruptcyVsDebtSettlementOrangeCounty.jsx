@@ -1,6 +1,6 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { ArrowLeft, Calendar, Clock, User, DollarSign, TrendingDown, Shield } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
+import { ArrowLeft, Calendar, Clock, User, DollarSign, TrendingDown, Shield, Scale, Users, CheckCircle, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -13,50 +13,119 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <Link 
-            to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Resources
-          </Link>
+    <>
+      <Helmet>
+        <title>Orange County Bankruptcy vs Debt Settlement: Complete Comparison | VegaX AI</title>
+        <meta name="description" content="Detailed analysis of bankruptcy and debt settlement options for Orange County residents, including costs, timelines, credit impact, and which option is best for different financial situations." />
+        <meta name="keywords" content="Orange County bankruptcy vs debt settlement, Chapter 7 bankruptcy, Chapter 13 bankruptcy, debt settlement comparison, Orange County debt relief, California bankruptcy exemptions, debt settlement costs" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://vegaxai.com/blog/bankruptcy-vs-debt-settlement-orange-county" />
+        
+        <meta property="og:title" content="Orange County Bankruptcy vs Debt Settlement: Complete Comparison" />
+        <meta property="og:description" content="Detailed analysis of bankruptcy and debt settlement options for Orange County residents, including costs, timelines, credit impact, and which option is best for different financial situations." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://vegaxai.com/blog/bankruptcy-vs-debt-settlement-orange-county" />
+        <meta property="og:image" content="https://vegaxai.com/og-bankruptcy-vs-debt-settlement.jpg" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Orange County Bankruptcy vs Debt Settlement: Complete Comparison" />
+        <meta name="twitter:description" content="Detailed analysis of bankruptcy and debt settlement options for Orange County residents, including costs, timelines, credit impact, and which option is best for different financial situations." />
+        <meta name="twitter:image" content="https://vegaxai.com/og-bankruptcy-vs-debt-settlement.jpg" />
+        
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Orange County Bankruptcy vs Debt Settlement: Complete Comparison",
+            "description": "Detailed analysis of bankruptcy and debt settlement options for Orange County residents, including costs, timelines, credit impact, and which option is best for different financial situations.",
+            "image": "https://vegaxai.com/og-bankruptcy-vs-debt-settlement.jpg",
+            "author": {
+              "@type": "Organization",
+              "name": "VegaX AI",
+              "url": "https://vegaxai.com"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "VegaX AI",
+              "url": "https://vegaxai.com",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://vegaxai.com/logo.png"
+              }
+            },
+            "datePublished": "2025-08-01",
+            "dateModified": "2025-08-01",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://vegaxai.com/blog/bankruptcy-vs-debt-settlement-orange-county"
+            },
+            "articleSection": "Debt Relief",
+            "keywords": ["Orange County bankruptcy vs debt settlement", "Chapter 7 bankruptcy", "Chapter 13 bankruptcy", "debt settlement comparison"]
+          })}
+        </script>
+      </Helmet>
+      
+      <div className="min-h-screen bg-white">
+      <section className="relative py-24 bg-gradient-to-br from-blue-50 via-white to-green-50 overflow-hidden border-b border-blue-100">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/5 to-green-600/5"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-blue-200/20 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-green-200/20 to-transparent rounded-full blur-3xl"></div>
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-blue-600 transition-colors mb-8 z-10 relative">
+            <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
 
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-              FINANCIAL PLANNING
-            </span>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">FINANCIAL COMPARISON</span>
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Orange County Bankruptcy vs Debt Settlement:
-            <br />
+            Orange County Bankruptcy vs Debt Settlement:<br />
             <span className="font-mono text-3xl lg:text-4xl">Complete Comparison</span>
           </h1>
 
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              <span>August 1, 2025</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4" />
-              <span>15 min read</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <User className="w-4 h-4" />
-              <span>VegaX Financial Planning Team</span>
-            </div>
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 1, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>15 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Financial Planning Team</span></div>
           </div>
 
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">
+          <p className="text-xl text-neutral-700 leading-relaxed font-light relative z-10">
             Detailed analysis of bankruptcy and debt settlement options for Orange County residents, 
             including costs, timelines, credit impact, and which option is best for different financial situations.
           </p>
+        </div>
+      </section>
+
+      {/* Statistics Section */}
+      <section className="py-16 bg-white border-b border-neutral-200">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="text-center p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 hover:shadow-lg transition-all duration-300">
+              <Scale className="w-12 h-12 text-blue-600 mx-auto mb-4" />
+              <div className="text-3xl font-bold text-blue-800 mb-2">1,247</div>
+              <div className="text-sm font-medium text-blue-700 mb-1">Bankruptcy Filings</div>
+              <div className="text-xs text-blue-600">Orange County (2023)</div>
+            </div>
+            <div className="text-center p-8 bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 hover:shadow-lg transition-all duration-300">
+              <Users className="w-12 h-12 text-green-600 mx-auto mb-4" />
+              <div className="text-3xl font-bold text-green-800 mb-2">32%</div>
+              <div className="text-sm font-medium text-green-700 mb-1">High Debt-to-Income</div>
+              <div className="text-xs text-green-600">OC residents affected</div>
+            </div>
+            <div className="text-center p-8 bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg border border-purple-200 hover:shadow-lg transition-all duration-300">
+              <CheckCircle className="w-12 h-12 text-purple-600 mx-auto mb-4" />
+              <div className="text-3xl font-bold text-purple-800 mb-2">60%</div>
+              <div className="text-sm font-medium text-purple-700 mb-1">Debt Settlement Success</div>
+              <div className="text-xs text-purple-600">Average reduction achieved</div>
+            </div>
+            <div className="text-center p-8 bg-gradient-to-br from-amber-50 to-amber-100 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
+              <AlertTriangle className="w-12 h-12 text-amber-600 mx-auto mb-4" />
+              <div className="text-3xl font-bold text-amber-800 mb-2">$67K</div>
+              <div className="text-sm font-medium text-amber-700 mb-1">Average Household Debt</div>
+              <div className="text-xs text-amber-600">Orange County median</div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -75,19 +144,15 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
             </p>
 
             <div className="bg-amber-50 border border-amber-200 p-8 mb-8">
-              <h3 className="text-xl font-semibold text-amber-800 mb-4">Orange County Debt Crisis by the Numbers</h3>
-              <div className="grid md:grid-cols-3 gap-6 text-center">
+              <div className="flex items-start gap-3">
+                <AlertTriangle className="w-6 h-6 text-amber-600 mt-1" />
                 <div>
-                  <div className="text-3xl font-mono text-amber-800 mb-2">32%</div>
-                  <div className="text-sm text-amber-700">OC Residents with High Debt-to-Income Ratio</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-mono text-amber-800 mb-2">$67K</div>
-                  <div className="text-sm text-amber-700">Average Household Debt</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-mono text-amber-800 mb-2">1,247</div>
-                  <div className="text-sm text-amber-700">Bankruptcy Filings (2023)</div>
+                  <h3 className="text-lg font-semibold text-amber-800 mb-4">OC Debt Crisis Impact</h3>
+                  <div className="grid md:grid-cols-3 gap-4 text-center">
+                    <div><div className="text-2xl font-mono text-amber-800 mb-1">32%</div><div className="text-xs text-amber-700">High Debt-to-Income</div></div>
+                    <div><div className="text-2xl font-mono text-amber-800 mb-1">$67K</div><div className="text-xs text-amber-700">Average Debt</div></div>
+                    <div><div className="text-2xl font-mono text-amber-800 mb-1">1,247</div><div className="text-xs text-amber-700">Bankruptcy Filings</div></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -420,38 +485,21 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
         </div>
       </article>
 
-      {/* Related Articles */}
-      <section className="py-16 bg-neutral-50 border-t border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-2xl font-light text-black mb-8">Related Articles</h2>
-          
-          <div className="grid md:grid-cols-2 gap-6">
-            <Link 
-              to="/blog/orange-county-debt-settlement-laws"
-              className="bg-white p-6 border border-neutral-200 hover:border-black transition-colors"
-            >
-              <h3 className="font-semibold text-black mb-2">
-                Orange County Debt Settlement Laws: What You Need to Know
-              </h3>
-              <p className="text-sm text-neutral-600 mb-4">
-                Understanding California's debt settlement regulations and consumer protections.
-              </p>
-              <span className="text-xs font-mono text-neutral-500">8 min read</span>
-            </Link>
-            
-            <Link 
-              to="/blog/property-protection-debt-settlement-orange-county"
-              className="bg-white p-6 border border-neutral-200 hover:border-black transition-colors"
-            >
-              <h3 className="font-semibold text-black mb-2">
-                Orange County Property Protection During Debt Settlement
-              </h3>
-              <p className="text-sm text-neutral-600 mb-4">
-                How to protect your Orange County home and assets during debt settlement.
-              </p>
-              <span className="text-xs font-mono text-neutral-500">12 min read</span>
-            </Link>
-          </div>
+      {/* CTA Section */}
+      <section className="py-16 bg-gradient-to-r from-blue-600 via-blue-700 to-green-700">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl lg:text-4xl font-light text-white mb-6">
+            Ready to Choose the Right Debt Relief Option?
+          </h2>
+          <p className="text-xl text-blue-100 mb-8 font-light">
+            Get personalized analysis comparing bankruptcy and debt settlement for your Orange County situation
+          </p>
+          <button
+            onClick={() => document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' })}
+            className="bg-white text-blue-700 px-8 py-4 text-lg font-semibold hover:bg-blue-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
+          >
+            Get Debt Relief Analysis
+          </button>
         </div>
       </section>
 
@@ -461,6 +509,7 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
           <ConsultationForm />
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 }

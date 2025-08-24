@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { ArrowLeft, Calendar, Clock, User, DollarSign } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
@@ -13,6 +14,15 @@ export default function DebtSettlementFeesOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Debt Settlement Fees Orange County | Cost Guide & Comparison</title>
+        <meta name="description" content="Complete guide to debt settlement fees in Orange County. Compare costs, understand fee structures, and learn about California regulations." />
+        <meta name="keywords" content="debt settlement fees Orange County, debt settlement costs California, debt relief pricing, settlement company fees" />
+        <meta property="og:title" content="Debt Settlement Fees Orange County - Complete Cost Guide" />
+        <meta property="og:description" content="Comprehensive guide to understanding debt settlement fees and costs for Orange County residents with detailed comparisons." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-fees-orange-county" />
+      </Helmet>
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"><ArrowLeft className="w-4 h-4" />Back to Resources</Link>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, CheckCircle, TrendingDown, Home } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function DebtSettlementSuccessStoriesOrangeCounty2025() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Debt Settlement Success Stories Orange County 2025 | Real Results</title>
+        <meta name="description" content="Real debt settlement success stories from Orange County residents in 2025. See actual results, savings achieved, and transformation journeys." />
+        <meta name="keywords" content="debt settlement success stories Orange County 2025, debt relief success stories California, real debt settlement results, Orange County testimonials" />
+        <meta property="og:title" content="Debt Settlement Success Stories Orange County 2025" />
+        <meta property="og:description" content="Inspiring real-life debt settlement success stories from Orange County residents showing actual results and financial transformation." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-success-stories-orange-county-2025" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

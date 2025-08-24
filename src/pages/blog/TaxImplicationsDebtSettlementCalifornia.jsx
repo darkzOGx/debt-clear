@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { ArrowLeft, Calendar, Clock, User, Calculator } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
@@ -13,6 +14,15 @@ export default function TaxImplicationsDebtSettlementCalifornia() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Tax Implications of Debt Settlement California | State Tax Guide</title>
+        <meta name="description" content="Complete guide to California tax implications of debt settlement. Understand state tax consequences, planning strategies, and compliance requirements." />
+        <meta name="keywords" content="tax implications debt settlement California, California debt settlement taxes, state tax consequences debt relief, CA debt settlement tax planning" />
+        <meta property="og:title" content="Tax Implications of Debt Settlement California - State Tax Guide" />
+        <meta property="og:description" content="Comprehensive guide to California state tax implications of debt settlement with expert planning strategies and compliance guidance." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/tax-implications-debt-settlement-california" />
+      </Helmet>
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8">

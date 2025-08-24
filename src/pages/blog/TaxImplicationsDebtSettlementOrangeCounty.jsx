@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, FileText, DollarSign, AlertTriangle, Calculator } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Tax Implications of Debt Settlement Orange County | Complete Tax Guide</title>
+        <meta name="description" content="Comprehensive guide to tax implications of debt settlement for Orange County residents. Understand federal and state tax consequences and planning strategies." />
+        <meta name="keywords" content="tax implications debt settlement Orange County, debt settlement taxes California, 1099-C tax forms Orange County, debt forgiveness tax consequences" />
+        <meta property="og:title" content="Tax Implications of Debt Settlement - Orange County Guide" />
+        <meta property="og:description" content="Essential tax guidance for Orange County residents pursuing debt settlement including federal and state tax implications and planning strategies." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/tax-implications-debt-settlement-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

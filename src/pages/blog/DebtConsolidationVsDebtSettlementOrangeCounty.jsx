@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Scale, TrendingUp, DollarSign, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Debt Consolidation vs Debt Settlement | Orange County Comparison</title>
+        <meta name="description" content="Compare debt consolidation and debt settlement options in Orange County. Expert analysis of costs, benefits, and outcomes to help choose the right solution." />
+        <meta name="keywords" content="debt consolidation vs debt settlement Orange County, debt relief comparison California, consolidation vs settlement pros cons" />
+        <meta property="og:title" content="Debt Consolidation vs Debt Settlement - Orange County Comparison" />
+        <meta property="og:description" content="Detailed comparison of debt consolidation and settlement options for Orange County residents with expert analysis and guidance." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/debt-consolidation-vs-debt-settlement-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

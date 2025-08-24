@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Shield, Scale, AlertTriangle, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function LegalRightsDebtSettlementOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Legal Rights in Debt Settlement Orange County | Consumer Protection Guide</title>
+        <meta name="description" content="Know your legal rights during debt settlement in Orange County. Complete guide to California consumer protection laws, FDCPA rights, and legal recourse." />
+        <meta name="keywords" content="legal rights debt settlement Orange County, consumer protection California, FDCPA rights debt settlement, debt settlement legal protections" />
+        <meta property="og:title" content="Legal Rights in Debt Settlement - Orange County Consumer Guide" />
+        <meta property="og:description" content="Comprehensive guide to legal rights and consumer protections for Orange County residents during debt settlement processes." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/legal-rights-debt-settlement-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

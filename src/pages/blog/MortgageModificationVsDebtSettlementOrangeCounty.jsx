@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Home, Scale, Shield, TrendingUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function MortgageModificationVsDebtSettlementOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Mortgage Modification vs Debt Settlement | Orange County Comparison</title>
+        <meta name="description" content="Compare mortgage modification and debt settlement options for Orange County homeowners. Expert analysis of benefits, risks, and outcomes for each approach." />
+        <meta name="keywords" content="mortgage modification vs debt settlement Orange County, loan modification California, home debt relief options, mortgage vs debt settlement" />
+        <meta property="og:title" content="Mortgage Modification vs Debt Settlement - Orange County Guide" />
+        <meta property="og:description" content="Detailed comparison of mortgage modification and debt settlement strategies for Orange County homeowners with expert guidance." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/mortgage-modification-vs-debt-settlement-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

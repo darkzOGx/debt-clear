@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Heart, AlertCircle, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function MedicalDebtSettlementOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Medical Debt Settlement Orange County | Healthcare Debt Relief Guide</title>
+        <meta name="description" content="Specialized medical debt settlement strategies for Orange County residents. Navigate healthcare debt relief, negotiate with providers, and understand patient rights." />
+        <meta name="keywords" content="medical debt settlement Orange County, healthcare debt relief California, medical bill negotiation, patient financial assistance programs" />
+        <meta property="og:title" content="Medical Debt Settlement Orange County - Healthcare Relief Guide" />
+        <meta property="og:description" content="Expert guidance for Orange County residents dealing with medical debt including settlement strategies and patient financial assistance options." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/medical-debt-settlement-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

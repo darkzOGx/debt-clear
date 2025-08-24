@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, CheckCircle, ArrowRight, FileText, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Debt Settlement Process Guide Orange County 2025 | Step-by-Step</title>
+        <meta name="description" content="Complete 2025 debt settlement process guide for Orange County residents. Step-by-step instructions, timelines, and expert tips for successful debt relief." />
+        <meta name="keywords" content="debt settlement process Orange County 2025, debt settlement steps California, debt relief process guide, settlement timeline Orange County" />
+        <meta property="og:title" content="Debt Settlement Process Guide Orange County 2025" />
+        <meta property="og:description" content="Comprehensive step-by-step debt settlement process guide for Orange County residents with 2025 updates and expert guidance." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-process-guide-orange-county-2025" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Home, Shield, DollarSign, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function HomesteadExemptionDebtSettlementOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Homestead Exemption and Debt Settlement Orange County | Property Protection</title>
+        <meta name="description" content="Protect your Orange County home during debt settlement with California homestead exemption. Learn property protection strategies and legal requirements." />
+        <meta name="keywords" content="homestead exemption Orange County, property protection debt settlement, California homestead laws, home protection debt relief" />
+        <meta property="og:title" content="Homestead Exemption and Debt Settlement - Orange County Guide" />
+        <meta property="og:description" content="Essential guide to protecting your Orange County home during debt settlement using California homestead exemption laws and strategies." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/homestead-exemption-debt-settlement-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

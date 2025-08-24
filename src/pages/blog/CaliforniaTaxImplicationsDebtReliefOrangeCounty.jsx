@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Calculator, DollarSign, AlertTriangle, FileText } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,18 @@ export default function CaliforniaTaxImplicationsDebtReliefOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>California Tax Implications of Debt Relief | Orange County Guide 2025</title>
+        <meta name="description" content="Comprehensive guide to California state tax implications for Orange County debt relief. Understand state tax rates, conformity issues, and planning strategies for debt settlement." />
+        <meta name="keywords" content="California tax implications debt relief, Orange County debt settlement taxes, California state income tax debt forgiveness, CA tax planning debt settlement" />
+        <meta property="og:title" content="California Tax Implications of Debt Relief - Orange County Edition" />
+        <meta property="og:description" content="Navigate California's complex tax system with expert guidance on debt relief tax implications for Orange County residents." />
+        <meta property="og:type" content="article" />
+        <meta property="article:author" content="California Tax Specialist" />
+        <meta property="article:published_time" content="2025-06-15" />
+        <meta property="article:section" content="Tax Planning" />
+        <link rel="canonical" href="https://debtclear.com/blog/california-tax-implications-debt-relief-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

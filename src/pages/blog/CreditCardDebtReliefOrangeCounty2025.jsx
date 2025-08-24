@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, CreditCard, TrendingDown, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -6,6 +7,15 @@ import { Link } from 'react-router-dom';
 export default function CreditCardDebtReliefOrangeCounty2025() {
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Orange County Credit Card Debt Relief 2025 | Comprehensive Solutions</title>
+        <meta name="description" content="Complete guide to credit card debt relief options in Orange County for 2025. Compare debt consolidation, settlement, and credit counseling solutions." />
+        <meta name="keywords" content="Orange County credit card debt relief 2025, credit card debt help California, debt consolidation Orange County, credit counseling services" />
+        <meta property="og:title" content="Orange County Credit Card Debt Relief 2025 - Complete Guide" />
+        <meta property="og:description" content="Discover comprehensive credit card debt relief solutions available to Orange County residents in 2025 with expert guidance and strategies." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/credit-card-debt-relief-orange-county-2025" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

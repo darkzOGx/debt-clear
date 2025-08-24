@@ -1,5 +1,6 @@
 import React from 'react';
-import { ArrowLeft, Calendar, Clock, User, Heart } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
+import { ArrowLeft, Calendar, Clock, User, Heart, Shield, Users, TrendingDown, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -12,10 +13,65 @@ export default function DebtSettlementSeniorsOrangeCounty() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8">
+    <>
+      <Helmet>
+        <title>Debt Settlement for Orange County Seniors: Special Considerations | VegaX AI</title>
+        <meta name="description" content="Age-specific debt relief strategies for Orange County seniors, including asset protection, fixed income planning, and special protections available to older adults." />
+        <meta name="keywords" content="Orange County senior debt settlement, elderly debt relief, senior asset protection, fixed income debt solutions, Medicare debt protection, Social Security garnishment protection, Orange County elder law" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://vegaxai.com/blog/debt-settlement-seniors-orange-county" />
+        
+        <meta property="og:title" content="Debt Settlement for Orange County Seniors: Special Considerations" />
+        <meta property="og:description" content="Age-specific debt relief strategies for Orange County seniors, including asset protection, fixed income planning, and special protections available to older adults." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://vegaxai.com/blog/debt-settlement-seniors-orange-county" />
+        <meta property="og:image" content="https://vegaxai.com/og-debt-settlement-seniors.jpg" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Debt Settlement for Orange County Seniors: Special Considerations" />
+        <meta name="twitter:description" content="Age-specific debt relief strategies for Orange County seniors, including asset protection, fixed income planning, and special protections available to older adults." />
+        <meta name="twitter:image" content="https://vegaxai.com/og-debt-settlement-seniors.jpg" />
+        
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Debt Settlement for Orange County Seniors: Special Considerations",
+            "description": "Age-specific debt relief strategies for Orange County seniors, including asset protection, fixed income planning, and special protections available to older adults.",
+            "image": "https://vegaxai.com/og-debt-settlement-seniors.jpg",
+            "author": {
+              "@type": "Organization",
+              "name": "VegaX AI",
+              "url": "https://vegaxai.com"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "VegaX AI",
+              "url": "https://vegaxai.com",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://vegaxai.com/logo.png"
+              }
+            },
+            "datePublished": "2025-07-12",
+            "dateModified": "2025-07-12",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://vegaxai.com/blog/debt-settlement-seniors-orange-county"
+            },
+            "articleSection": "Debt Relief",
+            "keywords": ["Orange County senior debt settlement", "elderly debt relief", "senior asset protection", "fixed income debt solutions"]
+          })}
+        </script>
+      </Helmet>
+      
+      <div className="min-h-screen bg-white">
+      <section className="relative py-24 bg-gradient-to-br from-purple-50 via-white to-blue-50 overflow-hidden border-b border-purple-100">
+        <div className="absolute inset-0 bg-gradient-to-r from-purple-600/5 to-blue-600/5"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-purple-200/20 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-blue-200/20 to-transparent rounded-full blur-3xl"></div>
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-purple-600 transition-colors mb-8 z-10 relative">
             <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
@@ -30,10 +86,42 @@ export default function DebtSettlementSeniorsOrangeCounty() {
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>10 min read</span></div>
             <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Senior Finance Team</span></div>
           </div>
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">
+          <p className="text-xl text-neutral-700 leading-relaxed font-light relative z-10">
             Age-specific debt relief strategies for Orange County seniors, including asset protection, 
             fixed income planning, and special protections available to older adults.
           </p>
+        </div>
+      </section>
+
+      {/* Statistics Section */}
+      <section className="py-16 bg-white border-b border-neutral-200">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="text-center p-8 bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg border border-purple-200 hover:shadow-lg transition-all duration-300">
+              <Shield className="w-12 h-12 text-purple-600 mx-auto mb-4" />
+              <div className="text-3xl font-bold text-purple-800 mb-2">67%</div>
+              <div className="text-sm font-medium text-purple-700 mb-1">Medical/Healthcare Related</div>
+              <div className="text-xs text-purple-600">Senior debt origins</div>
+            </div>
+            <div className="text-center p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 hover:shadow-lg transition-all duration-300">
+              <Users className="w-12 h-12 text-blue-600 mx-auto mb-4" />
+              <div className="text-3xl font-bold text-blue-800 mb-2">34%</div>
+              <div className="text-sm font-medium text-blue-700 mb-1">Seniors with Debt</div>
+              <div className="text-xs text-blue-600">Orange County households 65+</div>
+            </div>
+            <div className="text-center p-8 bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 hover:shadow-lg transition-all duration-300">
+              <TrendingDown className="w-12 h-12 text-green-600 mx-auto mb-4" />
+              <div className="text-3xl font-bold text-green-800 mb-2">$600K</div>
+              <div className="text-sm font-medium text-green-700 mb-1">Enhanced Homestead</div>
+              <div className="text-xs text-green-600">California senior protection</div>
+            </div>
+            <div className="text-center p-8 bg-gradient-to-br from-amber-50 to-amber-100 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
+              <CheckCircle className="w-12 h-12 text-amber-600 mx-auto mb-4" />
+              <div className="text-3xl font-bold text-amber-800 mb-2">100%</div>
+              <div className="text-sm font-medium text-amber-700 mb-1">Social Security Protected</div>
+              <div className="text-xs text-amber-600">From most creditors</div>
+            </div>
+          </div>
         </div>
       </section>
       <article className="py-16">
@@ -120,12 +208,31 @@ export default function DebtSettlementSeniorsOrangeCounty() {
         </div>
       </article>
 
+      {/* CTA Section */}
+      <section className="py-16 bg-gradient-to-r from-purple-600 via-purple-700 to-blue-700">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl lg:text-4xl font-light text-white mb-6">
+            Ready to Explore Senior Debt Relief Options?
+          </h2>
+          <p className="text-xl text-purple-100 mb-8 font-light">
+            Get personalized debt analysis designed specifically for Orange County seniors
+          </p>
+          <button
+            onClick={() => document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' })}
+            className="bg-white text-purple-700 px-8 py-4 text-lg font-semibold hover:bg-purple-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
+          >
+            Get Senior Debt Analysis
+          </button>
+        </div>
+      </section>
+
       {/* Research Consultation */}
       <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <ConsultationForm />
         </div>
       </section>
-    </div>
+      </div>
+    </>
   );
 }

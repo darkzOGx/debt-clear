@@ -1,58 +1,129 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { ArrowLeft, Calendar, Clock, User, Building, Briefcase, TrendingDown } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
+import { ArrowLeft, Calendar, Clock, User, Building, Briefcase, TrendingDown, Users, CheckCircle, DollarSign } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function BusinessDebtReliefOrangeCounty2025() {
-  return (
-    <div className="min-h-screen bg-white">
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <Link 
-            to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Resources
-          </Link>
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
 
+  return (
+    <>
+      <Helmet>
+        <title>Orange County Business Debt Relief: Small Business Solutions 2025 | VegaX AI</title>
+        <meta name="description" content="Comprehensive strategies for Orange County small businesses struggling with commercial debt, including SBA loan modifications, equipment financing relief, and business credit card settlements." />
+        <meta name="keywords" content="Orange County business debt relief, small business debt solutions, SBA loan modifications, commercial debt settlement, business credit cards, equipment financing relief, Orange County business bankruptcy alternatives" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://vegaxai.com/blog/business-debt-relief-orange-county-2025" />
+        
+        <meta property="og:title" content="Orange County Business Debt Relief: Small Business Solutions 2025" />
+        <meta property="og:description" content="Comprehensive strategies for Orange County small businesses struggling with commercial debt, including SBA loan modifications, equipment financing relief, and business credit card settlements." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://vegaxai.com/blog/business-debt-relief-orange-county-2025" />
+        <meta property="og:image" content="https://vegaxai.com/og-business-debt-relief.jpg" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Orange County Business Debt Relief: Small Business Solutions 2025" />
+        <meta name="twitter:description" content="Comprehensive strategies for Orange County small businesses struggling with commercial debt, including SBA loan modifications, equipment financing relief, and business credit card settlements." />
+        <meta name="twitter:image" content="https://vegaxai.com/og-business-debt-relief.jpg" />
+        
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Orange County Business Debt Relief: Small Business Solutions 2025",
+            "description": "Comprehensive strategies for Orange County small businesses struggling with commercial debt, including SBA loan modifications, equipment financing relief, and business credit card settlements.",
+            "image": "https://vegaxai.com/og-business-debt-relief.jpg",
+            "author": {
+              "@type": "Organization",
+              "name": "VegaX AI",
+              "url": "https://vegaxai.com"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "VegaX AI",
+              "url": "https://vegaxai.com",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://vegaxai.com/logo.png"
+              }
+            },
+            "datePublished": "2025-08-15",
+            "dateModified": "2025-08-15",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://vegaxai.com/blog/business-debt-relief-orange-county-2025"
+            },
+            "articleSection": "Business Debt Relief",
+            "keywords": ["Orange County business debt relief", "small business debt solutions", "SBA loan modifications", "commercial debt settlement"]
+          })}
+        </script>
+      </Helmet>
+      
+      <div className="min-h-screen bg-white">
+      <section className="relative py-24 bg-gradient-to-br from-orange-50 via-white to-blue-50 overflow-hidden border-b border-orange-100">
+        <div className="absolute inset-0 bg-gradient-to-r from-orange-600/5 to-blue-600/5"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-orange-200/20 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-blue-200/20 to-transparent rounded-full blur-3xl"></div>
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-orange-600 transition-colors mb-8 z-10 relative">
+            <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-              BUSINESS DEBT RELIEF
-            </span>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">BUSINESS DEBT RELIEF</span>
           </div>
-
           <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Orange County Business Debt Relief:
-            <br />
+            Orange County Business Debt Relief:<br />
             <span className="font-mono text-3xl lg:text-4xl">Small Business Solutions</span>
           </h1>
-
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              <span>August 15, 2025</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4" />
-              <span>18 min read</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <User className="w-4 h-4" />
-              <span>VegaX Business Team</span>
-            </div>
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 15, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>18 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Business Team</span></div>
           </div>
-
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">
+          <p className="text-xl text-neutral-700 leading-relaxed font-light relative z-10">
             Comprehensive strategies for Orange County small businesses struggling with commercial debt, 
             including SBA loan modifications, equipment financing relief, and business credit card settlements.
           </p>
         </div>
       </section>
 
-      {/* Article Content */}
+      {/* Statistics Section */}
+      <section className="py-16 bg-white border-b border-neutral-200">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="text-center p-8 bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg border border-orange-200 hover:shadow-lg transition-all duration-300">
+              <Building className="w-12 h-12 text-orange-600 mx-auto mb-4" />
+              <div className="text-3xl font-bold text-orange-800 mb-2">267K</div>
+              <div className="text-sm font-medium text-orange-700 mb-1">Small Businesses</div>
+              <div className="text-xs text-orange-600">Orange County total</div>
+            </div>
+            <div className="text-center p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 hover:shadow-lg transition-all duration-300">
+              <Users className="w-12 h-12 text-blue-600 mx-auto mb-4" />
+              <div className="text-3xl font-bold text-blue-800 mb-2">34%</div>
+              <div className="text-sm font-medium text-blue-700 mb-1">Struggling with Payments</div>
+              <div className="text-xs text-blue-600">Small businesses affected</div>
+            </div>
+            <div className="text-center p-8 bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 hover:shadow-lg transition-all duration-300">
+              <CheckCircle className="w-12 h-12 text-green-600 mx-auto mb-4" />
+              <div className="text-3xl font-bold text-green-800 mb-2">85%</div>
+              <div className="text-sm font-medium text-green-700 mb-1">Relief Success Rate</div>
+              <div className="text-xs text-green-600">With professional guidance</div>
+            </div>
+            <div className="text-center p-8 bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg border border-purple-200 hover:shadow-lg transition-all duration-300">
+              <DollarSign className="w-12 h-12 text-purple-600 mx-auto mb-4" />
+              <div className="text-3xl font-bold text-purple-800 mb-2">$127K</div>
+              <div className="text-sm font-medium text-purple-700 mb-1">Average Business Debt</div>
+              <div className="text-xs text-purple-600">Orange County median</div>
+            </div>
+          </div>
+        </div>
+      </section>
       <article className="py-16">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
@@ -66,19 +137,15 @@ export default function BusinessDebtReliefOrangeCounty2025() {
             </p>
 
             <div className="bg-orange-50 border border-orange-200 p-8 mb-8">
-              <h3 className="text-xl font-semibold text-orange-800 mb-4">Orange County Business Debt Statistics</h3>
-              <div className="grid md:grid-cols-3 gap-6 text-center">
+              <div className="flex items-start gap-3">
+                <Building className="w-6 h-6 text-orange-600 mt-1" />
                 <div>
-                  <div className="text-3xl font-mono text-orange-800 mb-2">267K</div>
-                  <div className="text-sm text-orange-700">Small Businesses in OC</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-mono text-orange-800 mb-2">$127K</div>
-                  <div className="text-sm text-orange-700">Average Business Debt</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-mono text-orange-800 mb-2">34%</div>
-                  <div className="text-sm text-orange-700">Struggling with Payments</div>
+                  <h3 className="text-lg font-semibold text-orange-800 mb-4">OC Business Debt Statistics</h3>
+                  <div className="grid md:grid-cols-3 gap-4 text-center">
+                    <div><div className="text-2xl font-mono text-orange-800 mb-1">267K</div><div className="text-xs text-orange-700">Small Businesses</div></div>
+                    <div><div className="text-2xl font-mono text-orange-800 mb-1">$127K</div><div className="text-xs text-orange-700">Average Debt</div></div>
+                    <div><div className="text-2xl font-mono text-orange-800 mb-1">34%</div><div className="text-xs text-orange-700">Payment Struggles</div></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -363,29 +430,25 @@ export default function BusinessDebtReliefOrangeCounty2025() {
               debt, especially when personal guarantees are involved.
             </p>
 
-            <div className="bg-black text-white p-8 mb-8">
-              <h3 className="text-xl font-semibold mb-4">Free Business Debt Analysis</h3>
-              <p className="mb-6 text-neutral-300">
-                Don't let business debt destroy your entrepreneurial dreams. Our AI-powered analysis 
-                provides customized relief strategies for Orange County businesses.
-              </p>
+            <div className="bg-green-50 border border-green-200 p-8 mb-8">
+              <h3 className="text-xl font-semibold text-green-800 mb-4">Huntington Beach Manufacturing - Success Story</h3>
               <div className="grid md:grid-cols-2 gap-6 text-sm">
                 <div>
-                  <h4 className="font-semibold mb-2">Business Analysis Includes:</h4>
-                  <ul className="space-y-1 text-neutral-300">
-                    <li>• Cash flow assessment</li>
-                    <li>• Debt prioritization strategy</li>
-                    <li>• Settlement feasibility review</li>
-                    <li>• Asset protection planning</li>
+                  <h5 className="font-semibold text-black mb-2">Challenge:</h5>
+                  <ul className="text-neutral-700 space-y-1">
+                    <li>• $780,000 in business debt</li>
+                    <li>• Equipment lease defaults</li>
+                    <li>• SBA loan delinquency</li>
+                    <li>• Personal guarantees at risk</li>
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">Relief Options:</h4>
-                  <ul className="space-y-1 text-neutral-300">
-                    <li>• SBA loan modifications</li>
-                    <li>• Equipment lease restructuring</li>
-                    <li>• Credit card settlements</li>
-                    <li>• MCA relief strategies</li>
+                  <h5 className="font-semibold text-black mb-2">Solution & Result:</h5>
+                  <ul className="text-neutral-700 space-y-1">
+                    <li>• SBA workout agreement: $450K reduction</li>
+                    <li>• Equipment lease renegotiation</li>
+                    <li>• Protected family home and assets</li>
+                    <li>• Business operational in 14 months</li>
                   </ul>
                 </div>
               </div>
@@ -397,9 +460,45 @@ export default function BusinessDebtReliefOrangeCounty2025() {
               to overcome business debt challenges and return to profitability.
             </p>
 
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
+              <h3 className="text-xl font-semibold text-black mb-4">Business Debt Relief Disclaimer</h3>
+              <p className="text-sm text-neutral-600 leading-relaxed">
+                This information is for educational purposes only and does not constitute legal, financial, or business advice. 
+                Business debt relief involves complex considerations including corporate structure, personal guarantees, and 
+                industry-specific regulations. Business debt settlements may have tax implications and affect business credit ratings. 
+                Always consult with qualified business attorneys, CPAs, and debt relief professionals before making decisions.
+              </p>
+            </div>
+
           </div>
         </div>
       </article>
-    </div>
+
+      {/* CTA Section */}
+      <section className="py-16 bg-gradient-to-r from-orange-600 via-orange-700 to-blue-700">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl lg:text-4xl font-light text-white mb-6">
+            Ready to Explore Business Debt Relief Options?
+          </h2>
+          <p className="text-xl text-orange-100 mb-8 font-light">
+            Get personalized analysis for your Orange County small business debt situation
+          </p>
+          <button
+            onClick={() => document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' })}
+            className="bg-white text-orange-700 px-8 py-4 text-lg font-semibold hover:bg-orange-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
+          >
+            Get Business Debt Analysis
+          </button>
+        </div>
+      </section>
+
+      {/* Research Consultation */}
+      <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <ConsultationForm />
+        </div>
+      </section>
+      </div>
+    </>
   );
 }

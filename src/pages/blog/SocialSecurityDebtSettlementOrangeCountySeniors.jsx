@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Shield, DollarSign, Heart, Users } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function SocialSecurityDebtSettlementOrangeCountySeniors() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Social Security and Debt Settlement for Orange County Seniors | Protection Guide</title>
+        <meta name="description" content="Protect Social Security benefits during debt settlement for Orange County seniors. Learn federal protections, exempt income rules, and senior-specific strategies." />
+        <meta name="keywords" content="Social Security debt settlement Orange County seniors, senior debt relief California, Social Security protection debt settlement, senior citizen debt help" />
+        <meta property="og:title" content="Social Security and Debt Settlement for Orange County Seniors" />
+        <meta property="og:description" content="Essential guide for Orange County seniors on protecting Social Security benefits during debt settlement with specialized senior protection strategies." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/social-security-debt-settlement-orange-county-seniors" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

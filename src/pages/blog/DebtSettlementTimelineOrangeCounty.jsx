@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { ArrowLeft, Calendar, Clock, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
@@ -6,6 +7,15 @@ import ConsultationForm from '../../components/consultation/ConsultationForm';
 export default function DebtSettlementTimelineOrangeCounty() {
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Debt Settlement Timeline Orange County | Complete Process Guide</title>
+        <meta name="description" content="Detailed debt settlement timeline for Orange County residents. Understand each phase, duration expectations, and milestone tracking for successful debt relief." />
+        <meta name="keywords" content="debt settlement timeline Orange County, debt settlement duration California, settlement process timeline, debt relief timeline expectations" />
+        <meta property="og:title" content="Debt Settlement Timeline Orange County - Complete Guide" />
+        <meta property="og:description" content="Comprehensive timeline guide for debt settlement process in Orange County with phase-by-phase expectations and milestones." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-timeline-orange-county" />
+      </Helmet>
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"><ArrowLeft className="w-4 h-4" />Back to Resources</Link>

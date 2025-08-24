@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, AlertTriangle, Eye, DollarSign, Calculator } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function HiddenCostsDebtSettlementOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Hidden Costs of Debt Settlement Orange County | Complete Fee Analysis</title>
+        <meta name="description" content="Uncover hidden costs and fees in debt settlement for Orange County residents. Complete analysis of all potential expenses and how to avoid unexpected charges." />
+        <meta name="keywords" content="hidden costs debt settlement Orange County, debt settlement fees California, unexpected debt relief costs, settlement fee analysis" />
+        <meta property="og:title" content="Hidden Costs of Debt Settlement Orange County - Fee Analysis" />
+        <meta property="og:description" content="Comprehensive analysis of hidden costs and fees in debt settlement for Orange County residents with expert guidance on avoiding unexpected expenses." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/hidden-costs-debt-settlement-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

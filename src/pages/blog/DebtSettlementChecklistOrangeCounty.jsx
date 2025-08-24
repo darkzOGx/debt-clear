@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, CheckCircle, FileText, CreditCard } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function DebtSettlementChecklistOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Debt Settlement Checklist Orange County | Complete Preparation Guide</title>
+        <meta name="description" content="Complete debt settlement checklist for Orange County residents. Step-by-step preparation guide with essential documents and requirements." />
+        <meta name="keywords" content="debt settlement checklist Orange County, debt settlement preparation California, debt relief checklist, settlement documentation guide" />
+        <meta property="og:title" content="Debt Settlement Checklist - Orange County Preparation Guide" />
+        <meta property="og:description" content="Comprehensive checklist to prepare for debt settlement in Orange County with step-by-step guidance and required documentation." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-checklist-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

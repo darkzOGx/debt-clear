@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Building2, TrendingUp, DollarSign, Handshake } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,18 @@ export default function CommercialDebtSettlementOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Orange County Commercial Debt Settlement | B2B Debt Relief Strategies</title>
+        <meta name="description" content="Expert commercial debt settlement strategies for Orange County businesses. Learn B2B negotiation tactics, trade creditor management, and secured debt settlement approaches." />
+        <meta name="keywords" content="Orange County commercial debt settlement, B2B debt relief, business debt negotiation, trade creditor settlement, commercial debt strategies" />
+        <meta property="og:title" content="Orange County Commercial Debt Settlement - B2B Debt Relief Strategies" />
+        <meta property="og:description" content="Specialized commercial debt settlement solutions for Orange County businesses facing B2B debt challenges and trade creditor negotiations." />
+        <meta property="og:type" content="article" />
+        <meta property="article:author" content="Commercial Debt Specialist" />
+        <meta property="article:published_time" content="2025-06-15" />
+        <meta property="article:section" content="Business Finance" />
+        <link rel="canonical" href="https://debtclear.com/blog/commercial-debt-settlement-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

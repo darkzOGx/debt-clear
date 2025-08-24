@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, Scale, FileText, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function DebtSettlementAttorneyOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Debt Settlement Attorney Orange County | Legal Representation Guide</title>
+        <meta name="description" content="Find qualified debt settlement attorneys in Orange County. Learn when legal representation is needed, costs, and benefits for debt relief cases." />
+        <meta name="keywords" content="debt settlement attorney Orange County, debt relief lawyer California, legal debt settlement representation, Orange County debt attorney" />
+        <meta property="og:title" content="Debt Settlement Attorney Orange County - Legal Guide" />
+        <meta property="og:description" content="Professional guide to finding and working with debt settlement attorneys in Orange County for legal debt relief representation." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-attorney-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

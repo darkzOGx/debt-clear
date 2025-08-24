@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, CreditCard, DollarSign, Target, TrendingDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Credit Card Debt Settlement with Major Banks | Orange County Guide</title>
+        <meta name="description" content="Expert strategies for settling credit card debt with major banks in Orange County. Learn negotiation tactics for Chase, Bank of America, Citi, and more." />
+        <meta name="keywords" content="credit card debt settlement Orange County, major bank debt settlement, Chase debt settlement, Bank of America settlement, Citi debt negotiation" />
+        <meta property="og:title" content="Credit Card Debt Settlement with Major Banks - Orange County" />
+        <meta property="og:description" content="Specialized guidance for Orange County residents negotiating credit card debt settlements with major banking institutions." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/credit-card-debt-settlement-major-banks-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, MessageSquare, Target, Phone, FileText } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,15 @@ export default function DebtSettlementNegotiationsOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Debt Settlement Negotiations Orange County | Expert Tactics Guide</title>
+        <meta name="description" content="Master debt settlement negotiation tactics for Orange County residents. Learn professional strategies, communication techniques, and settlement maximization." />
+        <meta name="keywords" content="debt settlement negotiations Orange County, debt negotiation tactics California, settlement negotiation strategies, creditor negotiation guide" />
+        <meta property="og:title" content="Debt Settlement Negotiations - Orange County Expert Guide" />
+        <meta property="og:description" content="Professional debt settlement negotiation strategies and tactics specifically designed for Orange County residents and creditors." />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-negotiations-orange-county" />
+      </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
