@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
     <footer className="bg-black text-white py-12">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6 text-center">
         <div className="grid lg:grid-cols-12 gap-8">
           <div className="lg:col-span-6">
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
@@ -181,7 +181,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-12 pt-8 border-t border-neutral-800">
-          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-center gap-4">
             <div className="text-xs font-mono text-neutral-500">
               © 2025 Debt Settlement Research Laboratory. All methodologies proprietary.
             </div>
