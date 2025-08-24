@@ -144,7 +144,7 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
                   <div className="bg-white border border-green-200 p-4">
                     <h4 className="font-semibold text-black mb-2">Insolvency Test:</h4>
                     <ul className="text-sm text-neutral-600 space-y-1">
-                      <li>• Total debts > Total asset value = Insolvent</li>
+                      <li>• Total debts &gt; Total asset value = Insolvent</li>
                       <li>• Exclude forgiven debt amount up to insolvency</li>
                       <li>• Must file Form 982 with tax return</li>
                       <li>• Professional valuation recommended</li>
@@ -196,7 +196,7 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
                   <ul className="space-y-3 text-neutral-700">
                     <li>• California generally follows federal tax treatment</li>
                     <li>• High state income tax rates (up to 13.3%)</li>
-                    <li>• Mental Health Services Tax (1% on income >$1M)</li>
+                    <li>• Mental Health Services Tax (1% on income &gt;$1M)</li>
                     <li>• No special Orange County exemptions</li>
                   </ul>
                 </div>

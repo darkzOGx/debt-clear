@@ -308,7 +308,7 @@ export default function CaliforniaTaxImplicationsDebtReliefOrangeCounty() {
                     <h4 className="font-semibold text-black mb-3">Safe Harbor Rules</h4>
                     <ul className="space-y-2 text-neutral-700">
                       <li>• Pay 100% of prior year tax (if AGI ≤ $150K)</li>
-                      <li>• Pay 110% of prior year tax (if AGI > $150K)</li>
+                      <li>• Pay 110% of prior year tax (if AGI &gt; $150K)</li>
                       <li>• Pay 90% of current year tax</li>
                       <li>• Annualized income installment method</li>
                     </ul>

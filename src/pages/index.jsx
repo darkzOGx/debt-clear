@@ -44,6 +44,44 @@ import IrsTaxSettlementStrategiesOrangeCounty from "./blog/IrsTaxSettlementStrat
 import ComprehensiveDebtTaxReliefGuideOrangeCounty from "./blog/ComprehensiveDebtTaxReliefGuideOrangeCounty";
 import TestBlogPost from "./blog/TestBlogPost";
 import TestRoute from "./TestRoute";
+import DebtTools from "./DebtTools";
+
+// Missing blog post imports
+import TaxFormsDebtSettlementOrangeCounty from "./blog/1099cTaxFormsDebtSettlementOrangeCounty";
+import AiDebtSettlementTechnologyOrangeCounty from "./blog/AiDebtSettlementTechnologyOrangeCounty";
+import AssetProtectionTrustsDebtSettlementOrangeCounty from "./blog/AssetProtectionTrustsDebtSettlementOrangeCounty";
+import BalanceTransferVsDebtSettlementOrangeCounty from "./blog/BalanceTransferVsDebtSettlementOrangeCounty";
+import BuildingCreditDuringDebtSettlementOrangeCounty from "./blog/BuildingCreditDuringDebtSettlementOrangeCounty";
+import CaliforniaTaxImplicationsDebtReliefOrangeCounty from "./blog/CaliforniaTaxImplicationsDebtReliefOrangeCounty";
+import CommercialDebtSettlementOrangeCounty from "./blog/CommercialDebtSettlementOrangeCounty";
+import CreditCardDebtSettlementMajorBanksOrangeCounty from "./blog/CreditCardDebtSettlementMajorBanksOrangeCounty";
+import CreditRepairAfterDebtSettlementOrangeCounty from "./blog/CreditRepairAfterDebtSettlementOrangeCounty";
+import DebtCollectorHarassmentRightsOrangeCounty from "./blog/DebtCollectorHarassmentRightsOrangeCounty";
+import DebtConsolidationLoansComparisonOrangeCounty from "./blog/DebtConsolidationLoansComparisonOrangeCounty";
+import DebtConsolidationVsDebtSettlementOrangeCounty from "./blog/DebtConsolidationVsDebtSettlementOrangeCounty";
+import DebtSettlementAttorneyOrangeCounty from "./blog/DebtSettlementAttorneyOrangeCounty";
+import DebtSettlementChecklistOrangeCounty from "./blog/DebtSettlementChecklistOrangeCounty";
+import DebtSettlementNegotiationsOrangeCounty from "./blog/DebtSettlementNegotiationsOrangeCounty";
+import DebtSettlementProcessGuideOrangeCounty2025 from "./blog/DebtSettlementProcessGuideOrangeCounty2025";
+import DebtSettlementScamsOrangeCounty from "./blog/DebtSettlementScamsOrangeCounty";
+import DebtSettlementSuccessStoriesOrangeCounty2025 from "./blog/DebtSettlementSuccessStoriesOrangeCounty2025";
+import DebtSettlementVsBankruptcyCostComparisonOrangeCounty from "./blog/DebtSettlementVsBankruptcyCostComparisonOrangeCounty";
+import EmergencyFundBuildingDebtReliefOrangeCounty from "./blog/EmergencyFundBuildingDebtReliefOrangeCounty";
+import FdcpaConsumerProtectionOrangeCounty from "./blog/FdcpaConsumerProtectionOrangeCounty";
+import FinancialPlanningAfterDebtSettlementOrangeCounty from "./blog/FinancialPlanningAfterDebtSettlementOrangeCounty";
+import HiddenCostsDebtSettlementOrangeCounty from "./blog/HiddenCostsDebtSettlementOrangeCounty";
+import HighInterestCreditCardDebtReliefOrangeCounty from "./blog/HighInterestCreditCardDebtReliefOrangeCounty";
+import HomesteadExemptionDebtSettlementOrangeCounty from "./blog/HomesteadExemptionDebtSettlementOrangeCounty";
+import HospitalDebtSettlementOrangeCounty from "./blog/HospitalDebtSettlementOrangeCounty";
+import InvestmentStrategiesDebtSettlementOrangeCounty from "./blog/InvestmentStrategiesDebtSettlementOrangeCounty";
+import LegalRightsDebtSettlementOrangeCounty from "./blog/LegalRightsDebtSettlementOrangeCounty";
+import MachineLearningDebtReliefOrangeCounty from "./blog/MachineLearningDebtReliefOrangeCounty";
+import MortgageModificationVsDebtSettlementOrangeCounty from "./blog/MortgageModificationVsDebtSettlementOrangeCounty";
+import PrivateStudentLoanSettlementOrangeCounty from "./blog/PrivateStudentLoanSettlementOrangeCounty";
+import RetirementPlanningAfterDebtReliefOrangeCounty from "./blog/RetirementPlanningAfterDebtReliefOrangeCounty";
+import SmallBusinessDebtSettlementCaseStudiesOrangeCounty from "./blog/SmallBusinessDebtSettlementCaseStudiesOrangeCounty";
+import SocialSecurityDebtSettlementOrangeCountySeniors from "./blog/SocialSecurityDebtSettlementOrangeCountySeniors";
+import TaxImplicationsDebtSettlementOrangeCounty from "./blog/TaxImplicationsDebtSettlementOrangeCounty";
 import FountainValleyDebtSettlement from "./FountainValleyDebtSettlement";
 import GardenGroveDebtSettlement from "./GardenGroveDebtSettlement";
 import FullertonDebtSettlement from "./FullertonDebtSettlement";
@@ -103,6 +141,42 @@ const PAGES = {
     DebtSettlementVsTaxReliefOrangeCounty: DebtSettlementVsTaxReliefOrangeCounty,
     IrsTaxSettlementStrategiesOrangeCounty: IrsTaxSettlementStrategiesOrangeCounty,
     ComprehensiveDebtTaxReliefGuideOrangeCounty: ComprehensiveDebtTaxReliefGuideOrangeCounty,
+    DebtTools: DebtTools,
+    TaxFormsDebtSettlementOrangeCounty: TaxFormsDebtSettlementOrangeCounty,
+    AiDebtSettlementTechnologyOrangeCounty: AiDebtSettlementTechnologyOrangeCounty,
+    AssetProtectionTrustsDebtSettlementOrangeCounty: AssetProtectionTrustsDebtSettlementOrangeCounty,
+    BalanceTransferVsDebtSettlementOrangeCounty: BalanceTransferVsDebtSettlementOrangeCounty,
+    BuildingCreditDuringDebtSettlementOrangeCounty: BuildingCreditDuringDebtSettlementOrangeCounty,
+    CaliforniaTaxImplicationsDebtReliefOrangeCounty: CaliforniaTaxImplicationsDebtReliefOrangeCounty,
+    CommercialDebtSettlementOrangeCounty: CommercialDebtSettlementOrangeCounty,
+    CreditCardDebtSettlementMajorBanksOrangeCounty: CreditCardDebtSettlementMajorBanksOrangeCounty,
+    CreditRepairAfterDebtSettlementOrangeCounty: CreditRepairAfterDebtSettlementOrangeCounty,
+    DebtCollectorHarassmentRightsOrangeCounty: DebtCollectorHarassmentRightsOrangeCounty,
+    DebtConsolidationLoansComparisonOrangeCounty: DebtConsolidationLoansComparisonOrangeCounty,
+    DebtConsolidationVsDebtSettlementOrangeCounty: DebtConsolidationVsDebtSettlementOrangeCounty,
+    DebtSettlementAttorneyOrangeCounty: DebtSettlementAttorneyOrangeCounty,
+    DebtSettlementChecklistOrangeCounty: DebtSettlementChecklistOrangeCounty,
+    DebtSettlementNegotiationsOrangeCounty: DebtSettlementNegotiationsOrangeCounty,
+    DebtSettlementProcessGuideOrangeCounty2025: DebtSettlementProcessGuideOrangeCounty2025,
+    DebtSettlementScamsOrangeCounty: DebtSettlementScamsOrangeCounty,
+    DebtSettlementSuccessStoriesOrangeCounty2025: DebtSettlementSuccessStoriesOrangeCounty2025,
+    DebtSettlementVsBankruptcyCostComparisonOrangeCounty: DebtSettlementVsBankruptcyCostComparisonOrangeCounty,
+    EmergencyFundBuildingDebtReliefOrangeCounty: EmergencyFundBuildingDebtReliefOrangeCounty,
+    FdcpaConsumerProtectionOrangeCounty: FdcpaConsumerProtectionOrangeCounty,
+    FinancialPlanningAfterDebtSettlementOrangeCounty: FinancialPlanningAfterDebtSettlementOrangeCounty,
+    HiddenCostsDebtSettlementOrangeCounty: HiddenCostsDebtSettlementOrangeCounty,
+    HighInterestCreditCardDebtReliefOrangeCounty: HighInterestCreditCardDebtReliefOrangeCounty,
+    HomesteadExemptionDebtSettlementOrangeCounty: HomesteadExemptionDebtSettlementOrangeCounty,
+    HospitalDebtSettlementOrangeCounty: HospitalDebtSettlementOrangeCounty,
+    InvestmentStrategiesDebtSettlementOrangeCounty: InvestmentStrategiesDebtSettlementOrangeCounty,
+    LegalRightsDebtSettlementOrangeCounty: LegalRightsDebtSettlementOrangeCounty,
+    MachineLearningDebtReliefOrangeCounty: MachineLearningDebtReliefOrangeCounty,
+    MortgageModificationVsDebtSettlementOrangeCounty: MortgageModificationVsDebtSettlementOrangeCounty,
+    PrivateStudentLoanSettlementOrangeCounty: PrivateStudentLoanSettlementOrangeCounty,
+    RetirementPlanningAfterDebtReliefOrangeCounty: RetirementPlanningAfterDebtReliefOrangeCounty,
+    SmallBusinessDebtSettlementCaseStudiesOrangeCounty: SmallBusinessDebtSettlementCaseStudiesOrangeCounty,
+    SocialSecurityDebtSettlementOrangeCountySeniors: SocialSecurityDebtSettlementOrangeCountySeniors,
+    TaxImplicationsDebtSettlementOrangeCounty: TaxImplicationsDebtSettlementOrangeCounty,
     FountainValleyDebtSettlement: FountainValleyDebtSettlement,
     GardenGroveDebtSettlement: GardenGroveDebtSettlement,
     FullertonDebtSettlement: FullertonDebtSettlement,
@@ -185,8 +259,47 @@ function PagesContent() {
                 <Route path="/blog/debt-settlement-vs-tax-relief-orange-county" element={<DebtSettlementVsTaxReliefOrangeCounty />} />
                 <Route path="/blog/irs-tax-settlement-strategies-orange-county" element={<IrsTaxSettlementStrategiesOrangeCounty />} />
                 <Route path="/blog/comprehensive-debt-tax-relief-guide-orange-county" element={<ComprehensiveDebtTaxReliefGuideOrangeCounty />} />
+                
+                {/* Missing blog routes */}
+                <Route path="/blog/1099c-tax-forms-debt-settlement-orange-county" element={<TaxFormsDebtSettlementOrangeCounty />} />
+                <Route path="/blog/ai-debt-settlement-technology-orange-county" element={<AiDebtSettlementTechnologyOrangeCounty />} />
+                <Route path="/blog/asset-protection-trusts-debt-settlement-orange-county" element={<AssetProtectionTrustsDebtSettlementOrangeCounty />} />
+                <Route path="/blog/balance-transfer-vs-debt-settlement-orange-county" element={<BalanceTransferVsDebtSettlementOrangeCounty />} />
+                <Route path="/blog/building-credit-during-debt-settlement-orange-county" element={<BuildingCreditDuringDebtSettlementOrangeCounty />} />
+                <Route path="/blog/california-tax-implications-debt-relief-orange-county" element={<CaliforniaTaxImplicationsDebtReliefOrangeCounty />} />
+                <Route path="/blog/commercial-debt-settlement-orange-county" element={<CommercialDebtSettlementOrangeCounty />} />
+                <Route path="/blog/credit-card-debt-settlement-major-banks-orange-county" element={<CreditCardDebtSettlementMajorBanksOrangeCounty />} />
+                <Route path="/blog/credit-repair-after-debt-settlement-orange-county" element={<CreditRepairAfterDebtSettlementOrangeCounty />} />
+                <Route path="/blog/debt-collector-harassment-rights-orange-county" element={<DebtCollectorHarassmentRightsOrangeCounty />} />
+                <Route path="/blog/debt-consolidation-loans-comparison-orange-county" element={<DebtConsolidationLoansComparisonOrangeCounty />} />
+                <Route path="/blog/debt-consolidation-vs-debt-settlement-orange-county" element={<DebtConsolidationVsDebtSettlementOrangeCounty />} />
+                <Route path="/blog/debt-settlement-attorney-orange-county" element={<DebtSettlementAttorneyOrangeCounty />} />
+                <Route path="/blog/debt-settlement-checklist-orange-county" element={<DebtSettlementChecklistOrangeCounty />} />
+                <Route path="/blog/debt-settlement-negotiations-orange-county" element={<DebtSettlementNegotiationsOrangeCounty />} />
+                <Route path="/blog/debt-settlement-process-guide-orange-county-2025" element={<DebtSettlementProcessGuideOrangeCounty2025 />} />
+                <Route path="/blog/debt-settlement-scams-orange-county" element={<DebtSettlementScamsOrangeCounty />} />
+                <Route path="/blog/debt-settlement-success-stories-orange-county-2025" element={<DebtSettlementSuccessStoriesOrangeCounty2025 />} />
+                <Route path="/blog/debt-settlement-vs-bankruptcy-cost-comparison-orange-county" element={<DebtSettlementVsBankruptcyCostComparisonOrangeCounty />} />
+                <Route path="/blog/emergency-fund-building-debt-relief-orange-county" element={<EmergencyFundBuildingDebtReliefOrangeCounty />} />
+                <Route path="/blog/fdcpa-consumer-protection-orange-county" element={<FdcpaConsumerProtectionOrangeCounty />} />
+                <Route path="/blog/financial-planning-after-debt-settlement-orange-county" element={<FinancialPlanningAfterDebtSettlementOrangeCounty />} />
+                <Route path="/blog/hidden-costs-debt-settlement-orange-county" element={<HiddenCostsDebtSettlementOrangeCounty />} />
+                <Route path="/blog/high-interest-credit-card-debt-relief-orange-county" element={<HighInterestCreditCardDebtReliefOrangeCounty />} />
+                <Route path="/blog/homestead-exemption-debt-settlement-orange-county" element={<HomesteadExemptionDebtSettlementOrangeCounty />} />
+                <Route path="/blog/hospital-debt-settlement-orange-county" element={<HospitalDebtSettlementOrangeCounty />} />
+                <Route path="/blog/investment-strategies-debt-settlement-orange-county" element={<InvestmentStrategiesDebtSettlementOrangeCounty />} />
+                <Route path="/blog/legal-rights-debt-settlement-orange-county" element={<LegalRightsDebtSettlementOrangeCounty />} />
+                <Route path="/blog/machine-learning-debt-relief-orange-county" element={<MachineLearningDebtReliefOrangeCounty />} />
+                <Route path="/blog/mortgage-modification-vs-debt-settlement-orange-county" element={<MortgageModificationVsDebtSettlementOrangeCounty />} />
+                <Route path="/blog/private-student-loan-settlement-orange-county" element={<PrivateStudentLoanSettlementOrangeCounty />} />
+                <Route path="/blog/retirement-planning-after-debt-relief-orange-county" element={<RetirementPlanningAfterDebtReliefOrangeCounty />} />
+                <Route path="/blog/small-business-debt-settlement-case-studies-orange-county" element={<SmallBusinessDebtSettlementCaseStudiesOrangeCounty />} />
+                <Route path="/blog/social-security-debt-settlement-orange-county-seniors" element={<SocialSecurityDebtSettlementOrangeCountySeniors />} />
+                <Route path="/blog/tax-implications-debt-settlement-orange-county" element={<TaxImplicationsDebtSettlementOrangeCounty />} />
+                
                 <Route path="/blog/test" element={<TestBlogPost />} />
                 <Route path="/test-route" element={<TestRoute />} />
+                <Route path="/debt-tools" element={<DebtTools />} />
                 <Route path="/blog/" element={<BlogResources />} />
                 <Route path="/blog" element={<BlogResources />} />
                 <Route path="/debt-settlement-fountain-valley" element={<FountainValleyDebtSettlement />} />

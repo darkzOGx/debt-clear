@@ -96,7 +96,7 @@ export default function HomesteadExemptionDebtSettlementOrangeCounty() {
                     <li>• <strong>Family of 2+:</strong> $700,000 homestead exemption</li>
                     <li>• <strong>Senior 65+:</strong> $700,000 homestead exemption</li>
                     <li>• <strong>Disabled Person:</strong> $700,000 homestead exemption</li>
-                    <li>• <strong>55+ with Income <$35K:</strong> $700,000 exemption</li>
+                    <li>• <strong>55+ with Income &lt;$35K:</strong> $700,000 exemption</li>
                   </ul>
                 </div>
                 
