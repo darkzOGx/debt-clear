@@ -3,7 +3,10 @@ import ScrollToTop from "../components/ScrollToTop.jsx";
 
 import Home from "./Home";
 import AnaheimDebtSettlement from "./AnaheimDebtSettlement";
+import BreaDebtSettlement from "./BreaDebtSettlement";
+import CypressDebtSettlement from "./CypressDebtSettlement";
 import IrvineDebtSettlement from "./IrvineDebtSettlement";
+import LaHabraDebtSettlement from "./LaHabraDebtSettlement";
 import SantaAnaDebtSettlement from "./SantaAnaDebtSettlement";
 import HuntingtonBeachDebtSettlement from "./HuntingtonBeachDebtSettlement";
 import NewportBeachDebtSettlement from "./NewportBeachDebtSettlement";
@@ -124,7 +127,10 @@ const PAGES = {
     
     Home: Home,
     AnaheimDebtSettlement: AnaheimDebtSettlement,
+    BreaDebtSettlement: BreaDebtSettlement,
+    CypressDebtSettlement: CypressDebtSettlement,
     IrvineDebtSettlement: IrvineDebtSettlement,
+    LaHabraDebtSettlement: LaHabraDebtSettlement,
     SantaAnaDebtSettlement: SantaAnaDebtSettlement,
     HuntingtonBeachDebtSettlement: HuntingtonBeachDebtSettlement,
     NewportBeachDebtSettlement: NewportBeachDebtSettlement,
@@ -256,7 +262,10 @@ function PagesContent() {
                 
                 <Route path="/Home" element={<Home />} />
                 <Route path="/debt-settlement-anaheim" element={<AnaheimDebtSettlement />} />
+                <Route path="/debt-settlement-brea" element={<BreaDebtSettlement />} />
+                <Route path="/debt-settlement-cypress" element={<CypressDebtSettlement />} />
                 <Route path="/debt-settlement-irvine" element={<IrvineDebtSettlement />} />
+                <Route path="/debt-settlement-la-habra" element={<LaHabraDebtSettlement />} />
                 <Route path="/debt-settlement-santa-ana" element={<SantaAnaDebtSettlement />} />
                 <Route path="/debt-settlement-huntington-beach" element={<HuntingtonBeachDebtSettlement />} />
                 <Route path="/debt-settlement-newport-beach" element={<NewportBeachDebtSettlement />} />

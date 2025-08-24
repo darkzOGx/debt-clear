@@ -61,7 +61,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
         </script>
       </Helmet>
       
-      <div className="min-h-screen bg-white">
+      <div className="min-h-screen bg-black">
       {/* Hero Section */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
@@ -99,14 +99,14 @@ export default function OrangeCountyDebtCrisisObservatory() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <Button 
                 onClick={scrollToConsultation}
-                className="bg-white hover:bg-neutral-100 text-black px-8 py-6 text-base font-mono uppercase tracking-wide"
+                className="bg-white hover:bg-neutral-100 text-white px-8 py-6 text-base font-mono uppercase tracking-wide"
               >
                 Get Crisis Assessment
                 <ArrowRight className="w-4 h-4 ml-3" />
               </Button>
               <Link 
                 to="/national-debt-settlement-transparency-database"
-                className="border border-white text-white px-8 py-6 hover:bg-white hover:text-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
+                className="border border-white text-white px-8 py-6 hover:bg-white hover:text-white transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
               >
                 National Database
                 <ArrowRight className="w-4 h-4" />
@@ -122,7 +122,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
           <div className="text-center mb-12">
             <div className="flex items-center justify-center gap-3 mb-4">
               <AlertTriangle className="w-8 h-8 text-red-600" />
-              <h2 className="text-3xl font-light text-black">Crisis Alert Status</h2>
+              <h2 className="text-3xl font-light text-white">Crisis Alert Status</h2>
             </div>
             <p className="text-neutral-700 max-w-2xl mx-auto">
               Current debt crisis indicators for Orange County (Updated: August 2025)
@@ -174,10 +174,10 @@ export default function OrangeCountyDebtCrisisObservatory() {
       </section>
 
       {/* Statistical Analysis Section */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-black">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-light text-black mb-4">
+            <h2 className="text-4xl font-light text-white mb-4">
               Comprehensive <span className="font-mono">Debt Analysis</span>
             </h2>
             <p className="text-neutral-600 max-w-2xl mx-auto">
@@ -188,39 +188,39 @@ export default function OrangeCountyDebtCrisisObservatory() {
           <div className="grid lg:grid-cols-2 gap-16">
             {/* Regional Debt Statistics */}
             <div>
-              <h3 className="text-2xl font-light text-black mb-8">
+              <h3 className="text-2xl font-light text-white mb-8">
                 Regional <span className="font-mono">Debt Statistics</span>
               </h3>
               
               <div className="space-y-6">
                 <div className="bg-neutral-50 p-6 border border-neutral-200">
-                  <h4 className="font-semibold text-black mb-4">Average Household Debt by City</h4>
+                  <h4 className="font-semibold text-white mb-4">Average Household Debt by City</h4>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="text-sm font-mono text-neutral-700">Newport Beach</span>
-                      <span className="text-sm font-mono text-black">$127,400</span>
+                      <span className="text-sm font-mono text-white">$127,400</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-sm font-mono text-neutral-700">Irvine</span>
-                      <span className="text-sm font-mono text-black">$89,200</span>
+                      <span className="text-sm font-mono text-white">$89,200</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-sm font-mono text-neutral-700">Huntington Beach</span>
-                      <span className="text-sm font-mono text-black">$74,800</span>
+                      <span className="text-sm font-mono text-white">$74,800</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-sm font-mono text-neutral-700">Anaheim</span>
-                      <span className="text-sm font-mono text-black">$62,300</span>
+                      <span className="text-sm font-mono text-white">$62,300</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-sm font-mono text-neutral-700">Santa Ana</span>
-                      <span className="text-sm font-mono text-black">$51,700</span>
+                      <span className="text-sm font-mono text-white">$51,700</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-neutral-50 p-6 border border-neutral-200">
-                  <h4 className="font-semibold text-black mb-4">Debt-to-Income Ratios</h4>
+                  <h4 className="font-semibold text-white mb-4">Debt-to-Income Ratios</h4>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="text-sm font-mono text-neutral-700">Credit Cards</span>
@@ -245,13 +245,13 @@ export default function OrangeCountyDebtCrisisObservatory() {
 
             {/* Economic Indicators */}
             <div>
-              <h3 className="text-2xl font-light text-black mb-8">
+              <h3 className="text-2xl font-light text-white mb-8">
                 Economic <span className="font-mono">Indicators</span>
               </h3>
               
               <div className="space-y-6">
                 <div className="bg-neutral-50 p-6 border border-neutral-200">
-                  <h4 className="font-semibold text-black mb-4">Housing Market Impact</h4>
+                  <h4 className="font-semibold text-white mb-4">Housing Market Impact</h4>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="text-sm font-mono text-neutral-700">Median Home Price</span>
@@ -273,7 +273,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
                 </div>
 
                 <div className="bg-neutral-50 p-6 border border-neutral-200">
-                  <h4 className="font-semibold text-black mb-4">Employment & Income</h4>
+                  <h4 className="font-semibold text-white mb-4">Employment & Income</h4>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="text-sm font-mono text-neutral-700">Unemployment Rate</span>
@@ -281,7 +281,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-sm font-mono text-neutral-700">Median Household Income</span>
-                      <span className="text-sm font-mono text-black">$84,200</span>
+                      <span className="text-sm font-mono text-white">$84,200</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-sm font-mono text-neutral-700">Income Growth (YoY)</span>
@@ -300,9 +300,9 @@ export default function OrangeCountyDebtCrisisObservatory() {
       </section>
 
       {/* Crisis Trends Analysis */}
-      <section className="py-24 bg-neutral-50">
+      <section className="py-24 bg-neutral-900">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <h2 className="text-4xl font-light text-black mb-12 text-center">
+          <h2 className="text-4xl font-light text-white mb-12 text-center">
             Debt Crisis <span className="font-mono">Trend Analysis</span>
           </h2>
 
@@ -311,7 +311,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
               <div className="w-16 h-16 bg-red-100 text-red-600 flex items-center justify-center text-2xl font-mono mx-auto mb-4 rounded">
                 ↑
               </div>
-              <h3 className="font-semibold text-black mb-4">Rising Trend</h3>
+              <h3 className="font-semibold text-white mb-4">Rising Trend</h3>
               <ul className="text-sm text-neutral-600 space-y-2 text-left">
                 <li>• Credit card delinquencies: +18%</li>
                 <li>• Medical debt collections: +27%</li>
@@ -324,7 +324,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
               <div className="w-16 h-16 bg-yellow-100 text-yellow-600 flex items-center justify-center text-2xl font-mono mx-auto mb-4 rounded">
                 →
               </div>
-              <h3 className="font-semibold text-black mb-4">Stable Trend</h3>
+              <h3 className="font-semibold text-white mb-4">Stable Trend</h3>
               <ul className="text-sm text-neutral-600 space-y-2 text-left">
                 <li>• Auto loan delinquencies: -2%</li>
                 <li>• Mortgage defaults: +3%</li>
@@ -337,7 +337,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
               <div className="w-16 h-16 bg-green-100 text-green-600 flex items-center justify-center text-2xl font-mono mx-auto mb-4 rounded">
                 ↓
               </div>
-              <h3 className="font-semibold text-black mb-4">Improving Trend</h3>
+              <h3 className="font-semibold text-white mb-4">Improving Trend</h3>
               <ul className="text-sm text-neutral-600 space-y-2 text-left">
                 <li>• Debt settlement success: +22%</li>
                 <li>• Credit counseling enrollment: +15%</li>
@@ -349,13 +349,13 @@ export default function OrangeCountyDebtCrisisObservatory() {
 
           {/* External Research Links */}
           <div className="bg-white p-8 border border-neutral-200">
-            <h3 className="text-2xl font-light text-black mb-6">
+            <h3 className="text-2xl font-light text-white mb-6">
               Research <span className="font-mono">Sources & Studies</span>
             </h3>
             
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h4 className="font-semibold text-black mb-3">Government Data Sources</h4>
+                <h4 className="font-semibold text-white mb-3">Government Data Sources</h4>
                 <ul className="text-sm text-neutral-600 space-y-2">
                   <li>• <a href="https://www.census.gov/programs-surveys/acs/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">U.S. Census Bureau - American Community Survey</a></li>
                   <li>• <a href="https://www.bls.gov/regions/west/california.htm" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Bureau of Labor Statistics - California Data</a></li>
@@ -365,7 +365,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
               </div>
               
               <div>
-                <h4 className="font-semibold text-black mb-3">Financial Research</h4>
+                <h4 className="font-semibold text-white mb-3">Financial Research</h4>
                 <ul className="text-sm text-neutral-600 space-y-2">
                   <li>• <a href="https://www.federalreserve.gov/publications/files/scf20.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Federal Reserve - Survey of Consumer Finances</a></li>
                   <li>• <a href="https://www.newyorkfed.org/microeconomics/hhdc" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">NY Fed - Household Debt and Credit Report</a></li>
@@ -379,9 +379,9 @@ export default function OrangeCountyDebtCrisisObservatory() {
       </section>
 
       {/* Related Resources */}
-      <section className="py-16 bg-white border-y border-neutral-200">
+      <section className="py-16 bg-black border-y border-neutral-200">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <h2 className="text-2xl font-light text-black mb-8 text-center">
+          <h2 className="text-2xl font-light text-white mb-8 text-center">
             Related <span className="font-mono">Research & Tools</span>
           </h2>
           
@@ -390,8 +390,8 @@ export default function OrangeCountyDebtCrisisObservatory() {
               to="/ai-vs-human-debt-settlement-study"
               className="bg-neutral-50 p-6 border border-neutral-200 hover:border-black transition-colors"
             >
-              <BarChart3 className="w-8 h-8 text-black mb-4" />
-              <h3 className="font-semibold text-black mb-2">AI vs Human Settlement Study</h3>
+              <BarChart3 className="w-8 h-8 text-white mb-4" />
+              <h3 className="font-semibold text-white mb-2">AI vs Human Settlement Study</h3>
               <p className="text-sm text-neutral-600">Comparative analysis of debt settlement methodologies and success rates</p>
             </Link>
             
@@ -399,8 +399,8 @@ export default function OrangeCountyDebtCrisisObservatory() {
               to="/national-debt-settlement-transparency-database"
               className="bg-neutral-50 p-6 border border-neutral-200 hover:border-black transition-colors"
             >
-              <DollarSign className="w-8 h-8 text-black mb-4" />
-              <h3 className="font-semibold text-black mb-2">Transparency Database</h3>
+              <DollarSign className="w-8 h-8 text-white mb-4" />
+              <h3 className="font-semibold text-white mb-2">Transparency Database</h3>
               <p className="text-sm text-neutral-600">National debt settlement performance metrics and industry standards</p>
             </Link>
             
@@ -408,8 +408,8 @@ export default function OrangeCountyDebtCrisisObservatory() {
               to="/medical-debt-relief-hub"
               className="bg-neutral-50 p-6 border border-neutral-200 hover:border-black transition-colors"
             >
-              <Users className="w-8 h-8 text-black mb-4" />
-              <h3 className="font-semibold text-black mb-2">Medical Debt Relief Hub</h3>
+              <Users className="w-8 h-8 text-white mb-4" />
+              <h3 className="font-semibold text-white mb-2">Medical Debt Relief Hub</h3>
               <p className="text-sm text-neutral-600">Specialized resources for medical debt crisis and relief solutions</p>
             </Link>
           </div>
@@ -430,7 +430,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <Button 
               onClick={scrollToConsultation}
-              className="bg-white text-black hover:bg-neutral-100 px-8 py-6 text-base font-mono uppercase tracking-wide"
+              className="bg-white text-white hover:bg-neutral-100 px-8 py-6 text-base font-mono uppercase tracking-wide"
             >
               Free Crisis Assessment
               <ArrowRight className="w-4 h-4 ml-3" />
@@ -440,7 +440,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
       </section>
 
       {/* Consultation Form */}
-      <section id="consultation" className="py-16 bg-white border-t border-neutral-200">
+      <section id="consultation" className="py-16 bg-black border-t border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div ref={consultationRef}>
             <ConsultationForm sectionId="crisis-observatory-consultation" />

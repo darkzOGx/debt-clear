@@ -77,6 +77,14 @@ const countyData = {
         { name: "OC United Way", url: "https://www.unitedwayoc.org", description: "Financial stability programs" },
         { name: "Small Business Development", url: "https://www.ocsbdc.org", description: "Business debt counseling" }
       ]
+    },
+    {
+      category: "Research & Studies",
+      items: [
+        { name: "AI vs. Human Study", url: "/ai-vs-human-debt-settlement-study", description: "Comparative analysis of AI vs traditional debt settlement outcomes" },
+        { name: "OC Debt Crisis Observatory", url: "/orange-county-debt-crisis-observatory", description: "Real-time Orange County debt and economic monitoring" },
+        { name: "Medical Hub Debt Relief", url: "/medical-debt-relief-hub", description: "Comprehensive medical debt relief resources and strategies" }
+      ]
     }
   ]
 };

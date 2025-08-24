@@ -207,19 +207,7 @@ export default function Home() {
             </div>
             
             <div className="lg:col-span-6">
-              <div className="grid grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4">
-                    Contact Information
-                  </h3>
-                  <div className="space-y-2 text-sm text-neutral-400">
-                    <div className="font-semibold text-white">Call: (502) 232-8511</div>
-                    <div>400 Spectrum Center Drive</div>
-                    <div>Suite 1000</div>
-                    <div>Irvine, CA 92618</div>
-                  </div>
-                </div>
-                
+              <div className="grid grid-cols-1 gap-8">
                 <div>
                   <h3 className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4">
                     Orange County Results

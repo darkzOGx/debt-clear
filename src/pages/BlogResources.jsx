@@ -550,30 +550,29 @@ export default function BlogResources() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8 text-center">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <Link 
             to="/"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Home
           </Link>
 
           <div className="flex items-center justify-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+            <div className="w-2 h-2 bg-white"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-white font-mono">
               DEBT SETTLEMENT INSIGHTS
             </span>
           </div>
 
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Orange County
-            <br />
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+            Orange County:<br />
             <span className="font-mono text-3xl lg:text-4xl">Debt Relief Resources</span>
           </h1>
 
-          <p className="text-xl text-neutral-700 leading-relaxed font-light max-w-3xl mx-auto">
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10 max-w-3xl mx-auto">
             Comprehensive guides, case studies, and expert insights on debt settlement, consumer protection, 
             and financial recovery specifically for Orange County residents.
           </p>
