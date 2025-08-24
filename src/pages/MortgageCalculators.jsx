@@ -113,17 +113,17 @@ export default function MortgageCalculators() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800">
+        <section className="py-16 bg-gradient-to-r from-black to-neutral-900">
           <div className="max-w-4xl mx-auto px-6 text-center">
             <h2 className="text-3xl lg:text-4xl font-light text-white mb-6">
               Ready to Buy Your Dream Home?
             </h2>
-            <p className="text-xl text-blue-100 mb-8 font-light">
+            <p className="text-xl text-neutral-300 mb-8 font-light">
               Get expert mortgage advice and personalized financing strategies from our Orange County real estate specialists
             </p>
             <button
               onClick={() => document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-white text-blue-700 px-8 py-4 text-lg font-semibold hover:bg-blue-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
+              className="bg-white text-black px-8 py-4 text-lg font-semibold hover:bg-neutral-100 transition-colors duration-300 shadow-lg hover:shadow-xl"
             >
               Get Mortgage Consultation
             </button>

@@ -113,17 +113,17 @@ export default function CreditCalculators() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 bg-gradient-to-r from-red-600 via-red-700 to-red-800">
+        <section className="py-16 bg-gradient-to-r from-black to-neutral-900">
           <div className="max-w-4xl mx-auto px-6 text-center">
             <h2 className="text-3xl lg:text-4xl font-light text-white mb-6">
               Struggling with Credit Card Debt?
             </h2>
-            <p className="text-xl text-red-100 mb-8 font-light">
+            <p className="text-xl text-neutral-300 mb-8 font-light">
               Get expert debt relief assistance and reduce your debt by up to 50% with our Orange County specialists
             </p>
             <button
               onClick={() => document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-white text-red-700 px-8 py-4 text-lg font-semibold hover:bg-red-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
+              className="bg-white text-black px-8 py-4 text-lg font-semibold hover:bg-neutral-100 transition-colors duration-300 shadow-lg hover:shadow-xl"
             >
               Get Debt Relief Help
             </button>
