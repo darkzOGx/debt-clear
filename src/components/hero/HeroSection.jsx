@@ -52,9 +52,7 @@ export default function HeroSection({ onScrollToCalculator, onScrollToConsultati
                 <ArrowRight className="w-4 h-4 ml-3" />
               </Button>
               
-              <div className="text-xs font-mono text-neutral-500 tracking-wide">
-                NO UPFRONT COSTS
-              </div>
+              <span className="inline-block bg-green-100 text-green-800 text-xs font-medium px-2 py-1 rounded mb-4">NO UPFRONT COSTS</span>
             </div>
           </motion.div>
 

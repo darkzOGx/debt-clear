@@ -47,9 +47,7 @@ export default function HeroSectionAnimated({ onScrollToCalculator, onScrollToCo
                 <ArrowRight className="w-4 h-4 ml-3" />
               </Button>
               
-              <div className="text-xs font-mono text-neutral-500 tracking-wide hover-opacity cursor-pointer">
-                NO UPFRONT COSTS
-              </div>
+              <span className="inline-block bg-green-100 text-green-800 text-xs font-medium px-2 py-1 rounded mb-4">NO UPFRONT COSTS</span>
             </div>
           </motion.div>
 
