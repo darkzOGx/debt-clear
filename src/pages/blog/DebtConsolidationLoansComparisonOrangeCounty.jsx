@@ -1,6 +1,7 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Calendar, Clock, User, TrendingDown, BarChart3, DollarSign, CheckCircle } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, TrendingDown, BarChart3, DollarSign, CheckCircle, Building, Users, Zap, CreditCard } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -12,33 +13,104 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
     }
   };
 
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Orange County Debt Consolidation Loans: Banks vs Credit Unions vs Online Lenders",
+    "description": "Comprehensive comparison of debt consolidation loan options for Orange County residents, including rates, terms, and recommendations for banks, credit unions, and online lenders.",
+    "author": {
+      "@type": "Organization",
+      "name": "Lending Specialist"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "VegaX Debt Relief",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://vegax.ai/logo.png"
+      }
+    },
+    "datePublished": "2025-06-15",
+    "dateModified": "2025-08-24",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://vegax.ai/blog/debt-consolidation-loans-comparison-orange-county"
+    },
+    "articleSection": "Debt Consolidation",
+    "keywords": ["debt consolidation loans", "Orange County banks", "credit unions", "online lenders", "personal loans"],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Debt Consolidation Loans",
+        "description": "Personal loans used to combine multiple debts into one payment"
+      },
+      {
+        "@type": "Place",
+        "name": "Orange County",
+        "description": "County in California with various lending institutions"
+      }
+    ]
+  };
+
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+      <Helmet>
+        <title>Orange County Debt Consolidation Loans: Banks vs Credit Unions vs Online | VegaX</title>
+        <meta name="description" content="Comprehensive comparison of debt consolidation loan options for Orange County residents, including rates, terms, and recommendations for banks, credit unions, and online lenders." />
+        <meta name="keywords" content="debt consolidation loans, Orange County banks, credit unions, online lenders, personal loans" />
+        <meta name="author" content="Lending Specialist" />
+        
+        {/* Open Graph tags */}
+        <meta property="og:title" content="Orange County Debt Consolidation Loans: Banks vs Credit Unions vs Online Lenders" />
+        <meta property="og:description" content="Comprehensive comparison of debt consolidation loan options for Orange County residents, including rates, terms, and recommendations for banks, credit unions, and online lenders." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://vegax.ai/blog/debt-consolidation-loans-comparison-orange-county" />
+        
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Orange County Debt Consolidation Loans: Banks vs Credit Unions vs Online Lenders" />
+        <meta name="twitter:description" content="Comprehensive comparison of debt consolidation loan options for Orange County residents, including rates, terms, and recommendations for banks, credit unions, and online lenders." />
+        
+        {/* JSON-LD structured data */}
+        <script type="application/ld+json">
+          {JSON.stringify(jsonLdSchema)}
+        </script>
+      </Helmet>
+
+      {/* Hero Section */}
+      <section className="relative py-20 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-green-50 via-blue-50 to-purple-50"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-green-600/10 to-blue-600/10"></div>
+        
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-green-600 hover:text-green-700 transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+            <TrendingDown className="w-6 h-6 text-green-600" />
+            <span className="text-sm uppercase tracking-wider text-green-600 font-semibold">
               DEBT CONSOLIDATION
             </span>
           </div>
 
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+          <motion.h1 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight"
+          >
             Orange County Debt Consolidation Loans:
-            <br />
-            <span className="font-mono text-3xl lg:text-4xl">Banks vs Credit Unions vs Online Lenders</span>
-          </h1>
+            <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent block">
+              Banks vs Credit Unions vs Online Lenders
+            </span>
+          </motion.h1>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex flex-wrap items-center gap-6 text-sm text-gray-600 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>June 15, 2025</span>
@@ -52,544 +124,384 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
               <span>Lending Specialist</span>
             </div>
           </div>
+
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="text-xl text-gray-700 leading-relaxed max-w-3xl"
+          >
+            Compare debt consolidation loan options from traditional banks, local credit unions, and online lenders. 
+            Find the best rates, terms, and approval requirements for Orange County residents.
+          </motion.p>
         </div>
       </section>
 
-      {/* Article Content */}
+      {/* Statistics Cards */}
       <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none">
-            
-            {/* Introduction */}
-            <div className="text-xl text-neutral-700 leading-relaxed mb-12">
-              Orange County residents seeking debt consolidation loans have three primary options: traditional banks, local credit unions, and online lenders. Each offers distinct advantages, rates, and terms that can dramatically impact your consolidation success and long-term financial health.
-            </div>
-
-            {/* Loan Type Comparison Overview */}
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
-              className="bg-blue-50 border border-blue-200 p-8 mb-12"
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 border border-blue-200 shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
-                <BarChart3 className="w-6 h-6" />
-                Orange County Debt Consolidation Loan Comparison
-              </h2>
-              
-              <div className="overflow-x-auto">
-                <table className="w-full border-collapse border border-neutral-300">
-                  <thead>
-                    <tr className="bg-neutral-100">
-                      <th className="border border-neutral-300 p-4 text-left">Lender Type</th>
-                      <th className="border border-neutral-300 p-4 text-left">APR Range</th>
-                      <th className="border border-neutral-300 p-4 text-left">Loan Amounts</th>
-                      <th className="border border-neutral-300 p-4 text-left">Approval Speed</th>
-                      <th className="border border-neutral-300 p-4 text-left">Best For</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td className="border border-neutral-300 p-4 font-semibold">Traditional Banks</td>
-                      <td className="border border-neutral-300 p-4">8.99-19.99%</td>
-                      <td className="border border-neutral-300 p-4">$5K-$100K</td>
-                      <td className="border border-neutral-300 p-4">3-7 days</td>
-                      <td className="border border-neutral-300 p-4">Existing customers, high credit scores</td>
-                    </tr>
-                    <tr className="bg-neutral-50">
-                      <td className="border border-neutral-300 p-4 font-semibold">Credit Unions</td>
-                      <td className="border border-neutral-300 p-4">7.24-16.99%</td>
-                      <td className="border border-neutral-300 p-4">$1K-$50K</td>
-                      <td className="border border-neutral-300 p-4">2-5 days</td>
-                      <td className="border border-neutral-300 p-4">Members, personal service</td>
-                    </tr>
-                    <tr>
-                      <td className="border border-neutral-300 p-4 font-semibold">Online Lenders</td>
-                      <td className="border border-neutral-300 p-4">6.40-35.99%</td>
-                      <td className="border border-neutral-300 p-4">$1K-$100K</td>
-                      <td className="border border-neutral-300 p-4">Same day-3 days</td>
-                      <td className="border border-neutral-300 p-4">Speed, varied credit profiles</td>
-                    </tr>
-                  </tbody>
-                </table>
+              <div className="flex items-center justify-between mb-4">
+                <Building className="w-8 h-8 text-blue-600" />
+                <span className="text-2xl font-bold text-blue-700">7.49%</span>
               </div>
-
-              <div className="mt-6 p-4 bg-white border border-blue-200">
-                <h4 className="font-semibold text-black mb-2">Orange County Market Context</h4>
-                <p className="text-sm text-neutral-700">
-                  Orange County's competitive lending market offers residents numerous options. The high cost of living and significant military population create unique opportunities with both local institutions and specialized online lenders.
-                </p>
-              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Bank APR Low</h3>
+              <p className="text-sm text-gray-600">Starting rates at major Orange County banks</p>
             </motion.div>
 
-            {/* Traditional Banks Analysis */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="mb-12"
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-6 border border-green-200 shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
-                <DollarSign className="w-6 h-6" />
-                Traditional Banks in Orange County
-              </h2>
-              
-              <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
-                  <h3 className="text-lg font-semibold text-black mb-3">Major Bank Options</h3>
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div>
-                      <h4 className="font-semibold text-black mb-2">Wells Fargo</h4>
-                      <ul className="text-sm text-neutral-700 space-y-1">
-                        <li>• APR: 7.49-23.24%</li>
-                        <li>• Loan amounts: $3K-$100K</li>
-                        <li>• Relationship discounts available</li>
-                        <li>• Strong Orange County presence</li>
-                        <li>• Same-day funding for existing customers</li>
-                      </ul>
-                    </div>
-                    
-                    <div>
-                      <h4 className="font-semibold text-black mb-2">Bank of America</h4>
-                      <ul className="text-sm text-neutral-700 space-y-1">
-                        <li>• APR: 8.99-19.99%</li>
-                        <li>• Loan amounts: $3K-$100K</li>
-                        <li>• Preferred Rewards discounts</li>
-                        <li>• Multiple OC branch locations</li>
-                        <li>• 3-5 day approval process</li>
-                      </ul>
-                    </div>
-                  </div>
-                  
-                  <div className="mt-4 grid md:grid-cols-2 gap-6">
-                    <div>
-                      <h4 className="font-semibold text-black mb-2">Chase Bank</h4>
-                      <ul className="text-sm text-neutral-700 space-y-1">
-                        <li>• APR: 8.48-24.99%</li>
-                        <li>• Loan amounts: $5K-$50K</li>
-                        <li>• Private client discounts</li>
-                        <li>• Significant Orange County market</li>
-                        <li>• MyChase loan prequalification</li>
-                      </ul>
-                    </div>
-                    
-                    <div>
-                      <h4 className="font-semibold text-black mb-2">US Bank</h4>
-                      <ul className="text-sm text-neutral-700 space-y-1">
-                        <li>• APR: 8.98-19.99%</li>
-                        <li>• Loan amounts: $1K-$50K</li>
-                        <li>• Gold/Platinum package discounts</li>
-                        <li>• Competitive rates for good credit</li>
-                        <li>• Fast online applications</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-yellow-50 border border-yellow-200 p-6">
-                  <h3 className="text-lg font-semibold text-black mb-3">Traditional Bank Advantages</h3>
-                  <ul className="space-y-2 text-neutral-700">
-                    <li>• <strong>Relationship Banking:</strong> Existing customers often receive rate discounts and faster approvals</li>
-                    <li>• <strong>In-Person Service:</strong> Orange County branches provide face-to-face consultation</li>
-                    <li>• <strong>Established Reputation:</strong> FDIC insured, regulated institutions with long track records</li>
-                    <li>• <strong>Comprehensive Services:</strong> Integration with checking, savings, and investment accounts</li>
-                    <li>• <strong>Large Loan Amounts:</strong> Can handle significant consolidations up to $100K</li>
-                  </ul>
-                </div>
-
-                <div className="bg-red-50 border border-red-200 p-6">
-                  <h3 className="text-lg font-semibold text-black mb-3">Traditional Bank Disadvantages</h3>
-                  <ul className="space-y-2 text-neutral-700">
-                    <li>• <strong>Strict Credit Requirements:</strong> Typically require 660+ credit scores for best rates</li>
-                    <li>• <strong>Longer Approval Times:</strong> 3-7 days vs same-day online options</li>
-                    <li>• <strong>Limited Flexibility:</strong> Rigid underwriting criteria, less accommodation for unique situations</li>
-                    <li>• <strong>Higher Overhead Costs:</strong> Branch network costs may result in higher rates</li>
-                    <li>• <strong>Relationship Requirements:</strong> Best rates often require multiple account relationships</li>
-                  </ul>
-                </div>
+              <div className="flex items-center justify-between mb-4">
+                <Users className="w-8 h-8 text-green-600" />
+                <span className="text-2xl font-bold text-green-700">7.24%</span>
               </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Credit Union Low</h3>
+              <p className="text-sm text-gray-600">Best rates from Orange County credit unions</p>
             </motion.div>
 
-            {/* Credit Union Analysis */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.4 }}
-              className="mb-12"
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-6 border border-purple-200 shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              <h2 className="text-2xl font-semibold text-black mb-6">Orange County Credit Union Options</h2>
-              
-              <div className="space-y-6">
-                <div className="bg-blue-50 border border-blue-200 p-6">
-                  <h3 className="text-lg font-semibold text-black mb-3">Top Orange County Credit Unions</h3>
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div>
-                      <h4 className="font-semibold text-black mb-2">Orange County's Credit Union</h4>
-                      <ul className="text-sm text-neutral-700 space-y-1">
-                        <li>• APR: 7.99-15.99%</li>
-                        <li>• Loan amounts: $1K-$50K</li>
-                        <li>• Local Orange County focus</li>
-                        <li>• Personal service approach</li>
-                        <li>• Membership: Live, work, or worship in OC</li>
-                      </ul>
-                    </div>
-                    
-                    <div>
-                      <h4 className="font-semibold text-black mb-2">SchoolsFirst Federal Credit Union</h4>
-                      <ul className="text-sm text-neutral-700 space-y-1">
-                        <li>• APR: 7.24-15.99%</li>
-                        <li>• Loan amounts: $500-$50K</li>
-                        <li>• Education professionals focused</li>
-                        <li>• Excellent rates and terms</li>
-                        <li>• Strong Orange County presence</li>
-                      </ul>
-                    </div>
-                  </div>
-                  
-                  <div className="mt-4 grid md:grid-cols-2 gap-6">
-                    <div>
-                      <h4 className="font-semibold text-black mb-2">Navy Federal Credit Union</h4>
-                      <ul className="text-sm text-neutral-700 space-y-1">
-                        <li>• APR: 7.49-18.00%</li>
-                        <li>• Loan amounts: $250-$50K</li>
-                        <li>• Military families and veterans</li>
-                        <li>• Excellent member service</li>
-                        <li>• Strong military community in OC</li>
-                      </ul>
-                    </div>
-                    
-                    <div>
-                      <h4 className="font-semibold text-black mb-2">Kinecta Federal Credit Union</h4>
-                      <ul className="text-sm text-neutral-700 space-y-1">
-                        <li>• APR: 9.49-17.99%</li>
-                        <li>• Loan amounts: $1K-$40K</li>
-                        <li>• Community-focused lending</li>
-                        <li>• Flexible qualification requirements</li>
-                        <li>• Multiple Southern California locations</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-green-50 border border-green-200 p-6">
-                  <h3 className="text-lg font-semibold text-black mb-3">Credit Union Advantages</h3>
-                  <ul className="space-y-2 text-neutral-700">
-                    <li>• <strong>Lower Interest Rates:</strong> Generally 1-3% lower than banks due to non-profit structure</li>
-                    <li>• <strong>Member-Focused Service:</strong> Personal attention and flexible underwriting</li>
-                    <li>• <strong>Community Connection:</strong> Local decision-making and Orange County community focus</li>
-                    <li>• <strong>Fewer Fees:</strong> Lower origination fees and penalty charges</li>
-                    <li>• <strong>Relationship Building:</strong> Long-term member relationships and loyalty programs</li>
-                  </ul>
-                </div>
-
-                <div className="bg-orange-50 border border-orange-200 p-6">
-                  <h3 className="text-lg font-semibold text-black mb-3">Credit Union Considerations</h3>
-                  <ul className="space-y-2 text-neutral-700">
-                    <li>• <strong>Membership Requirements:</strong> Must qualify for membership through employment, residence, or association</li>
-                    <li>• <strong>Smaller Loan Limits:</strong> Maximum loans typically $40K-50K vs $100K at banks</li>
-                    <li>• <strong>Limited Technology:</strong> May have less sophisticated online platforms</li>
-                    <li>• <strong>Geographic Restrictions:</strong> Some services limited to local area</li>
-                    <li>• <strong>Smaller Branch Networks:</strong> Fewer physical locations than major banks</li>
-                  </ul>
-                </div>
+              <div className="flex items-center justify-between mb-4">
+                <Zap className="w-8 h-8 text-purple-600" />
+                <span className="text-2xl font-bold text-purple-700">6.40%</span>
               </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Online Low</h3>
+              <p className="text-sm text-gray-600">Lowest online lender rates for excellent credit</p>
             </motion.div>
 
-            {/* Online Lender Analysis */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.6 }}
-              className="mb-12"
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-6 border border-orange-200 shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              <h2 className="text-2xl font-semibold text-black mb-6">Online Lenders for Orange County Residents</h2>
-              
-              <div className="space-y-6">
-                <div className="bg-purple-50 border border-purple-200 p-6">
-                  <h3 className="text-lg font-semibold text-black mb-3">Top Online Lender Options</h3>
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div>
-                      <h4 className="font-semibold text-black mb-2">SoFi Personal Loans</h4>
-                      <ul className="text-sm text-neutral-700 space-y-1">
-                        <li>• APR: 8.99-25.81%</li>
-                        <li>• Loan amounts: $5K-$100K</li>
-                        <li>• No fees (origination, prepayment)</li>
-                        <li>• Rate discount for autopay</li>
-                        <li>• Career coaching benefits</li>
-                      </ul>
-                    </div>
-                    
-                    <div>
-                      <h4 className="font-semibold text-black mb-2">Marcus by Goldman Sachs</h4>
-                      <ul className="text-sm text-neutral-700 space-y-1">
-                        <li>• APR: 7.99-19.99%</li>
-                        <li>• Loan amounts: $3.5K-$40K</li>
-                        <li>• No fees whatsoever</li>
-                        <li>• Fixed rates and payments</li>
-                        <li>• Strong customer satisfaction</li>
-                      </ul>
-                    </div>
-                  </div>
-                  
-                  <div className="mt-4 grid md:grid-cols-2 gap-6">
-                    <div>
-                      <h4 className="font-semibold text-black mb-2">LightStream (Truist)</h4>
-                      <ul className="text-sm text-neutral-700 space-y-1">
-                        <li>• APR: 7.49-25.49%</li>
-                        <li>• Loan amounts: $5K-$100K</li>
-                        <li>• Rate Beat Program</li>
-                        <li>• Same-day funding available</li>
-                        <li>• Excellent credit required</li>
-                      </ul>
-                    </div>
-                    
-                    <div>
-                      <h4 className="font-semibold text-black mb-2">Discover Personal Loans</h4>
-                      <ul className="text-sm text-neutral-700 space-y-1">
-                        <li>• APR: 7.99-24.99%</li>
-                        <li>• Loan amounts: $2.5K-$40K</li>
-                        <li>• Direct payment to creditors</li>
-                        <li>• 30-day payment pause option</li>
-                        <li>• Established brand reputation</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-yellow-50 border border-yellow-200 p-6">
-                  <h3 className="text-lg font-semibold text-black mb-3">Alternative Online Lenders</h3>
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div>
-                      <h4 className="font-semibold text-black mb-2">Fair Credit Options</h4>
-                      <ul className="text-sm text-neutral-700 space-y-1">
-                        <li>• <strong>Upstart:</strong> 6.40-35.99% APR, AI-driven underwriting</li>
-                        <li>• <strong>Best Egg:</strong> 7.99-35.99% APR, flexible terms</li>
-                        <li>• <strong>Avant:</strong> 9.95-35.99% APR, fair credit focus</li>
-                        <li>• <strong>OneMain Financial:</strong> 18.00-35.99% APR, secured options</li>
-                      </ul>
-                    </div>
-                    
-                    <div>
-                      <h4 className="font-semibold text-black mb-2">Specialized Features</h4>
-                      <ul className="text-sm text-neutral-700 space-y-1">
-                        <li>• <strong>Payoff:</strong> Credit card debt consolidation focus</li>
-                        <li>• <strong>Prosper:</strong> P2P lending platform</li>
-                        <li>• <strong>LendingClub:</strong> P2P with investor funding</li>
-                        <li>• <strong>Rocket Loans:</strong> Same-day funding available</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="bg-green-50 border border-green-200 p-6">
-                  <h3 className="text-lg font-semibold text-black mb-3">Online Lender Advantages</h3>
-                  <ul className="space-y-2 text-neutral-700">
-                    <li>• <strong>Speed and Convenience:</strong> Same-day to 3-day funding, 24/7 applications</li>
-                    <li>• <strong>Competitive Rates:</strong> Lower overhead often means better rates</li>
-                    <li>• <strong>Innovative Underwriting:</strong> AI and alternative data for better qualification</li>
-                    <li>• <strong>Transparent Process:</strong> Online rate checking without credit impact</li>
-                    <li>• <strong>Wide Credit Range:</strong> Options for excellent to fair credit scores</li>
-                  </ul>
-                </div>
-
-                <div className="bg-red-50 border border-red-200 p-6">
-                  <h3 className="text-lg font-semibold text-black mb-3">Online Lender Risks</h3>
-                  <ul className="space-y-2 text-neutral-700">
-                    <li>• <strong>No Personal Relationship:</strong> Limited customer service for complex situations</li>
-                    <li>• <strong>Variable Quality:</strong> Range from excellent to predatory lenders</li>
-                    <li>• <strong>Data Security:</strong> Online applications require sharing sensitive information</li>
-                    <li>• <strong>Less Negotiation:</strong> Automated decisions with limited flexibility</li>
-                    <li>• <strong>Newer Companies:</strong> Less track record than established institutions</li>
-                  </ul>
-                </div>
+              <div className="flex items-center justify-between mb-4">
+                <DollarSign className="w-8 h-8 text-orange-600" />
+                <span className="text-2xl font-bold text-orange-700">$100K</span>
               </div>
-            </motion.div>
-
-            {/* Orange County Specific Recommendations */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.8 }}
-              className="mb-12"
-            >
-              <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
-                <CheckCircle className="w-6 h-6" />
-                Orange County Resident Decision Guide
-              </h2>
-              
-              <div className="space-y-6">
-                <div className="bg-blue-50 border border-blue-200 p-6">
-                  <h3 className="text-lg font-semibold text-black mb-3">Choose Traditional Banks When:</h3>
-                  <ul className="space-y-2 text-neutral-700">
-                    <li>• <strong>Excellent Credit (750+):</strong> Access to best rates and largest loan amounts</li>
-                    <li>• <strong>Existing Relationship:</strong> Current customer with checking/savings accounts</li>
-                    <li>• <strong>Large Consolidation:</strong> Need loans above $50K for significant debt consolidation</li>
-                    <li>• <strong>Complex Financial Situation:</strong> Need in-person consultation and advice</li>
-                    <li>• <strong>Long-term Banking:</strong> Want to centralize all banking relationships</li>
-                  </ul>
-                </div>
-
-                <div className="bg-green-50 border border-green-200 p-6">
-                  <h3 className="text-lg font-semibold text-black mb-3">Choose Credit Unions When:</h3>
-                  <ul className="space-y-2 text-neutral-700">
-                    <li>• <strong>Good Credit (650-750):</strong> Best rates for this credit range</li>
-                    <li>• <strong>Community Connection:</strong> Value local, personal service</li>
-                    <li>• <strong>Moderate Loan Amounts:</strong> $5K-40K consolidation needs</li>
-                    <li>• <strong>Military/Education:</strong> Qualify for specialized credit unions</li>
-                    <li>• <strong>Lower Fees Important:</strong> Want minimal origination and other fees</li>
-                  </ul>
-                </div>
-
-                <div className="bg-purple-50 border border-purple-200 p-6">
-                  <h3 className="text-lg font-semibold text-black mb-3">Choose Online Lenders When:</h3>
-                  <ul className="space-y-2 text-neutral-700">
-                    <li>• <strong>Need Speed:</strong> Urgent consolidation with same-day funding requirements</li>
-                    <li>• <strong>Fair Credit (580-649):</strong> More flexible underwriting than traditional banks</li>
-                    <li>• <strong>Rate Shopping:</strong> Want to compare multiple offers quickly</li>
-                    <li>• <strong>Convenience Priority:</strong> Prefer 100% online process</li>
-                    <li>• <strong>No Local Options:</strong> Don't qualify for area credit unions</li>
-                  </ul>
-                </div>
-              </div>
-            </motion.div>
-
-            {/* Comparison Calculator */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 1.0 }}
-              className="mb-12"
-            >
-              <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
-                <TrendingDown className="w-6 h-6" />
-                Orange County Loan Comparison Example
-              </h2>
-              
-              <div className="bg-neutral-50 border border-neutral-200 p-6">
-                <h3 className="text-lg font-semibold text-black mb-3">$25,000 Debt Consolidation Loan Comparison</h3>
-                
-                <div className="overflow-x-auto">
-                  <table className="w-full border-collapse border border-neutral-300">
-                    <thead>
-                      <tr className="bg-neutral-100">
-                        <th className="border border-neutral-300 p-4 text-left">Lender</th>
-                        <th className="border border-neutral-300 p-4 text-left">APR</th>
-                        <th className="border border-neutral-300 p-4 text-left">Monthly Payment</th>
-                        <th className="border border-neutral-300 p-4 text-left">Total Interest</th>
-                        <th className="border border-neutral-300 p-4 text-left">Total Cost</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td className="border border-neutral-300 p-4 font-semibold">OC Credit Union (Good Credit)</td>
-                        <td className="border border-neutral-300 p-4">8.99%</td>
-                        <td className="border border-neutral-300 p-4">$518</td>
-                        <td className="border border-neutral-300 p-4">$6,080</td>
-                        <td className="border border-neutral-300 p-4">$31,080</td>
-                      </tr>
-                      <tr className="bg-neutral-50">
-                        <td className="border border-neutral-300 p-4 font-semibold">Wells Fargo (Excellent Credit)</td>
-                        <td className="border border-neutral-300 p-4">9.99%</td>
-                        <td className="border border-neutral-300 p-4">$531</td>
-                        <td className="border border-neutral-300 p-4">$6,860</td>
-                        <td className="border border-neutral-300 p-4">$31,860</td>
-                      </tr>
-                      <tr>
-                        <td className="border border-neutral-300 p-4 font-semibold">SoFi Online (Excellent Credit)</td>
-                        <td className="border border-neutral-300 p-4">10.99%</td>
-                        <td className="border border-neutral-300 p-4">$544</td>
-                        <td className="border border-neutral-300 p-4">$7,640</td>
-                        <td className="border border-neutral-300 p-4">$32,640</td>
-                      </tr>
-                      <tr className="bg-neutral-50">
-                        <td className="border border-neutral-300 p-4 font-semibold">Upstart Online (Fair Credit)</td>
-                        <td className="border border-neutral-300 p-4">15.99%</td>
-                        <td className="border border-neutral-300 p-4">$609</td>
-                        <td className="border border-neutral-300 p-4">$11,540</td>
-                        <td className="border border-neutral-300 p-4">$36,540</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                
-                <div className="mt-4 text-sm text-neutral-600">
-                  *5-year loan terms. Rates vary based on credit score, income, and other factors. Orange County residents should shop multiple lenders for best terms.
-                </div>
-              </div>
-            </motion.div>
-
-            {/* Related Articles */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 1.2 }}
-              className="border-t border-neutral-200 pt-12 mb-12"
-            >
-              <h2 className="text-2xl font-semibold text-black mb-8">Related Debt Consolidation Articles</h2>
-              
-              <div className="grid md:grid-cols-2 gap-6">
-                <Link 
-                  to="/blog/orange-county-debt-consolidation-2025"
-                  className="bg-neutral-50 p-6 border border-neutral-200 hover:border-black transition-colors group"
-                >
-                  <h3 className="font-semibold text-black mb-3 group-hover:underline">
-                    Orange County Debt Consolidation: Complete 2025 Guide
-                  </h3>
-                  <p className="text-neutral-600 text-sm">
-                    Comprehensive analysis of debt consolidation options for Orange County residents.
-                  </p>
-                </Link>
-                
-                <Link 
-                  to="/blog/balance-transfer-vs-debt-settlement-orange-county"
-                  className="bg-neutral-50 p-6 border border-neutral-200 hover:border-black transition-colors group"
-                >
-                  <h3 className="font-semibold text-black mb-3 group-hover:underline">
-                    Balance Transfer vs Debt Settlement: Orange County Resident Guide
-                  </h3>
-                  <p className="text-neutral-600 text-sm">
-                    Detailed comparison of balance transfers and debt settlement options.
-                  </p>
-                </Link>
-              </div>
-            </motion.div>
-
-            {/* CTA */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 1.4 }}
-              className="bg-black text-white p-8 text-center"
-            >
-              <h2 className="text-2xl font-light mb-4">
-                Find Your Best Consolidation Option
-              </h2>
-              <p className="text-neutral-300 mb-6 max-w-2xl mx-auto">
-                Get personalized recommendations for debt consolidation loans based on your Orange County situation, credit profile, and financial goals. Compare rates from banks, credit unions, and online lenders.
-              </p>
-              <button 
-                onClick={scrollToConsultation}
-                className="bg-white text-black px-8 py-3 hover:bg-neutral-100 transition-colors font-mono text-sm uppercase tracking-wide"
-              >
-                Get Loan Recommendations
-              </button>
+              <h3 className="font-semibold text-gray-900 mb-2">Max Loan</h3>
+              <p className="text-sm text-gray-600">Maximum consolidation loan amounts available</p>
             </motion.div>
           </div>
         </div>
       </section>
 
-      {/* Consultation Form */}
-      <div id="consultation">
-        <ConsultationForm />
-      </div>
+      {/* Article Content */}
+      <article className="py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="bg-white rounded-2xl shadow-xl p-8 lg:p-12">
+            
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
+              <BarChart3 className="w-8 h-8 text-blue-600" />
+              Orange County Debt Consolidation Loan Comparison
+            </h2>
+            
+            <p className="text-lg text-gray-700 leading-relaxed mb-8">
+              Orange County residents have access to three primary types of debt consolidation lenders: 
+              traditional banks, local credit unions, and online lenders. Each offers distinct advantages 
+              depending on your credit profile, loan amount, and service preferences.
+            </p>
+
+            <div className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl p-8 mb-12 border border-blue-200 overflow-x-auto">
+              <h3 className="text-xl font-bold text-blue-800 mb-6">Quick Comparison Overview</h3>
+              <div className="min-w-full">
+                <table className="w-full border-collapse border border-blue-300">
+                  <thead>
+                    <tr className="bg-blue-200">
+                      <th className="border border-blue-300 p-4 text-left font-bold">Lender Type</th>
+                      <th className="border border-blue-300 p-4 text-left font-bold">APR Range</th>
+                      <th className="border border-blue-300 p-4 text-left font-bold">Loan Amounts</th>
+                      <th className="border border-blue-300 p-4 text-left font-bold">Approval Speed</th>
+                      <th className="border border-blue-300 p-4 text-left font-bold">Best For</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="bg-white">
+                      <td className="border border-blue-300 p-4 font-semibold">Traditional Banks</td>
+                      <td className="border border-blue-300 p-4">8.99-19.99%</td>
+                      <td className="border border-blue-300 p-4">$5K-$100K</td>
+                      <td className="border border-blue-300 p-4">3-7 days</td>
+                      <td className="border border-blue-300 p-4">Existing customers, high credit scores</td>
+                    </tr>
+                    <tr className="bg-blue-50">
+                      <td className="border border-blue-300 p-4 font-semibold">Credit Unions</td>
+                      <td className="border border-blue-300 p-4">7.24-16.99%</td>
+                      <td className="border border-blue-300 p-4">$1K-$50K</td>
+                      <td className="border border-blue-300 p-4">2-5 days</td>
+                      <td className="border border-blue-300 p-4">Members, personal service</td>
+                    </tr>
+                    <tr className="bg-white">
+                      <td className="border border-blue-300 p-4 font-semibold">Online Lenders</td>
+                      <td className="border border-blue-300 p-4">6.40-35.99%</td>
+                      <td className="border border-blue-300 p-4">$1K-$100K</td>
+                      <td className="border border-blue-300 p-4">Same day-3 days</td>
+                      <td className="border border-blue-300 p-4">Speed, varied credit profiles</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
+              <Building className="w-8 h-8 text-green-600" />
+              Traditional Banks in Orange County
+            </h2>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
+                <h3 className="text-xl font-bold text-green-800 mb-4">Wells Fargo</h3>
+                <ul className="space-y-2 text-green-700">
+                  <li>• APR: 7.49-23.24%</li>
+                  <li>• Loan amounts: $3K-$100K</li>
+                  <li>• Relationship discounts available</li>
+                  <li>• Strong Orange County presence</li>
+                  <li>• Same-day funding for existing customers</li>
+                </ul>
+              </div>
+              
+              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200">
+                <h3 className="text-xl font-bold text-blue-800 mb-4">Bank of America</h3>
+                <ul className="space-y-2 text-blue-700">
+                  <li>• APR: 8.99-19.99%</li>
+                  <li>• Loan amounts: $3K-$100K</li>
+                  <li>• Preferred Rewards discounts</li>
+                  <li>• Multiple OC branch locations</li>
+                  <li>• 3-5 day approval process</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="space-y-6 mb-12">
+              <div className="bg-gradient-to-r from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
+                <h3 className="text-lg font-bold text-green-800 mb-4 flex items-center gap-2">
+                  <CheckCircle className="w-5 h-5" />
+                  Traditional Bank Advantages
+                </h3>
+                <ul className="space-y-2 text-green-700">
+                  <li>• <strong>Relationship Banking:</strong> Existing customers often receive rate discounts and faster approvals</li>
+                  <li>• <strong>In-Person Service:</strong> Orange County branches provide face-to-face consultation</li>
+                  <li>• <strong>Established Reputation:</strong> FDIC insured, regulated institutions with long track records</li>
+                  <li>• <strong>Large Loan Amounts:</strong> Can handle significant consolidations up to $100K</li>
+                </ul>
+              </div>
+
+              <div className="bg-gradient-to-r from-red-50 to-red-100 rounded-xl p-6 border border-red-200">
+                <h3 className="text-lg font-bold text-red-800 mb-4">Traditional Bank Disadvantages</h3>
+                <ul className="space-y-2 text-red-700">
+                  <li>• <strong>Strict Credit Requirements:</strong> Typically require 660+ credit scores for best rates</li>
+                  <li>• <strong>Longer Approval Times:</strong> 3-7 days vs same-day online options</li>
+                  <li>• <strong>Limited Flexibility:</strong> Rigid underwriting criteria</li>
+                  <li>• <strong>Higher Overhead Costs:</strong> Branch network costs may result in higher rates</li>
+                </ul>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
+              <Users className="w-8 h-8 text-blue-600" />
+              Orange County Credit Union Options
+            </h2>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200">
+                <h3 className="text-xl font-bold text-blue-800 mb-4">Orange County's Credit Union</h3>
+                <ul className="space-y-2 text-blue-700">
+                  <li>• APR: 7.99-15.99%</li>
+                  <li>• Loan amounts: $1K-$50K</li>
+                  <li>• Local Orange County focus</li>
+                  <li>• Personal service approach</li>
+                  <li>• Membership: Live, work, or worship in OC</li>
+                </ul>
+              </div>
+              
+              <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6 border border-purple-200">
+                <h3 className="text-xl font-bold text-purple-800 mb-4">SchoolsFirst Federal Credit Union</h3>
+                <ul className="space-y-2 text-purple-700">
+                  <li>• APR: 7.24-15.99%</li>
+                  <li>• Loan amounts: $500-$50K</li>
+                  <li>• Education professionals focused</li>
+                  <li>• Excellent rates and terms</li>
+                  <li>• Strong Orange County presence</li>
+                </ul>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
+              <Zap className="w-8 h-8 text-purple-600" />
+              Online Lenders for Orange County Residents
+            </h2>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6 border border-purple-200">
+                <h3 className="text-xl font-bold text-purple-800 mb-4">SoFi Personal Loans</h3>
+                <ul className="space-y-2 text-purple-700">
+                  <li>• APR: 8.99-25.81%</li>
+                  <li>• Loan amounts: $5K-$100K</li>
+                  <li>• No fees (origination, prepayment)</li>
+                  <li>• Rate discount for autopay</li>
+                  <li>• Career coaching benefits</li>
+                </ul>
+              </div>
+              
+              <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl p-6 border border-orange-200">
+                <h3 className="text-xl font-bold text-orange-800 mb-4">Marcus by Goldman Sachs</h3>
+                <ul className="space-y-2 text-orange-700">
+                  <li>• APR: 7.99-19.99%</li>
+                  <li>• Loan amounts: $3.5K-$40K</li>
+                  <li>• No fees whatsoever</li>
+                  <li>• Fixed rates and payments</li>
+                  <li>• Strong customer satisfaction</li>
+                </ul>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
+              <CheckCircle className="w-8 h-8 text-green-600" />
+              Orange County Resident Decision Guide
+            </h2>
+
+            <div className="space-y-6 mb-12">
+              <div className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200">
+                <h3 className="text-lg font-bold text-blue-800 mb-4">Choose Traditional Banks When:</h3>
+                <ul className="space-y-2 text-blue-700">
+                  <li>• <strong>Excellent Credit (750+):</strong> Access to best rates and largest loan amounts</li>
+                  <li>• <strong>Existing Relationship:</strong> Current customer with checking/savings accounts</li>
+                  <li>• <strong>Large Consolidation:</strong> Need loans above $50K for significant debt consolidation</li>
+                  <li>• <strong>Complex Financial Situation:</strong> Need in-person consultation and advice</li>
+                </ul>
+              </div>
+
+              <div className="bg-gradient-to-r from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
+                <h3 className="text-lg font-bold text-green-800 mb-4">Choose Credit Unions When:</h3>
+                <ul className="space-y-2 text-green-700">
+                  <li>• <strong>Good Credit (650-750):</strong> Best rates for this credit range</li>
+                  <li>• <strong>Community Connection:</strong> Value local, personal service</li>
+                  <li>• <strong>Moderate Loan Amounts:</strong> $5K-40K consolidation needs</li>
+                  <li>• <strong>Military/Education:</strong> Qualify for specialized credit unions</li>
+                </ul>
+              </div>
+
+              <div className="bg-gradient-to-r from-purple-50 to-purple-100 rounded-xl p-6 border border-purple-200">
+                <h3 className="text-lg font-bold text-purple-800 mb-4">Choose Online Lenders When:</h3>
+                <ul className="space-y-2 text-purple-700">
+                  <li>• <strong>Need Speed:</strong> Urgent consolidation with same-day funding requirements</li>
+                  <li>• <strong>Fair Credit (580-649):</strong> More flexible underwriting than traditional banks</li>
+                  <li>• <strong>Rate Shopping:</strong> Want to compare multiple offers quickly</li>
+                  <li>• <strong>Convenience Priority:</strong> Prefer 100% online process</li>
+                </ul>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
+              <TrendingDown className="w-8 h-8 text-orange-600" />
+              $25,000 Loan Comparison Example
+            </h2>
+
+            <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl p-8 mb-12 border border-gray-200 overflow-x-auto">
+              <h3 className="text-xl font-bold text-gray-900 mb-6">5-Year Term Comparison</h3>
+              
+              <div className="min-w-full">
+                <table className="w-full border-collapse border border-gray-300">
+                  <thead>
+                    <tr className="bg-gray-200">
+                      <th className="border border-gray-300 p-4 text-left font-bold">Lender</th>
+                      <th className="border border-gray-300 p-4 text-left font-bold">APR</th>
+                      <th className="border border-gray-300 p-4 text-left font-bold">Monthly Payment</th>
+                      <th className="border border-gray-300 p-4 text-left font-bold">Total Interest</th>
+                      <th className="border border-gray-300 p-4 text-left font-bold">Total Cost</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="bg-white">
+                      <td className="border border-gray-300 p-4 font-semibold text-green-700">OC Credit Union (Good Credit)</td>
+                      <td className="border border-gray-300 p-4">8.99%</td>
+                      <td className="border border-gray-300 p-4">$518</td>
+                      <td className="border border-gray-300 p-4">$6,080</td>
+                      <td className="border border-gray-300 p-4">$31,080</td>
+                    </tr>
+                    <tr className="bg-gray-50">
+                      <td className="border border-gray-300 p-4 font-semibold text-blue-700">Wells Fargo (Excellent Credit)</td>
+                      <td className="border border-gray-300 p-4">9.99%</td>
+                      <td className="border border-gray-300 p-4">$531</td>
+                      <td className="border border-gray-300 p-4">$6,860</td>
+                      <td className="border border-gray-300 p-4">$31,860</td>
+                    </tr>
+                    <tr className="bg-white">
+                      <td className="border border-gray-300 p-4 font-semibold text-purple-700">SoFi Online (Excellent Credit)</td>
+                      <td className="border border-gray-300 p-4">10.99%</td>
+                      <td className="border border-gray-300 p-4">$544</td>
+                      <td className="border border-gray-300 p-4">$7,640</td>
+                      <td className="border border-gray-300 p-4">$32,640</td>
+                    </tr>
+                    <tr className="bg-gray-50">
+                      <td className="border border-gray-300 p-4 font-semibold text-orange-700">Upstart Online (Fair Credit)</td>
+                      <td className="border border-gray-300 p-4">15.99%</td>
+                      <td className="border border-gray-300 p-4">$609</td>
+                      <td className="border border-gray-300 p-4">$11,540</td>
+                      <td className="border border-gray-300 p-4">$36,540</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              
+              <p className="mt-4 text-sm text-gray-600">
+                *Rates vary based on credit score, income, and other factors. Orange County residents should shop multiple lenders for best terms.
+              </p>
+            </div>
+
+            {/* Professional CTA */}
+            <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded-2xl p-8 text-white text-center mb-12">
+              <h3 className="text-2xl font-bold mb-4">Find Your Best Consolidation Option</h3>
+              <p className="text-green-100 mb-6 text-lg">
+                Get personalized recommendations for debt consolidation loans based on your Orange County situation, 
+                credit profile, and financial goals. Compare rates from banks, credit unions, and online lenders.
+              </p>
+              <button 
+                onClick={scrollToConsultation}
+                className="bg-white text-green-600 font-bold py-3 px-8 rounded-xl hover:bg-green-50 transition-all duration-300 transform hover:scale-105 shadow-lg"
+              >
+                Get Loan Recommendations
+              </button>
+            </div>
+
+            <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl p-8 border border-gray-200">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Important Considerations</h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Debt consolidation loans can be an effective tool for managing multiple debts, but they're not suitable 
+                for everyone. Consider your ability to qualify for better rates than your current debts, your discipline 
+                to avoid accumulating new debt, and whether the monthly payment fits your budget. This information is for 
+                educational purposes and doesn't constitute financial advice. Consult with financial professionals for 
+                personalized guidance.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </article>
+
+      {/* Consultation Section */}
+      <section id="consultation" className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Compare Your Best Loan Options</h2>
+            <p className="text-lg text-gray-600">Get personalized debt consolidation loan recommendations</p>
+          </div>
+          <ConsultationForm />
+        </div>
+      </section>
     </div>
   );
 }

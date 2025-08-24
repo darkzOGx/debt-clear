@@ -1,5 +1,7 @@
 import React from 'react';
-import { ArrowLeft, Calendar, Clock, User, Shield } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
+import { motion } from 'framer-motion';
+import { ArrowLeft, Calendar, Clock, User, Shield, Scale, FileText, AlertTriangle, Users, TrendingUp, DollarSign, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -11,253 +13,399 @@ export default function DebtCollectionLawsOrangeCounty() {
     }
   };
 
+  const jsonLdSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Orange County Debt Collection Laws: Know Your Rights",
+    "description": "Complete guide to debt collection regulations in Orange County, including illegal practices, consumer protections, and how to file complaints.",
+    "author": {
+      "@type": "Organization",
+      "name": "VegaX Consumer Rights Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "VegaX Debt Relief",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://vegax.ai/logo.png"
+      }
+    },
+    "datePublished": "2025-06-20",
+    "dateModified": "2025-08-24",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://vegax.ai/blog/debt-collection-laws-orange-county"
+    },
+    "articleSection": "Consumer Rights",
+    "keywords": ["debt collection laws", "Orange County consumer rights", "FDCPA", "Rosenthal Act", "debt collector harassment"],
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Debt Collection Laws",
+        "description": "Legal regulations governing debt collection practices"
+      },
+      {
+        "@type": "Place",
+        "name": "Orange County",
+        "description": "County in California with specific consumer protection laws"
+      }
+    ]
+  };
+
   return (
     <div className="min-h-screen bg-white">
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"><ArrowLeft className="w-4 h-4" />Back to Resources</Link>
-          <div className="flex items-center gap-3 mb-6"><div className="w-2 h-2 bg-black"></div><span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">CONSUMER RIGHTS</span></div>
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">Orange County Debt Collection Laws:<br /><span className="font-mono text-3xl lg:text-4xl">Know Your Rights</span></h1>
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>June 20, 2025</span></div>
-            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>10 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Consumer Rights Team</span></div>
+      <Helmet>
+        <title>Orange County Debt Collection Laws: Know Your Rights | VegaX</title>
+        <meta name="description" content="Complete guide to debt collection regulations in Orange County, including illegal practices, consumer protections, and how to file complaints." />
+        <meta name="keywords" content="debt collection laws, Orange County consumer rights, FDCPA, Rosenthal Act, debt collector harassment" />
+        <meta name="author" content="VegaX Consumer Rights Team" />
+        
+        {/* Open Graph tags */}
+        <meta property="og:title" content="Orange County Debt Collection Laws: Know Your Rights" />
+        <meta property="og:description" content="Complete guide to debt collection regulations in Orange County, including illegal practices, consumer protections, and how to file complaints." />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://vegax.ai/blog/debt-collection-laws-orange-county" />
+        
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Orange County Debt Collection Laws: Know Your Rights" />
+        <meta name="twitter:description" content="Complete guide to debt collection regulations in Orange County, including illegal practices, consumer protections, and how to file complaints." />
+        
+        {/* JSON-LD structured data */}
+        <script type="application/ld+json">
+          {JSON.stringify(jsonLdSchema)}
+        </script>
+      </Helmet>
+
+      {/* Hero Section */}
+      <section className="relative py-20 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
+        
+        <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
+          <Link 
+            to="/blog"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors mb-8"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            Back to Resources
+          </Link>
+
+          <div className="flex items-center gap-3 mb-6">
+            <Shield className="w-6 h-6 text-blue-600" />
+            <span className="text-sm uppercase tracking-wider text-blue-600 font-semibold">
+              CONSUMER RIGHTS
+            </span>
           </div>
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">Complete guide to debt collection regulations in Orange County, including illegal practices, consumer protections, and how to file complaints.</p>
+
+          <motion.h1 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight"
+          >
+            Orange County Debt Collection Laws:
+            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent block">
+              Know Your Rights
+            </span>
+          </motion.h1>
+
+          <div className="flex flex-wrap items-center gap-6 text-sm text-gray-600 mb-8">
+            <div className="flex items-center gap-2">
+              <Calendar className="w-4 h-4" />
+              <span>June 20, 2025</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Clock className="w-4 h-4" />
+              <span>10 min read</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <User className="w-4 h-4" />
+              <span>VegaX Consumer Rights Team</span>
+            </div>
+          </div>
+
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="text-xl text-gray-700 leading-relaxed max-w-3xl"
+          >
+            Complete guide to debt collection regulations in Orange County, including illegal practices, 
+            consumer protections, and how to file complaints against abusive collectors.
+          </motion.p>
         </div>
       </section>
-      <article className="py-16">
+
+      {/* Statistics Cards */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 border border-blue-200 shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              <div className="flex items-center justify-between mb-4">
+                <Scale className="w-8 h-8 text-blue-600" />
+                <span className="text-2xl font-bold text-blue-700">30</span>
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Days to Verify</h3>
+              <p className="text-sm text-gray-600">Legal timeframe to request debt validation</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-6 border border-green-200 shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              <div className="flex items-center justify-between mb-4">
+                <DollarSign className="w-8 h-8 text-green-600" />
+                <span className="text-2xl font-bold text-green-700">$1,000</span>
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Max Damages</h3>
+              <p className="text-sm text-gray-600">FDCPA violation penalty per incident</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-6 border border-purple-200 shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              <div className="flex items-center justify-between mb-4">
+                <Users className="w-8 h-8 text-purple-600" />
+                <span className="text-2xl font-bold text-purple-700">4</span>
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Years Limit</h3>
+              <p className="text-sm text-gray-600">California debt collection statute of limitations</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-6 border border-orange-200 shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              <div className="flex items-center justify-between mb-4">
+                <TrendingUp className="w-8 h-8 text-orange-600" />
+                <span className="text-2xl font-bold text-orange-700">25%</span>
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Wage Protection</h3>
+              <p className="text-sm text-gray-600">Maximum wage garnishment in California</p>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Article Content */}
+      <article className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none">
-            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Federal and California Consumer Protections</h2>
-            <p className="text-neutral-700 leading-relaxed mb-6">Orange County residents benefit from both federal Fair Debt Collection Practices Act (FDCPA) and California's Rosenthal Fair Debt Collection Practices Act, providing comprehensive protection against abusive debt collection.</p>
-            <div className="bg-blue-50 border border-blue-200 p-8 mb-8">
-              <div className="flex items-start gap-3">
-                <Shield className="w-6 h-6 text-blue-600 mt-1" />
-                <div><h3 className="text-lg font-semibold text-blue-800 mb-4">Prohibited Collection Practices</h3>
-                  <ul className="space-y-2 text-sm text-blue-700">
-                    <li>• Calling before 8 AM or after 9 PM</li>
-                    <li>• Contacting you at work if prohibited</li>
-                    <li>• Using profane or threatening language</li>
-                    <li>• Misrepresenting debt amount or legal consequences</li>
-                    <li>• Continuing contact after cease and desist letter</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">California-Specific Protections</h2>
-            <div className="space-y-6 mb-8">
-              <div className="border border-neutral-200 p-6">
-                <h4 className="font-semibold text-black mb-3">Wage Garnishment Limits</h4>
-                <p className="text-sm text-neutral-700">California limits wage garnishment to 25% of disposable income or amount exceeding 40x minimum wage per week, whichever is less.</p>
-              </div>
-              <div className="border border-neutral-200 p-6">
-                <h4 className="font-semibold text-black mb-3">Statute of Limitations</h4>
-                <p className="text-sm text-neutral-700">4 years for most consumer debts in California. Collectors cannot sue for debts older than this timeframe.</p>
-              </div>
-              <div className="border border-neutral-200 p-6">
-                <h4 className="font-semibold text-black mb-3">Asset Protection</h4>
-                <p className="text-sm text-neutral-700">Social Security, unemployment benefits, and certain pension benefits are protected from garnishment in California.</p>
-              </div>
-            </div>
-            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Filing Complaints in Orange County</h2>
-            <div className="bg-neutral-50 p-8 border border-neutral-200 mb-8">
-              <h3 className="text-xl font-semibold text-black mb-4">Where to Report Violations</h3>
-              <ul className="space-y-2 text-sm text-neutral-700">
-                <li>• <strong>Federal Trade Commission:</strong> ftc.gov/complaint</li>
-                <li>• <strong>Consumer Financial Protection Bureau:</strong> consumerfinance.gov/complaint</li>
-                <li>• <strong>California Attorney General:</strong> oag.ca.gov/contact/consumer-complaint-against-business-or-company</li>
-                <li>• <strong>Orange County District Attorney:</strong> Consumer Protection Unit</li>
-              </ul>
-            </div>
-            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Your Rights During Debt Collection</h2>
-            <div className="space-y-6 mb-8">
-              <div className="bg-green-50 border border-green-200 p-6">
-                <h4 className="font-semibold text-black mb-3">Right to Verification</h4>
-                <p className="text-sm text-neutral-700 mb-2">Within 30 days of first contact, you can request debt validation including:</p>
-                <ul className="text-xs text-neutral-600 space-y-1">
-                  <li>• Amount of debt and creditor information</li>
-                  <li>• Proof you owe the debt</li>
-                  <li>• Copy of original signed agreement</li>
-                  <li>• Account statements showing charges</li>
-                </ul>
-              </div>
-              
-              <div className="bg-blue-50 border border-blue-200 p-6">
-                <h4 className="font-semibold text-black mb-3">Right to Cease Communication</h4>
-                <p className="text-sm text-neutral-700 mb-2">You can request collectors stop contacting you by sending a written cease and desist letter. After receipt, they can only contact you to:</p>
-                <ul className="text-xs text-neutral-600 space-y-1">
-                  <li>• Confirm they received your letter</li>
-                  <li>• Notify you of specific legal action</li>
-                  <li>• Inform you they're ending collection efforts</li>
-                </ul>
-              </div>
-              
-              <div className="bg-yellow-50 border border-yellow-200 p-6">
-                <h4 className="font-semibold text-black mb-3">Right to Dispute</h4>
-                <p className="text-sm text-neutral-700 mb-2">You have 30 days from initial contact to dispute the debt in writing. Collection must stop until verification is provided.</p>
-              </div>
-            </div>
+          <div className="bg-white rounded-2xl shadow-xl p-8 lg:p-12">
+            
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
+              <Shield className="w-8 h-8 text-blue-600" />
+              Federal and California Consumer Protections
+            </h2>
+            
+            <p className="text-lg text-gray-700 leading-relaxed mb-8">
+              Orange County residents benefit from both federal Fair Debt Collection Practices Act (FDCPA) 
+              and California's Rosenthal Fair Debt Collection Practices Act, providing comprehensive protection 
+              against abusive debt collection practices.
+            </p>
 
-            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Orange County Collection Agency Registration</h2>
-            <div className="bg-gray-50 border border-gray-200 p-6 mb-8">
-              <h3 className="text-lg font-semibold text-black mb-4">Local Registration Requirements</h3>
-              <p className="text-neutral-700 mb-4">Collection agencies operating in Orange County must be licensed and bonded under California law. Verify collector legitimacy through:</p>
-              <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl p-8 mb-12 border border-blue-200">
+              <div className="flex items-start gap-4">
+                <AlertTriangle className="w-8 h-8 text-blue-600 mt-1" />
                 <div>
-                  <h4 className="font-semibold text-black mb-2">State Licensing</h4>
-                  <ul className="text-sm text-neutral-700 space-y-1">
-                    <li>• California Department of Financial Protection and Innovation</li>
-                    <li>• License search: dfpi.ca.gov</li>
-                    <li>• Required $25,000 bond</li>
-                    <li>• Annual renewal required</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-black mb-2">Warning Signs of Unlicensed Collectors</h4>
-                  <ul className="text-sm text-neutral-700 space-y-1">
-                    <li>• Refuse to provide company information</li>
-                    <li>• Can't provide license number</li>
-                    <li>• Use threatening language immediately</li>
-                    <li>• Demand immediate payment via wire transfer</li>
-                  </ul>
+                  <h3 className="text-xl font-bold text-blue-800 mb-6">Prohibited Collection Practices</h3>
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <ul className="space-y-3 text-blue-700">
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="w-4 h-4 mt-1 text-blue-600" />
+                        <span>Calling before 8 AM or after 9 PM</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="w-4 h-4 mt-1 text-blue-600" />
+                        <span>Contacting you at work if prohibited</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="w-4 h-4 mt-1 text-blue-600" />
+                        <span>Using profane or threatening language</span>
+                      </li>
+                    </ul>
+                    <ul className="space-y-3 text-blue-700">
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="w-4 h-4 mt-1 text-blue-600" />
+                        <span>Misrepresenting debt amount or legal consequences</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="w-4 h-4 mt-1 text-blue-600" />
+                        <span>Continuing contact after cease and desist letter</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="w-4 h-4 mt-1 text-blue-600" />
+                        <span>Discussing debt with third parties</span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Illegal Collection Practices</h2>
-            <div className="bg-red-50 border border-red-200 p-8 mb-8">
-              <h3 className="text-lg font-semibold text-red-800 mb-4">Prohibited Actions Under FDCPA & Rosenthal Act</h3>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <h4 className="font-semibold text-black mb-3">Communication Violations</h4>
-                  <ul className="space-y-2 text-sm text-red-700">
-                    <li>• Calling before 8 AM or after 9 PM (your local time)</li>
-                    <li>• Contacting you at work if told it's not allowed</li>
-                    <li>• Discussing debt with third parties (family, neighbors, employers)</li>
-                    <li>• Using profane, obscene, or abusive language</li>
-                    <li>• Threatening violence or harm</li>
-                    <li>• Repeatedly calling to annoy or harass</li>
-                  </ul>
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
+              <Scale className="w-8 h-8 text-green-600" />
+              California-Specific Protections
+            </h2>
+
+            <div className="grid md:grid-cols-3 gap-6 mb-12">
+              <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
+                <h4 className="font-bold text-gray-900 mb-3">Wage Garnishment Limits</h4>
+                <p className="text-sm text-gray-700">California limits wage garnishment to 25% of disposable income or amount exceeding 40x minimum wage per week, whichever is less.</p>
+              </div>
+              <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6 border border-purple-200">
+                <h4 className="font-bold text-gray-900 mb-3">Statute of Limitations</h4>
+                <p className="text-sm text-gray-700">4 years for most consumer debts in California. Collectors cannot sue for debts older than this timeframe.</p>
+              </div>
+              <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl p-6 border border-orange-200">
+                <h4 className="font-bold text-gray-900 mb-3">Asset Protection</h4>
+                <p className="text-sm text-gray-700">Social Security, unemployment benefits, and certain pension benefits are protected from garnishment in California.</p>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
+              <FileText className="w-8 h-8 text-red-600" />
+              Filing Complaints in Orange County
+            </h2>
+
+            <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl p-8 mb-12 border border-gray-200">
+              <h3 className="text-xl font-bold text-gray-900 mb-6">Where to Report Violations</h3>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-red-500 rounded-full mt-3"></div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900">Federal Trade Commission</h4>
+                      <p className="text-sm text-gray-600">ftc.gov/complaint</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-red-500 rounded-full mt-3"></div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900">Consumer Financial Protection Bureau</h4>
+                      <p className="text-sm text-gray-600">consumerfinance.gov/complaint</p>
+                    </div>
+                  </div>
                 </div>
-                
-                <div>
-                  <h4 className="font-semibold text-black mb-3">False Representation</h4>
-                  <ul className="space-y-2 text-sm text-red-700">
-                    <li>• Falsely claiming to be attorneys or government agents</li>
-                    <li>• Misrepresenting debt amount or legal consequences</li>
-                    <li>• Threatening arrest or jail time for unpaid debt</li>
-                    <li>• Claiming legal documents are official when they're not</li>
-                    <li>• Falsely threatening to garnish wages without court order</li>
-                    <li>• Misrepresenting credit reporting consequences</li>
-                  </ul>
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-red-500 rounded-full mt-3"></div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900">California Attorney General</h4>
+                      <p className="text-sm text-gray-600">oag.ca.gov/contact/consumer-complaint-against-business-or-company</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-red-500 rounded-full mt-3"></div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900">Orange County District Attorney</h4>
+                      <p className="text-sm text-gray-600">Consumer Protection Unit</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Orange County Legal Resources</h2>
-            <div className="grid md:grid-cols-2 gap-6 mb-8">
-              <div className="bg-white border border-neutral-200 p-6">
-                <h3 className="text-lg font-semibold text-black mb-4">Free Legal Aid</h3>
-                <div className="space-y-3 text-sm">
-                  <div>
-                    <h4 className="font-semibold text-black">Legal Aid Society of Orange County</h4>
-                    <p className="text-neutral-700">Income-qualified residents can receive free legal assistance</p>
-                    <p className="text-xs text-neutral-600">13 locations throughout Orange County</p>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-black">Public Law Center</h4>
-                    <p className="text-neutral-700">Pro bono legal services for low-income residents</p>
-                    <p className="text-xs text-neutral-600">Santa Ana office: (714) 541-1010</p>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-black">UCI School of Law Clinic</h4>
-                    <p className="text-neutral-700">Student-supervised consumer protection cases</p>
-                    <p className="text-xs text-neutral-600">Irvine campus clinic</p>
-                  </div>
+            <h2 className="text-3xl font-bold text-gray-900 mb-8">Your Rights During Debt Collection</h2>
+
+            <div className="space-y-6 mb-12">
+              <div className="bg-gradient-to-r from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
+                <h4 className="font-bold text-gray-900 mb-3 flex items-center gap-2">
+                  <CheckCircle className="w-5 h-5 text-green-600" />
+                  Right to Verification
+                </h4>
+                <p className="text-gray-700 mb-3">Within 30 days of first contact, you can request debt validation including:</p>
+                <div className="grid md:grid-cols-2 gap-4">
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Amount of debt and creditor information</li>
+                    <li>• Proof you owe the debt</li>
+                  </ul>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Copy of original signed agreement</li>
+                    <li>• Account statements showing charges</li>
+                  </ul>
                 </div>
               </div>
               
-              <div className="bg-white border border-neutral-200 p-6">
-                <h3 className="text-lg font-semibold text-black mb-4">Filing Complaints</h3>
-                <div className="space-y-3 text-sm">
-                  <div>
-                    <h4 className="font-semibold text-black">Federal Trade Commission</h4>
-                    <p className="text-neutral-700">ftc.gov/complaint or 1-877-FTC-HELP</p>
-                    <p className="text-xs text-neutral-600">National database of collection violations</p>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-black">Consumer Financial Protection Bureau</h4>
-                    <p className="text-neutral-700">consumerfinance.gov/complaint</p>
-                    <p className="text-xs text-neutral-600">Federal oversight of large debt collectors</p>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-black">California Attorney General</h4>
-                    <p className="text-neutral-700">oag.ca.gov/contact/consumer-complaint</p>
-                    <p className="text-xs text-neutral-600">State-level consumer protection enforcement</p>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-black">OC District Attorney Consumer Protection</h4>
-                    <p className="text-neutral-700">(714) 347-8400</p>
-                    <p className="text-xs text-neutral-600">Local prosecution of collection violations</p>
-                  </div>
+              <div className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200">
+                <h4 className="font-bold text-gray-900 mb-3 flex items-center gap-2">
+                  <Shield className="w-5 h-5 text-blue-600" />
+                  Right to Cease Communication
+                </h4>
+                <p className="text-gray-700 mb-3">You can request collectors stop contacting you by sending a written cease and desist letter. After receipt, they can only contact you to:</p>
+                <div className="grid md:grid-cols-3 gap-4">
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Confirm they received your letter</li>
+                  </ul>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Notify you of specific legal action</li>
+                  </ul>
+                  <ul className="text-sm text-gray-600 space-y-1">
+                    <li>• Inform you they're ending collection efforts</li>
+                  </ul>
                 </div>
+              </div>
+              
+              <div className="bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-xl p-6 border border-yellow-200">
+                <h4 className="font-bold text-gray-900 mb-3 flex items-center gap-2">
+                  <AlertTriangle className="w-5 h-5 text-yellow-600" />
+                  Right to Dispute
+                </h4>
+                <p className="text-gray-700">You have 30 days from initial contact to dispute the debt in writing. Collection must stop until verification is provided.</p>
               </div>
             </div>
 
-            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Damage Awards for Violations</h2>
-            <div className="bg-blue-50 border border-blue-200 p-6 mb-8">
-              <h3 className="text-lg font-semibold text-blue-800 mb-4">Financial Remedies Available</h3>
-              <div className="grid md:grid-cols-3 gap-4">
-                <div className="bg-white border border-blue-200 p-4">
-                  <h4 className="font-semibold text-black mb-2">Statutory Damages</h4>
-                  <p className="text-sm text-neutral-700 mb-2">FDCPA allows up to $1,000 per violation</p>
-                  <p className="text-xs text-neutral-600">Plus attorney fees and court costs</p>
-                </div>
-                <div className="bg-white border border-blue-200 p-4">
-                  <h4 className="font-semibold text-black mb-2">Actual Damages</h4>
-                  <p className="text-sm text-neutral-700 mb-2">Compensation for emotional distress, lost wages</p>
-                  <p className="text-xs text-neutral-600">Must be documented and proven</p>
-                </div>
-                <div className="bg-white border border-blue-200 p-4">
-                  <h4 className="font-semibold text-black mb-2">Punitive Damages</h4>
-                  <p className="text-sm text-neutral-700 mb-2">California allows additional punitive awards</p>
-                  <p className="text-xs text-neutral-600">For willful or egregious violations</p>
-                </div>
-              </div>
+            {/* Professional CTA */}
+            <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white text-center mb-12">
+              <h3 className="text-2xl font-bold mb-4">Being Harassed by Debt Collectors?</h3>
+              <p className="text-blue-100 mb-6 text-lg">
+                Get a free consultation to understand your rights and options under federal and California law.
+              </p>
+              <button 
+                onClick={scrollToConsultation}
+                className="bg-white text-blue-600 font-bold py-3 px-8 rounded-xl hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 shadow-lg"
+              >
+                Get Free Legal Guidance
+              </button>
             </div>
 
-            <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Documentation and Evidence Collection</h2>
-            <div className="space-y-4 mb-8">
-              <div className="border border-neutral-200 p-4">
-                <h4 className="font-semibold text-black mb-2">Call Recording</h4>
-                <p className="text-sm text-neutral-700">California is a two-party consent state. You must inform collectors you're recording, but they often consent or hang up (which stops harassment).</p>
-              </div>
-              <div className="border border-neutral-200 p-4">
-                <h4 className="font-semibold text-black mb-2">Written Communications</h4>
-                <p className="text-sm text-neutral-700">Save all letters, emails, texts. Note dates, times, collector names, and company information. Digital photos of damaged mail envelopes showing inappropriate markings.</p>
-              </div>
-              <div className="border border-neutral-200 p-4">
-                <h4 className="font-semibold text-black mb-2">Call Logs</h4>
-                <p className="text-sm text-neutral-700">Document all calls: date, time, duration, caller ID, what was said, threats made. Even brief harassment calls should be logged.</p>
-              </div>
-              <div className="border border-neutral-200 p-4">
-                <h4 className="font-semibold text-black mb-2">Witness Statements</h4>
-                <p className="text-sm text-neutral-700">If family members, coworkers, or neighbors witness inappropriate collector behavior or communications, obtain written statements.</p>
-              </div>
+            <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl p-8 border border-gray-200">
+              <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <AlertTriangle className="w-6 h-6 text-gray-600" />
+                Consumer Rights Disclaimer
+              </h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Debt collection laws are complex and change frequently. This information is for educational purposes 
+                only and does not constitute legal advice. Individual situations vary significantly based on debt type, 
+                collector practices, and state regulations. For specific legal questions about debt collection practices, 
+                consult with qualified consumer protection attorneys or legal aid organizations. Time limits apply to 
+                filing complaints and lawsuits.
+              </p>
             </div>
 
-            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
-              <h3 className="text-xl font-semibold text-black mb-4">Consumer Rights Disclaimer</h3>
-              <p className="text-sm text-neutral-600 leading-relaxed">Debt collection laws are complex and change frequently. This information is for educational purposes only and does not constitute legal advice. Individual situations vary significantly based on debt type, collector practices, and state regulations. For specific legal questions about debt collection practices, consult with qualified consumer protection attorneys or legal aid organizations. Time limits apply to filing complaints and lawsuits.</p>
-            </div>
           </div>
         </div>
       </article>
 
-      {/* Research Consultation */}
-      <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
+      {/* Consultation Section */}
+      <section id="consultation" className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Get Expert Help with Debt Collection Issues</h2>
+            <p className="text-lg text-gray-600">Free consultation to discuss your rights and legal options</p>
+          </div>
           <ConsultationForm />
         </div>
       </section>
