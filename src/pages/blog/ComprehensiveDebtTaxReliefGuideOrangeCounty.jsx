@@ -921,10 +921,10 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
               Join thousands of Orange County residents who have successfully overcome debt and tax challenges. Your path to financial freedom begins with one conversation.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-black px-8 py-3 rounded-lg font-bold hover:bg-neutral-50 transition">
+              <button onClick={scrollToConsultation} className="inline-flex items-center gap-2 bg-white text-black px-8 py-3 rounded-lg font-bold hover:bg-neutral-50 transition">
                 <Calculator className="w-5 h-5" />
-                Calculate Your Savings
-              </Link>
+                Free Consultation
+              </button>
               <button onClick={scrollToConsultation} className="inline-flex items-center gap-2 border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-black transition">
                 <Phone className="w-5 h-5" />
                 Get Free Analysis

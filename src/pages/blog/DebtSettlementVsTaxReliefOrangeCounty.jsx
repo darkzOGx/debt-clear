@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { Phone, Calculator, Shield, TrendingDown, Users, AlertTriangle, DollarSign, FileText, Scale, Clock } from 'lucide-react';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function DebtSettlementVsTaxReliefOrangeCounty() {
   return (
@@ -535,11 +536,14 @@ export default function DebtSettlementVsTaxReliefOrangeCounty() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <Link to="/debt-calculator" className="block p-6 bg-white border-2 border-black rounded-lg hover:bg-black hover:text-white transition">
+            <button 
+              onClick={() => document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' })}
+              className="block w-full p-6 bg-white border-2 border-black rounded-lg hover:bg-black hover:text-white transition text-left"
+            >
               <Calculator className="w-8 h-8 mb-3" />
-              <h3 className="font-bold mb-2">Calculate Your Savings</h3>
-              <p className="text-sm">Get instant estimates for both debt settlement and tax relief options</p>
-            </Link>
+              <h3 className="font-bold mb-2">Free Consultation</h3>
+              <p className="text-sm">Schedule your free debt analysis with our Orange County specialists</p>
+            </button>
 
             <Link to="/debt-tools" className="block p-6 bg-white border-2 border-black rounded-lg hover:bg-black hover:text-white transition">
               <Scale className="w-8 h-8 mb-3" />
@@ -599,66 +603,8 @@ export default function DebtSettlementVsTaxReliefOrangeCounty() {
         </section>
 
         {/* Consultation Form */}
-        <section id="consultation" className="bg-black text-white p-8 rounded-lg">
-          <h2 className="text-3xl font-bold mb-6">Get Your Free Debt & Tax Analysis</h2>
-          <p className="mb-6">
-            Orange County residents: Get a comprehensive analysis of both your debt settlement and tax relief options. Our experts will create a customized strategy addressing all your financial obligations.
-          </p>
-          <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <div>
-              <label className="block mb-2 text-sm">Full Name</label>
-              <input type="text" className="w-full p-3 rounded text-black" placeholder="John Smith" />
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Phone Number</label>
-              <input type="tel" className="w-full p-3 rounded text-black" placeholder="(714) 555-0100" />
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Email Address</label>
-              <input type="email" className="w-full p-3 rounded text-black" placeholder="john@example.com" />
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">City</label>
-              <select className="w-full p-3 rounded text-black">
-                <option>Select your city</option>
-                <option>Irvine</option>
-                <option>Newport Beach</option>
-                <option>Anaheim</option>
-                <option>Santa Ana</option>
-                <option>Huntington Beach</option>
-                <option>Other Orange County City</option>
-              </select>
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Total Credit Card Debt</label>
-              <select className="w-full p-3 rounded text-black">
-                <option>Select range</option>
-                <option>$0 - $9,999</option>
-                <option>$10,000 - $24,999</option>
-                <option>$25,000 - $49,999</option>
-                <option>$50,000 - $99,999</option>
-                <option>$100,000+</option>
-              </select>
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Tax Debt Amount</label>
-              <select className="w-full p-3 rounded text-black">
-                <option>Select range</option>
-                <option>No tax debt</option>
-                <option>$1 - $9,999</option>
-                <option>$10,000 - $24,999</option>
-                <option>$25,000 - $49,999</option>
-                <option>$50,000+</option>
-              </select>
-            </div>
-          </div>
-          <div className="mb-6">
-            <label className="block mb-2 text-sm">Additional Information</label>
-            <textarea className="w-full p-3 rounded text-black h-24" placeholder="Briefly describe your situation..."></textarea>
-          </div>
-          <button className="bg-white text-black px-8 py-3 rounded font-bold hover:bg-neutral-100 transition">
-            Get Free Analysis →
-          </button>
+        <section id="consultation">
+          <ConsultationForm />
         </section>
       </article>
     </div>
