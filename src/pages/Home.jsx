@@ -33,21 +33,21 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Orange County Debt Settlement - AI Relief in 12-24 Months | VegaX AI</title>
+        <title>Orange County Debt Settlement - AI Relief | VegaX AI</title>
         <meta name="description" content="Orange County debt settlement & relief. Expert debt profile analysis, 50% reduction. County residents save in 12-24 months. Research-based. Call (502) 232-8511" />
         <meta name="keywords" content="Orange County debt settlement, debt relief, debt negotiation, AI debt settlement, California debt help, credit card debt relief" />
         <meta name="robots" content="index, follow" />
         
-        <meta property="og:title" content="Orange County Debt Settlement - AI Relief in 12-24 Months" />
-        <meta property="og:description" content="Orange County debt settlement & relief. Expert debt profile analysis, 50% reduction. County residents save in 12-24 months. Research-based." />
+        <meta property="og:title" content="Orange County Debt Settlement - AI Relief" />
+        <meta property="og:description" content="Orange County debt settlement & relief. Credit card debt reduction, medical debt forgiveness, unsecured debt negotiation, bankruptcy alternatives." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://vegaxai.com/" />
         <meta property="og:image" content="https://vegaxai.com/og-debt-settlement.jpg" />
         <meta property="og:site_name" content="VegaX AI Debt Settlement" />
         
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Orange County Debt Settlement - AI Relief in 12-24 Months" />
-        <meta name="twitter:description" content="Orange County debt settlement & relief. Expert debt profile analysis, 50% reduction. County residents save in 12-24 months." />
+        <meta name="twitter:title" content="Orange County Debt Settlement - AI Relief" />
+        <meta name="twitter:description" content="Orange County debt settlement & relief. Credit card debt reduction, medical debt forgiveness, unsecured debt negotiation." />
         <meta name="twitter:image" content="https://vegaxai.com/og-debt-settlement.jpg" />
         
         <script type="application/ld+json">

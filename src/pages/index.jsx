@@ -109,6 +109,15 @@ import CaseStudies from "./CaseStudies";
 import OrangeCountyHub from "./OrangeCountyHub";
 import Resources from "./Resources";
 
+// New comprehensive pages
+import BreaDebtSettlementServices2025 from "./blog/BreaDebtSettlementServices2025";
+import LaHabraDebtReliefSolutions2025 from "./blog/LaHabraDebtReliefSolutions2025";
+import CypressDebtSettlementExperts2025 from "./blog/CypressDebtSettlementExperts2025";
+import OrangeCountyDebtCrisisObservatory from "./OrangeCountyDebtCrisisObservatory";
+import MedicalDebtReliefHub from "./MedicalDebtReliefHub";
+import AiVsHumanDebtSettlementStudy from "./AiVsHumanDebtSettlementStudy";
+import NationalDebtSettlementTransparencyDatabase from "./NationalDebtSettlementTransparencyDatabase";
+
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
 const PAGES = {
@@ -209,6 +218,14 @@ const PAGES = {
     OrangeCountyHub: OrangeCountyHub,
     Resources: Resources,
     
+    // New comprehensive pages
+    BreaDebtSettlementServices2025: BreaDebtSettlementServices2025,
+    LaHabraDebtReliefSolutions2025: LaHabraDebtReliefSolutions2025,
+    CypressDebtSettlementExperts2025: CypressDebtSettlementExperts2025,
+    OrangeCountyDebtCrisisObservatory: OrangeCountyDebtCrisisObservatory,
+    MedicalDebtReliefHub: MedicalDebtReliefHub,
+    AiVsHumanDebtSettlementStudy: AiVsHumanDebtSettlementStudy,
+    NationalDebtSettlementTransparencyDatabase: NationalDebtSettlementTransparencyDatabase,
 }
 
 function _getCurrentPage(url) {
@@ -345,6 +362,15 @@ function PagesContent() {
                 <Route path="/case-studies" element={<CaseStudies />} />
                 <Route path="/orange-county-hub" element={<OrangeCountyHub />} />
                 <Route path="/resources" element={<Resources />} />
+                
+                {/* New comprehensive pages */}
+                <Route path="/blog/brea-debt-settlement-services-2025" element={<BreaDebtSettlementServices2025 />} />
+                <Route path="/blog/la-habra-debt-relief-solutions-2025" element={<LaHabraDebtReliefSolutions2025 />} />
+                <Route path="/blog/cypress-debt-settlement-experts-2025" element={<CypressDebtSettlementExperts2025 />} />
+                <Route path="/orange-county-debt-crisis-observatory" element={<OrangeCountyDebtCrisisObservatory />} />
+                <Route path="/medical-debt-relief-hub" element={<MedicalDebtReliefHub />} />
+                <Route path="/ai-vs-human-debt-settlement-study" element={<AiVsHumanDebtSettlementStudy />} />
+                <Route path="/national-debt-settlement-transparency-database" element={<NationalDebtSettlementTransparencyDatabase />} />
                 
             </Routes>
         </Layout>
