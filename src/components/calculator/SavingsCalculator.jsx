@@ -58,13 +58,13 @@ export default function SavingsCalculator() {
         </div>
       </div>
       
-      <div className="bg-neutral-800 p-4 rounded-lg">
+      <div className="bg-black p-4 rounded-lg">
         <h5 className="font-semibold text-white mb-2">Savings Growth:</h5>
-        <div className="space-y-1 text-sm">
-          <div>Total Savings: <span className="font-bold text-white">${totalSavings.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
-          <div>Total Deposited: <span className="font-medium">${totalDeposited.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
-          <div>Total Interest Earned: <span className="font-medium text-white">${totalInterest.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
-          <div>Monthly Deposits: <span className="font-medium">{months} deposits</span></div>
+        <div className="space-y-1 text-sm text-white">
+          <div>Total Savings: <span className="font-bold text-green-400">${totalSavings.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Total Deposited: <span className="font-medium text-white">${totalDeposited.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Total Interest Earned: <span className="font-medium text-green-400">${totalInterest.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Monthly Deposits: <span className="font-medium text-white">{months} deposits</span></div>
         </div>
       </div>
     </div>

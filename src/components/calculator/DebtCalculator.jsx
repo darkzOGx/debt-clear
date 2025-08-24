@@ -156,19 +156,19 @@ export default function DebtCalculator() {
 
                   <div className="grid grid-cols-2 gap-8">
                     <div>
-                      <div className="text-xs font-mono uppercase tracking-wide text-neutral-500 mb-2">
+                      <div className="text-xs font-mono uppercase tracking-wide text-white mb-2">
                         Projected Savings
                       </div>
-                      <div className="text-3xl lg:text-4xl font-mono text-black">
+                      <div className="text-3xl lg:text-4xl font-mono text-green-400 font-bold">
                         ${results.estimated_savings.toLocaleString()}
                       </div>
                     </div>
                     
                     <div>
-                      <div className="text-xs font-mono uppercase tracking-wide text-neutral-500 mb-2">
+                      <div className="text-xs font-mono uppercase tracking-wide text-white mb-2">
                         Reduction Percentage
                       </div>
-                      <div className="text-3xl lg:text-4xl font-mono text-black">
+                      <div className="text-3xl lg:text-4xl font-mono text-green-400 font-bold">
                         {Math.round((results.estimated_savings / results.total_debt) * 100)}%
                       </div>
                     </div>
@@ -176,26 +176,26 @@ export default function DebtCalculator() {
 
                   <div className="grid grid-cols-2 gap-8">
                     <div>
-                      <div className="text-xs font-mono uppercase tracking-wide text-neutral-500 mb-2">
+                      <div className="text-xs font-mono uppercase tracking-wide text-white mb-2">
                         Settlement Target
                       </div>
-                      <div className="text-2xl font-mono text-black">
+                      <div className="text-2xl font-mono text-white">
                         ${results.settlement_amount.toLocaleString()}
                       </div>
                     </div>
                     
                     <div>
-                      <div className="text-xs font-mono uppercase tracking-wide text-neutral-500 mb-2">
+                      <div className="text-xs font-mono uppercase tracking-wide text-white mb-2">
                         Timeline (Months)
                       </div>
-                      <div className="text-2xl font-mono text-black">
+                      <div className="text-2xl font-mono text-white">
                         {results.time_to_resolution}
                       </div>
                     </div>
                   </div>
 
-                  <div className="pt-6 border-t border-neutral-200">
-                    <div className="text-xs font-mono text-neutral-500 leading-relaxed">
+                  <div className="pt-6 border-t border-neutral-600">
+                    <div className="text-xs font-mono text-white leading-relaxed">
                       * Projections based on algorithmic analysis of historical settlement data. 
                       Results vary by creditor, debt type, and individual circumstances. 
                       No guarantee of specific outcomes.

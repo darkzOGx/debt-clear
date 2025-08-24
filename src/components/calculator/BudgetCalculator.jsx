@@ -102,13 +102,13 @@ export default function BudgetCalculator() {
         </div>
       </div>
       
-      <div className={`${remaining >= 0 ? 'bg-green-50' : 'bg-red-50'} p-4 rounded-lg`}>
-        <h5 className={`font-semibold ${remaining >= 0 ? 'text-green-800' : 'text-red-800'} mb-2`}>Budget Analysis:</h5>
-        <div className="space-y-1 text-sm">
-          <div>Total Monthly Income: <span className="font-medium">${monthlyIncome.toLocaleString('en-US')}</span></div>
-          <div>Total Monthly Expenses: <span className="font-medium">${totalExpenses.toLocaleString('en-US')}</span></div>
-          <div>Remaining: <span className={`font-bold ${remaining >= 0 ? 'text-green-800' : 'text-red-800'}`}>${remaining.toLocaleString('en-US')}</span></div>
-          <div>Housing as % of Income: <span className={`font-medium ${housingPercent > 30 ? 'text-red-600' : 'text-green-600'}`}>{housingPercent}%</span> {housingPercent > 30 && '(Consider reducing)'}</div>
+      <div className="bg-black p-4 rounded-lg">
+        <h5 className="font-semibold text-white mb-2">Budget Analysis:</h5>
+        <div className="space-y-1 text-sm text-white">
+          <div>Total Monthly Income: <span className="font-medium text-green-400">${monthlyIncome.toLocaleString('en-US')}</span></div>
+          <div>Total Monthly Expenses: <span className="font-medium text-red-400">${totalExpenses.toLocaleString('en-US')}</span></div>
+          <div>Remaining: <span className={`font-bold ${remaining >= 0 ? 'text-green-400' : 'text-red-400'}`}>${remaining.toLocaleString('en-US')}</span></div>
+          <div>Housing as % of Income: <span className={`font-medium ${housingPercent > 30 ? 'text-red-400' : 'text-green-400'}`}>{housingPercent}%</span> {housingPercent > 30 && <span className="text-red-400">(Consider reducing)</span>}</div>
         </div>
       </div>
     </div>

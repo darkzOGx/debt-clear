@@ -66,14 +66,14 @@ export default function MortgageCalculator() {
         </div>
       </div>
       
-      <div className="bg-neutral-800 p-4 rounded-lg">
+      <div className="bg-black p-4 rounded-lg">
         <h5 className="font-semibold text-white mb-2">Monthly Payment Breakdown:</h5>
-        <div className="space-y-1 text-sm">
-          <div>Principal & Interest: <span className="font-medium">${monthlyPayment.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
-          <div>Property Tax: <span className="font-medium">${(propertyTax/12).toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
-          <div>Insurance: <span className="font-medium">${(insurance/12).toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+        <div className="space-y-1 text-sm text-white">
+          <div>Principal & Interest: <span className="font-medium text-red-400">${monthlyPayment.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Property Tax: <span className="font-medium text-red-400">${(propertyTax/12).toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Insurance: <span className="font-medium text-red-400">${(insurance/12).toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
           <div className="border-t pt-2">
-            <div>Total Monthly Payment: <span className="font-bold text-white">${totalMonthlyPayment.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+            <div>Total Monthly Payment: <span className="font-bold text-red-400">${totalMonthlyPayment.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
           </div>
         </div>
       </div>

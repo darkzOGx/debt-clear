@@ -67,13 +67,13 @@ export default function RetirementCalculator() {
         </div>
       </div>
       
-      <div className="bg-green-50 p-4 rounded-lg">
-        <h5 className="font-semibold text-green-800 mb-2">Results:</h5>
-        <div className="space-y-1 text-sm">
-          <div>Years to Retirement: <span className="font-medium">{yearsToRetirement}</span></div>
-          <div>Total at Retirement: <span className="font-bold text-green-800">${totalRetirement.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
-          <div>From Current Savings: <span className="font-medium">${futureValueCurrent.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
-          <div>From Contributions: <span className="font-medium">${futureValueContributions.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
+      <div className="bg-black p-4 rounded-lg">
+        <h5 className="font-semibold text-white mb-2">Results:</h5>
+        <div className="space-y-1 text-sm text-white">
+          <div>Years to Retirement: <span className="font-medium text-white">{yearsToRetirement}</span></div>
+          <div>Total at Retirement: <span className="font-bold text-green-400">${totalRetirement.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
+          <div>From Current Savings: <span className="font-medium text-green-400">${futureValueCurrent.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
+          <div>From Contributions: <span className="font-medium text-green-400">${futureValueContributions.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
         </div>
       </div>
     </div>

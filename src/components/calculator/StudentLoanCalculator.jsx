@@ -46,13 +46,13 @@ export default function StudentLoanCalculator() {
         </div>
       </div>
       
-      <div className="bg-purple-50 p-4 rounded-lg">
-        <h5 className="font-semibold text-purple-800 mb-2">Repayment Summary:</h5>
-        <div className="space-y-1 text-sm">
-          <div>Monthly Payment: <span className="font-bold text-purple-800">${monthlyPayment.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
-          <div>Total Interest: <span className="font-medium">${totalInterest.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
-          <div>Total Amount Paid: <span className="font-medium">${totalPaid.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
-          <div>Loan Term: <span className="font-medium">{loanTerm} years ({numberOfPayments} payments)</span></div>
+      <div className="bg-black p-4 rounded-lg">
+        <h5 className="font-semibold text-white mb-2">Repayment Summary:</h5>
+        <div className="space-y-1 text-sm text-white">
+          <div>Monthly Payment: <span className="font-bold text-red-400">${monthlyPayment.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Total Interest: <span className="font-medium text-red-400">${totalInterest.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Total Amount Paid: <span className="font-medium text-red-400">${totalPaid.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Loan Term: <span className="font-medium text-white">{loanTerm} years ({numberOfPayments} payments)</span></div>
         </div>
       </div>
     </div>

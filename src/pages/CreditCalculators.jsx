@@ -21,7 +21,7 @@ function CalculatorCard({ title, description, icon: Icon, calculator: Calculator
       
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full bg-red-600 text-white px-6 py-3 rounded hover:bg-red-700 transition inline-flex items-center justify-center gap-2 mb-4"
+        className="w-full bg-black text-white px-6 py-3 rounded hover:bg-neutral-800 transition inline-flex items-center justify-center gap-2 mb-4"
       >
         {isOpen ? 'Hide Calculator' : 'Use Calculator'}
         {isOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}

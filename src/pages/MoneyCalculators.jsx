@@ -20,7 +20,7 @@ function CalculatorCard({ title, description, icon: Icon, calculator: Calculator
       
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700 transition inline-flex items-center justify-center gap-2 mb-4"
+        className="w-full bg-black text-white px-6 py-3 rounded hover:bg-neutral-800 transition inline-flex items-center justify-center gap-2 mb-4"
       >
         {isOpen ? 'Hide Calculator' : 'Use Calculator'}
         {isOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
@@ -103,13 +103,13 @@ function RetirementCalculator() {
         </div>
       </div>
       
-      <div className="bg-green-50 p-4 rounded-lg">
-        <h5 className="font-semibold text-green-800 mb-2">Results:</h5>
+      <div className="bg-black p-4 rounded-lg">
+        <h5 className="font-semibold text-white mb-2">Results:</h5>
         <div className="space-y-1 text-sm">
-          <div>Years to Retirement: <span className="font-medium">{yearsToRetirement}</span></div>
-          <div>Total at Retirement: <span className="font-bold text-green-800">${totalRetirement.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
-          <div>From Current Savings: <span className="font-medium">${futureValueCurrent.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
-          <div>From Contributions: <span className="font-medium">${futureValueContributions.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
+          <div className="text-white">Years to Retirement: <span className="font-medium text-white">{yearsToRetirement}</span></div>
+          <div className="text-white">Total at Retirement: <span className="font-bold text-green-400">${totalRetirement.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
+          <div className="text-white">From Current Savings: <span className="font-medium text-white">${futureValueCurrent.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
+          <div className="text-white">From Contributions: <span className="font-medium text-white">${futureValueContributions.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
         </div>
       </div>
     </div>
@@ -218,13 +218,13 @@ function BudgetCalculator() {
         </div>
       </div>
       
-      <div className={`${remaining >= 0 ? 'bg-green-50' : 'bg-red-50'} p-4 rounded-lg`}>
-        <h5 className={`font-semibold ${remaining >= 0 ? 'text-green-800' : 'text-red-800'} mb-2`}>Budget Analysis:</h5>
+      <div className="bg-black p-4 rounded-lg">
+        <h5 className="font-semibold text-white mb-2">Budget Analysis:</h5>
         <div className="space-y-1 text-sm">
-          <div>Total Monthly Income: <span className="font-medium">${monthlyIncome.toLocaleString('en-US')}</span></div>
-          <div>Total Monthly Expenses: <span className="font-medium">${totalExpenses.toLocaleString('en-US')}</span></div>
-          <div>Remaining: <span className={`font-bold ${remaining >= 0 ? 'text-green-800' : 'text-red-800'}`}>${remaining.toLocaleString('en-US')}</span></div>
-          <div>Housing as % of Income: <span className={`font-medium ${housingPercent > 30 ? 'text-red-600' : 'text-green-600'}`}>{housingPercent}%</span> {housingPercent > 30 && '(Consider reducing)'}</div>
+          <div className="text-white">Total Monthly Income: <span className="font-medium text-white">${monthlyIncome.toLocaleString('en-US')}</span></div>
+          <div className="text-white">Total Monthly Expenses: <span className="font-medium text-white">${totalExpenses.toLocaleString('en-US')}</span></div>
+          <div className="text-white">Remaining: <span className={`font-bold ${remaining >= 0 ? 'text-green-400' : 'text-red-400'}`}>${remaining.toLocaleString('en-US')}</span></div>
+          <div className="text-white">Housing as % of Income: <span className={`font-medium ${housingPercent > 30 ? 'text-red-400' : 'text-green-400'}`}>{housingPercent}%</span> {housingPercent > 30 && <span className="text-red-400"> (Consider reducing)</span>}</div>
         </div>
       </div>
     </div>
@@ -310,12 +310,12 @@ function CompoundInterestCalculator() {
         </div>
       </div>
       
-      <div className="bg-green-50 p-4 rounded-lg">
-        <h5 className="font-semibold text-green-800 mb-2">Compound Interest Results:</h5>
+      <div className="bg-black p-4 rounded-lg">
+        <h5 className="font-semibold text-white mb-2">Compound Interest Results:</h5>
         <div className="space-y-1 text-sm">
-          <div>Total Contributed: <span className="font-medium">${totalContributed.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
-          <div>Total Interest Earned: <span className="font-medium text-green-700">${totalInterest.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
-          <div>Final Amount: <span className="font-bold text-green-800">${totalValue.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
+          <div className="text-white">Total Contributed: <span className="font-medium text-white">${totalContributed.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
+          <div className="text-white">Total Interest Earned: <span className="font-medium text-green-400">${totalInterest.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
+          <div className="text-white">Final Amount: <span className="font-bold text-green-400">${totalValue.toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
         </div>
       </div>
     </div>
@@ -384,12 +384,12 @@ function SavingsCalculator() {
         </div>
       </div>
       
-      <div className="bg-green-50 p-4 rounded-lg">
-        <h5 className="font-semibold text-green-800 mb-2">Savings Plan:</h5>
+      <div className="bg-black p-4 rounded-lg">
+        <h5 className="font-semibold text-white mb-2">Savings Plan:</h5>
         <div className="space-y-1 text-sm">
-          <div>Amount Still Needed: <span className="font-medium">${needed.toLocaleString('en-US')}</span></div>
-          <div>Time to Reach Goal: <span className="font-bold text-green-800">{Math.ceil(monthsToGoal)} months ({yearsToGoal.toFixed(1)} years)</span></div>
-          <div>Total Contributions Needed: <span className="font-medium">${(monthlyContribution * monthsToGoal).toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
+          <div className="text-white">Amount Still Needed: <span className="font-medium text-white">${needed.toLocaleString('en-US')}</span></div>
+          <div className="text-white">Time to Reach Goal: <span className="font-bold text-green-400">{Math.ceil(monthsToGoal)} months ({yearsToGoal.toFixed(1)} years)</span></div>
+          <div className="text-white">Total Contributions Needed: <span className="font-medium text-white">${(monthlyContribution * monthsToGoal).toLocaleString('en-US', { maximumFractionDigits: 0 })}</span></div>
         </div>
       </div>
     </div>

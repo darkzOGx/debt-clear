@@ -15,11 +15,11 @@ function CalculatorGroupCard({ title, description, icon: Icon, calculators, link
   };
   
   const buttonColorClasses = {
-    green: 'bg-green-600 hover:bg-green-700',
-    blue: 'bg-blue-600 hover:bg-blue-700',
-    orange: 'bg-orange-600 hover:bg-orange-700',
-    red: 'bg-red-600 hover:bg-red-700',
-    purple: 'bg-purple-600 hover:bg-purple-700'
+    green: 'bg-black hover:bg-neutral-800',
+    blue: 'bg-black hover:bg-neutral-800',
+    orange: 'bg-black hover:bg-neutral-800',
+    red: 'bg-black hover:bg-neutral-800',
+    purple: 'bg-black hover:bg-neutral-800'
   };
 
   return (
