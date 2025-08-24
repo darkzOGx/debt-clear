@@ -51,12 +51,12 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] bg-gradient-to-br from-green-600 via-emerald-600 to-teal-700 text-white overflow-hidden">
+      <section className="relative min-h-[60vh] bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-24">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-green-100 hover:text-white transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
@@ -64,7 +64,7 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
 
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-white rounded-full"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-green-100 font-mono">
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
               RETIREMENT PLANNING
             </span>
           </div>
@@ -72,14 +72,14 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
           <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
             Retirement Planning
             <br />
-            <span className="text-green-200">After Debt Relief</span>
+            <span className="text-neutral-300">After Debt Relief</span>
           </h1>
 
-          <p className="text-xl lg:text-2xl text-green-100 mb-8 max-w-3xl leading-relaxed">
+          <p className="text-xl lg:text-2xl text-neutral-300 mb-8 max-w-3xl leading-relaxed">
             Rebuild and optimize your retirement savings after successful debt settlement in Orange County
           </p>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-green-200 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>August 5, 2025</span>

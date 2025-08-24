@@ -78,22 +78,21 @@ export default function FdcpaConsumerProtectionOrangeCounty() {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10"></div>
+      <section className="relative py-20 overflow-hidden text-white">
+        <div className="absolute inset-0 bg-gradient-to-b from-black to-neutral-900"></div>
         
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-neutral-300 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <Scale className="w-6 h-6 text-blue-600" />
-            <span className="text-sm uppercase tracking-wider text-blue-600 font-semibold">
+            <Scale className="w-6 h-6 text-white" />
+            <span className="text-sm uppercase tracking-wider text-neutral-300 font-semibold">
               CONSUMER RIGHTS
             </span>
           </div>

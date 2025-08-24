@@ -51,12 +51,12 @@ export default function StudentLoanDebtReliefOrangeCounty() {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] bg-gradient-to-br from-cyan-600 via-blue-600 to-indigo-700 text-white overflow-hidden">
+      <section className="relative min-h-[60vh] bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-24">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-cyan-100 hover:text-white transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
@@ -64,7 +64,7 @@ export default function StudentLoanDebtReliefOrangeCounty() {
 
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-white rounded-full"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-cyan-100 font-mono">
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
               STUDENT LOAN DEBT RELIEF
             </span>
           </div>
@@ -72,14 +72,14 @@ export default function StudentLoanDebtReliefOrangeCounty() {
           <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
             Student Loan
             <br />
-            <span className="text-cyan-200">Debt Relief</span>
+            <span className="text-neutral-300">Debt Relief</span>
           </h1>
 
-          <p className="text-xl lg:text-2xl text-cyan-100 mb-8 max-w-3xl leading-relaxed">
+          <p className="text-xl lg:text-2xl text-neutral-300 mb-8 max-w-3xl leading-relaxed">
             Comprehensive debt relief solutions for Orange County student loan borrowers
           </p>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-cyan-200 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>August 18, 2025</span>
@@ -96,7 +96,7 @@ export default function StudentLoanDebtReliefOrangeCounty() {
 
           <button 
             onClick={scrollToConsultation}
-            className="bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold hover:bg-cyan-50 transition-colors inline-flex items-center gap-2"
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
           >
             Get Debt Relief Help
             <ArrowLeft className="w-4 h-4 rotate-180" />

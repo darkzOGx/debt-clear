@@ -66,27 +66,24 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
       </Helmet>
       
       <div className="min-h-screen bg-white">
-      <section className="relative py-24 bg-gradient-to-br from-orange-50 via-white to-red-50 overflow-hidden border-b border-orange-100">
-        <div className="absolute inset-0 bg-gradient-to-r from-orange-600/5 to-red-600/5"></div>
-        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-orange-200/20 to-transparent rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-red-200/20 to-transparent rounded-full blur-3xl"></div>
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
-          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-orange-600 transition-colors mb-8 z-10 relative">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8 z-10 relative">
             <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">TAX PLANNING</span>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">TAX PLANNING</span>
           </div>
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             1099-C Tax Forms and Debt Settlement:<br />
             <span className="font-mono text-3xl lg:text-4xl">Orange County Guide</span>
           </h1>
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>June 15, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>10 min read</span></div>
             <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Tax Planning Team</span></div>
           </div>
-          <p className="text-xl text-neutral-700 leading-relaxed font-light relative z-10">
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             Understanding Form 1099-C is crucial for Orange County residents completing debt settlement. This form reports canceled debt to the IRS and can create unexpected tax liability.
           </p>
         </div>

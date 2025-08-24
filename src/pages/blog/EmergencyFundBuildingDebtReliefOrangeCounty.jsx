@@ -78,14 +78,13 @@ export default function EmergencyFundBuildingDebtReliefOrangeCounty() {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-emerald-50 via-green-50 to-teal-50"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-emerald-600/10 to-teal-600/10"></div>
+      <section className="relative py-20 overflow-hidden text-white">
+        <div className="absolute inset-0 bg-gradient-to-b from-black to-neutral-900"></div>
         
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-emerald-600 hover:text-emerald-700 transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-neutral-300 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources

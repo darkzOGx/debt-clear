@@ -66,27 +66,24 @@ export default function AiVsTraditionalDebtSettlement() {
       </Helmet>
       
       <div className="min-h-screen bg-white">
-      <section className="relative py-24 bg-gradient-to-br from-emerald-50 via-white to-teal-50 overflow-hidden border-b border-emerald-100">
-        <div className="absolute inset-0 bg-gradient-to-r from-emerald-600/5 to-teal-600/5"></div>
-        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-emerald-200/20 to-transparent rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-teal-200/20 to-transparent rounded-full blur-3xl"></div>
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
-          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-emerald-600 transition-colors mb-8 z-10 relative">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8 z-10 relative">
             <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">TECHNOLOGY</span>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">TECHNOLOGY</span>
           </div>
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             AI vs Traditional Debt Settlement:<br />
             <span className="font-mono text-3xl lg:text-4xl">Orange County Case Studies</span>
           </h1>
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 10, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>12 min read</span></div>
             <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Research Team</span></div>
           </div>
-          <p className="text-xl text-neutral-700 leading-relaxed font-light relative z-10">
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             Real results comparing AI-powered debt negotiation with traditional companies for Orange County families. Data from 500+ local cases shows significant differences in outcomes, timeline, and cost.
           </p>
         </div>

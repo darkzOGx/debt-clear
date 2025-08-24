@@ -51,12 +51,12 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-700 text-white overflow-hidden">
+      <section className="relative min-h-[60vh] bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-24">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-indigo-100 hover:text-white transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
@@ -64,7 +64,7 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
 
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-white rounded-full"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-indigo-100 font-mono">
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
               STUDENT LOAN FORGIVENESS
             </span>
           </div>
@@ -72,14 +72,14 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
           <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
             Orange County
             <br />
-            <span className="text-indigo-200">Student Loan Forgiveness</span>
+            <span className="text-neutral-300">Student Loan Forgiveness</span>
           </h1>
 
-          <p className="text-xl lg:text-2xl text-indigo-100 mb-8 max-w-3xl leading-relaxed">
+          <p className="text-xl lg:text-2xl text-neutral-300 mb-8 max-w-3xl leading-relaxed">
             Complete 2025 guide to forgiveness programs and discharge options for Orange County borrowers
           </p>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-indigo-200 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>August 20, 2025</span>
