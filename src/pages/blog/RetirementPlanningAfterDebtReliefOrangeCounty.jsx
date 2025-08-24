@@ -1,6 +1,7 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Calendar, Clock, User, TrendingUp, DollarSign, Target, Shield } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, TrendingUp, DollarSign, Target, Shield, PieChart, Briefcase, Calculator } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -14,43 +15,170 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+      <Helmet>
+        <title>Retirement Planning After Debt Relief Orange County | Rebuild Your Future 2025</title>
+        <meta name="description" content="Comprehensive retirement planning for Orange County residents after debt settlement. Maximize 401k, IRA contributions, catch-up strategies, and Social Security optimization." />
+        <meta name="keywords" content="retirement planning Orange County, post debt settlement retirement, 401k optimization, IRA strategies, catch up contributions, Social Security planning" />
+        <meta property="og:title" content="Retirement Planning After Debt Relief Orange County | Rebuild Future" />
+        <meta property="og:description" content="Comprehensive retirement planning strategies for Orange County residents after debt settlement. Rebuild and optimize your retirement savings." />
+        <meta property="og:type" content="article" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://vegaxholdings.com/blog/retirement-planning-after-debt-relief-orange-county" />
+        
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Retirement Planning After Debt Relief Orange County Rebuild Future 2025",
+            "description": "Comprehensive retirement planning for Orange County residents after debt settlement. Maximize 401k, IRA contributions, catch-up strategies, and Social Security optimization.",
+            "author": {
+              "@type": "Organization",
+              "name": "VegaX Holdings"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "VegaX Holdings",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://vegaxholdings.com/logo.png"
+              }
+            },
+            "datePublished": "2025-08-05",
+            "dateModified": "2025-08-05",
+            "mainEntityOfPage": "https://vegaxholdings.com/blog/retirement-planning-after-debt-relief-orange-county"
+          })}
+        </script>
+      </Helmet>
+
+      {/* Hero Section */}
+      <section className="relative min-h-[60vh] bg-gradient-to-br from-green-600 via-emerald-600 to-teal-700 text-white overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent"></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-24">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-green-100 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-              FINANCIAL PLANNING
+            <div className="w-2 h-2 bg-white rounded-full"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-green-100 font-mono">
+              RETIREMENT PLANNING
             </span>
           </div>
 
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Retirement Planning After Debt Relief:
+          <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
+            Retirement Planning
             <br />
-            <span className="font-mono text-3xl lg:text-4xl">Orange County Recovery Guide</span>
+            <span className="text-green-200">After Debt Relief</span>
           </h1>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <p className="text-xl lg:text-2xl text-green-100 mb-8 max-w-3xl leading-relaxed">
+            Rebuild and optimize your retirement savings after successful debt settlement in Orange County
+          </p>
+
+          <div className="flex items-center gap-6 text-sm font-mono text-green-200 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>August 5, 2025</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
-              <span>14 min read</span>
+              <span>15 min read</span>
             </div>
             <div className="flex items-center gap-2">
               <User className="w-4 h-4" />
               <span>Retirement Specialist</span>
             </div>
+          </div>
+
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-emerald-700 px-8 py-4 rounded-lg font-semibold hover:bg-green-50 transition-colors inline-flex items-center gap-2"
+          >
+            Plan My Retirement
+            <ArrowLeft className="w-4 h-4 rotate-180" />
+          </button>
+        </div>
+      </section>
+
+      {/* Statistics Section */}
+      <section className="py-16 bg-green-50">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="grid md:grid-cols-4 gap-8">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-green-500"
+            >
+              <div className="flex items-center gap-4 mb-4">
+                <div className="p-3 bg-green-100 rounded-xl">
+                  <Target className="w-8 h-8 text-green-600" />
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-gray-900">30+</div>
+                  <div className="text-gray-600 text-sm">Years to Rebuild After 50</div>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-emerald-500"
+            >
+              <div className="flex items-center gap-4 mb-4">
+                <div className="p-3 bg-emerald-100 rounded-xl">
+                  <DollarSign className="w-8 h-8 text-emerald-600" />
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-gray-900">$85K</div>
+                  <div className="text-gray-600 text-sm">OC Comfortable Retirement</div>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-teal-500"
+            >
+              <div className="flex items-center gap-4 mb-4">
+                <div className="p-3 bg-teal-100 rounded-xl">
+                  <Calculator className="w-8 h-8 text-teal-600" />
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-gray-900">$30.5K</div>
+                  <div className="text-gray-600 text-sm">Max 401k + Catch-up (50+)</div>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-blue-500"
+            >
+              <div className="flex items-center gap-4 mb-4">
+                <div className="p-3 bg-blue-100 rounded-xl">
+                  <TrendingUp className="w-8 h-8 text-blue-600" />
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-gray-900">7%</div>
+                  <div className="text-gray-600 text-sm">Historical Market Returns</div>
+                </div>
+              </div>
+            </motion.div>
           </div>
         </div>
       </section>
@@ -62,7 +190,7 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
             
             {/* Introduction */}
             <div className="text-xl text-neutral-700 leading-relaxed mb-12">
-              After completing debt settlement, Orange County residents must rebuild their retirement savings while managing one of the nation's highest costs of living. This strategic guide provides actionable steps to secure your financial future after debt relief.
+              After completing debt settlement, Orange County residents must rebuild their retirement savings while managing one of the nation's highest costs of living. This strategic guide provides actionable steps to secure your financial future after debt relief, with specific focus on maximizing catch-up opportunities and tax-advantaged savings.
             </div>
 
             {/* Retirement Reality Check */}
@@ -71,7 +199,7 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-red-50 border border-red-200 p-8 mb-12"
+              className="bg-amber-50 border border-amber-200 p-8 mb-12 rounded-lg"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <Target className="w-6 h-6" />
@@ -82,27 +210,28 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
                 <div>
                   <h3 className="text-lg font-semibold text-black mb-3">Annual Retirement Costs in OC</h3>
                   <ul className="space-y-2 text-neutral-700">
-                    <li>• Comfortable retirement: $85,000-120,000</li>
-                    <li>• Basic necessities: $65,000-85,000</li>
-                    <li>• Healthcare costs: $8,000-15,000/year</li>
-                    <li>• Housing (owned): $2,000-4,000/month</li>
+                    <li>• <strong>Comfortable retirement:</strong> $85,000-120,000</li>
+                    <li>• <strong>Basic necessities:</strong> $65,000-85,000</li>
+                    <li>• <strong>Healthcare costs:</strong> $8,000-15,000/year</li>
+                    <li>• <strong>Housing (owned):</strong> $2,000-4,000/month</li>
                   </ul>
                 </div>
                 
                 <div>
                   <h3 className="text-lg font-semibold text-black mb-3">Required Savings by Age</h3>
                   <ul className="space-y-2 text-neutral-700">
-                    <li>• Age 40: 3x annual income saved</li>
-                    <li>• Age 50: 6x annual income saved</li>
-                    <li>• Age 60: 8x annual income saved</li>
-                    <li>• Age 67: 10x annual income saved</li>
+                    <li>• <strong>Age 40:</strong> 3x annual income saved</li>
+                    <li>• <strong>Age 50:</strong> 6x annual income saved</li>
+                    <li>• <strong>Age 60:</strong> 8x annual income saved</li>
+                    <li>• <strong>Age 67:</strong> 10x annual income saved</li>
                   </ul>
                 </div>
               </div>
 
-              <div className="mt-6 p-4 bg-white border border-red-200">
+              <div className="mt-6 p-4 bg-white border border-amber-200 rounded-lg">
+                <h4 className="font-semibold text-black mb-2">Post-Debt Settlement Challenge</h4>
                 <p className="text-sm text-neutral-700">
-                  <strong>Post-Debt Settlement Challenge:</strong> If you're behind on retirement savings due to debt issues, you'll need aggressive catch-up strategies to meet these Orange County retirement goals.
+                  If you're behind on retirement savings due to debt issues, you'll need aggressive catch-up strategies to meet these Orange County retirement goals.
                 </p>
               </div>
             </motion.div>
@@ -115,10 +244,13 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="mb-12"
             >
-              <h2 className="text-2xl font-semibold text-black mb-6">Retirement Catch-Up Strategy After Debt Settlement</h2>
+              <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
+                <Shield className="w-6 h-6" />
+                Retirement Catch-Up Strategy After Debt Settlement
+              </h2>
               
               <div className="space-y-6">
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
                   <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
                     <DollarSign className="w-5 h-5" />
                     Phase 1: Foundation (Months 1-6)
@@ -134,7 +266,7 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-green-50 border border-green-200 p-6 rounded-lg">
                   <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
                     <TrendingUp className="w-5 h-5" />
                     Phase 2: Acceleration (Months 7-18)
@@ -150,7 +282,7 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-purple-50 border border-purple-200 p-6">
+                <div className="bg-purple-50 border border-purple-200 p-6 rounded-lg">
                   <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
                     <Shield className="w-5 h-5" />
                     Phase 3: Optimization (Year 2+)
@@ -250,7 +382,7 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
                 </div>
               </div>
 
-              <div className="mt-8 bg-yellow-50 border border-yellow-200 p-6">
+              <div className="mt-8 bg-yellow-50 border border-yellow-200 p-6 rounded-lg">
                 <h4 className="font-semibold text-black mb-2">Recommended Orange County Portfolio</h4>
                 <p className="text-neutral-700 mb-3">
                   For residents recovering from debt, consider this balanced approach:
@@ -265,137 +397,45 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
               </div>
             </motion.div>
 
-            {/* Social Security Optimization */}
+            {/* CTA Section */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.8 }}
-              className="mb-12"
+              className="bg-gradient-to-r from-green-600 to-emerald-700 text-white p-8 rounded-2xl text-center mb-12"
             >
-              <h2 className="text-2xl font-semibold text-black mb-6">Social Security Optimization for Orange County</h2>
-              
-              <div className="space-y-4">
-                <div className="bg-green-50 border border-green-200 p-6">
-                  <h3 className="font-semibold text-black mb-2">Claiming Strategy</h3>
-                  <p className="text-neutral-700 mb-3">
-                    Orange County's high cost of living makes Social Security timing critical:
-                  </p>
-                  <ul className="text-sm text-neutral-600 space-y-1">
-                    <li>• Full retirement age: 67 for those born after 1960</li>
-                    <li>• Early claiming (62): 25% reduction in benefits</li>
-                    <li>• Delayed claiming (70): 8% annual increase</li>
-                    <li>• Spousal benefits: Up to 50% of higher earner's benefit</li>
-                  </ul>
-                </div>
-
-                <div className="bg-blue-50 border border-blue-200 p-6">
-                  <h3 className="font-semibold text-black mb-2">Maximization Strategies</h3>
-                  <ul className="text-sm text-neutral-600 space-y-1">
-                    <li>• Work at least 35 years for maximum benefit calculation</li>
-                    <li>• Delay claiming until age 70 if health permits</li>
-                    <li>• Coordinate with spouse for optimal household benefits</li>
-                    <li>• Consider tax implications of benefits in retirement</li>
-                  </ul>
-                </div>
-              </div>
-            </motion.div>
-
-            {/* Healthcare Planning */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 1.0 }}
-              className="mb-12"
-            >
-              <h2 className="text-2xl font-semibold text-black mb-6">Healthcare Cost Planning in Orange County</h2>
-              
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <h3 className="text-lg font-semibold text-black mb-3">Health Savings Account (HSA)</h3>
-                  <p className="text-neutral-700 mb-3">
-                    Triple tax advantage makes HSAs perfect for retirement healthcare:
-                  </p>
-                  <ul className="text-sm text-neutral-600 space-y-1">
-                    <li>• 2025 contribution limit: $4,300 (individual), $8,550 (family)</li>
-                    <li>• Tax-deductible contributions</li>
-                    <li>• Tax-free growth and medical withdrawals</li>
-                    <li>• Acts as retirement account after age 65</li>
-                  </ul>
-                </div>
-                
-                <div>
-                  <h3 className="text-lg font-semibold text-black mb-3">Long-Term Care Insurance</h3>
-                  <p className="text-neutral-700 mb-3">
-                    Orange County long-term care costs are among the highest:
-                  </p>
-                  <ul className="text-sm text-neutral-600 space-y-1">
-                    <li>• Average nursing home: $8,000-12,000/month</li>
-                    <li>• Home care: $35-50/hour</li>
-                    <li>• Buy coverage in your 50s for better rates</li>
-                    <li>• Consider hybrid life insurance policies</li>
-                  </ul>
-                </div>
-              </div>
-            </motion.div>
-
-            {/* Related Articles */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 1.2 }}
-              className="border-t border-neutral-200 pt-12 mb-12"
-            >
-              <h2 className="text-2xl font-semibold text-black mb-8">Related Retirement Planning Articles</h2>
-              
-              <div className="grid md:grid-cols-2 gap-6">
-                <Link 
-                  to="/blog/financial-planning-after-debt-settlement-orange-county"
-                  className="bg-neutral-50 p-6 border border-neutral-200 hover:border-black transition-colors group"
-                >
-                  <h3 className="font-semibold text-black mb-3 group-hover:underline">
-                    Complete Financial Planning After Debt Settlement
-                  </h3>
-                  <p className="text-neutral-600 text-sm">
-                    Comprehensive guide to rebuilding finances after debt relief in Orange County.
-                  </p>
-                </Link>
-                
-                <Link 
-                  to="/blog/emergency-fund-building-debt-relief-orange-county"
-                  className="bg-neutral-50 p-6 border border-neutral-200 hover:border-black transition-colors group"
-                >
-                  <h3 className="font-semibold text-black mb-3 group-hover:underline">
-                    Emergency Fund Building After Debt Relief
-                  </h3>
-                  <p className="text-neutral-600 text-sm">
-                    Build financial security with emergency savings after debt settlement.
-                  </p>
-                </Link>
-              </div>
-            </motion.div>
-
-            {/* CTA */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 1.4 }}
-              className="bg-black text-white p-8 text-center"
-            >
-              <h2 className="text-2xl font-light mb-4">
+              <h2 className="text-2xl font-bold mb-4">
                 Secure Your Retirement After Debt Relief
               </h2>
-              <p className="text-neutral-300 mb-6 max-w-2xl mx-auto">
-                Get personalized retirement planning guidance for Orange County residents recovering from debt. Start rebuilding your financial future today.
+              <p className="text-green-100 mb-6 max-w-2xl mx-auto">
+                Get personalized retirement planning guidance for Orange County residents recovering from debt. Start rebuilding your financial future today with expert strategies.
               </p>
+              <div className="grid md:grid-cols-2 gap-6 text-sm mb-6">
+                <div>
+                  <h4 className="font-semibold mb-2">Planning Services:</h4>
+                  <ul className="space-y-1 text-green-200">
+                    <li>• Catch-up contribution strategies</li>
+                    <li>• Tax optimization planning</li>
+                    <li>• Investment allocation guidance</li>
+                    <li>• Social Security maximization</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Orange County Focus:</h4>
+                  <ul className="space-y-1 text-green-200">
+                    <li>• High cost of living adjustments</li>
+                    <li>• Local employer 401k optimization</li>
+                    <li>• Healthcare cost planning</li>
+                    <li>• Estate planning considerations</li>
+                  </ul>
+                </div>
+              </div>
               <button 
                 onClick={scrollToConsultation}
-                className="bg-white text-black px-8 py-3 hover:bg-neutral-100 transition-colors font-mono text-sm uppercase tracking-wide"
+                className="bg-white text-emerald-700 px-8 py-3 rounded-lg font-semibold hover:bg-green-50 transition-colors"
               >
-                Plan Your Retirement
+                Plan My Retirement
               </button>
             </motion.div>
           </div>
