@@ -1,54 +1,93 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { ArrowLeft, Calendar, Clock, User, Scale, TrendingUp, Shield } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import { Phone, Calculator, Shield, TrendingDown, Users, AlertTriangle, DollarSign, FileText, Scale, Clock, ChevronRight, Target, Award, Building } from 'lucide-react';
 
 export default function OrangeCountyBankruptcyAlternatives2025() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <Link 
-            to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Resources
-          </Link>
+      <Helmet>
+        <title>Orange County Bankruptcy Alternatives 2025: Better Solutions to Avoid Bankruptcy</title>
+        <meta name="description" content="Discover proven bankruptcy alternatives in Orange County: debt settlement, assignment for creditors, workout agreements. Preserve assets and credit with these better solutions." />
+        <meta name="keywords" content="Orange County bankruptcy alternatives, debt settlement, assignment for benefit of creditors, workout agreements, avoid bankruptcy, debt relief alternatives, asset protection, credit preservation, business bankruptcy alternatives, California debt relief" />
+        <link rel="canonical" href="https://vegaxai.com/blog/orange-county-bankruptcy-alternatives-2025" />
+        
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Orange County Bankruptcy Alternatives 2025: Better Solutions to Avoid Bankruptcy",
+            "datePublished": "2025-08-23",
+            "dateModified": "2025-08-23",
+            "author": {
+              "@type": "Organization",
+              "name": "VegaX AI Financial Solutions"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "VegaX AI",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://vegaxai.com/logo.svg"
+              }
+            },
+            "description": "Complete guide to bankruptcy alternatives for Orange County residents including debt settlement, workout agreements, and asset protection strategies.",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://vegaxai.com/blog/orange-county-bankruptcy-alternatives-2025"
+            }
+          })}
+        </script>
+      </Helmet>
 
-          <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-              BANKRUPTCY ALTERNATIVES
-            </span>
-          </div>
-
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Orange County Bankruptcy Alternatives:
-            <br />
-            <span className="font-mono text-3xl lg:text-4xl">Better Solutions 2025</span>
+      {/* Hero Section */}
+      <section className="bg-gradient-to-b from-blue-900 to-blue-800 text-white py-20">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-sm text-blue-200 mb-4">Published August 23, 2025 • 21 min read</div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            Orange County Bankruptcy Alternatives: Better Solutions That Preserve Your Assets and Credit
           </h1>
+          <p className="text-xl text-blue-100 mb-8">
+            Don't assume bankruptcy is your only option. Orange County residents have access to sophisticated alternatives that often provide better outcomes while preserving assets, credit, and future opportunities.
+          </p>
+          <div className="flex flex-wrap gap-4">
+            <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-blue-900 px-6 py-3 rounded hover:bg-blue-50 transition">
+              <Calculator className="w-5 h-5" />
+              Calculate Your Savings
+            </Link>
+            <a href="#consultation" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded hover:bg-white hover:text-blue-900 transition">
+              <Phone className="w-5 h-5" />
+              Free Consultation
+            </a>
+          </div>
+        </div>
+      </section>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              <span>August 15, 2025</span>
+      {/* Statistics Section */}
+      <section className="py-12 bg-blue-50">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="grid md:grid-cols-4 gap-6">
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <Shield className="w-8 h-8 text-blue-900 mb-2" />
+              <div className="text-2xl font-bold">75%</div>
+              <div className="text-sm text-neutral-600">Avoid Bankruptcy</div>
             </div>
-            <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4" />
-              <span>21 min read</span>
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <Building className="w-8 h-8 text-blue-900 mb-2" />
+              <div className="text-2xl font-bold">2-4</div>
+              <div className="text-sm text-neutral-600">Years Credit Impact</div>
             </div>
-            <div className="flex items-center gap-2">
-              <User className="w-4 h-4" />
-              <span>VegaX Financial Recovery Team</span>
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <DollarSign className="w-8 h-8 text-blue-900 mb-2" />
+              <div className="text-2xl font-bold">40-60%</div>
+              <div className="text-sm text-neutral-600">Debt Reduction</div>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <Target className="w-8 h-8 text-blue-900 mb-2" />
+              <div className="text-2xl font-bold">$1.25M</div>
+              <div className="text-sm text-neutral-600">Asset Protection</div>
             </div>
           </div>
-
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">
-            Comprehensive exploration of bankruptcy alternatives for Orange County residents, including 
-            debt settlement, assignment for benefit of creditors, and workout agreements that preserve assets and credit.
-          </p>
         </div>
       </section>
 
@@ -457,16 +496,16 @@ export default function OrangeCountyBankruptcyAlternatives2025() {
               </div>
             </div>
 
-            <div className="bg-black text-white p-8 mb-8">
-              <h3 className="text-xl font-semibold mb-4">Bankruptcy Alternative Assessment</h3>
-              <p className="mb-6 text-neutral-300">
+            <div className="bg-blue-900 text-white p-8 mb-8 rounded-lg">
+              <h3 className="text-xl font-semibold mb-4">Free Bankruptcy Alternative Assessment</h3>
+              <p className="mb-6 text-blue-100">
                 Don't assume bankruptcy is your only option. Our comprehensive analysis identifies 
                 better alternatives that preserve assets and minimize long-term financial impact.
               </p>
               <div className="grid md:grid-cols-2 gap-6 text-sm">
                 <div>
                   <h4 className="font-semibold mb-2">Alternative Evaluation:</h4>
-                  <ul className="space-y-1 text-neutral-300">
+                  <ul className="space-y-1 text-blue-100">
                     <li>• Asset protection analysis</li>
                     <li>• Debt settlement feasibility</li>
                     <li>• Workout agreement potential</li>
@@ -475,13 +514,23 @@ export default function OrangeCountyBankruptcyAlternatives2025() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2">Outcome Benefits:</h4>
-                  <ul className="space-y-1 text-neutral-300">
+                  <ul className="space-y-1 text-blue-100">
                     <li>• Preserve valuable assets</li>
                     <li>• Maintain business operations</li>
                     <li>• Minimize credit damage</li>
                     <li>• Achieve faster recovery</li>
                   </ul>
                 </div>
+              </div>
+              <div className="flex flex-wrap gap-4 mt-6">
+                <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-blue-900 px-6 py-3 rounded hover:bg-blue-50 transition">
+                  <Calculator className="w-5 h-5" />
+                  Analyze Your Options
+                </Link>
+                <a href="#consultation" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded hover:bg-white hover:text-blue-900 transition">
+                  <Phone className="w-5 h-5" />
+                  Free Consultation
+                </a>
               </div>
             </div>
 
@@ -496,6 +545,77 @@ export default function OrangeCountyBankruptcyAlternatives2025() {
           </div>
         </div>
       </article>
+
+      {/* Consultation Form */}
+      <section id="consultation" className="bg-gradient-to-r from-blue-900 to-blue-700 text-white p-8">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold mb-6">Free Bankruptcy Alternative Analysis</h2>
+          <p className="mb-6">
+            Get a complete evaluation of all your debt relief options. Our Orange County specialists will identify the best alternatives to bankruptcy that preserve your assets and minimize credit impact.
+          </p>
+          <div className="grid md:grid-cols-2 gap-6 mb-6">
+            <div>
+              <label className="block mb-2 text-sm">Full Name</label>
+              <input type="text" className="w-full p-3 rounded text-black" placeholder="John Smith" />
+            </div>
+            <div>
+              <label className="block mb-2 text-sm">Phone Number</label>
+              <input type="tel" className="w-full p-3 rounded text-black" placeholder="(714) 555-0100" />
+            </div>
+            <div>
+              <label className="block mb-2 text-sm">Email Address</label>
+              <input type="email" className="w-full p-3 rounded text-black" placeholder="john@example.com" />
+            </div>
+            <div>
+              <label className="block mb-2 text-sm">City</label>
+              <select className="w-full p-3 rounded text-black">
+                <option>Select your city</option>
+                <option>Irvine</option>
+                <option>Newport Beach</option>
+                <option>Anaheim</option>
+                <option>Santa Ana</option>
+                <option>Huntington Beach</option>
+                <option>Costa Mesa</option>
+                <option>Mission Viejo</option>
+                <option>Fullerton</option>
+                <option>Garden Grove</option>
+                <option>Orange</option>
+                <option>Other Orange County City</option>
+              </select>
+            </div>
+            <div>
+              <label className="block mb-2 text-sm">Total Debt Amount</label>
+              <select className="w-full p-3 rounded text-black">
+                <option>Select range</option>
+                <option>Under $25,000</option>
+                <option>$25,000 - $50,000</option>
+                <option>$50,000 - $100,000</option>
+                <option>$100,000 - $250,000</option>
+                <option>$250,000 - $500,000</option>
+                <option>Over $500,000</option>
+              </select>
+            </div>
+            <div>
+              <label className="block mb-2 text-sm">Current Financial Status</label>
+              <select className="w-full p-3 rounded text-black">
+                <option>Select status</option>
+                <option>Behind on payments</option>
+                <option>Considering bankruptcy</option>
+                <option>Facing foreclosure</option>
+                <option>Overwhelmed by debt</option>
+                <option>Need asset protection</option>
+              </select>
+            </div>
+          </div>
+          <div className="mb-6">
+            <label className="block mb-2 text-sm">Describe Your Situation</label>
+            <textarea className="w-full p-3 rounded text-black h-24" placeholder="Tell us about your debt situation and what you hope to achieve..."></textarea>
+          </div>
+          <button className="bg-white text-blue-900 px-8 py-3 rounded font-bold hover:bg-blue-50 transition">
+            Get Your Free Bankruptcy Alternative Analysis →
+          </button>
+        </div>
+      </section>
     </div>
   );
 }
