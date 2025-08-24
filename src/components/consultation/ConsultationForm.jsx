@@ -7,7 +7,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Checkbox } from '@/components/ui/checkbox';
 import { ArrowRight, CheckCircle } from 'lucide-react';
 
-export default function ConsultationForm() {
+export default function ConsultationForm({ sectionId = "consultation" }) {
   const [formData, setFormData] = useState({
     full_name: '',
     email: '',
@@ -81,7 +81,7 @@ export default function ConsultationForm() {
 
   if (isSubmitted) {
     return (
-      <section id="consultation" className="py-24 bg-neutral-50 border-t border-neutral-200">
+      <section id={sectionId + "-submitted"} className="py-24 bg-neutral-50 border-t border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -134,7 +134,7 @@ export default function ConsultationForm() {
   }
 
   return (
-    <section id="consultation" className="py-24 bg-white border-t border-neutral-200">
+    <section id={sectionId} className="py-24 bg-white border-t border-neutral-200">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         {/* Header */}
         <div className="mb-16">
@@ -169,17 +169,18 @@ export default function ConsultationForm() {
             <div className="border border-neutral-200 bg-neutral-50 p-8">
               <form onSubmit={submitForm} className="space-y-8">
                 <div>
-                  <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-700 mb-4">
+                  <h3 className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-700 mb-4">
                     Contact Information
-                  </div>
+                  </h3>
                   <div className="h-px bg-neutral-200 mb-6"></div>
                   
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <Label className="text-sm font-mono text-neutral-800 mb-3 block">
+                      <Label htmlFor="consultation-full-name" className="text-sm font-mono text-neutral-800 mb-3 block">
                         Full Name
                       </Label>
                       <Input
+                        id="consultation-full-name"
                         type="text"
                         required
                         value={formData.full_name}
@@ -189,10 +190,11 @@ export default function ConsultationForm() {
                     </div>
                     
                     <div>
-                      <Label className="text-sm font-mono text-neutral-800 mb-3 block">
+                      <Label htmlFor="consultation-email" className="text-sm font-mono text-neutral-800 mb-3 block">
                         Email Address
                       </Label>
                       <Input
+                        id="consultation-email"
                         type="email"
                         required
                         value={formData.email}
@@ -211,10 +213,11 @@ export default function ConsultationForm() {
                   
                   <div className="grid md:grid-cols-2 gap-6 mb-6">
                     <div>
-                      <Label className="text-sm font-mono text-neutral-800 mb-3 block">
+                      <Label htmlFor="consultation-phone" className="text-sm font-mono text-neutral-800 mb-3 block">
                         Phone Number
                       </Label>
                       <Input
+                        id="consultation-phone"
                         type="tel"
                         required
                         value={formData.phone}
@@ -224,10 +227,11 @@ export default function ConsultationForm() {
                     </div>
                     
                     <div>
-                      <Label className="text-sm font-mono text-neutral-800 mb-3 block">
+                      <Label htmlFor="consultation-debt-amount" className="text-sm font-mono text-neutral-800 mb-3 block">
                         Total Debt Amount ($)
                       </Label>
                       <Input
+                        id="consultation-debt-amount"
                         type="number"
                         required
                         value={formData.debt_amount}
@@ -238,9 +242,9 @@ export default function ConsultationForm() {
                   </div>
 
                   <div className="mb-6">
-                    <Label className="text-sm font-mono text-neutral-800 mb-4 block">
-                      Debt Categories
-                    </Label>
+                    <h3 className="text-sm font-mono text-neutral-800 mb-4 block">
+                      Specialized Debt Categories
+                    </h3>
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                       {[
                         { value: 'credit_cards', label: 'Credit Cards' },
@@ -265,10 +269,11 @@ export default function ConsultationForm() {
                 </div>
 
                 <div>
-                  <Label className="text-sm font-mono text-neutral-800 mb-3 block">
+                  <Label htmlFor="consultation-notes" className="text-sm font-mono text-neutral-800 mb-3 block">
                     Additional Context (Optional)
                   </Label>
                   <Textarea
+                    id="consultation-notes"
                     value={formData.additional_notes}
                     onChange={(e) => handleInputChange('additional_notes', e.target.value)}
                     className="border border-neutral-300 bg-white font-mono text-sm min-h-24 focus:border-black focus-visible:ring-0"
@@ -298,9 +303,9 @@ export default function ConsultationForm() {
           >
             <div className="space-y-8">
               <div className="border border-neutral-200 bg-white p-6">
-                <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-700 mb-4">
+                <h3 className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-700 mb-4">
                   Session Protocol
-                </div>
+                </h3>
                 <div className="h-px bg-neutral-200 mb-6"></div>
                 
                 <div className="space-y-4">
@@ -320,9 +325,9 @@ export default function ConsultationForm() {
               </div>
 
               <div className="border border-neutral-200 bg-neutral-900 text-white p-6">
-                <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-400 mb-4">
+                <h3 className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-400 mb-4">
                   Research Standards
-                </div>
+                </h3>
                 <div className="h-px bg-neutral-700 mb-6"></div>
                 
                 <div className="space-y-3">

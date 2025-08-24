@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, MapPin } from 'lucide-react';
@@ -16,7 +17,51 @@ export default function AnaheimDebtSettlement() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <Helmet>
+        <title>Debt Settlement Anaheim CA | Expert Debt Relief Services | VegaX AI</title>
+        <meta name="description" content="Professional debt settlement services for Anaheim, CA residents. AI-powered debt reduction, 50% savings, local expertise. Free consultation. Call (502) 232-8511" />
+        <meta name="keywords" content="debt settlement Anaheim CA, Anaheim debt relief, California debt settlement, Anaheim debt negotiation, Orange County debt help" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://vegaxai.com/debt-settlement-anaheim" />
+        
+        <meta property="og:title" content="Debt Settlement Anaheim CA | Expert Debt Relief Services" />
+        <meta property="og:description" content="Professional debt settlement services for Anaheim, CA residents. AI-powered debt reduction, 50% savings, local expertise. Free consultation." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://vegaxai.com/debt-settlement-anaheim" />
+        <meta property="og:image" content="https://vegaxai.com/og-anaheim-debt-settlement.jpg" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Debt Settlement Anaheim CA | Expert Debt Relief Services" />
+        <meta name="twitter:description" content="Professional debt settlement services for Anaheim, CA residents. AI-powered debt reduction, 50% savings, local expertise." />
+        <meta name="twitter:image" content="https://vegaxai.com/og-anaheim-debt-settlement.jpg" />
+        
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "VegaX AI Debt Settlement - Anaheim",
+            "image": "https://vegaxai.com/logo.png",
+            "description": "Professional debt settlement services for Anaheim, California residents using AI-powered negotiation strategies.",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Anaheim",
+              "addressRegion": "CA",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 33.8366,
+              "longitude": -117.9143
+            },
+            "telephone": "(502) 232-8511",
+            "serviceArea": "Anaheim, California",
+            "url": "https://vegaxai.com/debt-settlement-anaheim"
+          })}
+        </script>
+      </Helmet>
+      
+      <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
@@ -238,5 +283,6 @@ export default function AnaheimDebtSettlement() {
         </div>
       </section>
     </div>
+    </>
   );
 }

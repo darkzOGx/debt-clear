@@ -20,14 +20,14 @@ export default function Header() {
       navigate('/');
       // Wait for navigation to complete, then scroll
       setTimeout(() => {
-        const consultationSection = document.getElementById('consultation');
+        const consultationSection = document.getElementById('home-consultation') || document.getElementById('consultation');
         if (consultationSection) {
           consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
       }, 100);
     } else {
       // If we're already on homepage, just scroll
-      const consultationSection = document.getElementById('consultation');
+      const consultationSection = document.getElementById('home-consultation') || document.getElementById('consultation');
       if (consultationSection) {
         consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
@@ -94,7 +94,7 @@ export default function Header() {
                     onMouseEnter={() => setIsServicesOpen(true)}
                     onMouseLeave={() => setIsServicesOpen(false)}
                   >
-                    <button className="flex items-center gap-1 text-sm font-mono uppercase tracking-wide text-neutral-700 hover:text-black transition-colors py-2">
+                    <button className="flex items-center gap-1 text-sm font-mono uppercase tracking-wide text-neutral-700 hover:text-black transition-colors py-2" aria-label={`${item.name} submenu`} aria-expanded={isServicesOpen}>
                       {item.name}
                       <ChevronDown className="w-4 h-4" />
                     </button>
@@ -147,6 +147,8 @@ export default function Header() {
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="p-2 text-neutral-700 hover:text-black transition-colors"
+              aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+              aria-expanded={isMenuOpen}
             >
               {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -164,6 +166,8 @@ export default function Header() {
                       <button 
                         onClick={() => setIsServicesOpen(!isServicesOpen)}
                         className="flex items-center justify-between w-full text-left text-sm font-mono uppercase tracking-wide text-neutral-700 hover:text-black transition-colors"
+                        aria-label={`${item.name} submenu`}
+                        aria-expanded={isServicesOpen}
                       >
                         {item.name}
                         <ChevronDown className={`w-4 h-4 transition-transform ${isServicesOpen ? 'rotate-180' : ''}`} />

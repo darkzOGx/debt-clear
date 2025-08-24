@@ -91,18 +91,19 @@ export default function DebtCalculator() {
             <div className="bg-neutral-50 p-8">
               <div className="space-y-8">
                 <div>
-                  <Label className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-700 mb-4 block">
+                  <h3 className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-700 mb-4 block">
                     Input Parameters
-                  </Label>
+                  </h3>
                   <div className="h-px bg-neutral-200 mb-6"></div>
                 </div>
 
                 <div className="space-y-6">
                   <div>
-                    <Label className="text-sm font-mono text-neutral-800 mb-3 block">
+                    <Label htmlFor="debt-calculator-total" className="text-sm font-mono text-neutral-800 mb-3 block">
                       Total Outstanding Debt ($)
                     </Label>
                     <Input
+                      id="debt-calculator-total"
                       type="number"
                       placeholder="0"
                       value={formData.total_debt}
@@ -112,10 +113,11 @@ export default function DebtCalculator() {
                   </div>
                   
                   <div>
-                    <Label className="text-sm font-mono text-neutral-800 mb-3 block">
+                    <Label htmlFor="debt-calculator-monthly" className="text-sm font-mono text-neutral-800 mb-3 block">
                       Current Monthly Payment ($)
                     </Label>
                     <Input
+                      id="debt-calculator-monthly"
                       type="number"
                       placeholder="0"
                       value={formData.monthly_payment}
@@ -148,9 +150,9 @@ export default function DebtCalculator() {
               <div className="border border-neutral-200 p-6 md:p-8">
                 <div className="space-y-8">
                   <div>
-                    <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-700 mb-2">
+                    <h3 className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-700 mb-2">
                       Analysis Results
-                    </div>
+                    </h3>
                     <div className="h-px bg-neutral-200 mb-6"></div>
                   </div>
 

@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Helmet } from 'react-helmet-async';
 import HeroSection from '../components/hero/HeroSection';
 import DebtCalculator from '../components/calculator/DebtCalculator';
 import ServicesSection from '../components/services/ServicesSection';
@@ -26,7 +27,55 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <Helmet>
+        <title>Orange County Debt Settlement - AI Relief in 12-24 Months | VegaX AI</title>
+        <meta name="description" content="Orange County debt settlement & relief. Expert debt profile analysis, 50% reduction. County residents save in 12-24 months. Research-based. Call (502) 232-8511" />
+        <meta name="keywords" content="Orange County debt settlement, debt relief, debt negotiation, AI debt settlement, California debt help, credit card debt relief" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://vegaxai.com/" />
+        
+        <meta property="og:title" content="Orange County Debt Settlement - AI Relief in 12-24 Months" />
+        <meta property="og:description" content="Orange County debt settlement & relief. Expert debt profile analysis, 50% reduction. County residents save in 12-24 months. Research-based." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://vegaxai.com/" />
+        <meta property="og:image" content="https://vegaxai.com/og-debt-settlement.jpg" />
+        <meta property="og:site_name" content="VegaX AI Debt Settlement" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Orange County Debt Settlement - AI Relief in 12-24 Months" />
+        <meta name="twitter:description" content="Orange County debt settlement & relief. Expert debt profile analysis, 50% reduction. County residents save in 12-24 months." />
+        <meta name="twitter:image" content="https://vegaxai.com/og-debt-settlement.jpg" />
+        
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "VegaX AI Debt Settlement",
+            "url": "https://vegaxai.com",
+            "logo": "https://vegaxai.com/logo.png",
+            "description": "Professional debt settlement services for Orange County residents using AI-powered negotiation strategies.",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Orange County",
+              "addressRegion": "CA",
+              "addressCountry": "US"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "(502) 232-8511",
+              "contactType": "Customer Service"
+            },
+            "sameAs": [
+              "https://facebook.com/vegaxai",
+              "https://twitter.com/vegaxai",
+              "https://linkedin.com/company/vegaxai"
+            ]
+          })}
+        </script>
+      </Helmet>
+      
+      <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <HeroSection 
         onScrollToCalculator={scrollToCalculator}
@@ -48,8 +97,8 @@ export default function Home() {
       <BlogSection />
 
       {/* Consultation Form */}
-      <div id="consultation" ref={consultationRef}>
-        <ConsultationForm />
+      <div ref={consultationRef}>
+        <ConsultationForm sectionId="home-consultation" />
       </div>
 
 
@@ -80,9 +129,9 @@ export default function Home() {
               </div>
 
               <div className="grid grid-cols-1 gap-2 text-sm">
-                <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4 text-center">
+                <h3 className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4 text-center">
                   Orange County Services
-                </div>
+                </h3>
                 <div className="grid grid-cols-6 gap-2">
                   <div className="space-y-1 text-center">
                     <a href="/debt-settlement-anaheim" className="block text-neutral-400 hover:text-white transition-colors">
@@ -157,9 +206,9 @@ export default function Home() {
             <div className="lg:col-span-6">
               <div className="grid grid-cols-2 gap-8">
                 <div>
-                  <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4">
+                  <h3 className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4">
                     Contact Information
-                  </div>
+                  </h3>
                   <div className="space-y-2 text-sm text-neutral-400">
                     <div className="font-semibold text-white">Call: (502) 232-8511</div>
                     <div>400 Spectrum Center Drive</div>
@@ -169,9 +218,9 @@ export default function Home() {
                 </div>
                 
                 <div>
-                  <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4">
+                  <h3 className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4">
                     Orange County Results
-                  </div>
+                  </h3>
                   <div className="space-y-2 text-sm text-neutral-400">
                     <div>2,847+ County Residents Helped</div>
                     <div>$127M+ County Debt Eliminated</div>
@@ -196,5 +245,6 @@ export default function Home() {
         </div>
       </footer>
     </div>
+    </>
   );
 }
