@@ -81,12 +81,12 @@ export default function OrangeCountyDebtCrisisObservatory() {
           >
             <div className="flex items-center justify-center gap-3 mb-6">
               <div className="w-2 h-2 bg-white"></div>
-              <span className="text-xs uppercase tracking-[0.2em] text-black font-mono">
+              <span className="text-xs uppercase tracking-[0.2em] text-white font-mono">
                 DEBT CRISIS RESEARCH CENTER
               </span>
             </div>
 
-            <h1 className="text-4xl lg:text-6xl font-light text-black mb-6 leading-tight">
+            <h1 className="text-4xl lg:text-6xl font-light text-white mb-6 leading-tight">
               Orange County<br />
               <span className="font-mono text-3xl lg:text-5xl">Debt Crisis Observatory</span>
             </h1>
@@ -106,7 +106,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
               </Button>
               <Link 
                 to="/national-debt-settlement-transparency-database"
-                className="border border-white text-black px-8 py-6 hover:bg-white hover:text-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
+                className="border border-white text-white px-8 py-6 hover:bg-white hover:text-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
               >
                 National Database
                 <ArrowRight className="w-4 h-4" />
@@ -388,7 +388,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
           <div className="grid md:grid-cols-3 gap-6">
             <Link 
               to="/ai-vs-human-debt-settlement-study"
-              className="bg-neutral-50 p-6 border border-neutral-200 hover:border-black transition-colors"
+              className="bg-white p-6 border border-neutral-200 hover:border-black transition-colors"
             >
               <BarChart3 className="w-8 h-8 text-black mb-4" />
               <h3 className="font-semibold text-black mb-2">AI vs Human Settlement Study</h3>
@@ -397,7 +397,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
             
             <Link 
               to="/national-debt-settlement-transparency-database"
-              className="bg-neutral-50 p-6 border border-neutral-200 hover:border-black transition-colors"
+              className="bg-white p-6 border border-neutral-200 hover:border-black transition-colors"
             >
               <DollarSign className="w-8 h-8 text-black mb-4" />
               <h3 className="font-semibold text-black mb-2">Transparency Database</h3>
@@ -406,7 +406,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
             
             <Link 
               to="/medical-debt-relief-hub"
-              className="bg-neutral-50 p-6 border border-neutral-200 hover:border-black transition-colors"
+              className="bg-white p-6 border border-neutral-200 hover:border-black transition-colors"
             >
               <Users className="w-8 h-8 text-black mb-4" />
               <h3 className="font-semibold text-black mb-2">Medical Debt Relief Hub</h3>
@@ -417,13 +417,13 @@ export default function OrangeCountyDebtCrisisObservatory() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-neutral-50 text-black">
+      <section className="py-16 bg-white text-black">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-light mb-6">
             Get Your Personal <span className="font-mono">Debt Crisis Assessment</span>
           </h2>
           
-          <p className="text-neutral-300 mb-8 text-lg">
+          <p className="text-neutral-600 mb-8 text-lg">
             Understanding the data is the first step. Get a personalized analysis of your debt situation.
           </p>
           
@@ -440,7 +440,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
       </section>
 
       {/* Consultation Form */}
-      <section id="consultation" className="py-16 bg-neutral-50 border-t border-neutral-200">
+      <section id="consultation" className="py-16 bg-white border-t border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div ref={consultationRef}>
             <ConsultationForm sectionId="crisis-observatory-consultation" />
