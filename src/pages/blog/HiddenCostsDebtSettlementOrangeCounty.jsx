@@ -25,30 +25,30 @@ export default function HiddenCostsDebtSettlementOrangeCounty() {
         <link rel="canonical" href="https://debtclear.com/blog/hidden-costs-debt-settlement-orange-county" />
       </Helmet>
       {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-400 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+            <div className="w-2 h-2 bg-white"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
               COST ANALYSIS
             </span>
           </div>
 
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             Hidden Costs of Debt Settlement:
             <br />
             <span className="font-mono text-3xl lg:text-4xl">Orange County Warning Guide</span>
           </h1>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>June 15, 2025</span>
@@ -81,7 +81,7 @@ export default function HiddenCostsDebtSettlementOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-red-50 border border-red-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <AlertTriangle className="w-6 h-6" />
@@ -112,7 +112,7 @@ export default function HiddenCostsDebtSettlementOrangeCounty() {
                 </div>
               </div>
 
-              <div className="mt-6 p-4 bg-white border border-red-200">
+              <div className="mt-6 p-4 bg-white border border-neutral-200">
                 <h4 className="font-semibold text-black mb-2">Orange County Reality Check</h4>
                 <p className="text-sm text-neutral-700">
                   A $50,000 debt settlement might cost an additional $15,000-30,000 in hidden taxes and credit-related expenses over 5 years - potentially doubling the true cost of debt settlement for Orange County residents.
@@ -134,13 +134,13 @@ export default function HiddenCostsDebtSettlementOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-yellow-50 border border-yellow-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">1099-C Income Tax Surprise</h3>
                   <p className="text-neutral-700 mb-3">
                     Many Orange County residents are shocked by tax bills from settled debt:
                   </p>
                   <div className="space-y-3">
-                    <div className="bg-white border border-yellow-200 p-4">
+                    <div className="bg-white border border-neutral-200 p-4">
                       <h4 className="font-semibold text-black mb-2">Example: $40,000 Debt Settled for $15,000</h4>
                       <ul className="text-sm text-neutral-700 space-y-1">
                         <li>• Forgiven debt: $25,000</li>
@@ -153,7 +153,7 @@ export default function HiddenCostsDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-orange-50 border border-orange-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Estimated Tax Payment Requirements</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
@@ -178,7 +178,7 @@ export default function HiddenCostsDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Professional Tax Preparation Costs</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• <strong>CPA Fees:</strong> $500-2,000 for complex settlements</li>
@@ -205,13 +205,13 @@ export default function HiddenCostsDebtSettlementOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-purple-50 border border-purple-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Orange County Housing Market Impact</h3>
                   <p className="text-neutral-700 mb-3">
                     Credit score drops from debt settlement severely impact Orange County housing options:
                   </p>
                   <div className="space-y-4">
-                    <div className="bg-white border border-purple-200 p-4">
+                    <div className="bg-white border border-neutral-200 p-4">
                       <h4 className="font-semibold text-black mb-2">Mortgage Rate Impact</h4>
                       <ul className="text-sm text-neutral-700 space-y-1">
                         <li>• 760+ credit score: 6.5% mortgage rate</li>
@@ -221,7 +221,7 @@ export default function HiddenCostsDebtSettlementOrangeCounty() {
                       </ul>
                     </div>
                     
-                    <div className="bg-white border border-purple-200 p-4">
+                    <div className="bg-white border border-neutral-200 p-4">
                       <h4 className="font-semibold text-black mb-2">Rental Market Challenges</h4>
                       <ul className="text-sm text-neutral-700 space-y-1">
                         <li>• Orange County rentals require 700+ credit scores</li>
@@ -233,7 +233,7 @@ export default function HiddenCostsDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Insurance Premium Increases</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
@@ -258,7 +258,7 @@ export default function HiddenCostsDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-red-50 border border-red-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Employment and Professional Impact</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• <strong>Credit Checks:</strong> Many Orange County employers check credit</li>
@@ -312,7 +312,7 @@ export default function HiddenCostsDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-yellow-50 border border-yellow-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Deceptive Pricing Tactics</h3>
                   <p className="text-neutral-700 mb-3">
                     Orange County residents should watch for these misleading practices:
@@ -326,9 +326,9 @@ export default function HiddenCostsDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-orange-50 border border-orange-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Real Orange County Example</h3>
-                  <div className="bg-white border border-orange-200 p-4">
+                  <div className="bg-white border border-neutral-200 p-4">
                     <h4 className="font-semibold text-black mb-2">$60,000 Debt Settlement Hidden Cost Breakdown</h4>
                     <ul className="text-sm text-neutral-700 space-y-1">
                       <li>• Advertised "25% fee": $15,000</li>
@@ -354,12 +354,12 @@ export default function HiddenCostsDebtSettlementOrangeCounty() {
               <h2 className="text-2xl font-semibold text-black mb-6">Opportunity Costs and Lost Benefits</h2>
               
               <div className="space-y-6">
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Lost Investment Opportunities</h3>
                   <p className="text-neutral-700 mb-3">
                     Funds used for settlement could have been invested:
                   </p>
-                  <div className="bg-white border border-blue-200 p-4">
+                  <div className="bg-white border border-neutral-200 p-4">
                     <h4 className="font-semibold text-black mb-2">Example: $30,000 Settlement Fund Opportunity Cost</h4>
                     <ul className="text-sm text-neutral-700 space-y-1">
                       <li>• Invested at 7% annual return over 20 years</li>
@@ -370,7 +370,7 @@ export default function HiddenCostsDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Orange County Lifestyle Limitations</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>

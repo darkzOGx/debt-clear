@@ -81,10 +81,10 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-red-50 border border-red-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
-                <AlertTriangle className="w-6 h-6 text-red-600" />
+                <AlertTriangle className="w-6 h-6 text-black" />
                 Critical Tax Alert: Forgiven Debt = Taxable Income
               </h2>
               
@@ -104,7 +104,7 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
                 
                 <div>
                   <h3 className="text-lg font-semibold text-black mb-3">Orange County Example</h3>
-                  <div className="bg-white border border-red-200 p-4">
+                  <div className="bg-white border border-neutral-200 p-4">
                     <p className="text-sm text-neutral-700 mb-2">
                       <strong>Debt settled:</strong> $50,000 → Paid $15,000
                     </p>
@@ -114,7 +114,7 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
                     <p className="text-sm text-neutral-700 mb-2">
                       <strong>Estimated tax (24% bracket):</strong> $8,400
                     </p>
-                    <p className="text-sm text-red-600 font-semibold">
+                    <p className="text-sm text-black font-semibold">
                       Plus California state tax: ~$3,500
                     </p>
                   </div>
@@ -136,12 +136,12 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">1. Insolvency Exception (Most Common)</h3>
                   <p className="text-neutral-700 mb-3">
                     If you were insolvent immediately before debt settlement, the forgiven debt may not be taxable.
                   </p>
-                  <div className="bg-white border border-green-200 p-4">
+                  <div className="bg-white border border-neutral-200 p-4">
                     <h4 className="font-semibold text-black mb-2">Insolvency Test:</h4>
                     <ul className="text-sm text-neutral-600 space-y-1">
                       <li>• Total debts &gt; Total asset value = Insolvent</li>
@@ -152,7 +152,7 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">2. Primary Residence Exception</h3>
                   <p className="text-neutral-700 mb-3">
                     Qualified principal residence debt forgiveness (until 2025) may be excluded from taxable income.
@@ -165,7 +165,7 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-yellow-50 border border-yellow-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">3. Student Loan Forgiveness</h3>
                   <p className="text-neutral-700 mb-3">
                     Certain student loan forgiveness programs are excluded from taxable income.
@@ -212,7 +212,7 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
                 </div>
               </div>
 
-              <div className="mt-6 bg-orange-50 border border-orange-200 p-6">
+              <div className="mt-6 bg-neutral-50 border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-2">Orange County High Earner Alert</h4>
                 <p className="text-neutral-700">
                   If debt settlement pushes your income above $1 million, you'll face California's highest tax bracket (13.3%) plus the Mental Health Services Tax, resulting in combined federal and state rates exceeding 50%.
@@ -234,7 +234,7 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Timing Strategies</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• <strong>Spread settlements across years:</strong> Avoid pushing into higher brackets</li>
@@ -244,7 +244,7 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Income Offset Strategies</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• <strong>Maximize retirement contributions:</strong> 401(k), IRA, HSA</li>
@@ -254,7 +254,7 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-purple-50 border border-purple-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Payment Planning</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• <strong>Save for tax bill:</strong> Set aside 25-40% of forgiven amount</li>
@@ -301,7 +301,7 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-yellow-50 border border-yellow-200 p-4">
+                <div className="bg-neutral-50 border border-neutral-200 p-4">
                   <h4 className="font-semibold text-black mb-2">What If You Don't Receive Form 1099-C?</h4>
                   <p className="text-sm text-neutral-700">
                     You're still required to report forgiven debt as income, even without the form. Keep detailed records of all settlement agreements and payments for tax preparation.
@@ -321,7 +321,7 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
               <h2 className="text-2xl font-semibold text-black mb-6">When to Seek Professional Tax Help</h2>
               
               <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-red-50 border border-red-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">High-Risk Situations</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• Forgiven debt exceeding $25,000</li>
@@ -332,7 +332,7 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
                 
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Orange County Resources</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• CPAs specializing in debt settlement</li>

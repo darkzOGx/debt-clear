@@ -1,0 +1,70 @@
+import React, { useState } from 'react';
+
+export default function AutoLoanCalculator() {
+  const [vehiclePrice, setVehiclePrice] = useState(25000);
+  const [downPayment, setDownPayment] = useState(5000);
+  const [interestRate, setInterestRate] = useState(5.5);
+  const [loanTerm, setLoanTerm] = useState(60);
+  
+  const loanAmount = vehiclePrice - downPayment;
+  const monthlyRate = interestRate / 100 / 12;
+  
+  // Monthly payment calculation
+  const monthlyPayment = loanAmount * (monthlyRate * Math.pow(1 + monthlyRate, loanTerm)) / (Math.pow(1 + monthlyRate, loanTerm) - 1);
+  const totalPaid = monthlyPayment * loanTerm + downPayment;
+  const totalInterest = totalPaid - vehiclePrice;
+  
+  return (
+    <div className="space-y-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Vehicle Price ($)</label>
+          <input
+            type="number"
+            value={vehiclePrice}
+            onChange={(e) => setVehiclePrice(parseInt(e.target.value))}
+            className="w-full p-2 border rounded focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Down Payment ($)</label>
+          <input
+            type="number"
+            value={downPayment}
+            onChange={(e) => setDownPayment(parseInt(e.target.value))}
+            className="w-full p-2 border rounded focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Interest Rate (%)</label>
+          <input
+            type="number"
+            step="0.1"
+            value={interestRate}
+            onChange={(e) => setInterestRate(parseFloat(e.target.value))}
+            className="w-full p-2 border rounded focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Loan Term (months)</label>
+          <input
+            type="number"
+            value={loanTerm}
+            onChange={(e) => setLoanTerm(parseInt(e.target.value))}
+            className="w-full p-2 border rounded focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+      </div>
+      
+      <div className="bg-orange-50 p-4 rounded-lg">
+        <h5 className="font-semibold text-orange-800 mb-2">Loan Summary:</h5>
+        <div className="space-y-1 text-sm">
+          <div>Loan Amount: <span className="font-medium">${loanAmount.toLocaleString('en-US')}</span></div>
+          <div>Monthly Payment: <span className="font-bold text-orange-800">${monthlyPayment.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Total Interest: <span className="font-medium">${totalInterest.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+          <div>Total Cost: <span className="font-medium">${totalPaid.toLocaleString('en-US', { maximumFractionDigits: 2 })}</span></div>
+        </div>
+      </div>
+    </div>
+  );
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Calendar, Clock, User, Users, Heart, Shield, TrendingUp, AlertTriangle, DollarSign, FileText } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, Users, Heart, Shield, TrendingUp, AlertTriangle, DollarSign, FileText, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -51,12 +51,12 @@ export default function OrangeCountySeniorDebtRelief2025() {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] bg-gradient-to-br from-emerald-600 via-teal-600 to-blue-800 text-white overflow-hidden">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-24">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-emerald-100 hover:text-white transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
@@ -64,7 +64,7 @@ export default function OrangeCountySeniorDebtRelief2025() {
 
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-white rounded-full"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-emerald-100 font-mono">
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
               SENIOR DEBT RELIEF
             </span>
           </div>
@@ -72,14 +72,14 @@ export default function OrangeCountySeniorDebtRelief2025() {
           <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
             Senior Debt Relief
             <br />
-            <span className="text-emerald-200">Orange County</span>
+            <span className="text-neutral-300">Orange County</span>
           </h1>
 
-          <p className="text-xl lg:text-2xl text-emerald-100 mb-8 max-w-3xl leading-relaxed">
+          <p className="text-xl lg:text-2xl text-neutral-300 mb-8 max-w-3xl leading-relaxed">
             Specialized debt solutions protecting retirement savings and Social Security for seniors 50+
           </p>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-emerald-200 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>August 10, 2025</span>
@@ -96,7 +96,7 @@ export default function OrangeCountySeniorDebtRelief2025() {
 
           <button 
             onClick={scrollToConsultation}
-            className="bg-white text-teal-700 px-8 py-4 rounded-lg font-semibold hover:bg-emerald-50 transition-colors inline-flex items-center gap-2"
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
           >
             Protect My Retirement
             <ArrowLeft className="w-4 h-4 rotate-180" />
@@ -105,7 +105,7 @@ export default function OrangeCountySeniorDebtRelief2025() {
       </section>
 
       {/* Statistics Section */}
-      <section className="py-16 bg-emerald-50">
+      <section className="py-16 bg-neutral-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <motion.div
@@ -113,11 +113,11 @@ export default function OrangeCountySeniorDebtRelief2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-emerald-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-emerald-100 rounded-xl">
-                  <Users className="w-8 h-8 text-emerald-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <Users className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">487K</div>
@@ -131,11 +131,11 @@ export default function OrangeCountySeniorDebtRelief2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-blue-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-blue-100 rounded-xl">
-                  <DollarSign className="w-8 h-8 text-blue-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <DollarSign className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">$27K</div>
@@ -149,11 +149,11 @@ export default function OrangeCountySeniorDebtRelief2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-orange-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-orange-100 rounded-xl">
-                  <Heart className="w-8 h-8 text-orange-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <Heart className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">42%</div>
@@ -167,11 +167,11 @@ export default function OrangeCountySeniorDebtRelief2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-green-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-green-100 rounded-xl">
-                  <Shield className="w-8 h-8 text-green-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <Shield className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">94%</div>
@@ -252,7 +252,7 @@ export default function OrangeCountySeniorDebtRelief2025() {
                 California law provides strong protection for senior retirement assets, ensuring that debt collectors cannot seize essential income sources and savings needed for survival.
               </p>
 
-              <div className="bg-green-50 border border-green-200 p-8 mb-8 rounded-lg">
+              <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8 rounded-lg">
                 <h3 className="text-xl font-semibold text-black mb-6">Fully Protected Assets</h3>
                 
                 <div className="grid md:grid-cols-2 gap-8">
@@ -280,7 +280,7 @@ export default function OrangeCountySeniorDebtRelief2025() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+              <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
                 <h4 className="font-semibold text-black mb-3">California Homestead Exemption</h4>
                 <p className="text-neutral-700 mb-3">
                   Orange County seniors can protect significant home equity through California's homestead exemption:
@@ -309,12 +309,12 @@ export default function OrangeCountySeniorDebtRelief2025() {
               </p>
 
               <div className="space-y-6">
-                <div className="bg-purple-50 border border-purple-200 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-purple-800 mb-3">Medical Debt Settlement</h3>
-                  <p className="text-purple-700 mb-3">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-black mb-3">Medical Debt Settlement</h3>
+                  <p className="text-black mb-3">
                     Medical debt represents 42% of senior debt in Orange County. Hospitals and medical providers often accept aggressive settlement offers for seniors:
                   </p>
-                  <ul className="space-y-2 text-sm text-purple-600">
+                  <ul className="space-y-2 text-sm text-black">
                     <li>• Settlement rates: 10-25% of original balance</li>
                     <li>• Charity care programs for low-income seniors</li>
                     <li>• Medicare billing error corrections</li>
@@ -322,12 +322,12 @@ export default function OrangeCountySeniorDebtRelief2025() {
                   </ul>
                 </div>
 
-                <div className="bg-indigo-50 border border-indigo-200 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-indigo-800 mb-3">Credit Card Hardship Programs</h3>
-                  <p className="text-indigo-700 mb-3">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-black mb-3">Credit Card Hardship Programs</h3>
+                  <p className="text-black mb-3">
                     Major credit card companies offer specialized hardship programs for seniors on fixed incomes:
                   </p>
-                  <ul className="space-y-2 text-sm text-indigo-600">
+                  <ul className="space-y-2 text-sm text-black">
                     <li>• Interest rate reductions to 6-8%</li>
                     <li>• Extended payment terms (up to 5 years)</li>
                     <li>• Principal balance reductions</li>
@@ -335,12 +335,12 @@ export default function OrangeCountySeniorDebtRelief2025() {
                   </ul>
                 </div>
 
-                <div className="bg-teal-50 border border-teal-200 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-teal-800 mb-3">Social Security Optimization</h3>
-                  <p className="text-teal-700 mb-3">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-black mb-3">Social Security Optimization</h3>
+                  <p className="text-black mb-3">
                     Maximize Social Security benefits while protecting them from debt collection:
                   </p>
-                  <ul className="space-y-2 text-sm text-teal-600">
+                  <ul className="space-y-2 text-sm text-black">
                     <li>• Direct deposit protection strategies</li>
                     <li>• Two-month rule for bank accounts</li>
                     <li>• Benefit optimization for married couples</li>
@@ -350,48 +350,26 @@ export default function OrangeCountySeniorDebtRelief2025() {
               </div>
             </motion.div>
 
-            {/* CTA Section */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.6 }}
-              className="bg-gradient-to-r from-emerald-600 to-teal-700 text-white p-8 rounded-2xl text-center mb-12"
-            >
-              <h2 className="text-2xl font-bold mb-4">
-                Protect Your Golden Years
-              </h2>
-              <p className="text-emerald-100 mb-6 max-w-2xl mx-auto">
-                Don't let debt destroy your retirement security. Our senior debt specialists understand the unique challenges facing Orange County seniors and provide compassionate, effective solutions that protect your assets.
-              </p>
-              <div className="grid md:grid-cols-2 gap-6 text-sm mb-6">
-                <div>
-                  <h4 className="font-semibold mb-2">Senior Protection Services:</h4>
-                  <ul className="space-y-1 text-emerald-200">
-                    <li>• Asset protection planning</li>
-                    <li>• Social Security shielding</li>
-                    <li>• Medical debt elimination</li>
-                    <li>• Medicare advocacy</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2">Proven Senior Results:</h4>
-                  <ul className="space-y-1 text-emerald-200">
-                    <li>• 94% asset protection rate</li>
-                    <li>• $73,000 average debt elimination</li>
-                    <li>• No retirement fund touching</li>
-                    <li>• Family legacy preservation</li>
-                  </ul>
-                </div>
-              </div>
-              <button 
-                onClick={scrollToConsultation}
-                className="bg-white text-emerald-700 px-8 py-3 rounded-lg font-semibold hover:bg-emerald-50 transition-colors"
-              >
-                Protect My Retirement
-              </button>
-            </motion.div>
           </div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
+          </h2>
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
+          </p>
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
+          >
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
+          </button>
         </div>
       </section>
 

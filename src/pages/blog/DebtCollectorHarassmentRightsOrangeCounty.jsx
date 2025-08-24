@@ -78,39 +78,30 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-red-50 via-orange-50 to-yellow-50"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-red-600/10 to-orange-600/10"></div>
-        
-        <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-red-600 hover:text-red-700 transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-400 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <Shield className="w-6 h-6 text-red-600" />
-            <span className="text-sm uppercase tracking-wider text-red-600 font-semibold">
+            <div className="w-2 h-2 bg-white"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
               CONSUMER RIGHTS
             </span>
           </div>
 
-          <motion.h1 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight"
-          >
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             Orange County Debt Collector Harassment:
-            <span className="bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent block">
-              Know Your Rights and Remedies
-            </span>
-          </motion.h1>
+            <br />
+            <span className="font-mono text-3xl lg:text-4xl">Know Your Rights and Remedies</span>
+          </h1>
 
-          <div className="flex flex-wrap items-center gap-6 text-sm text-gray-600 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>June 15, 2025</span>
@@ -124,12 +115,17 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
               <span>Consumer Rights Attorney</span>
             </div>
           </div>
+        </div>
+      </section>
 
+      {/* Introduction Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-xl text-gray-700 leading-relaxed max-w-3xl"
+            className="text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto"
           >
             Orange County residents have strong legal protections against debt collector harassment. 
             Learn your rights, document violations, and discover remedies that can provide monetary compensation.
@@ -145,11 +141,11 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="bg-gradient-to-br from-red-50 to-red-100 rounded-2xl p-6 border border-red-200 shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-gradient-to-br from-black to-neutral-900 rounded-2xl p-6 border border-neutral-200 shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="flex items-center justify-between mb-4">
-                <Phone className="w-8 h-8 text-red-600" />
-                <span className="text-2xl font-bold text-red-700">7</span>
+                <Phone className="w-8 h-8 text-black" />
+                <span className="text-2xl font-bold text-black">7</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Max Calls/Week</h3>
               <p className="text-sm text-gray-600">Maximum calls allowed under California law</p>
@@ -159,11 +155,11 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-6 border border-green-200 shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-gradient-to-br from-black to-neutral-900 rounded-2xl p-6 border border-neutral-200 shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="flex items-center justify-between mb-4">
-                <DollarSign className="w-8 h-8 text-green-600" />
-                <span className="text-2xl font-bold text-green-700">$1,000</span>
+                <DollarSign className="w-8 h-8 text-black" />
+                <span className="text-2xl font-bold text-black">$1,000</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Per Violation</h3>
               <p className="text-sm text-gray-600">FDCPA damages for each harassment incident</p>
@@ -173,11 +169,11 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 border border-blue-200 shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-gradient-to-br from-black to-neutral-900 rounded-2xl p-6 border border-neutral-200 shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="flex items-center justify-between mb-4">
-                <FileText className="w-8 h-8 text-blue-600" />
-                <span className="text-2xl font-bold text-blue-700">30</span>
+                <FileText className="w-8 h-8 text-black" />
+                <span className="text-2xl font-bold text-black">30</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Days to Validate</h3>
               <p className="text-sm text-gray-600">Time limit to request debt validation</p>
@@ -187,11 +183,11 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-6 border border-purple-200 shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-gradient-to-br from-black to-neutral-900 rounded-2xl p-6 border border-neutral-200 shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="flex items-center justify-between mb-4">
-                <Users className="w-8 h-8 text-purple-600" />
-                <span className="text-2xl font-bold text-purple-700">2</span>
+                <Users className="w-8 h-8 text-black" />
+                <span className="text-2xl font-bold text-black">2</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Protection Acts</h3>
               <p className="text-sm text-gray-600">Federal FDCPA + California Rosenthal Act</p>
@@ -206,7 +202,7 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
           <div className="bg-white rounded-2xl shadow-xl p-8 lg:p-12">
             
             <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-              <Shield className="w-8 h-8 text-blue-600" />
+              <Shield className="w-8 h-8 text-black" />
               Legal Protections for Orange County Residents
             </h2>
             
@@ -216,43 +212,43 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200">
-                <h3 className="text-xl font-bold text-blue-800 mb-4 flex items-center gap-2">
+              <div className="bg-gradient-to-br from-black to-neutral-900 rounded-xl p-6 border border-neutral-200">
+                <h3 className="text-xl font-bold text-black mb-4 flex items-center gap-2">
                   <Shield className="w-6 h-6" />
                   Federal Protections
                 </h3>
-                <ul className="space-y-3 text-blue-700">
+                <ul className="space-y-3 text-black">
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 mt-1 text-blue-600" />
+                    <CheckCircle className="w-4 h-4 mt-1 text-black" />
                     <span><strong>Fair Debt Collection Practices Act (FDCPA):</strong> Federal law prohibiting abusive practices</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 mt-1 text-blue-600" />
+                    <CheckCircle className="w-4 h-4 mt-1 text-black" />
                     <span><strong>Fair Credit Reporting Act (FCRA):</strong> Protects credit report accuracy</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 mt-1 text-blue-600" />
+                    <CheckCircle className="w-4 h-4 mt-1 text-black" />
                     <span><strong>Telephone Consumer Protection Act (TCPA):</strong> Limits robocalls and texts</span>
                   </li>
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
-                <h3 className="text-xl font-bold text-green-800 mb-4 flex items-center gap-2">
+              <div className="bg-gradient-to-br from-black to-neutral-900 rounded-xl p-6 border border-neutral-200">
+                <h3 className="text-xl font-bold text-black mb-4 flex items-center gap-2">
                   <FileText className="w-6 h-6" />
                   California State Protections
                 </h3>
-                <ul className="space-y-3 text-green-700">
+                <ul className="space-y-3 text-black">
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 mt-1 text-green-600" />
+                    <CheckCircle className="w-4 h-4 mt-1 text-black" />
                     <span><strong>Rosenthal Fair Debt Collection Practices Act:</strong> Broader than federal FDCPA</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 mt-1 text-green-600" />
+                    <CheckCircle className="w-4 h-4 mt-1 text-black" />
                     <span><strong>California Consumer Privacy Act:</strong> Protects personal information</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 mt-1 text-green-600" />
+                    <CheckCircle className="w-4 h-4 mt-1 text-black" />
                     <span><strong>Unruh Civil Rights Act:</strong> Anti-discrimination protections</span>
                   </li>
                 </ul>
@@ -260,54 +256,54 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
             </div>
 
             <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-              <AlertTriangle className="w-8 h-8 text-red-600" />
+              <AlertTriangle className="w-8 h-8 text-black" />
               Prohibited Debt Collection Practices
             </h2>
 
             <div className="space-y-8 mb-12">
-              <div className="bg-gradient-to-r from-red-50 to-red-100 rounded-2xl p-8 border border-red-200">
-                <h3 className="text-xl font-bold text-red-800 mb-6">Communication Harassment</h3>
-                <p className="text-red-700 mb-4">
+              <div className="bg-gradient-to-r from-black to-neutral-900 rounded-2xl p-8 border border-neutral-200">
+                <h3 className="text-xl font-bold text-black mb-6">Communication Harassment</h3>
+                <p className="text-black mb-4">
                   Collectors cannot harass Orange County residents through excessive or abusive communication:
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
-                  <ul className="space-y-3 text-red-700">
+                  <ul className="space-y-3 text-black">
                     <li className="flex items-start gap-2">
-                      <AlertTriangle className="w-4 h-4 mt-1 text-red-600" />
+                      <AlertTriangle className="w-4 h-4 mt-1 text-black" />
                       <span><strong>Excessive Calls:</strong> More than 7 calls per week to any phone number</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <AlertTriangle className="w-4 h-4 mt-1 text-red-600" />
+                      <AlertTriangle className="w-4 h-4 mt-1 text-black" />
                       <span><strong>Early/Late Calls:</strong> Before 8 AM or after 9 PM (California time)</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <AlertTriangle className="w-4 h-4 mt-1 text-red-600" />
+                      <AlertTriangle className="w-4 h-4 mt-1 text-black" />
                       <span><strong>Workplace Calls:</strong> After being told employer prohibits such calls</span>
                     </li>
                   </ul>
-                  <ul className="space-y-3 text-red-700">
+                  <ul className="space-y-3 text-black">
                     <li className="flex items-start gap-2">
-                      <AlertTriangle className="w-4 h-4 mt-1 text-red-600" />
+                      <AlertTriangle className="w-4 h-4 mt-1 text-black" />
                       <span><strong>Third Party Contact:</strong> Discussing debt with family, friends, or neighbors</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <AlertTriangle className="w-4 h-4 mt-1 text-red-600" />
+                      <AlertTriangle className="w-4 h-4 mt-1 text-black" />
                       <span><strong>Abusive Language:</strong> Profanity, threats, or intimidating language</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <AlertTriangle className="w-4 h-4 mt-1 text-red-600" />
+                      <AlertTriangle className="w-4 h-4 mt-1 text-black" />
                       <span><strong>False Threats:</strong> Claiming legal action they won't take</span>
                     </li>
                   </ul>
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-orange-50 to-orange-100 rounded-2xl p-8 border border-orange-200">
-                <h3 className="text-xl font-bold text-orange-800 mb-6">Deceptive and False Practices</h3>
+              <div className="bg-gradient-to-r from-black to-neutral-900 rounded-2xl p-8 border border-neutral-200">
+                <h3 className="text-xl font-bold text-black mb-6">Deceptive and False Practices</h3>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
                     <h4 className="font-bold text-gray-900 mb-4">Identity Deception</h4>
-                    <ul className="space-y-2 text-orange-700">
+                    <ul className="space-y-2 text-black">
                       <li>• Claiming to be attorneys when they're not</li>
                       <li>• Impersonating government officials</li>
                       <li>• Using fake law firm names</li>
@@ -317,7 +313,7 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
                   
                   <div>
                     <h4 className="font-bold text-gray-900 mb-4">Financial Misrepresentation</h4>
-                    <ul className="space-y-2 text-orange-700">
+                    <ul className="space-y-2 text-black">
                       <li>• Inflating debt amounts with fake fees</li>
                       <li>• Claiming debt is older/newer than it is</li>
                       <li>• Misrepresenting payment terms</li>
@@ -327,15 +323,15 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-2xl p-8 border border-yellow-200">
-                <h3 className="text-xl font-bold text-yellow-800 mb-6">Unfair Collection Practices</h3>
+              <div className="bg-gradient-to-r from-black to-neutral-900 rounded-2xl p-8 border border-neutral-200">
+                <h3 className="text-xl font-bold text-black mb-6">Unfair Collection Practices</h3>
                 <div className="grid md:grid-cols-2 gap-4">
-                  <ul className="space-y-2 text-yellow-700">
+                  <ul className="space-y-2 text-black">
                     <li>• <strong>Public Embarrassment:</strong> Attempting to publicly shame debtors</li>
                     <li>• <strong>Postcard Communications:</strong> Sending debt information on postcards</li>
                     <li>• <strong>Deposit Threats:</strong> Threatening to deposit post-dated checks early</li>
                   </ul>
-                  <ul className="space-y-2 text-yellow-700">
+                  <ul className="space-y-2 text-black">
                     <li>• <strong>Property Threats:</strong> Threatening to seize property they cannot legally take</li>
                     <li>• <strong>Arrest Threats:</strong> Claiming debtor will be arrested for civil debt</li>
                     <li>• <strong>False Urgency:</strong> Creating artificial deadlines or emergency situations</li>
@@ -345,20 +341,20 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
             </div>
 
             <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-              <Phone className="w-8 h-8 text-blue-600" />
+              <Phone className="w-8 h-8 text-black" />
               Call Time and Frequency Restrictions
             </h2>
 
             <div className="space-y-6 mb-12">
-              <div className="bg-gradient-to-r from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
-                <h3 className="text-xl font-bold text-green-800 mb-4">California Call Time Rules</h3>
-                <p className="text-green-700 mb-4">
+              <div className="bg-gradient-to-r from-black to-neutral-900 rounded-xl p-6 border border-neutral-200">
+                <h3 className="text-xl font-bold text-black mb-4">California Call Time Rules</h3>
+                <p className="text-black mb-4">
                   Orange County residents are protected by specific call timing rules:
                 </p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-bold text-gray-900 mb-3">Permitted Hours</h4>
-                    <ul className="space-y-2 text-green-700">
+                    <ul className="space-y-2 text-black">
                       <li>• Monday-Saturday: 8 AM to 9 PM</li>
                       <li>• Sunday: 1 PM to 5 PM</li>
                       <li>• Based on debtor's time zone</li>
@@ -368,7 +364,7 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
                   
                   <div>
                     <h4 className="font-bold text-gray-900 mb-3">Frequency Limits</h4>
-                    <ul className="space-y-2 text-green-700">
+                    <ul className="space-y-2 text-black">
                       <li>• Maximum 7 calls per week</li>
                       <li>• 7-day period is rolling calendar</li>
                       <li>• Includes all phone numbers</li>
@@ -381,15 +377,15 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
 
             <h2 className="text-3xl font-bold text-gray-900 mb-8">Legal Remedies for Orange County Residents</h2>
 
-            <div className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl p-8 mb-12 border border-blue-200">
-              <h3 className="text-xl font-bold text-blue-800 mb-6">Monetary Damages Available</h3>
+            <div className="bg-gradient-to-r from-black to-neutral-900 rounded-2xl p-8 mb-12 border border-neutral-200">
+              <h3 className="text-xl font-bold text-black mb-6">Monetary Damages Available</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h4 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
-                    <DollarSign className="w-5 h-5 text-blue-600" />
+                    <DollarSign className="w-5 h-5 text-black" />
                     Federal FDCPA Damages
                   </h4>
-                  <ul className="space-y-2 text-blue-700">
+                  <ul className="space-y-2 text-black">
                     <li>• Up to $1,000 statutory damages</li>
                     <li>• Actual damages (lost wages, medical bills)</li>
                     <li>• Attorney fees and costs</li>
@@ -399,10 +395,10 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
                 
                 <div>
                   <h4 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
-                    <TrendingUp className="w-5 h-5 text-green-600" />
+                    <TrendingUp className="w-5 h-5 text-black" />
                     California Rosenthal Act
                   </h4>
-                  <ul className="space-y-2 text-blue-700">
+                  <ul className="space-y-2 text-black">
                     <li>• Up to $1,000 per violation</li>
                     <li>• Actual damages proven</li>
                     <li>• Attorney fees recovery</li>
@@ -413,21 +409,21 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
             </div>
 
             {/* Professional CTA */}
-            <div className="bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl p-8 text-white text-center mb-12">
+            <div className="bg-gradient-to-r from-black to-neutral-900 rounded-2xl p-8 text-white text-center mb-12">
               <h3 className="text-2xl font-bold mb-4">Stop Debt Collector Harassment Now</h3>
-              <p className="text-red-100 mb-6 text-lg">
+              <p className="text-black mb-6 text-lg">
                 Don't tolerate illegal debt collection practices. Get immediate help stopping harassment 
                 and learn about your rights to compensation under federal and California law.
               </p>
               <button 
                 onClick={scrollToConsultation}
-                className="bg-white text-red-600 font-bold py-3 px-8 rounded-xl hover:bg-red-50 transition-all duration-300 transform hover:scale-105 shadow-lg"
+                className="bg-white text-black font-bold py-3 px-8 rounded-xl hover:bg-neutral-50 transition-all duration-300 transform hover:scale-105 shadow-lg"
               >
                 Get Legal Protection Help
               </button>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl p-8 border border-gray-200">
+            <div className="bg-gradient-to-r from-black to-neutral-900 rounded-2xl p-8 border border-gray-200">
               <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                 <AlertTriangle className="w-6 h-6 text-gray-600" />
                 Legal Disclaimer

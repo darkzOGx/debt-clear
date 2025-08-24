@@ -18,31 +18,30 @@ export default function DanaPointDebtSettlement() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative py-24 bg-white">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center max-w-4xl mx-auto"
+            className="text-center"
           >
             {/* Location Badge */}
-            <div className="inline-flex items-center gap-3 mb-8">
-              <MapPin className="w-4 h-4 text-black" />
-              <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-                DANA POINT DEBT SETTLEMENT
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <div className="w-2 h-2 bg-white"></div>
+              <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
+                DANA POINT DEBT SETTLEMENT SERVICES
               </span>
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-5xl lg:text-6xl font-light tracking-tight text-black mb-8 leading-[0.9]">
-              Debt Settlement
-              <br />
-              <span className="font-mono text-4xl lg:text-5xl">Dana Point, CA</span>
+            <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+              Debt Settlement:<br />
+              <span className="font-mono text-3xl lg:text-4xl">Dana Point, CA</span>
             </h1>
 
             {/* Subheadline */}
-            <p className="text-xl text-neutral-700 max-w-3xl mx-auto mb-12 leading-relaxed font-light">
+            <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10 max-w-3xl mx-auto mb-8">
               Harbor-side debt relief for Dana Point residents. Our AI-powered solutions help marina owners, 
               marine professionals, and coastal families reduce debt by up to 60% while preserving their maritime lifestyle.
             </p>
@@ -51,14 +50,14 @@ export default function DanaPointDebtSettlement() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <Button 
                 onClick={scrollToConsultation}
-                className="bg-black hover:bg-neutral-800 text-white px-8 py-6 text-base font-mono uppercase tracking-wide"
+                className="bg-white hover:bg-neutral-100 text-black px-8 py-6 text-base font-mono uppercase tracking-wide"
               >
-                Free Dana Point Analysis
+                Free Dana Point Debt Analysis
                 <ArrowRight className="w-4 h-4 ml-3" />
               </Button>
               <Link 
                 to="/blog"
-                className="border border-neutral-300 text-black px-8 py-6 hover:border-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
+                className="border border-white text-white px-8 py-6 hover:bg-white hover:text-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
               >
                 Learn More
                 <ArrowRight className="w-4 h-4" />
@@ -90,135 +89,96 @@ export default function DanaPointDebtSettlement() {
                 Coastal property protection with harbor view preservation
               </p>
             </div>
+            
             <div className="bg-white p-8 border border-neutral-200 text-center">
-              <div className="text-4xl font-mono text-black mb-2">$96K</div>
+              <div className="text-4xl font-mono text-black mb-2">33,107</div>
               <div className="text-sm font-mono uppercase tracking-wide text-neutral-600 mb-4">
-                Median Household Income
+                Population
               </div>
               <p className="text-xs text-neutral-500">
-                Maritime professional debt resolution strategies
+                Tight-knit maritime community support
               </p>
             </div>
+            
             <div className="bg-white p-8 border border-neutral-200 text-center">
-              <div className="text-4xl font-mono text-black mb-2">34K</div>
+              <div className="text-4xl font-mono text-black mb-2">2,500+</div>
               <div className="text-sm font-mono uppercase tracking-wide text-neutral-600 mb-4">
-                Population Served
+                Harbor Slips
               </div>
               <p className="text-xs text-neutral-500">
-                Personalized service for Dana Point's harbor community
+                Marine industry expertise and boat loan settlements
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Maritime Industry Focus */}
+      {/* Local Expertise Section */}
       <section className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-light text-black mb-6">
-              Debt Solutions for <span className="font-mono">Maritime Professionals</span>
-            </h2>
-            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-              Specialized programs for Dana Point's unique harbor economy
-            </p>
-          </div>
-
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="space-y-8">
-                <div className="border-l-4 border-black pl-6">
-                  <h3 className="text-xl font-semibold text-black mb-3">Marina & Boat Owners</h3>
-                  <p className="text-neutral-600 mb-4">
-                    Dana Point Harbor hosts thousands of boats, with owners facing unique 
-                    financing challenges from slip fees to vessel maintenance.
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-2 h-2 bg-black"></div>
+                <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+                  MARITIME DEBT EXPERTISE
+                </span>
+              </div>
+              
+              <h2 className="text-4xl font-light text-black mb-8 leading-tight">
+                Why Dana Point Residents
+                <br />
+                <span className="font-mono">Trust Our Harbor Approach</span>
+              </h2>
+              
+              <div className="space-y-6">
+                <div>
+                  <h3 className="font-semibold text-black mb-2">Marine Industry Understanding</h3>
+                  <p className="text-neutral-600 text-sm leading-relaxed">
+                    We understand boat loans, marina fees, and seasonal marine business income fluctuations 
+                    that affect Dana Point harbor families.
                   </p>
-                  <ul className="space-y-1 text-sm text-neutral-600">
-                    <li>• Boat loan restructuring</li>
-                    <li>• Slip fee negotiations</li>
-                    <li>• Marine equipment financing</li>
-                    <li>• Yacht club debt management</li>
-                  </ul>
                 </div>
-
-                <div className="border-l-4 border-black pl-6">
-                  <h3 className="text-xl font-semibold text-black mb-3">Charter & Tourism Businesses</h3>
-                  <p className="text-neutral-600 mb-4">
-                    Local charter operations and tourism businesses navigate seasonal 
-                    revenue fluctuations and equipment financing needs.
+                
+                <div>
+                  <h3 className="font-semibold text-black mb-2">Coastal Property Protection</h3>
+                  <p className="text-neutral-600 text-sm leading-relaxed">
+                    Specialized strategies to protect valuable Dana Point real estate while settling debt, 
+                    including harbor-view properties and marine access rights.
                   </p>
-                  <ul className="space-y-1 text-sm text-neutral-600">
-                    <li>• Charter vessel debt consolidation</li>
-                    <li>• Tourism business cash flow management</li>
-                    <li>• Equipment lease settlements</li>
-                    <li>• Seasonal income optimization</li>
-                  </ul>
                 </div>
-
-                <div className="border-l-4 border-black pl-6">
-                  <h3 className="text-xl font-semibold text-black mb-3">Coastal Professionals</h3>
-                  <p className="text-neutral-600 mb-4">
-                    Marine industry workers, harbor employees, and coastal service 
-                    providers with specialized financial needs.
+                
+                <div>
+                  <h3 className="font-semibold text-black mb-2">Tourism & Hospitality Debt</h3>
+                  <p className="text-neutral-600 text-sm leading-relaxed">
+                    Experience with seasonal business debt, charter boat financing, and hospitality industry 
+                    challenges unique to Dana Point's tourism economy.
                   </p>
-                  <ul className="space-y-1 text-sm text-neutral-600">
-                    <li>• Marine industry debt relief</li>
-                    <li>• Coastal property protection</li>
-                    <li>• Emergency fund rebuilding</li>
-                    <li>• Retirement planning integration</li>
-                  </ul>
                 </div>
               </div>
             </div>
             
             <div className="bg-neutral-50 p-8 lg:p-12 border border-neutral-200">
               <h3 className="text-2xl font-light text-black mb-8">
-                <span className="font-mono">Dana Point Harbor</span> Success Stories
+                Dana Point Debt Settlement <span className="font-mono">Results</span>
               </h3>
               
-              <div className="space-y-6">
-                <div className="bg-white p-6 border border-neutral-200">
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="text-2xl font-mono text-black">$234K</div>
-                    <div className="text-sm text-neutral-600">reduced to $89K</div>
-                  </div>
-                  <p className="text-xs text-neutral-500">
-                    Charter boat owner eliminated 62% of vessel debt while keeping business operational
-                  </p>
+              <div className="grid grid-cols-2 gap-8 text-center">
+                <div>
+                  <div className="text-xl font-mono text-black">58%</div>
+                  <div className="text-xs text-neutral-600">Average Debt Reduction</div>
                 </div>
-                
-                <div className="bg-white p-6 border border-neutral-200">
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="text-2xl font-mono text-black">$87K</div>
-                    <div className="text-sm text-neutral-600">reduced to $35K</div>
-                  </div>
-                  <p className="text-xs text-neutral-500">
-                    Marina restaurant owner resolved pandemic debt, maintained harbor location
-                  </p>
+                <div>
+                  <div className="text-xl font-mono text-black">19</div>
+                  <div className="text-xs text-neutral-600">Average Months</div>
                 </div>
-                
-                <div className="bg-white p-6 border border-neutral-200">
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="text-2xl font-mono text-black">$156K</div>
-                    <div className="text-sm text-neutral-600">reduced to $67K</div>
-                  </div>
-                  <p className="text-xs text-neutral-500">
-                    Marine equipment supplier consolidated debt during off-season transition
-                  </p>
+                <div>
+                  <div className="text-xl font-mono text-black">127</div>
+                  <div className="text-xs text-neutral-600">Harbor Businesses Helped</div>
                 </div>
-              </div>
-
-              <div className="mt-8 pt-6 border-t border-neutral-200">
-                <div className="text-sm font-mono text-neutral-500 mb-4">Harbor Statistics:</div>
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="text-center">
-                    <div className="text-xl font-mono text-black">127</div>
-                    <div className="text-xs text-neutral-600">Harbor Businesses Helped</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-xl font-mono text-black">$4.2M</div>
-                    <div className="text-xs text-neutral-600">Maritime Debt Eliminated</div>
-                  </div>
+                <div>
+                  <div className="text-xl font-mono text-black">$4.2M</div>
+                  <div className="text-xs text-neutral-600">Maritime Debt Eliminated</div>
                 </div>
               </div>
             </div>
@@ -226,10 +186,37 @@ export default function DanaPointDebtSettlement() {
         </div>
       </section>
 
+      {/* Contact Section */}
+      <section className="py-16 bg-black text-white">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-light mb-6">
+            Ready to Start Your <span className="font-mono">Debt-Free Harbor Life?</span>
+          </h2>
+          
+          <p className="text-neutral-300 mb-8 text-lg">
+            Join Dana Point families who've eliminated debt while preserving their coastal lifestyle
+          </p>
+          
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+            <Button 
+              onClick={scrollToConsultation}
+              className="bg-white text-black hover:bg-neutral-100 px-8 py-6 text-base font-mono uppercase tracking-wide"
+            >
+              Start Your Free Analysis
+              <ArrowRight className="w-4 h-4 ml-3" />
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Schedule Research Session Form */}
-      <div ref={consultationRef}>
-        <ConsultationForm />
-      </div>
+      <section id="consultation" className="py-16 bg-white border-t border-neutral-200">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div ref={consultationRef}>
+            <ConsultationForm />
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

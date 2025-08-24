@@ -50,29 +50,35 @@ export default function DebtCalculator() {
   };
 
   return (
-    <section id="calculator" className="py-16 md:py-24 bg-white border-t border-neutral-200">
-      <div className="max-w-6xl mx-auto px-6 lg:px-8">
+    <>
+    <section id="calculator" className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+      <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
         {/* Header */}
-        <div className="mb-16">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+        <div className="text-center mb-16">
+          <div className="flex items-center justify-center gap-3 mb-6">
+            <div className="w-2 h-2 bg-white"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
               DEBT ANALYSIS PROTOCOL
             </span>
           </div>
           
-          <h2 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Debt Profile Analysis:
-            <br />
-            <span className="font-mono">Calculate Your Reduction</span>
+          <h2 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+            Debt Profile Analysis:<br />
+            <span className="font-mono text-3xl lg:text-4xl">Calculate Your Reduction</span>
           </h2>
           
-          <p className="text-lg text-neutral-600 max-w-2xl font-light">
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10 max-w-3xl mx-auto">
             Our research-based analysis examines your county debt profile against 50,000+ 
             Orange County resident cases to project optimal debt reduction in 12-24 months.
           </p>
         </div>
 
+      </div>
+    </section>
+    
+    {/* Calculator Form Section */}
+    <section className="py-16 bg-white">
+      <div className="max-w-6xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-12 gap-8 lg:gap-12">
           {/* Input Form */}
           <motion.div
@@ -202,5 +208,6 @@ export default function DebtCalculator() {
         </div>
       </div>
     </section>
+    </>
   );
 }

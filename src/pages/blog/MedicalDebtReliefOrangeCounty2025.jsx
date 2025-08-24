@@ -1,9 +1,17 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { Phone, Calculator, Shield, Heart, Users, Hospital, DollarSign, FileText, Clock, ChevronRight, Target, Award, Stethoscope } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, ArrowRight, Phone, Calculator, Shield, Heart, Users, Hospital, DollarSign, FileText, ChevronRight, Target, Award, Stethoscope } from 'lucide-react';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function MedicalDebtReliefOrangeCounty2025() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
@@ -41,49 +49,50 @@ export default function MedicalDebtReliefOrangeCounty2025() {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-purple-900 to-purple-800 text-white py-20">
-        <div className="max-w-4xl mx-auto px-6">
-          <div className="text-sm text-purple-200 mb-4">Published August 23, 2025 • 13 min read</div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Medical Debt Relief Orange County: Expert Solutions for Healthcare Financial Crisis
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8 z-10 relative">
+            <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-2 h-2 bg-black"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">MEDICAL DEBT RELIEF</span>
+          </div>
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+            Medical Debt Relief Orange County:<br />
+            <span className="font-mono text-3xl lg:text-4xl">Expert Healthcare Solutions</span>
           </h1>
-          <p className="text-xl text-purple-100 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 23, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>13 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Medical Team</span></div>
+          </div>
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             Medical emergencies are unpredictable, but medical debt doesn't have to be permanent. Orange County residents have more options than ever to resolve healthcare debt and rebuild their financial health.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-purple-900 px-6 py-3 rounded hover:bg-purple-50 transition">
-              <Calculator className="w-5 h-5" />
-              Calculate Your Savings
-            </Link>
-            <a href="#consultation" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded hover:bg-white hover:text-purple-900 transition">
-              <Phone className="w-5 h-5" />
-              Free Medical Debt Analysis
-            </a>
-          </div>
         </div>
       </section>
 
       {/* Statistics Section */}
-      <section className="py-12 bg-purple-50">
+      <section className="py-12 bg-neutral-50">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Heart className="w-8 h-8 text-purple-900 mb-2" />
+              <Heart className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">41%</div>
               <div className="text-sm text-neutral-600">OC Residents with Medical Debt</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <DollarSign className="w-8 h-8 text-purple-900 mb-2" />
+              <DollarSign className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">$12,400</div>
               <div className="text-sm text-neutral-600">Average Medical Debt</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Hospital className="w-8 h-8 text-purple-900 mb-2" />
+              <Hospital className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">71%</div>
               <div className="text-sm text-neutral-600">Settlement Success Rate</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Target className="w-8 h-8 text-purple-900 mb-2" />
+              <Target className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">65%</div>
               <div className="text-sm text-neutral-600">Average Debt Reduction</div>
             </div>
@@ -104,20 +113,20 @@ export default function MedicalDebtReliefOrangeCounty2025() {
               even insured families struggle with unexpected medical bills.
             </p>
 
-            <div className="bg-blue-50 border border-blue-200 p-8 mb-8">
-              <h3 className="text-xl font-semibold text-blue-800 mb-4">Orange County Medical Debt Impact</h3>
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
+              <h3 className="text-xl font-semibold text-black mb-4">Orange County Medical Debt Impact</h3>
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-3xl font-mono text-blue-800 mb-2">41%</div>
-                  <div className="text-sm text-blue-700">OC Residents with Medical Debt</div>
+                  <div className="text-3xl font-mono text-black mb-2">41%</div>
+                  <div className="text-sm text-black">OC Residents with Medical Debt</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-mono text-blue-800 mb-2">$12,400</div>
-                  <div className="text-sm text-blue-700">Average Medical Debt Amount</div>
+                  <div className="text-3xl font-mono text-black mb-2">$12,400</div>
+                  <div className="text-sm text-black">Average Medical Debt Amount</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-mono text-blue-800 mb-2">73%</div>
-                  <div className="text-sm text-blue-700">From Emergency Care</div>
+                  <div className="text-3xl font-mono text-black mb-2">73%</div>
+                  <div className="text-sm text-black">From Emergency Care</div>
                 </div>
               </div>
             </div>
@@ -130,12 +139,12 @@ export default function MedicalDebtReliefOrangeCounty2025() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-green-50 border border-green-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <Heart className="w-6 h-6 text-green-600" />
-                  <h3 className="text-lg font-semibold text-green-800">Major Hospital Systems</h3>
+                  <Heart className="w-6 h-6 text-black" />
+                  <h3 className="text-lg font-semibold text-black">Major Hospital Systems</h3>
                 </div>
-                <div className="space-y-3 text-sm text-green-700">
+                <div className="space-y-3 text-sm text-black">
                   <p>• UCI Health System</p>
                   <p>• Hoag Memorial Hospital</p>
                   <p>• Kaiser Permanente Orange County</p>
@@ -144,12 +153,12 @@ export default function MedicalDebtReliefOrangeCounty2025() {
                 </div>
               </div>
 
-              <div className="bg-purple-50 border border-purple-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <FileText className="w-6 h-6 text-purple-600" />
-                  <h3 className="text-lg font-semibold text-purple-800">Settlement Success Rates</h3>
+                  <FileText className="w-6 h-6 text-black" />
+                  <h3 className="text-lg font-semibold text-black">Settlement Success Rates</h3>
                 </div>
-                <div className="space-y-3 text-sm text-purple-700">
+                <div className="space-y-3 text-sm text-black">
                   <p>• Hoag Health: 71% average reduction</p>
                   <p>• St. Joseph: 68% average reduction</p>
                   <p>• UCI Health: 63% average reduction</p>
@@ -310,9 +319,9 @@ export default function MedicalDebtReliefOrangeCounty2025() {
               Paid medical collections are removed immediately, and unpaid medical debt under $500 is not reported.
             </p>
 
-            <div className="bg-green-50 border border-green-200 p-6 mb-8">
-              <h3 className="text-lg font-semibold text-green-800 mb-4">2025 Medical Debt Credit Protections</h3>
-              <ul className="space-y-2 text-sm text-green-700">
+            <div className="bg-neutral-50 border border-neutral-200 p-6 mb-8">
+              <h3 className="text-lg font-semibold text-black mb-4">2025 Medical Debt Credit Protections</h3>
+              <ul className="space-y-2 text-sm text-black">
                 <li>• Medical debt under $500 not reported to credit bureaus</li>
                 <li>• 1-year waiting period before medical debt appears on credit reports</li>
                 <li>• Paid medical collections removed within 30 days</li>
@@ -350,16 +359,16 @@ export default function MedicalDebtReliefOrangeCounty2025() {
               relief options available through both hospital programs and community resources.
             </p>
 
-            <div className="bg-purple-900 text-white p-8 mb-8 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Free Medical Debt Relief Consultation</h3>
-              <p className="mb-6 text-purple-100">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
+              <h3 className="text-xl font-semibold text-black mb-4">Free Medical Debt Relief Consultation</h3>
+              <p className="mb-6 text-neutral-700">
                 Don't let medical debt derail your financial future. Our AI-powered approach has helped 
                 Orange County families eliminate millions in healthcare debt.
               </p>
               <div className="grid md:grid-cols-2 gap-6 text-sm">
                 <div>
-                  <h4 className="font-semibold mb-2">Consultation Includes:</h4>
-                  <ul className="space-y-1 text-purple-100">
+                  <h4 className="font-semibold text-black mb-2">Consultation Includes:</h4>
+                  <ul className="space-y-1 text-neutral-600">
                     <li>• Medical bill verification and audit</li>
                     <li>• Insurance appeal strategy</li>
                     <li>• Charity care application assistance</li>
@@ -367,24 +376,14 @@ export default function MedicalDebtReliefOrangeCounty2025() {
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">Immediate Benefits:</h4>
-                  <ul className="space-y-1 text-purple-100">
+                  <h4 className="font-semibold text-black mb-2">Immediate Benefits:</h4>
+                  <ul className="space-y-1 text-neutral-600">
                     <li>• Stop collection calls</li>
                     <li>• Prevent wage garnishment</li>
                     <li>• Protect credit score</li>
                     <li>• Reduce total debt by 50-80%</li>
                   </ul>
                 </div>
-              </div>
-              <div className="flex flex-wrap gap-4 mt-6">
-                <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-purple-900 px-6 py-3 rounded hover:bg-purple-50 transition">
-                  <Calculator className="w-5 h-5" />
-                  Calculate Savings
-                </Link>
-                <a href="#consultation" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded hover:bg-white hover:text-purple-900 transition">
-                  <Phone className="w-5 h-5" />
-                  Free Analysis
-                </a>
               </div>
             </div>
 
@@ -394,81 +393,36 @@ export default function MedicalDebtReliefOrangeCounty2025() {
             </p>
 
           </div>
-        </div>
-      </article>
 
-      {/* Consultation Form */}
-      <section id="consultation" className="bg-gradient-to-r from-purple-900 to-purple-700 text-white p-8">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-6">Free Medical Debt Relief Analysis</h2>
-          <p className="mb-6">
-            Get a complete evaluation of all your medical debt relief options. Our Orange County specialists will help you eliminate healthcare debt through charity care, insurance appeals, and settlement negotiations.
+
+          </div>
+
+
+          </article>
+
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
+          </h2>
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
           </p>
-          <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <div>
-              <label className="block mb-2 text-sm">Full Name</label>
-              <input type="text" className="w-full p-3 rounded text-black" placeholder="John Smith" />
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Phone Number</label>
-              <input type="tel" className="w-full p-3 rounded text-black" placeholder="(714) 555-0100" />
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Email Address</label>
-              <input type="email" className="w-full p-3 rounded text-black" placeholder="john@example.com" />
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">City</label>
-              <select className="w-full p-3 rounded text-black">
-                <option>Select your city</option>
-                <option>Irvine</option>
-                <option>Newport Beach</option>
-                <option>Anaheim</option>
-                <option>Santa Ana</option>
-                <option>Huntington Beach</option>
-                <option>Costa Mesa</option>
-                <option>Mission Viejo</option>
-                <option>Fullerton</option>
-                <option>Garden Grove</option>
-                <option>Orange</option>
-                <option>Other Orange County City</option>
-              </select>
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Total Medical Debt Amount</label>
-              <select className="w-full p-3 rounded text-black">
-                <option>Select range</option>
-                <option>Under $5,000</option>
-                <option>$5,000 - $15,000</option>
-                <option>$15,000 - $35,000</option>
-                <option>$35,000 - $75,000</option>
-                <option>$75,000 - $150,000</option>
-                <option>Over $150,000</option>
-              </select>
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Type of Medical Care</label>
-              <select className="w-full p-3 rounded text-black">
-                <option>Select type</option>
-                <option>Emergency room visit</option>
-                <option>Surgery/procedure</option>
-                <option>Cancer treatment</option>
-                <option>Maternity/birth</option>
-                <option>Mental health care</option>
-                <option>Chronic illness treatment</option>
-                <option>Multiple medical issues</option>
-              </select>
-            </div>
-          </div>
-          <div className="mb-6">
-            <label className="block mb-2 text-sm">Describe Your Medical Debt Situation</label>
-            <textarea className="w-full p-3 rounded text-black h-24" placeholder="Tell us about your medical debt, insurance coverage, and financial situation..."></textarea>
-          </div>
-          <button className="bg-white text-purple-900 px-8 py-3 rounded font-bold hover:bg-purple-50 transition">
-            Get Your Free Medical Debt Analysis →
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
+          >
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
           </button>
         </div>
       </section>
+
+      {/* Consultation Form */}
+      <div id="consultation">
+        <ConsultationForm />
+      </div>
     </div>
   );
 }

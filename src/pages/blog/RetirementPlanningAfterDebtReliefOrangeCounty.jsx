@@ -96,7 +96,7 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
 
           <button 
             onClick={scrollToConsultation}
-            className="bg-white text-emerald-700 px-8 py-4 rounded-lg font-semibold hover:bg-green-50 transition-colors inline-flex items-center gap-2"
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-50 transition-colors inline-flex items-center gap-2"
           >
             Plan My Retirement
             <ArrowLeft className="w-4 h-4 rotate-180" />
@@ -105,7 +105,7 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
       </section>
 
       {/* Statistics Section */}
-      <section className="py-16 bg-green-50">
+      <section className="py-16 bg-neutral-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <motion.div
@@ -113,11 +113,11 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-green-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-green-100 rounded-xl">
-                  <Target className="w-8 h-8 text-green-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <Target className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">30+</div>
@@ -131,11 +131,11 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-emerald-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-emerald-100 rounded-xl">
-                  <DollarSign className="w-8 h-8 text-emerald-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <DollarSign className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">$85K</div>
@@ -149,11 +149,11 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-teal-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-teal-100 rounded-xl">
-                  <Calculator className="w-8 h-8 text-teal-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <Calculator className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">$30.5K</div>
@@ -167,11 +167,11 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-blue-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-blue-100 rounded-xl">
-                  <TrendingUp className="w-8 h-8 text-blue-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <TrendingUp className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">7%</div>
@@ -250,7 +250,7 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
                   <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
                     <DollarSign className="w-5 h-5" />
                     Phase 1: Foundation (Months 1-6)
@@ -266,7 +266,7 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-green-50 border border-green-200 p-6 rounded-lg">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
                   <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
                     <TrendingUp className="w-5 h-5" />
                     Phase 2: Acceleration (Months 7-18)
@@ -282,7 +282,7 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-purple-50 border border-purple-200 p-6 rounded-lg">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
                   <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
                     <Shield className="w-5 h-5" />
                     Phase 3: Optimization (Year 2+)
@@ -382,7 +382,7 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
                 </div>
               </div>
 
-              <div className="mt-8 bg-yellow-50 border border-yellow-200 p-6 rounded-lg">
+              <div className="mt-8 bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
                 <h4 className="font-semibold text-black mb-2">Recommended Orange County Portfolio</h4>
                 <p className="text-neutral-700 mb-3">
                   For residents recovering from debt, consider this balanced approach:
@@ -403,18 +403,18 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.8 }}
-              className="bg-gradient-to-r from-green-600 to-emerald-700 text-white p-8 rounded-2xl text-center mb-12"
+              className="bg-gradient-to-r from-black to-neutral-900 text-white p-8 rounded-2xl text-center mb-12"
             >
               <h2 className="text-2xl font-bold mb-4">
                 Secure Your Retirement After Debt Relief
               </h2>
-              <p className="text-green-100 mb-6 max-w-2xl mx-auto">
+              <p className="text-black mb-6 max-w-2xl mx-auto">
                 Get personalized retirement planning guidance for Orange County residents recovering from debt. Start rebuilding your financial future today with expert strategies.
               </p>
               <div className="grid md:grid-cols-2 gap-6 text-sm mb-6">
                 <div>
                   <h4 className="font-semibold mb-2">Planning Services:</h4>
-                  <ul className="space-y-1 text-green-200">
+                  <ul className="space-y-1 text-black">
                     <li>• Catch-up contribution strategies</li>
                     <li>• Tax optimization planning</li>
                     <li>• Investment allocation guidance</li>
@@ -423,7 +423,7 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2">Orange County Focus:</h4>
-                  <ul className="space-y-1 text-green-200">
+                  <ul className="space-y-1 text-black">
                     <li>• High cost of living adjustments</li>
                     <li>• Local employer 401k optimization</li>
                     <li>• Healthcare cost planning</li>
@@ -433,7 +433,7 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
               </div>
               <button 
                 onClick={scrollToConsultation}
-                className="bg-white text-emerald-700 px-8 py-3 rounded-lg font-semibold hover:bg-green-50 transition-colors"
+                className="bg-white text-black px-8 py-3 rounded-lg font-semibold hover:bg-neutral-50 transition-colors"
               >
                 Plan My Retirement
               </button>

@@ -27,44 +27,26 @@ export default function CaliforniaTaxImplicationsDebtReliefOrangeCounty() {
         <meta property="article:section" content="Tax Planning" />
         <link rel="canonical" href="https://debtclear.com/blog/california-tax-implications-debt-relief-orange-county" />
       </Helmet>
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <Link 
-            to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Resources
-          </Link>
-
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8 z-10 relative">
+            <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-              TAX PLANNING
-            </span>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">TAX PLANNING</span>
           </div>
-
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            California State Tax Implications of Debt Relief:
-            <br />
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+            California State Tax Implications of Debt Relief:<br />
             <span className="font-mono text-3xl lg:text-4xl">Orange County Edition</span>
           </h1>
-
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              <span>June 15, 2025</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4" />
-              <span>13 min read</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <User className="w-4 h-4" />
-              <span>California Tax Specialist</span>
-            </div>
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>June 15, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>13 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>California Tax Specialist</span></div>
           </div>
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
+            California's complex state tax system adds significant considerations for Orange County residents pursuing debt settlement. Understanding state-specific tax implications is essential for comprehensive debt relief planning.
+          </p>
         </div>
       </section>
 
@@ -84,7 +66,7 @@ export default function CaliforniaTaxImplicationsDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-blue-50 border border-blue-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <Calculator className="w-6 h-6" />
@@ -171,9 +153,9 @@ export default function CaliforniaTaxImplicationsDebtReliefOrangeCounty() {
                 </table>
               </div>
 
-              <div className="bg-red-50 border border-red-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-2 flex items-center gap-2">
-                  <AlertTriangle className="w-5 h-5 text-red-600" />
+                  <AlertTriangle className="w-5 h-5 text-black" />
                   Orange County High Earner Alert
                 </h4>
                 <p className="text-neutral-700">
@@ -196,7 +178,7 @@ export default function CaliforniaTaxImplicationsDebtReliefOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Areas of Conformity</h3>
                   <p className="text-neutral-700 mb-3">
                     California generally follows federal treatment for most debt settlement issues:
@@ -210,7 +192,7 @@ export default function CaliforniaTaxImplicationsDebtReliefOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-yellow-50 border border-yellow-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Key Differences and Considerations</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• <strong>Higher Tax Rates:</strong> State rates significantly increase total tax burden</li>
@@ -237,7 +219,7 @@ export default function CaliforniaTaxImplicationsDebtReliefOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Income Timing Strategies</h3>
                   <p className="text-neutral-700 mb-3">
                     Strategic timing of debt settlements can minimize California tax impact:
@@ -250,7 +232,7 @@ export default function CaliforniaTaxImplicationsDebtReliefOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-purple-50 border border-purple-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Deduction Maximization</h3>
                   <p className="text-neutral-700 mb-3">
                     Orange County residents can offset canceled debt income with strategic deductions:
@@ -264,7 +246,7 @@ export default function CaliforniaTaxImplicationsDebtReliefOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-orange-50 border border-orange-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Relocation Considerations</h3>
                   <p className="text-neutral-700 mb-3">
                     Some Orange County residents consider relocation for tax benefits:
@@ -290,7 +272,7 @@ export default function CaliforniaTaxImplicationsDebtReliefOrangeCounty() {
             >
               <h2 className="text-2xl font-semibold text-black mb-6">California Estimated Tax Payment Requirements</h2>
               
-              <div className="bg-red-50 border border-red-200 p-8">
+              <div className="bg-neutral-50 border border-neutral-200 p-8">
                 <h3 className="text-lg font-semibold text-black mb-4">Estimated Payment Obligations</h3>
                 
                 <div className="grid md:grid-cols-2 gap-6">
@@ -315,7 +297,7 @@ export default function CaliforniaTaxImplicationsDebtReliefOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="mt-6 p-4 bg-white border border-red-200">
+                <div className="mt-6 p-4 bg-white border border-neutral-200">
                   <h4 className="font-semibold text-black mb-2">Orange County Debt Settlement Example</h4>
                   <p className="text-sm text-neutral-700">
                     A resident settles $80,000 in debt for $30,000, creating $50,000 in taxable income. Combined federal and California tax could exceed $18,000. Without proper estimated payments, underpayment penalties and interest will apply.
@@ -376,23 +358,23 @@ export default function CaliforniaTaxImplicationsDebtReliefOrangeCounty() {
                     <h3 className="text-lg font-semibold text-black mb-3">Before Debt Settlement</h3>
                     <ul className="space-y-2 text-sm text-neutral-700">
                       <li className="flex items-start gap-2">
-                        <span className="text-green-600 mt-1">✓</span>
+                        <span className="text-black mt-1">✓</span>
                         Calculate combined federal and California tax impact
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-green-600 mt-1">✓</span>
+                        <span className="text-black mt-1">✓</span>
                         Document current financial situation for insolvency test
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-green-600 mt-1">✓</span>
+                        <span className="text-black mt-1">✓</span>
                         Consider timing of settlements across tax years
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-green-600 mt-1">✓</span>
+                        <span className="text-black mt-1">✓</span>
                         Plan deduction maximization strategies
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-green-600 mt-1">✓</span>
+                        <span className="text-black mt-1">✓</span>
                         Set aside funds for estimated tax payments
                       </li>
                     </ul>
@@ -402,23 +384,23 @@ export default function CaliforniaTaxImplicationsDebtReliefOrangeCounty() {
                     <h3 className="text-lg font-semibold text-black mb-3">After Debt Settlement</h3>
                     <ul className="space-y-2 text-sm text-neutral-700">
                       <li className="flex items-start gap-2">
-                        <span className="text-green-600 mt-1">✓</span>
+                        <span className="text-black mt-1">✓</span>
                         Make quarterly estimated payments for both federal and California
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-green-600 mt-1">✓</span>
+                        <span className="text-black mt-1">✓</span>
                         Collect all 1099-C forms by January 31
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-green-600 mt-1">✓</span>
+                        <span className="text-black mt-1">✓</span>
                         Prepare Form 982 if claiming exclusions
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-green-600 mt-1">✓</span>
+                        <span className="text-black mt-1">✓</span>
                         File California Form 982 if required
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-green-600 mt-1">✓</span>
+                        <span className="text-black mt-1">✓</span>
                         Consider professional tax preparation
                       </li>
                     </ul>

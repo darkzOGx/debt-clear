@@ -131,11 +131,11 @@ export default function StudentLoanDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-blue-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-blue-100 rounded-xl">
-                  <DollarSign className="w-8 h-8 text-blue-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <DollarSign className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">$2.8B</div>
@@ -149,11 +149,11 @@ export default function StudentLoanDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-indigo-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-indigo-100 rounded-xl">
-                  <BookOpen className="w-8 h-8 text-indigo-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <BookOpen className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">$38K</div>
@@ -167,11 +167,11 @@ export default function StudentLoanDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-green-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-green-100 rounded-xl">
-                  <Target className="w-8 h-8 text-green-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <Target className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">76%</div>
@@ -199,7 +199,7 @@ export default function StudentLoanDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-blue-50 border border-blue-200 p-8 mb-12 rounded-lg"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12 rounded-lg"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <Shield className="w-6 h-6" />
@@ -234,7 +234,7 @@ export default function StudentLoanDebtReliefOrangeCounty() {
                 </div>
               </div>
 
-              <div className="mt-6 p-4 bg-white border border-blue-200 rounded-lg">
+              <div className="mt-6 p-4 bg-white border border-neutral-200 rounded-lg">
                 <h4 className="font-semibold text-black mb-2">Dual-Track Approach</h4>
                 <p className="text-sm text-neutral-700">
                   Most Orange County borrowers benefit from pursuing federal loan forgiveness programs while simultaneously negotiating private loan settlements for maximum debt reduction.
@@ -307,9 +307,9 @@ export default function StudentLoanDebtReliefOrangeCounty() {
               </p>
 
               <div className="grid md:grid-cols-2 gap-8">
-                <div className="bg-green-50 border border-green-200 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-green-800 mb-4">SAVE Plan (Recommended)</h3>
-                  <ul className="space-y-3 text-sm text-green-700">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-black mb-4">SAVE Plan (Recommended)</h3>
+                  <ul className="space-y-3 text-sm text-black">
                     <li>• <strong>Payment:</strong> 5% of discretionary income</li>
                     <li>• <strong>Income Protection:</strong> $32,800 for single filers</li>
                     <li>• <strong>Forgiveness:</strong> 20-25 years</li>
@@ -318,9 +318,9 @@ export default function StudentLoanDebtReliefOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-blue-800 mb-4">Orange County IDR Example</h3>
-                  <div className="space-y-3 text-sm text-blue-700">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-black mb-4">Orange County IDR Example</h3>
+                  <div className="space-y-3 text-sm text-black">
                     <div>
                       <strong>Scenario:</strong> Irvine teacher, $55,000 salary, $45,000 loans
                     </div>
@@ -355,7 +355,7 @@ export default function StudentLoanDebtReliefOrangeCounty() {
                 Orange County borrowers struggling with private student loans can achieve significant debt reductions through strategic settlement negotiations, particularly during financial hardship periods.
               </p>
 
-              <div className="bg-purple-50 border border-purple-200 p-8 mb-8 rounded-lg">
+              <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8 rounded-lg">
                 <h3 className="text-xl font-semibold text-black mb-6">Settlement Success Factors</h3>
                 
                 <div className="grid md:grid-cols-2 gap-8">
@@ -382,18 +382,18 @@ export default function StudentLoanDebtReliefOrangeCounty() {
               </div>
 
               <div className="grid md:grid-cols-3 gap-6">
-                <div className="text-center p-6 bg-emerald-50 border border-emerald-200 rounded-lg">
-                  <div className="text-3xl font-bold text-emerald-600 mb-2">52%</div>
+                <div className="text-center p-6 bg-neutral-50 border border-neutral-200 rounded-lg">
+                  <div className="text-3xl font-bold text-black mb-2">52%</div>
                   <div className="text-sm text-neutral-700">Average Settlement Rate</div>
                 </div>
                 
-                <div className="text-center p-6 bg-blue-50 border border-blue-200 rounded-lg">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">$18,400</div>
+                <div className="text-center p-6 bg-neutral-50 border border-neutral-200 rounded-lg">
+                  <div className="text-3xl font-bold text-black mb-2">$18,400</div>
                   <div className="text-sm text-neutral-700">Average Debt Eliminated</div>
                 </div>
                 
-                <div className="text-center p-6 bg-purple-50 border border-purple-200 rounded-lg">
-                  <div className="text-3xl font-bold text-purple-600 mb-2">8</div>
+                <div className="text-center p-6 bg-neutral-50 border border-neutral-200 rounded-lg">
+                  <div className="text-3xl font-bold text-black mb-2">8</div>
                   <div className="text-sm text-neutral-700">Average Months to Settlement</div>
                 </div>
               </div>
@@ -414,12 +414,12 @@ export default function StudentLoanDebtReliefOrangeCounty() {
               </p>
 
               <div className="space-y-6">
-                <div className="bg-yellow-50 border border-yellow-200 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-yellow-800 mb-3">Closed School Discharge</h3>
-                  <p className="text-yellow-700 mb-3">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-black mb-3">Closed School Discharge</h3>
+                  <p className="text-black mb-3">
                     Students enrolled when their school closed or who withdrew within 180 days before closure may qualify for 100% discharge:
                   </p>
-                  <ul className="space-y-2 text-sm text-yellow-600">
+                  <ul className="space-y-2 text-sm text-black">
                     <li>• Includes many Orange County trade schools and colleges</li>
                     <li>• Full refund of payments made</li>
                     <li>• Credit report cleanup included</li>
@@ -427,12 +427,12 @@ export default function StudentLoanDebtReliefOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-red-50 border border-red-200 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-red-800 mb-3">Total and Permanent Disability (TPD)</h3>
-                  <p className="text-red-700 mb-3">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-black mb-3">Total and Permanent Disability (TPD)</h3>
+                  <p className="text-black mb-3">
                     Orange County borrowers with qualifying disabilities can discharge all federal student loans:
                   </p>
-                  <ul className="space-y-2 text-sm text-red-600">
+                  <ul className="space-y-2 text-sm text-black">
                     <li>• VA disability rating of 100% or unemployability</li>
                     <li>• Social Security disability determination</li>
                     <li>• Physician certification of total disability</li>
@@ -440,12 +440,12 @@ export default function StudentLoanDebtReliefOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-indigo-50 border border-indigo-200 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-indigo-800 mb-3">Borrower Defense to Repayment</h3>
-                  <p className="text-indigo-700 mb-3">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-black mb-3">Borrower Defense to Repayment</h3>
+                  <p className="text-black mb-3">
                     Students defrauded by their schools can seek complete loan discharge:
                   </p>
-                  <ul className="space-y-2 text-sm text-indigo-600">
+                  <ul className="space-y-2 text-sm text-black">
                     <li>• False advertising or recruitment practices</li>
                     <li>• Violation of state laws related to education</li>
                     <li>• Substantial misrepresentation of programs</li>
@@ -461,7 +461,7 @@ export default function StudentLoanDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 1.0 }}
-              className="bg-gradient-to-r from-cyan-600 to-blue-700 text-white p-8 rounded-2xl text-center mb-12"
+              className="bg-gradient-to-r from-black to-neutral-900 text-white p-8 rounded-2xl text-center mb-12"
             >
               <h2 className="text-2xl font-bold mb-4">
                 Comprehensive Student Loan Relief
@@ -491,7 +491,7 @@ export default function StudentLoanDebtReliefOrangeCounty() {
               </div>
               <button 
                 onClick={scrollToConsultation}
-                className="bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-cyan-50 transition-colors"
+                className="bg-white text-black px-8 py-3 rounded-lg font-semibold hover:bg-cyan-50 transition-colors"
               >
                 Get Debt Relief Help
               </button>

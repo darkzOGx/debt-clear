@@ -24,44 +24,27 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
         <meta property="og:type" content="article" />
         <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-process-guide-orange-county-2025" />
       </Helmet>
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <Link 
-            to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Resources
-          </Link>
-
+      {/* Hero Section */}
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8 z-10 relative">
+            <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-              PROCESS GUIDE
-            </span>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">PROCESS GUIDE</span>
           </div>
-
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Orange County Debt Settlement Process:
-            <br />
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+            Orange County Debt Settlement Process:<br />
             <span className="font-mono text-3xl lg:text-4xl">Step-by-Step Guide 2025</span>
           </h1>
-
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              <span>June 15, 2025</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4" />
-              <span>15 min read</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <User className="w-4 h-4" />
-              <span>Debt Settlement Specialist</span>
-            </div>
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>June 15, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>15 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>Debt Settlement Specialist</span></div>
           </div>
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
+            Understanding the complete debt settlement process empowers Orange County residents to make informed decisions and achieve the best possible outcomes for their financial future.
+          </p>
         </div>
       </section>
 
@@ -81,7 +64,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-blue-50 border border-blue-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <CheckCircle className="w-6 h-6" />
@@ -112,7 +95,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
                 </div>
               </div>
 
-              <div className="mt-6 p-4 bg-white border border-blue-200">
+              <div className="mt-6 p-4 bg-white border border-neutral-200">
                 <h4 className="font-semibold text-black mb-2">Orange County Specific Considerations</h4>
                 <p className="text-sm text-neutral-700">
                   High cost of living in Orange County often supports hardship arguments. However, substantial assets like expensive homes may require additional asset protection planning during the settlement process.
@@ -131,7 +114,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
               <h2 className="text-2xl font-semibold text-black mb-6">Phase 1: Initial Consultation and Financial Assessment</h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Comprehensive Financial Analysis</h3>
                   <p className="text-neutral-700 mb-3">
                     Orange County debt settlement begins with thorough financial evaluation:
@@ -161,7 +144,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
                   </div>
                 </div>
 
-                <div className="bg-yellow-50 border border-yellow-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Hardship Documentation</h3>
                   <p className="text-neutral-700 mb-3">
                     Essential documentation for Orange County residents:
@@ -176,7 +159,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
                   </ul>
                 </div>
 
-                <div className="bg-purple-50 border border-purple-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Settlement Strategy Development</h3>
                   <div className="space-y-3">
                     <div className="flex items-start gap-3">
@@ -218,9 +201,9 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
               <h2 className="text-2xl font-semibold text-black mb-6">Phase 2: Preparation and Settlement Fund Building</h2>
               
               <div className="space-y-6">
-                <div className="bg-orange-50 border border-orange-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
-                    <AlertTriangle className="w-5 h-5 text-orange-600" />
+                    <AlertTriangle className="w-5 h-5 text-black" />
                     Strategic Payment Cessation
                   </h3>
                   <p className="text-neutral-700 mb-3">
@@ -235,7 +218,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
                   </ul>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Settlement Fund Accumulation</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
@@ -262,7 +245,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
                   </div>
                 </div>
 
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Orange County Cost of Living Adjustments</h3>
                   <p className="text-neutral-700 mb-3">
                     Settlement fund planning must account for Orange County's high living costs:
@@ -289,11 +272,11 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
               <h2 className="text-2xl font-semibold text-black mb-6">Phase 3: Creditor Negotiation Process</h2>
               
               <div className="space-y-6">
-                <div className="bg-red-50 border border-red-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Negotiation Timeline</h3>
                   <div className="space-y-4">
                     <div className="flex items-center gap-4">
-                      <span className="bg-red-600 text-white text-xs w-8 h-8 rounded-full flex items-center justify-center">90d</span>
+                      <span className="bg-black text-white text-xs w-8 h-8 rounded-full flex items-center justify-center">90d</span>
                       <div>
                         <h4 className="font-semibold text-black">First Outreach</h4>
                         <p className="text-sm text-neutral-700">Initial contact after 90 days past due</p>
@@ -301,7 +284,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
                     </div>
                     
                     <div className="flex items-center gap-4">
-                      <span className="bg-red-600 text-white text-xs w-8 h-8 rounded-full flex items-center justify-center">120d</span>
+                      <span className="bg-black text-white text-xs w-8 h-8 rounded-full flex items-center justify-center">120d</span>
                       <div>
                         <h4 className="font-semibold text-black">Hardship Presentation</h4>
                         <p className="text-sm text-neutral-700">Present documented financial hardship to creditors</p>
@@ -309,7 +292,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
                     </div>
                     
                     <div className="flex items-center gap-4">
-                      <span className="bg-red-600 text-white text-xs w-8 h-8 rounded-full flex items-center justify-center">180d</span>
+                      <span className="bg-black text-white text-xs w-8 h-8 rounded-full flex items-center justify-center">180d</span>
                       <div>
                         <h4 className="font-semibold text-black">Settlement Offers</h4>
                         <p className="text-sm text-neutral-700">Begin formal settlement offer process</p>
@@ -317,7 +300,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
                     </div>
                     
                     <div className="flex items-center gap-4">
-                      <span className="bg-red-600 text-white text-xs w-8 h-8 rounded-full flex items-center justify-center">240d</span>
+                      <span className="bg-black text-white text-xs w-8 h-8 rounded-full flex items-center justify-center">240d</span>
                       <div>
                         <h4 className="font-semibold text-black">Charge-Off Period</h4>
                         <p className="text-sm text-neutral-700">Optimal settlement window as accounts charge off</p>
@@ -326,7 +309,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
                   </div>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Negotiation Strategies</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
@@ -353,7 +336,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
                   </div>
                 </div>
 
-                <div className="bg-purple-50 border border-purple-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Orange County Creditor Landscape</h3>
                   <p className="text-neutral-700 mb-3">
                     Understanding local creditor practices improves settlement outcomes:
@@ -383,7 +366,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Agreement Documentation</h3>
                   <p className="text-neutral-700 mb-3">
                     Critical elements for Orange County settlement agreements:
@@ -398,7 +381,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
                   </ul>
                 </div>
 
-                <div className="bg-yellow-50 border border-yellow-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Payment Methods and Timing</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
@@ -425,11 +408,11 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
                   </div>
                 </div>
 
-                <div className="bg-orange-50 border border-orange-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Post-Payment Verification</h3>
                   <div className="space-y-3">
                     <div className="flex items-start gap-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-black flex-shrink-0 mt-0.5" />
                       <div>
                         <h4 className="font-semibold text-black">Payment Confirmation</h4>
                         <p className="text-sm text-neutral-700">Obtain written confirmation of payment receipt and debt satisfaction</p>
@@ -437,7 +420,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
                     </div>
                     
                     <div className="flex items-start gap-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-black flex-shrink-0 mt-0.5" />
                       <div>
                         <h4 className="font-semibold text-black">Credit Report Monitoring</h4>
                         <p className="text-sm text-neutral-700">Verify account status updates on credit reports within 30-60 days</p>
@@ -445,7 +428,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
                     </div>
                     
                     <div className="flex items-start gap-3">
-                      <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="w-5 h-5 text-black flex-shrink-0 mt-0.5" />
                       <div>
                         <h4 className="font-semibold text-black">Tax Form Processing</h4>
                         <p className="text-sm text-neutral-700">Prepare for 1099-C forms and tax implications by January 31</p>

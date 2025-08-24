@@ -25,30 +25,30 @@ export default function SmallBusinessDebtSettlementCaseStudiesOrangeCounty() {
         <link rel="canonical" href="https://debtclear.com/blog/small-business-debt-settlement-case-studies-orange-county" />
       </Helmet>
       {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-400 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+            <div className="w-2 h-2 bg-white"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
               CASE STUDIES
             </span>
           </div>
 
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             Small Business Debt Settlement:
             <br />
             <span className="font-mono text-3xl lg:text-4xl">Orange County Case Studies</span>
           </h1>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>August 12, 2025</span>
@@ -81,7 +81,7 @@ export default function SmallBusinessDebtSettlementCaseStudiesOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-blue-50 border border-blue-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <Building2 className="w-6 h-6" />
@@ -90,19 +90,19 @@ export default function SmallBusinessDebtSettlementCaseStudiesOrangeCounty() {
               
               <div className="grid md:grid-cols-4 gap-6 text-center">
                 <div>
-                  <div className="text-3xl font-mono text-blue-600 mb-2">127</div>
+                  <div className="text-3xl font-mono text-black mb-2">127</div>
                   <div className="text-sm text-neutral-600">Businesses Helped</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-mono text-blue-600 mb-2">62%</div>
+                  <div className="text-3xl font-mono text-black mb-2">62%</div>
                   <div className="text-sm text-neutral-600">Average Debt Reduction</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-mono text-blue-600 mb-2">18</div>
+                  <div className="text-3xl font-mono text-black mb-2">18</div>
                   <div className="text-sm text-neutral-600">Months Average Timeline</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-mono text-blue-600 mb-2">$8.4M</div>
+                  <div className="text-3xl font-mono text-black mb-2">$8.4M</div>
                   <div className="text-sm text-neutral-600">Total Debt Eliminated</div>
                 </div>
               </div>
@@ -116,9 +116,9 @@ export default function SmallBusinessDebtSettlementCaseStudiesOrangeCounty() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="mb-12"
             >
-              <div className="bg-green-50 border border-green-200 p-8">
+              <div className="bg-neutral-50 border border-neutral-200 p-8">
                 <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
-                  <CheckCircle className="w-6 h-6 text-green-600" />
+                  <CheckCircle className="w-6 h-6 text-black" />
                   Case Study 1: Family Restaurant in Costa Mesa
                 </h2>
                 
@@ -146,7 +146,7 @@ export default function SmallBusinessDebtSettlementCaseStudiesOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-white border border-green-200 p-6 mb-6">
+                <div className="bg-white border border-neutral-200 p-6 mb-6">
                   <h3 className="text-lg font-semibold text-black mb-3">The Crisis</h3>
                   <p className="text-neutral-700 mb-3">
                     "When COVID-19 hit in March 2020, our revenue dropped 85% overnight. Even with PPP loans and outdoor dining, we couldn't keep up with debt payments. After struggling for 18 months, we faced closure or bankruptcy."
@@ -180,7 +180,7 @@ export default function SmallBusinessDebtSettlementCaseStudiesOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-green-100 border border-green-300 p-4">
+                <div className="bg-neutral-50 border border-neutral-200 p-4">
                   <h4 className="font-semibold text-black mb-2">Current Status (2025)</h4>
                   <p className="text-sm text-neutral-700">
                     The restaurant is now thriving with $950,000 annual revenue, debt-free operations, and has opened a second location in Irvine. The family credits debt settlement with saving their American dream.
@@ -197,9 +197,9 @@ export default function SmallBusinessDebtSettlementCaseStudiesOrangeCounty() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="mb-12"
             >
-              <div className="bg-blue-50 border border-blue-200 p-8">
+              <div className="bg-neutral-50 border border-neutral-200 p-8">
                 <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
-                  <CheckCircle className="w-6 h-6 text-green-600" />
+                  <CheckCircle className="w-6 h-6 text-black" />
                   Case Study 2: Software Development Company in Irvine
                 </h2>
                 
@@ -227,7 +227,7 @@ export default function SmallBusinessDebtSettlementCaseStudiesOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-white border border-blue-200 p-6 mb-6">
+                <div className="bg-white border border-neutral-200 p-6 mb-6">
                   <h3 className="text-lg font-semibold text-black mb-3">The Challenge</h3>
                   <p className="text-neutral-700 mb-3">
                     "We grew too fast and took on too much debt to fund expansion. When two major clients delayed payments by 6 months, our cash flow collapsed. We were spending 60% of revenue just servicing debt."
@@ -261,7 +261,7 @@ export default function SmallBusinessDebtSettlementCaseStudiesOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-blue-100 border border-blue-300 p-4">
+                <div className="bg-neutral-50 border border-neutral-200 p-4">
                   <h4 className="font-semibold text-black mb-2">Business Recovery</h4>
                   <p className="text-sm text-neutral-700">
                     With $148,000 in annual debt service eliminated, the company reinvested in growth. Revenue increased to $3.2 million by 2025, and they're now considering acquisition opportunities in Orange County.
@@ -278,9 +278,9 @@ export default function SmallBusinessDebtSettlementCaseStudiesOrangeCounty() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="mb-12"
             >
-              <div className="bg-purple-50 border border-purple-200 p-8">
+              <div className="bg-neutral-50 border border-neutral-200 p-8">
                 <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
-                  <CheckCircle className="w-6 h-6 text-green-600" />
+                  <CheckCircle className="w-6 h-6 text-black" />
                   Case Study 3: Boutique Retail Chain in Newport Beach
                 </h2>
                 
@@ -308,7 +308,7 @@ export default function SmallBusinessDebtSettlementCaseStudiesOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-white border border-purple-200 p-6 mb-6">
+                <div className="bg-white border border-neutral-200 p-6 mb-6">
                   <h3 className="text-lg font-semibold text-black mb-3">The Perfect Storm</h3>
                   <p className="text-neutral-700 mb-3">
                     "Rising Orange County rents, changing shopping habits toward online, and supply chain disruptions created a perfect storm. Our Newport location alone cost $18,000/month in rent. We were drowning in inventory debt and couldn't pivot fast enough."
@@ -342,7 +342,7 @@ export default function SmallBusinessDebtSettlementCaseStudiesOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-purple-100 border border-purple-300 p-4">
+                <div className="bg-neutral-50 border border-neutral-200 p-4">
                   <h4 className="font-semibold text-black mb-2">Digital Transformation</h4>
                   <p className="text-sm text-neutral-700">
                     Using savings from debt settlement, the business invested heavily in e-commerce and social media marketing. Online sales now represent 40% of revenue, and the business is profitable with two optimized locations.
@@ -453,21 +453,21 @@ export default function SmallBusinessDebtSettlementCaseStudiesOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Early Intervention is Critical</h3>
                   <p className="text-neutral-700">
                     Businesses that began debt settlement within 6 months of cash flow problems had 40% higher success rates than those who waited until near-bankruptcy.
                   </p>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Maintain Core Operations</h3>
                   <p className="text-neutral-700">
                     Every successful case maintained basic business operations throughout settlement. Revenue generation is crucial for negotiating power and post-settlement recovery.
                   </p>
                 </div>
 
-                <div className="bg-orange-50 border border-orange-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Orange County Recovery Advantage</h3>
                   <p className="text-neutral-700">
                     Local businesses benefit from Orange County's strong economy, affluent consumer base, and rapid post-pandemic recovery. This creates favorable conditions for business debt settlement success.

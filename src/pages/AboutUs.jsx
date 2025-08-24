@@ -64,48 +64,47 @@ export default function AboutUs() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-neutral-50 to-white border-b border-neutral-200">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center max-w-4xl mx-auto"
+            className="text-center"
           >
             <div className="flex items-center justify-center gap-3 mb-6">
-              <div className="w-2 h-2 bg-black"></div>
-              <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+              <div className="w-2 h-2 bg-white"></div>
+              <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
                 EXPERT DEBT SETTLEMENT TEAM
               </span>
             </div>
             
-            <h1 className="text-5xl lg:text-6xl font-light text-black mb-6 leading-tight">
-              Orange County's
-              <br />
-              <span className="font-mono text-4xl lg:text-5xl">Debt Relief Experts</span>
+            <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+              Orange County's:<br />
+              <span className="font-mono text-3xl lg:text-4xl">Debt Relief Experts</span>
             </h1>
             
-            <p className="text-xl text-neutral-700 leading-relaxed mb-8 font-light">
+            <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10 mb-8">
               Licensed debt settlement specialists with over 50 years of combined experience 
               helping Orange County residents achieve financial freedom through proven debt relief strategies.
             </p>
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
               <div>
-                <div className="text-3xl font-light text-black mb-2">50+</div>
-                <div className="text-sm text-neutral-600 font-mono">Years Experience</div>
+                <div className="text-3xl font-light text-white mb-2">50+</div>
+                <div className="text-sm text-neutral-400 font-mono">Years Experience</div>
               </div>
               <div>
-                <div className="text-3xl font-light text-black mb-2">$25M+</div>
-                <div className="text-sm text-neutral-600 font-mono">Debt Settled</div>
+                <div className="text-3xl font-light text-white mb-2">$25M+</div>
+                <div className="text-sm text-neutral-400 font-mono">Debt Settled</div>
               </div>
               <div>
-                <div className="text-3xl font-light text-black mb-2">2,500+</div>
-                <div className="text-sm text-neutral-600 font-mono">Clients Helped</div>
+                <div className="text-3xl font-light text-white mb-2">2,500+</div>
+                <div className="text-sm text-neutral-400 font-mono">Clients Helped</div>
               </div>
               <div>
-                <div className="text-3xl font-light text-black mb-2">4.9★</div>
-                <div className="text-sm text-neutral-600 font-mono">Client Rating</div>
+                <div className="text-3xl font-light text-white mb-2">4.9★</div>
+                <div className="text-sm text-neutral-400 font-mono">Client Rating</div>
               </div>
             </div>
           </motion.div>

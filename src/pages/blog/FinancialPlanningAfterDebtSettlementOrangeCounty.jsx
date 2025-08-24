@@ -24,31 +24,31 @@ export default function FinancialPlanningAfterDebtSettlementOrangeCounty() {
         <meta property="og:type" content="article" />
         <link rel="canonical" href="https://debtclear.com/blog/financial-planning-after-debt-settlement-orange-county" />
       </Helmet>
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
+      {/* Hero Section */}
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+            <div className="w-2 h-2 bg-white rounded-full"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
               FINANCIAL PLANNING
             </span>
           </div>
 
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             Post-Debt Settlement Financial Planning:
             <br />
-            <span className="font-mono text-3xl lg:text-4xl">Orange County Families</span>
+            <span className="font-mono text-3xl lg:text-4xl text-neutral-300">Orange County Families</span>
           </h1>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>July 24, 2025</span>
@@ -81,7 +81,7 @@ export default function FinancialPlanningAfterDebtSettlementOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-blue-50 border border-blue-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <Target className="w-6 h-6" />
@@ -178,7 +178,7 @@ export default function FinancialPlanningAfterDebtSettlementOrangeCounty() {
                 </table>
               </div>
 
-              <div className="bg-yellow-50 border border-yellow-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h3 className="font-semibold text-black mb-2">Orange County Cost Considerations</h3>
                 <p className="text-neutral-700">
                   With median rent at $2,800/month, Orange County residents completing debt settlement must prioritize housing stability while building savings. Consider roommates, suburban areas, or income-based housing programs during the rebuilding phase.
@@ -238,7 +238,7 @@ export default function FinancialPlanningAfterDebtSettlementOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Priority 1: Emergency Fund</h3>
                   <p className="text-neutral-700 mb-3">
                     Before any investments, establish a robust emergency fund. In Orange County's high-cost environment, aim for 6-9 months of expenses ($20,000-30,000 minimum).
@@ -250,7 +250,7 @@ export default function FinancialPlanningAfterDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Priority 2: Retirement Accounts</h3>
                   <p className="text-neutral-700 mb-3">
                     Take advantage of tax-advantaged retirement accounts to rebuild wealth after debt settlement.
@@ -262,7 +262,7 @@ export default function FinancialPlanningAfterDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-purple-50 border border-purple-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Priority 3: Taxable Investments</h3>
                   <p className="text-neutral-700 mb-3">
                     After maximizing tax-advantaged accounts, build a diversified investment portfolio.

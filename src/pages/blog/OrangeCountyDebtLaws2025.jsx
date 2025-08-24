@@ -1,9 +1,17 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { Phone, Calculator, Shield, Scale, Users, AlertTriangle, DollarSign, FileText, Clock, ChevronRight, Target, Award, Gavel } from 'lucide-react';
+import { Phone, Calculator, Shield, Scale, Users, AlertTriangle, DollarSign, FileText, Clock, ChevronRight, Target, Award, Gavel, ArrowLeft, Calendar, User, ArrowRight } from 'lucide-react';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function OrangeCountyDebtLaws2025() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
@@ -40,22 +48,22 @@ export default function OrangeCountyDebtLaws2025() {
         </script>
       </Helmet>
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-b from-green-900 to-green-800 text-white py-20">
-        <div className="max-w-4xl mx-auto px-6">
-          <div className="text-sm text-green-200 mb-4">Published August 23, 2025 • 20 min read</div>
+      {/* Hero Section - Black Gradient */}
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-sm text-neutral-400 mb-4">Published August 23, 2025 • 20 min read</div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Orange County Debt Laws 2025: Know Your Rights and Legal Protections
           </h1>
-          <p className="text-xl text-green-100 mb-8">
+          <p className="text-xl text-neutral-300 mb-8">
             California's comprehensive consumer protection laws provide Orange County residents with powerful tools to combat debt collection abuse. Stay informed about your rights and available resources for successful debt resolution.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-green-900 px-6 py-3 rounded hover:bg-green-50 transition">
+            <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded hover:bg-neutral-50 transition">
               <Calculator className="w-5 h-5" />
               Analyze Your Rights
             </Link>
-            <a href="#consultation" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded hover:bg-white hover:text-green-900 transition">
+            <a href="#consultation" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded hover:bg-white hover:text-black transition">
               <Phone className="w-5 h-5" />
               Free Legal Consultation
             </a>
@@ -64,26 +72,26 @@ export default function OrangeCountyDebtLaws2025() {
       </section>
 
       {/* Statistics Section */}
-      <section className="py-12 bg-green-50">
+      <section className="py-12 bg-neutral-50">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Scale className="w-8 h-8 text-green-900 mb-2" />
+              <Scale className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">4</div>
               <div className="text-sm text-neutral-600">Years Statute of Limitations</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Shield className="w-8 h-8 text-green-900 mb-2" />
+              <Shield className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">$1.25M</div>
               <div className="text-sm text-neutral-600">Homestead Protection</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <DollarSign className="w-8 h-8 text-green-900 mb-2" />
+              <DollarSign className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">25%</div>
               <div className="text-sm text-neutral-600">Max Wage Garnishment</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Gavel className="w-8 h-8 text-green-900 mb-2" />
+              <Gavel className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">4</div>
               <div className="text-sm text-neutral-600">Orange County Courts</div>
             </div>
@@ -104,12 +112,12 @@ export default function OrangeCountyDebtLaws2025() {
               creditors and collection agencies can pursue debts.
             </p>
 
-            <div className="bg-blue-50 border border-blue-200 p-8 mb-8">
-              <h3 className="text-xl font-semibold text-blue-800 mb-4">Key California Debt Protection Laws</h3>
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
+              <h3 className="text-xl font-semibold text-black mb-4">Key California Debt Protection Laws</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="font-semibold text-blue-800 mb-2">Federal Laws</h4>
-                  <ul className="space-y-1 text-sm text-blue-700">
+                  <h4 className="font-semibold text-black mb-2">Federal Laws</h4>
+                  <ul className="space-y-1 text-sm text-black">
                     <li>• Fair Debt Collection Practices Act (FDCPA)</li>
                     <li>• Fair Credit Reporting Act (FCRA)</li>
                     <li>• Telephone Consumer Protection Act (TCPA)</li>
@@ -117,8 +125,8 @@ export default function OrangeCountyDebtLaws2025() {
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-blue-800 mb-2">California State Laws</h4>
-                  <ul className="space-y-1 text-sm text-blue-700">
+                  <h4 className="font-semibold text-black mb-2">California State Laws</h4>
+                  <ul className="space-y-1 text-sm text-black">
                     <li>• Rosenthal Fair Debt Collection Practices Act</li>
                     <li>• California Civil Code Section 1788</li>
                     <li>• Unruh Civil Rights Act</li>
@@ -187,12 +195,12 @@ export default function OrangeCountyDebtLaws2025() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-green-50 border border-green-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <Scale className="w-6 h-6 text-green-600" />
-                  <h3 className="text-lg font-semibold text-green-800">Written Contracts</h3>
+                  <Scale className="w-6 h-6 text-black" />
+                  <h3 className="text-lg font-semibold text-black">Written Contracts</h3>
                 </div>
-                <div className="space-y-3 text-sm text-green-700">
+                <div className="space-y-3 text-sm text-black">
                   <p>• Credit cards: 4 years</p>
                   <p>• Personal loans: 4 years</p>
                   <p>• Auto loans: 4 years</p>
@@ -200,12 +208,12 @@ export default function OrangeCountyDebtLaws2025() {
                 </div>
               </div>
 
-              <div className="bg-purple-50 border border-purple-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <AlertTriangle className="w-6 h-6 text-purple-600" />
-                  <h3 className="text-lg font-semibold text-purple-800">Oral Agreements</h3>
+                  <AlertTriangle className="w-6 h-6 text-black" />
+                  <h3 className="text-lg font-semibold text-black">Oral Agreements</h3>
                 </div>
-                <div className="space-y-3 text-sm text-purple-700">
+                <div className="space-y-3 text-sm text-black">
                   <p>• Verbal promises: 2 years</p>
                   <p>• Handshake deals: 2 years</p>
                   <p>• Implied contracts: 2 years</p>
@@ -398,9 +406,9 @@ export default function OrangeCountyDebtLaws2025() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-green-50 border border-green-200 p-6">
-                <h3 className="text-lg font-semibold text-green-800 mb-4">Required Protections</h3>
-                <div className="space-y-3 text-sm text-green-700">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h3 className="text-lg font-semibold text-black mb-4">Required Protections</h3>
+                <div className="space-y-3 text-sm text-black">
                   <p>• 3-day cancellation right</p>
                   <p>• No upfront fees before settlement</p>
                   <p>• Written contracts required</p>
@@ -409,9 +417,9 @@ export default function OrangeCountyDebtLaws2025() {
                 </div>
               </div>
 
-              <div className="bg-red-50 border border-red-200 p-6">
-                <h3 className="text-lg font-semibold text-red-800 mb-4">Prohibited Practices</h3>
-                <div className="space-y-3 text-sm text-red-700">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h3 className="text-lg font-semibold text-black mb-4">Prohibited Practices</h3>
+                <div className="space-y-3 text-sm text-black">
                   <p>• Collecting fees before settlement</p>
                   <p>• Misrepresenting success rates</p>
                   <p>• Advising to stop payments without disclosure</p>
@@ -464,43 +472,6 @@ export default function OrangeCountyDebtLaws2025() {
               facing debt collection issues and financial hardship.
             </p>
 
-            <div className="bg-green-900 text-white p-8 mb-8 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Know Your Rights - Free Legal Consultation</h3>
-              <p className="mb-6 text-green-100">
-                Don't let debt collectors violate your rights. Understanding California's consumer protection 
-                laws is the first step in defending against abusive collection practices.
-              </p>
-              <div className="grid md:grid-cols-2 gap-6 text-sm">
-                <div>
-                  <h4 className="font-semibold mb-2">Legal Protection Includes:</h4>
-                  <ul className="space-y-1 text-green-100">
-                    <li>• FDCPA violation assessment</li>
-                    <li>• Debt validation review</li>
-                    <li>• Statute of limitations analysis</li>
-                    <li>• Asset protection planning</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2">Immediate Benefits:</h4>
-                  <ul className="space-y-1 text-green-100">
-                    <li>• Stop harassment calls</li>
-                    <li>• Challenge invalid debts</li>
-                    <li>• Protect wages and assets</li>
-                    <li>• Negotiate favorable settlements</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="flex flex-wrap gap-4 mt-6">
-                <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-green-900 px-6 py-3 rounded hover:bg-green-50 transition">
-                  <Calculator className="w-5 h-5" />
-                  Know Your Rights
-                </Link>
-                <a href="#consultation" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded hover:bg-white hover:text-green-900 transition">
-                  <Phone className="w-5 h-5" />
-                  Legal Consultation
-                </a>
-              </div>
-            </div>
 
             <p className="text-neutral-700 leading-relaxed mb-6">
               California's comprehensive consumer protection laws provide Orange County residents with powerful 
@@ -509,82 +480,36 @@ export default function OrangeCountyDebtLaws2025() {
             </p>
 
           </div>
-        </div>
-      </article>
 
-      {/* Consultation Form */}
-      <section id="consultation" className="bg-gradient-to-r from-green-900 to-green-700 text-white p-8">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-6">Free Consumer Rights Legal Consultation</h2>
-          <p className="mb-6">
-            Get a complete evaluation of your legal rights and protections under California debt collection laws. Our Orange County legal team will help you understand your options and defend against collector abuse.
+
+          </div>
+
+
+          </article>
+
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
+          </h2>
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
           </p>
-          <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <div>
-              <label className="block mb-2 text-sm">Full Name</label>
-              <input type="text" className="w-full p-3 rounded text-black" placeholder="John Smith" />
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Phone Number</label>
-              <input type="tel" className="w-full p-3 rounded text-black" placeholder="(714) 555-0100" />
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Email Address</label>
-              <input type="email" className="w-full p-3 rounded text-black" placeholder="john@example.com" />
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">City</label>
-              <select className="w-full p-3 rounded text-black">
-                <option>Select your city</option>
-                <option>Irvine</option>
-                <option>Newport Beach</option>
-                <option>Anaheim</option>
-                <option>Santa Ana</option>
-                <option>Huntington Beach</option>
-                <option>Costa Mesa</option>
-                <option>Mission Viejo</option>
-                <option>Fullerton</option>
-                <option>Garden Grove</option>
-                <option>Orange</option>
-                <option>Other Orange County City</option>
-              </select>
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Legal Issue</label>
-              <select className="w-full p-3 rounded text-black">
-                <option>Select your concern</option>
-                <option>Debt collector harassment</option>
-                <option>Invalid debt validation</option>
-                <option>Wage garnishment</option>
-                <option>FDCPA violations</option>
-                <option>Statute of limitations</option>
-                <option>Asset protection</option>
-                <option>Court summons/lawsuit</option>
-              </select>
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Time Since Last Payment</label>
-              <select className="w-full p-3 rounded text-black">
-                <option>Select timeframe</option>
-                <option>Still making payments</option>
-                <option>Less than 1 year</option>
-                <option>1-2 years</option>
-                <option>2-3 years</option>
-                <option>3-4 years</option>
-                <option>Over 4 years</option>
-                <option>Unknown/unsure</option>
-              </select>
-            </div>
-          </div>
-          <div className="mb-6">
-            <label className="block mb-2 text-sm">Describe Your Legal Situation</label>
-            <textarea className="w-full p-3 rounded text-black h-24" placeholder="Describe any debt collector violations, harassment, or legal concerns you're experiencing..."></textarea>
-          </div>
-          <button className="bg-white text-green-900 px-8 py-3 rounded font-bold hover:bg-green-50 transition">
-            Get Your Free Legal Rights Analysis →
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
+          >
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
           </button>
         </div>
       </section>
+
+      {/* Consultation Form */}
+      <div id="consultation">
+        <ConsultationForm />
+      </div>
     </div>
   );
 }

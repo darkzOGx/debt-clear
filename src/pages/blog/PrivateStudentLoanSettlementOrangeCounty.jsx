@@ -149,11 +149,11 @@ export default function PrivateStudentLoanSettlementOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-orange-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-orange-100 rounded-xl">
-                  <AlertTriangle className="w-8 h-8 text-orange-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <AlertTriangle className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">11.8%</div>
@@ -167,11 +167,11 @@ export default function PrivateStudentLoanSettlementOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-green-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-green-100 rounded-xl">
-                  <TrendingDown className="w-8 h-8 text-green-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <TrendingDown className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">62%</div>
@@ -218,23 +218,23 @@ export default function PrivateStudentLoanSettlementOrangeCounty() {
                   <tbody className="text-sm">
                     <tr>
                       <td className="border border-amber-300 p-4 font-semibold">Forgiveness Programs</td>
-                      <td className="border border-amber-300 p-4 text-green-700">PSLF, Teacher, IDR Forgiveness</td>
-                      <td className="border border-amber-300 p-4 text-red-700">None Available</td>
+                      <td className="border border-amber-300 p-4 text-black">PSLF, Teacher, IDR Forgiveness</td>
+                      <td className="border border-amber-300 p-4 text-black">None Available</td>
                     </tr>
                     <tr className="bg-amber-25">
                       <td className="border border-amber-300 p-4 font-semibold">Income-Driven Repayment</td>
-                      <td className="border border-amber-300 p-4 text-green-700">SAVE, IBR, PAYE, ICR</td>
-                      <td className="border border-amber-300 p-4 text-red-700">Limited Options</td>
+                      <td className="border border-amber-300 p-4 text-black">SAVE, IBR, PAYE, ICR</td>
+                      <td className="border border-amber-300 p-4 text-black">Limited Options</td>
                     </tr>
                     <tr>
                       <td className="border border-amber-300 p-4 font-semibold">Bankruptcy Discharge</td>
-                      <td className="border border-amber-300 p-4 text-red-700">Extremely Difficult</td>
-                      <td className="border border-amber-300 p-4 text-red-700">Extremely Difficult</td>
+                      <td className="border border-amber-300 p-4 text-black">Extremely Difficult</td>
+                      <td className="border border-amber-300 p-4 text-black">Extremely Difficult</td>
                     </tr>
                     <tr className="bg-amber-25">
                       <td className="border border-amber-300 p-4 font-semibold">Settlement Options</td>
-                      <td className="border border-amber-300 p-4 text-yellow-700">Limited</td>
-                      <td className="border border-amber-300 p-4 text-green-700">More Flexible</td>
+                      <td className="border border-amber-300 p-4 text-black">Limited</td>
+                      <td className="border border-amber-300 p-4 text-black">More Flexible</td>
                     </tr>
                   </tbody>
                 </table>
@@ -263,9 +263,9 @@ export default function PrivateStudentLoanSettlementOrangeCounty() {
               </p>
 
               <div className="grid md:grid-cols-2 gap-8">
-                <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-blue-800 mb-4">High Settlement Success Rate</h3>
-                  <div className="space-y-3 text-sm text-blue-700">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-black mb-4">High Settlement Success Rate</h3>
+                  <div className="space-y-3 text-sm text-black">
                     <div>
                       <strong>Discover Student Loans</strong>
                       <p>Settlement rate: 45-65% of balance</p>
@@ -281,9 +281,9 @@ export default function PrivateStudentLoanSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-red-50 border border-red-200 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-red-800 mb-4">Moderate Settlement Success</h3>
-                  <div className="space-y-3 text-sm text-red-700">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-black mb-4">Moderate Settlement Success</h3>
+                  <div className="space-y-3 text-sm text-black">
                     <div>
                       <strong>Sallie Mae</strong>
                       <p>Settlement rate: 35-55% of balance</p>
@@ -316,17 +316,17 @@ export default function PrivateStudentLoanSettlementOrangeCounty() {
               </p>
 
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6 rounded-lg">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
                   <div className="flex items-start gap-4">
-                    <div className="w-8 h-8 bg-green-600 text-white flex items-center justify-center text-sm font-mono rounded-full mt-1">
+                    <div className="w-8 h-8 bg-black text-white flex items-center justify-center text-sm font-mono rounded-full mt-1">
                       1
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-green-800 mb-3">Financial Hardship Documentation</h3>
-                      <p className="text-green-700 mb-3">
+                      <h3 className="text-lg font-semibold text-black mb-3">Financial Hardship Documentation</h3>
+                      <p className="text-black mb-3">
                         Gather comprehensive documentation proving inability to pay full balance:
                       </p>
-                      <ul className="space-y-1 text-sm text-green-600">
+                      <ul className="space-y-1 text-sm text-black">
                         <li>• Income statements and tax returns</li>
                         <li>• Expense documentation (OC living costs)</li>
                         <li>• Medical bills or disability records</li>
@@ -336,17 +336,17 @@ export default function PrivateStudentLoanSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
                   <div className="flex items-start gap-4">
-                    <div className="w-8 h-8 bg-blue-600 text-white flex items-center justify-center text-sm font-mono rounded-full mt-1">
+                    <div className="w-8 h-8 bg-black text-white flex items-center justify-center text-sm font-mono rounded-full mt-1">
                       2
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-blue-800 mb-3">Settlement Negotiation Strategy</h3>
-                      <p className="text-blue-700 mb-3">
+                      <h3 className="text-lg font-semibold text-black mb-3">Settlement Negotiation Strategy</h3>
+                      <p className="text-black mb-3">
                         Strategic approach to maximize settlement acceptance:
                       </p>
-                      <ul className="space-y-1 text-sm text-blue-600">
+                      <ul className="space-y-1 text-sm text-black">
                         <li>• Initial offer: 25-35% of balance</li>
                         <li>• Emphasize lump-sum payment ability</li>
                         <li>• Highlight Orange County economic factors</li>
@@ -356,17 +356,17 @@ export default function PrivateStudentLoanSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-purple-50 border border-purple-200 p-6 rounded-lg">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
                   <div className="flex items-start gap-4">
-                    <div className="w-8 h-8 bg-purple-600 text-white flex items-center justify-center text-sm font-mono rounded-full mt-1">
+                    <div className="w-8 h-8 bg-black text-white flex items-center justify-center text-sm font-mono rounded-full mt-1">
                       3
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-purple-800 mb-3">Agreement Finalization</h3>
-                      <p className="text-purple-700 mb-3">
+                      <h3 className="text-lg font-semibold text-black mb-3">Agreement Finalization</h3>
+                      <p className="text-black mb-3">
                         Secure settlement terms and protect your interests:
                       </p>
-                      <ul className="space-y-1 text-sm text-purple-600">
+                      <ul className="space-y-1 text-sm text-black">
                         <li>• Written settlement agreement required</li>
                         <li>• "Paid in full" credit reporting language</li>
                         <li>• Tax implications consultation</li>
@@ -388,8 +388,8 @@ export default function PrivateStudentLoanSettlementOrangeCounty() {
             >
               <h2 className="text-2xl font-semibold text-black mb-6">Orange County Settlement Success Story</h2>
               
-              <div className="bg-emerald-50 border border-emerald-200 p-8 mb-8 rounded-lg">
-                <h3 className="text-xl font-semibold text-emerald-800 mb-4">Case Study: Newport Beach Medical Graduate</h3>
+              <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8 rounded-lg">
+                <h3 className="text-xl font-semibold text-black mb-4">Case Study: Newport Beach Medical Graduate</h3>
                 
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
@@ -413,7 +413,7 @@ export default function PrivateStudentLoanSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="mt-6 p-4 bg-white border border-emerald-200 rounded-lg">
+                <div className="mt-6 p-4 bg-white border border-neutral-200 rounded-lg">
                   <h4 className="font-semibold text-black mb-2">Key Success Factors</h4>
                   <p className="text-sm text-neutral-700">
                     Strategic timing during residency year, comprehensive documentation of Orange County living expenses, and family lump-sum payment capability enabled this exceptional 70% debt reduction.
@@ -428,7 +428,7 @@ export default function PrivateStudentLoanSettlementOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.8 }}
-              className="bg-gradient-to-r from-rose-600 to-pink-700 text-white p-8 rounded-2xl text-center mb-12"
+              className="bg-gradient-to-r from-black to-neutral-900 text-white p-8 rounded-2xl text-center mb-12"
             >
               <h2 className="text-2xl font-bold mb-4">
                 Negotiate Your Private Student Loan Settlement

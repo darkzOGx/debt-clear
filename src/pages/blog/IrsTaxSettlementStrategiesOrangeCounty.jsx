@@ -1,7 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { Phone, Calculator, Shield, TrendingUp, AlertCircle, FileText, DollarSign, Clock, CheckCircle, XCircle } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, Phone, Calculator, Shield, TrendingUp, AlertCircle, FileText, DollarSign, CheckCircle, XCircle } from 'lucide-react';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function IrsTaxSettlementStrategiesOrangeCounty() {
   return (
@@ -41,49 +42,50 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-red-900 to-red-800 text-white py-20">
-        <div className="max-w-4xl mx-auto px-6">
-          <div className="text-sm text-red-200 mb-4">Published August 23, 2025 • 18 min read</div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            IRS Tax Settlement Strategies: Your Complete Guide to Resolving Tax Debt in Orange County
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8 z-10 relative">
+            <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-2 h-2 bg-black"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">TAX STRATEGIES</span>
+          </div>
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+            IRS Tax Settlement Strategies:<br />
+            <span className="font-mono text-3xl lg:text-4xl">Orange County 2025 Guide</span>
           </h1>
-          <p className="text-xl text-red-100 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 23, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>18 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Tax Team</span></div>
+          </div>
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             With over $3.2 billion in tax debt owed by California residents, understanding IRS settlement options is crucial. This comprehensive guide reveals proven strategies for Orange County taxpayers to resolve tax obligations and achieve financial freedom.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-red-900 px-6 py-3 rounded hover:bg-red-50 transition">
-              <Calculator className="w-5 h-5" />
-              Tax Savings Calculator
-            </Link>
-            <a href="#tax-consultation" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded hover:bg-white hover:text-red-900 transition">
-              <Phone className="w-5 h-5" />
-              Free Tax Consultation
-            </a>
-          </div>
         </div>
       </section>
 
       {/* IRS Statistics */}
-      <section className="py-12 bg-red-50">
+      <section className="py-12 bg-neutral-50">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <FileText className="w-8 h-8 text-red-900 mb-2" />
+              <FileText className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">$131B</div>
               <div className="text-sm text-neutral-600">National Tax Gap</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <TrendingUp className="w-8 h-8 text-red-900 mb-2" />
+              <TrendingUp className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">33%</div>
               <div className="text-sm text-neutral-600">OIC Acceptance Rate</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Clock className="w-8 h-8 text-red-900 mb-2" />
+              <Clock className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">6-9mo</div>
               <div className="text-sm text-neutral-600">Average Resolution</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <DollarSign className="w-8 h-8 text-red-900 mb-2" />
+              <DollarSign className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">$0.12</div>
               <div className="text-sm text-neutral-600">Avg $ Settled</div>
             </div>
@@ -101,7 +103,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
             The IRS offers multiple settlement programs designed to help taxpayers resolve their obligations while maintaining financial stability. For Orange County residents, where the median household income of $106,209 often results in substantial tax liabilities, understanding these options is essential for achieving resolution.
           </p>
 
-          <div className="bg-red-900 text-white p-8 rounded-lg mb-8">
+          <div className="bg-black text-white p-8 rounded-lg mb-8">
             <h3 className="text-xl font-bold mb-4">IRS Fresh Start Initiative Programs</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <ul className="space-y-2 text-sm">
@@ -128,9 +130,9 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-6">Offer in Compromise (OIC): The Gold Standard of Tax Settlement</h2>
           
-          <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-6">
+          <div className="bg-neutral-50 border-l-4 border-neutral-200 p-6 mb-6">
             <div className="flex items-start gap-3">
-              <AlertCircle className="w-6 h-6 text-yellow-600 flex-shrink-0 mt-1" />
+              <AlertCircle className="w-6 h-6 text-black flex-shrink-0 mt-1" />
               <div>
                 <h4 className="font-bold mb-2">2025 OIC Statistics</h4>
                 <p className="text-sm">
@@ -143,7 +145,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
           <h3 className="text-2xl font-semibold mb-4">OIC Eligibility Criteria</h3>
           
           <div className="space-y-4 mb-6">
-            <div className="pl-6 border-l-4 border-red-900">
+            <div className="pl-6 border-l-4 border-neutral-200">
               <h4 className="font-bold mb-2">Doubt as to Liability</h4>
               <p className="text-sm mb-2">When there's genuine doubt about the accuracy of the tax assessment.</p>
               <ul className="text-sm space-y-1 text-neutral-600">
@@ -153,7 +155,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
               </ul>
             </div>
 
-            <div className="pl-6 border-l-4 border-red-900">
+            <div className="pl-6 border-l-4 border-neutral-200">
               <h4 className="font-bold mb-2">Doubt as to Collectibility</h4>
               <p className="text-sm mb-2">When your assets and income are less than the full tax liability.</p>
               <ul className="text-sm space-y-1 text-neutral-600">
@@ -163,7 +165,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
               </ul>
             </div>
 
-            <div className="pl-6 border-l-4 border-red-900">
+            <div className="pl-6 border-l-4 border-neutral-200">
               <h4 className="font-bold mb-2">Effective Tax Administration</h4>
               <p className="text-sm mb-2">When payment would create economic hardship or be inequitable.</p>
               <ul className="text-sm space-y-1 text-neutral-600">
@@ -204,8 +206,8 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
           <h3 className="text-2xl font-semibold mb-4">Orange County OIC Success Factors</h3>
           
           <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <div className="bg-green-50 p-6 rounded-lg">
-              <CheckCircle className="w-6 h-6 text-green-600 mb-2" />
+            <div className="bg-neutral-50 p-6 rounded-lg">
+              <CheckCircle className="w-6 h-6 text-black mb-2" />
               <h4 className="font-bold mb-2">Factors That Help</h4>
               <ul className="text-sm space-y-1">
                 <li>✓ High housing costs reduce disposable income</li>
@@ -216,8 +218,8 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
               </ul>
             </div>
 
-            <div className="bg-red-50 p-6 rounded-lg">
-              <XCircle className="w-6 h-6 text-red-600 mb-2" />
+            <div className="bg-neutral-50 p-6 rounded-lg">
+              <XCircle className="w-6 h-6 text-black mb-2" />
               <h4 className="font-bold mb-2">Common Pitfalls</h4>
               <ul className="text-sm space-y-1">
                 <li>✗ Understating assets or income</li>
@@ -241,7 +243,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
           <h3 className="text-2xl font-semibold mb-4">Types of Installment Agreements</h3>
           
           <div className="space-y-6 mb-8">
-            <div className="bg-white border-2 border-red-900 rounded-lg p-6">
+            <div className="bg-white border-2 border-neutral-200 rounded-lg p-6">
               <h4 className="font-bold text-lg mb-3">Guaranteed Installment Agreement</h4>
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
@@ -265,7 +267,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
               </div>
             </div>
 
-            <div className="bg-white border-2 border-red-900 rounded-lg p-6">
+            <div className="bg-white border-2 border-neutral-200 rounded-lg p-6">
               <h4 className="font-bold text-lg mb-3">Streamlined Installment Agreement</h4>
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
@@ -289,7 +291,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
               </div>
             </div>
 
-            <div className="bg-white border-2 border-red-900 rounded-lg p-6">
+            <div className="bg-white border-2 border-neutral-200 rounded-lg p-6">
               <h4 className="font-bold text-lg mb-3">Partial Payment Installment Agreement (PPIA)</h4>
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
@@ -313,7 +315,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
               </div>
             </div>
 
-            <div className="bg-white border-2 border-red-900 rounded-lg p-6">
+            <div className="bg-white border-2 border-neutral-200 rounded-lg p-6">
               <h4 className="font-bold text-lg mb-3">Non-Streamlined Installment Agreement</h4>
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
@@ -373,7 +375,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
             Currently Not Collectible status provides crucial breathing room for taxpayers experiencing financial hardship. While not a permanent solution, CNC status stops IRS collection activities while you work to improve your financial situation.
           </p>
 
-          <div className="bg-red-50 border-l-4 border-red-400 p-6 mb-6">
+          <div className="bg-neutral-50 border-l-4 border-neutral-200 p-6 mb-6">
             <h3 className="font-bold mb-2">Important CNC Considerations</h3>
             <ul className="text-sm space-y-2">
               <li>• Interest and penalties continue to accrue</li>
@@ -465,7 +467,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
             </li>
           </ol>
 
-          <div className="bg-green-50 p-6 rounded-lg mb-6">
+          <div className="bg-neutral-50 p-6 rounded-lg mb-6">
             <h4 className="font-bold mb-3">Orange County Success Story</h4>
             <p className="text-sm mb-2">
               Newport Beach restaurant owner facing $47,000 in penalties due to COVID-19 impacts:
@@ -531,7 +533,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
           
           <h3 className="text-2xl font-semibold mb-4">Statute of Limitations Strategy</h3>
           
-          <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-6">
+          <div className="bg-neutral-50 border-l-4 border-neutral-200 p-6 mb-6">
             <h4 className="font-bold mb-2">Collection Statute Expiration Date (CSED)</h4>
             <p className="text-sm mb-2">
               The IRS has 10 years from assessment date to collect tax debt. Strategic planning around CSED can result in significant savings.
@@ -581,7 +583,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
 
           <h3 className="text-2xl font-semibold mb-4">Bankruptcy and Tax Debt</h3>
           
-          <div className="bg-red-50 p-6 rounded-lg mb-6">
+          <div className="bg-neutral-50 p-6 rounded-lg mb-6">
             <h4 className="font-bold mb-3">When Bankruptcy Can Discharge Tax Debt</h4>
             <p className="text-sm mb-3">
               Chapter 7 bankruptcy can discharge certain tax debts meeting ALL requirements:
@@ -606,7 +608,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
           
           <div className="space-y-4 mb-6">
             <div className="flex gap-4 items-start">
-              <div className="bg-red-900 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold flex-shrink-0">1</div>
+              <div className="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center font-bold flex-shrink-0">1</div>
               <div className="flex-1">
                 <h4 className="font-bold mb-1">Week 1-2: Initial Assessment</h4>
                 <p className="text-sm">Gather tax records, calculate total liability, identify missing returns, assess financial situation</p>
@@ -614,7 +616,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
             </div>
 
             <div className="flex gap-4 items-start">
-              <div className="bg-red-900 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold flex-shrink-0">2</div>
+              <div className="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center font-bold flex-shrink-0">2</div>
               <div className="flex-1">
                 <h4 className="font-bold mb-1">Week 3-4: Compliance Phase</h4>
                 <p className="text-sm">File all missing returns, calculate updated liability, ensure current year compliance</p>
@@ -622,7 +624,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
             </div>
 
             <div className="flex gap-4 items-start">
-              <div className="bg-red-900 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold flex-shrink-0">3</div>
+              <div className="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center font-bold flex-shrink-0">3</div>
               <div className="flex-1">
                 <h4 className="font-bold mb-1">Month 2: Strategy Selection</h4>
                 <p className="text-sm">Analyze options (OIC, IA, CNC), prepare financial statements, gather supporting documents</p>
@@ -630,7 +632,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
             </div>
 
             <div className="flex gap-4 items-start">
-              <div className="bg-red-900 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold flex-shrink-0">4</div>
+              <div className="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center font-bold flex-shrink-0">4</div>
               <div className="flex-1">
                 <h4 className="font-bold mb-1">Month 3-4: Application Submission</h4>
                 <p className="text-sm">Submit chosen resolution application, provide documentation, respond to IRS requests</p>
@@ -638,7 +640,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
             </div>
 
             <div className="flex gap-4 items-start">
-              <div className="bg-red-900 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold flex-shrink-0">5</div>
+              <div className="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center font-bold flex-shrink-0">5</div>
               <div className="flex-1">
                 <h4 className="font-bold mb-1">Month 5-9: Negotiation Phase</h4>
                 <p className="text-sm">IRS review and negotiation, appeals if necessary, finalize agreement terms</p>
@@ -646,7 +648,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
             </div>
 
             <div className="flex gap-4 items-start">
-              <div className="bg-red-900 text-white w-12 h-12 rounded-full flex items-center justify-center font-bold flex-shrink-0">6</div>
+              <div className="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center font-bold flex-shrink-0">6</div>
               <div className="flex-1">
                 <h4 className="font-bold mb-1">Month 10+: Implementation</h4>
                 <p className="text-sm">Begin payments, maintain compliance, monitor for completion</p>
@@ -662,7 +664,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
           <div className="overflow-x-auto mb-6">
             <table className="w-full border-collapse">
               <thead>
-                <tr className="bg-red-900 text-white">
+                <tr className="bg-black text-white">
                   <th className="p-4 text-left">Factor</th>
                   <th className="p-4 text-left">Self-Representation</th>
                   <th className="p-4 text-left">Professional Help</th>
@@ -728,13 +730,13 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
           <h2 className="text-3xl font-bold mb-6">Free IRS Settlement Tools & Calculators</h2>
           
           <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <Link to="/debt-calculator" className="block p-6 bg-white border-2 border-red-900 rounded-lg hover:bg-red-900 hover:text-white transition">
+            <Link to="/debt-calculator" className="block p-6 bg-white border-2 border-neutral-200 rounded-lg hover:bg-black hover:text-white transition">
               <Calculator className="w-8 h-8 mb-3" />
               <h3 className="font-bold mb-2">Tax Settlement Calculator</h3>
               <p className="text-sm">Calculate your OIC amount, installment payment, or potential savings</p>
             </Link>
 
-            <Link to="/debt-tools" className="block p-6 bg-white border-2 border-red-900 rounded-lg hover:bg-red-900 hover:text-white transition">
+            <Link to="/debt-tools" className="block p-6 bg-white border-2 border-neutral-200 rounded-lg hover:bg-black hover:text-white transition">
               <FileText className="w-8 h-8 mb-3" />
               <h3 className="font-bold mb-2">IRS Form Wizard</h3>
               <p className="text-sm">Get the right forms and instructions for your tax situation</p>
@@ -774,7 +776,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-6">Take Action: Your Tax Relief Roadmap</h2>
           
-          <div className="bg-gradient-to-r from-red-900 to-red-800 text-white p-8 rounded-lg mb-6">
+          <div className="bg-gradient-to-r from-black to-neutral-900 text-white p-8 rounded-lg mb-6">
             <h3 className="text-2xl font-bold mb-4">Immediate Action Items</h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
@@ -853,7 +855,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
         </section>
 
         {/* Consultation Form */}
-        <section id="tax-consultation" className="bg-red-900 text-white p-8 rounded-lg">
+        <section id="tax-consultation" className="bg-black text-white p-8 rounded-lg">
           <h2 className="text-3xl font-bold mb-6">Free IRS Tax Settlement Consultation</h2>
           <p className="mb-6">
             Get expert analysis of your tax situation and learn which IRS settlement program offers the best resolution for your specific circumstances. Orange County tax professionals standing by.
@@ -909,7 +911,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
             <label className="block mb-2 text-sm">Your Tax Situation</label>
             <textarea className="w-full p-3 rounded text-black h-24" placeholder="Briefly describe your tax situation, years owed, and any IRS actions..."></textarea>
           </div>
-          <button className="bg-white text-red-900 px-8 py-3 rounded font-bold hover:bg-red-50 transition">
+          <button className="bg-white text-black px-8 py-3 rounded font-bold hover:bg-neutral-50 transition">
             Get Free Tax Relief Analysis →
           </button>
         </section>

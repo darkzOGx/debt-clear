@@ -131,11 +131,11 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-orange-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-orange-100 rounded-xl">
-                  <DollarSign className="w-8 h-8 text-orange-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <DollarSign className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">$127K</div>
@@ -149,11 +149,11 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-red-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-red-100 rounded-xl">
-                  <AlertTriangle className="w-8 h-8 text-red-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <AlertTriangle className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">23%</div>
@@ -167,11 +167,11 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-green-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-green-100 rounded-xl">
-                  <TrendingUp className="w-8 h-8 text-green-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <TrendingUp className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">81%</div>
@@ -199,7 +199,7 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-red-50 border border-red-200 p-8 mb-12 rounded-lg"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12 rounded-lg"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <AlertTriangle className="w-6 h-6" />
@@ -230,7 +230,7 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
                 </div>
               </div>
 
-              <div className="mt-6 p-4 bg-white border border-red-200 rounded-lg">
+              <div className="mt-6 p-4 bg-white border border-neutral-200 rounded-lg">
                 <h4 className="font-semibold text-black mb-2">Immediate Risk Factors</h4>
                 <p className="text-sm text-neutral-700">
                   Orange County businesses facing multiple debt payments, declining revenue, or cash flow gaps need immediate intervention to prevent closure or bankruptcy.
@@ -252,7 +252,7 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
                 Small Business Administration (SBA) loans provide crucial funding for Orange County entrepreneurs, but economic downturns can make repayment challenging, triggering personal guaranty enforcement.
               </p>
 
-              <div className="bg-blue-50 border border-blue-200 p-8 mb-8 rounded-lg">
+              <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8 rounded-lg">
                 <h3 className="text-xl font-semibold text-black mb-6">SBA Loan Relief Options</h3>
                 
                 <div className="space-y-6">
@@ -313,9 +313,9 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
               </p>
 
               <div className="grid md:grid-cols-2 gap-8">
-                <div className="bg-yellow-50 border border-yellow-200 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-yellow-800 mb-4">MCA Debt Challenges</h3>
-                  <ul className="space-y-3 text-sm text-yellow-700">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-black mb-4">MCA Debt Challenges</h3>
+                  <ul className="space-y-3 text-sm text-black">
                     <li>• <strong>High Factor Rates:</strong> 1.2-1.5x advance amount</li>
                     <li>• <strong>Daily Payments:</strong> 10-20% of daily sales</li>
                     <li>• <strong>UCC Liens:</strong> Priority claims on business assets</li>
@@ -324,9 +324,9 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-green-50 border border-green-200 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-green-800 mb-4">MCA Relief Strategies</h3>
-                  <ul className="space-y-3 text-sm text-green-700">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-black mb-4">MCA Relief Strategies</h3>
+                  <ul className="space-y-3 text-sm text-black">
                     <li>• <strong>Consolidation Loans:</strong> Replace MCAs with term loans</li>
                     <li>• <strong>Payment Restructuring:</strong> Negotiate modified terms</li>
                     <li>• <strong>Legal Challenges:</strong> Contest predatory practices</li>
@@ -351,7 +351,7 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
                 Business credit lines provide flexible financing for Orange County companies, but maxed-out lines can create cash flow crises requiring immediate attention.
               </p>
 
-              <div className="bg-purple-50 border border-purple-200 p-8 mb-8 rounded-lg">
+              <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8 rounded-lg">
                 <h3 className="text-xl font-semibold text-black mb-6">Credit Line Relief Strategies</h3>
                 
                 <div className="grid md:grid-cols-2 gap-8">
@@ -388,8 +388,8 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
             >
               <h2 className="text-2xl font-semibold text-black mb-6">Orange County Business Success Story</h2>
               
-              <div className="bg-emerald-50 border border-emerald-200 p-8 mb-8 rounded-lg">
-                <h3 className="text-xl font-semibold text-emerald-800 mb-4">Case Study: Irvine Restaurant Chain</h3>
+              <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8 rounded-lg">
+                <h3 className="text-xl font-semibold text-black mb-4">Case Study: Irvine Restaurant Chain</h3>
                 
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
@@ -413,7 +413,7 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="mt-6 p-4 bg-white border border-emerald-200 rounded-lg">
+                <div className="mt-6 p-4 bg-white border border-neutral-200 rounded-lg">
                   <h4 className="font-semibold text-black mb-2">Recovery Strategy</h4>
                   <p className="text-sm text-neutral-700">
                     Comprehensive debt restructuring combined with operational improvements allowed this Orange County restaurant chain to maintain operations, retain employees, and return to profitability within 18 months.
@@ -428,7 +428,7 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 1.0 }}
-              className="bg-gradient-to-r from-amber-600 to-orange-700 text-white p-8 rounded-2xl text-center mb-12"
+              className="bg-gradient-to-r from-black to-neutral-900 text-white p-8 rounded-2xl text-center mb-12"
             >
               <h2 className="text-2xl font-bold mb-4">
                 Save Your Orange County Business
@@ -458,7 +458,7 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
               </div>
               <button 
                 onClick={scrollToConsultation}
-                className="bg-white text-orange-700 px-8 py-3 rounded-lg font-semibold hover:bg-amber-50 transition-colors"
+                className="bg-white text-black px-8 py-3 rounded-lg font-semibold hover:bg-amber-50 transition-colors"
               >
                 Solve My Business Debt
               </button>

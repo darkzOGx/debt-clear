@@ -81,7 +81,7 @@ export default function LegalRightsDebtSettlementOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-blue-50 border border-blue-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <Shield className="w-6 h-6" />
@@ -124,7 +124,7 @@ export default function LegalRightsDebtSettlementOrangeCounty() {
               <h2 className="text-2xl font-semibold text-black mb-6">Debt Validation: Your First Line of Defense</h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
                     <CheckCircle className="w-5 h-5" />
                     What You Can Demand
@@ -141,7 +141,7 @@ export default function LegalRightsDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-yellow-50 border border-yellow-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Orange County Residents: Key Strategy</h3>
                   <p className="text-neutral-700 mb-3">
                     Many debt collectors cannot provide proper validation, especially for older debts. This can lead to:
@@ -208,9 +208,9 @@ export default function LegalRightsDebtSettlementOrangeCounty() {
                 </table>
               </div>
 
-              <div className="bg-red-50 border border-red-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-2 flex items-center gap-2">
-                  <AlertTriangle className="w-5 h-5 text-red-600" />
+                  <AlertTriangle className="w-5 h-5 text-black" />
                   Critical Warning
                 </h4>
                 <p className="text-neutral-700 mb-2">
@@ -256,7 +256,7 @@ export default function LegalRightsDebtSettlementOrangeCounty() {
                 </div>
               </div>
 
-              <div className="mt-6 bg-blue-50 border border-blue-200 p-6">
+              <div className="mt-6 bg-neutral-50 border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-2">Orange County Settlement Warning</h4>
                 <p className="text-neutral-700">
                   Avoid companies that guarantee specific settlement amounts or timeframes. No legitimate company can guarantee results, and such promises often indicate fraudulent operations targeting Orange County's affluent population.
@@ -275,7 +275,7 @@ export default function LegalRightsDebtSettlementOrangeCounty() {
               <h2 className="text-2xl font-semibold text-black mb-6">California Asset Protection Laws</h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Protected Assets (Cannot Be Taken)</h3>
                   <div className="grid md:grid-cols-2 gap-4">
                     <ul className="text-sm text-neutral-700 space-y-2">
@@ -295,7 +295,7 @@ export default function LegalRightsDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-orange-50 border border-orange-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Orange County Homestead Exemption</h3>
                   <p className="text-neutral-700 mb-3">
                     Given Orange County's high property values, the homestead exemption is particularly valuable:
@@ -320,7 +320,7 @@ export default function LegalRightsDebtSettlementOrangeCounty() {
             >
               <h2 className="text-2xl font-semibold text-black mb-6">Wage Garnishment Protections in California</h2>
               
-              <div className="bg-blue-50 border border-blue-200 p-8">
+              <div className="bg-neutral-50 border border-neutral-200 p-8">
                 <h3 className="text-lg font-semibold text-black mb-4">California's Enhanced Protection</h3>
                 
                 <div className="grid md:grid-cols-2 gap-6">
@@ -348,7 +348,7 @@ export default function LegalRightsDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="mt-6 p-4 bg-white border border-blue-200">
+                <div className="mt-6 p-4 bg-white border border-neutral-200">
                   <h4 className="font-semibold text-black mb-2">Example: Orange County Protection</h4>
                   <p className="text-sm text-neutral-700">
                     With California minimum wage at $18/hour (2025), weekly protection is $720 (40 × $18), compared to federal protection of $217.50 (30 × $7.25).
@@ -368,7 +368,7 @@ export default function LegalRightsDebtSettlementOrangeCounty() {
               <h2 className="text-2xl font-semibold text-black mb-6">When to Take Legal Action</h2>
               
               <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-red-50 border border-red-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Violations That Merit Legal Action</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• Calls before 8 AM or after 9 PM</li>
@@ -380,7 +380,7 @@ export default function LegalRightsDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
                 
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Available Remedies</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• Actual damages (financial harm)</li>
@@ -392,7 +392,7 @@ export default function LegalRightsDebtSettlementOrangeCounty() {
                 </div>
               </div>
 
-              <div className="mt-6 bg-yellow-50 border border-yellow-200 p-6">
+              <div className="mt-6 bg-neutral-50 border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-2">Orange County Legal Resources</h4>
                 <ul className="text-sm text-neutral-700 space-y-1">
                   <li>• Orange County Bar Association Lawyer Referral</li>

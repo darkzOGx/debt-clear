@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { ArrowLeft, Calendar, Clock, User, Shield, TrendingUp, AlertTriangle, FileText } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, Shield, TrendingUp, AlertTriangle, FileText, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -93,25 +93,25 @@ export default function AssetProtectionTrustsDebtSettlementOrangeCounty() {
       <section className="py-16 bg-white border-b border-neutral-200">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center p-8 bg-gradient-to-br from-slate-50 to-slate-100 rounded-lg border border-slate-200 hover:shadow-lg transition-all duration-300">
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-slate-200 hover:shadow-lg transition-all duration-300">
               <Shield className="w-12 h-12 text-slate-600 mx-auto mb-4" />
               <div className="text-3xl font-bold text-slate-800 mb-2">$2M</div>
               <div className="text-sm font-medium text-slate-700 mb-1">Average Trust Value</div>
               <div className="text-xs text-slate-600">Orange County residents</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-lg border border-indigo-200 hover:shadow-lg transition-all duration-300">
-              <TrendingUp className="w-12 h-12 text-indigo-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-indigo-800 mb-2">95%</div>
-              <div className="text-sm font-medium text-indigo-700 mb-1">Protection Success</div>
-              <div className="text-xs text-indigo-600">When properly structured</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <TrendingUp className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">95%</div>
+              <div className="text-sm font-medium text-black mb-1">Protection Success</div>
+              <div className="text-xs text-black">When properly structured</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 hover:shadow-lg transition-all duration-300">
-              <FileText className="w-12 h-12 text-green-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-green-800 mb-2">4 Years</div>
-              <div className="text-sm font-medium text-green-700 mb-1">Statute of Limitations</div>
-              <div className="text-xs text-green-600">Fraudulent transfer (CA)</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <FileText className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">4 Years</div>
+              <div className="text-sm font-medium text-black mb-1">Statute of Limitations</div>
+              <div className="text-xs text-black">Fraudulent transfer (CA)</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-amber-50 to-amber-100 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
               <AlertTriangle className="w-12 h-12 text-amber-600 mx-auto mb-4" />
               <div className="text-3xl font-bold text-amber-800 mb-2">2 Years</div>
               <div className="text-sm font-medium text-amber-700 mb-1">Minimum Lead Time</div>
@@ -125,7 +125,7 @@ export default function AssetProtectionTrustsDebtSettlementOrangeCounty() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Asset Protection Trust Types for Orange County Residents</h2>
-            <div className="bg-blue-50 border border-blue-200 p-8 mb-8">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h3 className="text-lg font-semibold text-black mb-3">Domestic Asset Protection Trusts</h3>
@@ -182,7 +182,7 @@ export default function AssetProtectionTrustsDebtSettlementOrangeCounty() {
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Integration with Debt Settlement Strategy</h2>
             <div className="space-y-6 mb-8">
-              <div className="bg-green-50 border border-green-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h3 className="font-semibold text-black mb-3">Pre-Settlement Planning</h3>
                 <p className="text-neutral-700 mb-3">
                   Asset protection trusts work best when established well before debt issues arise. For Orange County residents with existing debt challenges:
@@ -196,7 +196,7 @@ export default function AssetProtectionTrustsDebtSettlementOrangeCounty() {
                 </ul>
               </div>
 
-              <div className="bg-blue-50 border border-blue-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h3 className="font-semibold text-black mb-3">During Settlement Negotiations</h3>
                 <p className="text-neutral-700 mb-3">
                   Properly established asset protection structures strengthen negotiation position:
@@ -257,21 +257,21 @@ export default function AssetProtectionTrustsDebtSettlementOrangeCounty() {
                 <tbody>
                   <tr>
                     <td className="border border-neutral-300 p-4 font-semibold">Nevada DAPT</td>
-                    <td className="border border-neutral-300 p-4 text-green-600">High</td>
+                    <td className="border border-neutral-300 p-4 text-black">High</td>
                     <td className="border border-neutral-300 p-4">$15K-25K</td>
-                    <td className="border border-neutral-300 p-4 text-yellow-600">Medium</td>
+                    <td className="border border-neutral-300 p-4 text-black">Medium</td>
                   </tr>
                   <tr className="bg-neutral-50">
                     <td className="border border-neutral-300 p-4 font-semibold">Delaware DAPT</td>
-                    <td className="border border-neutral-300 p-4 text-green-600">High</td>
+                    <td className="border border-neutral-300 p-4 text-black">High</td>
                     <td className="border border-neutral-300 p-4">$20K-30K</td>
-                    <td className="border border-neutral-300 p-4 text-yellow-600">Medium</td>
+                    <td className="border border-neutral-300 p-4 text-black">Medium</td>
                   </tr>
                   <tr>
                     <td className="border border-neutral-300 p-4 font-semibold">Cook Islands Trust</td>
-                    <td className="border border-neutral-300 p-4 text-green-800">Maximum</td>
+                    <td className="border border-neutral-300 p-4 text-black">Maximum</td>
                     <td className="border border-neutral-300 p-4">$35K-50K</td>
-                    <td className="border border-neutral-300 p-4 text-red-600">High</td>
+                    <td className="border border-neutral-300 p-4 text-black">High</td>
                   </tr>
                 </tbody>
               </table>
@@ -314,33 +314,34 @@ export default function AssetProtectionTrustsDebtSettlementOrangeCounty() {
               </p>
             </div>
           </div>
-        </div>
-      </article>
 
-      {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-slate-600 via-slate-700 to-indigo-700">
+          </div>
+
+          </article>
+
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-light text-white mb-6">
-            Need Advanced Asset Protection Strategy?
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
           </h2>
-          <p className="text-xl text-slate-100 mb-8 font-light">
-            Protect your Orange County assets with sophisticated trust structures and debt settlement integration
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
           </p>
-          <button
-            onClick={() => document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' })}
-            className="bg-white text-slate-700 px-8 py-4 text-lg font-semibold hover:bg-slate-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
           >
-            Get Asset Protection Analysis
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
           </button>
         </div>
       </section>
 
-      {/* Research Consultation */}
-      <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <ConsultationForm />
-        </div>
-      </section>
+      {/* Consultation Form */}
+      <div id="consultation">
+        <ConsultationForm />
+      </div>
       </div>
     </>
   );

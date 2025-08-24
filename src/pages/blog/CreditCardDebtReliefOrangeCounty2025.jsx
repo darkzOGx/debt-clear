@@ -1,10 +1,18 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Calendar, Clock, User, CreditCard, TrendingDown, AlertTriangle } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, CreditCard, TrendingDown, AlertTriangle, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function CreditCardDebtReliefOrangeCounty2025() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
@@ -16,48 +24,25 @@ export default function CreditCardDebtReliefOrangeCounty2025() {
         <meta property="og:type" content="article" />
         <link rel="canonical" href="https://debtclear.com/blog/credit-card-debt-relief-orange-county-2025" />
       </Helmet>
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <Link 
-            to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Resources
-          </Link>
-
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8 z-10 relative">
+            <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-              CREDIT CARD DEBT
-            </span>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">CREDIT CARD DEBT</span>
           </div>
-
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Credit Card Debt Relief Orange County:
-            <br />
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+            Credit Card Debt Relief Orange County:<br />
             <span className="font-mono text-3xl lg:text-4xl">2025 Complete Guide</span>
           </h1>
-
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              <span>August 15, 2025</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4" />
-              <span>14 min read</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <User className="w-4 h-4" />
-              <span>VegaX Debt Relief Team</span>
-            </div>
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 15, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>14 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Debt Relief Team</span></div>
           </div>
-
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">
-            Comprehensive strategies for Orange County residents struggling with credit card debt, including 
-            settlement options, consolidation alternatives, and AI-powered solutions that reduce debt by up to 60%.
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
+            Comprehensive strategies for Orange County residents struggling with credit card debt, including settlement options, consolidation alternatives, and AI-powered solutions that reduce debt by up to 60%.
           </p>
         </div>
       </section>
@@ -75,20 +60,20 @@ export default function CreditCardDebtReliefOrangeCounty2025() {
               find themselves trapped in minimum payment cycles that can last decades.
             </p>
 
-            <div className="bg-red-50 border border-red-200 p-8 mb-8">
-              <h3 className="text-xl font-semibold text-red-800 mb-4">Orange County Credit Card Debt Statistics</h3>
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
+              <h3 className="text-xl font-semibold text-black mb-4">Orange County Credit Card Debt Statistics</h3>
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-3xl font-mono text-red-800 mb-2">$8,900</div>
-                  <div className="text-sm text-red-700">Average OC Credit Card Debt</div>
+                  <div className="text-3xl font-mono text-black mb-2">$8,900</div>
+                  <div className="text-sm text-black">Average OC Credit Card Debt</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-mono text-red-800 mb-2">24.5%</div>
-                  <div className="text-sm text-red-700">Average Interest Rate</div>
+                  <div className="text-3xl font-mono text-black mb-2">24.5%</div>
+                  <div className="text-sm text-black">Average Interest Rate</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-mono text-red-800 mb-2">67%</div>
-                  <div className="text-sm text-red-700">Residents Carrying Balances</div>
+                  <div className="text-3xl font-mono text-black mb-2">67%</div>
+                  <div className="text-sm text-black">Residents Carrying Balances</div>
                 </div>
               </div>
             </div>
@@ -101,12 +86,12 @@ export default function CreditCardDebtReliefOrangeCounty2025() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-blue-50 border border-blue-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <CreditCard className="w-6 h-6 text-blue-600" />
-                  <h3 className="text-lg font-semibold text-blue-800">Debt Settlement</h3>
+                  <CreditCard className="w-6 h-6 text-black" />
+                  <h3 className="text-lg font-semibold text-black">Debt Settlement</h3>
                 </div>
-                <div className="space-y-3 text-sm text-blue-700">
+                <div className="space-y-3 text-sm text-black">
                   <p>• Negotiate balances down 40-60%</p>
                   <p>• No monthly payments during negotiation</p>
                   <p>• Typically 12-24 month timeline</p>
@@ -114,12 +99,12 @@ export default function CreditCardDebtReliefOrangeCounty2025() {
                 </div>
               </div>
 
-              <div className="bg-green-50 border border-green-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <TrendingDown className="w-6 h-6 text-green-600" />
-                  <h3 className="text-lg font-semibold text-green-800">Debt Consolidation</h3>
+                  <TrendingDown className="w-6 h-6 text-black" />
+                  <h3 className="text-lg font-semibold text-black">Debt Consolidation</h3>
                 </div>
-                <div className="space-y-3 text-sm text-green-700">
+                <div className="space-y-3 text-sm text-black">
                   <p>• Combine multiple cards into one payment</p>
                   <p>• Lower interest rates</p>
                   <p>• Preserve credit score</p>
@@ -303,8 +288,36 @@ export default function CreditCardDebtReliefOrangeCounty2025() {
             </p>
 
           </div>
+
+
+          </div>
+
+
+          </article>
+
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
+          </h2>
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
+          </p>
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
+          >
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
+          </button>
         </div>
-      </article>
+      </section>
+
+      {/* Consultation Form */}
+      <div id="consultation">
+        <ConsultationForm />
+      </div>
     </div>
   );
 }

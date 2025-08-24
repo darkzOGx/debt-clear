@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { Phone, Calculator, Shield, TrendingDown, Users, AlertTriangle, DollarSign, FileText, Scale, Clock, ChevronRight, Target, Award } from 'lucide-react';
+import { Phone, Calculator, Shield, TrendingDown, Users, AlertTriangle, DollarSign, FileText, Scale, Clock, ChevronRight, Target, Award, ArrowLeft, Calendar, User } from 'lucide-react';
 
 export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
   return (
@@ -40,50 +40,50 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
         </script>
       </Helmet>
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-b from-green-900 to-green-800 text-white py-20">
-        <div className="max-w-4xl mx-auto px-6">
-          <div className="text-sm text-green-200 mb-4">Published August 23, 2025 • 22 min read</div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            The Complete Orange County Guide to Debt & Tax Relief: Every Option, Strategy, and Solution
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8 z-10 relative">
+            <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-2 h-2 bg-black"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">TAX RELIEF</span>
+          </div>
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+            The Complete Orange County Guide to Debt & Tax Relief:<br />
+            <span className="font-mono text-3xl lg:text-4xl">Every Option, Strategy, and Solution</span>
           </h1>
-          <p className="text-xl text-green-100 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 23, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>22 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX AI Financial Solutions</span></div>
+          </div>
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             From credit card debt to IRS obligations, this comprehensive guide covers every relief option available to Orange County residents. Discover debt consolidation, settlement, tax relief programs, and create your personalized path to financial freedom.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-green-900 px-6 py-3 rounded hover:bg-green-50 transition">
-              <Calculator className="w-5 h-5" />
-              Complete Financial Analysis
-            </Link>
-            <a href="#comprehensive-consultation" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded hover:bg-white hover:text-green-900 transition">
-              <Phone className="w-5 h-5" />
-              Free Strategy Session
-            </a>
-          </div>
         </div>
       </section>
 
       {/* Financial Overview */}
-      <section className="py-12 bg-green-50">
+      <section className="py-12 bg-neutral-50">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Target className="w-8 h-8 text-green-900 mb-2" />
+              <Target className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">15+</div>
               <div className="text-sm text-neutral-600">Relief Programs</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Users className="w-8 h-8 text-green-900 mb-2" />
+              <Users className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">47,000+</div>
               <div className="text-sm text-neutral-600">OC Residents Helped</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <DollarSign className="w-8 h-8 text-green-900 mb-2" />
+              <DollarSign className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">$2.3B</div>
               <div className="text-sm text-neutral-600">Debt Resolved</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Award className="w-8 h-8 text-green-900 mb-2" />
+              <Award className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">89%</div>
               <div className="text-sm text-neutral-600">Success Rate</div>
             </div>
@@ -100,19 +100,19 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
             <div>
               <h3 className="font-semibold mb-2">Debt Relief Options</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="#debt-settlement" className="text-green-900 hover:underline">→ Debt Settlement Programs</a></li>
-                <li><a href="#debt-consolidation" className="text-green-900 hover:underline">→ Debt Consolidation Loans</a></li>
-                <li><a href="#credit-counseling" className="text-green-900 hover:underline">→ Credit Counseling & DMP</a></li>
-                <li><a href="#bankruptcy" className="text-green-900 hover:underline">→ Bankruptcy Options</a></li>
+                <li><a href="#debt-settlement" className="text-black hover:underline">→ Debt Settlement Programs</a></li>
+                <li><a href="#debt-consolidation" className="text-black hover:underline">→ Debt Consolidation Loans</a></li>
+                <li><a href="#credit-counseling" className="text-black hover:underline">→ Credit Counseling & DMP</a></li>
+                <li><a href="#bankruptcy" className="text-black hover:underline">→ Bankruptcy Options</a></li>
               </ul>
             </div>
             <div>
               <h3 className="font-semibold mb-2">Tax Relief Programs</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="#tax-settlement" className="text-green-900 hover:underline">→ IRS Settlement Programs</a></li>
-                <li><a href="#state-tax" className="text-green-900 hover:underline">→ California Tax Relief</a></li>
-                <li><a href="#combined-strategy" className="text-green-900 hover:underline">→ Combined Debt & Tax Strategy</a></li>
-                <li><a href="#emergency-relief" className="text-green-900 hover:underline">→ Emergency Relief Options</a></li>
+                <li><a href="#tax-settlement" className="text-black hover:underline">→ IRS Settlement Programs</a></li>
+                <li><a href="#state-tax" className="text-black hover:underline">→ California Tax Relief</a></li>
+                <li><a href="#combined-strategy" className="text-black hover:underline">→ Combined Debt & Tax Strategy</a></li>
+                <li><a href="#emergency-relief" className="text-black hover:underline">→ Emergency Relief Options</a></li>
               </ul>
             </div>
           </div>
@@ -126,7 +126,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
             Orange County residents face unique financial challenges with a median household debt of $127,000 and average tax obligations of $14,500. This comprehensive guide provides every tool, strategy, and resource needed to achieve financial freedom, whether you're dealing with credit card debt, medical bills, IRS obligations, or a combination of financial challenges.
           </p>
 
-          <div className="bg-green-900 text-white p-8 rounded-lg mb-8">
+          <div className="bg-black text-white p-8 rounded-lg mb-8">
             <h3 className="text-xl font-bold mb-4">The Orange County Financial Landscape</h3>
             <div className="grid md:grid-cols-3 gap-4">
               <div className="text-center">
@@ -155,29 +155,29 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
             Debt settlement negotiates with creditors to accept less than the full balance owed, typically achieving 40-60% reductions. This powerful tool has helped thousands of Orange County residents eliminate overwhelming debt without bankruptcy.
           </p>
 
-          <div className="bg-white border-2 border-green-900 rounded-lg p-6 mb-6">
+          <div className="bg-white border-2 border-neutral-200 rounded-lg p-6 mb-6">
             <h4 className="font-bold mb-3">Debt Settlement Process Timeline</h4>
             <div className="space-y-3">
               <div className="flex items-start gap-3">
-                <span className="bg-green-900 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">1</span>
+                <span className="bg-black text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">1</span>
                 <div>
                   <strong>Months 1-3:</strong> Stop payments, build settlement fund, creditor communication begins
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <span className="bg-green-900 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">2</span>
+                <span className="bg-black text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">2</span>
                 <div>
                   <strong>Months 4-12:</strong> First settlements negotiated, typically 40-50% of balance
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <span className="bg-green-900 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">3</span>
+                <span className="bg-black text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">3</span>
                 <div>
                   <strong>Months 13-36:</strong> Remaining accounts settled, credit rebuilding begins
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <span className="bg-green-900 text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">4</span>
+                <span className="bg-black text-white w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">4</span>
                 <div>
                   <strong>Months 37-48:</strong> Final settlements, credit score recovery accelerates
                 </div>
@@ -195,7 +195,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
           </ul>
 
           <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <div className="bg-green-50 p-4 rounded">
+            <div className="bg-neutral-50 p-4 rounded">
               <h5 className="font-bold mb-2">Pros</h5>
               <ul className="text-sm space-y-1">
                 <li>✓ Reduce debt by 40-60%</li>
@@ -205,7 +205,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
                 <li>✓ Definite end date</li>
               </ul>
             </div>
-            <div className="bg-red-50 p-4 rounded">
+            <div className="bg-neutral-50 p-4 rounded">
               <h5 className="font-bold mb-2">Cons</h5>
               <ul className="text-sm space-y-1">
                 <li>✗ Credit score impact</li>
@@ -218,7 +218,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
           </div>
 
           <p className="mb-4">
-            Learn more: <Link to="/blog/debt-settlement-timeline-orange-county" className="text-green-900 underline hover:no-underline">Complete Debt Settlement Timeline Guide</Link>
+            Learn more: <Link to="/blog/debt-settlement-timeline-orange-county" className="text-black underline hover:no-underline">Complete Debt Settlement Timeline Guide</Link>
           </p>
         </section>
 
@@ -235,7 +235,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
           <div className="overflow-x-auto mb-6">
             <table className="w-full border-collapse">
               <thead>
-                <tr className="bg-green-900 text-white">
+                <tr className="bg-black text-white">
                   <th className="p-3 text-left text-sm">Type</th>
                   <th className="p-3 text-left text-sm">APR Range</th>
                   <th className="p-3 text-left text-sm">Credit Required</th>
@@ -273,7 +273,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
 
           <h4 className="font-bold mb-3">Balance Transfer Strategy</h4>
           
-          <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-6">
+          <div className="bg-neutral-50 border-l-4 border-neutral-200 p-6 mb-6">
             <h5 className="font-bold mb-2">0% APR Balance Transfer Cards</h5>
             <p className="text-sm mb-3">
               Many Orange County residents with good credit qualify for 12-21 month 0% APR promotional periods. This strategy can save thousands in interest.
@@ -314,7 +314,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
           </div>
 
           <p className="mb-4">
-            Calculate savings: <Link to="/debt-calculator" className="text-green-900 underline hover:no-underline">Debt Consolidation Calculator</Link>
+            Calculate savings: <Link to="/debt-calculator" className="text-black underline hover:no-underline">Debt Consolidation Calculator</Link>
           </p>
         </section>
 
@@ -328,7 +328,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
             Credit counseling agencies provide education and Debt Management Plans (DMPs) that reduce interest rates while maintaining full principal payments. This option preserves credit better than settlement.
           </p>
 
-          <div className="bg-white border-2 border-green-900 rounded-lg p-6 mb-6">
+          <div className="bg-white border-2 border-neutral-200 rounded-lg p-6 mb-6">
             <h4 className="font-bold mb-3">Debt Management Plan Features</h4>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
@@ -377,7 +377,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
           <h3 className="text-2xl font-semibold mb-4">Federal Tax Relief Options</h3>
           
           <div className="space-y-6 mb-8">
-            <div className="bg-white border-l-4 border-green-900 pl-6">
+            <div className="bg-white border-l-4 border-neutral-200 pl-6">
               <h4 className="font-bold mb-2">Offer in Compromise (OIC)</h4>
               <p className="text-sm mb-2">Settle tax debt for less than owed based on ability to pay.</p>
               <div className="grid md:grid-cols-2 gap-4 mt-3">
@@ -394,7 +394,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
               </div>
             </div>
 
-            <div className="bg-white border-l-4 border-green-900 pl-6">
+            <div className="bg-white border-l-4 border-neutral-200 pl-6">
               <h4 className="font-bold mb-2">Installment Agreements</h4>
               <p className="text-sm mb-2">Pay tax debt over time with structured monthly payments.</p>
               <div className="grid md:grid-cols-2 gap-4 mt-3">
@@ -411,7 +411,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
               </div>
             </div>
 
-            <div className="bg-white border-l-4 border-green-900 pl-6">
+            <div className="bg-white border-l-4 border-neutral-200 pl-6">
               <h4 className="font-bold mb-2">Currently Not Collectible</h4>
               <p className="text-sm mb-2">Temporary suspension of collection for financial hardship.</p>
               <div className="grid md:grid-cols-2 gap-4 mt-3">
@@ -428,7 +428,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
               </div>
             </div>
 
-            <div className="bg-white border-l-4 border-green-900 pl-6">
+            <div className="bg-white border-l-4 border-neutral-200 pl-6">
               <h4 className="font-bold mb-2">Penalty Abatement</h4>
               <p className="text-sm mb-2">Remove penalties for reasonable cause or first-time relief.</p>
               <div className="grid md:grid-cols-2 gap-4 mt-3">
@@ -447,7 +447,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
           </div>
 
           <p className="mb-4">
-            Detailed guide: <Link to="/blog/irs-tax-settlement-strategies-orange-county" className="text-green-900 underline hover:no-underline">IRS Tax Settlement Strategies</Link>
+            Detailed guide: <Link to="/blog/irs-tax-settlement-strategies-orange-county" className="text-black underline hover:no-underline">IRS Tax Settlement Strategies</Link>
           </p>
         </section>
 
@@ -461,7 +461,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
             California FTB offers parallel but distinct programs from the IRS, often with stricter requirements but similar relief options.
           </p>
 
-          <div className="bg-red-50 border-l-4 border-red-400 p-6 mb-6">
+          <div className="bg-neutral-50 border-l-4 border-neutral-200 p-6 mb-6">
             <h4 className="font-bold mb-2">Key Differences: FTB vs IRS</h4>
             <ul className="text-sm space-y-2">
               <li>• More aggressive collection (faster wage garnishment)</li>
@@ -502,21 +502,21 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
             Many Orange County residents face both consumer debt and tax obligations. A coordinated approach maximizes savings and accelerates recovery.
           </p>
 
-          <div className="bg-green-900 text-white p-8 rounded-lg mb-6">
+          <div className="bg-black text-white p-8 rounded-lg mb-6">
             <h4 className="text-xl font-bold mb-4">Priority Matrix for Combined Debt</h4>
             
             <div className="space-y-4">
-              <div className="border-b border-green-700 pb-3">
+              <div className="border-b border-neutral-200 pb-3">
                 <h5 className="font-bold mb-2">Priority 1: Secured & Tax Debt</h5>
                 <p className="text-sm">Mortgage, auto loans, IRS/FTB obligations - These have severe consequences if unpaid</p>
               </div>
               
-              <div className="border-b border-green-700 pb-3">
+              <div className="border-b border-neutral-200 pb-3">
                 <h5 className="font-bold mb-2">Priority 2: High-Interest Unsecured</h5>
                 <p className="text-sm">Credit cards over 20% APR, payday loans - Compound quickly if ignored</p>
               </div>
               
-              <div className="border-b border-green-700 pb-3">
+              <div className="border-b border-neutral-200 pb-3">
                 <h5 className="font-bold mb-2">Priority 3: Medical & Personal Loans</h5>
                 <p className="text-sm">Hospital bills, personal loans - Often negotiable with less urgency</p>
               </div>
@@ -532,7 +532,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
           
           <div className="space-y-4 mb-6">
             <div className="flex gap-4 items-start">
-              <div className="bg-green-900 text-white w-16 h-10 rounded flex items-center justify-center font-bold flex-shrink-0">Q1</div>
+              <div className="bg-black text-white w-16 h-10 rounded flex items-center justify-center font-bold flex-shrink-0">Q1</div>
               <div className="flex-1">
                 <h5 className="font-bold mb-1">Stabilization Phase</h5>
                 <p className="text-sm">Stop collections, file missing returns, assess total obligations, create budget</p>
@@ -540,7 +540,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
             </div>
 
             <div className="flex gap-4 items-start">
-              <div className="bg-green-900 text-white w-16 h-10 rounded flex items-center justify-center font-bold flex-shrink-0">Q2</div>
+              <div className="bg-black text-white w-16 h-10 rounded flex items-center justify-center font-bold flex-shrink-0">Q2</div>
               <div className="flex-1">
                 <h5 className="font-bold mb-1">Tax Resolution</h5>
                 <p className="text-sm">Negotiate IRS/FTB agreements, establish compliance, secure releases</p>
@@ -548,7 +548,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
             </div>
 
             <div className="flex gap-4 items-start">
-              <div className="bg-green-900 text-white w-16 h-10 rounded flex items-center justify-center font-bold flex-shrink-0">Q3-4</div>
+              <div className="bg-black text-white w-16 h-10 rounded flex items-center justify-center font-bold flex-shrink-0">Q3-4</div>
               <div className="flex-1">
                 <h5 className="font-bold mb-1">Debt Settlement</h5>
                 <p className="text-sm">Begin creditor negotiations, accumulate settlement funds, execute agreements</p>
@@ -556,7 +556,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
             </div>
 
             <div className="flex gap-4 items-start">
-              <div className="bg-green-900 text-white w-16 h-10 rounded flex items-center justify-center font-bold flex-shrink-0">Year 2</div>
+              <div className="bg-black text-white w-16 h-10 rounded flex items-center justify-center font-bold flex-shrink-0">Year 2</div>
               <div className="flex-1">
                 <h5 className="font-bold mb-1">Recovery & Rebuilding</h5>
                 <p className="text-sm">Complete settlements, rebuild credit, establish emergency fund, long-term planning</p>
@@ -565,7 +565,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
           </div>
 
           <p className="mb-4">
-            Create your plan: <Link to="/debt-tools" className="text-green-900 underline hover:no-underline">Financial Recovery Planning Tools</Link>
+            Create your plan: <Link to="/debt-tools" className="text-black underline hover:no-underline">Financial Recovery Planning Tools</Link>
           </p>
         </section>
 
@@ -575,8 +575,8 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
           
           <h3 className="text-2xl font-semibold mb-4">Chapter 7 vs Chapter 13 Bankruptcy</h3>
           
-          <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-6">
-            <AlertTriangle className="w-6 h-6 text-yellow-600 mb-2" />
+          <div className="bg-neutral-50 border-l-4 border-neutral-200 p-6 mb-6">
+            <AlertTriangle className="w-6 h-6 text-black mb-2" />
             <p className="text-sm">
               Bankruptcy should be considered only after exploring all alternatives. While it provides immediate relief, the long-term consequences can impact your financial life for 7-10 years.
             </p>
@@ -639,7 +639,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
           
           <h3 className="text-2xl font-semibold mb-4">Immediate Relief for Financial Crisis</h3>
           
-          <div className="bg-red-900 text-white p-6 rounded-lg mb-6">
+          <div className="bg-black text-white p-6 rounded-lg mb-6">
             <h4 className="font-bold mb-3">Facing Immediate Action? Act Now:</h4>
             <ul className="space-y-2">
               <li>• <strong>Wage Garnishment:</strong> File for exemptions, negotiate release</li>
@@ -683,7 +683,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
           <div className="overflow-x-auto mb-6">
             <table className="w-full border-collapse text-sm">
               <thead>
-                <tr className="bg-green-900 text-white">
+                <tr className="bg-black text-white">
                   <th className="p-3 text-left">City</th>
                   <th className="p-3 text-left">Avg Debt</th>
                   <th className="p-3 text-left">Success Rate</th>
@@ -693,35 +693,35 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
               </thead>
               <tbody>
                 <tr className="border-b">
-                  <td className="p-3"><Link to="/debt-settlement-irvine" className="text-green-900 underline">Irvine</Link></td>
+                  <td className="p-3"><Link to="/debt-settlement-irvine" className="text-black underline">Irvine</Link></td>
                   <td className="p-3">$142,000</td>
                   <td className="p-3">92%</td>
                   <td className="p-3">$68,000</td>
                   <td className="p-3">28 months</td>
                 </tr>
                 <tr className="border-b bg-neutral-50">
-                  <td className="p-3"><Link to="/debt-settlement-newport-beach" className="text-green-900 underline">Newport Beach</Link></td>
+                  <td className="p-3"><Link to="/debt-settlement-newport-beach" className="text-black underline">Newport Beach</Link></td>
                   <td className="p-3">$186,000</td>
                   <td className="p-3">94%</td>
                   <td className="p-3">$93,000</td>
                   <td className="p-3">32 months</td>
                 </tr>
                 <tr className="border-b">
-                  <td className="p-3"><Link to="/debt-settlement-anaheim" className="text-green-900 underline">Anaheim</Link></td>
+                  <td className="p-3"><Link to="/debt-settlement-anaheim" className="text-black underline">Anaheim</Link></td>
                   <td className="p-3">$87,000</td>
                   <td className="p-3">89%</td>
                   <td className="p-3">$39,000</td>
                   <td className="p-3">24 months</td>
                 </tr>
                 <tr className="border-b bg-neutral-50">
-                  <td className="p-3"><Link to="/debt-settlement-santa-ana" className="text-green-900 underline">Santa Ana</Link></td>
+                  <td className="p-3"><Link to="/debt-settlement-santa-ana" className="text-black underline">Santa Ana</Link></td>
                   <td className="p-3">$76,000</td>
                   <td className="p-3">87%</td>
                   <td className="p-3">$34,000</td>
                   <td className="p-3">22 months</td>
                 </tr>
                 <tr className="border-b">
-                  <td className="p-3"><Link to="/debt-settlement-huntington-beach" className="text-green-900 underline">Huntington Beach</Link></td>
+                  <td className="p-3"><Link to="/debt-settlement-huntington-beach" className="text-black underline">Huntington Beach</Link></td>
                   <td className="p-3">$124,000</td>
                   <td className="p-3">91%</td>
                   <td className="p-3">$56,000</td>
@@ -778,7 +778,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
               <li>✓ Timeline preferences</li>
               <li>✓ Asset protection needs</li>
             </ul>
-            <Link to="/debt-calculator" className="inline-block mt-4 bg-green-900 text-white px-6 py-3 rounded hover:bg-green-800 transition">
+            <Link to="/debt-calculator" className="inline-block mt-4 bg-black text-white px-6 py-3 rounded hover:bg-black transition">
               Launch Analysis Tool →
             </Link>
           </div>
@@ -789,7 +789,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
           <h2 className="text-3xl font-bold mb-6">30-Day Implementation Guide</h2>
           
           <div className="space-y-4 mb-6">
-            <div className="bg-white border-l-4 border-green-900 pl-6 py-4">
+            <div className="bg-white border-l-4 border-neutral-200 pl-6 py-4">
               <h4 className="font-bold mb-2">Week 1: Assessment & Documentation</h4>
               <ul className="text-sm space-y-1">
                 <li>□ Pull credit reports from all three bureaus</li>
@@ -800,7 +800,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
               </ul>
             </div>
 
-            <div className="bg-white border-l-4 border-green-900 pl-6 py-4">
+            <div className="bg-white border-l-4 border-neutral-200 pl-6 py-4">
               <h4 className="font-bold mb-2">Week 2: Research & Consultation</h4>
               <ul className="text-sm space-y-1">
                 <li>□ Research all available options</li>
@@ -811,7 +811,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
               </ul>
             </div>
 
-            <div className="bg-white border-l-4 border-green-900 pl-6 py-4">
+            <div className="bg-white border-l-4 border-neutral-200 pl-6 py-4">
               <h4 className="font-bold mb-2">Week 3: Decision & Enrollment</h4>
               <ul className="text-sm space-y-1">
                 <li>□ Compare all proposals</li>
@@ -822,7 +822,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
               </ul>
             </div>
 
-            <div className="bg-white border-l-4 border-green-900 pl-6 py-4">
+            <div className="bg-white border-l-4 border-neutral-200 pl-6 py-4">
               <h4 className="font-bold mb-2">Week 4: Implementation & Monitoring</h4>
               <ul className="text-sm space-y-1">
                 <li>□ Begin program requirements</li>
@@ -840,7 +840,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
           <h2 className="text-3xl font-bold mb-6">Maximizing Success: Expert Tips</h2>
           
           <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <div className="bg-green-50 p-6 rounded-lg">
+            <div className="bg-neutral-50 p-6 rounded-lg">
               <h3 className="font-bold mb-3">Do's for Success</h3>
               <ul className="text-sm space-y-2">
                 <li>✓ Act quickly when facing financial hardship</li>
@@ -853,7 +853,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
               </ul>
             </div>
 
-            <div className="bg-red-50 p-6 rounded-lg">
+            <div className="bg-neutral-50 p-6 rounded-lg">
               <h3 className="font-bold mb-3">Don'ts to Avoid</h3>
               <ul className="text-sm space-y-2">
                 <li>✗ Don't ignore tax obligations</li>
@@ -876,30 +876,30 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
             <div>
               <h3 className="font-bold mb-3">Debt Settlement</h3>
               <ul className="text-sm space-y-2">
-                <li><Link to="/blog/debt-settlement-timeline-orange-county" className="text-green-900 underline">Settlement Timeline</Link></li>
-                <li><Link to="/blog/credit-score-recovery-debt-settlement-orange-county" className="text-green-900 underline">Credit Recovery Guide</Link></li>
-                <li><Link to="/blog/debt-settlement-fees-orange-county" className="text-green-900 underline">Fee Structure Explained</Link></li>
-                <li><Link to="/debt-settlement-vs-bankruptcy" className="text-green-900 underline">Settlement vs Bankruptcy</Link></li>
+                <li><Link to="/blog/debt-settlement-timeline-orange-county" className="text-black underline">Settlement Timeline</Link></li>
+                <li><Link to="/blog/credit-score-recovery-debt-settlement-orange-county" className="text-black underline">Credit Recovery Guide</Link></li>
+                <li><Link to="/blog/debt-settlement-fees-orange-county" className="text-black underline">Fee Structure Explained</Link></li>
+                <li><Link to="/debt-settlement-vs-bankruptcy" className="text-black underline">Settlement vs Bankruptcy</Link></li>
               </ul>
             </div>
 
             <div>
               <h3 className="font-bold mb-3">Tax Relief</h3>
               <ul className="text-sm space-y-2">
-                <li><Link to="/blog/irs-tax-settlement-strategies-orange-county" className="text-green-900 underline">IRS Strategies</Link></li>
-                <li><Link to="/blog/orange-county-tax-debt-relief-2025" className="text-green-900 underline">2025 Tax Programs</Link></li>
-                <li><Link to="/blog/debt-settlement-vs-tax-relief-orange-county" className="text-green-900 underline">Debt vs Tax Relief</Link></li>
-                <li><Link to="/blog/tax-implications-debt-settlement-california" className="text-green-900 underline">Tax Implications</Link></li>
+                <li><Link to="/blog/irs-tax-settlement-strategies-orange-county" className="text-black underline">IRS Strategies</Link></li>
+                <li><Link to="/blog/orange-county-tax-debt-relief-2025" className="text-black underline">2025 Tax Programs</Link></li>
+                <li><Link to="/blog/debt-settlement-vs-tax-relief-orange-county" className="text-black underline">Debt vs Tax Relief</Link></li>
+                <li><Link to="/blog/tax-implications-debt-settlement-california" className="text-black underline">Tax Implications</Link></li>
               </ul>
             </div>
 
             <div>
               <h3 className="font-bold mb-3">Tools & Calculators</h3>
               <ul className="text-sm space-y-2">
-                <li><Link to="/debt-calculator" className="text-green-900 underline">Debt Savings Calculator</Link></li>
-                <li><Link to="/debt-tools" className="text-green-900 underline">Analysis Tools Suite</Link></li>
-                <li><Link to="/orange-county-hub" className="text-green-900 underline">OC Resource Hub</Link></li>
-                <li><Link to="/ai-vs-human-debt-settlement-study" className="text-green-900 underline">AI Analysis Tool</Link></li>
+                <li><Link to="/debt-calculator" className="text-black underline">Debt Savings Calculator</Link></li>
+                <li><Link to="/debt-tools" className="text-black underline">Analysis Tools Suite</Link></li>
+                <li><Link to="/orange-county-hub" className="text-black underline">OC Resource Hub</Link></li>
+                <li><Link to="/ai-vs-human-debt-settlement-study" className="text-black underline">AI Analysis Tool</Link></li>
               </ul>
             </div>
           </div>
@@ -907,17 +907,17 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
 
         {/* Call to Action */}
         <section className="mb-12">
-          <div className="bg-gradient-to-r from-green-900 to-green-700 text-white p-8 rounded-lg text-center">
+          <div className="bg-gradient-to-r from-black to-neutral-900 text-white p-8 rounded-lg text-center">
             <h2 className="text-3xl font-bold mb-4">Start Your Financial Recovery Today</h2>
             <p className="text-lg mb-6">
               Join thousands of Orange County residents who have successfully overcome debt and tax challenges. Your path to financial freedom begins with one conversation.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-green-900 px-8 py-3 rounded-lg font-bold hover:bg-green-50 transition">
+              <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-black px-8 py-3 rounded-lg font-bold hover:bg-neutral-50 transition">
                 <Calculator className="w-5 h-5" />
                 Calculate Your Savings
               </Link>
-              <a href="#comprehensive-consultation" className="inline-flex items-center gap-2 border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-green-900 transition">
+              <a href="#comprehensive-consultation" className="inline-flex items-center gap-2 border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-black transition">
                 <Phone className="w-5 h-5" />
                 Get Free Analysis
               </a>
@@ -926,7 +926,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
         </section>
 
         {/* Consultation Form */}
-        <section id="comprehensive-consultation" className="bg-green-900 text-white p-8 rounded-lg">
+        <section id="comprehensive-consultation" className="bg-black text-white p-8 rounded-lg">
           <h2 className="text-3xl font-bold mb-6">Free Comprehensive Financial Analysis</h2>
           <p className="mb-6">
             Get a complete evaluation of all your debt relief, consolidation, and tax resolution options. Our Orange County specialists will create a customized recovery plan tailored to your unique situation.
@@ -999,7 +999,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
             <label className="block mb-2 text-sm">Brief Description of Your Situation</label>
             <textarea className="w-full p-3 rounded text-black h-24" placeholder="Tell us about your financial situation and goals..."></textarea>
           </div>
-          <button className="bg-white text-green-900 px-8 py-3 rounded font-bold hover:bg-green-50 transition">
+          <button className="bg-white text-black px-8 py-3 rounded font-bold hover:bg-neutral-50 transition">
             Get Your Free Comprehensive Analysis →
           </button>
         </section>

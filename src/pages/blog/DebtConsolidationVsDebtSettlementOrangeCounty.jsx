@@ -24,44 +24,28 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
         <meta property="og:type" content="article" />
         <link rel="canonical" href="https://debtclear.com/blog/debt-consolidation-vs-debt-settlement-orange-county" />
       </Helmet>
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <Link 
-            to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Resources
-          </Link>
-
+      {/* Hero Section */}
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8 z-10 relative">
+            <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-              COMPARISONS
-            </span>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">COMPARISONS</span>
           </div>
-
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Debt Consolidation vs. Debt Settlement:
-            <br />
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+            Debt Consolidation vs. Debt Settlement:<br />
             <span className="font-mono text-3xl lg:text-4xl">Orange County Decision Guide</span>
           </h1>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              <span>July 1, 2025</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4" />
-              <span>14 min read</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <User className="w-4 h-4" />
-              <span>Debt Relief Specialist</span>
-            </div>
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 1, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>14 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>Debt Relief Specialist</span></div>
           </div>
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
+            Compare debt consolidation and debt settlement options in Orange County with expert analysis of costs, benefits, and outcomes to help choose the right financial solution.
+          </p>
         </div>
       </section>
 
@@ -137,7 +121,7 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">How Debt Consolidation Works</h3>
                   <p className="text-neutral-700 mb-3">
                     Debt consolidation combines multiple debts into a single loan or payment, ideally with better terms:
@@ -151,7 +135,7 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-6">
-                  <div className="bg-blue-50 border border-blue-200 p-6">
+                  <div className="bg-neutral-50 border border-neutral-200 p-6">
                     <h4 className="font-semibold text-black mb-3">Advantages</h4>
                     <ul className="space-y-2 text-sm text-neutral-600">
                       <li>• Single monthly payment</li>
@@ -163,7 +147,7 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
                     </ul>
                   </div>
                   
-                  <div className="bg-orange-50 border border-orange-200 p-6">
+                  <div className="bg-neutral-50 border border-neutral-200 p-6">
                     <h4 className="font-semibold text-black mb-3">Disadvantages</h4>
                     <ul className="space-y-2 text-sm text-neutral-600">
                       <li>• Requires good credit for best rates</li>
@@ -176,7 +160,7 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-yellow-50 border border-yellow-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h4 className="font-semibold text-black mb-2">Orange County Consolidation Example</h4>
                   <p className="text-sm text-neutral-700 mb-2">
                     <strong>Scenario:</strong> $50,000 credit card debt at average 22% APR
@@ -205,7 +189,7 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-purple-50 border border-purple-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">How Debt Settlement Works</h3>
                   <p className="text-neutral-700 mb-3">
                     Debt settlement negotiates with creditors to accept less than the full amount owed:
@@ -219,7 +203,7 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-6">
-                  <div className="bg-green-50 border border-green-200 p-6">
+                  <div className="bg-neutral-50 border border-neutral-200 p-6">
                     <h4 className="font-semibold text-black mb-3">Advantages</h4>
                     <ul className="space-y-2 text-sm text-neutral-600">
                       <li>• Significant debt reduction (40-60%)</li>
@@ -231,7 +215,7 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
                     </ul>
                   </div>
                   
-                  <div className="bg-red-50 border border-red-200 p-6">
+                  <div className="bg-neutral-50 border border-neutral-200 p-6">
                     <h4 className="font-semibold text-black mb-3">Disadvantages</h4>
                     <ul className="space-y-2 text-sm text-neutral-600">
                       <li>• Severe credit score damage</li>
@@ -244,7 +228,7 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h4 className="font-semibold text-black mb-2">Orange County Settlement Example</h4>
                   <p className="text-sm text-neutral-700 mb-2">
                     <strong>Scenario:</strong> $50,000 credit card debt, financial hardship
@@ -270,7 +254,7 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
               <h2 className="text-2xl font-semibold text-black mb-6">Decision Framework for Orange County Residents</h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
                     <DollarSign className="w-5 h-5" />
                     Choose Debt Consolidation If:
@@ -291,7 +275,7 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-red-50 border border-red-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
                     <AlertTriangle className="w-5 h-5" />
                     Choose Debt Settlement If:
@@ -324,7 +308,7 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
             >
               <h2 className="text-2xl font-semibold text-black mb-6">Orange County Cost of Living Impact</h2>
               
-              <div className="bg-orange-50 border border-orange-200 p-8">
+              <div className="bg-neutral-50 border border-neutral-200 p-8">
                 <h3 className="text-lg font-semibold text-black mb-4">High Cost of Living Considerations</h3>
                 
                 <div className="grid md:grid-cols-2 gap-6">
@@ -349,7 +333,7 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="mt-6 p-4 bg-white border border-orange-200">
+                <div className="mt-6 p-4 bg-white border border-neutral-200">
                   <h4 className="font-semibold text-black mb-2">Orange County Example: $100K Household Income</h4>
                   <p className="text-sm text-neutral-700">
                     With typical OC housing costs ($3,500/month), transportation ($800), and living expenses ($2,000), only $1,200 may be available for debt payments. This often makes settlement more practical than consolidation for high debt amounts.
@@ -372,23 +356,23 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
                 <div>
                   <h3 className="text-lg font-semibold text-black mb-4">Debt Consolidation Steps</h3>
                   <div className="space-y-3">
-                    <div className="bg-blue-50 border border-blue-200 p-3">
+                    <div className="bg-neutral-50 border border-neutral-200 p-3">
                       <p className="font-semibold text-black text-sm">1. Check Credit Score</p>
                       <p className="text-xs text-neutral-600">Need 650+ for best rates</p>
                     </div>
-                    <div className="bg-blue-50 border border-blue-200 p-3">
+                    <div className="bg-neutral-50 border border-neutral-200 p-3">
                       <p className="font-semibold text-black text-sm">2. Shop for Best Rates</p>
                       <p className="text-xs text-neutral-600">Compare personal loans, balance transfers</p>
                     </div>
-                    <div className="bg-blue-50 border border-blue-200 p-3">
+                    <div className="bg-neutral-50 border border-neutral-200 p-3">
                       <p className="font-semibold text-black text-sm">3. Calculate Total Cost</p>
                       <p className="text-xs text-neutral-600">Include fees, interest over loan term</p>
                     </div>
-                    <div className="bg-blue-50 border border-blue-200 p-3">
+                    <div className="bg-neutral-50 border border-neutral-200 p-3">
                       <p className="font-semibold text-black text-sm">4. Apply and Consolidate</p>
                       <p className="text-xs text-neutral-600">Pay off cards immediately</p>
                     </div>
-                    <div className="bg-blue-50 border border-blue-200 p-3">
+                    <div className="bg-neutral-50 border border-neutral-200 p-3">
                       <p className="font-semibold text-black text-sm">5. Close Tempting Accounts</p>
                       <p className="text-xs text-neutral-600">Prevent new debt accumulation</p>
                     </div>
@@ -398,23 +382,23 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
                 <div>
                   <h3 className="text-lg font-semibold text-black mb-4">Debt Settlement Steps</h3>
                   <div className="space-y-3">
-                    <div className="bg-purple-50 border border-purple-200 p-3">
+                    <div className="bg-neutral-50 border border-neutral-200 p-3">
                       <p className="font-semibold text-black text-sm">1. Document Financial Hardship</p>
                       <p className="text-xs text-neutral-600">Income loss, medical bills, etc.</p>
                     </div>
-                    <div className="bg-purple-50 border border-purple-200 p-3">
+                    <div className="bg-neutral-50 border border-neutral-200 p-3">
                       <p className="font-semibold text-black text-sm">2. Choose DIY vs. Company</p>
                       <p className="text-xs text-neutral-600">Consider legal protections needed</p>
                     </div>
-                    <div className="bg-purple-50 border border-purple-200 p-3">
+                    <div className="bg-neutral-50 border border-neutral-200 p-3">
                       <p className="font-semibold text-black text-sm">3. Stop Payments, Start Saving</p>
                       <p className="text-xs text-neutral-600">Build settlement fund</p>
                     </div>
-                    <div className="bg-purple-50 border border-purple-200 p-3">
+                    <div className="bg-neutral-50 border border-neutral-200 p-3">
                       <p className="font-semibold text-black text-sm">4. Negotiate Settlements</p>
                       <p className="text-xs text-neutral-600">Usually after 3-6 months delinquent</p>
                     </div>
-                    <div className="bg-purple-50 border border-purple-200 p-3">
+                    <div className="bg-neutral-50 border border-neutral-200 p-3">
                       <p className="font-semibold text-black text-sm">5. Complete and Plan Taxes</p>
                       <p className="text-xs text-neutral-600">Save for tax bill on forgiven debt</p>
                     </div>

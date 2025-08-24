@@ -18,31 +18,30 @@ export default function SealBeachDebtSettlement() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative py-24 bg-white">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center max-w-4xl mx-auto"
+            className="text-center"
           >
             {/* Location Badge */}
-            <div className="inline-flex items-center gap-3 mb-8">
-              <MapPin className="w-4 h-4 text-black" />
-              <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-                SEAL BEACH DEBT SETTLEMENT
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <div className="w-2 h-2 bg-white"></div>
+              <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
+                SEAL BEACH DEBT SETTLEMENT SERVICES
               </span>
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-5xl lg:text-6xl font-light tracking-tight text-black mb-8 leading-[0.9]">
-              Debt Settlement
-              <br />
-              <span className="font-mono text-4xl lg:text-5xl">Seal Beach, CA</span>
+            <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+              Debt Settlement:<br />
+              <span className="font-mono text-3xl lg:text-4xl">Seal Beach, CA</span>
             </h1>
 
             {/* Subheadline */}
-            <p className="text-xl text-neutral-700 max-w-3xl mx-auto mb-12 leading-relaxed font-light">
+            <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10 max-w-3xl mx-auto mb-8">
               Beachfront debt relief for Seal Beach residents. Our AI-powered solutions help retirees, 
               military families, and beach community members reduce debt by up to 60% while protecting coastal assets.
             </p>
@@ -51,14 +50,14 @@ export default function SealBeachDebtSettlement() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <Button 
                 onClick={scrollToConsultation}
-                className="bg-black hover:bg-neutral-800 text-white px-8 py-6 text-base font-mono uppercase tracking-wide"
+                className="bg-white hover:bg-neutral-100 text-black px-8 py-6 text-base font-mono uppercase tracking-wide"
               >
-                Free Seal Beach Analysis
+                Free Seal Beach Debt Analysis
                 <ArrowRight className="w-4 h-4 ml-3" />
               </Button>
               <Link 
                 to="/blog"
-                className="border border-neutral-300 text-black px-8 py-6 hover:border-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
+                className="border border-white text-white px-8 py-6 hover:bg-white hover:text-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
               >
                 Learn More
                 <ArrowRight className="w-4 h-4" />
@@ -76,188 +75,184 @@ export default function SealBeachDebtSettlement() {
               Seal Beach <span className="font-mono">Coastal Community</span>
             </h2>
             <p className="text-neutral-600 max-w-2xl mx-auto">
-              Serving the charming beachfront community and Leisure World residents
+              Serving Orange County's hidden gem with specialized beachfront debt solutions
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 border border-neutral-200 text-center">
-              <div className="text-4xl font-mono text-black mb-2">$892K</div>
-              <div className="text-sm font-mono uppercase tracking-wide text-neutral-600 mb-4">
-                Median Home Value
-              </div>
-              <p className="text-xs text-neutral-500">
-                Beach cottage and condo protection strategies
-              </p>
-            </div>
-            <div className="bg-white p-8 border border-neutral-200 text-center">
-              <div className="text-4xl font-mono text-black mb-2">$78K</div>
-              <div className="text-sm font-mono uppercase tracking-wide text-neutral-600 mb-4">
-                Median Household Income
-              </div>
-              <p className="text-xs text-neutral-500">
-                Fixed income and retirement-focused solutions
-              </p>
-            </div>
-            <div className="bg-white p-8 border border-neutral-200 text-center">
-              <div className="text-4xl font-mono text-black mb-2">25K</div>
+              <div className="text-4xl font-mono text-black mb-2">24K</div>
               <div className="text-sm font-mono uppercase tracking-wide text-neutral-600 mb-4">
                 Population Served
               </div>
               <p className="text-xs text-neutral-500">
-                Personalized service for small-town community
+                Intimate beachside community with personalized debt solutions
+              </p>
+            </div>
+            <div className="bg-white p-8 border border-neutral-200 text-center">
+              <div className="text-4xl font-mono text-black mb-2">$1.1M</div>
+              <div className="text-sm font-mono uppercase tracking-wide text-neutral-600 mb-4">
+                Median Home Value
+              </div>
+              <p className="text-xs text-neutral-500">
+                Protect your beachfront property investment while eliminating debt
+              </p>
+            </div>
+            <div className="bg-white p-8 border border-neutral-200 text-center">
+              <div className="text-4xl font-mono text-black mb-2">58%</div>
+              <div className="text-sm font-mono uppercase tracking-wide text-neutral-600 mb-4">
+                Retirees & Seniors
+              </div>
+              <p className="text-xs text-neutral-500">
+                Specialized programs for fixed-income coastal residents
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Specialized Demographics */}
+      {/* Community Focus */}
       <section className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-light text-black mb-6">
-              Debt Solutions for <span className="font-mono">Seal Beach Residents</span>
+              Debt Settlement for <span className="font-mono">Seal Beach Residents</span>
             </h2>
             <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-              Tailored programs for retirees, military families, and beach community members
+              Specialized solutions for coastal living and retirement communities
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <div className="space-y-8">
-                <div className="border-l-4 border-black pl-6">
-                  <h3 className="text-xl font-semibold text-black mb-3">Leisure World Residents</h3>
-                  <p className="text-neutral-600 mb-4">
-                    Seal Beach Leisure World is home to over 9,000 active seniors facing 
-                    unique financial challenges on fixed incomes.
-                  </p>
-                  <ul className="space-y-1 text-sm text-neutral-600">
-                    <li>• Fixed income debt optimization</li>
-                    <li>• Medical expense management</li>
-                    <li>• Co-op share protection</li>
-                    <li>• Estate preservation planning</li>
-                  </ul>
-                </div>
-
-                <div className="border-l-4 border-black pl-6">
-                  <h3 className="text-xl font-semibold text-black mb-3">Military Families</h3>
-                  <p className="text-neutral-600 mb-4">
-                    With proximity to Joint Forces Training Base, many military families 
-                    call Seal Beach home and face deployment-related financial stress.
-                  </p>
-                  <ul className="space-y-1 text-sm text-neutral-600">
-                    <li>• Military-specific debt relief</li>
-                    <li>• SCRA protections maximized</li>
-                    <li>• Security clearance preservation</li>
-                    <li>• VA benefit coordination</li>
-                  </ul>
-                </div>
-
-                <div className="border-l-4 border-black pl-6">
-                  <h3 className="text-xl font-semibold text-black mb-3">Beach Community Members</h3>
-                  <p className="text-neutral-600 mb-4">
-                    Old Town Seal Beach residents and Main Street business owners facing 
-                    coastal living costs and seasonal business cycles.
-                  </p>
-                  <ul className="space-y-1 text-sm text-neutral-600">
-                    <li>• Small business debt consolidation</li>
-                    <li>• Beach property protection</li>
-                    <li>• Tourist season cash flow</li>
-                    <li>• Local business preservation</li>
-                  </ul>
-                </div>
-              </div>
+          <div className="grid lg:grid-cols-3 gap-8">
+            <div className="bg-neutral-50 p-8 border border-neutral-200">
+              <h3 className="text-xl font-semibold text-black mb-4">Retirees & Seniors</h3>
+              <ul className="space-y-2 text-sm text-neutral-600">
+                <li>• Fixed income debt management</li>
+                <li>• Medical debt from healthcare costs</li>
+                <li>• Reverse mortgage protection</li>
+                <li>• Social Security optimization</li>
+              </ul>
             </div>
             
-            <div className="bg-neutral-50 p-8 lg:p-12 border border-neutral-200">
-              <h3 className="text-2xl font-light text-black mb-8">
-                <span className="font-mono">Seal Beach</span> Success Stories
-              </h3>
-              
-              <div className="space-y-6">
-                <div className="bg-white p-6 border border-neutral-200">
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="text-2xl font-mono text-black">$67K</div>
-                    <div className="text-sm text-neutral-600">reduced to $28K</div>
-                  </div>
-                  <p className="text-xs text-neutral-500">
-                    Leisure World couple eliminated 58% of medical debt while protecting retirement savings
-                  </p>
-                </div>
-                
-                <div className="bg-white p-6 border border-neutral-200">
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="text-2xl font-mono text-black">$43K</div>
-                    <div className="text-sm text-neutral-600">reduced to $17K</div>
-                  </div>
-                  <p className="text-xs text-neutral-500">
-                    Military family resolved deployment debt without impacting security clearance
-                  </p>
-                </div>
-                
-                <div className="bg-white p-6 border border-neutral-200">
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="text-2xl font-mono text-black">$89K</div>
-                    <div className="text-sm text-neutral-600">reduced to $36K</div>
-                  </div>
-                  <p className="text-xs text-neutral-500">
-                    Main Street shop owner consolidated business debt, kept storefront location
-                  </p>
-                </div>
-              </div>
-
-              <div className="mt-8 pt-6 border-t border-neutral-200">
-                <div className="text-sm font-mono text-neutral-500 mb-4">Community Impact:</div>
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="text-center">
-                    <div className="text-xl font-mono text-black">189</div>
-                    <div className="text-xs text-neutral-600">Seal Beach Families</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-xl font-mono text-black">142</div>
-                    <div className="text-xs text-neutral-600">Leisure World Residents</div>
-                  </div>
-                </div>
-              </div>
+            <div className="bg-neutral-50 p-8 border border-neutral-200">
+              <h3 className="text-xl font-semibold text-black mb-4">Military Families</h3>
+              <ul className="space-y-2 text-sm text-neutral-600">
+                <li>• VA loan protection strategies</li>
+                <li>• Deployment-related debt issues</li>
+                <li>• SCRA benefits maximization</li>
+                <li>• PCS move debt management</li>
+              </ul>
+            </div>
+            
+            <div className="bg-neutral-50 p-8 border border-neutral-200">
+              <h3 className="text-xl font-semibold text-black mb-4">Beach Homeowners</h3>
+              <ul className="space-y-2 text-sm text-neutral-600">
+                <li>• Coastal property protection</li>
+                <li>• HOA fee management</li>
+                <li>• Flood insurance debt relief</li>
+                <li>• Property tax optimization</li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Local Advantage */}
+      {/* Local Focus */}
       <section className="py-16 bg-neutral-50 border-y border-neutral-200">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-light text-black mb-6">
-              Why Seal Beach Trusts <span className="font-mono">VegaX AI</span>
-            </h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 border border-neutral-200">
-              <div className="text-4xl font-mono text-black mb-4 text-center">55%</div>
-              <h4 className="font-semibold text-black mb-2">Average Debt Reduction</h4>
-              <p className="text-sm text-neutral-600">
-                Consistent results for Seal Beach residents across all income levels
-              </p>
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-2 h-2 bg-black"></div>
+                <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+                  BEACHFRONT EXPERTISE
+                </span>
+              </div>
+              
+              <h2 className="text-4xl font-light text-black mb-8 leading-tight">
+                Why Seal Beach
+                <br />
+                <span className="font-mono">Chooses VegaX AI</span>
+              </h2>
+              
+              <div className="space-y-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-6 h-6 bg-black text-white flex items-center justify-center text-xs font-mono mt-1">
+                    1
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-black mb-2">Coastal Community Understanding</h3>
+                    <p className="text-neutral-600 text-sm leading-relaxed">
+                      Deep knowledge of Seal Beach's unique demographics, from military retirees at the Naval 
+                      Weapons Station to Main Street business owners.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-4">
+                  <div className="w-6 h-6 bg-black text-white flex items-center justify-center text-xs font-mono mt-1">
+                    2
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-black mb-2">Retirement-Focused Solutions</h3>
+                    <p className="text-neutral-600 text-sm leading-relaxed">
+                      Specialized programs for fixed-income residents, protecting retirement accounts 
+                      and social security benefits while eliminating debt.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-4">
+                  <div className="w-6 h-6 bg-black text-white flex items-center justify-center text-xs font-mono mt-1">
+                    3
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-black mb-2">Military Benefits Expertise</h3>
+                    <p className="text-neutral-600 text-sm leading-relaxed">
+                      Understanding of military benefits, VA programs, and SCRA protections 
+                      to maximize debt relief for service members and veterans.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-
-            <div className="bg-white p-6 border border-neutral-200">
-              <div className="text-4xl font-mono text-black mb-4 text-center">15 Mo</div>
-              <h4 className="font-semibold text-black mb-2">Average Timeline</h4>
-              <p className="text-sm text-neutral-600">
-                Faster resolution than traditional companies for beach community members
-              </p>
-            </div>
-
-            <div className="bg-white p-6 border border-neutral-200">
-              <div className="text-4xl font-mono text-black mb-4 text-center">98%</div>
-              <h4 className="font-semibold text-black mb-2">Home Protection Rate</h4>
-              <p className="text-sm text-neutral-600">
-                Beach properties and Leisure World shares successfully protected
-              </p>
+            
+            <div className="bg-white p-8 lg:p-12 border border-neutral-200">
+              <h3 className="text-2xl font-light text-black mb-8">
+                <span className="font-mono">Seal Beach</span> Results
+              </h3>
+              
+              <div className="space-y-8">
+                <div className="border-b border-neutral-200 pb-6">
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-sm font-mono text-neutral-600">Residents Helped</span>
+                    <span className="text-2xl font-mono text-black">89</span>
+                  </div>
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-sm font-mono text-neutral-600">Total Debt Eliminated</span>
+                    <span className="text-lg font-mono text-black">$2.8M</span>
+                  </div>
+                </div>
+                
+                <div className="border-b border-neutral-200 pb-6">
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-sm font-mono text-neutral-600">Average Savings</span>
+                    <span className="text-2xl font-mono text-black">52%</span>
+                  </div>
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-sm font-mono text-neutral-600">Completion Time</span>
+                    <span className="text-lg font-mono text-black">14 Months</span>
+                  </div>
+                </div>
+                
+                <div>
+                  <div className="text-sm font-mono text-neutral-500 mb-4">Recent Success:</div>
+                  <p className="text-sm text-neutral-600 leading-relaxed">
+                    Navy retiree eliminated $84K in medical debt (61% reduction) while protecting 
+                    pension benefits and beachfront condo.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

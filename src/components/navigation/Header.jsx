@@ -38,7 +38,7 @@ export default function Header() {
     { name: 'Home', href: '/' },
     { name: 'Orange County Hub', href: '/orange-county-hub' },
     { 
-      name: 'Services',
+      name: 'Cities',
       href: '#',
       submenu: [
         { name: 'Debt Settlement Anaheim', href: '/debt-settlement-anaheim' },
@@ -61,7 +61,8 @@ export default function Header() {
         { name: 'Debt Settlement Laguna Woods', href: '/debt-settlement-laguna-woods' },
       ]
     },
-    { name: 'Resources', href: '/blog' },
+    { name: 'Articles', href: '/blog' },
+    { name: 'DEBT TOOLS', href: '/debt-tools' },
     { name: 'FAQ', href: '/faq' },
     { name: 'About', href: '/about-us' },
   ];

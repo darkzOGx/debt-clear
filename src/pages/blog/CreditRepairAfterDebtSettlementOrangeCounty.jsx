@@ -25,30 +25,30 @@ export default function CreditRepairAfterDebtSettlementOrangeCounty() {
         <link rel="canonical" href="https://debtclear.com/blog/credit-repair-after-debt-settlement-orange-county" />
       </Helmet>
       {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-400 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+            <div className="w-2 h-2 bg-white"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
               CREDIT REPAIR
             </span>
           </div>
 
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             Credit Repair After Debt Settlement:
             <br />
             <span className="font-mono text-3xl lg:text-4xl">Orange County Success Strategies</span>
           </h1>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>June 15, 2025</span>
@@ -81,7 +81,7 @@ export default function CreditRepairAfterDebtSettlementOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-blue-50 border border-blue-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <TrendingUp className="w-6 h-6" />
@@ -133,7 +133,7 @@ export default function CreditRepairAfterDebtSettlementOrangeCounty() {
                 </table>
               </div>
 
-              <div className="mt-6 p-4 bg-white border border-blue-200">
+              <div className="mt-6 p-4 bg-white border border-neutral-200">
                 <h4 className="font-semibold text-black mb-2">Orange County Context</h4>
                 <p className="text-sm text-neutral-700">
                   Orange County's competitive housing and employment markets make credit score recovery especially important. Many landlords require 700+ scores, and employers often check credit for financial positions.
@@ -155,7 +155,7 @@ export default function CreditRepairAfterDebtSettlementOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Credit Report Cleanup (First 30 Days)</h3>
                   <p className="text-neutral-700 mb-3">
                     Orange County residents should immediately verify settlement accuracy:
@@ -169,7 +169,7 @@ export default function CreditRepairAfterDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-yellow-50 border border-yellow-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Account Status Optimization</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
@@ -194,7 +194,7 @@ export default function CreditRepairAfterDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-purple-50 border border-purple-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Dispute Process for Orange County Residents</h3>
                   <div className="space-y-3">
                     <div className="flex items-start gap-3">
@@ -239,7 +239,7 @@ export default function CreditRepairAfterDebtSettlementOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-orange-50 border border-orange-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Secured Credit Cards (Months 1-12)</h3>
                   <p className="text-neutral-700 mb-3">
                     Best secured card options for Orange County residents:
@@ -269,7 +269,7 @@ export default function CreditRepairAfterDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Credit Builder Loans (Months 6-18)</h3>
                   <p className="text-neutral-700 mb-3">
                     Orange County credit unions and banks offering credit builder loans:
@@ -283,7 +283,7 @@ export default function CreditRepairAfterDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Alternative Credit Building (Months 3-24)</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
@@ -321,13 +321,13 @@ export default function CreditRepairAfterDebtSettlementOrangeCounty() {
               <h2 className="text-2xl font-semibold text-black mb-6">Advanced Credit Optimization Strategies</h2>
               
               <div className="space-y-6">
-                <div className="bg-red-50 border border-red-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Credit Utilization Optimization</h3>
                   <p className="text-neutral-700 mb-3">
                     Strategic utilization management for maximum score improvement:
                   </p>
                   <div className="space-y-4">
-                    <div className="bg-white border border-red-200 p-4">
+                    <div className="bg-white border border-neutral-200 p-4">
                       <h4 className="font-semibold text-black mb-2">The 10% Rule for Orange County Residents</h4>
                       <ul className="text-sm text-neutral-700 space-y-1">
                         <li>• Keep total utilization below 10% of all limits</li>
@@ -338,7 +338,7 @@ export default function CreditRepairAfterDebtSettlementOrangeCounty() {
                       </ul>
                     </div>
                     
-                    <div className="bg-white border border-red-200 p-4">
+                    <div className="bg-white border border-neutral-200 p-4">
                       <h4 className="font-semibold text-black mb-2">Multiple Payment Strategy</h4>
                       <ul className="text-sm text-neutral-700 space-y-1">
                         <li>• Make payments twice monthly</li>
@@ -350,7 +350,7 @@ export default function CreditRepairAfterDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-purple-50 border border-purple-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Credit Mix Development</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
@@ -375,7 +375,7 @@ export default function CreditRepairAfterDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-yellow-50 border border-yellow-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Orange County-Specific Opportunities</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• <strong>Auto Loans:</strong> Orange County's car-dependent lifestyle creates auto loan opportunities</li>
@@ -503,7 +503,7 @@ export default function CreditRepairAfterDebtSettlementOrangeCounty() {
               <h2 className="text-2xl font-semibold text-black mb-6">Common Credit Repair Mistakes to Avoid</h2>
               
               <div className="space-y-6">
-                <div className="bg-red-50 border border-red-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">❌ Mistakes That Hurt Progress</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• <strong>Closing Old Accounts:</strong> Reduces credit history length and available credit</li>
@@ -514,7 +514,7 @@ export default function CreditRepairAfterDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">✅ Best Practices for Success</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• <strong>Patience and Consistency:</strong> Credit repair takes time but pays off</li>

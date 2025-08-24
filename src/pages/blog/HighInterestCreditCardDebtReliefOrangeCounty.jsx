@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Calendar, Clock, User, AlertTriangle, TrendingUp, Shield, Calculator, CreditCard, DollarSign, Target } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, ArrowRight, AlertTriangle, TrendingUp, Shield, Calculator, CreditCard, DollarSign, Target } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -23,7 +23,7 @@ export default function HighInterestCreditCardDebtReliefOrangeCounty() {
         <meta property="og:description" content="Emergency credit card debt relief for Orange County residents. Break free from high-interest debt cycles with proven settlement strategies." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxholdings.com/blog/high-interest-credit-card-debt-relief-orange-county" />
+        <link rel="canonical" href="https://vegaxai.com/blog/high-interest-credit-card-debt-relief-orange-county" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -40,46 +40,41 @@ export default function HighInterestCreditCardDebtReliefOrangeCounty() {
               "name": "VegaX Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxholdings.com/logo.png"
+                "url": "https://vegaxai.com/logo.png"
               }
             },
             "datePublished": "2025-06-15",
             "dateModified": "2025-06-15",
-            "mainEntityOfPage": "https://vegaxholdings.com/blog/high-interest-credit-card-debt-relief-orange-county"
+            "mainEntityOfPage": "https://vegaxai.com/blog/high-interest-credit-card-debt-relief-orange-county"
           })}
         </script>
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] bg-gradient-to-br from-red-600 via-red-700 to-red-900 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent"></div>
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-24">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-red-100 hover:text-white transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-400 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-white rounded-full"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-red-100 font-mono">
+            <div className="w-2 h-2 bg-white"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
               CREDIT CARD DEBT
             </span>
           </div>
 
-          <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-            High-Interest Credit Card
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+            High-Interest Credit Card Debt Relief:
             <br />
-            <span className="text-red-200">Debt Relief</span>
+            <span className="font-mono text-3xl lg:text-4xl">Orange County Emergency Solutions</span>
           </h1>
 
-          <p className="text-xl lg:text-2xl text-red-100 mb-8 max-w-3xl leading-relaxed">
-            Emergency solutions for Orange County residents trapped in high-interest debt cycles
-          </p>
-
-          <div className="flex items-center gap-6 text-sm font-mono text-red-200 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>June 15, 2025</span>
@@ -93,19 +88,30 @@ export default function HighInterestCreditCardDebtReliefOrangeCounty() {
               <span>Emergency Debt Specialist</span>
             </div>
           </div>
+        </div>
+      </section>
 
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
+          </h2>
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
+          </p>
           <button 
             onClick={scrollToConsultation}
-            className="bg-white text-red-700 px-8 py-4 rounded-lg font-semibold hover:bg-red-50 transition-colors inline-flex items-center gap-2"
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
           >
-            Get Emergency Relief Now
-            <ArrowLeft className="w-4 h-4 rotate-180" />
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
           </button>
         </div>
       </section>
 
       {/* Statistics Section */}
-      <section className="py-16 bg-red-50">
+      <section className="py-16 bg-white border-b border-neutral-200">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <motion.div
@@ -113,11 +119,11 @@ export default function HighInterestCreditCardDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-red-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-black"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-red-100 rounded-xl">
-                  <CreditCard className="w-8 h-8 text-red-600" />
+                <div className="p-3 bg-neutral-100 rounded-xl">
+                  <CreditCard className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">29.99%</div>
@@ -131,11 +137,11 @@ export default function HighInterestCreditCardDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-orange-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-orange-100 rounded-xl">
-                  <DollarSign className="w-8 h-8 text-orange-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <DollarSign className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">$8,500</div>
@@ -149,11 +155,11 @@ export default function HighInterestCreditCardDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-yellow-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-yellow-100 rounded-xl">
-                  <Target className="w-8 h-8 text-yellow-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <Target className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">30+</div>
@@ -167,11 +173,11 @@ export default function HighInterestCreditCardDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-green-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-green-100 rounded-xl">
-                  <TrendingUp className="w-8 h-8 text-green-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <TrendingUp className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">68%</div>
@@ -199,7 +205,7 @@ export default function HighInterestCreditCardDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-red-50 border border-red-200 p-8 mb-12 rounded-lg"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12 rounded-lg"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <AlertTriangle className="w-6 h-6" />
@@ -230,7 +236,7 @@ export default function HighInterestCreditCardDebtReliefOrangeCounty() {
                 </div>
               </div>
 
-              <div className="mt-6 p-4 bg-white border border-red-200 rounded-lg">
+              <div className="mt-6 p-4 bg-white border border-neutral-200 rounded-lg">
                 <h4 className="font-semibold text-black mb-2">Emergency Action Required</h4>
                 <p className="text-sm text-neutral-700">
                   Orange County's high cost of living combined with high-interest debt creates a dangerous spiral. Immediate intervention is often necessary to prevent bankruptcy or severe financial hardship.
@@ -252,13 +258,13 @@ export default function HighInterestCreditCardDebtReliefOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-yellow-50 border border-yellow-200 p-6 rounded-lg">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
                   <h3 className="text-lg font-semibold text-black mb-3">Immediate Hardship Programs</h3>
                   <p className="text-neutral-700 mb-3">
                     Most major credit card companies offer emergency hardship programs for Orange County residents:
                   </p>
                   <div className="space-y-4">
-                    <div className="bg-white border border-yellow-200 p-4 rounded-lg">
+                    <div className="bg-white border border-neutral-200 p-4 rounded-lg">
                       <h4 className="font-semibold text-black mb-2">Chase Financial Relief Programs</h4>
                       <ul className="text-sm text-neutral-700 space-y-1">
                         <li>• Payment deferrals up to 3 months</li>
@@ -268,7 +274,7 @@ export default function HighInterestCreditCardDebtReliefOrangeCounty() {
                       </ul>
                     </div>
                     
-                    <div className="bg-white border border-yellow-200 p-4 rounded-lg">
+                    <div className="bg-white border border-neutral-200 p-4 rounded-lg">
                       <h4 className="font-semibold text-black mb-2">Bank of America Relief Options</h4>
                       <ul className="text-sm text-neutral-700 space-y-1">
                         <li>• Skip-a-Pay programs (limited use)</li>
@@ -280,7 +286,7 @@ export default function HighInterestCreditCardDebtReliefOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
                   <h3 className="text-lg font-semibold text-black mb-3">Emergency Balance Transfer Strategy</h3>
                   <p className="text-neutral-700 mb-3">
                     For Orange County residents with remaining good credit (650+ scores):
@@ -302,17 +308,17 @@ export default function HighInterestCreditCardDebtReliefOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.6 }}
-              className="bg-gradient-to-r from-red-600 to-red-700 text-white p-8 rounded-2xl text-center mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 rounded-2xl text-center mb-12"
             >
-              <h2 className="text-2xl font-bold mb-4">
+              <h2 className="text-2xl font-bold text-black mb-4">
                 Need Emergency Credit Card Debt Relief?
               </h2>
-              <p className="text-red-100 mb-6 max-w-2xl mx-auto">
+              <p className="text-neutral-700 mb-6 max-w-2xl mx-auto">
                 Don't let high-interest credit card debt destroy your financial future. Get immediate help with emergency relief strategies tailored to Orange County residents' unique challenges and opportunities.
               </p>
               <button 
                 onClick={scrollToConsultation}
-                className="bg-white text-red-700 px-8 py-3 rounded-lg font-semibold hover:bg-red-50 transition-colors"
+                className="bg-black text-white px-8 py-3 rounded-lg font-semibold hover:bg-neutral-800 transition-colors"
               >
                 Get Emergency Help Now
               </button>

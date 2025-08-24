@@ -65,20 +65,20 @@ export default function OrangeCountyTaxDebtRelief2025() {
               challenges requiring specialized resolution strategies.
             </p>
 
-            <div className="bg-red-50 border border-red-200 p-8 mb-8">
-              <h3 className="text-xl font-semibold text-red-800 mb-4">Orange County Tax Debt Statistics</h3>
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
+              <h3 className="text-xl font-semibold text-black mb-4">Orange County Tax Debt Statistics</h3>
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-3xl font-mono text-red-800 mb-2">$2.8B</div>
-                  <div className="text-sm text-red-700">Total OC Tax Debt</div>
+                  <div className="text-3xl font-mono text-black mb-2">$2.8B</div>
+                  <div className="text-sm text-black">Total OC Tax Debt</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-mono text-red-800 mb-2">127K</div>
-                  <div className="text-sm text-red-700">Taxpayers with Balances</div>
+                  <div className="text-3xl font-mono text-black mb-2">127K</div>
+                  <div className="text-sm text-black">Taxpayers with Balances</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-mono text-red-800 mb-2">$22K</div>
-                  <div className="text-sm text-red-700">Average Tax Debt Amount</div>
+                  <div className="text-3xl font-mono text-black mb-2">$22K</div>
+                  <div className="text-sm text-black">Average Tax Debt Amount</div>
                 </div>
               </div>
             </div>
@@ -91,12 +91,12 @@ export default function OrangeCountyTaxDebtRelief2025() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-blue-50 border border-blue-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <FileText className="w-6 h-6 text-blue-600" />
-                  <h3 className="text-lg font-semibold text-blue-800">Individual Tax Debt</h3>
+                  <FileText className="w-6 h-6 text-black" />
+                  <h3 className="text-lg font-semibold text-black">Individual Tax Debt</h3>
                 </div>
-                <div className="space-y-3 text-sm text-blue-700">
+                <div className="space-y-3 text-sm text-black">
                   <p>• Unpaid income taxes (federal/state)</p>
                   <p>• Self-employment tax deficiencies</p>
                   <p>• Investment income underreporting</p>
@@ -104,12 +104,12 @@ export default function OrangeCountyTaxDebtRelief2025() {
                 </div>
               </div>
 
-              <div className="bg-green-50 border border-green-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <Calculator className="w-6 h-6 text-green-600" />
-                  <h3 className="text-lg font-semibold text-green-800">Business Tax Debt</h3>
+                  <Calculator className="w-6 h-6 text-black" />
+                  <h3 className="text-lg font-semibold text-black">Business Tax Debt</h3>
                 </div>
-                <div className="space-y-3 text-sm text-green-700">
+                <div className="space-y-3 text-sm text-black">
                   <p>• Payroll tax liabilities (941/940)</p>
                   <p>• Sales tax obligations</p>
                   <p>• Corporate income tax balances</p>
@@ -192,9 +192,9 @@ export default function OrangeCountyTaxDebtRelief2025() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-green-50 border border-green-200 p-6">
-                <h3 className="text-lg font-semibold text-green-800 mb-4">Streamlined Agreements</h3>
-                <div className="space-y-3 text-sm text-green-700">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h3 className="text-lg font-semibold text-black mb-4">Streamlined Agreements</h3>
+                <div className="space-y-3 text-sm text-black">
                   <p>• Debt under $50,000 (individual)</p>
                   <p>• Up to 72-month payment terms</p>
                   <p>• Minimal financial disclosure required</p>
@@ -203,9 +203,9 @@ export default function OrangeCountyTaxDebtRelief2025() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 border border-blue-200 p-6">
-                <h3 className="text-lg font-semibold text-blue-800 mb-4">Full Financial Agreements</h3>
-                <div className="space-y-3 text-sm text-blue-700">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h3 className="text-lg font-semibold text-black mb-4">Full Financial Agreements</h3>
+                <div className="space-y-3 text-sm text-black">
                   <p>• Any debt amount</p>
                   <p>• Based on ability to pay analysis</p>
                   <p>• Requires Form 433-F or 433-A</p>
@@ -267,9 +267,9 @@ export default function OrangeCountyTaxDebtRelief2025() {
                 </div>
               </div>
 
-              <div className="bg-purple-50 border border-purple-200 p-6">
-                <h3 className="text-lg font-semibold text-purple-800 mb-4">FTB Relief Programs</h3>
-                <div className="space-y-3 text-sm text-purple-700">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h3 className="text-lg font-semibold text-black mb-4">FTB Relief Programs</h3>
+                <div className="space-y-3 text-sm text-black">
                   <p>• Installment agreements</p>
                   <p>• Offer in Compromise</p>
                   <p>• Innocent spouse relief</p>
@@ -376,12 +376,12 @@ export default function OrangeCountyTaxDebtRelief2025() {
               County taxpayers can request lien withdrawals and levy releases under specific circumstances.
             </p>
 
-            <div className="bg-yellow-50 border border-yellow-200 p-6 mb-8">
-              <h3 className="text-lg font-semibold text-yellow-800 mb-4">Lien and Levy Relief Options</h3>
+            <div className="bg-neutral-50 border border-neutral-200 p-6 mb-8">
+              <h3 className="text-lg font-semibold text-black mb-4">Lien and Levy Relief Options</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="font-semibold text-yellow-800 mb-2">Lien Relief</h4>
-                  <ul className="space-y-1 text-sm text-yellow-700">
+                  <h4 className="font-semibold text-black mb-2">Lien Relief</h4>
+                  <ul className="space-y-1 text-sm text-black">
                     <li>• Withdrawal after full payment</li>
                     <li>• Withdrawal with direct debit IA</li>
                     <li>• Subordination for refinancing</li>
@@ -390,8 +390,8 @@ export default function OrangeCountyTaxDebtRelief2025() {
                   </ul>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-yellow-800 mb-2">Levy Release</h4>
-                  <ul className="space-y-1 text-sm text-yellow-700">
+                  <h4 className="font-semibold text-black mb-2">Levy Release</h4>
+                  <ul className="space-y-1 text-sm text-black">
                     <li>• Economic hardship</li>
                     <li>• Payment of balance</li>
                     <li>• Installment agreement acceptance</li>
@@ -514,8 +514,12 @@ export default function OrangeCountyTaxDebtRelief2025() {
             </p>
 
           </div>
-        </div>
-      </article>
+
+
+          </div>
+
+
+          </article>
     </div>
   );
 }

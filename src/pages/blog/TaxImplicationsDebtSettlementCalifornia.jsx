@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { ArrowLeft, Calendar, Clock, User, Calculator } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, Calculator, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -23,24 +23,24 @@ export default function TaxImplicationsDebtSettlementCalifornia() {
         <meta property="og:type" content="article" />
         <link rel="canonical" href="https://debtclear.com/blog/tax-implications-debt-settlement-california" />
       </Helmet>
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-400 hover:text-white transition-colors mb-8">
             <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">TAX PLANNING</span>
+            <div className="w-2 h-2 bg-white"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">TAX PLANNING</span>
           </div>
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             Tax Implications of Debt Settlement<br />
             <span className="font-mono text-3xl lg:text-4xl">in California</span>
           </h1>
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 15, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>8 min read</span></div>
             <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Tax Planning Team</span></div>
           </div>
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">
+          <p className="text-xl text-neutral-300 leading-relaxed font-light">
             Understanding the tax consequences of debt settlement for Orange County residents and how to minimize 
             tax liability when settling credit cards, medical debt, and other obligations.
           </p>
@@ -75,7 +75,7 @@ export default function TaxImplicationsDebtSettlementCalifornia() {
             </p>
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Exceptions and Exclusions</h2>
             <div className="space-y-6 mb-8">
-              <div className="bg-green-50 border border-green-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-3">Insolvency Exception</h4>
                 <p className="text-sm text-neutral-700 mb-3">If you were insolvent when debt was cancelled, you may exclude some or all forgiven debt from taxable income. Use Form 982 to claim this exclusion.</p>
                 <div className="text-xs text-neutral-600">
@@ -104,7 +104,7 @@ export default function TaxImplicationsDebtSettlementCalifornia() {
                 </div>
               </div>
               
-              <div className="bg-blue-50 border border-blue-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-3">Principal Residence Exception</h4>
                 <p className="text-sm text-neutral-700 mb-3">Qualified principal residence indebtedness may be excluded up to $2 million for California residents (extended through 2025).</p>
                 <div className="text-xs text-neutral-600">
@@ -118,13 +118,13 @@ export default function TaxImplicationsDebtSettlementCalifornia() {
                 </div>
               </div>
               
-              <div className="bg-yellow-50 border border-yellow-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-3">Bankruptcy Exception</h4>
                 <p className="text-sm text-neutral-700 mb-2">Debt discharged in bankruptcy is not taxable income under Title 11 proceedings.</p>
                 <p className="text-xs text-neutral-600">This exclusion is automatic and doesn't require additional forms, but reduces tax attributes (like basis in assets).</p>
               </div>
               
-              <div className="bg-purple-50 border border-purple-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-3">Student Loan Forgiveness</h4>
                 <p className="text-sm text-neutral-700 mb-2">Certain student loan forgiveness programs are not taxable, including Public Service Loan Forgiveness and Teacher Loan Forgiveness.</p>
                 <p className="text-xs text-neutral-600">However, income-driven repayment plan forgiveness after 20-25 years may be taxable.</p>
@@ -217,13 +217,13 @@ export default function TaxImplicationsDebtSettlementCalifornia() {
                       <div className="flex justify-between"><span>Federal tax (22%):</span><span className="font-mono">$5,940</span></div>
                       <div className="flex justify-between"><span>CA state tax (9.3%):</span><span className="font-mono">$2,511</span></div>
                       <div className="flex justify-between border-t border-amber-300 pt-1"><span>Total tax liability:</span><span className="font-mono">$8,451</span></div>
-                      <div className="flex justify-between font-semibold"><span>Net savings:</span><span className="font-mono text-green-600">$18,549</span></div>
+                      <div className="flex justify-between font-semibold"><span>Net savings:</span><span className="font-mono text-black">$18,549</span></div>
                     </div>
                   </div>
                 </div>
               </div>
               
-              <div className="bg-green-50 border border-green-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h3 className="text-lg font-semibold text-black mb-3">Orange County Resident - Insolvent</h3>
                 <div className="grid md:grid-cols-2 gap-6 text-sm">
                   <div>
@@ -240,8 +240,8 @@ export default function TaxImplicationsDebtSettlementCalifornia() {
                     <div className="space-y-1 text-neutral-700">
                       <div className="flex justify-between"><span>Excludable (insolvency):</span><span className="font-mono">$15,000</span></div>
                       <div className="flex justify-between"><span>Taxable income:</span><span className="font-mono">$0</span></div>
-                      <div className="flex justify-between border-t border-green-300 pt-1"><span>Additional tax:</span><span className="font-mono">$0</span></div>
-                      <div className="flex justify-between font-semibold"><span>Form 982 required:</span><span className="text-green-600">Yes</span></div>
+                      <div className="flex justify-between border-t border-neutral-200 pt-1"><span>Additional tax:</span><span className="font-mono">$0</span></div>
+                      <div className="flex justify-between font-semibold"><span>Form 982 required:</span><span className="text-black">Yes</span></div>
                     </div>
                   </div>
                 </div>
@@ -249,8 +249,8 @@ export default function TaxImplicationsDebtSettlementCalifornia() {
             </div>
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">California State Tax Specifics</h2>
-            <div className="bg-blue-50 border border-blue-200 p-6 mb-8">
-              <h3 className="text-lg font-semibold text-blue-800 mb-4">State Tax Considerations</h3>
+            <div className="bg-neutral-50 border border-neutral-200 p-6 mb-8">
+              <h3 className="text-lg font-semibold text-black mb-4">State Tax Considerations</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-semibold text-black mb-3">Tax Rates (2025)</h4>
@@ -354,12 +354,29 @@ export default function TaxImplicationsDebtSettlementCalifornia() {
         </div>
       </article>
 
-      {/* Research Consultation */}
-      <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <ConsultationForm />
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
+          </h2>
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
+          </p>
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
+          >
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
+          </button>
         </div>
       </section>
+
+      {/* Consultation Form */}
+      <div id="consultation">
+        <ConsultationForm />
+      </div>
     </div>
   );
 }

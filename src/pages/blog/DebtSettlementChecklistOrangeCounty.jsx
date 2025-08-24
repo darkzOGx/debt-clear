@@ -24,31 +24,31 @@ export default function DebtSettlementChecklistOrangeCounty() {
         <meta property="og:type" content="article" />
         <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-checklist-orange-county" />
       </Helmet>
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
+      {/* Hero Section */}
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+            <div className="w-2 h-2 bg-white rounded-full"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
               CONSUMER GUIDE
             </span>
           </div>
 
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             Orange County Debt Settlement Checklist:
             <br />
-            <span className="font-mono text-3xl lg:text-4xl">15 Steps Before You Start</span>
+            <span className="font-mono text-3xl lg:text-4xl text-neutral-300">15 Steps Before You Start</span>
           </h1>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>July 25, 2025</span>
@@ -81,7 +81,7 @@ export default function DebtSettlementChecklistOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-blue-50 border border-blue-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <FileText className="w-6 h-6" />
@@ -90,7 +90,7 @@ export default function DebtSettlementChecklistOrangeCounty() {
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-black mb-2">1. Complete Debt Inventory</h3>
                     <p className="text-neutral-700 mb-2">List every unsecured debt including:</p>
@@ -105,7 +105,7 @@ export default function DebtSettlementChecklistOrangeCounty() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-black mb-2">2. Calculate Total Household Income</h3>
                     <p className="text-neutral-700 mb-2">Document all income sources:</p>
@@ -119,7 +119,7 @@ export default function DebtSettlementChecklistOrangeCounty() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-black mb-2">3. Track Monthly Expenses</h3>
                     <p className="text-neutral-700 mb-2">Account for Orange County's high living costs:</p>
@@ -133,7 +133,7 @@ export default function DebtSettlementChecklistOrangeCounty() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-black mb-2">4. Determine Available Settlement Funds</h3>
                     <p className="text-neutral-700">Calculate how much you can realistically save monthly for debt settlements after covering essential Orange County living expenses.</p>
@@ -141,7 +141,7 @@ export default function DebtSettlementChecklistOrangeCounty() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-black mb-2">5. Review Credit Reports</h3>
                     <p className="text-neutral-700">Obtain free credit reports from all three bureaus to verify debt accuracy and identify any errors that need disputing.</p>
@@ -156,7 +156,7 @@ export default function DebtSettlementChecklistOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="bg-yellow-50 border border-yellow-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <CreditCard className="w-6 h-6" />
@@ -165,7 +165,7 @@ export default function DebtSettlementChecklistOrangeCounty() {
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-black mb-2">6. Understand California Debt Laws</h3>
                     <p className="text-neutral-700 mb-2">Familiarize yourself with key protections:</p>
@@ -179,7 +179,7 @@ export default function DebtSettlementChecklistOrangeCounty() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-black mb-2">7. Gather Financial Documentation</h3>
                     <p className="text-neutral-700 mb-2">Collect essential documents:</p>
@@ -193,7 +193,7 @@ export default function DebtSettlementChecklistOrangeCounty() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-black mb-2">8. Check for Pending Legal Actions</h3>
                     <p className="text-neutral-700">Search Orange County court records for any existing lawsuits or judgments against you that could affect debt settlement strategies.</p>
@@ -201,7 +201,7 @@ export default function DebtSettlementChecklistOrangeCounty() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibent text-black mb-2">9. Understand Tax Implications</h3>
                     <p className="text-neutral-700">Research how forgiven debt may be taxable income under federal and California tax law, and consider consulting a tax professional.</p>
@@ -209,7 +209,7 @@ export default function DebtSettlementChecklistOrangeCounty() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-black mb-2">10. Protect Essential Assets</h3>
                     <p className="text-neutral-700">Understand California exemption laws that protect your home, car, and other essential assets during debt settlement.</p>
@@ -224,13 +224,13 @@ export default function DebtSettlementChecklistOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="bg-green-50 border border-green-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6">Phase 3: Provider Selection (Steps 11-15)</h2>
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-black mb-2">11. Research Orange County Debt Settlement Companies</h3>
                     <p className="text-neutral-700 mb-2">Evaluate potential providers based on:</p>
@@ -244,7 +244,7 @@ export default function DebtSettlementChecklistOrangeCounty() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-black mb-2">12. Verify Credentials and Licenses</h3>
                     <p className="text-neutral-700">Check with the California Department of Business Oversight and State Bar to verify any licensing claims.</p>
@@ -252,7 +252,7 @@ export default function DebtSettlementChecklistOrangeCounty() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-black mb-2">13. Get Multiple Consultations</h3>
                     <p className="text-neutral-700">Compare at least 3 different approaches to your Orange County debt situation before making a decision.</p>
@@ -260,7 +260,7 @@ export default function DebtSettlementChecklistOrangeCounty() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-black mb-2">14. Review All Contracts Carefully</h3>
                     <p className="text-neutral-700">Ensure contracts comply with California law and clearly outline fees, timelines, and what services will be provided.</p>
@@ -268,7 +268,7 @@ export default function DebtSettlementChecklistOrangeCounty() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-green-600 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-black mb-2">15. Prepare for the Settlement Process</h3>
                     <p className="text-neutral-700">Set up your dedicated settlement account and prepare for potential creditor contact changes during the 24-48 month process.</p>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Calendar, Clock, User, Heart, AlertCircle, CheckCircle } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, Heart, AlertCircle, CheckCircle, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -24,31 +24,31 @@ export default function MedicalDebtSettlementOrangeCounty() {
         <meta property="og:type" content="article" />
         <link rel="canonical" href="https://debtclear.com/blog/medical-debt-settlement-orange-county" />
       </Helmet>
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+      {/* Hero Section - Black Gradient */}
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-400 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+            <div className="w-2 h-2 bg-white"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
               MEDICAL DEBT
             </span>
           </div>
 
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             Medical Debt Settlement in Orange County:
             <br />
             <span className="font-mono text-3xl lg:text-4xl">Your Rights and Options</span>
           </h1>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>July 28, 2025</span>
@@ -63,7 +63,7 @@ export default function MedicalDebtSettlementOrangeCounty() {
             </div>
           </div>
 
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">
+          <p className="text-xl text-neutral-300 leading-relaxed font-light">
             How to handle medical debt from Orange County hospitals and healthcare providers, including settlement strategies, 
             patient protection laws, and specific options for major OC health systems like UCI Health and Kaiser Permanente.
           </p>
@@ -83,23 +83,23 @@ export default function MedicalDebtSettlementOrangeCounty() {
               even insured patients face significant out-of-pocket costs that can quickly become overwhelming.
             </p>
 
-            <div className="bg-red-50 border border-red-200 p-8 mb-8">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
               <div className="flex items-start gap-3">
-                <Heart className="w-6 h-6 text-red-600 mt-1" />
+                <Heart className="w-6 h-6 text-black mt-1" />
                 <div>
-                  <h3 className="text-lg font-semibold text-red-800 mb-4">Orange County Medical Debt Statistics</h3>
+                  <h3 className="text-lg font-semibold text-black mb-4">Orange County Medical Debt Statistics</h3>
                   <div className="grid md:grid-cols-3 gap-4 text-center">
                     <div>
-                      <div className="text-2xl font-mono text-red-800 mb-1">23%</div>
-                      <div className="text-xs text-red-700">OC Residents with Medical Debt</div>
+                      <div className="text-2xl font-mono text-black mb-1">23%</div>
+                      <div className="text-xs text-black">OC Residents with Medical Debt</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-mono text-red-800 mb-1">$18.4K</div>
-                      <div className="text-xs text-red-700">Average Medical Debt Amount</div>
+                      <div className="text-2xl font-mono text-black mb-1">$18.4K</div>
+                      <div className="text-xs text-black">Average Medical Debt Amount</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-mono text-red-800 mb-1">67%</div>
-                      <div className="text-xs text-red-700">Had Insurance When Debt Occurred</div>
+                      <div className="text-2xl font-mono text-black mb-1">67%</div>
+                      <div className="text-xs text-black">Had Insurance When Debt Occurred</div>
                     </div>
                   </div>
                 </div>
@@ -116,7 +116,7 @@ export default function MedicalDebtSettlementOrangeCounty() {
             <div className="space-y-6 mb-8">
               <div className="border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-3 flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-green-600" />
+                  <CheckCircle className="w-5 h-5 text-black" />
                   UCI Health System
                 </h4>
                 <div className="grid md:grid-cols-2 gap-6 text-sm">
@@ -141,7 +141,7 @@ export default function MedicalDebtSettlementOrangeCounty() {
 
               <div className="border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-3 flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-green-600" />
+                  <CheckCircle className="w-5 h-5 text-black" />
                   Kaiser Permanente
                 </h4>
                 <div className="grid md:grid-cols-2 gap-6 text-sm">
@@ -166,7 +166,7 @@ export default function MedicalDebtSettlementOrangeCounty() {
 
               <div className="border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-3 flex items-center gap-2">
-                  <CheckCircle className="w-5 h-5 text-green-600" />
+                  <CheckCircle className="w-5 h-5 text-black" />
                   Hoag Hospital
                 </h4>
                 <div className="grid md:grid-cols-2 gap-6 text-sm">
@@ -197,13 +197,13 @@ export default function MedicalDebtSettlementOrangeCounty() {
               benefit from both state and federal regulations that limit what healthcare providers can do to collect debt.
             </p>
 
-            <div className="bg-blue-50 border border-blue-200 p-8 mb-8">
-              <h3 className="text-xl font-semibold text-blue-800 mb-4">Key California Protections</h3>
-              <div className="space-y-3 text-blue-700">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
+              <h3 className="text-xl font-semibold text-black mb-4">Key California Protections</h3>
+              <div className="space-y-3 text-black">
                 <div className="flex items-start gap-3">
-                  <AlertCircle className="w-5 h-5 text-blue-600 mt-0.5" />
+                  <AlertCircle className="w-5 h-5 text-black mt-0.5" />
                   <div>
-                    <h4 className="font-semibold text-blue-800 mb-1">AB 1020 (Hospital Fair Pricing)</h4>
+                    <h4 className="font-semibold text-black mb-1">AB 1020 (Hospital Fair Pricing)</h4>
                     <p className="text-sm">
                       Hospitals must provide charity care to patients earning up to 350% of federal poverty level 
                       and discounted care up to 400% of poverty level.
@@ -212,9 +212,9 @@ export default function MedicalDebtSettlementOrangeCounty() {
                 </div>
                 
                 <div className="flex items-start gap-3">
-                  <AlertCircle className="w-5 h-5 text-blue-600 mt-0.5" />
+                  <AlertCircle className="w-5 h-5 text-black mt-0.5" />
                   <div>
-                    <h4 className="font-semibold text-blue-800 mb-1">SB 1061 (Medical Debt Protection)</h4>
+                    <h4 className="font-semibold text-black mb-1">SB 1061 (Medical Debt Protection)</h4>
                     <p className="text-sm">
                       Prohibits medical debt from being reported to credit bureaus for patients eligible for 
                       financial assistance or charity care programs.
@@ -223,9 +223,9 @@ export default function MedicalDebtSettlementOrangeCounty() {
                 </div>
                 
                 <div className="flex items-start gap-3">
-                  <AlertCircle className="w-5 h-5 text-blue-600 mt-0.5" />
+                  <AlertCircle className="w-5 h-5 text-black mt-0.5" />
                   <div>
-                    <h4 className="font-semibold text-blue-800 mb-1">No Surprise Billing Act</h4>
+                    <h4 className="font-semibold text-black mb-1">No Surprise Billing Act</h4>
                     <p className="text-sm">
                       Federal protection against surprise billing for emergency services and out-of-network 
                       providers at in-network facilities.
@@ -295,9 +295,9 @@ export default function MedicalDebtSettlementOrangeCounty() {
             </p>
 
             <div className="space-y-6 mb-8">
-              <div className="bg-green-50 border border-green-200 p-6">
-                <h4 className="font-semibold text-green-800 mb-3">Strategy 1: Financial Hardship Applications</h4>
-                <div className="text-sm text-green-700 space-y-2">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h4 className="font-semibold text-black mb-3">Strategy 1: Financial Hardship Applications</h4>
+                <div className="text-sm text-black space-y-2">
                   <p><strong>Best For:</strong> Recent medical bills from nonprofit hospitals</p>
                   <p><strong>Requirements:</strong> Income documentation, proof of hardship</p>
                   <p><strong>Timeline:</strong> 30-60 days for review</p>
@@ -317,9 +317,9 @@ export default function MedicalDebtSettlementOrangeCounty() {
                 </div>
               </div>
 
-              <div className="bg-blue-50 border border-blue-200 p-6">
-                <h4 className="font-semibold text-blue-800 mb-3">Strategy 3: Professional Settlement</h4>
-                <div className="text-sm text-blue-700 space-y-2">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h4 className="font-semibold text-black mb-3">Strategy 3: Professional Settlement</h4>
+                <div className="text-sm text-black space-y-2">
                   <p><strong>Best For:</strong> Multiple providers, large amounts, complex situations</p>
                   <p><strong>Requirements:</strong> Monthly payment ability</p>
                   <p><strong>Timeline:</strong> 6-18 months</p>
@@ -447,9 +447,9 @@ export default function MedicalDebtSettlementOrangeCounty() {
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Common Medical Debt Settlement Mistakes</h2>
             
-            <div className="bg-red-50 border border-red-200 p-8 mb-8">
-              <h3 className="text-xl font-semibold text-red-800 mb-4">Avoid These Critical Errors</h3>
-              <ul className="space-y-3 text-red-700">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
+              <h3 className="text-xl font-semibold text-black mb-4">Avoid These Critical Errors</h3>
+              <ul className="space-y-3 text-black">
                 <li>• <strong>Ignoring the debt:</strong> Medical debt can result in wage garnishment and liens</li>
                 <li>• <strong>Not applying for charity care:</strong> Many patients qualify but never apply</li>
                 <li>• <strong>Making partial payments:</strong> Can restart statute of limitations</li>
@@ -498,6 +498,25 @@ export default function MedicalDebtSettlementOrangeCounty() {
         </div>
       </article>
 
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
+          </h2>
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
+          </p>
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
+          >
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
+          </button>
+        </div>
+      </section>
+
       {/* Related Articles */}
       <section className="py-16 bg-neutral-50 border-t border-neutral-200">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -533,12 +552,10 @@ export default function MedicalDebtSettlementOrangeCounty() {
         </div>
       </section>
 
-      {/* Research Consultation */}
-      <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <ConsultationForm />
-        </div>
-      </section>
+      {/* Consultation Form */}
+      <div id="consultation">
+        <ConsultationForm />
+      </div>
     </div>
   );
 }

@@ -1,9 +1,17 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { Phone, Calculator, Shield, TrendingDown, Users, AlertTriangle, DollarSign, FileText, Scale, Clock, ChevronRight, Target, Award, AlertCircle } from 'lucide-react';
+import { Phone, Calculator, Shield, TrendingDown, Users, AlertTriangle, DollarSign, FileText, Scale, Clock, ChevronRight, Target, Award, AlertCircle, ArrowLeft, Calendar, User, ArrowRight } from 'lucide-react';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function OrangeCountyTaxDebtRelief2025() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
@@ -41,22 +49,22 @@ export default function OrangeCountyTaxDebtRelief2025() {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-blue-900 to-blue-800 text-white py-20">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="text-sm text-blue-200 mb-4">Published August 22, 2025 • 19 min read</div>
+          <div className="text-sm text-neutral-400 mb-4">Published August 22, 2025 • 19 min read</div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Orange County Tax Debt Relief: IRS & State Solutions
           </h1>
-          <p className="text-xl text-blue-100 mb-8">
+          <p className="text-xl text-neutral-300 mb-8">
             Comprehensive guide to resolving IRS and California tax debt for Orange County residents, 
             including installment agreements, offers in compromise, and penalty abatement strategies.
           </p>
           <div className="flex flex-wrap gap-4">
-            <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-blue-900 px-6 py-3 rounded hover:bg-blue-50 transition">
+            <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded hover:bg-neutral-100 transition">
               <Calculator className="w-5 h-5" />
               Tax Debt Calculator
             </Link>
-            <a href="tel:+15022328511" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded hover:bg-white hover:text-blue-900 transition">
+            <a href="tel:+15022328511" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded hover:bg-white hover:text-black transition">
               <Phone className="w-5 h-5" />
               Emergency Tax Help
             </a>
@@ -65,26 +73,26 @@ export default function OrangeCountyTaxDebtRelief2025() {
       </section>
 
       {/* Tax Debt Overview */}
-      <section className="py-12 bg-blue-50">
+      <section className="py-12 bg-neutral-50">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <DollarSign className="w-8 h-8 text-blue-900 mb-2" />
+              <DollarSign className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">$2.8B</div>
               <div className="text-sm text-neutral-600">Total OC Tax Debt</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Users className="w-8 h-8 text-blue-900 mb-2" />
+              <Users className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">127K</div>
               <div className="text-sm text-neutral-600">Taxpayers with Balances</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Target className="w-8 h-8 text-blue-900 mb-2" />
+              <Target className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">$22K</div>
               <div className="text-sm text-neutral-600">Average Tax Debt Amount</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Award className="w-8 h-8 text-blue-900 mb-2" />
+              <Award className="w-8 h-8 text-black mb-2" />
               <div className="text-2xl font-bold">89%</div>
               <div className="text-sm text-neutral-600">Resolution Success Rate</div>
             </div>
@@ -93,13 +101,13 @@ export default function OrangeCountyTaxDebtRelief2025() {
       </section>
 
       {/* Main Content */}
-      <article className="py-16">
+      <article className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
             
             {/* Orange County Tax Debt Crisis */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-blue-900 mb-6 flex items-center gap-3">
+              <h2 className="text-3xl font-bold text-black mb-6 flex items-center gap-3">
                 <AlertTriangle className="w-8 h-8" />
                 Orange County Tax Debt Crisis
               </h2>
@@ -110,23 +118,23 @@ export default function OrangeCountyTaxDebtRelief2025() {
                 challenges requiring specialized resolution strategies.
               </p>
 
-              <div className="bg-gradient-to-br from-red-50 to-red-100 border border-red-200 p-8 mb-8 rounded-lg">
-                <h3 className="text-2xl font-bold text-red-800 mb-6 flex items-center gap-3">
+              <div className="bg-gradient-to-br from-black to-neutral-900 border border-neutral-200 p-8 mb-8 rounded-lg">
+                <h3 className="text-2xl font-bold text-black mb-6 flex items-center gap-3">
                   <AlertCircle className="w-6 h-6" />
                   Orange County Tax Debt Statistics
                 </h3>
                 <div className="grid md:grid-cols-3 gap-6 text-center">
                   <div className="bg-white p-4 rounded-lg shadow-sm">
-                    <div className="text-3xl font-bold text-red-800 mb-2">$2.8B</div>
-                    <div className="text-sm text-red-700 font-medium">Total OC Tax Debt</div>
+                    <div className="text-3xl font-bold text-black mb-2">$2.8B</div>
+                    <div className="text-sm text-black font-medium">Total OC Tax Debt</div>
                   </div>
                   <div className="bg-white p-4 rounded-lg shadow-sm">
-                    <div className="text-3xl font-bold text-red-800 mb-2">127K</div>
-                    <div className="text-sm text-red-700 font-medium">Taxpayers with Balances</div>
+                    <div className="text-3xl font-bold text-black mb-2">127K</div>
+                    <div className="text-sm text-black font-medium">Taxpayers with Balances</div>
                   </div>
                   <div className="bg-white p-4 rounded-lg shadow-sm">
-                    <div className="text-3xl font-bold text-red-800 mb-2">$22K</div>
-                    <div className="text-sm text-red-700 font-medium">Average Tax Debt Amount</div>
+                    <div className="text-3xl font-bold text-black mb-2">$22K</div>
+                    <div className="text-sm text-black font-medium">Average Tax Debt Amount</div>
                   </div>
                 </div>
               </div>
@@ -134,7 +142,7 @@ export default function OrangeCountyTaxDebtRelief2025() {
 
             {/* Types of Tax Debt */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-blue-900 mb-6 flex items-center gap-3">
+              <h2 className="text-3xl font-bold text-black mb-6 flex items-center gap-3">
                 <FileText className="w-8 h-8" />
                 Types of Tax Debt in Orange County
               </h2>
@@ -145,12 +153,12 @@ export default function OrangeCountyTaxDebtRelief2025() {
               </p>
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
-                <div className="bg-gradient-to-br from-blue-50 to-blue-100 border border-blue-200 p-8 rounded-lg">
+                <div className="bg-gradient-to-br from-black to-neutral-900 border border-neutral-200 p-8 rounded-lg">
                   <div className="flex items-center gap-3 mb-6">
-                    <FileText className="w-8 h-8 text-blue-600" />
-                    <h3 className="text-2xl font-bold text-blue-800">Individual Tax Debt</h3>
+                    <FileText className="w-8 h-8 text-black" />
+                    <h3 className="text-2xl font-bold text-black">Individual Tax Debt</h3>
                   </div>
-                  <div className="space-y-3 text-blue-700">
+                  <div className="space-y-3 text-black">
                     <p className="flex items-center gap-2">
                       <ChevronRight className="w-4 h-4" />
                       Unpaid income taxes (federal/state)
@@ -170,12 +178,12 @@ export default function OrangeCountyTaxDebtRelief2025() {
                   </div>
                 </div>
 
-                <div className="bg-gradient-to-br from-green-50 to-green-100 border border-green-200 p-8 rounded-lg">
+                <div className="bg-gradient-to-br from-black to-neutral-900 border border-neutral-200 p-8 rounded-lg">
                   <div className="flex items-center gap-3 mb-6">
-                    <Calculator className="w-8 h-8 text-green-600" />
-                    <h3 className="text-2xl font-bold text-green-800">Business Tax Debt</h3>
+                    <Calculator className="w-8 h-8 text-black" />
+                    <h3 className="text-2xl font-bold text-black">Business Tax Debt</h3>
                   </div>
-                  <div className="space-y-3 text-green-700">
+                  <div className="space-y-3 text-black">
                     <p className="flex items-center gap-2">
                       <ChevronRight className="w-4 h-4" />
                       Payroll tax liabilities (941/940)
@@ -199,30 +207,34 @@ export default function OrangeCountyTaxDebtRelief2025() {
 
             {/* Continue with the rest of the content structure... */}
             
-            <div className="bg-gradient-to-r from-blue-900 to-blue-800 text-white p-8 rounded-lg mt-12">
-              <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">
-                <Phone className="w-6 h-6" />
-                Emergency Tax Debt Resolution
-              </h3>
-              <p className="text-blue-100 mb-6 text-lg">
-                Facing IRS levy or wage garnishment? Our tax resolution specialists provide immediate 
-                protection for Orange County taxpayers with urgent collection issues.
-              </p>
-              <div className="flex flex-wrap gap-4">
-                <a href="tel:+15022328511" className="inline-flex items-center gap-2 bg-white text-blue-900 px-6 py-3 rounded hover:bg-blue-50 transition">
-                  <Phone className="w-5 h-5" />
-                  Call (502) 232-8511
-                </a>
-                <Link to="/consultation" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded hover:bg-white hover:text-blue-900 transition">
-                  <Calculator className="w-5 h-5" />
-                  Free Tax Analysis
-                </Link>
-              </div>
-            </div>
 
           </div>
         </div>
       </article>
+
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
+          </h2>
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
+          </p>
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
+          >
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
+          </button>
+        </div>
+      </section>
+
+      {/* Consultation Form */}
+      <div id="consultation">
+        <ConsultationForm />
+      </div>
     </div>
   );
 }

@@ -24,31 +24,31 @@ export default function DebtSettlementSuccessStoriesOrangeCounty2025() {
         <meta property="og:type" content="article" />
         <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-success-stories-orange-county-2025" />
       </Helmet>
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
+      {/* Hero Section */}
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+            <div className="w-2 h-2 bg-white rounded-full"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
               CASE STUDIES
             </span>
           </div>
 
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             Orange County Debt Settlement Success Stories:
             <br />
-            <span className="font-mono text-3xl lg:text-4xl">Real Client Outcomes 2024-2025</span>
+            <span className="font-mono text-3xl lg:text-4xl text-neutral-300">Real Client Outcomes 2024-2025</span>
           </h1>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>June 15, 2025</span>
@@ -81,25 +81,25 @@ export default function DebtSettlementSuccessStoriesOrangeCounty2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-green-50 border border-green-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 text-center">2024-2025 Orange County Results Summary</h2>
               
               <div className="grid md:grid-cols-4 gap-6 text-center">
                 <div>
-                  <div className="text-3xl font-mono text-green-600 mb-2">847</div>
+                  <div className="text-3xl font-mono text-black mb-2">847</div>
                   <div className="text-sm text-neutral-600">Families Helped</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-mono text-green-600 mb-2">58%</div>
+                  <div className="text-3xl font-mono text-black mb-2">58%</div>
                   <div className="text-sm text-neutral-600">Average Savings</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-mono text-green-600 mb-2">19</div>
+                  <div className="text-3xl font-mono text-black mb-2">19</div>
                   <div className="text-sm text-neutral-600">Months Average</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-mono text-green-600 mb-2">$31M</div>
+                  <div className="text-3xl font-mono text-black mb-2">$31M</div>
                   <div className="text-sm text-neutral-600">Total Debt Eliminated</div>
                 </div>
               </div>
@@ -113,9 +113,9 @@ export default function DebtSettlementSuccessStoriesOrangeCounty2025() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="mb-12"
             >
-              <div className="bg-blue-50 border border-blue-200 p-8">
+              <div className="bg-neutral-50 border border-neutral-200 p-8">
                 <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
-                  <CheckCircle className="w-6 h-6 text-green-600" />
+                  <CheckCircle className="w-6 h-6 text-black" />
                   Case Study 1: Irvine Software Engineer
                 </h2>
                 
@@ -143,7 +143,7 @@ export default function DebtSettlementSuccessStoriesOrangeCounty2025() {
                   </div>
                 </div>
 
-                <div className="mt-6 p-6 bg-white border border-blue-200">
+                <div className="mt-6 p-6 bg-white border border-neutral-200">
                   <h4 className="font-semibold text-black mb-2">Key Success Factors</h4>
                   <p className="text-neutral-700 mb-3">
                     "The combination of my steady tech income and strategic timing worked perfectly. We negotiated settlements during Q4 2024 when creditors were more flexible with year-end goals."
@@ -163,9 +163,9 @@ export default function DebtSettlementSuccessStoriesOrangeCounty2025() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="mb-12"
             >
-              <div className="bg-yellow-50 border border-yellow-200 p-8">
+              <div className="bg-neutral-50 border border-neutral-200 p-8">
                 <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
-                  <CheckCircle className="w-6 h-6 text-green-600" />
+                  <CheckCircle className="w-6 h-6 text-black" />
                   Case Study 2: Newport Beach Restaurant Owner
                 </h2>
                 
@@ -193,7 +193,7 @@ export default function DebtSettlementSuccessStoriesOrangeCounty2025() {
                   </div>
                 </div>
 
-                <div className="mt-6 p-6 bg-white border border-yellow-200">
+                <div className="mt-6 p-6 bg-white border border-neutral-200">
                   <h4 className="font-semibold text-black mb-2">Pandemic Recovery Story</h4>
                   <p className="text-neutral-700 mb-3">
                     "COVID-19 nearly destroyed my restaurant. Debt settlement allowed us to survive and now we're thriving again. Our Newport Beach location is busier than ever."
@@ -213,9 +213,9 @@ export default function DebtSettlementSuccessStoriesOrangeCounty2025() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="mb-12"
             >
-              <div className="bg-purple-50 border border-purple-200 p-8">
+              <div className="bg-neutral-50 border border-neutral-200 p-8">
                 <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
-                  <CheckCircle className="w-6 h-6 text-green-600" />
+                  <CheckCircle className="w-6 h-6 text-black" />
                   Case Study 3: Anaheim Teacher with Medical Debt
                 </h2>
                 
@@ -243,7 +243,7 @@ export default function DebtSettlementSuccessStoriesOrangeCounty2025() {
                   </div>
                 </div>
 
-                <div className="mt-6 p-6 bg-white border border-purple-200">
+                <div className="mt-6 p-6 bg-white border border-neutral-200">
                   <h4 className="font-semibold text-black mb-2">Healthcare Financial Crisis</h4>
                   <p className="text-neutral-700 mb-3">
                     "My son's emergency surgery at CHOC saved his life but nearly bankrupted us. Debt settlement let us keep our home and focus on his recovery."
@@ -263,9 +263,9 @@ export default function DebtSettlementSuccessStoriesOrangeCounty2025() {
               transition={{ duration: 0.8, delay: 0.8 }}
               className="mb-12"
             >
-              <div className="bg-orange-50 border border-orange-200 p-8">
+              <div className="bg-neutral-50 border border-neutral-200 p-8">
                 <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
-                  <CheckCircle className="w-6 h-6 text-green-600" />
+                  <CheckCircle className="w-6 h-6 text-black" />
                   Case Study 4: Laguna Woods Retiree Couple
                 </h2>
                 
@@ -293,7 +293,7 @@ export default function DebtSettlementSuccessStoriesOrangeCounty2025() {
                   </div>
                 </div>
 
-                <div className="mt-6 p-6 bg-white border border-orange-200">
+                <div className="mt-6 p-6 bg-white border border-neutral-200">
                   <h4 className="font-semibold text-black mb-2">Fixed Income Protection</h4>
                   <p className="text-neutral-700 mb-3">
                     "We thought we'd lose our home in the senior community. Instead, we're now debt-free and can enjoy our retirement in Orange County."
@@ -363,28 +363,28 @@ export default function DebtSettlementSuccessStoriesOrangeCounty2025() {
                   <div className="text-lg font-mono text-neutral-500">0% settled</div>
                 </div>
                 
-                <div className="flex items-center justify-between p-4 bg-yellow-50 border border-yellow-200">
+                <div className="flex items-center justify-between p-4 bg-neutral-50 border border-neutral-200">
                   <div>
                     <div className="font-semibold text-black">Months 4-8: First Settlements</div>
                     <div className="text-sm text-neutral-600">Smaller balances settled, momentum builds</div>
                   </div>
-                  <div className="text-lg font-mono text-yellow-600">25% settled</div>
+                  <div className="text-lg font-mono text-black">25% settled</div>
                 </div>
                 
-                <div className="flex items-center justify-between p-4 bg-orange-50 border border-orange-200">
+                <div className="flex items-center justify-between p-4 bg-neutral-50 border border-neutral-200">
                   <div>
                     <div className="font-semibold text-black">Months 9-15: Major Settlements</div>
                     <div className="text-sm text-neutral-600">Large creditors negotiate, significant progress</div>
                   </div>
-                  <div className="text-lg font-mono text-orange-600">75% settled</div>
+                  <div className="text-lg font-mono text-black">75% settled</div>
                 </div>
                 
-                <div className="flex items-center justify-between p-4 bg-green-50 border border-green-200">
+                <div className="flex items-center justify-between p-4 bg-neutral-50 border border-neutral-200">
                   <div>
                     <div className="font-semibold text-black">Months 16-24: Completion</div>
                     <div className="text-sm text-neutral-600">Final settlements, program completion</div>
                   </div>
-                  <div className="text-lg font-mono text-green-600">100% complete</div>
+                  <div className="text-lg font-mono text-black">100% complete</div>
                 </div>
               </div>
             </motion.div>

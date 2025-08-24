@@ -25,30 +25,30 @@ export default function HomesteadExemptionDebtSettlementOrangeCounty() {
         <link rel="canonical" href="https://debtclear.com/blog/homestead-exemption-debt-settlement-orange-county" />
       </Helmet>
       {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-400 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+            <div className="w-2 h-2 bg-white"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
               ASSET PROTECTION
             </span>
           </div>
 
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             California Homestead Exemption:
             <br />
             <span className="font-mono text-3xl lg:text-4xl">Protecting Your Orange County Home</span>
           </h1>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>June 15, 2025</span>
@@ -81,7 +81,7 @@ export default function HomesteadExemptionDebtSettlementOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-green-50 border border-green-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <Home className="w-6 h-6" />
@@ -112,7 +112,7 @@ export default function HomesteadExemptionDebtSettlementOrangeCounty() {
                 </div>
               </div>
 
-              <div className="mt-6 p-4 bg-white border border-green-200">
+              <div className="mt-6 p-4 bg-white border border-neutral-200">
                 <h4 className="font-semibold text-black mb-2">Orange County Home Value Context</h4>
                 <p className="text-sm text-neutral-700">
                   With median Orange County home values exceeding $1.2 million in 2025, the $700,000 homestead exemption provides substantial but not complete protection for many homeowners. Strategic planning is essential for high-value properties.
@@ -134,7 +134,7 @@ export default function HomesteadExemptionDebtSettlementOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Automatic vs. Declared Homestead</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
@@ -161,12 +161,12 @@ export default function HomesteadExemptionDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-yellow-50 border border-yellow-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Homestead Exemption Calculation</h3>
                   <p className="text-neutral-700 mb-3">
                     Understanding how the exemption protects your Orange County home:
                   </p>
-                  <div className="bg-white border border-yellow-200 p-4">
+                  <div className="bg-white border border-neutral-200 p-4">
                     <h4 className="font-semibold text-black mb-2">Example: $1.5M Orange County Home</h4>
                     <ul className="text-sm text-neutral-700 space-y-1">
                       <li>• Home Fair Market Value: $1,500,000</li>
@@ -236,9 +236,9 @@ export default function HomesteadExemptionDebtSettlementOrangeCounty() {
                 </table>
               </div>
 
-              <div className="bg-red-50 border border-red-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
-                  <AlertTriangle className="w-5 h-5 text-red-600" />
+                  <AlertTriangle className="w-5 h-5 text-black" />
                   High-Value Property Risks
                 </h3>
                 <p className="text-neutral-700 mb-3">
@@ -268,7 +268,7 @@ export default function HomesteadExemptionDebtSettlementOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Pre-Settlement Planning</h3>
                   <p className="text-neutral-700 mb-3">
                     Maximize homestead protection before beginning debt settlement:
@@ -282,7 +282,7 @@ export default function HomesteadExemptionDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Settlement Negotiation Leverage</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
@@ -307,7 +307,7 @@ export default function HomesteadExemptionDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-purple-50 border border-purple-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Timing Strategies</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• <strong>Before Judgment:</strong> Homestead exemption fully protects equity</li>
@@ -329,7 +329,7 @@ export default function HomesteadExemptionDebtSettlementOrangeCounty() {
             >
               <h2 className="text-2xl font-semibold text-black mb-6">Homestead Exemption Limitations</h2>
               
-              <div className="bg-red-50 border border-red-200 p-8">
+              <div className="bg-neutral-50 border border-neutral-200 p-8">
                 <h3 className="text-lg font-semibold text-black mb-4">Debts Not Protected From</h3>
                 
                 <div className="grid md:grid-cols-2 gap-6">
@@ -356,7 +356,7 @@ export default function HomesteadExemptionDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="mt-6 p-4 bg-white border border-red-200">
+                <div className="mt-6 p-4 bg-white border border-neutral-200">
                   <h4 className="font-semibold text-black mb-2">Orange County Property Tax Considerations</h4>
                   <p className="text-sm text-neutral-700">
                     Property tax liens always take priority over homestead exemptions. Orange County property taxes averaging $14,000-$40,000 annually must be kept current to maintain homestead protection effectiveness.
@@ -413,7 +413,7 @@ export default function HomesteadExemptionDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-orange-50 border border-orange-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Orange County Recording Information</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• <strong>Location:</strong> Orange County Recorder, 12 Civic Center Plaza, Santa Ana, CA 92701</li>

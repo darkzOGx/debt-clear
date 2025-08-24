@@ -24,31 +24,31 @@ export default function DebtSettlementScamsOrangeCounty() {
         <meta property="og:type" content="article" />
         <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-scams-orange-county" />
       </Helmet>
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
+      {/* Hero Section */}
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+            <div className="w-2 h-2 bg-white rounded-full"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
               CONSUMER GUIDE
             </span>
           </div>
 
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             Debt Settlement Scams in Orange County:
             <br />
-            <span className="font-mono text-3xl lg:text-4xl">Red Flags and How to Avoid Them</span>
+            <span className="font-mono text-3xl lg:text-4xl text-neutral-300">Red Flags and How to Avoid Them</span>
           </h1>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>July 26, 2025</span>
@@ -81,10 +81,10 @@ export default function DebtSettlementScamsOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-red-50 border border-red-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
-                <AlertTriangle className="w-6 h-6 text-red-600" />
+                <AlertTriangle className="w-6 h-6 text-black" />
                 Major Red Flags: Debt Settlement Scam Warning Signs
               </h2>
               
@@ -135,7 +135,7 @@ export default function DebtSettlementScamsOrangeCounty() {
                   <p className="text-neutral-700 leading-relaxed mb-3">
                     <strong>Why it's illegal:</strong> California law prohibits debt settlement companies from charging fees before successfully settling debts.
                   </p>
-                  <div className="bg-yellow-50 border border-yellow-200 p-4">
+                  <div className="bg-neutral-50 border border-neutral-200 p-4">
                     <p className="text-sm text-neutral-700">
                       <strong>Orange County Example:</strong> A Costa Mesa resident paid $3,500 upfront to a fake debt settlement company that disappeared after two weeks, providing no services.
                     </p>
@@ -150,7 +150,7 @@ export default function DebtSettlementScamsOrangeCounty() {
                   <p className="text-neutral-700 leading-relaxed mb-3">
                     <strong>Reality check:</strong> No secret government debt settlement programs exist. Legitimate government programs are public information.
                   </p>
-                  <div className="bg-yellow-50 border border-yellow-200 p-4">
+                  <div className="bg-neutral-50 border border-neutral-200 p-4">
                     <p className="text-sm text-neutral-700">
                       <strong>Orange County Example:</strong> An Irvine family lost $2,800 to scammers claiming access to a "Federal Debt Relief Program" that didn't exist.
                     </p>
@@ -165,7 +165,7 @@ export default function DebtSettlementScamsOrangeCounty() {
                   <p className="text-neutral-700 leading-relaxed mb-3">
                     <strong>Warning signs:</strong> Guaranteeing specific credit score improvements or claiming to remove accurate negative information.
                   </p>
-                  <div className="bg-yellow-50 border border-yellow-200 p-4">
+                  <div className="bg-neutral-50 border border-neutral-200 p-4">
                     <p className="text-sm text-neutral-700">
                       <strong>Orange County Example:</strong> A Huntington Beach resident paid $4,200 for "guaranteed" credit repair that resulted in no score improvement.
                     </p>
@@ -235,22 +235,22 @@ export default function DebtSettlementScamsOrangeCounty() {
                     <tr>
                       <td className="border border-neutral-300 p-4 font-semibold">Fees</td>
                       <td className="border border-neutral-300 p-4">Only after successful settlement</td>
-                      <td className="border border-neutral-300 p-4 text-red-600">Demands upfront payment</td>
+                      <td className="border border-neutral-300 p-4 text-black">Demands upfront payment</td>
                     </tr>
                     <tr className="bg-neutral-50">
                       <td className="border border-neutral-300 p-4 font-semibold">Guarantees</td>
                       <td className="border border-neutral-300 p-4">No specific guarantees</td>
-                      <td className="border border-neutral-300 p-4 text-red-600">Promises specific results</td>
+                      <td className="border border-neutral-300 p-4 text-black">Promises specific results</td>
                     </tr>
                     <tr>
                       <td className="border border-neutral-300 p-4 font-semibold">Timeline</td>
                       <td className="border border-neutral-300 p-4">Realistic 24-48 months</td>
-                      <td className="border border-neutral-300 p-4 text-red-600">Claims quick resolution</td>
+                      <td className="border border-neutral-300 p-4 text-black">Claims quick resolution</td>
                     </tr>
                     <tr className="bg-neutral-50">
                       <td className="border border-neutral-300 p-4 font-semibold">Documentation</td>
                       <td className="border border-neutral-300 p-4">Detailed written agreements</td>
-                      <td className="border border-neutral-300 p-4 text-red-600">Verbal promises only</td>
+                      <td className="border border-neutral-300 p-4 text-black">Verbal promises only</td>
                     </tr>
                   </tbody>
                 </table>
@@ -263,7 +263,7 @@ export default function DebtSettlementScamsOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.8 }}
-              className="bg-blue-50 border border-blue-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6">Where to Report Debt Settlement Scams in Orange County</h2>
               

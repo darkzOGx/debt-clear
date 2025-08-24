@@ -98,25 +98,25 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
       <section className="py-16 bg-white border-b border-neutral-200">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 hover:shadow-lg transition-all duration-300">
-              <Scale className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-blue-800 mb-2">1,247</div>
-              <div className="text-sm font-medium text-blue-700 mb-1">Bankruptcy Filings</div>
-              <div className="text-xs text-blue-600">Orange County (2023)</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <Scale className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">1,247</div>
+              <div className="text-sm font-medium text-black mb-1">Bankruptcy Filings</div>
+              <div className="text-xs text-black">Orange County (2023)</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 hover:shadow-lg transition-all duration-300">
-              <Users className="w-12 h-12 text-green-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-green-800 mb-2">32%</div>
-              <div className="text-sm font-medium text-green-700 mb-1">High Debt-to-Income</div>
-              <div className="text-xs text-green-600">OC residents affected</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <Users className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">32%</div>
+              <div className="text-sm font-medium text-black mb-1">High Debt-to-Income</div>
+              <div className="text-xs text-black">OC residents affected</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg border border-purple-200 hover:shadow-lg transition-all duration-300">
-              <CheckCircle className="w-12 h-12 text-purple-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-purple-800 mb-2">60%</div>
-              <div className="text-sm font-medium text-purple-700 mb-1">Debt Settlement Success</div>
-              <div className="text-xs text-purple-600">Average reduction achieved</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <CheckCircle className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">60%</div>
+              <div className="text-sm font-medium text-black mb-1">Debt Settlement Success</div>
+              <div className="text-xs text-black">Average reduction achieved</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-amber-50 to-amber-100 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
               <AlertTriangle className="w-12 h-12 text-amber-600 mx-auto mb-4" />
               <div className="text-3xl font-bold text-amber-800 mb-2">$67K</div>
               <div className="text-sm font-medium text-amber-700 mb-1">Average Household Debt</div>
@@ -162,12 +162,12 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-blue-50 border border-blue-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <Shield className="w-6 h-6 text-blue-600" />
-                  <h3 className="text-lg font-semibold text-blue-800">Chapter 7 Bankruptcy</h3>
+                  <Shield className="w-6 h-6 text-black" />
+                  <h3 className="text-lg font-semibold text-black">Chapter 7 Bankruptcy</h3>
                 </div>
-                <div className="space-y-3 text-sm text-blue-700">
+                <div className="space-y-3 text-sm text-black">
                   <div><strong>Timeline:</strong> 3-6 months</div>
                   <div><strong>Cost:</strong> $1,500-$3,500 (attorney + court fees)</div>
                   <div><strong>Income Limit:</strong> Must pass means test</div>
@@ -177,12 +177,12 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
                 </div>
               </div>
 
-              <div className="bg-green-50 border border-green-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <DollarSign className="w-6 h-6 text-green-600" />
-                  <h3 className="text-lg font-semibold text-green-800">Chapter 13 Bankruptcy</h3>
+                  <DollarSign className="w-6 h-6 text-black" />
+                  <h3 className="text-lg font-semibold text-black">Chapter 13 Bankruptcy</h3>
                 </div>
-                <div className="space-y-3 text-sm text-green-700">
+                <div className="space-y-3 text-sm text-black">
                   <div><strong>Timeline:</strong> 3-5 years</div>
                   <div><strong>Cost:</strong> $2,500-$5,000 (attorney + court fees)</div>
                   <div><strong>Income Requirement:</strong> Regular income needed</div>
@@ -225,43 +225,43 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
               preserving assets while reducing debt burdens.
             </p>
 
-            <div className="bg-green-50 border border-green-200 p-8 mb-8">
-              <h3 className="text-xl font-semibold text-green-800 mb-4 flex items-center gap-2">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
+              <h3 className="text-xl font-semibold text-black mb-4 flex items-center gap-2">
                 <TrendingDown className="w-5 h-5" />
                 Debt Settlement Process & Timeline
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 bg-green-600 text-white flex items-center justify-center text-xs font-bold rounded">
+                  <div className="w-6 h-6 bg-black text-white flex items-center justify-center text-xs font-bold rounded">
                     1
                   </div>
                   <div>
-                    <h4 className="font-semibold text-green-800 mb-1">Months 1-2: Setup & Strategy</h4>
-                    <p className="text-sm text-green-700">
+                    <h4 className="font-semibold text-black mb-1">Months 1-2: Setup & Strategy</h4>
+                    <p className="text-sm text-black">
                       Free consultation, financial analysis, escrow account setup, initial creditor contact
                     </p>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 bg-green-600 text-white flex items-center justify-center text-xs font-bold rounded">
+                  <div className="w-6 h-6 bg-black text-white flex items-center justify-center text-xs font-bold rounded">
                     2
                   </div>
                   <div>
-                    <h4 className="font-semibold text-green-800 mb-1">Months 3-12: Negotiations</h4>
-                    <p className="text-sm text-green-700">
+                    <h4 className="font-semibold text-black mb-1">Months 3-12: Negotiations</h4>
+                    <p className="text-sm text-black">
                       Build settlement fund, creditor negotiations, settlement offers, payment arrangements
                     </p>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 bg-green-600 text-white flex items-center justify-center text-xs font-bold rounded">
+                  <div className="w-6 h-6 bg-black text-white flex items-center justify-center text-xs font-bold rounded">
                     3
                   </div>
                   <div>
-                    <h4 className="font-semibold text-green-800 mb-1">Months 12-24: Completion</h4>
-                    <p className="text-sm text-green-700">
+                    <h4 className="font-semibold text-black mb-1">Months 12-24: Completion</h4>
+                    <p className="text-sm text-black">
                       Final settlements, debt discharge letters, credit report updates, program completion
                     </p>
                   </div>
@@ -412,9 +412,9 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
               </ul>
             </div>
 
-            <div className="bg-blue-50 border border-blue-200 p-8 mb-8">
-              <h3 className="text-xl font-semibold text-blue-800 mb-6">Choose Chapter 7 Bankruptcy If:</h3>
-              <ul className="space-y-2 text-blue-700">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
+              <h3 className="text-xl font-semibold text-black mb-6">Choose Chapter 7 Bankruptcy If:</h3>
+              <ul className="space-y-2 text-black">
                 <li>• Your income qualifies under the means test</li>
                 <li>• You want the fastest debt relief (3-6 months)</li>
                 <li>• You have few assets to protect</li>
@@ -424,9 +424,9 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
               </ul>
             </div>
 
-            <div className="bg-green-50 border border-green-200 p-8 mb-8">
-              <h3 className="text-xl font-semibold text-green-800 mb-6">Choose Chapter 13 Bankruptcy If:</h3>
-              <ul className="space-y-2 text-green-700">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
+              <h3 className="text-xl font-semibold text-black mb-6">Choose Chapter 13 Bankruptcy If:</h3>
+              <ul className="space-y-2 text-black">
                 <li>• You have regular income but don't qualify for Chapter 7</li>
                 <li>• You want to keep valuable assets (home, car)</li>
                 <li>• You're behind on mortgage or car payments</li>
@@ -479,21 +479,25 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
             </div>
 
           </div>
-        </div>
-      </article>
+
+
+          </div>
+
+
+          </article>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 via-blue-700 to-green-700">
+      <section className="py-16 bg-gradient-to-r from-black via-blue-700 to-neutral-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-light text-white mb-6">
             Ready to Choose the Right Debt Relief Option?
           </h2>
-          <p className="text-xl text-blue-100 mb-8 font-light">
+          <p className="text-xl text-black mb-8 font-light">
             Get personalized analysis comparing bankruptcy and debt settlement for your Orange County situation
           </p>
           <button
             onClick={() => document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' })}
-            className="bg-white text-blue-700 px-8 py-4 text-lg font-semibold hover:bg-blue-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
+            className="bg-white text-black px-8 py-4 text-lg font-semibold hover:bg-neutral-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
           >
             Get Debt Relief Analysis
           </button>

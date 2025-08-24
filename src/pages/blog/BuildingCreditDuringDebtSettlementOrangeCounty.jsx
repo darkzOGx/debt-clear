@@ -94,25 +94,25 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
       <section className="py-16 bg-white border-b border-neutral-200">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center p-8 bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 hover:shadow-lg transition-all duration-300">
-              <TrendingUp className="w-12 h-12 text-green-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-green-800 mb-2">2-4</div>
-              <div className="text-sm font-medium text-green-700 mb-1">Years Recovery</div>
-              <div className="text-xs text-green-600">Credit score improvement</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <TrendingUp className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">2-4</div>
+              <div className="text-sm font-medium text-black mb-1">Years Recovery</div>
+              <div className="text-xs text-black">Credit score improvement</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 hover:shadow-lg transition-all duration-300">
-              <Users className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-blue-800 mb-2">78%</div>
-              <div className="text-sm font-medium text-blue-700 mb-1">Employment Checks</div>
-              <div className="text-xs text-blue-600">OC financial sector jobs</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <Users className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">78%</div>
+              <div className="text-sm font-medium text-black mb-1">Employment Checks</div>
+              <div className="text-xs text-black">OC financial sector jobs</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg border border-purple-200 hover:shadow-lg transition-all duration-300">
-              <CheckCircle className="w-12 h-12 text-purple-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-purple-800 mb-2">650+</div>
-              <div className="text-sm font-medium text-purple-700 mb-1">Rental Requirement</div>
-              <div className="text-xs text-purple-600">OC housing market</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <CheckCircle className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">650+</div>
+              <div className="text-sm font-medium text-black mb-1">Rental Requirement</div>
+              <div className="text-xs text-black">OC housing market</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-amber-50 to-amber-100 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
               <Target className="w-12 h-12 text-amber-600 mx-auto mb-4" />
               <div className="text-3xl font-bold text-amber-800 mb-2">85%</div>
               <div className="text-sm font-medium text-amber-700 mb-1">Strategic Success</div>
@@ -126,15 +126,15 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
           <div className="prose prose-lg max-w-none">
             
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Critical Balance: Settlement vs. Credit Building</h2>
-            <div className="bg-yellow-50 border border-yellow-200 p-8 mb-8">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
               <div className="flex items-start gap-3">
-                <AlertTriangle className="w-6 h-6 text-yellow-600 mt-1" />
+                <AlertTriangle className="w-6 h-6 text-black mt-1" />
                 <div>
-                  <h3 className="text-lg font-semibold text-yellow-800 mb-4">Strategic Credit Building Guidelines</h3>
+                  <h3 className="text-lg font-semibold text-black mb-4">Strategic Credit Building Guidelines</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <h4 className="font-semibold text-yellow-800 mb-2">What NOT to Do</h4>
-                      <ul className="space-y-1 text-sm text-yellow-700">
+                      <h4 className="font-semibold text-black mb-2">What NOT to Do</h4>
+                      <ul className="space-y-1 text-sm text-black">
                         <li>• Don't take on new debt before settlement completion</li>
                         <li>• Avoid closing old credit cards unnecessarily</li>
                         <li>• Never apply for multiple credit accounts quickly</li>
@@ -142,8 +142,8 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-yellow-800 mb-2">Safe Credit Building Actions</h4>
-                      <ul className="space-y-1 text-sm text-yellow-700">
+                      <h4 className="font-semibold text-black mb-2">Safe Credit Building Actions</h4>
+                      <ul className="space-y-1 text-sm text-black">
                         <li>• Maintain perfect payments on remaining accounts</li>
                         <li>• Keep existing credit cards open with zero balances</li>
                         <li>• Consider secured credit cards carefully</li>
@@ -158,7 +158,7 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Credit Building Strategies During Active Settlement</h2>
             
             <div className="space-y-6">
-              <div className="bg-green-50 border border-green-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
                   <Shield className="w-5 h-5" />
                   Protect Existing Good Standing Accounts
@@ -174,7 +174,7 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
                 </ul>
               </div>
 
-              <div className="bg-blue-50 border border-blue-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
                   <CreditCard className="w-5 h-5" />
                   Strategic Use of Remaining Credit Cards
@@ -190,7 +190,7 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
                 </ul>
               </div>
 
-              <div className="bg-purple-50 border border-purple-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h3 className="text-lg font-semibold text-black mb-3">Authorized User Strategy</h3>
                 <p className="text-neutral-700 mb-3">
                   Consider becoming an authorized user on a family member's account:
@@ -206,7 +206,7 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Secured Credit Cards: Timing and Selection</h2>
             
-            <div className="bg-orange-50 border border-orange-200 p-8">
+            <div className="bg-neutral-50 border border-neutral-200 p-8">
               <h3 className="text-lg font-semibold text-black mb-4">Optimal Timing for Orange County Residents</h3>
               
               <div className="grid md:grid-cols-2 gap-6">
@@ -231,7 +231,7 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
                 </div>
               </div>
 
-              <div className="mt-6 p-4 bg-white border border-orange-200">
+              <div className="mt-6 p-4 bg-white border border-neutral-200">
                 <h4 className="font-semibold text-black mb-2">Recommended Secured Cards for Orange County</h4>
                 <ul className="text-sm text-neutral-600 space-y-1">
                   <li>• Capital One Secured (no annual fee, graduation path)</li>
@@ -245,7 +245,7 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Active Credit Monitoring and Dispute Strategy</h2>
             
             <div className="space-y-6">
-              <div className="bg-green-50 border border-green-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h3 className="font-semibold text-black mb-3">Monthly Monitoring Tasks</h3>
                 <ul className="space-y-2 text-neutral-700">
                   <li>• Check all three credit reports for accuracy</li>
@@ -256,7 +256,7 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
                 </ul>
               </div>
 
-              <div className="bg-blue-50 border border-blue-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h3 className="font-semibold text-black mb-3">Dispute Strategy During Settlement</h3>
                 <p className="text-neutral-700 mb-3">
                   Focus disputes on clear inaccuracies while settlement is ongoing:
@@ -285,7 +285,7 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
                   <li>• Government positions</li>
                 </ul>
                 
-                <div className="mt-4 p-3 bg-yellow-50 border border-yellow-200">
+                <div className="mt-4 p-3 bg-neutral-50 border border-neutral-200">
                   <p className="text-sm text-neutral-700">
                     <strong>Strategy:</strong> Maintain one positive tradeline throughout settlement to demonstrate current responsibility.
                   </p>
@@ -304,7 +304,7 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
                   <li>• Co-signers may be necessary temporarily</li>
                 </ul>
                 
-                <div className="mt-4 p-3 bg-blue-50 border border-blue-200">
+                <div className="mt-4 p-3 bg-neutral-50 border border-neutral-200">
                   <p className="text-sm text-neutral-700">
                     <strong>Planning:</strong> Build 6+ months of positive payment history before major housing moves.
                   </p>
@@ -316,14 +316,14 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
             
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <div className="bg-red-50 border border-red-200 p-4">
+                <div className="bg-neutral-50 border border-neutral-200 p-4">
                   <h4 className="font-semibold text-black mb-2">❌ Opening Multiple New Accounts</h4>
                   <p className="text-sm text-neutral-700">
                     Multiple hard inquiries can drop your score further and signal financial distress to lenders.
                   </p>
                 </div>
                 
-                <div className="bg-red-50 border border-red-200 p-4">
+                <div className="bg-neutral-50 border border-neutral-200 p-4">
                   <h4 className="font-semibold text-black mb-2">❌ Closing Old Credit Cards</h4>
                   <p className="text-sm text-neutral-700">
                     Reduces available credit and shortens average account age, both harmful to scores.
@@ -332,14 +332,14 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
               </div>
               
               <div className="space-y-4">
-                <div className="bg-red-50 border border-red-200 p-4">
+                <div className="bg-neutral-50 border border-neutral-200 p-4">
                   <h4 className="font-semibold text-black mb-2">❌ Ignoring Non-Settlement Bills</h4>
                   <p className="text-sm text-neutral-700">
                     Missing payments on utilities, phone, or other services can create new negative marks.
                   </p>
                 </div>
                 
-                <div className="bg-red-50 border border-red-200 p-4">
+                <div className="bg-neutral-50 border border-neutral-200 p-4">
                   <h4 className="font-semibold text-black mb-2">❌ Maxing Out Remaining Credit</h4>
                   <p className="text-sm text-neutral-700">
                     High utilization on remaining cards compounds the negative impact of settlement accounts.
@@ -359,21 +359,25 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
             </div>
 
           </div>
-        </div>
-      </article>
+
+
+          </div>
+
+
+          </article>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-green-600 via-green-700 to-blue-700">
+      <section className="py-16 bg-gradient-to-r from-black via-green-700 to-neutral-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-light text-white mb-6">
             Ready to Protect Your Credit During Settlement?
           </h2>
-          <p className="text-xl text-green-100 mb-8 font-light">
+          <p className="text-xl text-black mb-8 font-light">
             Get expert guidance on maintaining and building credit while completing debt settlement
           </p>
           <button
             onClick={() => document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' })}
-            className="bg-white text-green-700 px-8 py-4 text-lg font-semibold hover:bg-green-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
+            className="bg-white text-black px-8 py-4 text-lg font-semibold hover:bg-neutral-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
           >
             Get Credit Protection Plan
           </button>

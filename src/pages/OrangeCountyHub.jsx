@@ -112,28 +112,27 @@ export default function OrangeCountyHub() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="py-20 bg-white border-b border-neutral-200">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <div className="inline-flex items-center gap-3 mb-8">
-              <MapPin className="w-5 h-5 text-black" />
-              <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <div className="w-2 h-2 bg-white"></div>
+              <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
                 ORANGE COUNTY FINANCIAL RESOURCE HUB
               </span>
             </div>
             
-            <h1 className="text-5xl lg:text-6xl font-light tracking-tight text-black mb-6">
-              Orange County
-              <br />
-              <span className="font-mono">Debt Relief Center</span>
+            <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+              Orange County:<br />
+              <span className="font-mono text-3xl lg:text-4xl">Debt Relief Center</span>
             </h1>
             
-            <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
+            <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10 max-w-3xl mx-auto">
               Comprehensive financial resources, local statistics, and debt relief solutions 
               for Orange County's 3.2 million residents across 34 cities.
             </p>

@@ -25,30 +25,30 @@ export default function SocialSecurityDebtSettlementOrangeCountySeniors() {
         <link rel="canonical" href="https://debtclear.com/blog/social-security-debt-settlement-orange-county-seniors" />
       </Helmet>
       {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-400 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+            <div className="w-2 h-2 bg-white"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
               SENIOR FINANCE
             </span>
           </div>
 
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             Social Security and Debt Settlement:
             <br />
             <span className="font-mono text-3xl lg:text-4xl">Orange County Seniors Protection</span>
           </h1>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>June 15, 2025</span>
@@ -81,7 +81,7 @@ export default function SocialSecurityDebtSettlementOrangeCountySeniors() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-green-50 border border-green-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <Shield className="w-6 h-6" />
@@ -127,7 +127,7 @@ export default function SocialSecurityDebtSettlementOrangeCountySeniors() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">High Cost of Living Impact</h3>
                   <p className="text-neutral-700 mb-3">
                     Orange County's high living costs create unique challenges for seniors on fixed incomes:
@@ -141,7 +141,7 @@ export default function SocialSecurityDebtSettlementOrangeCountySeniors() {
                   </ul>
                 </div>
 
-                <div className="bg-orange-50 border border-orange-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Common Debt Sources for Orange County Seniors</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <ul className="space-y-2 text-neutral-700">
@@ -175,7 +175,7 @@ export default function SocialSecurityDebtSettlementOrangeCountySeniors() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-purple-50 border border-purple-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Leverage Social Security Protection</h3>
                   <p className="text-neutral-700 mb-3">
                     Orange County seniors can use Social Security protection as negotiation leverage:
@@ -188,7 +188,7 @@ export default function SocialSecurityDebtSettlementOrangeCountySeniors() {
                   </ul>
                 </div>
 
-                <div className="bg-yellow-50 border border-yellow-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Age-Based Hardship Arguments</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
@@ -228,7 +228,7 @@ export default function SocialSecurityDebtSettlementOrangeCountySeniors() {
                 Medicare and Medical Debt Settlement
               </h2>
               
-              <div className="bg-red-50 border border-red-200 p-8">
+              <div className="bg-neutral-50 border border-neutral-200 p-8">
                 <h3 className="text-lg font-semibold text-black mb-4">Orange County Healthcare Debt Challenges</h3>
                 
                 <div className="grid md:grid-cols-2 gap-6">
@@ -253,7 +253,7 @@ export default function SocialSecurityDebtSettlementOrangeCountySeniors() {
                   </div>
                 </div>
 
-                <div className="mt-6 p-4 bg-white border border-red-200">
+                <div className="mt-6 p-4 bg-white border border-neutral-200">
                   <h4 className="font-semibold text-black mb-2">Medical Debt Settlement Advantages for Seniors</h4>
                   <ul className="text-sm text-neutral-700 space-y-1">
                     <li>• Hospitals often have charity care programs for seniors</li>
@@ -276,7 +276,7 @@ export default function SocialSecurityDebtSettlementOrangeCountySeniors() {
               <h2 className="text-2xl font-semibold text-black mb-6">Strategic Timing Considerations</h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Before Starting Social Security</h3>
                   <p className="text-neutral-700 mb-3">
                     Orange County residents approaching retirement age should consider debt settlement timing:
@@ -289,7 +289,7 @@ export default function SocialSecurityDebtSettlementOrangeCountySeniors() {
                   </ul>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">After Starting Social Security</h3>
                   <p className="text-neutral-700 mb-3">
                     Seniors already receiving benefits have unique advantages:
@@ -349,7 +349,7 @@ export default function SocialSecurityDebtSettlementOrangeCountySeniors() {
             >
               <h2 className="text-2xl font-semibold text-black mb-6">Estate Planning and Debt Settlement</h2>
               
-              <div className="bg-orange-50 border border-orange-200 p-8">
+              <div className="bg-neutral-50 border border-neutral-200 p-8">
                 <h3 className="text-lg font-semibold text-black mb-4">Protecting Assets for Heirs</h3>
                 
                 <div className="grid md:grid-cols-2 gap-6">
@@ -374,7 +374,7 @@ export default function SocialSecurityDebtSettlementOrangeCountySeniors() {
                   </div>
                 </div>
 
-                <div className="mt-6 p-4 bg-white border border-orange-200">
+                <div className="mt-6 p-4 bg-white border border-neutral-200">
                   <h4 className="font-semibold text-black mb-2">Important Consideration</h4>
                   <p className="text-sm text-neutral-700">
                     Orange County seniors should coordinate debt settlement with estate planning. Settling debts can preserve assets for heirs and reduce estate administration complexity.

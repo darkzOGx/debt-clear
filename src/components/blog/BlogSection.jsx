@@ -32,28 +32,34 @@ export default function BlogSection() {
   ];
 
   return (
-    <section className="py-16 bg-white border-t border-neutral-200">
-      <div className="max-w-6xl mx-auto px-6 lg:px-8">
+    <>
+    <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+      <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+            <div className="w-2 h-2 bg-white"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
               DEBT SETTLEMENT INSIGHTS
             </span>
           </div>
           
-          <h2 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Orange County
-            <br />
-            <span className="font-mono">Debt Relief Resources</span>
+          <h2 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+            Orange County:<br />
+            <span className="font-mono text-3xl lg:text-4xl">Debt Relief Resources</span>
           </h2>
           
-          <p className="text-lg text-neutral-600 max-w-2xl mx-auto font-light">
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10 max-w-3xl mx-auto">
             Expert insights, legal updates, and success stories from Orange County's leading 
             debt settlement specialists.
           </p>
         </div>
+      </div>
+    </section>
+
+    {/* Articles Section */}
+    <section className="py-16 bg-white">
+      <div className="max-w-6xl mx-auto px-6 lg:px-8">
 
         {/* Articles Grid */}
         <div className="grid lg:grid-cols-3 gap-6 mb-8">
@@ -120,5 +126,6 @@ export default function BlogSection() {
 
       </div>
     </section>
+    </>
   );
 }

@@ -81,7 +81,7 @@ export default function InvestmentStrategiesDebtSettlementOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-blue-50 border border-blue-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <BarChart3 className="w-6 h-6" />
@@ -93,19 +93,19 @@ export default function InvestmentStrategiesDebtSettlementOrangeCounty() {
                   <h3 className="text-lg font-semibold text-black mb-3">Before You Invest</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-green-500"></div>
+                      <div className="w-2 h-2 bg-neutral-500"></div>
                       All settlement agreements completed
                     </li>
                     <li className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-green-500"></div>
+                      <div className="w-2 h-2 bg-neutral-500"></div>
                       Emergency fund established (3-6 months expenses)
                     </li>
                     <li className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-green-500"></div>
+                      <div className="w-2 h-2 bg-neutral-500"></div>
                       Stable income source secured
                     </li>
                     <li className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-green-500"></div>
+                      <div className="w-2 h-2 bg-neutral-500"></div>
                       Budget allows for 10-15% savings rate
                     </li>
                   </ul>
@@ -115,19 +115,19 @@ export default function InvestmentStrategiesDebtSettlementOrangeCounty() {
                   <h3 className="text-lg font-semibold text-black mb-3">Orange County Considerations</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-orange-500"></div>
+                      <div className="w-2 h-2 bg-neutral-500"></div>
                       Higher emergency fund due to OC costs
                     </li>
                     <li className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-orange-500"></div>
+                      <div className="w-2 h-2 bg-neutral-500"></div>
                       Tax-advantaged accounts prioritized
                     </li>
                     <li className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-orange-500"></div>
+                      <div className="w-2 h-2 bg-neutral-500"></div>
                       Consider housing cost volatility
                     </li>
                     <li className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-orange-500"></div>
+                      <div className="w-2 h-2 bg-neutral-500"></div>
                       Plan for high healthcare expenses
                     </li>
                   </ul>
@@ -146,7 +146,7 @@ export default function InvestmentStrategiesDebtSettlementOrangeCounty() {
               <h2 className="text-2xl font-semibold text-black mb-6">Strategic Investment Timeline After Debt Relief</h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
                     <DollarSign className="w-5 h-5" />
                     Year 1: Foundation Building
@@ -162,7 +162,7 @@ export default function InvestmentStrategiesDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
                     <TrendingUp className="w-5 h-5" />
                     Years 2-3: Growth Transition
@@ -178,7 +178,7 @@ export default function InvestmentStrategiesDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-purple-50 border border-purple-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
                     <PieChart className="w-5 h-5" />
                     Years 4+: Wealth Optimization
@@ -250,7 +250,7 @@ export default function InvestmentStrategiesDebtSettlementOrangeCounty() {
                 </table>
               </div>
 
-              <div className="mt-6 bg-yellow-50 border border-yellow-200 p-4">
+              <div className="mt-6 bg-neutral-50 border border-neutral-200 p-4">
                 <p className="text-sm text-neutral-700">
                   <strong>Post-Debt Settlement Adjustment:</strong> Consider reducing stock allocation by 10-15% initially to rebuild confidence and maintain stability during recovery.
                 </p>
@@ -271,13 +271,13 @@ export default function InvestmentStrategiesDebtSettlementOrangeCounty() {
                 <div>
                   <h3 className="text-lg font-semibold text-black mb-4">Core Holdings (70-80% of portfolio)</h3>
                   <div className="space-y-4">
-                    <div className="bg-green-50 border border-green-200 p-4">
+                    <div className="bg-neutral-50 border border-neutral-200 p-4">
                       <h4 className="font-semibold text-black mb-2">US Total Market Index</h4>
                       <p className="text-sm text-neutral-600 mb-2">Ticker: VTI, FZROX</p>
                       <p className="text-sm text-neutral-700">Broad diversification across all US companies. Low fees, consistent returns.</p>
                     </div>
                     
-                    <div className="bg-blue-50 border border-blue-200 p-4">
+                    <div className="bg-neutral-50 border border-neutral-200 p-4">
                       <h4 className="font-semibold text-black mb-2">International Index Fund</h4>
                       <p className="text-sm text-neutral-600 mb-2">Ticker: VTIAX, FTIHX</p>
                       <p className="text-sm text-neutral-700">Geographic diversification, currency protection, different economic cycles.</p>
@@ -288,13 +288,13 @@ export default function InvestmentStrategiesDebtSettlementOrangeCounty() {
                 <div>
                   <h3 className="text-lg font-semibold text-black mb-4">Satellite Holdings (20-30%)</h3>
                   <div className="space-y-4">
-                    <div className="bg-purple-50 border border-purple-200 p-4">
+                    <div className="bg-neutral-50 border border-neutral-200 p-4">
                       <h4 className="font-semibold text-black mb-2">Bond Index Fund</h4>
                       <p className="text-sm text-neutral-600 mb-2">Ticker: BND, FXNAX</p>
                       <p className="text-sm text-neutral-700">Stability, income generation, portfolio balance during market volatility.</p>
                     </div>
                     
-                    <div className="bg-orange-50 border border-orange-200 p-4">
+                    <div className="bg-neutral-50 border border-neutral-200 p-4">
                       <h4 className="font-semibold text-black mb-2">Real Estate (REITs)</h4>
                       <p className="text-sm text-neutral-600 mb-2">Ticker: VNQ, SCHH</p>
                       <p className="text-sm text-neutral-700">Orange County real estate exposure without direct ownership costs.</p>
@@ -315,7 +315,7 @@ export default function InvestmentStrategiesDebtSettlementOrangeCounty() {
               <h2 className="text-2xl font-semibold text-black mb-6">Tax-Efficient Investment Strategies</h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Asset Location Strategy</h3>
                   <p className="text-neutral-700 mb-3">
                     Optimize tax efficiency by placing investments in appropriate account types:
@@ -348,7 +348,7 @@ export default function InvestmentStrategiesDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">California Tax Considerations</h3>
                   <ul className="text-sm text-neutral-600 space-y-1">
                     <li>• Municipal bonds from California for state tax benefits</li>
@@ -372,14 +372,14 @@ export default function InvestmentStrategiesDebtSettlementOrangeCounty() {
               
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-4">
-                  <div className="bg-red-50 border border-red-200 p-4">
+                  <div className="bg-neutral-50 border border-neutral-200 p-4">
                     <h4 className="font-semibold text-black mb-2">❌ Over-Conservative Approach</h4>
                     <p className="text-sm text-neutral-700">
                       Keeping everything in savings accounts due to debt trauma. Inflation erodes purchasing power over time.
                     </p>
                   </div>
                   
-                  <div className="bg-red-50 border border-red-200 p-4">
+                  <div className="bg-neutral-50 border border-neutral-200 p-4">
                     <h4 className="font-semibold text-black mb-2">❌ Chasing Performance</h4>
                     <p className="text-sm text-neutral-700">
                       Trying to make up for lost time with risky investments or stock picking.
@@ -388,14 +388,14 @@ export default function InvestmentStrategiesDebtSettlementOrangeCounty() {
                 </div>
                 
                 <div className="space-y-4">
-                  <div className="bg-red-50 border border-red-200 p-4">
+                  <div className="bg-neutral-50 border border-neutral-200 p-4">
                     <h4 className="font-semibold text-black mb-2">❌ Ignoring Fees</h4>
                     <p className="text-sm text-neutral-700">
                       High expense ratios and advisor fees compound over time, reducing returns significantly.
                     </p>
                   </div>
                   
-                  <div className="bg-red-50 border border-red-200 p-4">
+                  <div className="bg-neutral-50 border border-neutral-200 p-4">
                     <h4 className="font-semibold text-black mb-2">❌ Market Timing</h4>
                     <p className="text-sm text-neutral-700">
                       Trying to predict market movements instead of consistent, disciplined investing.

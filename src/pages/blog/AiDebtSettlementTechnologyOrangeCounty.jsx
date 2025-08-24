@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { ArrowLeft, Calendar, Clock, User, Brain, Zap, BarChart3, TrendingUp } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, Brain, Zap, BarChart3, TrendingUp, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -93,25 +93,25 @@ export default function AiDebtSettlementTechnologyOrangeCounty() {
       <section className="py-16 bg-white border-b border-neutral-200">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 hover:shadow-lg transition-all duration-300">
-              <Brain className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-blue-800 mb-2">42%</div>
-              <div className="text-sm font-medium text-blue-700 mb-1">Average Settlement</div>
-              <div className="text-xs text-blue-600">AI-powered vs 58% traditional</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <Brain className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">42%</div>
+              <div className="text-sm font-medium text-black mb-1">Average Settlement</div>
+              <div className="text-xs text-black">AI-powered vs 58% traditional</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg border border-purple-200 hover:shadow-lg transition-all duration-300">
-              <Zap className="w-12 h-12 text-purple-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-purple-800 mb-2">18 Mo</div>
-              <div className="text-sm font-medium text-purple-700 mb-1">Resolution Time</div>
-              <div className="text-xs text-purple-600">10 months faster</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <Zap className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">18 Mo</div>
+              <div className="text-sm font-medium text-black mb-1">Resolution Time</div>
+              <div className="text-xs text-black">10 months faster</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 hover:shadow-lg transition-all duration-300">
-              <TrendingUp className="w-12 h-12 text-green-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-green-800 mb-2">94%</div>
-              <div className="text-sm font-medium text-green-700 mb-1">Success Rate</div>
-              <div className="text-xs text-green-600">16% higher than traditional</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <TrendingUp className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">94%</div>
+              <div className="text-sm font-medium text-black mb-1">Success Rate</div>
+              <div className="text-xs text-black">16% higher than traditional</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-amber-50 to-amber-100 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
               <BarChart3 className="w-12 h-12 text-amber-600 mx-auto mb-4" />
               <div className="text-3xl font-bold text-amber-800 mb-2">24/7</div>
               <div className="text-sm font-medium text-amber-700 mb-1">AI Monitoring</div>
@@ -175,7 +175,7 @@ export default function AiDebtSettlementTechnologyOrangeCounty() {
                 <p className="text-neutral-700 leading-relaxed mb-4">
                   AI algorithms process multiple variables to determine optimal settlement approaches:
                 </p>
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h4 className="font-semibold text-black mb-3">Settlement Success Formula</h4>
                   <p className="text-neutral-700 text-sm mb-3">
                     <strong>Settlement Probability = f(</strong>
@@ -206,25 +206,25 @@ export default function AiDebtSettlementTechnologyOrangeCounty() {
                     <td className="border border-neutral-300 p-4 font-semibold">Average Settlement %</td>
                     <td className="border border-neutral-300 p-4">42% of balance</td>
                     <td className="border border-neutral-300 p-4">58% of balance</td>
-                    <td className="border border-neutral-300 p-4 text-green-600">+16% savings</td>
+                    <td className="border border-neutral-300 p-4 text-black">+16% savings</td>
                   </tr>
                   <tr className="bg-neutral-50">
                     <td className="border border-neutral-300 p-4 font-semibold">Settlement Time</td>
                     <td className="border border-neutral-300 p-4">18 months</td>
                     <td className="border border-neutral-300 p-4">28 months</td>
-                    <td className="border border-neutral-300 p-4 text-green-600">10 months faster</td>
+                    <td className="border border-neutral-300 p-4 text-black">10 months faster</td>
                   </tr>
                   <tr>
                     <td className="border border-neutral-300 p-4 font-semibold">Success Rate</td>
                     <td className="border border-neutral-300 p-4">94%</td>
                     <td className="border border-neutral-300 p-4">78%</td>
-                    <td className="border border-neutral-300 p-4 text-green-600">+16% higher</td>
+                    <td className="border border-neutral-300 p-4 text-black">+16% higher</td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
-            <div className="bg-green-50 border border-green-200 p-6 mb-8">
+            <div className="bg-neutral-50 border border-neutral-200 p-6 mb-8">
               <h3 className="font-semibold text-black mb-3">Orange County Case Study: Tech Professional</h3>
               <p className="text-neutral-700 mb-3">
                 <strong>Situation:</strong> Irvine software engineer with $85,000 in credit card debt across 6 accounts.
@@ -272,30 +272,29 @@ export default function AiDebtSettlementTechnologyOrangeCounty() {
         </div>
       </article>
 
-      {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 via-blue-700 to-purple-700">
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-light text-white mb-6">
-            Experience AI-Powered Debt Settlement
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
           </h2>
-          <p className="text-xl text-blue-100 mb-8 font-light">
-            See how artificial intelligence can optimize your Orange County debt settlement strategy
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
           </p>
-          <button
-            onClick={() => document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' })}
-            className="bg-white text-blue-700 px-8 py-4 text-lg font-semibold hover:bg-blue-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
           >
-            Get AI Analysis
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
           </button>
         </div>
       </section>
 
-      {/* Research Consultation */}
-      <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <ConsultationForm />
-        </div>
-      </section>
+      {/* Consultation Form */}
+      <div id="consultation">
+        <ConsultationForm />
+      </div>
       </div>
     </>
   );

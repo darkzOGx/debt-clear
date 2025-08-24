@@ -27,48 +27,25 @@ export default function ChooseDebtSettlementCompanyOrangeCounty() {
         <meta property="article:section" content="Consumer Guide" />
         <link rel="canonical" href="https://debtclear.com/blog/choose-debt-settlement-company-orange-county" />
       </Helmet>
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <Link 
-            to="/"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Home
-          </Link>
-
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8 z-10 relative">
+            <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-              CONSUMER GUIDE
-            </span>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">CONSUMER GUIDE</span>
           </div>
-
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            How to Choose a Debt Settlement Company
-            <br />
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+            How to Choose a Debt Settlement Company<br />
             <span className="font-mono text-3xl lg:text-4xl">in Orange County</span>
           </h1>
-
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              <span>August 5, 2025</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4" />
-              <span>10 min read</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <User className="w-4 h-4" />
-              <span>VegaX Consumer Protection Team</span>
-            </div>
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 5, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>10 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Consumer Protection Team</span></div>
           </div>
-
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">
-            Essential criteria for selecting a debt settlement provider in Orange County, including licensing requirements, 
-            fee structures, success rates, and red flags to avoid when choosing professional debt relief services.
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
+            Essential criteria for selecting a debt settlement provider in Orange County, including licensing requirements, fee structures, success rates, and red flags to avoid when choosing professional debt relief services.
           </p>
         </div>
       </section>
@@ -107,12 +84,12 @@ export default function ChooseDebtSettlementCompanyOrangeCounty() {
               verify they have proper authorization to operate in Orange County.
             </p>
 
-            <div className="bg-green-50 border border-green-200 p-8 mb-8">
-              <h3 className="text-xl font-semibold text-green-800 mb-4 flex items-center gap-2">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
+              <h3 className="text-xl font-semibold text-black mb-4 flex items-center gap-2">
                 <CheckCircle className="w-5 h-5" />
                 Required Licenses & Certifications
               </h3>
-              <ul className="space-y-2 text-green-700">
+              <ul className="space-y-2 text-black">
                 <li>• California Department of Financial Protection and Innovation (DFPI) license</li>
                 <li>• Valid business license in Orange County</li>
                 <li>• Surety bond (minimum $100,000 in California)</li>
@@ -169,9 +146,9 @@ export default function ChooseDebtSettlementCompanyOrangeCounty() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-green-50 border border-green-200 p-6">
-                <h3 className="text-lg font-semibold text-green-800 mb-4">Legitimate Fee Practices</h3>
-                <ul className="space-y-2 text-sm text-green-700">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h3 className="text-lg font-semibold text-black mb-4">Legitimate Fee Practices</h3>
+                <ul className="space-y-2 text-sm text-black">
                   <li>• Fees only charged after debt settlement</li>
                   <li>• Percentage typically 15-25% of settled amount</li>
                   <li>• Clear written disclosure of all fees</li>
@@ -181,9 +158,9 @@ export default function ChooseDebtSettlementCompanyOrangeCounty() {
                 </ul>
               </div>
 
-              <div className="bg-red-50 border border-red-200 p-6">
-                <h3 className="text-lg font-semibold text-red-800 mb-4">Illegal Fee Practices</h3>
-                <ul className="space-y-2 text-sm text-red-700">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h3 className="text-lg font-semibold text-black mb-4">Illegal Fee Practices</h3>
+                <ul className="space-y-2 text-sm text-black">
                   <li>• Upfront fees before any settlement</li>
                   <li>• Monthly maintenance fees</li>
                   <li>• Setup or enrollment fees</li>
@@ -279,9 +256,9 @@ export default function ChooseDebtSettlementCompanyOrangeCounty() {
             </p>
 
             <div className="space-y-6 mb-8">
-              <div className="bg-blue-50 border border-blue-200 p-6">
-                <h4 className="font-semibold text-blue-800 mb-4">Company Background</h4>
-                <div className="space-y-2 text-sm text-blue-700">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h4 className="font-semibold text-black mb-4">Company Background</h4>
+                <div className="space-y-2 text-sm text-black">
                   <label className="flex items-center gap-2">
                     <input type="checkbox" className="w-4 h-4" />
                     <span>Company has been in business for 3+ years</span>
@@ -305,9 +282,9 @@ export default function ChooseDebtSettlementCompanyOrangeCounty() {
                 </div>
               </div>
 
-              <div className="bg-green-50 border border-green-200 p-6">
-                <h4 className="font-semibold text-green-800 mb-4">Service Quality</h4>
-                <div className="space-y-2 text-sm text-green-700">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h4 className="font-semibold text-black mb-4">Service Quality</h4>
+                <div className="space-y-2 text-sm text-black">
                   <label className="flex items-center gap-2">
                     <input type="checkbox" className="w-4 h-4" />
                     <span>Free initial consultation offered</span>
@@ -331,9 +308,9 @@ export default function ChooseDebtSettlementCompanyOrangeCounty() {
                 </div>
               </div>
 
-              <div className="bg-purple-50 border border-purple-200 p-6">
-                <h4 className="font-semibold text-purple-800 mb-4">Contract Terms</h4>
-                <div className="space-y-2 text-sm text-purple-700">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h4 className="font-semibold text-black mb-4">Contract Terms</h4>
+                <div className="space-y-2 text-sm text-black">
                   <label className="flex items-center gap-2">
                     <input type="checkbox" className="w-4 h-4" />
                     <span>3-day cancellation period clearly stated</span>

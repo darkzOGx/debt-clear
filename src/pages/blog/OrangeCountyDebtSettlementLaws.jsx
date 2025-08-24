@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Calendar, Clock, User } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -24,31 +24,31 @@ export default function OrangeCountyDebtSettlementLaws() {
         <meta property="og:type" content="article" />
         <link rel="canonical" href="https://debtclear.com/blog/orange-county-debt-settlement-laws" />
       </Helmet>
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+      {/* Hero Section - Black Gradient */}
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
           <Link 
             to="/"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-400 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Home
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+            <div className="w-2 h-2 bg-white"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
               LEGAL GUIDE
             </span>
           </div>
 
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             Orange County Debt Settlement Laws:
             <br />
             <span className="font-mono text-3xl lg:text-4xl">What You Need to Know</span>
           </h1>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>August 15, 2025</span>
@@ -63,7 +63,7 @@ export default function OrangeCountyDebtSettlementLaws() {
             </div>
           </div>
 
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">
+          <p className="text-xl text-neutral-300 leading-relaxed font-light">
             Understanding California's debt settlement regulations and how they protect Orange County 
             residents from predatory practices while ensuring legitimate debt relief options.
           </p>
@@ -117,9 +117,9 @@ export default function OrangeCountyDebtSettlementLaws() {
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Warning Signs of Predatory Companies</h2>
             
-            <div className="bg-red-50 border border-red-200 p-8 mb-8">
-              <h3 className="text-xl font-semibold text-red-800 mb-4">Avoid Companies That:</h3>
-              <ul className="space-y-2 text-red-700">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
+              <h3 className="text-xl font-semibold text-black mb-4">Avoid Companies That:</h3>
+              <ul className="space-y-2 text-black">
                 <li>• Demand upfront payments before any services</li>
                 <li>• Guarantee specific debt reduction percentages</li>
                 <li>• Tell you to stop communicating with creditors entirely</li>
@@ -224,23 +224,21 @@ export default function OrangeCountyDebtSettlementLaws() {
         </div>
       </article>
 
-      {/* Free Consultation CTA */}
-      <section className="py-16 bg-black text-white">
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-light mb-6">
-            Ready to Start Your <span className="font-mono">Debt Settlement</span> Journey?
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
           </h2>
-          
-          <p className="text-neutral-300 mb-8 max-w-xl mx-auto">
-            Get a free consultation with our Orange County debt settlement specialists. 
-            No upfront fees, no obligations.
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
           </p>
-          
           <button 
             onClick={scrollToConsultation}
-            className="inline-flex items-center gap-3 bg-white text-black px-8 py-4 font-mono text-sm uppercase tracking-wide hover:bg-neutral-100 transition-colors"
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
           >
-            Schedule Free Consultation
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
           </button>
         </div>
       </section>
@@ -280,12 +278,10 @@ export default function OrangeCountyDebtSettlementLaws() {
         </div>
       </section>
 
-      {/* Research Consultation */}
-      <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <ConsultationForm />
-        </div>
-      </section>
+      {/* Consultation Form */}
+      <div id="consultation">
+        <ConsultationForm />
+      </div>
     </div>
   );
 }

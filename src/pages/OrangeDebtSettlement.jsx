@@ -1,407 +1,63 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
+import { Button } from '@/components/ui/button';
 import { ArrowRight, Phone, CheckCircle, Star, MapPin, Clock, Users, DollarSign } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
 
 export default function OrangeDebtSettlement() {
+  const consultationRef = useRef(null);
+
   const scrollToConsultation = () => {
-    const consultationSection = document.getElementById('consultation');
-    if (consultationSection) {
-      consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    consultationRef.current?.scrollIntoView({ 
+      behavior: 'smooth',
+      block: 'start'
+    });
   };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-neutral-50 to-white overflow-hidden">
-        <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(0,0,0,.02)_50%,transparent_75%)]"></div>
-        
-        <div className="max-w-6xl mx-auto px-6 lg:px-8 relative">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center max-w-4xl mx-auto"
+            className="text-center"
           >
-            <div className="flex items-center justify-center gap-2 mb-6">
-              <MapPin className="w-5 h-5 text-neutral-600" />
-              <span className="text-sm font-mono uppercase tracking-wide text-neutral-600">
-                Orange, CA 92856-92869
+            {/* Location Badge */}
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <div className="w-2 h-2 bg-white"></div>
+              <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
+                ORANGE DEBT SETTLEMENT SERVICES
               </span>
             </div>
-            
-            <h1 className="text-5xl lg:text-6xl font-light text-black mb-6 leading-tight">
-              Orange
-              <br />
-              <span className="font-mono text-4xl lg:text-5xl">Debt Settlement</span>
+
+            {/* Main Headline */}
+            <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+              Debt Settlement:<br />
+              <span className="font-mono text-3xl lg:text-4xl">Orange, CA</span>
             </h1>
-            
-            <p className="text-xl text-neutral-700 leading-relaxed mb-8 font-light">
-              AI-powered debt relief for Orange residents. Reduce your debt by up to 50% 
-              with our licensed debt settlement specialists serving the 92856-92869 area.
+
+            {/* Subheadline */}
+            <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10 max-w-3xl mx-auto mb-8">
+              Comprehensive debt relief for Orange residents. Our AI-powered approach helps 
+              families and professionals reduce debt by up to 55% while serving the 92856-92869 area.
             </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <button 
+
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+              <Button 
                 onClick={scrollToConsultation}
-                className="bg-black text-white px-8 py-4 hover:bg-neutral-800 transition-colors flex items-center gap-2 font-mono text-sm uppercase tracking-wide"
+                className="bg-white hover:bg-neutral-100 text-black px-8 py-6 text-base font-mono uppercase tracking-wide"
               >
-                <Phone className="w-4 h-4" />
-                Free Consultation
-                <ArrowRight className="w-4 h-4" />
-              </button>
+                Free Orange Debt Analysis
+                <ArrowRight className="w-4 h-4 ml-3" />
+              </Button>
               <Link 
                 to="/blog"
-                className="border border-neutral-300 text-black px-8 py-4 hover:border-black transition-colors flex items-center gap-2 font-mono text-sm uppercase tracking-wide"
-              >
-                Learn More
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
-            
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-              <div>
-                <div className="text-3xl font-light text-black mb-2">4.9★</div>
-                <div className="text-sm text-neutral-600 font-mono">Client Rating</div>
-              </div>
-              <div>
-                <div className="text-3xl font-light text-black mb-2">$3.9M+</div>
-                <div className="text-sm text-neutral-600 font-mono">Debt Resolved</div>
-              </div>
-              <div>
-                <div className="text-3xl font-light text-black mb-2">620+</div>
-                <div className="text-sm text-neutral-600 font-mono">Clients Helped</div>
-              </div>
-              <div>
-                <div className="text-3xl font-light text-black mb-2">24/7</div>
-                <div className="text-sm text-neutral-600 font-mono">Support</div>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Local Orange Info */}
-      <section className="py-16 bg-neutral-50 border-y border-neutral-200">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
-            >
-              <h2 className="text-3xl lg:text-4xl font-light text-black mb-6">
-                Serving Orange's
-                <br />
-                <span className="font-mono">Historic Community</span>
-              </h2>
-              
-              <p className="text-lg text-neutral-700 leading-relaxed mb-6">
-                Known as the "Circle City" with its charming Old Towne district, Orange residents 
-                enjoy a high quality of life but face significant financial pressures from Orange County's 
-                rising costs. Our debt settlement specialists understand the local economy and work 
-                with Orange families to achieve debt freedom.
-              </p>
-              
-              <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
-                  <div>
-                    <div className="font-semibold text-black mb-1">Orange Local Expertise</div>
-                    <div className="text-neutral-600 text-sm">Understanding of 92856-92869 area economics and historic community values</div>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
-                  <div>
-                    <div className="font-semibold text-black mb-1">Chapman University Area</div>
-                    <div className="text-neutral-600 text-sm">Specialized services for university community and surrounding neighborhoods</div>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-black mt-1 flex-shrink-0" />
-                  <div>
-                    <div className="font-semibold text-black mb-1">Central OC Location</div>
-                    <div className="text-neutral-600 text-sm">Easy access to resources throughout Orange County</div>
-                  </div>
-                </div>
-              </div>
-            </motion.div>
-            
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
-              className="bg-white p-8 border border-neutral-200"
-            >
-              <h3 className="text-xl font-semibold text-black mb-6">Orange Demographics</h3>
-              
-              <div className="grid grid-cols-2 gap-6">
-                <div>
-                  <div className="text-2xl font-light text-black mb-1">139,484</div>
-                  <div className="text-sm text-neutral-600 font-mono">Population</div>
-                </div>
-                <div>
-                  <div className="text-2xl font-light text-black mb-1">$85,042</div>
-                  <div className="text-sm text-neutral-600 font-mono">Median Income</div>
-                </div>
-                <div>
-                  <div className="text-2xl font-light text-black mb-1">25.1 sq mi</div>
-                  <div className="text-sm text-neutral-600 font-mono">Area</div>
-                </div>
-                <div>
-                  <div className="text-2xl font-light text-black mb-1">1888</div>
-                  <div className="text-sm text-neutral-600 font-mono">Incorporated</div>
-                </div>
-              </div>
-              
-              <div className="mt-6 pt-6 border-t border-neutral-200">
-                <div className="text-sm text-neutral-600 font-mono mb-2">ZIP CODES SERVED:</div>
-                <div className="text-sm text-neutral-700">
-                  92856, 92857, 92859, 92862, 92863, 92864, 92865, 92866, 92867, 92868, 92869
-                </div>
-              </div>
-              
-              <div className="mt-4">
-                <div className="text-sm text-neutral-600 font-mono mb-2">NEARBY AREAS:</div>
-                <div className="text-sm text-neutral-700">
-                  Anaheim, Santa Ana, Tustin, Villa Park, Garden Grove
-                </div>
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      {/* Services Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-4xl lg:text-5xl font-light text-black mb-6">
-              Debt Settlement Services for
-              <br />
-              <span className="font-mono">Orange Residents</span>
-            </h2>
-            <p className="text-lg text-neutral-600 max-w-2xl mx-auto font-light">
-              Comprehensive debt relief solutions tailored to the unique financial needs of the Orange community.
-            </p>
-          </motion.div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                icon: DollarSign,
-                title: "Credit Card Debt Settlement",
-                description: "Negotiate with major credit card companies to reduce balances by up to 50% for Orange residents.",
-                features: ["Major bank negotiations", "Average 40-60% reduction", "24-48 month programs"]
-              },
-              {
-                icon: Users,
-                title: "Medical Debt Relief",
-                description: "Specialized handling of medical debt from UC Irvine Medical Center and Orange County healthcare providers.",
-                features: ["Hospital bill negotiations", "Insurance dispute resolution", "Payment plan alternatives"]
-              },
-              {
-                icon: Clock,
-                title: "Small Business Debt",
-                description: "Strategic settlement for Orange small business owners and entrepreneurs facing financial challenges.",
-                features: ["Business credit line settlements", "Vendor debt negotiations", "Equipment loan modifications"]
-              }
-            ].map((service, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: index * 0.1 }}
-                className="bg-neutral-50 p-8 border border-neutral-200 hover:border-black transition-colors"
-              >
-                <service.icon className="w-12 h-12 text-black mb-6" />
-                <h3 className="text-xl font-semibold text-black mb-4">{service.title}</h3>
-                <p className="text-neutral-600 mb-6 leading-relaxed">{service.description}</p>
-                
-                <ul className="space-y-2">
-                  {service.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-center gap-2 text-sm text-neutral-700">
-                      <CheckCircle className="w-4 h-4 text-black flex-shrink-0" />
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Process Section */}
-      <section className="py-16 bg-neutral-50 border-y border-neutral-200">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-4xl lg:text-5xl font-light text-black mb-6">
-              Our Orange
-              <br />
-              <span className="font-mono">Debt Settlement Process</span>
-            </h2>
-          </motion.div>
-
-          <div className="grid md:grid-cols-4 gap-8">
-            {[
-              {
-                step: "01",
-                title: "Free Consultation",
-                description: "Comprehensive debt analysis for Orange residents with no upfront costs."
-              },
-              {
-                step: "02", 
-                title: "Custom Strategy",
-                description: "Personalized debt settlement plan based on your Orange financial situation."
-              },
-              {
-                step: "03",
-                title: "Creditor Negotiation",
-                description: "Our experts negotiate directly with creditors to reduce your debt balances."
-              },
-              {
-                step: "04",
-                title: "Debt Freedom",
-                description: "Complete your program and achieve financial freedom in Orange."
-              }
-            ].map((step, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: index * 0.2 }}
-                className="text-center"
-              >
-                <div className="w-16 h-16 bg-black text-white flex items-center justify-center font-mono text-lg mb-6 mx-auto">
-                  {step.step}
-                </div>
-                <h3 className="text-xl font-semibold text-black mb-4">{step.title}</h3>
-                <p className="text-neutral-600 leading-relaxed">{step.description}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-4xl lg:text-5xl font-light text-black mb-6">
-              Orange Success Stories
-            </h2>
-          </motion.div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                name: "David M.",
-                location: "Orange, CA 92865",
-                amount: "$39,000",
-                reduction: "52%",
-                testimonial: "Living in Old Towne Orange, they understood my community and helped reduce my business debt significantly."
-              },
-              {
-                name: "Patricia L.",
-                location: "Near Chapman University",
-                amount: "$46,000", 
-                reduction: "48%",
-                testimonial: "Professional service with deep knowledge of Orange County debt laws. They helped our family get back on track."
-              },
-              {
-                name: "Thomas K.",
-                location: "Orange 92867",
-                amount: "$33,000",
-                reduction: "55%",
-                testimonial: "They helped me become debt-free while understanding the financial pressures of living in this historic city."
-              }
-            ].map((testimonial, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: index * 0.1 }}
-                className="bg-neutral-50 p-8 border border-neutral-200"
-              >
-                <div className="flex items-center gap-1 mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 text-black fill-current" />
-                  ))}
-                </div>
-                
-                <p className="text-neutral-700 mb-6 leading-relaxed">"{testimonial.testimonial}"</p>
-                
-                <div className="border-t border-neutral-200 pt-4">
-                  <div className="font-semibold text-black">{testimonial.name}</div>
-                  <div className="text-sm text-neutral-600 mb-2">{testimonial.location}</div>
-                  <div className="text-sm font-mono">
-                    <span className="text-neutral-600">Debt Reduced:</span> {testimonial.amount} ({testimonial.reduction})
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-16 bg-black text-white">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-          >
-            <h2 className="text-4xl lg:text-5xl font-light mb-6">
-              Ready to Start Your
-              <br />
-              <span className="font-mono">Orange Debt Settlement?</span>
-            </h2>
-            
-            <p className="text-xl text-neutral-300 mb-8 max-w-2xl mx-auto font-light">
-              Join hundreds of Orange residents who have achieved debt freedom. 
-              Get your free consultation today.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button 
-                onClick={scrollToConsultation}
-                className="bg-white text-black px-8 py-4 hover:bg-neutral-100 transition-colors flex items-center gap-2 font-mono text-sm uppercase tracking-wide"
-              >
-                <Phone className="w-4 h-4" />
-                Free Consultation
-                <ArrowRight className="w-4 h-4" />
-              </button>
-              <Link
-                to="/blog"
-                className="border border-neutral-600 text-white px-8 py-4 hover:border-white transition-colors flex items-center gap-2 font-mono text-sm uppercase tracking-wide"
+                className="border border-white text-white px-8 py-6 hover:bg-white hover:text-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
               >
                 Learn More
                 <ArrowRight className="w-4 h-4" />
@@ -411,8 +67,163 @@ export default function OrangeDebtSettlement() {
         </div>
       </section>
 
-      {/* Consultation Form */}
-      <ConsultationForm />
+      {/* Community Profile */}
+      <section className="py-16 bg-neutral-50 border-y border-neutral-200">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-light text-black mb-4">
+              Orange <span className="font-mono">Community Profile</span>
+            </h2>
+            <p className="text-neutral-600 max-w-2xl mx-auto">
+              Historic city debt solutions for Orange County's diverse community
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-4 gap-6">
+            <div className="bg-white p-6 border border-neutral-200 text-center">
+              <div className="text-2xl font-mono text-black mb-2">4.9★</div>
+              <div className="text-xs text-neutral-600 font-mono">Client Rating</div>
+            </div>
+            
+            <div className="bg-white p-6 border border-neutral-200 text-center">
+              <div className="text-2xl font-mono text-black mb-2">$3.9M+</div>
+              <div className="text-xs text-neutral-600 font-mono">Debt Resolved</div>
+            </div>
+            
+            <div className="bg-white p-6 border border-neutral-200 text-center">
+              <div className="text-2xl font-mono text-black mb-2">620+</div>
+              <div className="text-xs text-neutral-600 font-mono">Clients Helped</div>
+            </div>
+            
+            <div className="bg-white p-6 border border-neutral-200 text-center">
+              <div className="text-2xl font-mono text-black mb-2">24/7</div>
+              <div className="text-xs text-neutral-600 font-mono">Support</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Specialized Services */}
+      <section className="py-24 bg-white">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-light text-black mb-6">
+              Debt Solutions for <span className="font-mono">Orange Residents</span>
+            </h2>
+            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+              Comprehensive financial solutions for Orange's historic community
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <div className="space-y-8">
+                <div className="border-l-4 border-black pl-6">
+                  <h3 className="text-xl font-semibold text-black mb-3">Historic District Families</h3>
+                  <p className="text-neutral-600 mb-4">
+                    Orange's historic Old Towne district families managing the costs of 
+                    preserving vintage homes while dealing with modern financial challenges.
+                  </p>
+                  <ul className="space-y-1 text-sm text-neutral-600">
+                    <li>• Historic home renovation debt</li>
+                    <li>• Property preservation costs</li>
+                    <li>• Family legacy protection</li>
+                    <li>• Community involvement expenses</li>
+                  </ul>
+                </div>
+
+                <div className="border-l-4 border-black pl-6">
+                  <h3 className="text-xl font-semibold text-black mb-3">Small Business Owners</h3>
+                  <p className="text-neutral-600 mb-4">
+                    Local Orange business owners in retail, hospitality, and service 
+                    industries facing debt from economic fluctuations and competition.
+                  </p>
+                  <ul className="space-y-1 text-sm text-neutral-600">
+                    <li>• Retail business debt relief</li>
+                    <li>• Restaurant settlement services</li>
+                    <li>• Commercial property debt</li>
+                    <li>• Inventory financing issues</li>
+                  </ul>
+                </div>
+
+                <div className="border-l-4 border-black pl-6">
+                  <h3 className="text-xl font-semibold text-black mb-3">Working Families</h3>
+                  <p className="text-neutral-600 mb-4">
+                    Middle-class Orange families managing mortgage payments, education 
+                    costs, and credit card debt in Orange County's competitive market.
+                  </p>
+                  <ul className="space-y-1 text-sm text-neutral-600">
+                    <li>• Family credit card settlements</li>
+                    <li>• Educational loan assistance</li>
+                    <li>• Medical debt negotiation</li>
+                    <li>• Home equity preservation</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-neutral-50 p-8 lg:p-12 border border-neutral-200">
+              <h3 className="text-2xl font-light text-black mb-8">
+                <span className="font-mono">Orange</span> Success Stories
+              </h3>
+              
+              <div className="space-y-6">
+                <div className="bg-white p-6 border border-neutral-200">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="text-2xl font-mono text-black">$73K</div>
+                    <div className="text-sm text-neutral-600">reduced to $28K</div>
+                  </div>
+                  <p className="text-xs text-neutral-500">
+                    Historic district family preserved vintage home while eliminating credit debt
+                  </p>
+                </div>
+                
+                <div className="bg-white p-6 border border-neutral-200">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="text-2xl font-mono text-black">$94K</div>
+                    <div className="text-sm text-neutral-600">reduced to $36K</div>
+                  </div>
+                  <p className="text-xs text-neutral-500">
+                    Restaurant owner resolved business debt while maintaining Old Towne location
+                  </p>
+                </div>
+                
+                <div className="bg-white p-6 border border-neutral-200">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="text-2xl font-mono text-black">$58K</div>
+                    <div className="text-sm text-neutral-600">reduced to $21K</div>
+                  </div>
+                  <p className="text-xs text-neutral-500">
+                    Working family protected home equity while settling medical and credit card debt
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-8 pt-6 border-t border-neutral-200">
+                <div className="grid grid-cols-2 gap-4 text-center">
+                  <div>
+                    <div className="text-2xl font-mono text-black">64%</div>
+                    <div className="text-xs text-neutral-600">Average Reduction</div>
+                  </div>
+                  <div>
+                    <div className="text-2xl font-mono text-black">14 Mo</div>
+                    <div className="text-xs text-neutral-600">Average Timeline</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Schedule Research Session Form */}
+      <section id="consultation" className="py-16 bg-white border-t border-neutral-200">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div ref={consultationRef}>
+            <ConsultationForm />
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

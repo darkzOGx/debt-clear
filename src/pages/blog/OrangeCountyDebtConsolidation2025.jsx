@@ -51,61 +51,31 @@ export default function OrangeCountyDebtConsolidation2025() {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative min-h-[60vh] bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-900 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent"></div>
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-24">
-          <Link 
-            to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-blue-100 hover:text-white transition-colors mb-8"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Resources
-          </Link>
-
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8 z-10 relative">
+            <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-white rounded-full"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-blue-100 font-mono">
-              DEBT CONSOLIDATION
-            </span>
+            <div className="w-2 h-2 bg-black"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">DEBT CONSOLIDATION</span>
           </div>
-
-          <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-            Orange County
-            <br />
-            <span className="text-blue-200">Debt Consolidation</span>
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+            Orange County Debt Consolidation:<br />
+            <span className="font-mono text-3xl lg:text-4xl">Complete 2025 Guide</span>
           </h1>
-
-          <p className="text-xl lg:text-2xl text-blue-100 mb-8 max-w-3xl leading-relaxed">
-            Complete 2025 guide to consolidation options for Orange County residents
-          </p>
-
-          <div className="flex items-center gap-6 text-sm font-mono text-blue-200 mb-8">
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              <span>August 15, 2025</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4" />
-              <span>16 min read</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <User className="w-4 h-4" />
-              <span>VegaX Financial Team</span>
-            </div>
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 15, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>16 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Financial Team</span></div>
           </div>
-
-          <button 
-            onClick={scrollToConsultation}
-            className="bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors inline-flex items-center gap-2"
-          >
-            Get Consolidation Analysis
-            <ArrowLeft className="w-4 h-4 rotate-180" />
-          </button>
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
+            Complete 2025 guide to debt consolidation options for Orange County residents, including personal loans, balance transfers, and HELOC strategies that can reduce monthly payments significantly.
+          </p>
         </div>
       </section>
 
       {/* Statistics Section */}
-      <section className="py-16 bg-blue-50">
+      <section className="py-16 bg-neutral-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <motion.div
@@ -113,11 +83,11 @@ export default function OrangeCountyDebtConsolidation2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-blue-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-blue-100 rounded-xl">
-                  <PieChart className="w-8 h-8 text-blue-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <PieChart className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">58%</div>
@@ -131,11 +101,11 @@ export default function OrangeCountyDebtConsolidation2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-green-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-green-100 rounded-xl">
-                  <DollarSign className="w-8 h-8 text-green-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <DollarSign className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">$42K</div>
@@ -149,11 +119,11 @@ export default function OrangeCountyDebtConsolidation2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-orange-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-orange-100 rounded-xl">
-                  <Building className="w-8 h-8 text-orange-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <Building className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">3.7</div>
@@ -167,11 +137,11 @@ export default function OrangeCountyDebtConsolidation2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-purple-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-purple-100 rounded-xl">
-                  <TrendingUp className="w-8 h-8 text-purple-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <TrendingUp className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">73%</div>
@@ -199,22 +169,22 @@ export default function OrangeCountyDebtConsolidation2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-blue-50 border border-blue-200 p-8 mb-12 rounded-lg"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12 rounded-lg"
             >
               <h2 className="text-2xl font-semibold text-black mb-6">Orange County Debt Consolidation Landscape</h2>
               
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-3xl font-mono text-blue-800 mb-2">58%</div>
-                  <div className="text-sm text-blue-700">OC Residents with Multiple Debts</div>
+                  <div className="text-3xl font-mono text-black mb-2">58%</div>
+                  <div className="text-sm text-black">OC Residents with Multiple Debts</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-mono text-blue-800 mb-2">$42,000</div>
-                  <div className="text-sm text-blue-700">Average Total Debt Amount</div>
+                  <div className="text-3xl font-mono text-black mb-2">$42,000</div>
+                  <div className="text-sm text-black">Average Total Debt Amount</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-mono text-blue-800 mb-2">3.7</div>
-                  <div className="text-sm text-blue-700">Average # of Creditors</div>
+                  <div className="text-3xl font-mono text-black mb-2">3.7</div>
+                  <div className="text-sm text-black">Average # of Creditors</div>
                 </div>
               </div>
             </motion.div>
@@ -234,12 +204,12 @@ export default function OrangeCountyDebtConsolidation2025() {
               </p>
 
               <div className="grid md:grid-cols-2 gap-8">
-                <div className="bg-green-50 border border-green-200 p-6 rounded-lg">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
                   <div className="flex items-center gap-3 mb-4">
-                    <Layers className="w-6 h-6 text-green-600" />
-                    <h3 className="text-lg font-semibold text-green-800">Personal Loans</h3>
+                    <Layers className="w-6 h-6 text-black" />
+                    <h3 className="text-lg font-semibold text-black">Personal Loans</h3>
                   </div>
-                  <div className="space-y-3 text-sm text-green-700">
+                  <div className="space-y-3 text-sm text-black">
                     <p>• Fixed rates: 6.99% - 18.99%</p>
                     <p>• Terms: 2-7 years</p>
                     <p>• Amounts: $5,000 - $100,000</p>
@@ -247,12 +217,12 @@ export default function OrangeCountyDebtConsolidation2025() {
                   </div>
                 </div>
 
-                <div className="bg-purple-50 border border-purple-200 p-6 rounded-lg">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
                   <div className="flex items-center gap-3 mb-4">
-                    <Calculator className="w-6 h-6 text-purple-600" />
-                    <h3 className="text-lg font-semibold text-purple-800">Balance Transfers</h3>
+                    <Calculator className="w-6 h-6 text-black" />
+                    <h3 className="text-lg font-semibold text-black">Balance Transfers</h3>
                   </div>
-                  <div className="space-y-3 text-sm text-purple-700">
+                  <div className="space-y-3 text-sm text-black">
                     <p>• 0% intro rates: 12-21 months</p>
                     <p>• Transfer fees: 3-5%</p>
                     <p>• Requires good credit (700+)</p>
@@ -346,9 +316,9 @@ export default function OrangeCountyDebtConsolidation2025() {
                   </div>
                 </div>
 
-                <div className="bg-red-50 border border-red-200 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-red-800 mb-4">HELOC Risks</h3>
-                  <div className="space-y-3 text-sm text-red-700">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-black mb-4">HELOC Risks</h3>
+                  <div className="space-y-3 text-sm text-black">
                     <p>• Your home is collateral</p>
                     <p>• Variable rates can increase</p>
                     <p>• Potential for payment shock</p>
@@ -364,18 +334,18 @@ export default function OrangeCountyDebtConsolidation2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.8 }}
-              className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-8 rounded-2xl text-center mb-12"
+              className="bg-gradient-to-r from-black to-neutral-900 text-white p-8 rounded-2xl text-center mb-12"
             >
               <h2 className="text-2xl font-bold mb-4">
                 Free Debt Analysis for Orange County Residents
               </h2>
-              <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
+              <p className="text-black mb-6 max-w-2xl mx-auto">
                 Unsure whether consolidation or settlement is right for you? Our AI-powered analysis provides personalized recommendations based on your specific Orange County situation.
               </p>
               <div className="grid md:grid-cols-2 gap-6 text-sm mb-6">
                 <div>
                   <h4 className="font-semibold mb-2">Analysis Includes:</h4>
-                  <ul className="space-y-1 text-blue-200">
+                  <ul className="space-y-1 text-black">
                     <li>• Consolidation loan pre-qualification</li>
                     <li>• Settlement savings calculation</li>
                     <li>• Credit impact comparison</li>
@@ -384,7 +354,7 @@ export default function OrangeCountyDebtConsolidation2025() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2">Best Option Factors:</h4>
-                  <ul className="space-y-1 text-blue-200">
+                  <ul className="space-y-1 text-black">
                     <li>• Current credit score</li>
                     <li>• Total debt amount</li>
                     <li>• Monthly income stability</li>
@@ -394,7 +364,7 @@ export default function OrangeCountyDebtConsolidation2025() {
               </div>
               <button 
                 onClick={scrollToConsultation}
-                className="bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+                className="bg-white text-black px-8 py-3 rounded-lg font-semibold hover:bg-neutral-50 transition-colors"
               >
                 Get Free Analysis
               </button>

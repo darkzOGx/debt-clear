@@ -27,44 +27,26 @@ export default function CommercialDebtSettlementOrangeCounty() {
         <meta property="article:section" content="Business Finance" />
         <link rel="canonical" href="https://debtclear.com/blog/commercial-debt-settlement-orange-county" />
       </Helmet>
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <Link 
-            to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Resources
-          </Link>
-
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8 z-10 relative">
+            <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-              BUSINESS FINANCE
-            </span>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">BUSINESS FINANCE</span>
           </div>
-
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Orange County Commercial Debt Settlement:
-            <br />
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+            Orange County Commercial Debt Settlement:<br />
             <span className="font-mono text-3xl lg:text-4xl">B2B Debt Relief Strategies</span>
           </h1>
-
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              <span>June 15, 2025</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4" />
-              <span>17 min read</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <User className="w-4 h-4" />
-              <span>Commercial Debt Specialist</span>
-            </div>
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>June 15, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>17 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>Commercial Debt Specialist</span></div>
           </div>
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
+            Orange County businesses facing commercial debt challenges need specialized strategies for B2B debt settlement. Unlike consumer debt relief, commercial debt settlement involves complex business relationships and strategic timing.
+          </p>
         </div>
       </section>
 
@@ -84,7 +66,7 @@ export default function CommercialDebtSettlementOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-blue-50 border border-blue-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <Building2 className="w-6 h-6" />
@@ -129,7 +111,7 @@ export default function CommercialDebtSettlementOrangeCounty() {
               <h2 className="text-2xl font-semibold text-black mb-6">Strategic Commercial Debt Settlement Framework</h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
                     <TrendingUp className="w-5 h-5" />
                     Phase 1: Business Relationship Assessment
@@ -146,7 +128,7 @@ export default function CommercialDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
                     <Handshake className="w-5 h-5" />
                     Phase 2: Negotiation Approach Selection
@@ -174,7 +156,7 @@ export default function CommercialDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-yellow-50 border border-yellow-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Phase 3: Implementation and Documentation</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• <strong>Written Agreements:</strong> Document all settlement terms clearly</li>
@@ -200,7 +182,7 @@ export default function CommercialDebtSettlementOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-purple-50 border border-purple-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Supplier Relationship Management</h3>
                   <p className="text-neutral-700 mb-3">
                     Orange County businesses must balance debt relief with maintaining critical supplier relationships:
@@ -213,7 +195,7 @@ export default function CommercialDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-orange-50 border border-orange-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Settlement Negotiation Tactics</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
@@ -252,7 +234,7 @@ export default function CommercialDebtSettlementOrangeCounty() {
             >
               <h2 className="text-2xl font-semibold text-black mb-6">Secured Commercial Debt Settlement</h2>
               
-              <div className="bg-red-50 border border-red-200 p-8">
+              <div className="bg-neutral-50 border border-neutral-200 p-8">
                 <h3 className="text-lg font-semibold text-black mb-4">Asset-Backed Debt Considerations</h3>
                 
                 <div className="grid md:grid-cols-2 gap-6">
@@ -279,7 +261,7 @@ export default function CommercialDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="mt-6 p-4 bg-white border border-red-200">
+                <div className="mt-6 p-4 bg-white border border-neutral-200">
                   <h4 className="font-semibold text-black mb-2">Secured Debt Strategy</h4>
                   <p className="text-sm text-neutral-700">
                     Orange County businesses with secured debt should evaluate asset value versus debt balance. If equipment or property values exceed debt, consider refinancing. If underwater, negotiate settlement with asset surrender or partial retention agreements.
@@ -313,7 +295,7 @@ export default function CommercialDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">SBA Settlement Process</h3>
                   <div className="space-y-3">
                     <div>

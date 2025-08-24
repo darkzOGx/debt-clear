@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { ArrowLeft, Calendar, Clock, User, Scale, CreditCard, TrendingDown, Target } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, Scale, CreditCard, TrendingDown, Target, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -93,25 +93,25 @@ export default function BalanceTransferVsDebtSettlementOrangeCounty() {
       <section className="py-16 bg-white border-b border-neutral-200">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center p-8 bg-gradient-to-br from-cyan-50 to-cyan-100 rounded-lg border border-cyan-200 hover:shadow-lg transition-all duration-300">
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-cyan-200 hover:shadow-lg transition-all duration-300">
               <CreditCard className="w-12 h-12 text-cyan-600 mx-auto mb-4" />
               <div className="text-3xl font-bold text-cyan-800 mb-2">0% APR</div>
               <div className="text-sm font-medium text-cyan-700 mb-1">Balance Transfer</div>
               <div className="text-xs text-cyan-600">12-21 months typical</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 hover:shadow-lg transition-all duration-300">
-              <Scale className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-blue-800 mb-2">740+</div>
-              <div className="text-sm font-medium text-blue-700 mb-1">Credit Score</div>
-              <div className="text-xs text-blue-600">Balance transfer requirement</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <Scale className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">740+</div>
+              <div className="text-sm font-medium text-black mb-1">Credit Score</div>
+              <div className="text-xs text-black">Balance transfer requirement</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 hover:shadow-lg transition-all duration-300">
-              <TrendingDown className="w-12 h-12 text-green-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-green-800 mb-2">50-70%</div>
-              <div className="text-sm font-medium text-green-700 mb-1">Debt Reduction</div>
-              <div className="text-xs text-green-600">Settlement average</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <TrendingDown className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">50-70%</div>
+              <div className="text-sm font-medium text-black mb-1">Debt Reduction</div>
+              <div className="text-xs text-black">Settlement average</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-amber-50 to-amber-100 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
               <Target className="w-12 h-12 text-amber-600 mx-auto mb-4" />
               <div className="text-3xl font-bold text-amber-800 mb-2">18-36</div>
               <div className="text-sm font-medium text-amber-700 mb-1">Settlement Timeline</div>
@@ -125,7 +125,7 @@ export default function BalanceTransferVsDebtSettlementOrangeCounty() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Balance Transfer vs Debt Settlement: Quick Comparison</h2>
-            <div className="bg-blue-50 border border-blue-200 p-8 mb-8">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h3 className="text-lg font-semibold text-black mb-3">Balance Transfer Pros</h3>
@@ -195,9 +195,9 @@ export default function BalanceTransferVsDebtSettlementOrangeCounty() {
                 </div>
               </div>
 
-              <div className="bg-green-50 border border-green-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h3 className="font-semibold text-black mb-3 flex items-center gap-2">
-                  <Scale className="w-5 h-5 text-green-600" />
+                  <Scale className="w-5 h-5 text-black" />
                   Debt Settlement Qualifications
                 </h3>
                 <div className="grid md:grid-cols-2 gap-6">
@@ -276,7 +276,7 @@ export default function BalanceTransferVsDebtSettlementOrangeCounty() {
                       <span>Total Paid:</span>
                       <span className="font-mono">$21,600</span>
                     </div>
-                    <div className="flex justify-between text-green-700 font-semibold">
+                    <div className="flex justify-between text-black font-semibold">
                       <span>Savings vs Balance Transfer:</span>
                       <span className="font-mono">$9,300</span>
                     </div>
@@ -314,7 +314,7 @@ export default function BalanceTransferVsDebtSettlementOrangeCounty() {
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Orange County Case Studies</h2>
             <div className="space-y-8 mb-8">
-              <div className="bg-blue-50 border border-blue-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h3 className="font-semibold text-black mb-3">Case 1: Irvine Professional - Balance Transfer Success</h3>
                 <p className="text-neutral-700 mb-3">
                   <strong>Background:</strong> Software engineer, 780 credit score, $35K credit card debt, $120K annual income
@@ -327,7 +327,7 @@ export default function BalanceTransferVsDebtSettlementOrangeCounty() {
                 </p>
               </div>
 
-              <div className="bg-green-50 border border-green-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h3 className="font-semibold text-black mb-3">Case 2: Huntington Beach Family - Debt Settlement Success</h3>
                 <p className="text-neutral-700 mb-3">
                   <strong>Background:</strong> Medical emergency, 580 credit score, $52K credit card debt, reduced income
@@ -353,33 +353,34 @@ export default function BalanceTransferVsDebtSettlementOrangeCounty() {
               </p>
             </div>
           </div>
-        </div>
-      </article>
 
-      {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-cyan-600 via-cyan-700 to-blue-700">
+          </div>
+
+          </article>
+
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-light text-white mb-6">
-            Unsure Which Strategy Is Right for You?
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
           </h2>
-          <p className="text-xl text-cyan-100 mb-8 font-light">
-            Get personalized analysis of balance transfer vs debt settlement options for your situation
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
           </p>
-          <button
-            onClick={() => document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' })}
-            className="bg-white text-cyan-700 px-8 py-4 text-lg font-semibold hover:bg-cyan-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
           >
-            Get Debt Strategy Analysis
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
           </button>
         </div>
       </section>
 
-      {/* Research Consultation */}
-      <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <ConsultationForm />
-        </div>
-      </section>
+      {/* Consultation Form */}
+      <div id="consultation">
+        <ConsultationForm />
+      </div>
       </div>
     </>
   );

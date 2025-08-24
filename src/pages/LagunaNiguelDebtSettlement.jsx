@@ -18,31 +18,30 @@ export default function LagunaNiguelDebtSettlement() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative py-24 bg-white">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center max-w-4xl mx-auto"
+            className="text-center"
           >
             {/* Location Badge */}
-            <div className="inline-flex items-center gap-3 mb-8">
-              <MapPin className="w-4 h-4 text-black" />
-              <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-                LAGUNA NIGUEL DEBT SETTLEMENT
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <div className="w-2 h-2 bg-white"></div>
+              <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
+                LAGUNA NIGUEL DEBT SETTLEMENT SERVICES
               </span>
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-5xl lg:text-6xl font-light tracking-tight text-black mb-8 leading-[0.9]">
-              Debt Settlement
-              <br />
-              <span className="font-mono text-4xl lg:text-5xl">Laguna Niguel, CA</span>
+            <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+              Debt Settlement:<br />
+              <span className="font-mono text-3xl lg:text-4xl">Laguna Niguel, CA</span>
             </h1>
 
             {/* Subheadline */}
-            <p className="text-xl text-neutral-700 max-w-3xl mx-auto mb-12 leading-relaxed font-light">
+            <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10 max-w-3xl mx-auto mb-8">
               Master-planned community debt relief for Laguna Niguel residents. Our AI-driven approach helps 
               families and professionals in gated communities reduce debt by up to 60% while maintaining privacy.
             </p>
@@ -51,14 +50,14 @@ export default function LagunaNiguelDebtSettlement() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <Button 
                 onClick={scrollToConsultation}
-                className="bg-black hover:bg-neutral-800 text-white px-8 py-6 text-base font-mono uppercase tracking-wide"
+                className="bg-white hover:bg-neutral-100 text-black px-8 py-6 text-base font-mono uppercase tracking-wide"
               >
-                Free Laguna Niguel Analysis
+                Free Laguna Niguel Debt Analysis
                 <ArrowRight className="w-4 h-4 ml-3" />
               </Button>
               <Link 
                 to="/blog"
-                className="border border-neutral-300 text-black px-8 py-6 hover:border-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
+                className="border border-white text-white px-8 py-6 hover:bg-white hover:text-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
               >
                 Learn More
                 <ArrowRight className="w-4 h-4" />
@@ -76,98 +75,89 @@ export default function LagunaNiguelDebtSettlement() {
               Laguna Niguel <span className="font-mono">Community Profile</span>
             </h2>
             <p className="text-neutral-600 max-w-2xl mx-auto">
-              Serving one of Orange County's premier master-planned communities
+              Serving Orange County's premier master-planned community with sophisticated financial solutions
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 border border-neutral-200 text-center">
-              <div className="text-4xl font-mono text-black mb-2">$1.1M</div>
-              <div className="text-sm font-mono uppercase tracking-wide text-neutral-600 mb-4">
-                Median Home Value
-              </div>
-              <p className="text-xs text-neutral-500">
-                Protect your investment in this exclusive community
-              </p>
-            </div>
-            <div className="bg-white p-8 border border-neutral-200 text-center">
-              <div className="text-4xl font-mono text-black mb-2">$103K</div>
-              <div className="text-sm font-mono uppercase tracking-wide text-neutral-600 mb-4">
-                Median Household Income
-              </div>
-              <p className="text-xs text-neutral-500">
-                Professional-grade debt solutions for suburban families
-              </p>
-            </div>
             <div className="bg-white p-8 border border-neutral-200 text-center">
               <div className="text-4xl font-mono text-black mb-2">65K</div>
               <div className="text-sm font-mono uppercase tracking-wide text-neutral-600 mb-4">
                 Population Served
               </div>
               <p className="text-xs text-neutral-500">
-                Discreet service for Laguna Niguel's private communities
+                Affluent master-planned community with high property values
+              </p>
+            </div>
+            <div className="bg-white p-8 border border-neutral-200 text-center">
+              <div className="text-4xl font-mono text-black mb-2">$1.4M</div>
+              <div className="text-sm font-mono uppercase tracking-wide text-neutral-600 mb-4">
+                Median Home Price
+              </div>
+              <p className="text-xs text-neutral-500">
+                Protect premium real estate investments while eliminating debt
+              </p>
+            </div>
+            <div className="bg-white p-8 border border-neutral-200 text-center">
+              <div className="text-4xl font-mono text-black mb-2">$125K</div>
+              <div className="text-sm font-mono uppercase tracking-wide text-neutral-600 mb-4">
+                Median Household Income
+              </div>
+              <p className="text-xs text-neutral-500">
+                High-income professionals requiring discrete financial services
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Community-Focused Services */}
+      {/* Community Focus */}
       <section className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-light text-black mb-6">
-              Debt Solutions for <span className="font-mono">Gated Communities</span>
+              Debt Settlement for <span className="font-mono">Laguna Niguel</span>
             </h2>
             <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-              Private, professional debt resolution for Laguna Niguel's exclusive neighborhoods
+              Tailored solutions for master-planned community residents and luxury homeowners
             </p>
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8">
             <div className="bg-neutral-50 p-8 border border-neutral-200">
-              <h3 className="text-xl font-semibold text-black mb-4">HOA Residents</h3>
-              <ul className="space-y-2 text-sm text-neutral-600 mb-6">
-                <li>• HOA fee protection strategies</li>
-                <li>• Community property preservation</li>
-                <li>• Gated community discretion</li>
-                <li>• Neighbor confidentiality assured</li>
+              <h3 className="text-xl font-semibold text-black mb-4">Executive Professionals</h3>
+              <ul className="space-y-2 text-sm text-neutral-600">
+                <li>• Stock option debt management</li>
+                <li>• Executive compensation planning</li>
+                <li>• Business credit optimization</li>
+                <li>• Asset protection strategies</li>
               </ul>
-              <div className="text-xs font-mono text-neutral-500">
-                Maintain your standing in the community
-              </div>
             </div>
             
             <div className="bg-neutral-50 p-8 border border-neutral-200">
-              <h3 className="text-xl font-semibold text-black mb-4">Young Professionals</h3>
-              <ul className="space-y-2 text-sm text-neutral-600 mb-6">
-                <li>• First home debt management</li>
-                <li>• Student loan optimization</li>
-                <li>• Tech industry layoff support</li>
-                <li>• Startup equity protection</li>
+              <h3 className="text-xl font-semibold text-black mb-4">Luxury Homeowners</h3>
+              <ul className="space-y-2 text-sm text-neutral-600">
+                <li>• Jumbo mortgage protection</li>
+                <li>• Property tax optimization</li>
+                <li>• Home equity preservation</li>
+                <li>• HOA payment management</li>
               </ul>
-              <div className="text-xs font-mono text-neutral-500">
-                Build your future while resolving past debt
-              </div>
             </div>
             
             <div className="bg-neutral-50 p-8 border border-neutral-200">
-              <h3 className="text-xl font-semibold text-black mb-4">Active Retirees</h3>
-              <ul className="space-y-2 text-sm text-neutral-600 mb-6">
-                <li>• Golf club membership protection</li>
-                <li>• Travel lifestyle preservation</li>
-                <li>• Fixed income optimization</li>
-                <li>• Healthcare cost management</li>
+              <h3 className="text-xl font-semibold text-black mb-4">Gated Community Families</h3>
+              <ul className="space-y-2 text-sm text-neutral-600">
+                <li>• Private school debt solutions</li>
+                <li>• Family trust protection</li>
+                <li>• College funding preservation</li>
+                <li>• Discretionary income optimization</li>
               </ul>
-              <div className="text-xs font-mono text-neutral-500">
-                Enjoy retirement without debt stress
-              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Master-Planned Advantage */}
+      {/* Local Expertise */}
       <section className="py-16 bg-neutral-50 border-y border-neutral-200">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -175,14 +165,14 @@ export default function LagunaNiguelDebtSettlement() {
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-2 h-2 bg-black"></div>
                 <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-                  COMMUNITY FOCUS
+                  LUXURY MARKET EXPERTISE
                 </span>
               </div>
               
               <h2 className="text-4xl font-light text-black mb-8 leading-tight">
-                Laguna Niguel's
+                Why Laguna Niguel
                 <br />
-                <span className="font-mono">Trusted Partner</span>
+                <span className="font-mono">Trusts VegaX AI</span>
               </h2>
               
               <div className="space-y-6">
@@ -191,10 +181,10 @@ export default function LagunaNiguelDebtSettlement() {
                     1
                   </div>
                   <div>
-                    <h3 className="font-semibold text-black mb-2">Master-Planned Expertise</h3>
+                    <h3 className="font-semibold text-black mb-2">Master-Planned Community Focus</h3>
                     <p className="text-neutral-600 text-sm leading-relaxed">
-                      Understanding of Laguna Niguel's unique community structure, from The Club 
-                      at Rancho Niguel to Marina Hills and Bear Brand Ranch.
+                      Deep understanding of Laguna Niguel's unique demographics and the financial 
+                      needs of affluent families in planned communities.
                     </p>
                   </div>
                 </div>
@@ -204,10 +194,10 @@ export default function LagunaNiguelDebtSettlement() {
                     2
                   </div>
                   <div>
-                    <h3 className="font-semibold text-black mb-2">Family-Centered Solutions</h3>
+                    <h3 className="font-semibold text-black mb-2">Discretion & Privacy</h3>
                     <p className="text-neutral-600 text-sm leading-relaxed">
-                      Protect your children's stability in Capistrano Unified schools while 
-                      resolving financial challenges discreetly.
+                      Confidential service that protects your reputation in close-knit 
+                      luxury communities and professional networks.
                     </p>
                   </div>
                 </div>
@@ -217,10 +207,10 @@ export default function LagunaNiguelDebtSettlement() {
                     3
                   </div>
                   <div>
-                    <h3 className="font-semibold text-black mb-2">Lifestyle Preservation</h3>
+                    <h3 className="font-semibold text-black mb-2">Asset Protection Focus</h3>
                     <p className="text-neutral-600 text-sm leading-relaxed">
-                      Maintain your membership at El Niguel Country Club, access to community 
-                      amenities, and family's quality of life.
+                      Specialized strategies to protect high-value assets, luxury homes, 
+                      and investment portfolios during debt resolution.
                     </p>
                   </div>
                 </div>
@@ -229,44 +219,37 @@ export default function LagunaNiguelDebtSettlement() {
             
             <div className="bg-white p-8 lg:p-12 border border-neutral-200">
               <h3 className="text-2xl font-light text-black mb-8">
-                <span className="font-mono">Laguna Niguel</span> Success Metrics
+                <span className="font-mono">Laguna Niguel</span> Results
               </h3>
               
               <div className="space-y-8">
                 <div className="border-b border-neutral-200 pb-6">
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-sm font-mono text-neutral-600">Families Served</span>
-                    <span className="text-2xl font-mono text-black">312</span>
+                    <span className="text-sm font-mono text-neutral-600">Families Helped</span>
+                    <span className="text-2xl font-mono text-black">156</span>
                   </div>
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-sm font-mono text-neutral-600">Average Reduction</span>
-                    <span className="text-lg font-mono text-black">57%</span>
+                    <span className="text-sm font-mono text-neutral-600">Total Debt Eliminated</span>
+                    <span className="text-lg font-mono text-black">$12.4M</span>
                   </div>
                 </div>
                 
                 <div className="border-b border-neutral-200 pb-6">
-                  <div className="text-sm font-mono text-neutral-500 mb-3">Neighborhood Results:</div>
-                  <div className="space-y-2 text-sm">
-                    <div className="flex justify-between">
-                      <span className="text-neutral-600">Marina Hills</span>
-                      <span className="font-mono text-black">47 families</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-neutral-600">Ocean Ranch</span>
-                      <span className="font-mono text-black">38 families</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-neutral-600">Bear Brand Ranch</span>
-                      <span className="font-mono text-black">29 families</span>
-                    </div>
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-sm font-mono text-neutral-600">Average Savings</span>
+                    <span className="text-2xl font-mono text-black">58%</span>
+                  </div>
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-sm font-mono text-neutral-600">Completion Time</span>
+                    <span className="text-lg font-mono text-black">15 Months</span>
                   </div>
                 </div>
                 
                 <div>
-                  <div className="text-sm font-mono text-neutral-500 mb-3">Recent Success:</div>
+                  <div className="text-sm font-mono text-neutral-500 mb-4">Recent Success:</div>
                   <p className="text-sm text-neutral-600 leading-relaxed">
-                    Tech professional family eliminated $94K debt (61% reduction) while 
-                    maintaining residence in gated community and private school enrollment.
+                    Tech executive family eliminated $240K in combined debt (59% reduction) while 
+                    keeping luxury home and maintaining children's private school enrollment.
                   </p>
                 </div>
               </div>

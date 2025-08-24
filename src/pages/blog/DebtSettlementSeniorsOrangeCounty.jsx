@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { ArrowLeft, Calendar, Clock, User, Heart, Shield, Users, TrendingDown, CheckCircle } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, ArrowRight, Heart, Shield, Users, TrendingDown, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -94,29 +94,29 @@ export default function DebtSettlementSeniorsOrangeCounty() {
       <section className="py-16 bg-white border-b border-neutral-200">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center p-8 bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg border border-purple-200 hover:shadow-lg transition-all duration-300">
-              <Shield className="w-12 h-12 text-purple-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-purple-800 mb-2">67%</div>
-              <div className="text-sm font-medium text-purple-700 mb-1">Medical/Healthcare Related</div>
-              <div className="text-xs text-purple-600">Senior debt origins</div>
+            <div className="text-center p-8 bg-neutral-50 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <Shield className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">67%</div>
+              <div className="text-sm font-medium text-black mb-1">Medical/Healthcare Related</div>
+              <div className="text-xs text-black">Senior debt origins</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 hover:shadow-lg transition-all duration-300">
-              <Users className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-blue-800 mb-2">34%</div>
-              <div className="text-sm font-medium text-blue-700 mb-1">Seniors with Debt</div>
-              <div className="text-xs text-blue-600">Orange County households 65+</div>
+            <div className="text-center p-8 bg-neutral-50 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <Users className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">34%</div>
+              <div className="text-sm font-medium text-black mb-1">Seniors with Debt</div>
+              <div className="text-xs text-black">Orange County households 65+</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 hover:shadow-lg transition-all duration-300">
-              <TrendingDown className="w-12 h-12 text-green-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-green-800 mb-2">$600K</div>
-              <div className="text-sm font-medium text-green-700 mb-1">Enhanced Homestead</div>
-              <div className="text-xs text-green-600">California senior protection</div>
+            <div className="text-center p-8 bg-neutral-50 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <TrendingDown className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">$600K</div>
+              <div className="text-sm font-medium text-black mb-1">Enhanced Homestead</div>
+              <div className="text-xs text-black">California senior protection</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-amber-50 to-amber-100 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
-              <CheckCircle className="w-12 h-12 text-amber-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-amber-800 mb-2">100%</div>
-              <div className="text-sm font-medium text-amber-700 mb-1">Social Security Protected</div>
-              <div className="text-xs text-amber-600">From most creditors</div>
+            <div className="text-center p-8 bg-neutral-50 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <CheckCircle className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">100%</div>
+              <div className="text-sm font-medium text-black mb-1">Social Security Protected</div>
+              <div className="text-xs text-black">From most creditors</div>
             </div>
           </div>
         </div>
@@ -130,15 +130,15 @@ export default function DebtSettlementSeniorsOrangeCounty() {
               High healthcare costs, fixed Social Security income, and the region's expensive cost of living create perfect 
               storm conditions for debt accumulation among older adults.
             </p>
-            <div className="bg-purple-50 border border-purple-200 p-8 mb-8">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
               <div className="flex items-start gap-3">
-                <Heart className="w-6 h-6 text-purple-600 mt-1" />
+                <Heart className="w-6 h-6 text-black mt-1" />
                 <div>
-                  <h3 className="text-lg font-semibold text-purple-800 mb-4">OC Senior Debt Statistics</h3>
+                  <h3 className="text-lg font-semibold text-black mb-4">OC Senior Debt Statistics</h3>
                   <div className="grid md:grid-cols-3 gap-4 text-center">
-                    <div><div className="text-2xl font-mono text-purple-800 mb-1">34%</div><div className="text-xs text-purple-700">Seniors with Debt</div></div>
-                    <div><div className="text-2xl font-mono text-purple-800 mb-1">$23K</div><div className="text-xs text-purple-700">Average Senior Debt</div></div>
-                    <div><div className="text-2xl font-mono text-purple-800 mb-1">67%</div><div className="text-xs text-purple-700">Medical/Healthcare Related</div></div>
+                    <div><div className="text-2xl font-mono text-black mb-1">34%</div><div className="text-xs text-black">Seniors with Debt</div></div>
+                    <div><div className="text-2xl font-mono text-black mb-1">$23K</div><div className="text-xs text-black">Average Senior Debt</div></div>
+                    <div><div className="text-2xl font-mono text-black mb-1">67%</div><div className="text-xs text-black">Medical/Healthcare Related</div></div>
                   </div>
                 </div>
               </div>
@@ -159,8 +159,8 @@ export default function DebtSettlementSeniorsOrangeCounty() {
               </div>
             </div>
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Senior-Focused Settlement Strategies</h2>
-            <div className="bg-green-50 border border-green-200 p-8 mb-8">
-              <h3 className="text-xl font-semibold text-green-800 mb-4">Case Study: Huntington Beach Retiree</h3>
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
+              <h3 className="text-xl font-semibold text-black mb-4">Case Study: Huntington Beach Retiree</h3>
               <div className="grid md:grid-cols-2 gap-6 text-sm">
                 <div>
                   <h5 className="font-semibold text-black mb-2">Situation:</h5>
@@ -205,30 +205,29 @@ export default function DebtSettlementSeniorsOrangeCounty() {
         </div>
       </article>
 
-      {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-purple-600 via-purple-700 to-blue-700">
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-light text-white mb-6">
-            Ready to Explore Senior Debt Relief Options?
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
           </h2>
-          <p className="text-xl text-purple-100 mb-8 font-light">
-            Get personalized debt analysis designed specifically for Orange County seniors
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
           </p>
-          <button
-            onClick={() => document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' })}
-            className="bg-white text-purple-700 px-8 py-4 text-lg font-semibold hover:bg-purple-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
           >
-            Get Senior Debt Analysis
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
           </button>
         </div>
       </section>
 
-      {/* Research Consultation */}
-      <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <ConsultationForm />
-        </div>
-      </section>
+      {/* Consultation Form */}
+      <div id="consultation">
+        <ConsultationForm />
+      </div>
       </div>
     </>
   );

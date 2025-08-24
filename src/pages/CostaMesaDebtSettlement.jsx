@@ -1,82 +1,67 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
+import { Button } from '@/components/ui/button';
 import { ArrowRight, Phone, CheckCircle, Star, MapPin, Clock, Users, DollarSign } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../components/consultation/ConsultationForm';
 
 export default function CostaMesaDebtSettlement() {
+  const consultationRef = useRef(null);
+
   const scrollToConsultation = () => {
-    const consultationSection = document.getElementById('consultation');
-    if (consultationSection) {
-      consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    consultationRef.current?.scrollIntoView({ 
+      behavior: 'smooth',
+      block: 'start'
+    });
   };
+  
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-neutral-50 to-white overflow-hidden">
-        <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(0,0,0,.02)_50%,transparent_75%)]"></div>
-        
-        <div className="max-w-6xl mx-auto px-6 lg:px-8 relative">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center max-w-4xl mx-auto"
+            className="text-center"
           >
-            <div className="flex items-center justify-center gap-2 mb-6">
-              <MapPin className="w-5 h-5 text-neutral-600" />
-              <span className="text-sm font-mono uppercase tracking-wide text-neutral-600">
-                Costa Mesa, CA 92626-92628
+            {/* Location Badge */}
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <div className="w-2 h-2 bg-white"></div>
+              <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
+                COSTA MESA DEBT SETTLEMENT SERVICES
               </span>
             </div>
-            
-            <h1 className="text-5xl lg:text-6xl font-light text-black mb-6 leading-tight">
-              Costa Mesa
-              <br />
-              <span className="font-mono text-4xl lg:text-5xl">Debt Settlement</span>
+
+            {/* Main Headline */}
+            <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+              Debt Settlement:<br />
+              <span className="font-mono text-3xl lg:text-4xl">Costa Mesa, CA</span>
             </h1>
-            
-            <p className="text-xl text-neutral-700 leading-relaxed mb-8 font-light">
+
+            {/* Subheadline */}
+            <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10 max-w-3xl mx-auto mb-8">
               AI-powered debt relief for Costa Mesa residents. Reduce your debt by up to 50% 
               with our licensed debt settlement specialists serving the 92626-92628 area.
             </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <button 
+
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+              <Button 
                 onClick={scrollToConsultation}
-                className="bg-black text-white px-8 py-4 hover:bg-neutral-800 transition-colors flex items-center gap-2 font-mono text-sm uppercase tracking-wide"
+                className="bg-white hover:bg-neutral-100 text-black px-8 py-6 text-base font-mono uppercase tracking-wide"
               >
-                <Phone className="w-4 h-4" />
-                Free Consultation
-                <ArrowRight className="w-4 h-4" />
-              </button>
+                Free Costa Mesa Debt Analysis
+                <ArrowRight className="w-4 h-4 ml-3" />
+              </Button>
               <Link 
                 to="/blog"
-                className="border border-neutral-300 text-black px-8 py-4 hover:border-black transition-colors flex items-center gap-2 font-mono text-sm uppercase tracking-wide"
+                className="border border-white text-white px-8 py-6 hover:bg-white hover:text-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
               >
                 Learn More
                 <ArrowRight className="w-4 h-4" />
               </Link>
-            </div>
-            
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-              <div>
-                <div className="text-3xl font-light text-black mb-2">4.9★</div>
-                <div className="text-sm text-neutral-600 font-mono">Client Rating</div>
-              </div>
-              <div>
-                <div className="text-3xl font-light text-black mb-2">$4.1M+</div>
-                <div className="text-sm text-neutral-600 font-mono">Debt Resolved</div>
-              </div>
-              <div>
-                <div className="text-3xl font-light text-black mb-2">680+</div>
-                <div className="text-sm text-neutral-600 font-mono">Clients Helped</div>
-              </div>
-              <div>
-                <div className="text-3xl font-light text-black mb-2">24/7</div>
-                <div className="text-sm text-neutral-600 font-mono">Support</div>
-              </div>
             </div>
           </motion.div>
         </div>
@@ -419,7 +404,13 @@ export default function CostaMesaDebtSettlement() {
       </section>
 
       {/* Consultation Form */}
-      <ConsultationForm />
+      <section className="py-16 bg-white border-t border-neutral-200">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div ref={consultationRef}>
+            <ConsultationForm />
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

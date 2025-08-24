@@ -25,7 +25,7 @@ export default function SimpleComprehensiveDebtTaxReliefGuideOrangeCounty() {
           <h3>Combined Strategies</h3>
           <p>Many Orange County residents benefit from coordinated debt and tax relief strategies that address both issues simultaneously.</p>
 
-          <div className="bg-green-900 text-white p-8 rounded-lg mt-8">
+          <div className="bg-black text-white p-8 rounded-lg mt-8">
             <h3 className="text-xl font-bold mb-4">Ready to Start Your Financial Recovery?</h3>
             <p>Contact our Orange County debt relief specialists for a free consultation and personalized strategy.</p>
             <p className="mt-4">

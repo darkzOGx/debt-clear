@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { ArrowLeft, Calendar, Clock, User, Building, Briefcase, TrendingDown, Users, CheckCircle, DollarSign } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, ArrowRight, Building, Briefcase, TrendingDown, Users, CheckCircle, DollarSign } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -94,29 +94,29 @@ export default function BusinessDebtReliefOrangeCounty2025() {
       <section className="py-16 bg-white border-b border-neutral-200">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center p-8 bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg border border-orange-200 hover:shadow-lg transition-all duration-300">
-              <Building className="w-12 h-12 text-orange-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-orange-800 mb-2">267K</div>
-              <div className="text-sm font-medium text-orange-700 mb-1">Small Businesses</div>
-              <div className="text-xs text-orange-600">Orange County total</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <Building className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">267K</div>
+              <div className="text-sm font-medium text-black mb-1">Small Businesses</div>
+              <div className="text-xs text-black">Orange County total</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 hover:shadow-lg transition-all duration-300">
-              <Users className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-blue-800 mb-2">34%</div>
-              <div className="text-sm font-medium text-blue-700 mb-1">Struggling with Payments</div>
-              <div className="text-xs text-blue-600">Small businesses affected</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <Users className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">34%</div>
+              <div className="text-sm font-medium text-black mb-1">Struggling with Payments</div>
+              <div className="text-xs text-black">Small businesses affected</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 hover:shadow-lg transition-all duration-300">
-              <CheckCircle className="w-12 h-12 text-green-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-green-800 mb-2">85%</div>
-              <div className="text-sm font-medium text-green-700 mb-1">Relief Success Rate</div>
-              <div className="text-xs text-green-600">With professional guidance</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <CheckCircle className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">85%</div>
+              <div className="text-sm font-medium text-black mb-1">Relief Success Rate</div>
+              <div className="text-xs text-black">With professional guidance</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg border border-purple-200 hover:shadow-lg transition-all duration-300">
-              <DollarSign className="w-12 h-12 text-purple-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-purple-800 mb-2">$127K</div>
-              <div className="text-sm font-medium text-purple-700 mb-1">Average Business Debt</div>
-              <div className="text-xs text-purple-600">Orange County median</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <DollarSign className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">$127K</div>
+              <div className="text-sm font-medium text-black mb-1">Average Business Debt</div>
+              <div className="text-xs text-black">Orange County median</div>
             </div>
           </div>
         </div>
@@ -133,15 +133,15 @@ export default function BusinessDebtReliefOrangeCounty2025() {
               storm requiring specialized debt relief strategies.
             </p>
 
-            <div className="bg-orange-50 border border-orange-200 p-8 mb-8">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
               <div className="flex items-start gap-3">
-                <Building className="w-6 h-6 text-orange-600 mt-1" />
+                <Building className="w-6 h-6 text-black mt-1" />
                 <div>
-                  <h3 className="text-lg font-semibold text-orange-800 mb-4">OC Business Debt Statistics</h3>
+                  <h3 className="text-lg font-semibold text-black mb-4">OC Business Debt Statistics</h3>
                   <div className="grid md:grid-cols-3 gap-4 text-center">
-                    <div><div className="text-2xl font-mono text-orange-800 mb-1">267K</div><div className="text-xs text-orange-700">Small Businesses</div></div>
-                    <div><div className="text-2xl font-mono text-orange-800 mb-1">$127K</div><div className="text-xs text-orange-700">Average Debt</div></div>
-                    <div><div className="text-2xl font-mono text-orange-800 mb-1">34%</div><div className="text-xs text-orange-700">Payment Struggles</div></div>
+                    <div><div className="text-2xl font-mono text-black mb-1">267K</div><div className="text-xs text-black">Small Businesses</div></div>
+                    <div><div className="text-2xl font-mono text-black mb-1">$127K</div><div className="text-xs text-black">Average Debt</div></div>
+                    <div><div className="text-2xl font-mono text-black mb-1">34%</div><div className="text-xs text-black">Payment Struggles</div></div>
                   </div>
                 </div>
               </div>
@@ -155,12 +155,12 @@ export default function BusinessDebtReliefOrangeCounty2025() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-blue-50 border border-blue-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <Building className="w-6 h-6 text-blue-600" />
-                  <h3 className="text-lg font-semibold text-blue-800">Secured Business Debt</h3>
+                  <Building className="w-6 h-6 text-black" />
+                  <h3 className="text-lg font-semibold text-black">Secured Business Debt</h3>
                 </div>
-                <div className="space-y-3 text-sm text-blue-700">
+                <div className="space-y-3 text-sm text-black">
                   <p>• SBA loans (7(a), 504, microloans)</p>
                   <p>• Equipment financing</p>
                   <p>• Commercial real estate mortgages</p>
@@ -168,12 +168,12 @@ export default function BusinessDebtReliefOrangeCounty2025() {
                 </div>
               </div>
 
-              <div className="bg-green-50 border border-green-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <div className="flex items-center gap-3 mb-4">
-                  <Briefcase className="w-6 h-6 text-green-600" />
-                  <h3 className="text-lg font-semibold text-green-800">Unsecured Business Debt</h3>
+                  <Briefcase className="w-6 h-6 text-black" />
+                  <h3 className="text-lg font-semibold text-black">Unsecured Business Debt</h3>
                 </div>
-                <div className="space-y-3 text-sm text-green-700">
+                <div className="space-y-3 text-sm text-black">
                   <p>• Business credit cards</p>
                   <p>• Lines of credit</p>
                   <p>• Merchant cash advances</p>
@@ -353,9 +353,9 @@ export default function BusinessDebtReliefOrangeCounty2025() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-red-50 border border-red-200 p-6">
-                <h3 className="text-lg font-semibold text-red-800 mb-4">MCA Problems</h3>
-                <div className="space-y-3 text-sm text-red-700">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h3 className="text-lg font-semibold text-black mb-4">MCA Problems</h3>
+                <div className="space-y-3 text-sm text-black">
                   <p>• Daily/weekly payment requirements</p>
                   <p>• Effective APRs exceeding 100%</p>
                   <p>• Personal guarantees and UCCs</p>
@@ -363,9 +363,9 @@ export default function BusinessDebtReliefOrangeCounty2025() {
                 </div>
               </div>
 
-              <div className="bg-green-50 border border-green-200 p-6">
-                <h3 className="text-lg font-semibold text-green-800 mb-4">Relief Strategies</h3>
-                <div className="space-y-3 text-sm text-green-700">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h3 className="text-lg font-semibold text-black mb-4">Relief Strategies</h3>
+                <div className="space-y-3 text-sm text-black">
                   <p>• Payment restructuring negotiations</p>
                   <p>• Consolidation into term loans</p>
                   <p>• Settlement for lump sum payment</p>
@@ -394,26 +394,26 @@ export default function BusinessDebtReliefOrangeCounty2025() {
                 <tbody>
                   <tr>
                     <td className="border border-neutral-200 p-4 font-medium">Debt Settlement</td>
-                    <td className="border border-neutral-200 p-4 text-center text-green-600">Continue Operations</td>
-                    <td className="border border-neutral-200 p-4 text-center text-yellow-600">Moderate</td>
+                    <td className="border border-neutral-200 p-4 text-center text-black">Continue Operations</td>
+                    <td className="border border-neutral-200 p-4 text-center text-black">Moderate</td>
                     <td className="border border-neutral-200 p-4 text-center">6-18 months</td>
                   </tr>
                   <tr className="bg-neutral-50">
                     <td className="border border-neutral-200 p-4 font-medium">Workout Agreement</td>
-                    <td className="border border-neutral-200 p-4 text-center text-green-600">Minimal Disruption</td>
-                    <td className="border border-neutral-200 p-4 text-center text-green-600">Limited</td>
+                    <td className="border border-neutral-200 p-4 text-center text-black">Minimal Disruption</td>
+                    <td className="border border-neutral-200 p-4 text-center text-black">Limited</td>
                     <td className="border border-neutral-200 p-4 text-center">3-12 months</td>
                   </tr>
                   <tr>
                     <td className="border border-neutral-200 p-4 font-medium">Assignment for Creditors</td>
-                    <td className="border border-neutral-200 p-4 text-center text-red-600">Business Closure</td>
-                    <td className="border border-neutral-200 p-4 text-center text-yellow-600">Moderate</td>
+                    <td className="border border-neutral-200 p-4 text-center text-black">Business Closure</td>
+                    <td className="border border-neutral-200 p-4 text-center text-black">Moderate</td>
                     <td className="border border-neutral-200 p-4 text-center">6-12 months</td>
                   </tr>
                   <tr className="bg-neutral-50">
                     <td className="border border-neutral-200 p-4 font-medium">Chapter 11 Bankruptcy</td>
-                    <td className="border border-neutral-200 p-4 text-center text-yellow-600">Restructure</td>
-                    <td className="border border-neutral-200 p-4 text-center text-red-600">Severe</td>
+                    <td className="border border-neutral-200 p-4 text-center text-black">Restructure</td>
+                    <td className="border border-neutral-200 p-4 text-center text-black">Severe</td>
                     <td className="border border-neutral-200 p-4 text-center">12-24 months</td>
                   </tr>
                 </tbody>
@@ -427,8 +427,8 @@ export default function BusinessDebtReliefOrangeCounty2025() {
               debt, especially when personal guarantees are involved.
             </p>
 
-            <div className="bg-green-50 border border-green-200 p-8 mb-8">
-              <h3 className="text-xl font-semibold text-green-800 mb-4">Huntington Beach Manufacturing - Success Story</h3>
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
+              <h3 className="text-xl font-semibold text-black mb-4">Huntington Beach Manufacturing - Success Story</h3>
               <div className="grid md:grid-cols-2 gap-6 text-sm">
                 <div>
                   <h5 className="font-semibold text-black mb-2">Challenge:</h5>
@@ -468,33 +468,36 @@ export default function BusinessDebtReliefOrangeCounty2025() {
             </div>
 
           </div>
-        </div>
-      </article>
 
-      {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-orange-600 via-orange-700 to-blue-700">
+
+          </div>
+
+
+          </article>
+
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-light text-white mb-6">
-            Ready to Explore Business Debt Relief Options?
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
           </h2>
-          <p className="text-xl text-orange-100 mb-8 font-light">
-            Get personalized analysis for your Orange County small business debt situation
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
           </p>
-          <button
-            onClick={() => document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' })}
-            className="bg-white text-orange-700 px-8 py-4 text-lg font-semibold hover:bg-orange-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
           >
-            Get Business Debt Analysis
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
           </button>
         </div>
       </section>
 
-      {/* Research Consultation */}
-      <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <ConsultationForm />
-        </div>
-      </section>
+      {/* Consultation Form */}
+      <div id="consultation">
+        <ConsultationForm />
+      </div>
       </div>
     </>
   );

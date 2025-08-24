@@ -78,39 +78,30 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
       </Helmet>
 
       {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-green-50 via-blue-50 to-purple-50"></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-green-600/10 to-blue-600/10"></div>
-        
-        <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-green-600 hover:text-green-700 transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-400 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <TrendingDown className="w-6 h-6 text-green-600" />
-            <span className="text-sm uppercase tracking-wider text-green-600 font-semibold">
+            <div className="w-2 h-2 bg-white"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
               DEBT CONSOLIDATION
             </span>
           </div>
 
-          <motion.h1 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight"
-          >
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             Orange County Debt Consolidation Loans:
-            <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent block">
-              Banks vs Credit Unions vs Online Lenders
-            </span>
-          </motion.h1>
+            <br />
+            <span className="font-mono text-3xl lg:text-4xl">Banks vs Credit Unions vs Online</span>
+          </h1>
 
-          <div className="flex flex-wrap items-center gap-6 text-sm text-gray-600 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>June 15, 2025</span>
@@ -124,12 +115,17 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
               <span>Lending Specialist</span>
             </div>
           </div>
+        </div>
+      </section>
 
+      {/* Introduction Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-xl text-gray-700 leading-relaxed max-w-3xl"
+            className="text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto"
           >
             Compare debt consolidation loan options from traditional banks, local credit unions, and online lenders. 
             Find the best rates, terms, and approval requirements for Orange County residents.
@@ -145,11 +141,11 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 border border-blue-200 shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-gradient-to-br from-black to-neutral-900 rounded-2xl p-6 border border-neutral-200 shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="flex items-center justify-between mb-4">
-                <Building className="w-8 h-8 text-blue-600" />
-                <span className="text-2xl font-bold text-blue-700">7.49%</span>
+                <Building className="w-8 h-8 text-black" />
+                <span className="text-2xl font-bold text-black">7.49%</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Bank APR Low</h3>
               <p className="text-sm text-gray-600">Starting rates at major Orange County banks</p>
@@ -159,11 +155,11 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-6 border border-green-200 shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-gradient-to-br from-black to-neutral-900 rounded-2xl p-6 border border-neutral-200 shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="flex items-center justify-between mb-4">
-                <Users className="w-8 h-8 text-green-600" />
-                <span className="text-2xl font-bold text-green-700">7.24%</span>
+                <Users className="w-8 h-8 text-black" />
+                <span className="text-2xl font-bold text-black">7.24%</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Credit Union Low</h3>
               <p className="text-sm text-gray-600">Best rates from Orange County credit unions</p>
@@ -173,11 +169,11 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-6 border border-purple-200 shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-gradient-to-br from-black to-neutral-900 rounded-2xl p-6 border border-neutral-200 shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="flex items-center justify-between mb-4">
-                <Zap className="w-8 h-8 text-purple-600" />
-                <span className="text-2xl font-bold text-purple-700">6.40%</span>
+                <Zap className="w-8 h-8 text-black" />
+                <span className="text-2xl font-bold text-black">6.40%</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Online Low</h3>
               <p className="text-sm text-gray-600">Lowest online lender rates for excellent credit</p>
@@ -187,11 +183,11 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-6 border border-orange-200 shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-gradient-to-br from-black to-neutral-900 rounded-2xl p-6 border border-neutral-200 shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="flex items-center justify-between mb-4">
-                <DollarSign className="w-8 h-8 text-orange-600" />
-                <span className="text-2xl font-bold text-orange-700">$100K</span>
+                <DollarSign className="w-8 h-8 text-black" />
+                <span className="text-2xl font-bold text-black">$100K</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Max Loan</h3>
               <p className="text-sm text-gray-600">Maximum consolidation loan amounts available</p>
@@ -206,7 +202,7 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
           <div className="bg-white rounded-2xl shadow-xl p-8 lg:p-12">
             
             <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-              <BarChart3 className="w-8 h-8 text-blue-600" />
+              <BarChart3 className="w-8 h-8 text-black" />
               Orange County Debt Consolidation Loan Comparison
             </h2>
             
@@ -216,40 +212,40 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
               depending on your credit profile, loan amount, and service preferences.
             </p>
 
-            <div className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl p-8 mb-12 border border-blue-200 overflow-x-auto">
-              <h3 className="text-xl font-bold text-blue-800 mb-6">Quick Comparison Overview</h3>
+            <div className="bg-gradient-to-r from-black to-neutral-900 rounded-2xl p-8 mb-12 border border-neutral-200 overflow-x-auto">
+              <h3 className="text-xl font-bold text-black mb-6">Quick Comparison Overview</h3>
               <div className="min-w-full">
-                <table className="w-full border-collapse border border-blue-300">
+                <table className="w-full border-collapse border border-neutral-200">
                   <thead>
-                    <tr className="bg-blue-200">
-                      <th className="border border-blue-300 p-4 text-left font-bold">Lender Type</th>
-                      <th className="border border-blue-300 p-4 text-left font-bold">APR Range</th>
-                      <th className="border border-blue-300 p-4 text-left font-bold">Loan Amounts</th>
-                      <th className="border border-blue-300 p-4 text-left font-bold">Approval Speed</th>
-                      <th className="border border-blue-300 p-4 text-left font-bold">Best For</th>
+                    <tr className="bg-neutral-200">
+                      <th className="border border-neutral-200 p-4 text-left font-bold">Lender Type</th>
+                      <th className="border border-neutral-200 p-4 text-left font-bold">APR Range</th>
+                      <th className="border border-neutral-200 p-4 text-left font-bold">Loan Amounts</th>
+                      <th className="border border-neutral-200 p-4 text-left font-bold">Approval Speed</th>
+                      <th className="border border-neutral-200 p-4 text-left font-bold">Best For</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr className="bg-white">
-                      <td className="border border-blue-300 p-4 font-semibold">Traditional Banks</td>
-                      <td className="border border-blue-300 p-4">8.99-19.99%</td>
-                      <td className="border border-blue-300 p-4">$5K-$100K</td>
-                      <td className="border border-blue-300 p-4">3-7 days</td>
-                      <td className="border border-blue-300 p-4">Existing customers, high credit scores</td>
+                      <td className="border border-neutral-200 p-4 font-semibold">Traditional Banks</td>
+                      <td className="border border-neutral-200 p-4">8.99-19.99%</td>
+                      <td className="border border-neutral-200 p-4">$5K-$100K</td>
+                      <td className="border border-neutral-200 p-4">3-7 days</td>
+                      <td className="border border-neutral-200 p-4">Existing customers, high credit scores</td>
                     </tr>
-                    <tr className="bg-blue-50">
-                      <td className="border border-blue-300 p-4 font-semibold">Credit Unions</td>
-                      <td className="border border-blue-300 p-4">7.24-16.99%</td>
-                      <td className="border border-blue-300 p-4">$1K-$50K</td>
-                      <td className="border border-blue-300 p-4">2-5 days</td>
-                      <td className="border border-blue-300 p-4">Members, personal service</td>
+                    <tr className="bg-neutral-50">
+                      <td className="border border-neutral-200 p-4 font-semibold">Credit Unions</td>
+                      <td className="border border-neutral-200 p-4">7.24-16.99%</td>
+                      <td className="border border-neutral-200 p-4">$1K-$50K</td>
+                      <td className="border border-neutral-200 p-4">2-5 days</td>
+                      <td className="border border-neutral-200 p-4">Members, personal service</td>
                     </tr>
                     <tr className="bg-white">
-                      <td className="border border-blue-300 p-4 font-semibold">Online Lenders</td>
-                      <td className="border border-blue-300 p-4">6.40-35.99%</td>
-                      <td className="border border-blue-300 p-4">$1K-$100K</td>
-                      <td className="border border-blue-300 p-4">Same day-3 days</td>
-                      <td className="border border-blue-300 p-4">Speed, varied credit profiles</td>
+                      <td className="border border-neutral-200 p-4 font-semibold">Online Lenders</td>
+                      <td className="border border-neutral-200 p-4">6.40-35.99%</td>
+                      <td className="border border-neutral-200 p-4">$1K-$100K</td>
+                      <td className="border border-neutral-200 p-4">Same day-3 days</td>
+                      <td className="border border-neutral-200 p-4">Speed, varied credit profiles</td>
                     </tr>
                   </tbody>
                 </table>
@@ -257,14 +253,14 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
             </div>
 
             <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-              <Building className="w-8 h-8 text-green-600" />
+              <Building className="w-8 h-8 text-black" />
               Traditional Banks in Orange County
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
-                <h3 className="text-xl font-bold text-green-800 mb-4">Wells Fargo</h3>
-                <ul className="space-y-2 text-green-700">
+              <div className="bg-gradient-to-br from-black to-neutral-900 rounded-xl p-6 border border-neutral-200">
+                <h3 className="text-xl font-bold text-black mb-4">Wells Fargo</h3>
+                <ul className="space-y-2 text-black">
                   <li>• APR: 7.49-23.24%</li>
                   <li>• Loan amounts: $3K-$100K</li>
                   <li>• Relationship discounts available</li>
@@ -273,9 +269,9 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200">
-                <h3 className="text-xl font-bold text-blue-800 mb-4">Bank of America</h3>
-                <ul className="space-y-2 text-blue-700">
+              <div className="bg-gradient-to-br from-black to-neutral-900 rounded-xl p-6 border border-neutral-200">
+                <h3 className="text-xl font-bold text-black mb-4">Bank of America</h3>
+                <ul className="space-y-2 text-black">
                   <li>• APR: 8.99-19.99%</li>
                   <li>• Loan amounts: $3K-$100K</li>
                   <li>• Preferred Rewards discounts</li>
@@ -286,12 +282,12 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
             </div>
 
             <div className="space-y-6 mb-12">
-              <div className="bg-gradient-to-r from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
-                <h3 className="text-lg font-bold text-green-800 mb-4 flex items-center gap-2">
+              <div className="bg-gradient-to-r from-black to-neutral-900 rounded-xl p-6 border border-neutral-200">
+                <h3 className="text-lg font-bold text-black mb-4 flex items-center gap-2">
                   <CheckCircle className="w-5 h-5" />
                   Traditional Bank Advantages
                 </h3>
-                <ul className="space-y-2 text-green-700">
+                <ul className="space-y-2 text-black">
                   <li>• <strong>Relationship Banking:</strong> Existing customers often receive rate discounts and faster approvals</li>
                   <li>• <strong>In-Person Service:</strong> Orange County branches provide face-to-face consultation</li>
                   <li>• <strong>Established Reputation:</strong> FDIC insured, regulated institutions with long track records</li>
@@ -299,9 +295,9 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-r from-red-50 to-red-100 rounded-xl p-6 border border-red-200">
-                <h3 className="text-lg font-bold text-red-800 mb-4">Traditional Bank Disadvantages</h3>
-                <ul className="space-y-2 text-red-700">
+              <div className="bg-gradient-to-r from-black to-neutral-900 rounded-xl p-6 border border-neutral-200">
+                <h3 className="text-lg font-bold text-black mb-4">Traditional Bank Disadvantages</h3>
+                <ul className="space-y-2 text-black">
                   <li>• <strong>Strict Credit Requirements:</strong> Typically require 660+ credit scores for best rates</li>
                   <li>• <strong>Longer Approval Times:</strong> 3-7 days vs same-day online options</li>
                   <li>• <strong>Limited Flexibility:</strong> Rigid underwriting criteria</li>
@@ -311,14 +307,14 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
             </div>
 
             <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-              <Users className="w-8 h-8 text-blue-600" />
+              <Users className="w-8 h-8 text-black" />
               Orange County Credit Union Options
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200">
-                <h3 className="text-xl font-bold text-blue-800 mb-4">Orange County's Credit Union</h3>
-                <ul className="space-y-2 text-blue-700">
+              <div className="bg-gradient-to-br from-black to-neutral-900 rounded-xl p-6 border border-neutral-200">
+                <h3 className="text-xl font-bold text-black mb-4">Orange County's Credit Union</h3>
+                <ul className="space-y-2 text-black">
                   <li>• APR: 7.99-15.99%</li>
                   <li>• Loan amounts: $1K-$50K</li>
                   <li>• Local Orange County focus</li>
@@ -327,9 +323,9 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6 border border-purple-200">
-                <h3 className="text-xl font-bold text-purple-800 mb-4">SchoolsFirst Federal Credit Union</h3>
-                <ul className="space-y-2 text-purple-700">
+              <div className="bg-gradient-to-br from-black to-neutral-900 rounded-xl p-6 border border-neutral-200">
+                <h3 className="text-xl font-bold text-black mb-4">SchoolsFirst Federal Credit Union</h3>
+                <ul className="space-y-2 text-black">
                   <li>• APR: 7.24-15.99%</li>
                   <li>• Loan amounts: $500-$50K</li>
                   <li>• Education professionals focused</li>
@@ -340,14 +336,14 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
             </div>
 
             <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-              <Zap className="w-8 h-8 text-purple-600" />
+              <Zap className="w-8 h-8 text-black" />
               Online Lenders for Orange County Residents
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6 border border-purple-200">
-                <h3 className="text-xl font-bold text-purple-800 mb-4">SoFi Personal Loans</h3>
-                <ul className="space-y-2 text-purple-700">
+              <div className="bg-gradient-to-br from-black to-neutral-900 rounded-xl p-6 border border-neutral-200">
+                <h3 className="text-xl font-bold text-black mb-4">SoFi Personal Loans</h3>
+                <ul className="space-y-2 text-black">
                   <li>• APR: 8.99-25.81%</li>
                   <li>• Loan amounts: $5K-$100K</li>
                   <li>• No fees (origination, prepayment)</li>
@@ -356,9 +352,9 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl p-6 border border-orange-200">
-                <h3 className="text-xl font-bold text-orange-800 mb-4">Marcus by Goldman Sachs</h3>
-                <ul className="space-y-2 text-orange-700">
+              <div className="bg-gradient-to-br from-black to-neutral-900 rounded-xl p-6 border border-neutral-200">
+                <h3 className="text-xl font-bold text-black mb-4">Marcus by Goldman Sachs</h3>
+                <ul className="space-y-2 text-black">
                   <li>• APR: 7.99-19.99%</li>
                   <li>• Loan amounts: $3.5K-$40K</li>
                   <li>• No fees whatsoever</li>
@@ -369,14 +365,14 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
             </div>
 
             <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-              <CheckCircle className="w-8 h-8 text-green-600" />
+              <CheckCircle className="w-8 h-8 text-black" />
               Orange County Resident Decision Guide
             </h2>
 
             <div className="space-y-6 mb-12">
-              <div className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200">
-                <h3 className="text-lg font-bold text-blue-800 mb-4">Choose Traditional Banks When:</h3>
-                <ul className="space-y-2 text-blue-700">
+              <div className="bg-gradient-to-r from-black to-neutral-900 rounded-xl p-6 border border-neutral-200">
+                <h3 className="text-lg font-bold text-black mb-4">Choose Traditional Banks When:</h3>
+                <ul className="space-y-2 text-black">
                   <li>• <strong>Excellent Credit (750+):</strong> Access to best rates and largest loan amounts</li>
                   <li>• <strong>Existing Relationship:</strong> Current customer with checking/savings accounts</li>
                   <li>• <strong>Large Consolidation:</strong> Need loans above $50K for significant debt consolidation</li>
@@ -384,9 +380,9 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-r from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
-                <h3 className="text-lg font-bold text-green-800 mb-4">Choose Credit Unions When:</h3>
-                <ul className="space-y-2 text-green-700">
+              <div className="bg-gradient-to-r from-black to-neutral-900 rounded-xl p-6 border border-neutral-200">
+                <h3 className="text-lg font-bold text-black mb-4">Choose Credit Unions When:</h3>
+                <ul className="space-y-2 text-black">
                   <li>• <strong>Good Credit (650-750):</strong> Best rates for this credit range</li>
                   <li>• <strong>Community Connection:</strong> Value local, personal service</li>
                   <li>• <strong>Moderate Loan Amounts:</strong> $5K-40K consolidation needs</li>
@@ -394,9 +390,9 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
                 </ul>
               </div>
 
-              <div className="bg-gradient-to-r from-purple-50 to-purple-100 rounded-xl p-6 border border-purple-200">
-                <h3 className="text-lg font-bold text-purple-800 mb-4">Choose Online Lenders When:</h3>
-                <ul className="space-y-2 text-purple-700">
+              <div className="bg-gradient-to-r from-black to-neutral-900 rounded-xl p-6 border border-neutral-200">
+                <h3 className="text-lg font-bold text-black mb-4">Choose Online Lenders When:</h3>
+                <ul className="space-y-2 text-black">
                   <li>• <strong>Need Speed:</strong> Urgent consolidation with same-day funding requirements</li>
                   <li>• <strong>Fair Credit (580-649):</strong> More flexible underwriting than traditional banks</li>
                   <li>• <strong>Rate Shopping:</strong> Want to compare multiple offers quickly</li>
@@ -406,11 +402,11 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
             </div>
 
             <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
-              <TrendingDown className="w-8 h-8 text-orange-600" />
+              <TrendingDown className="w-8 h-8 text-black" />
               $25,000 Loan Comparison Example
             </h2>
 
-            <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl p-8 mb-12 border border-gray-200 overflow-x-auto">
+            <div className="bg-gradient-to-r from-black to-neutral-900 rounded-2xl p-8 mb-12 border border-gray-200 overflow-x-auto">
               <h3 className="text-xl font-bold text-gray-900 mb-6">5-Year Term Comparison</h3>
               
               <div className="min-w-full">
@@ -426,28 +422,28 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
                   </thead>
                   <tbody>
                     <tr className="bg-white">
-                      <td className="border border-gray-300 p-4 font-semibold text-green-700">OC Credit Union (Good Credit)</td>
+                      <td className="border border-gray-300 p-4 font-semibold text-black">OC Credit Union (Good Credit)</td>
                       <td className="border border-gray-300 p-4">8.99%</td>
                       <td className="border border-gray-300 p-4">$518</td>
                       <td className="border border-gray-300 p-4">$6,080</td>
                       <td className="border border-gray-300 p-4">$31,080</td>
                     </tr>
                     <tr className="bg-gray-50">
-                      <td className="border border-gray-300 p-4 font-semibold text-blue-700">Wells Fargo (Excellent Credit)</td>
+                      <td className="border border-gray-300 p-4 font-semibold text-black">Wells Fargo (Excellent Credit)</td>
                       <td className="border border-gray-300 p-4">9.99%</td>
                       <td className="border border-gray-300 p-4">$531</td>
                       <td className="border border-gray-300 p-4">$6,860</td>
                       <td className="border border-gray-300 p-4">$31,860</td>
                     </tr>
                     <tr className="bg-white">
-                      <td className="border border-gray-300 p-4 font-semibold text-purple-700">SoFi Online (Excellent Credit)</td>
+                      <td className="border border-gray-300 p-4 font-semibold text-black">SoFi Online (Excellent Credit)</td>
                       <td className="border border-gray-300 p-4">10.99%</td>
                       <td className="border border-gray-300 p-4">$544</td>
                       <td className="border border-gray-300 p-4">$7,640</td>
                       <td className="border border-gray-300 p-4">$32,640</td>
                     </tr>
                     <tr className="bg-gray-50">
-                      <td className="border border-gray-300 p-4 font-semibold text-orange-700">Upstart Online (Fair Credit)</td>
+                      <td className="border border-gray-300 p-4 font-semibold text-black">Upstart Online (Fair Credit)</td>
                       <td className="border border-gray-300 p-4">15.99%</td>
                       <td className="border border-gray-300 p-4">$609</td>
                       <td className="border border-gray-300 p-4">$11,540</td>
@@ -463,21 +459,21 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
             </div>
 
             {/* Professional CTA */}
-            <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded-2xl p-8 text-white text-center mb-12">
+            <div className="bg-gradient-to-r from-black to-neutral-900 rounded-2xl p-8 text-white text-center mb-12">
               <h3 className="text-2xl font-bold mb-4">Find Your Best Consolidation Option</h3>
-              <p className="text-green-100 mb-6 text-lg">
+              <p className="text-black mb-6 text-lg">
                 Get personalized recommendations for debt consolidation loans based on your Orange County situation, 
                 credit profile, and financial goals. Compare rates from banks, credit unions, and online lenders.
               </p>
               <button 
                 onClick={scrollToConsultation}
-                className="bg-white text-green-600 font-bold py-3 px-8 rounded-xl hover:bg-green-50 transition-all duration-300 transform hover:scale-105 shadow-lg"
+                className="bg-white text-black font-bold py-3 px-8 rounded-xl hover:bg-neutral-50 transition-all duration-300 transform hover:scale-105 shadow-lg"
               >
                 Get Loan Recommendations
               </button>
             </div>
 
-            <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl p-8 border border-gray-200">
+            <div className="bg-gradient-to-r from-black to-neutral-900 rounded-2xl p-8 border border-gray-200">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Important Considerations</h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 Debt consolidation loans can be an effective tool for managing multiple debts, but they're not suitable 
@@ -489,8 +485,12 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
             </div>
 
           </div>
-        </div>
-      </article>
+
+
+          </div>
+
+
+          </article>
 
       {/* Consultation Section */}
       <section id="consultation" className="py-16 bg-white">

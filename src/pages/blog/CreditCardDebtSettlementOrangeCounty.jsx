@@ -24,48 +24,25 @@ export default function CreditCardDebtSettlementOrangeCounty() {
         <meta property="og:type" content="article" />
         <link rel="canonical" href="https://debtclear.com/blog/credit-card-debt-settlement-orange-county" />
       </Helmet>
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <Link 
-            to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Resources
-          </Link>
-
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8 z-10 relative">
+            <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-              CASE STUDIES
-            </span>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">CASE STUDIES</span>
           </div>
-
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Credit Card Debt Settlement:
-            <br />
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+            Credit Card Debt Settlement:<br />
             <span className="font-mono text-3xl lg:text-4xl">Orange County Success Stories</span>
           </h1>
-
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              <span>July 25, 2025</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4" />
-              <span>11 min read</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <User className="w-4 h-4" />
-              <span>VegaX Case Study Team</span>
-            </div>
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 25, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>11 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Case Study Team</span></div>
           </div>
-
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">
-            Real examples of credit card debt settlements for Orange County residents, including detailed timelines, 
-            negotiation strategies, and outcomes for different credit card companies and debt amounts.
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
+            Real examples of credit card debt settlements for Orange County residents, including detailed timelines, negotiation strategies, and outcomes for different credit card companies and debt amounts.
           </p>
         </div>
       </section>
@@ -84,27 +61,27 @@ export default function CreditCardDebtSettlementOrangeCounty() {
               balances that become increasingly difficult to manage.
             </p>
 
-            <div className="bg-blue-50 border border-blue-200 p-8 mb-8">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
               <div className="flex items-start gap-3">
-                <CreditCard className="w-6 h-6 text-blue-600 mt-1" />
+                <CreditCard className="w-6 h-6 text-black mt-1" />
                 <div>
-                  <h3 className="text-lg font-semibold text-blue-800 mb-4">Orange County Credit Card Debt Statistics</h3>
+                  <h3 className="text-lg font-semibold text-black mb-4">Orange County Credit Card Debt Statistics</h3>
                   <div className="grid md:grid-cols-4 gap-4 text-center">
                     <div>
-                      <div className="text-2xl font-mono text-blue-800 mb-1">$8.9K</div>
-                      <div className="text-xs text-blue-700">Average CC Debt per Person</div>
+                      <div className="text-2xl font-mono text-black mb-1">$8.9K</div>
+                      <div className="text-xs text-black">Average CC Debt per Person</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-mono text-blue-800 mb-1">2.7</div>
-                      <div className="text-xs text-blue-700">Average Cards per Person</div>
+                      <div className="text-2xl font-mono text-black mb-1">2.7</div>
+                      <div className="text-xs text-black">Average Cards per Person</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-mono text-blue-800 mb-1">23.4%</div>
-                      <div className="text-xs text-blue-700">Average Interest Rate</div>
+                      <div className="text-2xl font-mono text-black mb-1">23.4%</div>
+                      <div className="text-xs text-black">Average Interest Rate</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-mono text-blue-800 mb-1">67%</div>
-                      <div className="text-xs text-blue-700">Carry Monthly Balance</div>
+                      <div className="text-2xl font-mono text-black mb-1">67%</div>
+                      <div className="text-xs text-black">Carry Monthly Balance</div>
                     </div>
                   </div>
                 </div>
@@ -168,10 +145,10 @@ export default function CreditCardDebtSettlementOrangeCounty() {
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Detailed Orange County Case Studies</h2>
 
             <div className="space-y-12 mb-12">
-              <div className="border-2 border-green-200 p-8 bg-green-50">
+              <div className="border-2 border-neutral-200 p-8 bg-neutral-50">
                 <div className="flex items-center gap-3 mb-6">
-                  <TrendingDown className="w-6 h-6 text-green-600" />
-                  <h3 className="text-xl font-semibold text-green-800">Case Study 1: Irvine Tech Professional</h3>
+                  <TrendingDown className="w-6 h-6 text-black" />
+                  <h3 className="text-xl font-semibold text-black">Case Study 1: Irvine Tech Professional</h3>
                 </div>
                 
                 <div className="grid md:grid-cols-2 gap-8 mb-6">
@@ -197,7 +174,7 @@ export default function CreditCardDebtSettlementOrangeCounty() {
                 </div>
 
                 <h4 className="font-semibold text-black mb-4">Detailed Debt Breakdown:</h4>
-                <div className="bg-white p-6 border border-green-200 mb-6">
+                <div className="bg-white p-6 border border-neutral-200 mb-6">
                   <div className="space-y-3 text-sm">
                     <div className="flex items-center justify-between border-b border-neutral-200 pb-2">
                       <span className="text-neutral-700">Chase Sapphire Preferred</span>
@@ -229,7 +206,7 @@ export default function CreditCardDebtSettlementOrangeCounty() {
                 <h4 className="font-semibold text-black mb-4">Settlement Timeline & Results:</h4>
                 <div className="space-y-4">
                   <div className="flex items-start gap-4">
-                    <div className="w-6 h-6 bg-green-600 text-white flex items-center justify-center text-xs font-bold rounded">
+                    <div className="w-6 h-6 bg-black text-white flex items-center justify-center text-xs font-bold rounded">
                       1
                     </div>
                     <div>
@@ -241,7 +218,7 @@ export default function CreditCardDebtSettlementOrangeCounty() {
                   </div>
                   
                   <div className="flex items-start gap-4">
-                    <div className="w-6 h-6 bg-green-600 text-white flex items-center justify-center text-xs font-bold rounded">
+                    <div className="w-6 h-6 bg-black text-white flex items-center justify-center text-xs font-bold rounded">
                       2
                     </div>
                     <div>
@@ -257,7 +234,7 @@ export default function CreditCardDebtSettlementOrangeCounty() {
                   </div>
                   
                   <div className="flex items-start gap-4">
-                    <div className="w-6 h-6 bg-green-600 text-white flex items-center justify-center text-xs font-bold rounded">
+                    <div className="w-6 h-6 bg-black text-white flex items-center justify-center text-xs font-bold rounded">
                       3
                     </div>
                     <div>
@@ -274,7 +251,7 @@ export default function CreditCardDebtSettlementOrangeCounty() {
                   </div>
                   
                   <div className="flex items-start gap-4">
-                    <div className="w-6 h-6 bg-green-600 text-white flex items-center justify-center text-xs font-bold rounded">
+                    <div className="w-6 h-6 bg-black text-white flex items-center justify-center text-xs font-bold rounded">
                       4
                     </div>
                     <div>
@@ -289,32 +266,32 @@ export default function CreditCardDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-white p-6 border border-green-200 mt-6">
-                  <h4 className="font-semibold text-green-800 mb-4">Final Results Summary:</h4>
+                <div className="bg-white p-6 border border-neutral-200 mt-6">
+                  <h4 className="font-semibold text-black mb-4">Final Results Summary:</h4>
                   <div className="grid md:grid-cols-3 gap-6 text-center">
                     <div>
-                      <div className="text-2xl font-mono text-green-800 mb-1">$67,400</div>
-                      <div className="text-xs text-green-700">Original Debt</div>
+                      <div className="text-2xl font-mono text-black mb-1">$67,400</div>
+                      <div className="text-xs text-black">Original Debt</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-mono text-green-800 mb-1">$30,800</div>
-                      <div className="text-xs text-green-700">Total Paid</div>
+                      <div className="text-2xl font-mono text-black mb-1">$30,800</div>
+                      <div className="text-xs text-black">Total Paid</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-mono text-green-800 mb-1">$36,600</div>
-                      <div className="text-xs text-green-700">Total Saved (54%)</div>
+                      <div className="text-2xl font-mono text-black mb-1">$36,600</div>
+                      <div className="text-xs text-black">Total Saved (54%)</div>
                     </div>
                   </div>
-                  <p className="text-xs text-green-600 mt-4 text-center">
+                  <p className="text-xs text-black mt-4 text-center">
                     <strong>Total program cost:</strong> $5,544 (18% of settled debt)
                   </p>
                 </div>
               </div>
 
-              <div className="border-2 border-blue-200 p-8 bg-blue-50">
+              <div className="border-2 border-neutral-200 p-8 bg-neutral-50">
                 <div className="flex items-center gap-3 mb-6">
-                  <DollarSign className="w-6 h-6 text-blue-600" />
-                  <h3 className="text-xl font-semibold text-blue-800">Case Study 2: Santa Ana Small Business Owner</h3>
+                  <DollarSign className="w-6 h-6 text-black" />
+                  <h3 className="text-xl font-semibold text-black">Case Study 2: Santa Ana Small Business Owner</h3>
                 </div>
                 
                 <div className="grid md:grid-cols-2 gap-8 mb-6">
@@ -340,7 +317,7 @@ export default function CreditCardDebtSettlementOrangeCounty() {
                 </div>
 
                 <h4 className="font-semibold text-black mb-4">Settlement Strategy & Results:</h4>
-                <div className="bg-white p-6 border border-blue-200 mb-6">
+                <div className="bg-white p-6 border border-neutral-200 mb-6">
                   <div className="space-y-4 text-sm">
                     <div className="border-b border-neutral-200 pb-3">
                       <div className="flex justify-between items-center mb-2">
@@ -384,23 +361,23 @@ export default function CreditCardDebtSettlementOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-white p-6 border border-blue-200">
-                  <h4 className="font-semibold text-blue-800 mb-4">Final Results Summary:</h4>
+                <div className="bg-white p-6 border border-neutral-200">
+                  <h4 className="font-semibold text-black mb-4">Final Results Summary:</h4>
                   <div className="grid md:grid-cols-3 gap-6 text-center">
                     <div>
-                      <div className="text-2xl font-mono text-blue-800 mb-1">$43,200</div>
-                      <div className="text-xs text-blue-700">Original Debt</div>
+                      <div className="text-2xl font-mono text-black mb-1">$43,200</div>
+                      <div className="text-xs text-black">Original Debt</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-mono text-blue-800 mb-1">$18,600</div>
-                      <div className="text-xs text-blue-700">Total Paid</div>
+                      <div className="text-2xl font-mono text-black mb-1">$18,600</div>
+                      <div className="text-xs text-black">Total Paid</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-mono text-blue-800 mb-1">$24,600</div>
-                      <div className="text-xs text-blue-700">Total Saved (57%)</div>
+                      <div className="text-2xl font-mono text-black mb-1">$24,600</div>
+                      <div className="text-xs text-black">Total Saved (57%)</div>
                     </div>
                   </div>
-                  <p className="text-xs text-blue-600 mt-4 text-center">
+                  <p className="text-xs text-black mt-4 text-center">
                     <strong>Total timeline:</strong> 11 months | <strong>Program cost:</strong> $3,348 (18% of settled debt)
                   </p>
                 </div>
@@ -415,9 +392,9 @@ export default function CreditCardDebtSettlementOrangeCounty() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-green-50 border border-green-200 p-6">
-                <h4 className="font-semibold text-green-800 mb-4">Factors That Improve Settlement Terms</h4>
-                <ul className="space-y-2 text-sm text-green-700">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h4 className="font-semibold text-black mb-4">Factors That Improve Settlement Terms</h4>
+                <ul className="space-y-2 text-sm text-black">
                   <li>• <strong>Hardship Documentation:</strong> Job loss, medical bills, divorce</li>
                   <li>• <strong>Lump Sum Payment:</strong> Ability to pay settlement immediately</li>
                   <li>• <strong>Multiple Debts:</strong> Leverage from settling several accounts</li>

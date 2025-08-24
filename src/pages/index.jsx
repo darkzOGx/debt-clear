@@ -45,6 +45,11 @@ import ComprehensiveDebtTaxReliefGuideOrangeCounty from "./blog/ComprehensiveDeb
 import TestBlogPost from "./blog/TestBlogPost";
 import TestRoute from "./TestRoute";
 import DebtTools from "./DebtTools";
+import MoneyCalculators from "./MoneyCalculators";
+import MortgageCalculators from "./MortgageCalculators";
+import AutoCalculators from "./AutoCalculators";
+import CreditCalculators from "./CreditCalculators";
+import StudentLoanCalculators from "./StudentLoanCalculators";
 
 // Missing blog post imports
 import TaxFormsDebtSettlementOrangeCounty from "./blog/1099cTaxFormsDebtSettlementOrangeCounty";
@@ -82,6 +87,14 @@ import RetirementPlanningAfterDebtReliefOrangeCounty from "./blog/RetirementPlan
 import SmallBusinessDebtSettlementCaseStudiesOrangeCounty from "./blog/SmallBusinessDebtSettlementCaseStudiesOrangeCounty";
 import SocialSecurityDebtSettlementOrangeCountySeniors from "./blog/SocialSecurityDebtSettlementOrangeCountySeniors";
 import TaxImplicationsDebtSettlementOrangeCounty from "./blog/TaxImplicationsDebtSettlementOrangeCounty";
+
+// New blog post imports
+import ShortSaleVsDebtSettlementOrangeCounty from "./blog/ShortSaleVsDebtSettlementOrangeCounty";
+import IrsPaymentPlansVsDebtSettlementOrangeCounty from "./blog/IrsPaymentPlansVsDebtSettlementOrangeCounty";
+import CaliforniaFtbDebtSettlementOrangeCounty from "./blog/CaliforniaFtbDebtSettlementOrangeCounty";
+import Chapter7VsDebtSettlementOrangeCounty from "./blog/Chapter7VsDebtSettlementOrangeCounty";
+import DebtManagementPlansVsDebtSettlementOrangeCounty from "./blog/DebtManagementPlansVsDebtSettlementOrangeCounty";
+
 import FountainValleyDebtSettlement from "./FountainValleyDebtSettlement";
 import GardenGroveDebtSettlement from "./GardenGroveDebtSettlement";
 import FullertonDebtSettlement from "./FullertonDebtSettlement";
@@ -142,6 +155,11 @@ const PAGES = {
     IrsTaxSettlementStrategiesOrangeCounty: IrsTaxSettlementStrategiesOrangeCounty,
     ComprehensiveDebtTaxReliefGuideOrangeCounty: ComprehensiveDebtTaxReliefGuideOrangeCounty,
     DebtTools: DebtTools,
+    MoneyCalculators: MoneyCalculators,
+    MortgageCalculators: MortgageCalculators,
+    AutoCalculators: AutoCalculators,
+    CreditCalculators: CreditCalculators,
+    StudentLoanCalculators: StudentLoanCalculators,
     TaxFormsDebtSettlementOrangeCounty: TaxFormsDebtSettlementOrangeCounty,
     AiDebtSettlementTechnologyOrangeCounty: AiDebtSettlementTechnologyOrangeCounty,
     AssetProtectionTrustsDebtSettlementOrangeCounty: AssetProtectionTrustsDebtSettlementOrangeCounty,
@@ -297,9 +315,21 @@ function PagesContent() {
                 <Route path="/blog/social-security-debt-settlement-orange-county-seniors" element={<SocialSecurityDebtSettlementOrangeCountySeniors />} />
                 <Route path="/blog/tax-implications-debt-settlement-orange-county" element={<TaxImplicationsDebtSettlementOrangeCounty />} />
                 
+                {/* New blog post routes */}
+                <Route path="/blog/short-sale-vs-debt-settlement-orange-county" element={<ShortSaleVsDebtSettlementOrangeCounty />} />
+                <Route path="/blog/irs-payment-plans-vs-debt-settlement-orange-county" element={<IrsPaymentPlansVsDebtSettlementOrangeCounty />} />
+                <Route path="/blog/california-ftb-debt-settlement-orange-county" element={<CaliforniaFtbDebtSettlementOrangeCounty />} />
+                <Route path="/blog/chapter-7-vs-debt-settlement-orange-county" element={<Chapter7VsDebtSettlementOrangeCounty />} />
+                <Route path="/blog/debt-management-plans-vs-debt-settlement-orange-county" element={<DebtManagementPlansVsDebtSettlementOrangeCounty />} />
+                
                 <Route path="/blog/test" element={<TestBlogPost />} />
                 <Route path="/test-route" element={<TestRoute />} />
                 <Route path="/debt-tools" element={<DebtTools />} />
+                <Route path="/money-calculators" element={<MoneyCalculators />} />
+                <Route path="/mortgage-calculators" element={<MortgageCalculators />} />
+                <Route path="/auto-calculators" element={<AutoCalculators />} />
+                <Route path="/credit-calculators" element={<CreditCalculators />} />
+                <Route path="/student-loan-calculators" element={<StudentLoanCalculators />} />
                 <Route path="/blog/" element={<BlogResources />} />
                 <Route path="/blog" element={<BlogResources />} />
                 <Route path="/debt-settlement-fountain-valley" element={<FountainValleyDebtSettlement />} />

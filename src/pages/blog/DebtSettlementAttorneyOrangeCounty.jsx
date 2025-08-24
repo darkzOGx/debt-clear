@@ -24,31 +24,31 @@ export default function DebtSettlementAttorneyOrangeCounty() {
         <meta property="og:type" content="article" />
         <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-attorney-orange-county" />
       </Helmet>
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
+      {/* Hero Section */}
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <Link 
             to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Resources
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+            <div className="w-2 h-2 bg-white rounded-full"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
               LEGAL GUIDE
             </span>
           </div>
 
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             Orange County Debt Settlement Attorney vs DIY:
             <br />
-            <span className="font-mono text-3xl lg:text-4xl">When You Need Legal Help</span>
+            <span className="font-mono text-3xl lg:text-4xl text-neutral-300">When You Need Legal Help</span>
           </h1>
 
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>July 30, 2025</span>
@@ -132,9 +132,9 @@ export default function DebtSettlementAttorneyOrangeCounty() {
                 Orange County's high cost of living creates unique debt settlement challenges. California's Rosenthal Fair Debt Collection Practices Act provides additional consumer protections beyond federal law, making local legal expertise valuable.
               </p>
 
-              <div className="bg-yellow-50 border border-yellow-200 p-6 mb-8">
+              <div className="bg-neutral-50 border border-neutral-200 p-6 mb-8">
                 <div className="flex items-start gap-3">
-                  <AlertTriangle className="w-5 h-5 text-yellow-600 mt-1" />
+                  <AlertTriangle className="w-5 h-5 text-black mt-1" />
                   <div>
                     <h3 className="font-semibold text-black mb-2">California Debt Settlement Regulations</h3>
                     <p className="text-neutral-700">

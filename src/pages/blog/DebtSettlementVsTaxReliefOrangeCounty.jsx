@@ -225,9 +225,9 @@ export default function DebtSettlementVsTaxReliefOrangeCounty() {
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-6">When You Have Both Credit Card and Tax Debt</h2>
           
-          <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-6">
+          <div className="bg-neutral-50 border-l-4 border-neutral-200 p-6 mb-6">
             <div className="flex items-start gap-3">
-              <AlertTriangle className="w-6 h-6 text-yellow-600 flex-shrink-0 mt-1" />
+              <AlertTriangle className="w-6 h-6 text-black flex-shrink-0 mt-1" />
               <div>
                 <h4 className="font-bold mb-2">Priority Consideration</h4>
                 <p className="text-sm">
@@ -280,7 +280,7 @@ export default function DebtSettlementVsTaxReliefOrangeCounty() {
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-6">Tax Implications of Debt Settlement</h2>
           
-          <div className="bg-red-50 border-l-4 border-red-400 p-6 mb-6">
+          <div className="bg-neutral-50 border-l-4 border-neutral-200 p-6 mb-6">
             <h3 className="font-bold mb-2">Critical Tax Consideration</h3>
             <p className="text-sm mb-3">
               Forgiven debt through settlement is typically considered taxable income by the IRS. For example, if you settle a $20,000 debt for $8,000, the $12,000 forgiven may be taxable income.
@@ -500,7 +500,7 @@ export default function DebtSettlementVsTaxReliefOrangeCounty() {
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-6">Your Next Steps</h2>
           
-          <div className="bg-gradient-to-r from-black to-neutral-800 text-white p-8 rounded-lg mb-6">
+          <div className="bg-gradient-to-r from-black to-neutral-900 text-white p-8 rounded-lg mb-6">
             <h3 className="text-2xl font-bold mb-4">Free Consultation Process</h3>
             <ol className="space-y-3">
               <li className="flex items-start gap-3">

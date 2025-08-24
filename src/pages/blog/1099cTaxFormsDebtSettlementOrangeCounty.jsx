@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { ArrowLeft, Calendar, Clock, User, FileText, Calculator, AlertTriangle, CheckCircle } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, FileText, Calculator, AlertTriangle, CheckCircle, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -93,29 +93,29 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
       <section className="py-16 bg-white border-b border-neutral-200">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center p-8 bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg border border-orange-200 hover:shadow-lg transition-all duration-300">
-              <FileText className="w-12 h-12 text-orange-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-orange-800 mb-2">$600</div>
-              <div className="text-sm font-medium text-orange-700 mb-1">Minimum Reporting</div>
-              <div className="text-xs text-orange-600">1099-C threshold</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <FileText className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">$600</div>
+              <div className="text-sm font-medium text-black mb-1">Minimum Reporting</div>
+              <div className="text-xs text-black">1099-C threshold</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-red-50 to-red-100 rounded-lg border border-red-200 hover:shadow-lg transition-all duration-300">
-              <Calculator className="w-12 h-12 text-red-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-red-800 mb-2">45%</div>
-              <div className="text-sm font-medium text-red-700 mb-1">Max Tax Rate</div>
-              <div className="text-xs text-red-600">Federal + CA combined</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <Calculator className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">45%</div>
+              <div className="text-sm font-medium text-black mb-1">Max Tax Rate</div>
+              <div className="text-xs text-black">Federal + CA combined</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-green-50 to-green-100 rounded-lg border border-green-200 hover:shadow-lg transition-all duration-300">
-              <CheckCircle className="w-12 h-12 text-green-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-green-800 mb-2">100%</div>
-              <div className="text-sm font-medium text-green-700 mb-1">Insolvency Exclusion</div>
-              <div className="text-xs text-green-600">When properly documented</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <CheckCircle className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">100%</div>
+              <div className="text-sm font-medium text-black mb-1">Insolvency Exclusion</div>
+              <div className="text-xs text-black">When properly documented</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 hover:shadow-lg transition-all duration-300">
-              <AlertTriangle className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-blue-800 mb-2">Form 982</div>
-              <div className="text-sm font-medium text-blue-700 mb-1">Required Filing</div>
-              <div className="text-xs text-blue-600">For exclusions</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <AlertTriangle className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">Form 982</div>
+              <div className="text-sm font-medium text-black mb-1">Required Filing</div>
+              <div className="text-xs text-black">For exclusions</div>
             </div>
           </div>
         </div>
@@ -125,7 +125,7 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Understanding Form 1099-C: Cancellation of Debt</h2>
-            <div className="bg-blue-50 border border-blue-200 p-8 mb-8">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h3 className="text-lg font-semibold text-black mb-3">What Triggers a 1099-C</h3>
@@ -149,7 +149,7 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
               </div>
-              <div className="mt-6 p-4 bg-white border border-blue-200">
+              <div className="mt-6 p-4 bg-white border border-neutral-200">
                 <h4 className="font-semibold text-black mb-2">Orange County Example</h4>
                 <p className="text-sm text-neutral-700">
                   If you settle $50,000 in credit card debt for $20,000, the creditor will likely issue a 1099-C for $30,000 in canceled debt. This $30,000 becomes taxable income unless you qualify for an exclusion.
@@ -158,9 +158,9 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
             </div>
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Tax Impact Calculation for Orange County Residents</h2>
-            <div className="bg-red-50 border border-red-200 p-6 mb-8">
+            <div className="bg-neutral-50 border border-neutral-200 p-6 mb-8">
               <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
-                <AlertTriangle className="w-5 h-5 text-red-600" />
+                <AlertTriangle className="w-5 h-5 text-black" />
                 Federal and California Tax Burden
               </h3>
               <p className="text-neutral-700 mb-3">
@@ -189,9 +189,9 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
             </div>
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Key Exclusions from Taxable Income</h2>
-            <div className="bg-green-50 border border-green-200 p-6 mb-8">
+            <div className="bg-neutral-50 border border-neutral-200 p-6 mb-8">
               <h3 className="text-lg font-semibold text-black mb-3 flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-green-600" />
+                <CheckCircle className="w-5 h-5 text-black" />
                 Insolvency Exclusion (Most Important)
               </h3>
               <p className="text-neutral-700 mb-3">
@@ -204,7 +204,7 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
                 <li>• <strong>Documentation:</strong> Detailed asset and liability listing required</li>
               </ul>
               
-              <div className="mt-4 p-3 bg-white border border-green-200">
+              <div className="mt-4 p-3 bg-white border border-neutral-200">
                 <h4 className="font-semibold text-black mb-2">Orange County Insolvency Example</h4>
                 <p className="text-sm text-neutral-700">
                   Assets: $200,000 (home equity, cars, savings)<br/>
@@ -217,7 +217,7 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Tax Planning Strategies for Orange County Residents</h2>
             <div className="space-y-6 mb-8">
-              <div className="bg-blue-50 border border-blue-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h3 className="font-semibold text-black mb-3">Before Debt Settlement</h3>
                 <ul className="space-y-2 text-neutral-700">
                   <li>• Calculate potential tax liability</li>
@@ -228,7 +228,7 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
                 </ul>
               </div>
 
-              <div className="bg-green-50 border border-green-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h3 className="font-semibold text-black mb-3">During Settlement Year</h3>
                 <ul className="space-y-2 text-neutral-700">
                   <li>• Track all settlement agreements and 1099-C forms</li>
@@ -239,7 +239,7 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
                 </ul>
               </div>
 
-              <div className="bg-purple-50 border border-purple-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h3 className="font-semibold text-black mb-3">Filing Season Preparation</h3>
                 <ul className="space-y-2 text-neutral-700">
                   <li>• Gather all 1099-C forms by January 31</li>
@@ -254,14 +254,14 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Common 1099-C Tax Mistakes to Avoid</h2>
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="space-y-4">
-                <div className="bg-red-50 border border-red-200 p-4">
+                <div className="bg-neutral-50 border border-neutral-200 p-4">
                   <h4 className="font-semibold text-black mb-2">❌ Ignoring Form 1099-C</h4>
                   <p className="text-sm text-neutral-700">
                     The IRS receives a copy of every 1099-C. Failing to report it can result in penalties and interest.
                   </p>
                 </div>
                 
-                <div className="bg-red-50 border border-red-200 p-4">
+                <div className="bg-neutral-50 border border-neutral-200 p-4">
                   <h4 className="font-semibold text-black mb-2">❌ Incorrect Insolvency Calculation</h4>
                   <p className="text-sm text-neutral-700">
                     Using fair market value instead of actual asset values, or missing debts can invalidate exclusions.
@@ -270,14 +270,14 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
               </div>
               
               <div className="space-y-4">
-                <div className="bg-red-50 border border-red-200 p-4">
+                <div className="bg-neutral-50 border border-neutral-200 p-4">
                   <h4 className="font-semibold text-black mb-2">❌ Missing Form 982 Filing</h4>
                   <p className="text-sm text-neutral-700">
                     Exclusions are not automatic. You must file Form 982 to claim them.
                   </p>
                 </div>
                 
-                <div className="bg-red-50 border border-red-200 p-4">
+                <div className="bg-neutral-50 border border-neutral-200 p-4">
                   <h4 className="font-semibold text-black mb-2">❌ Not Planning for Tax Bill</h4>
                   <p className="text-sm text-neutral-700">
                     Failing to save for tax liability can create a new financial crisis after debt settlement.
@@ -299,30 +299,29 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
         </div>
       </article>
 
-      {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-orange-600 via-orange-700 to-red-700">
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-light text-white mb-6">
-            Need Help with 1099-C Tax Planning?
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
           </h2>
-          <p className="text-xl text-orange-100 mb-8 font-light">
-            Don't let unexpected tax bills undermine your debt settlement success
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
           </p>
-          <button
-            onClick={() => document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' })}
-            className="bg-white text-orange-700 px-8 py-4 text-lg font-semibold hover:bg-orange-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
           >
-            Get Tax Planning Help
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
           </button>
         </div>
       </section>
 
-      {/* Research Consultation */}
-      <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <ConsultationForm />
-        </div>
-      </section>
+      {/* Consultation Form */}
+      <div id="consultation">
+        <ConsultationForm />
+      </div>
       </div>
     </>
   );

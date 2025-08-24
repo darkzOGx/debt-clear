@@ -24,44 +24,26 @@ export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
         <meta property="og:type" content="article" />
         <link rel="canonical" href="https://debtclear.com/blog/credit-card-debt-settlement-major-banks-orange-county" />
       </Helmet>
-      {/* Header */}
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <Link 
-            to="/blog"
-            className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Resources
-          </Link>
-
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8 z-10 relative">
+            <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-              CREDIT CARD DEBT
-            </span>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">CREDIT CARD DEBT</span>
           </div>
-
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">
-            Orange County Credit Card Debt Settlement:
-            <br />
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+            Orange County Credit Card Debt Settlement:<br />
             <span className="font-mono text-3xl lg:text-4xl">Major Bank Negotiation Strategies</span>
           </h1>
-
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
-            <div className="flex items-center gap-2">
-              <Calendar className="w-4 h-4" />
-              <span>June 15, 2025</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4" />
-              <span>16 min read</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <User className="w-4 h-4" />
-              <span>Credit Settlement Specialist</span>
-            </div>
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
+            <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>June 15, 2025</span></div>
+            <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>16 min read</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>Credit Settlement Specialist</span></div>
           </div>
+          <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
+            Orange County residents facing credit card debt with major banks need specialized negotiation strategies tailored to each institution's policies. Understanding how Chase, Bank of America, Wells Fargo, and other major lenders approach settlement negotiations can significantly improve outcomes.
+          </p>
         </div>
       </section>
 
@@ -81,7 +63,7 @@ export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-blue-50 border border-blue-200 p-8 mb-12"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <CreditCard className="w-6 h-6" />
@@ -112,7 +94,7 @@ export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
                 </div>
               </div>
 
-              <div className="mt-6 p-4 bg-white border border-blue-200">
+              <div className="mt-6 p-4 bg-white border border-neutral-200">
                 <h4 className="font-semibold text-black mb-2">Orange County Market Dynamics</h4>
                 <p className="text-sm text-neutral-700">
                   Orange County's high cost of living and significant military population creates unique credit card usage patterns. Understanding these demographics helps in negotiating more favorable settlement terms with major banks.
@@ -134,7 +116,7 @@ export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
               </h2>
               
               <div className="space-y-6">
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Chase Settlement Characteristics</h3>
                   <p className="text-neutral-700 mb-3">
                     Chase typically offers more structured settlement programs than other major banks:
@@ -148,7 +130,7 @@ export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-yellow-50 border border-yellow-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Optimal Chase Negotiation Approach</h3>
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
@@ -177,9 +159,9 @@ export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
                   </div>
                 </div>
 
-                <div className="bg-blue-50 border border-blue-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Chase Settlement Example</h3>
-                  <div className="bg-white border border-blue-200 p-4">
+                  <div className="bg-white border border-neutral-200 p-4">
                     <h4 className="font-semibold text-black mb-2">Orange County Resident: $25,000 Chase Sapphire Debt</h4>
                     <ul className="text-sm text-neutral-700 space-y-1">
                       <li>• Account 6 months delinquent</li>
@@ -204,7 +186,7 @@ export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
               <h2 className="text-2xl font-semibold text-black mb-6">Bank of America Settlement Strategies</h2>
               
               <div className="space-y-6">
-                <div className="bg-orange-50 border border-orange-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">BofA Settlement Characteristics</h3>
                   <p className="text-neutral-700 mb-3">
                     Bank of America tends to be more aggressive in collection but offers reasonable settlements:
@@ -218,7 +200,7 @@ export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-red-50 border border-red-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">BofA Negotiation Best Practices</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
@@ -256,7 +238,7 @@ export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
               <h2 className="text-2xl font-semibold text-black mb-6">Wells Fargo Settlement Approach</h2>
               
               <div className="space-y-6">
-                <div className="bg-purple-50 border border-purple-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Wells Fargo Settlement Profile</h3>
                   <ul className="space-y-2 text-neutral-700">
                     <li>• <strong>Settlement Philosophy:</strong> More conservative, prefers workout agreements</li>
@@ -267,7 +249,7 @@ export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-green-50 border border-green-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="text-lg font-semibold text-black mb-3">Wells Fargo Success Strategies</h3>
                   <p className="text-neutral-700 mb-3">
                     Wells Fargo responds well to relationship-based negotiation approaches:
@@ -296,7 +278,7 @@ export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
                   <h3 className="text-lg font-semibold text-black mb-4">Citibank Approach</h3>
-                  <div className="bg-yellow-50 border border-yellow-200 p-4">
+                  <div className="bg-neutral-50 border border-neutral-200 p-4">
                     <ul className="space-y-2 text-neutral-700">
                       <li>• <strong>Settlement Range:</strong> 30-55% of balance</li>
                       <li>• <strong>Negotiation Style:</strong> Professional, process-oriented</li>
@@ -309,7 +291,7 @@ export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
                 
                 <div>
                   <h3 className="text-lg font-semibold text-black mb-4">Capital One Strategy</h3>
-                  <div className="bg-blue-50 border border-blue-200 p-4">
+                  <div className="bg-neutral-50 border border-neutral-200 p-4">
                     <ul className="space-y-2 text-neutral-700">
                       <li>• <strong>Settlement Range:</strong> 25-45% of balance</li>
                       <li>• <strong>Negotiation Style:</strong> Data-driven, algorithm-based offers</li>
@@ -350,7 +332,7 @@ export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
                   </ul>
                 </div>
 
-                <div className="bg-orange-50 border border-orange-200 p-6">
+                <div className="bg-neutral-50 border border-neutral-200 p-6">
                   <h3 className="font-semibold text-black mb-3">Legal Environment Factors</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>

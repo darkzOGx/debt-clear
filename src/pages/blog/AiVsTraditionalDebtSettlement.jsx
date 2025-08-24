@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { ArrowLeft, Calendar, Clock, User, TrendingUp, Brain, Users, DollarSign } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, TrendingUp, Brain, Users, DollarSign, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -93,25 +93,25 @@ export default function AiVsTraditionalDebtSettlement() {
       <section className="py-16 bg-white border-b border-neutral-200">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center p-8 bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-lg border border-emerald-200 hover:shadow-lg transition-all duration-300">
-              <Brain className="w-12 h-12 text-emerald-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-emerald-800 mb-2">58%</div>
-              <div className="text-sm font-medium text-emerald-700 mb-1">AI Debt Reduction</div>
-              <div className="text-xs text-emerald-600">vs 43% traditional average</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <Brain className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">58%</div>
+              <div className="text-sm font-medium text-black mb-1">AI Debt Reduction</div>
+              <div className="text-xs text-black">vs 43% traditional average</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-teal-50 to-teal-100 rounded-lg border border-teal-200 hover:shadow-lg transition-all duration-300">
-              <TrendingUp className="w-12 h-12 text-teal-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-teal-800 mb-2">89%</div>
-              <div className="text-sm font-medium text-teal-700 mb-1">AI Success Rate</div>
-              <div className="text-xs text-teal-600">vs 67% traditional</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <TrendingUp className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">89%</div>
+              <div className="text-sm font-medium text-black mb-1">AI Success Rate</div>
+              <div className="text-xs text-black">vs 67% traditional</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg border border-blue-200 hover:shadow-lg transition-all duration-300">
-              <Users className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-blue-800 mb-2">500</div>
-              <div className="text-sm font-medium text-blue-700 mb-1">Cases Analyzed</div>
-              <div className="text-xs text-blue-600">Orange County residents</div>
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
+              <Users className="w-12 h-12 text-black mx-auto mb-4" />
+              <div className="text-3xl font-bold text-black mb-2">500</div>
+              <div className="text-sm font-medium text-black mb-1">Cases Analyzed</div>
+              <div className="text-xs text-black">Orange County residents</div>
             </div>
-            <div className="text-center p-8 bg-gradient-to-br from-amber-50 to-amber-100 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
+            <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
               <DollarSign className="w-12 h-12 text-amber-600 mx-auto mb-4" />
               <div className="text-3xl font-bold text-amber-800 mb-2">$9,761</div>
               <div className="text-sm font-medium text-amber-700 mb-1">Additional Savings</div>
@@ -152,49 +152,49 @@ export default function AiVsTraditionalDebtSettlement() {
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Key Performance Metrics</h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-green-50 border border-green-200 p-6">
-                <h3 className="text-lg font-semibold text-green-800 mb-4 flex items-center gap-2">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h3 className="text-lg font-semibold text-black mb-4 flex items-center gap-2">
                   <TrendingUp className="w-5 h-5" />
                   AI-Powered Results
                 </h3>
                 <div className="space-y-3">
                   <div className="flex justify-between">
-                    <span className="text-green-700">Average Debt Reduction:</span>
-                    <span className="font-mono text-green-800">58%</span>
+                    <span className="text-black">Average Debt Reduction:</span>
+                    <span className="font-mono text-black">58%</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-green-700">Average Timeline:</span>
-                    <span className="font-mono text-green-800">14 months</span>
+                    <span className="text-black">Average Timeline:</span>
+                    <span className="font-mono text-black">14 months</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-green-700">Success Rate:</span>
-                    <span className="font-mono text-green-800">89%</span>
+                    <span className="text-black">Success Rate:</span>
+                    <span className="font-mono text-black">89%</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-green-700">Average Fees:</span>
-                    <span className="font-mono text-green-800">18%</span>
+                    <span className="text-black">Average Fees:</span>
+                    <span className="font-mono text-black">18%</span>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-orange-50 border border-orange-200 p-6">
-                <h3 className="text-lg font-semibold text-orange-800 mb-4">Traditional Company Results</h3>
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
+                <h3 className="text-lg font-semibold text-black mb-4">Traditional Company Results</h3>
                 <div className="space-y-3">
                   <div className="flex justify-between">
-                    <span className="text-orange-700">Average Debt Reduction:</span>
-                    <span className="font-mono text-orange-800">43%</span>
+                    <span className="text-black">Average Debt Reduction:</span>
+                    <span className="font-mono text-black">43%</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-orange-700">Average Timeline:</span>
-                    <span className="font-mono text-orange-800">24 months</span>
+                    <span className="text-black">Average Timeline:</span>
+                    <span className="font-mono text-black">24 months</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-orange-700">Success Rate:</span>
-                    <span className="font-mono text-orange-800">67%</span>
+                    <span className="text-black">Success Rate:</span>
+                    <span className="font-mono text-black">67%</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-orange-700">Average Fees:</span>
-                    <span className="font-mono text-orange-800">25%</span>
+                    <span className="text-black">Average Fees:</span>
+                    <span className="font-mono text-black">25%</span>
                   </div>
                 </div>
               </div>
@@ -204,7 +204,7 @@ export default function AiVsTraditionalDebtSettlement() {
             <div className="space-y-8 mb-12">
               <div className="border border-neutral-200 p-8">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="w-3 h-3 bg-green-500"></div>
+                  <div className="w-3 h-3 bg-neutral-500"></div>
                   <h3 className="text-xl font-semibold text-black">Case Study 1: Irvine Tech Professional</h3>
                 </div>
                 <div className="grid md:grid-cols-2 gap-8">
@@ -227,8 +227,8 @@ export default function AiVsTraditionalDebtSettlement() {
                     </ul>
                   </div>
                 </div>
-                <div className="mt-4 p-4 bg-green-50 border border-green-200">
-                  <p className="text-sm text-green-800">
+                <div className="mt-4 p-4 bg-neutral-50 border border-neutral-200">
+                  <p className="text-sm text-black">
                     <strong>AI Advantage:</strong> Algorithm identified optimal timing for negotiations based on creditor payment cycles, 
                     resulting in 27% better outcome than industry average.
                   </p>
@@ -237,7 +237,7 @@ export default function AiVsTraditionalDebtSettlement() {
 
               <div className="border border-neutral-200 p-8">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="w-3 h-3 bg-green-500"></div>
+                  <div className="w-3 h-3 bg-neutral-500"></div>
                   <h3 className="text-xl font-semibold text-black">Case Study 2: Huntington Beach Small Business Owner</h3>
                 </div>
                 <div className="grid md:grid-cols-2 gap-8">
@@ -260,8 +260,8 @@ export default function AiVsTraditionalDebtSettlement() {
                     </ul>
                   </div>
                 </div>
-                <div className="mt-4 p-4 bg-green-50 border border-green-200">
-                  <p className="text-sm text-green-800">
+                <div className="mt-4 p-4 bg-neutral-50 border border-neutral-200">
+                  <p className="text-sm text-black">
                     <strong>AI Advantage:</strong> Machine learning analysis of 10,000+ small business settlements 
                     identified industry-specific negotiation strategies that traditional companies couldn't match.
                   </p>
@@ -347,7 +347,7 @@ export default function AiVsTraditionalDebtSettlement() {
                       <span>Total Paid:</span>
                       <span className="font-mono">$22,302</span>
                     </div>
-                    <div className="flex justify-between text-green-700 font-semibold">
+                    <div className="flex justify-between text-black font-semibold">
                       <span>Total Savings:</span>
                       <span className="font-mono">$22,698 (50%)</span>
                     </div>
@@ -373,7 +373,7 @@ export default function AiVsTraditionalDebtSettlement() {
                       <span>Total Paid:</span>
                       <span className="font-mono">$32,063</span>
                     </div>
-                    <div className="flex justify-between text-orange-700 font-semibold">
+                    <div className="flex justify-between text-black font-semibold">
                       <span>Total Savings:</span>
                       <span className="font-mono">$12,937 (29%)</span>
                     </div>
@@ -381,8 +381,8 @@ export default function AiVsTraditionalDebtSettlement() {
                 </div>
               </div>
               
-              <div className="mt-6 p-4 bg-green-50 border border-green-200">
-                <p className="text-sm text-green-800 font-semibold">
+              <div className="mt-6 p-4 bg-neutral-50 border border-neutral-200">
+                <p className="text-sm text-black font-semibold">
                   AI-powered settlement saves an additional $9,761 per client on average
                 </p>
               </div>
@@ -402,30 +402,29 @@ export default function AiVsTraditionalDebtSettlement() {
         </div>
       </article>
 
-      {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-emerald-600 via-emerald-700 to-teal-700">
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-light text-white mb-6">
-            Ready to Experience AI-Powered Settlement?
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
           </h2>
-          <p className="text-xl text-emerald-100 mb-8 font-light">
-            See how artificial intelligence can deliver superior debt settlement results
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
           </p>
-          <button
-            onClick={() => document.getElementById('consultation')?.scrollIntoView({ behavior: 'smooth' })}
-            className="bg-white text-emerald-700 px-8 py-4 text-lg font-semibold hover:bg-emerald-50 transition-colors duration-300 shadow-lg hover:shadow-xl"
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
           >
-            Get AI Settlement Analysis
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
           </button>
         </div>
       </section>
 
-      {/* Research Consultation */}
-      <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <ConsultationForm />
-        </div>
-      </section>
+      {/* Consultation Form */}
+      <div id="consultation">
+        <ConsultationForm />
+      </div>
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { ArrowLeft, Calendar, Clock, User, Home } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, Home, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -23,17 +23,17 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
         <meta property="og:type" content="article" />
         <link rel="canonical" href="https://debtclear.com/blog/property-protection-debt-settlement-orange-county" />
       </Helmet>
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"><ArrowLeft className="w-4 h-4" />Back to Resources</Link>
-          <div className="flex items-center gap-3 mb-6"><div className="w-2 h-2 bg-black"></div><span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">ASSET PROTECTION</span></div>
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">Orange County Property Protection<br /><span className="font-mono text-3xl lg:text-4xl">During Debt Settlement</span></h1>
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-400 hover:text-white transition-colors mb-8"><ArrowLeft className="w-4 h-4" />Back to Resources</Link>
+          <div className="flex items-center gap-3 mb-6"><div className="w-2 h-2 bg-white"></div><span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">ASSET PROTECTION</span></div>
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">Orange County Property Protection<br /><span className="font-mono text-3xl lg:text-4xl">During Debt Settlement</span></h1>
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 5, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>12 min read</span></div>
             <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Asset Protection Team</span></div>
           </div>
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">How to protect your Orange County home and assets during the debt settlement process using California exemptions and strategic planning.</p>
+          <p className="text-xl text-neutral-300 leading-relaxed font-light">How to protect your Orange County home and assets during the debt settlement process using California exemptions and strategic planning.</p>
         </div>
       </section>
       <article className="py-16">
@@ -41,11 +41,11 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
           <div className="prose prose-lg max-w-none">
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Orange County Real Estate Protection</h2>
             <p className="text-neutral-700 leading-relaxed mb-6">With median home values exceeding $1.2 million, Orange County homeowners have significant equity at stake during debt settlement. California's homestead exemption provides substantial protection for primary residences.</p>
-            <div className="bg-emerald-50 border border-emerald-200 p-8 mb-8">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
               <div className="flex items-start gap-3">
-                <Home className="w-6 h-6 text-emerald-600 mt-1" />
-                <div><h3 className="text-lg font-semibold text-emerald-800 mb-4">California Homestead Exemptions</h3>
-                  <div className="space-y-3 text-sm text-emerald-700">
+                <Home className="w-6 h-6 text-black mt-1" />
+                <div><h3 className="text-lg font-semibold text-black mb-4">California Homestead Exemptions</h3>
+                  <div className="space-y-3 text-sm text-black">
                     <div className="flex justify-between"><span>Single person:</span><span className="font-mono">$300,000</span></div>
                     <div className="flex justify-between"><span>Family (spouse/children):</span><span className="font-mono">$600,000</span></div>
                     <div className="flex justify-between"><span>Senior (65+) or disabled:</span><span className="font-mono">$600,000</span></div>
@@ -71,8 +71,8 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
             </div>
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Orange County Case Examples</h2>
             <div className="space-y-6 mb-8">
-              <div className="bg-blue-50 border border-blue-200 p-8">
-                <h3 className="text-xl font-semibold text-blue-800 mb-4">Huntington Beach Professional</h3>
+              <div className="bg-neutral-50 border border-neutral-200 p-8">
+                <h3 className="text-xl font-semibold text-black mb-4">Huntington Beach Professional</h3>
                 <div className="grid md:grid-cols-2 gap-6 text-sm">
                   <div><h5 className="font-semibold text-black mb-2">Assets at Risk:</h5>
                     <ul className="text-neutral-700 space-y-1">
@@ -93,8 +93,8 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
                 </div>
               </div>
               
-              <div className="bg-green-50 border border-green-200 p-8">
-                <h3 className="text-xl font-semibold text-green-800 mb-4">Irvine Tech Executive</h3>
+              <div className="bg-neutral-50 border border-neutral-200 p-8">
+                <h3 className="text-xl font-semibold text-black mb-4">Irvine Tech Executive</h3>
                 <div className="grid md:grid-cols-2 gap-6 text-sm">
                   <div><h5 className="font-semibold text-black mb-2">Complex Asset Profile:</h5>
                     <ul className="text-neutral-700 space-y-1">
@@ -150,7 +150,7 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Advanced Asset Protection Strategies</h2>
             <div className="space-y-6 mb-8">
-              <div className="bg-purple-50 border border-purple-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-3">Domestic Asset Protection Trusts</h4>
                 <p className="text-sm text-neutral-700 mb-3">Self-settled spendthrift trusts can provide protection from future creditors when properly established.</p>
                 <div className="grid md:grid-cols-2 gap-4 text-xs text-neutral-600">
@@ -175,7 +175,7 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
                 </div>
               </div>
               
-              <div className="bg-indigo-50 border border-indigo-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-3">Limited Liability Companies (LLCs)</h4>
                 <p className="text-sm text-neutral-700 mb-3">California LLCs can provide charging order protection for business assets and investment properties.</p>
                 <div className="text-xs text-neutral-600">
@@ -217,7 +217,7 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
             </div>
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Orange County Real Estate Market Considerations</h2>
-            <div className="bg-orange-50 border border-orange-200 p-6 mb-8">
+            <div className="bg-neutral-50 border border-neutral-200 p-6 mb-8">
               <h3 className="text-lg font-semibold text-black mb-4">Market Volatility and Asset Protection</h3>
               <div className="space-y-4 text-sm text-neutral-700">
                 <div>
@@ -250,13 +250,13 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
             </div>
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Fraudulent Transfer Laws</h2>
-            <div className="bg-red-50 border border-red-200 p-8 mb-8">
-              <h3 className="text-lg font-semibold text-red-800 mb-4">California Uniform Fraudulent Transfer Act</h3>
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
+              <h3 className="text-lg font-semibold text-black mb-4">California Uniform Fraudulent Transfer Act</h3>
               <p className="text-sm text-neutral-700 mb-4">Asset transfers made with intent to defraud creditors can be reversed. Understanding these laws is crucial for Orange County residents.</p>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-semibold text-black mb-3">Fraudulent Transfer Indicators</h4>
-                  <ul className="space-y-2 text-sm text-red-700">
+                  <ul className="space-y-2 text-sm text-black">
                     <li>• Transfer to family member or insider</li>
                     <li>• Debtor retains possession or control</li>
                     <li>• Transfer concealed or disclosed belatedly</li>
@@ -284,7 +284,7 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Insurance as Asset Protection</h2>
             <div className="space-y-6 mb-8">
-              <div className="bg-blue-50 border border-blue-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-3">Umbrella Liability Insurance</h4>
                 <p className="text-sm text-neutral-700 mb-3">Essential protection for high-net-worth Orange County residents facing potential liability claims.</p>
                 <div className="grid md:grid-cols-2 gap-4 text-xs text-neutral-600">
@@ -309,7 +309,7 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
                 </div>
               </div>
               
-              <div className="bg-green-50 border border-green-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-3">Life Insurance Cash Value Protection</h4>
                 <p className="text-sm text-neutral-700 mb-3">California provides broad protection for life insurance cash values and death benefits.</p>
                 <div className="text-xs text-neutral-600">
@@ -326,7 +326,7 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
             </div>
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Professional Practice Protection</h2>
-            <div className="bg-yellow-50 border border-yellow-200 p-6 mb-8">
+            <div className="bg-neutral-50 border border-neutral-200 p-6 mb-8">
               <h3 className="text-lg font-semibold text-black mb-4">Orange County Professional Considerations</h3>
               <p className="text-sm text-neutral-700 mb-4">High-income professionals in Orange County face unique asset protection challenges and opportunities.</p>
               <div className="grid md:grid-cols-2 gap-6">
@@ -366,12 +366,29 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
         </div>
       </article>
 
-      {/* Research Consultation */}
-      <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <ConsultationForm />
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
+          </h2>
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
+          </p>
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
+          >
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
+          </button>
         </div>
       </section>
+
+      {/* Consultation Form */}
+      <div id="consultation">
+        <ConsultationForm />
+      </div>
     </div>
   );
 }

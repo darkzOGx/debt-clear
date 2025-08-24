@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { ArrowLeft, Calendar, Clock, User, TrendingUp } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, TrendingUp, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -23,17 +23,17 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
         <meta property="og:type" content="article" />
         <link rel="canonical" href="https://debtclear.com/blog/credit-score-recovery-debt-settlement-orange-county" />
       </Helmet>
-      <section className="py-16 bg-neutral-50 border-b border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-600 hover:text-black transition-colors mb-8"><ArrowLeft className="w-4 h-4" />Back to Resources</Link>
-          <div className="flex items-center gap-3 mb-6"><div className="w-2 h-2 bg-black"></div><span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">CREDIT REPAIR</span></div>
-          <h1 className="text-4xl lg:text-5xl font-light text-black mb-6 leading-tight">Credit Score Recovery After Debt Settlement<br /><span className="font-mono text-3xl lg:text-4xl">in Orange County</span></h1>
-          <div className="flex items-center gap-6 text-sm font-mono text-neutral-500 mb-8">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
+          <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-400 hover:text-white transition-colors mb-8"><ArrowLeft className="w-4 h-4" />Back to Resources</Link>
+          <div className="flex items-center gap-3 mb-6"><div className="w-2 h-2 bg-white"></div><span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">CREDIT REPAIR</span></div>
+          <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">Credit Score Recovery After Debt Settlement<br /><span className="font-mono text-3xl lg:text-4xl">in Orange County</span></h1>
+          <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>June 25, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>11 min read</span></div>
             <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Credit Recovery Team</span></div>
           </div>
-          <p className="text-xl text-neutral-700 leading-relaxed font-light">Step-by-step guide to rebuilding credit after debt settlement, with timelines and strategies specific to Orange County residents.</p>
+          <p className="text-xl text-neutral-300 leading-relaxed font-light">Step-by-step guide to rebuilding credit after debt settlement, with timelines and strategies specific to Orange County residents.</p>
         </div>
       </section>
       <article className="py-16">
@@ -41,11 +41,11 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
           <div className="prose prose-lg max-w-none">
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Post-Settlement Credit Impact</h2>
             <p className="text-neutral-700 leading-relaxed mb-6">Debt settlement typically causes a 75-150 point credit score drop initially, but Orange County residents typically see scores recover to pre-settlement levels within 24-36 months with proper strategy.</p>
-            <div className="bg-emerald-50 border border-emerald-200 p-8 mb-8">
+            <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8">
               <div className="flex items-start gap-3">
-                <TrendingUp className="w-6 h-6 text-emerald-600 mt-1" />
-                <div><h3 className="text-lg font-semibold text-emerald-800 mb-4">Average Credit Recovery Timeline</h3>
-                  <div className="space-y-2 text-sm text-emerald-700">
+                <TrendingUp className="w-6 h-6 text-black mt-1" />
+                <div><h3 className="text-lg font-semibold text-black mb-4">Average Credit Recovery Timeline</h3>
+                  <div className="space-y-2 text-sm text-black">
                     <div className="flex justify-between"><span>Months 1-6:</span><span>Score stabilizes, stops declining</span></div>
                     <div className="flex justify-between"><span>Months 6-12:</span><span>20-40 point improvement</span></div>
                     <div className="flex justify-between"><span>Months 12-24:</span><span>50-80 point improvement</span></div>
@@ -86,7 +86,7 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
             </div>
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Orange County Credit Recovery Strategies</h2>
             <div className="space-y-6 mb-8">
-              <div className="bg-blue-50 border border-blue-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-3">Secured Credit Cards for Orange County Residents</h4>
                 <p className="text-sm text-neutral-700 mb-3">Start rebuilding with secured cards from local banks and credit unions:</p>
                 <div className="grid md:grid-cols-2 gap-4">
@@ -111,7 +111,7 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
                 </div>
               </div>
               
-              <div className="bg-green-50 border border-green-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-3">Credit Builder Loans</h4>
                 <p className="text-sm text-neutral-700 mb-3">Orange County credit unions offer specialized credit builder programs:</p>
                 <div className="space-y-2 text-xs text-neutral-600">
@@ -122,7 +122,7 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
                 </div>
               </div>
               
-              <div className="bg-yellow-50 border border-yellow-200 p-6">
+              <div className="bg-neutral-50 border border-neutral-200 p-6">
                 <h4 className="font-semibold text-black mb-3">Authorized User Strategy</h4>
                 <p className="text-sm text-neutral-700 mb-3">Become an authorized user on family member's accounts with good payment history. Ideal characteristics:</p>
                 <div className="grid md:grid-cols-2 gap-4 text-xs text-neutral-600">
@@ -146,7 +146,7 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
             <div className="bg-neutral-50 p-8 border border-neutral-200 mb-8">
               <h3 className="text-lg font-semibold text-black mb-4">Detailed Recovery Timeline</h3>
               <div className="space-y-6">
-                <div className="border-l-4 border-red-500 pl-6">
+                <div className="border-l-4 border-neutral-200 pl-6">
                   <h4 className="font-semibold text-black mb-2">Months 1-6: Foundation Phase</h4>
                   <ul className="text-sm text-neutral-700 space-y-1">
                     <li>• <strong>Month 1:</strong> Obtain credit reports from all three bureaus (annualcreditreport.com)</li>
@@ -158,7 +158,7 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
                 
-                <div className="border-l-4 border-yellow-500 pl-6">
+                <div className="border-l-4 border-neutral-200 pl-6">
                   <h4 className="font-semibold text-black mb-2">Months 6-12: Building Phase</h4>
                   <ul className="text-sm text-neutral-700 space-y-1">
                     <li>• <strong>Month 7-8:</strong> Establish 100% on-time payment pattern</li>
@@ -168,7 +168,7 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
                 
-                <div className="border-l-4 border-green-500 pl-6">
+                <div className="border-l-4 border-neutral-200 pl-6">
                   <h4 className="font-semibold text-black mb-2">Months 12-24: Expansion Phase</h4>
                   <ul className="text-sm text-neutral-700 space-y-1">
                     <li>• <strong>Month 13-15:</strong> Apply for first unsecured credit card (Capital One, Credit One)</li>
@@ -178,7 +178,7 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
                   </ul>
                 </div>
                 
-                <div className="border-l-4 border-blue-500 pl-6">
+                <div className="border-l-4 border-neutral-200 pl-6">
                   <h4 className="font-semibold text-black mb-2">Months 24-36: Optimization Phase</h4>
                   <ul className="text-sm text-neutral-700 space-y-1">
                     <li>• <strong>Month 25-27:</strong> Apply for premium rewards cards (if score 650+)</li>
@@ -199,7 +199,7 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
                   <div className="flex justify-between"><span>Post-settlement low:</span><span className="font-mono">587</span></div>
                   <div className="flex justify-between"><span>12-month score:</span><span className="font-mono">634</span></div>
                   <div className="flex justify-between"><span>24-month score:</span><span className="font-mono">698</span></div>
-                  <div className="flex justify-between font-semibold"><span>36-month score:</span><span className="font-mono text-green-600">751</span></div>
+                  <div className="flex justify-between font-semibold"><span>36-month score:</span><span className="font-mono text-black">751</span></div>
                 </div>
                 <p className="text-xs text-neutral-600 mt-2">Strategy: 2 secured cards, authorized user, credit builder loan</p>
               </div>
@@ -211,19 +211,19 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
                   <div className="flex justify-between"><span>Post-settlement low:</span><span className="font-mono">521</span></div>
                   <div className="flex justify-between"><span>12-month score:</span><span className="font-mono">589</span></div>
                   <div className="flex justify-between"><span>24-month score:</span><span className="font-mono">647</span></div>
-                  <div className="flex justify-between font-semibold"><span>30-month score:</span><span className="font-mono text-green-600">672</span></div>
+                  <div className="flex justify-between font-semibold"><span>30-month score:</span><span className="font-mono text-black">672</span></div>
                 </div>
                 <p className="text-xs text-neutral-600 mt-2">Strategy: SchoolsFirst CU secured card, share loan, authorized user</p>
               </div>
             </div>
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Common Recovery Mistakes to Avoid</h2>
-            <div className="bg-red-50 border border-red-200 p-6 mb-8">
-              <h3 className="text-lg font-semibold text-red-800 mb-4">Credit Recovery Pitfalls</h3>
+            <div className="bg-neutral-50 border border-neutral-200 p-6 mb-8">
+              <h3 className="text-lg font-semibold text-black mb-4">Credit Recovery Pitfalls</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-semibold text-black mb-3">Application Mistakes</h4>
-                  <ul className="space-y-2 text-sm text-red-700">
+                  <ul className="space-y-2 text-sm text-black">
                     <li>• Applying for too many cards too quickly</li>
                     <li>• Targeting premium cards before score recovery</li>
                     <li>• Not checking pre-qualification tools</li>
@@ -233,7 +233,7 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
                 
                 <div>
                   <h4 className="font-semibold text-black mb-3">Usage Mistakes</h4>
-                  <ul className="space-y-2 text-sm text-red-700">
+                  <ul className="space-y-2 text-sm text-black">
                     <li>• Exceeding 30% utilization on any card</li>
                     <li>• Missing even one payment</li>
                     <li>• Closing secured cards too early</li>
@@ -264,8 +264,8 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
             </div>
 
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Orange County Mortgage and Auto Lending After Debt Settlement</h2>
-            <div className="bg-blue-50 border border-blue-200 p-6 mb-8">
-              <h3 className="text-lg font-semibold text-blue-800 mb-4">Financing Timeline Expectations</h3>
+            <div className="bg-neutral-50 border border-neutral-200 p-6 mb-8">
+              <h3 className="text-lg font-semibold text-black mb-4">Financing Timeline Expectations</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-semibold text-black mb-3">Auto Loans</h4>
@@ -295,12 +295,29 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
         </div>
       </article>
 
-      {/* Research Consultation */}
-      <section id="consultation" className="py-8 bg-white border-t border-neutral-200">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <ConsultationForm />
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
+          </h2>
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
+          </p>
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
+          >
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
+          </button>
         </div>
       </section>
+
+      {/* Consultation Form */}
+      <div id="consultation">
+        <ConsultationForm />
+      </div>
     </div>
   );
 }

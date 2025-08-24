@@ -36,7 +36,7 @@ export default function SimpleIrsTaxSettlementStrategiesOrangeCounty() {
             <li>Average settlement amount: 18% of original debt</li>
           </ul>
 
-          <div className="bg-red-900 text-white p-8 rounded-lg mt-8">
+          <div className="bg-black text-white p-8 rounded-lg mt-8">
             <h3 className="text-xl font-bold mb-4">Facing IRS Collection Actions?</h3>
             <p>Don't wait - contact our Orange County tax resolution specialists immediately for emergency assistance.</p>
             <p className="mt-4">

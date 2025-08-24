@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Calendar, Clock, User, GraduationCap, BookOpen, Shield, DollarSign, TrendingUp, FileCheck, Building2 } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, User, GraduationCap, BookOpen, Shield, DollarSign, TrendingUp, FileCheck, Building2, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
@@ -96,7 +96,7 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
 
           <button 
             onClick={scrollToConsultation}
-            className="bg-white text-purple-700 px-8 py-4 rounded-lg font-semibold hover:bg-indigo-50 transition-colors inline-flex items-center gap-2"
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
           >
             Check My Forgiveness Options
             <ArrowLeft className="w-4 h-4 rotate-180" />
@@ -105,7 +105,7 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
       </section>
 
       {/* Statistics Section */}
-      <section className="py-16 bg-indigo-50">
+      <section className="py-16 bg-neutral-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <motion.div
@@ -113,11 +113,11 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-indigo-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-indigo-100 rounded-xl">
-                  <GraduationCap className="w-8 h-8 text-indigo-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <GraduationCap className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">278K</div>
@@ -131,11 +131,11 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-purple-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-purple-100 rounded-xl">
-                  <DollarSign className="w-8 h-8 text-purple-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <DollarSign className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">$2.1B</div>
@@ -149,11 +149,11 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-blue-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-blue-100 rounded-xl">
-                  <Building2 className="w-8 h-8 text-blue-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <Building2 className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">18,400</div>
@@ -167,11 +167,11 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-green-500"
+              className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-neutral-200"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 bg-green-100 rounded-xl">
-                  <TrendingUp className="w-8 h-8 text-green-600" />
+                <div className="p-3 bg-neutral-50 rounded-xl">
+                  <TrendingUp className="w-8 h-8 text-black" />
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-gray-900">73%</div>
@@ -199,7 +199,7 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              className="bg-green-50 border border-green-200 p-8 mb-12 rounded-lg"
+              className="bg-neutral-50 border border-neutral-200 p-8 mb-12 rounded-lg"
             >
               <h2 className="text-2xl font-semibold text-black mb-6 flex items-center gap-3">
                 <Shield className="w-6 h-6" />
@@ -234,7 +234,7 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
                 </div>
               </div>
 
-              <div className="mt-6 p-4 bg-white border border-green-200 rounded-lg">
+              <div className="mt-6 p-4 bg-white border border-neutral-200 rounded-lg">
                 <h4 className="font-semibold text-black mb-2">PSLF Orange County Success Rate</h4>
                 <p className="text-sm text-neutral-700">
                   Orange County PSLF applicants achieve a 73% approval rate, significantly higher than the 67% national average, due to strong documentation practices and employer cooperation.
@@ -257,8 +257,8 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
               </p>
 
               <div className="space-y-6">
-                <div className="bg-blue-50 border border-blue-200 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-blue-800 mb-3">Federal Teacher Loan Forgiveness</h3>
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-black mb-3">Federal Teacher Loan Forgiveness</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <h4 className="font-semibold text-black mb-3">Qualifying Orange County Schools</h4>
@@ -282,12 +282,12 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
                   </div>
                 </div>
 
-                <div className="bg-purple-50 border border-purple-200 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-purple-800 mb-3">California Teacher Loan Assumption Program (APLE)</h3>
-                  <p className="text-purple-700 mb-3">
+                <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
+                  <h3 className="text-lg font-semibold text-black mb-3">California Teacher Loan Assumption Program (APLE)</h3>
+                  <p className="text-black mb-3">
                     California's state program provides additional loan forgiveness for teachers in high-need schools:
                   </p>
-                  <ul className="space-y-2 text-sm text-purple-600">
+                  <ul className="space-y-2 text-sm text-black">
                     <li>• Up to $19,000 total forgiveness</li>
                     <li>• $11,000 for first two years</li>
                     <li>• $8,000 for years three and four</li>
@@ -337,7 +337,7 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
                 </div>
               </div>
 
-              <div className="bg-green-50 border border-green-200 p-6 rounded-lg">
+              <div className="bg-neutral-50 border border-neutral-200 p-6 rounded-lg">
                 <h4 className="font-semibold text-black mb-3">Orange County SAVE Plan Example</h4>
                 <div className="space-y-2 text-sm text-neutral-700">
                   <p><strong>Borrower Profile:</strong> Irvine resident, $50,000 income, $35,000 student loans</p>
@@ -362,7 +362,7 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
                 Orange County's robust healthcare sector offers numerous loan repayment assistance programs for medical professionals working in underserved areas.
               </p>
 
-              <div className="bg-red-50 border border-red-200 p-8 mb-8 rounded-lg">
+              <div className="bg-neutral-50 border border-neutral-200 p-8 mb-8 rounded-lg">
                 <h3 className="text-xl font-semibold text-black mb-6">Healthcare Loan Repayment Programs</h3>
                 
                 <div className="space-y-6">
@@ -406,48 +406,26 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
               </div>
             </motion.div>
 
-            {/* CTA Section */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.8 }}
-              className="bg-gradient-to-r from-indigo-600 to-purple-700 text-white p-8 rounded-2xl text-center mb-12"
-            >
-              <h2 className="text-2xl font-bold mb-4">
-                Maximize Your Student Loan Forgiveness
-              </h2>
-              <p className="text-indigo-100 mb-6 max-w-2xl mx-auto">
-                Orange County offers exceptional opportunities for student loan forgiveness. Our specialists help you navigate all available programs to maximize your debt elimination potential.
-              </p>
-              <div className="grid md:grid-cols-2 gap-6 text-sm mb-6">
-                <div>
-                  <h4 className="font-semibold mb-2">Forgiveness Program Analysis:</h4>
-                  <ul className="space-y-1 text-indigo-200">
-                    <li>• PSLF eligibility verification</li>
-                    <li>• Teacher forgiveness qualification</li>
-                    <li>• SAVE plan optimization</li>
-                    <li>• Professional program matching</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2">Orange County Results:</h4>
-                  <ul className="space-y-1 text-indigo-200">
-                    <li>• 73% PSLF approval rate</li>
-                    <li>• $47,000 average forgiveness</li>
-                    <li>• 18,400+ qualifying jobs</li>
-                    <li>• Expert program guidance</li>
-                  </ul>
-                </div>
-              </div>
-              <button 
-                onClick={scrollToConsultation}
-                className="bg-white text-purple-700 px-8 py-3 rounded-lg font-semibold hover:bg-indigo-50 transition-colors"
-              >
-                Check My Forgiveness Options
-              </button>
-            </motion.div>
           </div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Ready to Start Your Debt-Free Journey?
+          </h2>
+          <p className="text-xl text-neutral-300 mb-8">
+            Get expert debt settlement guidance tailored to your specific situation.
+          </p>
+          <button 
+            onClick={scrollToConsultation}
+            className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-neutral-100 transition-colors inline-flex items-center gap-2"
+          >
+            FREE CONSULTATION
+            <ArrowRight className="w-4 h-4" />
+          </button>
         </div>
       </section>
 

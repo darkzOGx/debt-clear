@@ -18,47 +18,46 @@ export default function LagunaWoodsDebtSettlement() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative py-24 bg-white">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+      <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
+        <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center max-w-4xl mx-auto"
+            className="text-center"
           >
             {/* Location Badge */}
-            <div className="inline-flex items-center gap-3 mb-8">
-              <MapPin className="w-4 h-4 text-black" />
-              <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-                LAGUNA WOODS DEBT SETTLEMENT
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <div className="w-2 h-2 bg-white"></div>
+              <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
+                LAGUNA WOODS DEBT SETTLEMENT SERVICES
               </span>
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-5xl lg:text-6xl font-light tracking-tight text-black mb-8 leading-[0.9]">
-              Debt Settlement
-              <br />
-              <span className="font-mono text-4xl lg:text-5xl">Laguna Woods, CA</span>
+            <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
+              Debt Settlement:<br />
+              <span className="font-mono text-3xl lg:text-4xl">Laguna Woods, CA</span>
             </h1>
 
             {/* Subheadline */}
-            <p className="text-xl text-neutral-700 max-w-3xl mx-auto mb-12 leading-relaxed font-light">
-              Specialized debt relief for Laguna Woods Village residents. Our AI-powered approach helps 
-              active seniors and retirees reduce debt by up to 60% while protecting retirement assets and lifestyle.
+            <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10 max-w-3xl mx-auto mb-8">
+              Specialized debt relief for Laguna Woods' senior community. Our AI-powered approach helps 
+              retirees and seniors reduce debt by up to 60% while protecting retirement assets and fixed incomes.
             </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <Button 
                 onClick={scrollToConsultation}
-                className="bg-black hover:bg-neutral-800 text-white px-8 py-6 text-base font-mono uppercase tracking-wide"
+                className="bg-white hover:bg-neutral-100 text-black px-8 py-6 text-base font-mono uppercase tracking-wide"
               >
-                Free Laguna Woods Analysis
+                Free Laguna Woods Debt Analysis
                 <ArrowRight className="w-4 h-4 ml-3" />
               </Button>
               <Link 
                 to="/blog"
-                className="border border-neutral-300 text-black px-8 py-6 hover:border-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
+                className="border border-white text-white px-8 py-6 hover:bg-white hover:text-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
               >
                 Learn More
                 <ArrowRight className="w-4 h-4" />
@@ -68,255 +67,159 @@ export default function LagunaWoodsDebtSettlement() {
         </div>
       </section>
 
-      {/* Laguna Woods Village Profile */}
+      {/* Community Profile */}
       <section className="py-16 bg-neutral-50 border-y border-neutral-200">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-light text-black mb-4">
-              Laguna Woods Village <span className="font-mono">Senior Community</span>
+              Laguna Woods <span className="font-mono">Senior Community</span>
             </h2>
             <p className="text-neutral-600 max-w-2xl mx-auto">
-              Dedicated service for California's premier active senior community
+              Specialized debt solutions for America's first age-restricted city
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 border border-neutral-200 text-center">
-              <div className="text-4xl font-mono text-black mb-2">18K</div>
+              <div className="text-4xl font-mono text-black mb-2">16K</div>
               <div className="text-sm font-mono uppercase tracking-wide text-neutral-600 mb-4">
-                Village Residents
+                Senior Residents
               </div>
               <p className="text-xs text-neutral-500">
-                Exclusive 55+ community with unique financial needs
+                Age-focused debt strategies for 55+ community
               </p>
             </div>
+            
             <div className="bg-white p-8 border border-neutral-200 text-center">
-              <div className="text-4xl font-mono text-black mb-2">$52K</div>
+              <div className="text-4xl font-mono text-black mb-2">$67K</div>
               <div className="text-sm font-mono uppercase tracking-wide text-neutral-600 mb-4">
-                Median Household Income
+                Median Fixed Income
               </div>
               <p className="text-xs text-neutral-500">
-                Fixed income optimization for retirement years
+                Retirement-focused debt management solutions
               </p>
             </div>
+            
             <div className="bg-white p-8 border border-neutral-200 text-center">
-              <div className="text-4xl font-mono text-black mb-2">90%</div>
+              <div className="text-4xl font-mono text-black mb-2">78</div>
               <div className="text-sm font-mono uppercase tracking-wide text-neutral-600 mb-4">
-                Age 55+ Population
+                Average Age
               </div>
               <p className="text-xs text-neutral-500">
-                Senior-focused debt relief strategies
+                Senior-specific financial protection services
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Senior-Focused Services */}
+      {/* Specialized Services */}
       <section className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-light text-black mb-6">
-              Debt Solutions for <span className="font-mono">Active Seniors</span>
+              Senior Debt Solutions for <span className="font-mono">Laguna Woods</span>
             </h2>
             <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-              Comprehensive programs designed for Laguna Woods Village residents' unique needs
+              Protecting retirement savings and fixed incomes while eliminating debt
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-3 gap-8">
-            <div className="bg-neutral-50 p-8 border border-neutral-200">
-              <h3 className="text-xl font-semibold text-black mb-4">Healthcare & Medical</h3>
-              <ul className="space-y-2 text-sm text-neutral-600 mb-6">
-                <li>• Medicare gap coverage debt</li>
-                <li>• Medical procedure financing</li>
-                <li>• Prescription cost management</li>
-                <li>• Long-term care planning</li>
-              </ul>
-              <div className="text-xs font-mono text-neutral-500">
-                Protect health while resolving medical debt
-              </div>
-            </div>
-            
-            <div className="bg-neutral-50 p-8 border border-neutral-200">
-              <h3 className="text-xl font-semibold text-black mb-4">Retirement Protection</h3>
-              <ul className="space-y-2 text-sm text-neutral-600 mb-6">
-                <li>• Social Security optimization</li>
-                <li>• Pension preservation</li>
-                <li>• IRA and 401(k) protection</li>
-                <li>• Estate planning integration</li>
-              </ul>
-              <div className="text-xs font-mono text-neutral-500">
-                Secure retirement income during debt resolution
-              </div>
-            </div>
-            
-            <div className="bg-neutral-50 p-8 border border-neutral-200">
-              <h3 className="text-xl font-semibold text-black mb-4">Village Lifestyle</h3>
-              <ul className="space-y-2 text-sm text-neutral-600 mb-6">
-                <li>• Manor ownership protection</li>
-                <li>• HOA fee management</li>
-                <li>• Club membership preservation</li>
-                <li>• Community standing maintained</li>
-              </ul>
-              <div className="text-xs font-mono text-neutral-500">
-                Keep enjoying Village amenities debt-free
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Village Community Focus */}
-      <section className="py-16 bg-neutral-50 border-y border-neutral-200">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-2 h-2 bg-black"></div>
-                <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
-                  SENIOR EXPERTISE
-                </span>
-              </div>
-              
-              <h2 className="text-4xl font-light text-black mb-8 leading-tight">
-                Understanding
-                <br />
-                <span className="font-mono">Laguna Woods Village</span>
-              </h2>
-              
-              <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 bg-black text-white flex items-center justify-center text-xs font-mono mt-1">
-                    1
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-black mb-2">Village-Specific Knowledge</h3>
-                    <p className="text-neutral-600 text-sm leading-relaxed">
-                      Deep understanding of Laguna Woods Village governance, manor types, 
-                      and the unique financial structure of this retirement community.
-                    </p>
-                  </div>
+              <div className="space-y-8">
+                <div className="border-l-4 border-black pl-6">
+                  <h3 className="text-xl font-semibold text-black mb-3">Medical Debt Relief</h3>
+                  <p className="text-neutral-600 mb-4">
+                    Healthcare expenses often burden seniors on fixed incomes. We negotiate 
+                    medical debt while protecting Medicare benefits and supplemental coverage.
+                  </p>
+                  <ul className="space-y-1 text-sm text-neutral-600">
+                    <li>• Medicare supplement debt</li>
+                    <li>• Hospital bill negotiations</li>
+                    <li>• Prescription debt relief</li>
+                    <li>• Long-term care debt</li>
+                  </ul>
                 </div>
-                
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 bg-black text-white flex items-center justify-center text-xs font-mono mt-1">
-                    2
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-black mb-2">Fixed Income Specialists</h3>
-                    <p className="text-neutral-600 text-sm leading-relaxed">
-                      Expert strategies for residents living on Social Security, pensions, 
-                      and retirement savings with limited ability to increase income.
-                    </p>
-                  </div>
+
+                <div className="border-l-4 border-black pl-6">
+                  <h3 className="text-xl font-semibold text-black mb-3">Retirement Asset Protection</h3>
+                  <p className="text-neutral-600 mb-4">
+                    Safeguard 401k, IRA, and pension benefits while settling credit card 
+                    and unsecured debt accumulated during retirement years.
+                  </p>
+                  <ul className="space-y-1 text-sm text-neutral-600">
+                    <li>• Social Security protection</li>
+                    <li>• Pension benefit security</li>
+                    <li>• IRA/401k preservation</li>
+                    <li>• Fixed income optimization</li>
+                  </ul>
                 </div>
-                
-                <div className="flex items-start gap-4">
-                  <div className="w-6 h-6 bg-black text-white flex items-center justify-center text-xs font-mono mt-1">
-                    3
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-black mb-2">Healthcare Cost Management</h3>
-                    <p className="text-neutral-600 text-sm leading-relaxed">
-                      Specialized approach to medical debt common among seniors, including 
-                      coordination with Medicare and supplemental insurance.
-                    </p>
-                  </div>
+
+                <div className="border-l-4 border-black pl-6">
+                  <h3 className="text-xl font-semibold text-black mb-3">Estate Planning Debt</h3>
+                  <p className="text-neutral-600 mb-4">
+                    Clear debt before estate transfer to heirs, protecting family 
+                    inheritance and preventing debt complications for beneficiaries.
+                  </p>
+                  <ul className="space-y-1 text-sm text-neutral-600">
+                    <li>• Inheritance protection</li>
+                    <li>• Estate debt clearing</li>
+                    <li>• Beneficiary safeguarding</li>
+                    <li>• Legacy preservation</li>
+                  </ul>
                 </div>
               </div>
             </div>
             
-            <div className="bg-white p-8 lg:p-12 border border-neutral-200">
+            <div className="bg-neutral-50 p-8 lg:p-12 border border-neutral-200">
               <h3 className="text-2xl font-light text-black mb-8">
-                <span className="font-mono">Village Success</span> Stories
+                <span className="font-mono">Senior</span> Success Stories
               </h3>
               
               <div className="space-y-6">
-                <div className="bg-neutral-50 p-6 border border-neutral-200">
+                <div className="bg-white p-6 border border-neutral-200">
                   <div className="flex items-center gap-4 mb-4">
-                    <div className="text-2xl font-mono text-black">$58K</div>
-                    <div className="text-sm text-neutral-600">reduced to $23K</div>
+                    <div className="text-2xl font-mono text-black">$63K</div>
+                    <div className="text-sm text-neutral-600">reduced to $22K</div>
                   </div>
                   <p className="text-xs text-neutral-500">
-                    Retired teacher couple eliminated 60% of medical debt while keeping manor home
+                    Retired teacher eliminated medical debt while preserving pension benefits
                   </p>
                 </div>
                 
-                <div className="bg-neutral-50 p-6 border border-neutral-200">
+                <div className="bg-white p-6 border border-neutral-200">
                   <div className="flex items-center gap-4 mb-4">
-                    <div className="text-2xl font-mono text-black">$72K</div>
-                    <div className="text-sm text-neutral-600">reduced to $31K</div>
-                  </div>
-                  <p className="text-xs text-neutral-500">
-                    Widowed resident resolved credit card debt, maintained Village lifestyle
-                  </p>
-                </div>
-                
-                <div className="bg-neutral-50 p-6 border border-neutral-200">
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="text-2xl font-mono text-black">$45K</div>
+                    <div className="text-2xl font-mono text-black">$47K</div>
                     <div className="text-sm text-neutral-600">reduced to $18K</div>
                   </div>
                   <p className="text-xs text-neutral-500">
-                    Former executive protected retirement accounts while settling business debt
+                    Senior couple protected Social Security while settling credit card debt
+                  </p>
+                </div>
+                
+                <div className="bg-white p-6 border border-neutral-200">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="text-2xl font-mono text-black">$89K</div>
+                    <div className="text-sm text-neutral-600">reduced to $31K</div>
+                  </div>
+                  <p className="text-xs text-neutral-500">
+                    Widowed resident cleared debt while maintaining inheritance for children
                   </p>
                 </div>
               </div>
 
               <div className="mt-8 pt-6 border-t border-neutral-200">
-                <div className="text-sm font-mono text-neutral-500 mb-4">Village Statistics:</div>
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="text-center">
-                    <div className="text-xl font-mono text-black">423</div>
-                    <div className="text-xs text-neutral-600">Village Residents Helped</div>
+                <div className="grid grid-cols-2 gap-4 text-center">
+                  <div>
+                    <div className="text-2xl font-mono text-black">65%</div>
+                    <div className="text-xs text-neutral-600">Average Reduction</div>
                   </div>
-                  <div className="text-center">
-                    <div className="text-xl font-mono text-black">$6.1M</div>
-                    <div className="text-xs text-neutral-600">Senior Debt Eliminated</div>
+                  <div>
+                    <div className="text-2xl font-mono text-black">11 Mo</div>
+                    <div className="text-xs text-neutral-600">Average Timeline</div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Trust & Security */}
-      <section className="py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-light text-black mb-6">
-              Trusted by <span className="font-mono">Laguna Woods Seniors</span>
-            </h2>
-            <p className="text-neutral-600 max-w-2xl mx-auto">
-              Confidential, respectful service that preserves dignity and independence
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-4 gap-6">
-            <div className="text-center">
-              <div className="text-3xl font-mono text-black mb-2">56%</div>
-              <div className="text-xs font-mono uppercase tracking-wide text-neutral-600">
-                Average Reduction
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-mono text-black mb-2">14 Mo</div>
-              <div className="text-xs font-mono uppercase tracking-wide text-neutral-600">
-                Average Timeline
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-mono text-black mb-2">100%</div>
-              <div className="text-xs font-mono uppercase tracking-wide text-neutral-600">
-                Manor Protection
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-mono text-black mb-2">4.9/5</div>
-              <div className="text-xs font-mono uppercase tracking-wide text-neutral-600">
-                Senior Satisfaction
               </div>
             </div>
           </div>
@@ -324,9 +227,13 @@ export default function LagunaWoodsDebtSettlement() {
       </section>
 
       {/* Schedule Research Session Form */}
-      <div ref={consultationRef}>
-        <ConsultationForm />
-      </div>
+      <section id="consultation" className="py-16 bg-white border-t border-neutral-200">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div ref={consultationRef}>
+            <ConsultationForm />
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

@@ -16,7 +16,7 @@ export default function SimpleDebtSettlementVsTaxReliefOrangeCounty() {
           <h2>Key Differences at a Glance</h2>
 
           <div className="grid md:grid-cols-2 gap-6 mb-8">
-            <div className="bg-blue-50 p-6 rounded-lg">
+            <div className="bg-neutral-50 p-6 rounded-lg">
               <h3 className="text-xl font-bold mb-4">Debt Settlement</h3>
               <ul>
                 <li>Negotiates credit card and unsecured debts</li>
@@ -27,7 +27,7 @@ export default function SimpleDebtSettlementVsTaxReliefOrangeCounty() {
               </ul>
             </div>
 
-            <div className="bg-green-50 p-6 rounded-lg">
+            <div className="bg-neutral-50 p-6 rounded-lg">
               <h3 className="text-xl font-bold mb-4">Tax Relief</h3>
               <ul>
                 <li>Resolves IRS and state tax debts</li>
