@@ -682,12 +682,9 @@ export default function BlogResources() {
                   to={article.slug}
                   className="block p-6 h-full cursor-pointer"
                 >
-                  <div className="flex items-center gap-4 mb-4">
-                    <span className="text-xs font-mono uppercase tracking-wide text-neutral-500">
-                      {article.category}
-                    </span>
-                    <div className="h-px flex-1 bg-neutral-200"></div>
-                  </div>
+                  <span className="inline-block bg-green-100 text-green-800 text-xs font-medium px-2 py-1 rounded mb-4">
+                    {article.category}
+                  </span>
 
                   <h3 className="text-xl font-semibold text-black mb-4 leading-tight">
                     {article.title}
