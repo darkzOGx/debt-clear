@@ -50,14 +50,14 @@ export default function LaHabraDebtSettlement() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <Button 
                 onClick={scrollToConsultation}
-                className="bg-white hover:bg-neutral-100 text-black px-8 py-6 text-base font-mono uppercase tracking-wide h-auto"
+                className="bg-white hover:bg-neutral-100 text-black px-8 py-5 text-base font-mono uppercase tracking-wide h-auto"
               >
-                Free La Habra Debt Analysis
+                Free Debt Analysis
                 <ArrowRight className="w-4 h-4 ml-3" />
               </Button>
               <Link 
                 to="/blog"
-                className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 shadow border border-white text-white px-8 py-6 hover:bg-white hover:text-black text-base font-mono uppercase tracking-wide h-auto"
+                className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 shadow border border-white text-white px-8 py-5 hover:bg-white hover:text-black text-base font-mono uppercase tracking-wide h-auto"
               >
                 Learn More
                 <ArrowRight className="w-4 h-4" />
@@ -265,7 +265,7 @@ export default function LaHabraDebtSettlement() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <Button 
               onClick={scrollToConsultation}
-              className="bg-white text-black hover:bg-neutral-100 px-8 py-6 text-base font-mono uppercase tracking-wide"
+              className="bg-white text-black hover:bg-neutral-100 px-8 py-5 text-base font-mono uppercase tracking-wide"
             >
               Start Your Free Analysis
               <ArrowRight className="w-4 h-4 ml-3" />
