@@ -60,7 +60,7 @@ export default function MedicalDebtReliefHub() {
         </script>
       </Helmet>
       
-      <div className="min-h-screen bg-black">
+      <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
@@ -79,13 +79,13 @@ export default function MedicalDebtReliefHub() {
             className="text-center"
           >
             <div className="flex items-center justify-center gap-3 mb-6">
-              <Heart className="w-6 h-6 text-white" />
-              <span className="text-xs uppercase tracking-[0.2em] text-white font-mono">
+              <Heart className="w-6 h-6 text-black" />
+              <span className="text-xs uppercase tracking-[0.2em] text-black font-mono">
                 MEDICAL DEBT RELIEF RESOURCE CENTER
               </span>
             </div>
 
-            <h1 className="text-4xl lg:text-6xl font-light text-white mb-6 leading-tight">
+            <h1 className="text-4xl lg:text-6xl font-light text-black mb-6 leading-tight">
               Medical Debt<br />
               <span className="font-mono text-3xl lg:text-5xl">Relief Hub</span>
             </h1>
@@ -105,7 +105,7 @@ export default function MedicalDebtReliefHub() {
               </Button>
               <Link 
                 to="/orange-county-debt-crisis-observatory"
-                className="border border-white text-white px-8 py-6 hover:bg-white hover:text-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
+                className="border border-white text-black px-8 py-6 hover:bg-white hover:text-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
               >
                 Crisis Observatory
                 <ArrowRight className="w-4 h-4" />
@@ -119,7 +119,7 @@ export default function MedicalDebtReliefHub() {
       <section className="py-16 bg-neutral-900 border-y border-neutral-700">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-light text-white mb-4">
+            <h2 className="text-3xl font-light text-black mb-4">
               Medical Debt <span className="font-mono">Crisis Overview</span>
             </h2>
             <p className="text-neutral-300 max-w-2xl mx-auto">
@@ -129,28 +129,28 @@ export default function MedicalDebtReliefHub() {
 
           <div className="grid md:grid-cols-4 gap-6 text-center mb-12">
             <div className="bg-black p-6 border border-neutral-700 shadow-sm">
-              <div className="text-4xl font-mono text-white mb-2">530M</div>
+              <div className="text-4xl font-mono text-black mb-2">530M</div>
               <div className="text-sm font-mono uppercase tracking-wide text-neutral-400">
                 Americans with Medical Debt
               </div>
             </div>
 
             <div className="bg-black p-6 border border-neutral-700 shadow-sm">
-              <div className="text-4xl font-mono text-white mb-2">$195B</div>
+              <div className="text-4xl font-mono text-black mb-2">$195B</div>
               <div className="text-sm font-mono uppercase tracking-wide text-neutral-400">
                 Total Medical Debt (US)
               </div>
             </div>
 
             <div className="bg-black p-6 border border-neutral-700 shadow-sm">
-              <div className="text-4xl font-mono text-white mb-2">43%</div>
+              <div className="text-4xl font-mono text-black mb-2">43%</div>
               <div className="text-sm font-mono uppercase tracking-wide text-neutral-400">
                 CA Adults with Medical Debt
               </div>
             </div>
 
             <div className="bg-black p-6 border border-neutral-700 shadow-sm">
-              <div className="text-4xl font-mono text-white mb-2">78%</div>
+              <div className="text-4xl font-mono text-black mb-2">78%</div>
               <div className="text-sm font-mono uppercase tracking-wide text-neutral-400">
                 Medical Debt Forgiveness Rate
               </div>
@@ -158,20 +158,20 @@ export default function MedicalDebtReliefHub() {
           </div>
 
           <div className="bg-black p-8 border border-neutral-700 shadow-sm">
-            <h3 className="text-xl font-semibold text-white mb-4 text-center">Sources & Research</h3>
+            <h3 className="text-xl font-semibold text-black mb-4 text-center">Sources & Research</h3>
             <div className="grid md:grid-cols-2 gap-6 text-sm">
               <div>
                 <ul className="space-y-2 text-neutral-400">
-                  <li>• <a href="https://www.kff.org/health-costs/" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">Kaiser Family Foundation - Health Costs</a></li>
-                  <li>• <a href="https://www.census.gov/topics/health/health-insurance.html" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">U.S. Census - Health Insurance Data</a></li>
-                  <li>• <a href="https://www.commonwealthfund.org/" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">Commonwealth Fund Health Research</a></li>
+                  <li>• <a href="https://www.kff.org/health-costs/" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">Kaiser Family Foundation - Health Costs</a></li>
+                  <li>• <a href="https://www.census.gov/topics/health/health-insurance.html" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">U.S. Census - Health Insurance Data</a></li>
+                  <li>• <a href="https://www.commonwealthfund.org/" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">Commonwealth Fund Health Research</a></li>
                 </ul>
               </div>
               <div>
                 <ul className="space-y-2 text-neutral-400">
-                  <li>• <a href="https://www.urban.org/research-area/health-policy" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">Urban Institute - Health Policy</a></li>
-                  <li>• <a href="https://www.chcf.org/" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">California Health Care Foundation</a></li>
-                  <li>• <a href="https://www.healthaffairs.org/" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">Health Affairs Research</a></li>
+                  <li>• <a href="https://www.urban.org/research-area/health-policy" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">Urban Institute - Health Policy</a></li>
+                  <li>• <a href="https://www.chcf.org/" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">California Health Care Foundation</a></li>
+                  <li>• <a href="https://www.healthaffairs.org/" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">Health Affairs Research</a></li>
                 </ul>
               </div>
             </div>
@@ -180,10 +180,10 @@ export default function MedicalDebtReliefHub() {
       </section>
 
       {/* Relief Solutions Section */}
-      <section className="py-24 bg-black">
+      <section className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-light text-white mb-4">
+            <h2 className="text-4xl font-light text-black mb-4">
               Medical Debt <span className="font-mono">Relief Solutions</span>
             </h2>
             <p className="text-neutral-300 max-w-2xl mx-auto">
@@ -196,7 +196,7 @@ export default function MedicalDebtReliefHub() {
               <div className="w-12 h-12 bg-white text-black flex items-center justify-center mb-6 rounded">
                 <FileText className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-4">Charity Care Programs</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">Charity Care Programs</h3>
               <p className="text-neutral-300 text-sm leading-relaxed mb-4">
                 Most hospitals offer charity care programs that can reduce or eliminate medical bills 
                 based on income eligibility. We help you navigate the application process.
@@ -213,7 +213,7 @@ export default function MedicalDebtReliefHub() {
               <div className="w-12 h-12 bg-white text-black flex items-center justify-center mb-6 rounded">
                 <Calculator className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-4">Payment Plan Negotiation</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">Payment Plan Negotiation</h3>
               <p className="text-neutral-300 text-sm leading-relaxed mb-4">
                 Negotiate affordable payment plans directly with hospitals and medical providers. 
                 Often interest-free and based on your ability to pay.
@@ -230,7 +230,7 @@ export default function MedicalDebtReliefHub() {
               <div className="w-12 h-12 bg-white text-black flex items-center justify-center mb-6 rounded">
                 <Shield className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-semibold text-white mb-4">Bill Verification & Dispute</h3>
+              <h3 className="text-xl font-semibold text-black mb-4">Bill Verification & Dispute</h3>
               <p className="text-neutral-300 text-sm leading-relaxed mb-4">
                 Medical billing errors are common. We help verify charges, identify mistakes, 
                 and dispute incorrect or inflated medical bills.
@@ -247,7 +247,7 @@ export default function MedicalDebtReliefHub() {
           {/* Advanced Relief Options */}
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-light text-white mb-8">
+              <h3 className="text-2xl font-light text-black mb-8">
                 Advanced <span className="font-mono">Relief Options</span>
               </h3>
               
@@ -257,7 +257,7 @@ export default function MedicalDebtReliefHub() {
                     1
                   </div>
                   <div>
-                    <h4 className="font-semibold text-white mb-2">Medical Debt Settlement</h4>
+                    <h4 className="font-semibold text-black mb-2">Medical Debt Settlement</h4>
                     <p className="text-neutral-300 text-sm leading-relaxed">
                       Professional negotiation with hospitals and collection agencies to reduce 
                       medical debt by 40-80%. Specialized approach for medical accounts.
@@ -270,7 +270,7 @@ export default function MedicalDebtReliefHub() {
                     2
                   </div>
                   <div>
-                    <h4 className="font-semibold text-white mb-2">Insurance Appeal Process</h4>
+                    <h4 className="font-semibold text-black mb-2">Insurance Appeal Process</h4>
                     <p className="text-neutral-300 text-sm leading-relaxed">
                       Appeal denied insurance claims with proper documentation and medical necessity 
                       arguments. Success rate of 60% on initial appeals.
@@ -283,7 +283,7 @@ export default function MedicalDebtReliefHub() {
                     3
                   </div>
                   <div>
-                    <h4 className="font-semibold text-white mb-2">Hardship Programs</h4>
+                    <h4 className="font-semibold text-black mb-2">Hardship Programs</h4>
                     <p className="text-neutral-300 text-sm leading-relaxed">
                       Access hospital-specific hardship programs that go beyond charity care. 
                       Special programs for catastrophic medical events and ongoing treatment.
@@ -294,30 +294,30 @@ export default function MedicalDebtReliefHub() {
             </div>
             
             <div className="bg-neutral-900 p-8 border border-neutral-700">
-              <h3 className="text-2xl font-light text-white mb-8">
+              <h3 className="text-2xl font-light text-black mb-8">
                 Success <span className="font-mono">Statistics</span>
               </h3>
               
               <div className="space-y-6">
                 <div className="flex justify-between items-center pb-2 border-b border-neutral-700">
                   <span className="text-sm font-mono text-neutral-300">Charity Care Approvals</span>
-                  <span className="text-sm font-mono text-white">87%</span>
+                  <span className="text-sm font-mono text-black">87%</span>
                 </div>
                 <div className="flex justify-between items-center pb-2 border-b border-neutral-700">
                   <span className="text-sm font-mono text-neutral-300">Average Bill Reduction</span>
-                  <span className="text-sm font-mono text-white">68%</span>
+                  <span className="text-sm font-mono text-black">68%</span>
                 </div>
                 <div className="flex justify-between items-center pb-2 border-b border-neutral-700">
                   <span className="text-sm font-mono text-neutral-300">Payment Plan Success</span>
-                  <span className="text-sm font-mono text-white">94%</span>
+                  <span className="text-sm font-mono text-black">94%</span>
                 </div>
                 <div className="flex justify-between items-center pb-2 border-b border-neutral-700">
                   <span className="text-sm font-mono text-neutral-300">Insurance Appeals Won</span>
-                  <span className="text-sm font-mono text-white">62%</span>
+                  <span className="text-sm font-mono text-black">62%</span>
                 </div>
                 <div className="flex justify-between items-center pb-2 border-b border-neutral-700">
                   <span className="text-sm font-mono text-neutral-300">Settlement Success Rate</span>
-                  <span className="text-sm font-mono text-white">78%</span>
+                  <span className="text-sm font-mono text-black">78%</span>
                 </div>
               </div>
               
@@ -332,10 +332,10 @@ export default function MedicalDebtReliefHub() {
       </section>
 
       {/* Step-by-Step Process */}
-      <section className="py-24 bg-neutral-900">
+      <section className="py-24 bg-neutral-50">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-light text-white mb-4">
+            <h2 className="text-4xl font-light text-black mb-4">
               Medical Debt Relief <span className="font-mono">Process</span>
             </h2>
             <p className="text-neutral-300 max-w-2xl mx-auto">
@@ -348,7 +348,7 @@ export default function MedicalDebtReliefHub() {
               <div className="w-12 h-12 bg-white text-black flex items-center justify-center text-xl font-mono mx-auto mb-4 rounded">
                 1
               </div>
-              <h3 className="font-semibold text-white mb-3">Document Review</h3>
+              <h3 className="font-semibold text-black mb-3">Document Review</h3>
               <p className="text-sm text-neutral-300">
                 Complete analysis of medical bills, insurance claims, and payment history
               </p>
@@ -358,7 +358,7 @@ export default function MedicalDebtReliefHub() {
               <div className="w-12 h-12 bg-white text-black flex items-center justify-center text-xl font-mono mx-auto mb-4 rounded">
                 2
               </div>
-              <h3 className="font-semibold text-white mb-3">Eligibility Assessment</h3>
+              <h3 className="font-semibold text-black mb-3">Eligibility Assessment</h3>
               <p className="text-sm text-neutral-300">
                 Determine qualification for charity care, hardship programs, and payment plans
               </p>
@@ -368,7 +368,7 @@ export default function MedicalDebtReliefHub() {
               <div className="w-12 h-12 bg-white text-black flex items-center justify-center text-xl font-mono mx-auto mb-4 rounded">
                 3
               </div>
-              <h3 className="font-semibold text-white mb-3">Application & Negotiation</h3>
+              <h3 className="font-semibold text-black mb-3">Application & Negotiation</h3>
               <p className="text-sm text-neutral-300">
                 Submit applications and negotiate directly with hospitals and providers
               </p>
@@ -378,7 +378,7 @@ export default function MedicalDebtReliefHub() {
               <div className="w-12 h-12 bg-white text-black flex items-center justify-center text-xl font-mono mx-auto mb-4 rounded">
                 4
               </div>
-              <h3 className="font-semibold text-white mb-3">Resolution & Follow-up</h3>
+              <h3 className="font-semibold text-black mb-3">Resolution & Follow-up</h3>
               <p className="text-sm text-neutral-300">
                 Secure debt relief and ensure all agreements are properly documented
               </p>
@@ -388,11 +388,11 @@ export default function MedicalDebtReliefHub() {
       </section>
 
       {/* Emergency Resources */}
-      <section className="py-16 bg-black border-y border-neutral-700">
+      <section className="py-16 bg-neutral-50 border-y border-neutral-700">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
-            <AlertCircle className="w-12 h-12 text-white mx-auto mb-4" />
-            <h2 className="text-3xl font-light text-white mb-4">
+            <AlertCircle className="w-12 h-12 text-black mx-auto mb-4" />
+            <h2 className="text-3xl font-light text-black mb-4">
               Emergency <span className="font-mono">Medical Debt Resources</span>
             </h2>
             <p className="text-neutral-300 max-w-2xl mx-auto">
@@ -402,17 +402,17 @@ export default function MedicalDebtReliefHub() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-neutral-900 p-6 border border-neutral-700 text-center">
-              <Phone className="w-8 h-8 text-white mx-auto mb-4" />
-              <h3 className="font-semibold text-white mb-3">24/7 Crisis Hotline</h3>
-              <p className="text-lg font-mono text-white mb-2">(502) 232-8511</p>
+              <Phone className="w-8 h-8 text-black mx-auto mb-4" />
+              <h3 className="font-semibold text-black mb-3">24/7 Crisis Hotline</h3>
+              <p className="text-lg font-mono text-black mb-2">(502) 232-8511</p>
               <p className="text-sm text-neutral-300">
                 Immediate assistance for medical debt emergencies and collection issues
               </p>
             </div>
 
             <div className="bg-neutral-900 p-6 border border-neutral-700 text-center">
-              <FileText className="w-8 h-8 text-white mx-auto mb-4" />
-              <h3 className="font-semibold text-white mb-3">Emergency Applications</h3>
+              <FileText className="w-8 h-8 text-black mx-auto mb-4" />
+              <h3 className="font-semibold text-black mb-3">Emergency Applications</h3>
               <p className="text-sm text-neutral-300 mb-3">
                 Fast-track charity care and hardship program applications
               </p>
@@ -427,14 +427,14 @@ export default function MedicalDebtReliefHub() {
             </div>
 
             <div className="bg-neutral-900 p-6 border border-neutral-700 text-center">
-              <Users className="w-8 h-8 text-white mx-auto mb-4" />
-              <h3 className="font-semibold text-white mb-3">Support Groups</h3>
+              <Users className="w-8 h-8 text-black mx-auto mb-4" />
+              <h3 className="font-semibold text-black mb-3">Support Groups</h3>
               <p className="text-sm text-neutral-300 mb-3">
                 Connect with others facing similar medical debt challenges
               </p>
               <Link 
                 to="/blog/orange-county-debt-crisis-observatory" 
-                className="text-white hover:underline text-sm font-medium"
+                className="text-black hover:underline text-sm font-medium"
               >
                 Find Support Groups
               </Link>
@@ -446,7 +446,7 @@ export default function MedicalDebtReliefHub() {
       {/* Related Resources */}
       <section className="py-16 bg-neutral-900 border-y border-neutral-700">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <h2 className="text-2xl font-light text-white mb-8 text-center">
+          <h2 className="text-2xl font-light text-black mb-8 text-center">
             Related <span className="font-mono">Debt Relief Resources</span>
           </h2>
           
@@ -455,8 +455,8 @@ export default function MedicalDebtReliefHub() {
               to="/blog/la-habra-debt-relief-solutions-2025"
               className="bg-black p-6 border border-neutral-700 hover:border-white transition-colors"
             >
-              <MapPin className="w-6 h-6 text-white mb-3" />
-              <h3 className="font-semibold text-white mb-2">La Habra Medical Debt Relief</h3>
+              <MapPin className="w-6 h-6 text-black mb-3" />
+              <h3 className="font-semibold text-black mb-2">La Habra Medical Debt Relief</h3>
               <p className="text-sm text-neutral-300">Local medical debt solutions for La Habra residents</p>
             </Link>
             
@@ -464,8 +464,8 @@ export default function MedicalDebtReliefHub() {
               to="/national-debt-settlement-transparency-database"
               className="bg-black p-6 border border-neutral-700 hover:border-white transition-colors"
             >
-              <FileText className="w-6 h-6 text-white mb-3" />
-              <h3 className="font-semibold text-white mb-2">Transparency Database</h3>
+              <FileText className="w-6 h-6 text-black mb-3" />
+              <h3 className="font-semibold text-black mb-2">Transparency Database</h3>
               <p className="text-sm text-neutral-300">National medical debt settlement performance data</p>
             </Link>
             
@@ -473,8 +473,8 @@ export default function MedicalDebtReliefHub() {
               to="/ai-vs-human-debt-settlement-study"
               className="bg-black p-6 border border-neutral-700 hover:border-white transition-colors"
             >
-              <CheckCircle className="w-6 h-6 text-white mb-3" />
-              <h3 className="font-semibold text-white mb-2">Settlement Study</h3>
+              <CheckCircle className="w-6 h-6 text-black mb-3" />
+              <h3 className="font-semibold text-black mb-2">Settlement Study</h3>
               <p className="text-sm text-neutral-300">Research on medical debt settlement effectiveness</p>
             </Link>
           </div>
@@ -482,7 +482,7 @@ export default function MedicalDebtReliefHub() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-black text-white">
+      <section className="py-16 bg-neutral-50 text-black">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-light mb-6">
             Get Expert Help with <span className="font-mono">Medical Debt Relief</span>
@@ -502,7 +502,7 @@ export default function MedicalDebtReliefHub() {
             </Button>
             <a 
               href="tel:5022328511"
-              className="border border-white text-white px-8 py-6 hover:bg-white hover:text-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
+              className="border border-white text-black px-8 py-6 hover:bg-white hover:text-black transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
             >
               Call Now: (502) 232-8511
               <Phone className="w-4 h-4" />
@@ -512,7 +512,7 @@ export default function MedicalDebtReliefHub() {
       </section>
 
       {/* Consultation Form */}
-      <section id="consultation" className="py-16 bg-black border-t border-neutral-700">
+      <section id="consultation" className="py-16 bg-neutral-50 border-t border-neutral-700">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div ref={consultationRef}>
             <ConsultationForm sectionId="medical-debt-consultation" />
