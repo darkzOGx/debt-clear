@@ -1,6 +1,14 @@
 import React from 'react';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function SimpleIrsTaxSettlementStrategiesOrangeCounty() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-6 py-16">
@@ -39,11 +47,18 @@ export default function SimpleIrsTaxSettlementStrategiesOrangeCounty() {
           <div className="bg-black text-white p-8 rounded-lg mt-8">
             <h3 className="text-xl font-bold mb-4">Facing IRS Collection Actions?</h3>
             <p>Don't wait - contact our Orange County tax resolution specialists immediately for emergency assistance.</p>
-            <p className="mt-4">
-              <strong>Phone:</strong> (502) 232-8511<br/>
-              <strong>Emergency Line:</strong> Available 24/7 for urgent tax matters
-            </p>
+            <button 
+              onClick={scrollToConsultation}
+              className="mt-4 bg-white text-black px-6 py-3 rounded font-bold hover:bg-neutral-50 transition"
+            >
+              Get Free Tax Settlement Analysis →
+            </button>
           </div>
+        </div>
+        
+        {/* Consultation Form */}
+        <div id="consultation" className="mt-12">
+          <ConsultationForm />
         </div>
       </div>
     </div>

@@ -2,8 +2,16 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { Phone, Calculator, Shield, TrendingDown, Users, AlertTriangle, DollarSign, FileText, Scale, Clock, ChevronRight, Target, Award, ArrowLeft, Calendar, User } from 'lucide-react';
+import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
@@ -46,7 +54,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
             <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">TAX RELIEF</span>
+            <span className="text-xs uppercase tracking-[0.2em] text-white font-mono">TAX RELIEF</span>
           </div>
           <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             The Complete Orange County Guide to Debt & Tax Relief:<br />
@@ -917,92 +925,18 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
                 <Calculator className="w-5 h-5" />
                 Calculate Your Savings
               </Link>
-              <a href="#comprehensive-consultation" className="inline-flex items-center gap-2 border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-black transition">
+              <button onClick={scrollToConsultation} className="inline-flex items-center gap-2 border-2 border-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-black transition">
                 <Phone className="w-5 h-5" />
                 Get Free Analysis
-              </a>
+              </button>
             </div>
           </div>
         </section>
 
         {/* Consultation Form */}
-        <section id="comprehensive-consultation" className="bg-black text-white p-8 rounded-lg">
-          <h2 className="text-3xl font-bold mb-6">Free Comprehensive Financial Analysis</h2>
-          <p className="mb-6">
-            Get a complete evaluation of all your debt relief, consolidation, and tax resolution options. Our Orange County specialists will create a customized recovery plan tailored to your unique situation.
-          </p>
-          <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <div>
-              <label className="block mb-2 text-sm">Full Name</label>
-              <input type="text" className="w-full p-3 rounded text-black" placeholder="John Smith" />
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Phone Number</label>
-              <input type="tel" className="w-full p-3 rounded text-black" placeholder="(714) 555-0100" />
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Email Address</label>
-              <input type="email" className="w-full p-3 rounded text-black" placeholder="john@example.com" />
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">City</label>
-              <select className="w-full p-3 rounded text-black">
-                <option>Select your city</option>
-                <option>Irvine</option>
-                <option>Newport Beach</option>
-                <option>Anaheim</option>
-                <option>Santa Ana</option>
-                <option>Huntington Beach</option>
-                <option>Costa Mesa</option>
-                <option>Mission Viejo</option>
-                <option>Fullerton</option>
-                <option>Garden Grove</option>
-                <option>Orange</option>
-                <option>Other Orange County City</option>
-              </select>
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Total Debt Amount</label>
-              <select className="w-full p-3 rounded text-black">
-                <option>Select range</option>
-                <option>Under $10,000</option>
-                <option>$10,000 - $25,000</option>
-                <option>$25,000 - $50,000</option>
-                <option>$50,000 - $100,000</option>
-                <option>$100,000 - $250,000</option>
-                <option>Over $250,000</option>
-              </select>
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Types of Debt (Check All)</label>
-              <div className="space-y-2">
-                <label className="flex items-center gap-2">
-                  <input type="checkbox" className="rounded" />
-                  <span className="text-sm">Credit Cards</span>
-                </label>
-                <label className="flex items-center gap-2">
-                  <input type="checkbox" className="rounded" />
-                  <span className="text-sm">IRS/Tax Debt</span>
-                </label>
-                <label className="flex items-center gap-2">
-                  <input type="checkbox" className="rounded" />
-                  <span className="text-sm">Medical Bills</span>
-                </label>
-                <label className="flex items-center gap-2">
-                  <input type="checkbox" className="rounded" />
-                  <span className="text-sm">Personal Loans</span>
-                </label>
-              </div>
-            </div>
-          </div>
-          <div className="mb-6">
-            <label className="block mb-2 text-sm">Brief Description of Your Situation</label>
-            <textarea className="w-full p-3 rounded text-black h-24" placeholder="Tell us about your financial situation and goals..."></textarea>
-          </div>
-          <button className="bg-white text-black px-8 py-3 rounded font-bold hover:bg-neutral-50 transition">
-            Get Your Free Comprehensive Analysis →
-          </button>
-        </section>
+        <div id="consultation">
+          <ConsultationForm />
+        </div>
       </article>
     </div>
   );

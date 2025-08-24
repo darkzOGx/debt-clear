@@ -71,8 +71,8 @@ export default function BalanceTransferVsDebtSettlementOrangeCounty() {
           <Link to="/blog" className="inline-flex items-center gap-2 text-sm font-mono text-neutral-300 hover:text-white transition-colors mb-8 z-10 relative">
             <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">DEBT CONSOLIDATION</span>
+            <div className="w-2 h-2 bg-white"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-white font-mono">DEBT CONSOLIDATION</span>
           </div>
           <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             Balance Transfer vs Debt Settlement:<br />
@@ -94,28 +94,28 @@ export default function BalanceTransferVsDebtSettlementOrangeCounty() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-cyan-200 hover:shadow-lg transition-all duration-300">
-              <CreditCard className="w-12 h-12 text-cyan-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-cyan-800 mb-2">0% APR</div>
-              <div className="text-sm font-medium text-cyan-700 mb-1">Balance Transfer</div>
-              <div className="text-xs text-cyan-600">12-21 months typical</div>
+              <CreditCard className="w-12 h-12 text-white mx-auto mb-4" />
+              <div className="text-3xl font-bold text-white mb-2">0% APR</div>
+              <div className="text-sm font-medium text-white mb-1">Balance Transfer</div>
+              <div className="text-xs text-white">12-21 months typical</div>
             </div>
             <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
-              <Scale className="w-12 h-12 text-black mx-auto mb-4" />
-              <div className="text-3xl font-bold text-black mb-2">740+</div>
-              <div className="text-sm font-medium text-black mb-1">Credit Score</div>
-              <div className="text-xs text-black">Balance transfer requirement</div>
+              <Scale className="w-12 h-12 text-white mx-auto mb-4" />
+              <div className="text-3xl font-bold text-white mb-2">740+</div>
+              <div className="text-sm font-medium text-white mb-1">Credit Score</div>
+              <div className="text-xs text-white">Balance transfer requirement</div>
             </div>
             <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
-              <TrendingDown className="w-12 h-12 text-black mx-auto mb-4" />
-              <div className="text-3xl font-bold text-black mb-2">50-70%</div>
-              <div className="text-sm font-medium text-black mb-1">Debt Reduction</div>
-              <div className="text-xs text-black">Settlement average</div>
+              <TrendingDown className="w-12 h-12 text-white mx-auto mb-4" />
+              <div className="text-3xl font-bold text-white mb-2">50-70%</div>
+              <div className="text-sm font-medium text-white mb-1">Debt Reduction</div>
+              <div className="text-xs text-white">Settlement average</div>
             </div>
             <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
-              <Target className="w-12 h-12 text-amber-600 mx-auto mb-4" />
-              <div className="text-3xl font-bold text-amber-800 mb-2">18-36</div>
-              <div className="text-sm font-medium text-amber-700 mb-1">Settlement Timeline</div>
-              <div className="text-xs text-amber-600">Months to completion</div>
+              <Target className="w-12 h-12 text-white mx-auto mb-4" />
+              <div className="text-3xl font-bold text-white mb-2">18-36</div>
+              <div className="text-sm font-medium text-white mb-1">Settlement Timeline</div>
+              <div className="text-xs text-white">Months to completion</div>
             </div>
           </div>
         </div>
@@ -169,8 +169,8 @@ export default function BalanceTransferVsDebtSettlementOrangeCounty() {
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Orange County Qualification Requirements</h2>
             <div className="space-y-6 mb-8">
               <div className="bg-cyan-50 border border-cyan-200 p-6">
-                <h3 className="font-semibold text-black mb-3 flex items-center gap-2">
-                  <CreditCard className="w-5 h-5 text-cyan-600" />
+                <h3 className="font-semibold text-white mb-3 flex items-center gap-2">
+                  <CreditCard className="w-5 h-5 text-white" />
                   Balance Transfer Requirements
                 </h3>
                 <div className="grid md:grid-cols-2 gap-6">
@@ -196,8 +196,8 @@ export default function BalanceTransferVsDebtSettlementOrangeCounty() {
               </div>
 
               <div className="bg-neutral-50 border border-neutral-200 p-6">
-                <h3 className="font-semibold text-black mb-3 flex items-center gap-2">
-                  <Scale className="w-5 h-5 text-black" />
+                <h3 className="font-semibold text-white mb-3 flex items-center gap-2">
+                  <Scale className="w-5 h-5 text-white" />
                   Debt Settlement Qualifications
                 </h3>
                 <div className="grid md:grid-cols-2 gap-6">
@@ -276,7 +276,7 @@ export default function BalanceTransferVsDebtSettlementOrangeCounty() {
                       <span>Total Paid:</span>
                       <span className="font-mono">$21,600</span>
                     </div>
-                    <div className="flex justify-between text-black font-semibold">
+                    <div className="flex justify-between text-white font-semibold">
                       <span>Savings vs Balance Transfer:</span>
                       <span className="font-mono">$9,300</span>
                     </div>

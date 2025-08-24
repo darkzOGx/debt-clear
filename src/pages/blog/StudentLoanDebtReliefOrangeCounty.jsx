@@ -64,7 +64,7 @@ export default function StudentLoanDebtReliefOrangeCounty() {
 
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-white rounded-full"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
+            <span className="text-xs uppercase tracking-[0.2em] text-white font-mono">
               STUDENT LOAN DEBT RELIEF
             </span>
           </div>
@@ -117,11 +117,11 @@ export default function StudentLoanDebtReliefOrangeCounty() {
             >
               <div className="flex items-center gap-4 mb-4">
                 <div className="p-3 bg-cyan-100 rounded-xl">
-                  <GraduationCap className="w-8 h-8 text-cyan-600" />
+                  <GraduationCap className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-gray-900">367K</div>
-                  <div className="text-gray-600 text-sm">OC Student Borrowers</div>
+                  <div className="text-3xl font-bold text-white">367K</div>
+                  <div className="text-white text-sm">OC Student Borrowers</div>
                 </div>
               </div>
             </motion.div>
@@ -135,11 +135,11 @@ export default function StudentLoanDebtReliefOrangeCounty() {
             >
               <div className="flex items-center gap-4 mb-4">
                 <div className="p-3 bg-neutral-50 rounded-xl">
-                  <DollarSign className="w-8 h-8 text-black" />
+                  <DollarSign className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-gray-900">$2.8B</div>
-                  <div className="text-gray-600 text-sm">Total Student Debt</div>
+                  <div className="text-3xl font-bold text-white">$2.8B</div>
+                  <div className="text-white text-sm">Total Student Debt</div>
                 </div>
               </div>
             </motion.div>
@@ -153,11 +153,11 @@ export default function StudentLoanDebtReliefOrangeCounty() {
             >
               <div className="flex items-center gap-4 mb-4">
                 <div className="p-3 bg-neutral-50 rounded-xl">
-                  <BookOpen className="w-8 h-8 text-black" />
+                  <BookOpen className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-gray-900">$38K</div>
-                  <div className="text-gray-600 text-sm">Average Loan Balance</div>
+                  <div className="text-3xl font-bold text-white">$38K</div>
+                  <div className="text-white text-sm">Average Loan Balance</div>
                 </div>
               </div>
             </motion.div>
@@ -171,11 +171,11 @@ export default function StudentLoanDebtReliefOrangeCounty() {
             >
               <div className="flex items-center gap-4 mb-4">
                 <div className="p-3 bg-neutral-50 rounded-xl">
-                  <Target className="w-8 h-8 text-black" />
+                  <Target className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-gray-900">76%</div>
-                  <div className="text-gray-600 text-sm">Relief Success Rate</div>
+                  <div className="text-3xl font-bold text-white">76%</div>
+                  <div className="text-white text-sm">Relief Success Rate</div>
                 </div>
               </div>
             </motion.div>
@@ -466,13 +466,13 @@ export default function StudentLoanDebtReliefOrangeCounty() {
               <h2 className="text-2xl font-bold mb-4">
                 Comprehensive Student Loan Relief
               </h2>
-              <p className="text-cyan-100 mb-6 max-w-2xl mx-auto">
+              <p className="text-neutral-300 mb-6 max-w-2xl mx-auto">
                 Don't let student loans control your Orange County lifestyle. Our comprehensive debt relief strategies combine federal forgiveness programs with private loan settlements for maximum debt reduction.
               </p>
               <div className="grid md:grid-cols-2 gap-6 text-sm mb-6">
                 <div>
                   <h4 className="font-semibold mb-2">Relief Services:</h4>
-                  <ul className="space-y-1 text-cyan-200">
+                  <ul className="space-y-1 text-neutral-300">
                     <li>• Federal loan forgiveness programs</li>
                     <li>• Private loan settlement negotiations</li>
                     <li>• Income-driven repayment enrollment</li>
@@ -481,7 +481,7 @@ export default function StudentLoanDebtReliefOrangeCounty() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2">Orange County Results:</h4>
-                  <ul className="space-y-1 text-cyan-200">
+                  <ul className="space-y-1 text-neutral-300">
                     <li>• 76% successful relief outcomes</li>
                     <li>• $31,000 average debt reduction</li>
                     <li>• 14-month average timeline</li>
@@ -491,7 +491,7 @@ export default function StudentLoanDebtReliefOrangeCounty() {
               </div>
               <button 
                 onClick={scrollToConsultation}
-                className="bg-white text-black px-8 py-3 rounded-lg font-semibold hover:bg-cyan-50 transition-colors"
+                className="bg-white text-black px-8 py-3 rounded-lg font-semibold hover:bg-neutral-100 transition-colors"
               >
                 Get Debt Relief Help
               </button>

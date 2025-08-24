@@ -64,7 +64,7 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
 
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-white rounded-full"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
+            <span className="text-xs uppercase tracking-[0.2em] text-white font-mono">
               STUDENT LOAN FORGIVENESS
             </span>
           </div>

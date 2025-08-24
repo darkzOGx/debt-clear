@@ -88,7 +88,7 @@ export default function StudentLoanCalculators() {
             
             <div className="flex items-center gap-3 mb-6">
               <div className="w-2 h-2 bg-white"></div>
-              <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">EDUCATION & SPECIALTY FINANCING</span>
+              <span className="text-xs uppercase tracking-[0.2em] text-white font-mono">EDUCATION & SPECIALTY FINANCING</span>
             </div>
             <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
               Student Loan & Specialty:<br />

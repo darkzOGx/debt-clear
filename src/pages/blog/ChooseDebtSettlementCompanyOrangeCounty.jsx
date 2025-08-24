@@ -33,7 +33,7 @@ export default function ChooseDebtSettlementCompanyOrangeCounty() {
             <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">CONSUMER GUIDE</span>
+            <span className="text-xs uppercase tracking-[0.2em] text-white font-mono">CONSUMER GUIDE</span>
           </div>
           <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             How to Choose a Debt Settlement Company<br />

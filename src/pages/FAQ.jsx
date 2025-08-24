@@ -219,7 +219,7 @@ export default function FAQ() {
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <div className="flex items-center justify-center gap-3 mb-6">
             <div className="w-2 h-2 bg-white"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
+            <span className="text-xs uppercase tracking-[0.2em] text-white font-mono">
               FREQUENTLY ASKED QUESTIONS
             </span>
           </div>

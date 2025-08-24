@@ -29,7 +29,7 @@ export default function HuntingtonBeachDebtSettlement() {
             {/* Location Badge */}
             <div className="flex items-center justify-center gap-3 mb-6">
               <div className="w-2 h-2 bg-white"></div>
-              <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">
+              <span className="text-xs uppercase tracking-[0.2em] text-white font-mono">
                 HUNTINGTON BEACH DEBT SETTLEMENT SERVICES
               </span>
             </div>

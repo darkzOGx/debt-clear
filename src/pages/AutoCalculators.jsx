@@ -12,7 +12,7 @@ function CalculatorCard({ title, description, icon: Icon, calculator: Calculator
   return (
     <div className="bg-white p-6 rounded-lg shadow-sm border hover:shadow-lg transition-all duration-300">
       <div className="flex items-start gap-4 mb-4">
-        <Icon className="w-8 h-8 text-orange-600 mt-1" />
+        <Icon className="w-8 h-8 text-white mt-1" />
         <div className="flex-1">
           <h4 className="text-lg font-bold text-black mb-2">{title}</h4>
           <p className="text-sm text-neutral-700 mb-4">{description}</p>
@@ -21,7 +21,7 @@ function CalculatorCard({ title, description, icon: Icon, calculator: Calculator
       
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full bg-orange-600 text-white px-6 py-3 rounded hover:bg-orange-700 transition inline-flex items-center justify-center gap-2 mb-4"
+        className="w-full bg-white text-black px-6 py-3 rounded hover:bg-neutral-100 transition inline-flex items-center justify-center gap-2 mb-4"
       >
         {isOpen ? 'Hide Calculator' : 'Use Calculator'}
         {isOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
@@ -88,7 +88,7 @@ export default function AutoCalculators() {
             
             <div className="flex items-center gap-3 mb-6">
               <div className="w-2 h-2 bg-white"></div>
-              <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">VEHICLE FINANCING & AUTO LOANS</span>
+              <span className="text-xs uppercase tracking-[0.2em] text-white font-mono">VEHICLE FINANCING & AUTO LOANS</span>
             </div>
             <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
               Auto Calculators:<br />

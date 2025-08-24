@@ -88,7 +88,7 @@ export default function CreditCalculators() {
             
             <div className="flex items-center gap-3 mb-6">
               <div className="w-2 h-2 bg-white"></div>
-              <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">CREDIT CARD & DEBT MANAGEMENT</span>
+              <span className="text-xs uppercase tracking-[0.2em] text-white font-mono">CREDIT CARD & DEBT MANAGEMENT</span>
             </div>
             <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
               Credit Card Calculators:<br />

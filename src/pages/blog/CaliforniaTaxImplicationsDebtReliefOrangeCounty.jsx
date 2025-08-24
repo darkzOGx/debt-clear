@@ -33,7 +33,7 @@ export default function CaliforniaTaxImplicationsDebtReliefOrangeCounty() {
             <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">TAX PLANNING</span>
+            <span className="text-xs uppercase tracking-[0.2em] text-white font-mono">TAX PLANNING</span>
           </div>
           <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             California State Tax Implications of Debt Relief:<br />

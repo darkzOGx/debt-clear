@@ -7,11 +7,11 @@ import ConsultationForm from '../components/consultation/ConsultationForm';
 // Calculator Group Card Component
 function CalculatorGroupCard({ title, description, icon: Icon, calculators, link, color = 'blue' }) {
   const colorClasses = {
-    green: 'text-green-600',
-    blue: 'text-blue-600',
-    orange: 'text-orange-600',
-    red: 'text-red-600',
-    purple: 'text-purple-600'
+    green: 'text-white',
+    blue: 'text-white',
+    orange: 'text-white',
+    red: 'text-white',
+    purple: 'text-white'
   };
   
   const buttonColorClasses = {
@@ -174,7 +174,7 @@ export default function DebtTools() {
           <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-2 h-2 bg-white"></div>
-              <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">FINANCIAL TOOLS</span>
+              <span className="text-xs uppercase tracking-[0.2em] text-white font-mono">FINANCIAL TOOLS</span>
             </div>
             <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
               DEBT TOOLS:<br />
@@ -202,22 +202,22 @@ export default function DebtTools() {
           <div className="max-w-6xl mx-auto px-6">
             <div className="grid md:grid-cols-4 gap-6">
               <div className="text-center p-6 bg-white rounded-lg shadow-sm">
-                <Calculator className="w-12 h-12 text-blue-600 mx-auto mb-3" />
+                <Calculator className="w-12 h-12 text-white mx-auto mb-3" />
                 <div className="text-2xl font-bold text-black">30+</div>
                 <div className="text-sm text-neutral-600">Financial Calculators</div>
               </div>
               <div className="text-center p-6 bg-white rounded-lg shadow-sm">
-                <TrendingUp className="w-12 h-12 text-green-600 mx-auto mb-3" />
+                <TrendingUp className="w-12 h-12 text-white mx-auto mb-3" />
                 <div className="text-2xl font-bold text-black">100%</div>
                 <div className="text-sm text-neutral-600">Free to Use</div>
               </div>
               <div className="text-center p-6 bg-white rounded-lg shadow-sm">
-                <Shield className="w-12 h-12 text-orange-600 mx-auto mb-3" />
+                <Shield className="w-12 h-12 text-white mx-auto mb-3" />
                 <div className="text-2xl font-bold text-black">Real-Time</div>
                 <div className="text-sm text-neutral-600">Calculations</div>
               </div>
               <div className="text-center p-6 bg-white rounded-lg shadow-sm">
-                <Building2 className="w-12 h-12 text-purple-600 mx-auto mb-3" />
+                <Building2 className="w-12 h-12 text-white mx-auto mb-3" />
                 <div className="text-2xl font-bold text-black">Pro-Grade</div>
                 <div className="text-sm text-neutral-600">Accuracy</div>
               </div>

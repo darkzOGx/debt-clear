@@ -5,6 +5,13 @@ import { ArrowLeft, Calendar, Clock, User, Phone, Calculator, Shield, TrendingUp
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function IrsTaxSettlementStrategiesOrangeCounty() {
+  const scrollToConsultation = () => {
+    const consultationSection = document.getElementById('consultation');
+    if (consultationSection) {
+      consultationSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
@@ -48,7 +55,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
             <ArrowLeft className="w-4 h-4" />Back to Resources</Link>
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-black"></div>
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-300 font-mono">TAX STRATEGIES</span>
+            <span className="text-xs uppercase tracking-[0.2em] text-white font-mono">TAX STRATEGIES</span>
           </div>
           <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
             IRS Tax Settlement Strategies:<br />
@@ -855,66 +862,9 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
         </section>
 
         {/* Consultation Form */}
-        <section id="tax-consultation" className="bg-black text-white p-8 rounded-lg">
-          <h2 className="text-3xl font-bold mb-6">Free IRS Tax Settlement Consultation</h2>
-          <p className="mb-6">
-            Get expert analysis of your tax situation and learn which IRS settlement program offers the best resolution for your specific circumstances. Orange County tax professionals standing by.
-          </p>
-          <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <div>
-              <label className="block mb-2 text-sm">Full Name</label>
-              <input type="text" className="w-full p-3 rounded text-black" placeholder="John Smith" />
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Phone Number</label>
-              <input type="tel" className="w-full p-3 rounded text-black" placeholder="(714) 555-0100" />
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">Email Address</label>
-              <input type="email" className="w-full p-3 rounded text-black" placeholder="john@example.com" />
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">City</label>
-              <select className="w-full p-3 rounded text-black">
-                <option>Select your city</option>
-                <option>Irvine</option>
-                <option>Newport Beach</option>
-                <option>Anaheim</option>
-                <option>Santa Ana</option>
-                <option>Huntington Beach</option>
-                <option>Other Orange County City</option>
-              </select>
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">IRS Tax Debt Amount</label>
-              <select className="w-full p-3 rounded text-black">
-                <option>Select range</option>
-                <option>Under $10,000</option>
-                <option>$10,000 - $25,000</option>
-                <option>$25,000 - $50,000</option>
-                <option>$50,000 - $100,000</option>
-                <option>Over $100,000</option>
-              </select>
-            </div>
-            <div>
-              <label className="block mb-2 text-sm">State Tax Debt</label>
-              <select className="w-full p-3 rounded text-black">
-                <option>Select range</option>
-                <option>No state tax debt</option>
-                <option>Under $10,000</option>
-                <option>$10,000 - $25,000</option>
-                <option>Over $25,000</option>
-              </select>
-            </div>
-          </div>
-          <div className="mb-6">
-            <label className="block mb-2 text-sm">Your Tax Situation</label>
-            <textarea className="w-full p-3 rounded text-black h-24" placeholder="Briefly describe your tax situation, years owed, and any IRS actions..."></textarea>
-          </div>
-          <button className="bg-white text-black px-8 py-3 rounded font-bold hover:bg-neutral-50 transition">
-            Get Free Tax Relief Analysis →
-          </button>
-        </section>
+        <div id="consultation">
+          <ConsultationForm />
+        </div>
       </article>
     </div>
   );
