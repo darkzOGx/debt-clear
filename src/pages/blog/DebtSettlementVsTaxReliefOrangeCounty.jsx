@@ -3,15 +3,17 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { Phone, Calculator, Shield, TrendingDown, Users, AlertTriangle, DollarSign, FileText, Scale, Clock } from 'lucide-react';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import { useCanonicalLink } from '../../hooks/useCanonicalLink';
 
 export default function DebtSettlementVsTaxReliefOrangeCounty() {
+  useCanonicalLink('https://vegaxai.com/blog/debt-settlement-vs-tax-relief-orange-county');
+  
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
         <title>Debt Settlement vs Tax Relief in Orange County 2025: Complete Comparison Guide</title>
         <meta name="description" content="Compare debt settlement and tax relief options in Orange County. Learn which solution works best for credit card debt, IRS debt, and combined financial challenges. Expert analysis for CA residents." />
         <meta name="keywords" content="debt settlement vs tax relief, Orange County tax debt relief, IRS debt settlement California, tax relief services Orange County, debt consolidation tax implications, tax debt forgiveness programs, offer in compromise Orange County, installment agreement IRS California, debt settlement tax consequences, tax relief attorney Orange County" />
-        <link rel="canonical" href="https://vegaxai.com/blog/debt-settlement-vs-tax-relief-orange-county" />
         
         <script type="application/ld+json">
           {JSON.stringify({

@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Calculator, PiggyBank, Target, TrendingUp, ChevronDown, ChevronUp } from 'lucide-react';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import { useCanonicalLink } from '../hooks/useCanonicalLink';
 
 // Calculator Component
 function CalculatorCard({ title, description, icon: Icon, calculator: Calculator }) {
@@ -397,6 +398,8 @@ function SavingsCalculator() {
 }
 
 export default function MoneyCalculators() {
+  useCanonicalLink('https://vegaxai.com/money-calculators');
+  
   const calculators = [
     {
       title: "401(k) Calculator",
@@ -437,7 +440,6 @@ export default function MoneyCalculators() {
         <meta name="description" content="Free money management calculators for Orange County residents. 401k calculator, budget planner, compound interest, retirement planning, and savings goal calculators." />
         <meta name="keywords" content="money calculators, 401k calculator, budget calculator, retirement calculator, savings calculator, compound interest calculator, Orange County financial planning" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxai.com/money-calculators" />
         
         <meta property="og:title" content="Money Calculators - Orange County Financial Planning Tools" />
         <meta property="og:description" content="Free money management calculators for Orange County residents. 401k, budget, retirement, and savings calculators." />

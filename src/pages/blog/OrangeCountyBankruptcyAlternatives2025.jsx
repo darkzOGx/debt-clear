@@ -3,15 +3,17 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { Phone, Calculator, Shield, TrendingDown, TrendingUp, Users, AlertTriangle, DollarSign, FileText, Scale, Clock, ChevronRight, Target, Award, Building, ArrowLeft, Calendar, User } from 'lucide-react';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import { useCanonicalLink } from '../../hooks/useCanonicalLink';
 
 export default function OrangeCountyBankruptcyAlternatives2025() {
+  useCanonicalLink('https://vegaxai.com/blog/orange-county-bankruptcy-alternatives-2025');
+  
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
         <title>Orange County Bankruptcy Alternatives 2025: Better Solutions to Avoid Bankruptcy</title>
         <meta name="description" content="Discover proven bankruptcy alternatives in Orange County: debt settlement, assignment for creditors, workout agreements. Preserve assets and credit with these better solutions." />
         <meta name="keywords" content="Orange County bankruptcy alternatives, debt settlement, assignment for benefit of creditors, workout agreements, avoid bankruptcy, debt relief alternatives, asset protection, credit preservation, business bankruptcy alternatives, California debt relief" />
-        <link rel="canonical" href="https://vegaxai.com/blog/orange-county-bankruptcy-alternatives-2025" />
         
         <script type="application/ld+json">
           {JSON.stringify({

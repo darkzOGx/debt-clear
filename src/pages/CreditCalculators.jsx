@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, CreditCard, Calculator, TrendingDown, Target, ChevronDown, ChevronUp } from 'lucide-react';
 import ConsultationForm from '../components/consultation/ConsultationForm';
 import DebtRepaymentCalculator from '../components/calculator/DebtRepaymentCalculator';
+import { useCanonicalLink } from '../hooks/useCanonicalLink';
 
 // Calculator Component
 function CalculatorCard({ title, description, icon: Icon, calculator: Calculator }) {
@@ -37,6 +38,7 @@ function CalculatorCard({ title, description, icon: Icon, calculator: Calculator
 }
 
 export default function CreditCalculators() {
+  useCanonicalLink('https://vegaxai.com/credit-calculators');
   const calculators = [
     {
       title: "Debt Repayment Calculator",
@@ -71,7 +73,6 @@ export default function CreditCalculators() {
         <meta name="description" content="Free credit card calculators for Orange County residents. Calculate debt payoff time, interest costs, balance transfers, and debt elimination strategies." />
         <meta name="keywords" content="credit card calculator, debt payoff calculator, balance transfer calculator, debt snowball, credit card interest, Orange County debt relief" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxai.com/credit-calculators" />
       </Helmet>
 
       <div className="min-h-screen bg-white">

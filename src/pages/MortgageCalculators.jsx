@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, Home, DollarSign, TrendingDown, Shield, ChevronDown, ChevronUp } from 'lucide-react';
 import ConsultationForm from '../components/consultation/ConsultationForm';
 import MortgageCalculator from '../components/calculator/MortgageCalculator';
+import { useCanonicalLink } from '../hooks/useCanonicalLink';
 
 // Calculator Component
 function CalculatorCard({ title, description, icon: Icon, calculator: Calculator }) {
@@ -37,6 +38,7 @@ function CalculatorCard({ title, description, icon: Icon, calculator: Calculator
 }
 
 export default function MortgageCalculators() {
+  useCanonicalLink('https://vegaxai.com/mortgage-calculators');
   const calculators = [
     {
       title: "Mortgage Calculator",
@@ -71,7 +73,6 @@ export default function MortgageCalculators() {
         <meta name="description" content="Free mortgage calculators for Orange County home buyers. Calculate mortgage payments, affordability, refinance savings, and home equity. Professional real estate tools." />
         <meta name="keywords" content="mortgage calculator, home loan calculator, refinance calculator, home equity calculator, Orange County real estate, mortgage affordability" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxai.com/mortgage-calculators" />
       </Helmet>
 
       <div className="min-h-screen bg-white">

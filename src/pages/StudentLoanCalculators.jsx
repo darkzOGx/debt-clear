@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, GraduationCap, Calculator, FileText, Anchor, ChevronDown, ChevronUp } from 'lucide-react';
 import ConsultationForm from '../components/consultation/ConsultationForm';
 import StudentLoanCalculator from '../components/calculator/StudentLoanCalculator';
+import { useCanonicalLink } from '../hooks/useCanonicalLink';
 
 // Calculator Component
 function CalculatorCard({ title, description, icon: Icon, calculator: Calculator }) {
@@ -37,6 +38,7 @@ function CalculatorCard({ title, description, icon: Icon, calculator: Calculator
 }
 
 export default function StudentLoanCalculators() {
+  useCanonicalLink('https://vegaxai.com/student-loan-calculators');
   const calculators = [
     {
       title: "Student Loan Calculator",
@@ -71,7 +73,6 @@ export default function StudentLoanCalculators() {
         <meta name="description" content="Free student loan and specialty calculators for Orange County residents. Calculate student loan payments, refinancing, forgiveness, and boat loans." />
         <meta name="keywords" content="student loan calculator, student loan refinance, loan forgiveness calculator, boat loan calculator, education financing, Orange County" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxai.com/student-loan-calculators" />
       </Helmet>
 
       <div className="min-h-screen bg-white">

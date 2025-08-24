@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { useCanonicalLink } from '../hooks/useCanonicalLink';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, MapPin } from 'lucide-react';
@@ -8,6 +9,9 @@ import ConsultationForm from '../components/consultation/ConsultationForm';
 
 export default function AnaheimDebtSettlement() {
   const consultationRef = useRef(null);
+  
+  // Use custom canonical link hook to avoid data-rh attributes
+  useCanonicalLink('https://vegaxai.com/debt-settlement-anaheim');
 
   const scrollToConsultation = () => {
     consultationRef.current?.scrollIntoView({ 
@@ -23,7 +27,6 @@ export default function AnaheimDebtSettlement() {
         <meta name="description" content="Professional debt settlement services for Anaheim, CA residents. AI-powered debt reduction, 50% savings, local expertise. Free consultation. Call (502) 232-8511" />
         <meta name="keywords" content="debt settlement Anaheim CA, Anaheim debt relief, California debt settlement, Anaheim debt negotiation, Orange County debt help" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxai.com/debt-settlement-anaheim" />
         
         <meta property="og:title" content="Debt Settlement Anaheim CA | Expert Debt Relief Services" />
         <meta property="og:description" content="Professional debt settlement services for Anaheim, CA residents. AI-powered debt reduction, 50% savings, local expertise. Free consultation." />

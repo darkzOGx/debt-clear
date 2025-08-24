@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, Car, DollarSign, TrendingUp, FileText, ChevronDown, ChevronUp } from 'lucide-react';
 import ConsultationForm from '../components/consultation/ConsultationForm';
 import AutoLoanCalculator from '../components/calculator/AutoLoanCalculator';
+import { useCanonicalLink } from '../hooks/useCanonicalLink';
 
 // Calculator Component
 function CalculatorCard({ title, description, icon: Icon, calculator: Calculator }) {
@@ -37,6 +38,7 @@ function CalculatorCard({ title, description, icon: Icon, calculator: Calculator
 }
 
 export default function AutoCalculators() {
+  useCanonicalLink('https://vegaxai.com/auto-calculators');
   const calculators = [
     {
       title: "Auto Loan Calculator",
@@ -71,7 +73,6 @@ export default function AutoCalculators() {
         <meta name="description" content="Free auto loan calculators for Orange County car buyers. Calculate monthly payments, affordability, refinance savings, and lease vs buy comparisons." />
         <meta name="keywords" content="auto loan calculator, car loan calculator, vehicle financing, auto refinance calculator, lease vs buy, Orange County auto financing" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxai.com/auto-calculators" />
       </Helmet>
 
       <div className="min-h-screen bg-white">

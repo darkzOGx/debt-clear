@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { useCanonicalLink } from '../hooks/useCanonicalLink';
 import HeroSection from '../components/hero/HeroSection';
 import DebtCalculator from '../components/calculator/DebtCalculator';
 import ServicesSection from '../components/services/ServicesSection';
@@ -11,6 +12,9 @@ import NewsletterSignup from '../components/newsletter/NewsletterSignup';
 export default function Home() {
   const calculatorRef = useRef(null);
   const consultationRef = useRef(null);
+  
+  // Use custom canonical link hook to avoid data-rh attributes
+  useCanonicalLink('https://vegaxai.com/');
 
   const scrollToCalculator = () => {
     calculatorRef.current?.scrollIntoView({ 
@@ -33,7 +37,6 @@ export default function Home() {
         <meta name="description" content="Orange County debt settlement & relief. Expert debt profile analysis, 50% reduction. County residents save in 12-24 months. Research-based. Call (502) 232-8511" />
         <meta name="keywords" content="Orange County debt settlement, debt relief, debt negotiation, AI debt settlement, California debt help, credit card debt relief" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxai.com/" />
         
         <meta property="og:title" content="Orange County Debt Settlement - AI Relief in 12-24 Months" />
         <meta property="og:description" content="Orange County debt settlement & relief. Expert debt profile analysis, 50% reduction. County residents save in 12-24 months. Research-based." />

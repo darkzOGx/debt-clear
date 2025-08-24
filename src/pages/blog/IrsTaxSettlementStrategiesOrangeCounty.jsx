@@ -3,8 +3,11 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, Clock, User, Phone, Calculator, Shield, TrendingUp, AlertCircle, FileText, DollarSign, CheckCircle, XCircle } from 'lucide-react';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import { useCanonicalLink } from '../../hooks/useCanonicalLink';
 
 export default function IrsTaxSettlementStrategiesOrangeCounty() {
+  useCanonicalLink('https://vegaxai.com/blog/irs-tax-settlement-strategies-orange-county');
+  
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');
     if (consultationSection) {
@@ -18,7 +21,6 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
         <title>IRS Tax Settlement Strategies for Orange County 2025: OIC, Installment Plans & Relief Programs</title>
         <meta name="description" content="Expert IRS tax settlement strategies for Orange County residents. Learn about Offer in Compromise, installment agreements, penalty abatement, and Currently Not Collectible status. Get professional tax debt relief." />
         <meta name="keywords" content="IRS tax settlement Orange County, offer in compromise California, IRS installment agreement, tax debt relief Orange County, penalty abatement IRS, Currently Not Collectible, tax resolution services, IRS payment plans California, tax attorney Orange County, fresh start program IRS" />
-        <link rel="canonical" href="https://vegaxai.com/blog/irs-tax-settlement-strategies-orange-county" />
         
         <script type="application/ld+json">
           {JSON.stringify({

@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { Calculator, DollarSign, Home, Car, CreditCard, GraduationCap, TrendingUp, Building2, Shield, Target, ArrowRight } from 'lucide-react';
 import ConsultationForm from '../components/consultation/ConsultationForm';
+import { useCanonicalLink } from '../hooks/useCanonicalLink';
 
 // Calculator Group Card Component
 function CalculatorGroupCard({ title, description, icon: Icon, calculators, link, color = 'blue' }) {
@@ -58,6 +59,7 @@ function CalculatorGroupCard({ title, description, icon: Icon, calculators, link
 }
 
 export default function DebtTools() {
+  useCanonicalLink('https://vegaxai.com/debt-tools');
   const calculatorGroups = [
     {
       title: "Money Calculators",
@@ -134,7 +136,6 @@ export default function DebtTools() {
         <meta name="description" content="Free comprehensive financial calculators for Orange County residents. Calculate mortgages, auto loans, retirement, budgets, debt payoff, student loans. Professional money management tools." />
         <meta name="keywords" content="debt tools, financial calculators, mortgage calculator, auto loan calculator, retirement calculator, budget calculator, debt calculator, student loan calculator, Orange County financial planning" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxai.com/debt-tools" />
         
         <meta property="og:title" content="Debt Tools - Complete Financial Calculator Suite" />
         <meta property="og:description" content="Free comprehensive financial calculators for Orange County residents. Calculate mortgages, auto loans, retirement, budgets, debt payoff, student loans." />

@@ -1,11 +1,15 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import { useCanonicalLink } from '../../hooks/useCanonicalLink';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, Clock, User, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function OrangeCountyDebtSettlementLaws() {
+  // Use custom canonical link hook to avoid data-rh attributes
+  useCanonicalLink('https://debtclear.com/blog/orange-county-debt-settlement-laws');
+
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');
     if (consultationSection) {
@@ -22,7 +26,6 @@ export default function OrangeCountyDebtSettlementLaws() {
         <meta property="og:title" content="Orange County Debt Settlement Laws - Legal Guide 2025" />
         <meta property="og:description" content="Comprehensive guide to Orange County debt settlement laws and California regulations with expert legal analysis and compliance guidance." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/orange-county-debt-settlement-laws" />
       </Helmet>
       {/* Hero Section - Black Gradient */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">

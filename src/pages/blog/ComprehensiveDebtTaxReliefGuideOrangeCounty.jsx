@@ -3,8 +3,11 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { Phone, Calculator, Shield, TrendingDown, Users, AlertTriangle, DollarSign, FileText, Scale, Clock, ChevronRight, Target, Award, ArrowLeft, Calendar, User } from 'lucide-react';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import { useCanonicalLink } from '../../hooks/useCanonicalLink';
 
 export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
+  useCanonicalLink('https://vegaxai.com/blog/comprehensive-debt-tax-relief-guide-orange-county');
+  
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');
     if (consultationSection) {
@@ -18,7 +21,6 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
         <title>Comprehensive Debt & Tax Relief Guide for Orange County 2025: All Solutions Explained</title>
         <meta name="description" content="The ultimate guide to debt consolidation, debt settlement, and tax relief for Orange County residents. Compare all options, understand costs, and create your personalized financial recovery plan." />
         <meta name="keywords" content="comprehensive debt relief Orange County, tax relief and debt settlement, debt consolidation California, complete financial recovery guide, IRS debt and credit card relief, bankruptcy alternatives Orange County, debt management programs, tax resolution services, financial hardship programs California, debt forgiveness Orange County" />
-        <link rel="canonical" href="https://vegaxai.com/blog/comprehensive-debt-tax-relief-guide-orange-county" />
         
         <script type="application/ld+json">
           {JSON.stringify({

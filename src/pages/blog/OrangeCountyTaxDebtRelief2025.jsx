@@ -3,8 +3,11 @@ import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { Phone, Calculator, Shield, TrendingDown, Users, AlertTriangle, DollarSign, FileText, Scale, Clock, ChevronRight, Target, Award, AlertCircle, ArrowLeft, Calendar, User, ArrowRight } from 'lucide-react';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
+import { useCanonicalLink } from '../../hooks/useCanonicalLink';
 
 export default function OrangeCountyTaxDebtRelief2025() {
+  useCanonicalLink('https://vegaxai.com/blog/orange-county-tax-debt-relief-2025');
+  
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');
     if (consultationSection) {
@@ -18,7 +21,6 @@ export default function OrangeCountyTaxDebtRelief2025() {
         <title>Orange County Tax Debt Relief 2025: IRS Settlement & Payment Plans</title>
         <meta name="description" content="Complete guide to tax debt relief for Orange County residents. IRS settlement options, payment plans, penalty abatement, and Currently Not Collectible status explained." />
         <meta name="keywords" content="Orange County tax debt relief, IRS debt settlement, tax payment plans, penalty abatement, Currently Not Collectible, Orange County tax resolution, IRS negotiation, tax debt forgiveness" />
-        <link rel="canonical" href="https://vegaxai.com/blog/orange-county-tax-debt-relief-2025" />
         
         <script type="application/ld+json">
           {JSON.stringify({
