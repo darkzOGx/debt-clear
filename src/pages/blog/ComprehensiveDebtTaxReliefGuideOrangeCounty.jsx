@@ -322,7 +322,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
           </div>
 
           <p className="mb-4">
-            Calculate savings: <Link to="/debt-calculator" className="text-black underline hover:no-underline">Debt Consolidation Calculator</Link>
+            Ready to explore your consolidation options? Our team can help you analyze all available solutions and find the best rates for your situation.
           </p>
         </section>
 
@@ -778,7 +778,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
           <h3 className="text-2xl font-semibold mb-4">Cost-Benefit Analysis Tool</h3>
           
           <div className="bg-neutral-50 p-6 rounded-lg mb-6">
-            <p className="mb-4">Calculate your best option based on:</p>
+            <p className="mb-4">Get personalized analysis based on:</p>
             <ul className="space-y-2">
               <li>✓ Total debt amount and types</li>
               <li>✓ Monthly payment capacity</li>
@@ -786,9 +786,11 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
               <li>✓ Timeline preferences</li>
               <li>✓ Asset protection needs</li>
             </ul>
-            <Link to="/debt-calculator" className="inline-block mt-4 bg-black text-white px-6 py-3 rounded hover:bg-black transition">
-              Launch Analysis Tool →
-            </Link>
+            <div className="text-center mt-4">
+              <button onClick={scrollToConsultation} className="inline-block bg-black text-white px-6 py-3 rounded hover:bg-neutral-800 transition">
+                Get Free Analysis →
+              </button>
+            </div>
           </div>
         </section>
 
@@ -904,7 +906,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
             <div>
               <h3 className="font-bold mb-3">Tools & Calculators</h3>
               <ul className="text-sm space-y-2">
-                <li><Link to="/debt-calculator" className="text-black underline">Debt Savings Calculator</Link></li>
+                <li><Link to="/debt-tools" className="text-black underline">Debt Analysis Tools</Link></li>
                 <li><Link to="/debt-tools" className="text-black underline">Analysis Tools Suite</Link></li>
                 <li><Link to="/orange-county-hub" className="text-black underline">OC Resource Hub</Link></li>
                 <li><Link to="/ai-vs-human-debt-settlement-study" className="text-black underline">AI Analysis Tool</Link></li>

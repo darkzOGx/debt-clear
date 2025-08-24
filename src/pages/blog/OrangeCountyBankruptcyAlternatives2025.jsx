@@ -524,12 +524,8 @@ export default function OrangeCountyBankruptcyAlternatives2025() {
                   </ul>
                 </div>
               </div>
-              <div className="flex flex-wrap gap-4 mt-6">
-                <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded hover:bg-neutral-50 transition">
-                  <Calculator className="w-5 h-5" />
-                  Analyze Your Options
-                </Link>
-                <a href="#consultation" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded hover:bg-white hover:text-black transition">
+              <div className="flex justify-center mt-6">
+                <a href="#consultation" className="inline-flex items-center gap-2 bg-white text-black px-8 py-3 rounded hover:bg-neutral-50 transition">
                   <Phone className="w-5 h-5" />
                   Free Consultation
                 </a>

@@ -734,17 +734,11 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
 
         {/* Tools and Resources */}
         <section className="mb-12">
-          <h2 className="text-3xl font-bold mb-6">Free IRS Settlement Tools & Calculators</h2>
+          <h2 className="text-3xl font-bold mb-6">Free IRS Settlement Resources & Tools</h2>
           
-          <div className="grid md:grid-cols-2 gap-6 mb-6">
-            <Link to="/debt-calculator" className="block p-6 bg-white border-2 border-neutral-200 rounded-lg hover:bg-black hover:text-white transition">
-              <Calculator className="w-8 h-8 mb-3" />
-              <h3 className="font-bold mb-2">Tax Settlement Calculator</h3>
-              <p className="text-sm">Calculate your OIC amount, installment payment, or potential savings</p>
-            </Link>
-
-            <Link to="/debt-tools" className="block p-6 bg-white border-2 border-neutral-200 rounded-lg hover:bg-black hover:text-white transition">
-              <FileText className="w-8 h-8 mb-3" />
+          <div className="text-center mb-6">
+            <Link to="/debt-tools" className="inline-block p-6 bg-white border-2 border-neutral-200 rounded-lg hover:bg-black hover:text-white transition">
+              <FileText className="w-8 h-8 mb-3 mx-auto" />
               <h3 className="font-bold mb-2">IRS Form Wizard</h3>
               <p className="text-sm">Get the right forms and instructions for your tax situation</p>
             </Link>

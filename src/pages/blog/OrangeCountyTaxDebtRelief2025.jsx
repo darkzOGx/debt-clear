@@ -59,12 +59,8 @@ export default function OrangeCountyTaxDebtRelief2025() {
             Comprehensive guide to resolving IRS and California tax debt for Orange County residents, 
             including installment agreements, offers in compromise, and penalty abatement strategies.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded hover:bg-neutral-100 transition">
-              <Calculator className="w-5 h-5" />
-              Tax Debt Calculator
-            </Link>
-            <a href="tel:+15022328511" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded hover:bg-white hover:text-black transition">
+          <div className="flex justify-center">
+            <a href="tel:+15022328511" className="inline-flex items-center gap-2 bg-white text-black px-8 py-3 rounded hover:bg-neutral-100 transition">
               <Phone className="w-5 h-5" />
               Emergency Tax Help
             </a>

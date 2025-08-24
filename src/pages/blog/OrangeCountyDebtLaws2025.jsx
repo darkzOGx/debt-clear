@@ -58,12 +58,8 @@ export default function OrangeCountyDebtLaws2025() {
           <p className="text-xl text-neutral-300 mb-8">
             California's comprehensive consumer protection laws provide Orange County residents with powerful tools to combat debt collection abuse. Stay informed about your rights and available resources for successful debt resolution.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded hover:bg-neutral-50 transition">
-              <Calculator className="w-5 h-5" />
-              Analyze Your Rights
-            </Link>
-            <a href="#consultation" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded hover:bg-white hover:text-black transition">
+          <div className="flex justify-center">
+            <a href="#consultation" className="inline-flex items-center gap-2 bg-white text-black px-8 py-3 rounded hover:bg-neutral-50 transition">
               <Phone className="w-5 h-5" />
               Free Legal Consultation
             </a>

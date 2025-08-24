@@ -51,14 +51,10 @@ export default function DebtSettlementVsTaxReliefOrangeCounty() {
           <p className="text-xl text-neutral-300 mb-8">
             Orange County residents facing both credit card debt and IRS obligations need clarity on their options. This comprehensive guide compares debt settlement and tax relief strategies, helping you choose the right path for your specific financial situation.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <Link to="/debt-calculator" className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded hover:bg-neutral-100 transition">
-              <Calculator className="w-5 h-5" />
-              Calculate Savings
-            </Link>
-            <a href="#consultation" className="inline-flex items-center gap-2 border border-white px-6 py-3 rounded hover:bg-white hover:text-black transition">
+          <div className="flex justify-center">
+            <a href="#consultation" className="inline-flex items-center gap-2 bg-white text-black px-8 py-3 rounded hover:bg-neutral-100 transition">
               <Phone className="w-5 h-5" />
-              Free Consultation
+              Get Free Analysis
             </a>
           </div>
         </div>
@@ -361,7 +357,7 @@ export default function DebtSettlementVsTaxReliefOrangeCounty() {
           </div>
 
           <p className="mb-4">
-            Use our <Link to="/debt-calculator" className="text-black underline hover:no-underline">debt savings calculator</Link> to estimate your potential savings with each approach based on your specific debt amounts.
+            Get a personalized analysis to estimate your potential savings with each approach based on your specific debt amounts through a free consultation.
           </p>
         </section>
 
