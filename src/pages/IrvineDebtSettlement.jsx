@@ -42,8 +42,9 @@ export default function IrvineDebtSettlement() {
 
             {/* Subheadline */}
             <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10 max-w-3xl mx-auto mb-8">
-              Specialized debt relief for Irvine professionals. Our AI-driven approach helps tech workers, 
-              healthcare professionals, and UCI employees reduce debt by up to 60% while protecting their credit.
+              Specialized <strong>debt relief Irvine</strong> services for professionals. Our AI-driven approach helps tech workers, 
+              healthcare professionals, and UCI employees reduce debt by up to 60%. Get <strong>free debt settlement Irvine</strong> consultation 
+              and read our <strong>debt settlement Irvine reviews</strong> from satisfied clients.
             </p>
 
             {/* CTA Buttons */}

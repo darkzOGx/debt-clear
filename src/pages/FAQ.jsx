@@ -136,6 +136,69 @@ export default function FAQ() {
           answer: "While possible, creditors are more likely to offer better settlements to experienced negotiators who understand their policies and procedures. DIY settlement often results in higher settlement amounts and tax complications."
         }
       ]
+    },
+    {
+      category: "Legal & Time Considerations",
+      questions: [
+        {
+          question: "What is California's statute of limitations on debt collection?",
+          answer: "California has a four-year statute of limitations for filing lawsuits to collect on debts based on a written agreement. After this period, creditors cannot sue you for the debt, though they can still attempt collection. For credit card debt and personal loans in Anaheim, Irvine, Santa Ana, and other Orange County cities, this four-year period starts from your last payment or activity on the account."
+        },
+        {
+          question: "Can time-barred debts still be collected in Orange County?",
+          answer: "Yes, creditors can still attempt to collect time-barred debts, but they cannot sue you. Many Orange County residents in cities like Newport Beach, Costa Mesa, and Huntington Beach successfully negotiate settlements on old debts for much lower amounts since the creditor's legal leverage is limited."
+        },
+        {
+          question: "What should I do if creditors contact me about old debts?",
+          answer: "Contact your creditors to discuss your inability to pay the full amount and propose a lump-sum payment for less than the total owed. You can pursue debt settlement independently or work with a licensed California debt settlement company that will negotiate on your behalf for a fee."
+        },
+        {
+          question: "How do I assess my finances before debt settlement?",
+          answer: "Create a detailed list of all your debts, including the total amount owed to each creditor. This comprehensive assessment helps determine which debts are eligible for settlement and allows you to make informed decisions about pursuing debt relief in Orange County."
+        }
+      ]
+    },
+    {
+      category: "Property Tax & Liens",
+      questions: [
+        {
+          question: "Are property taxes in Orange County different from other debts?",
+          answer: "Yes, property taxes are secured debts that cannot be settled like credit cards or personal loans. Orange County property taxes must be paid in full to avoid liens and potential foreclosure. Cities like Laguna Beach, Mission Viejo, and Seal Beach have varying property tax rates that affect residents differently."
+        },
+        {
+          question: "What happens with delinquent property taxes in Orange County?",
+          answer: "Delinquent property taxes in Orange County cities like Placentia, Yorba Linda, and Westminster can result in tax liens against your property. These liens take priority over most other debts and can lead to foreclosure if not addressed. Property tax debt cannot be settled through traditional debt settlement methods."
+        },
+        {
+          question: "How can I find information about Orange County property tax records?",
+          answer: "Orange County maintains public records of property taxes and delinquent accounts. Residents in cities like Tustin, Villa Park, and Stanton can search the Orange County Tax Collector's website for property tax information and payment options. Court-ordered debt collection for property taxes follows different procedures than unsecured debt collection."
+        },
+        {
+          question: "What is Prop 19 and how does it affect Orange County property taxes?",
+          answer: "Proposition 19 affects property tax assessments for inherited properties and transfers between family members in Orange County. Residents in cities like Aliso Viejo, Dana Point, and Garden Grove may be impacted by these changes, which can affect overall debt management strategies when property values increase."
+        }
+      ]
+    },
+    {
+      category: "Company-Specific Questions",
+      questions: [
+        {
+          question: "What should I know about Americor debt relief services?",
+          answer: "Americor is a debt settlement company that operates in California. When considering any debt settlement company in Orange County, research their customer service hours, read reviews from residents in cities like Fountain Valley, Fullerton, and La Habra, and verify their California licensing with the Department of Financial Protection and Innovation."
+        },
+        {
+          question: "How do I research debt settlement companies serving Orange County?",
+          answer: "Check the Better Business Bureau for ratings, read customer reviews from residents in cities like Laguna Hills, Laguna Niguel, and La Palma, verify California licensing, and inquire about customer service availability. Look for companies with transparent fee structures and positive reviews from Orange County clients."
+        },
+        {
+          question: "What are the warning signs of debt settlement scams in Orange County?",
+          answer: "Be cautious of companies making unrealistic promises about debt reduction. Legitimate debt settlement companies serving Orange County cities like Rancho Santa Margarita, San Clemente, and San Juan Capistrano will never guarantee specific settlement amounts or charge upfront fees before providing services."
+        },
+        {
+          question: "How can I verify a debt settlement company's legitimacy?",
+          answer: "Check with the California Department of Financial Protection and Innovation for licensing, review complaint records, and ask for references from other Orange County clients. Legitimate companies will provide clear information about their process and fees without high-pressure sales tactics."
+        }
+      ]
     }
   ];
 

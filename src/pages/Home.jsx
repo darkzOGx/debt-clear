@@ -8,6 +8,7 @@ import TestimonialsSection from '../components/testimonials/TestimonialsSection'
 import BlogSection from '../components/blog/BlogSection';
 import ConsultationForm from '../components/consultation/ConsultationForm';
 import NewsletterSignup from '../components/newsletter/NewsletterSignup';
+import InternalLinkingHub from '../components/seo/InternalLinkingHub';
 
 export default function Home() {
   const calculatorRef = useRef(null);
@@ -99,11 +100,13 @@ export default function Home() {
       {/* Blog Section */}
       <BlogSection />
 
+      {/* Internal Linking Hub */}
+      <InternalLinkingHub currentPage="/" />
+
       {/* Consultation Form */}
       <div ref={consultationRef}>
         <ConsultationForm sectionId="home-consultation" />
       </div>
-
 
       {/* Newsletter Signup */}
       <NewsletterSignup />

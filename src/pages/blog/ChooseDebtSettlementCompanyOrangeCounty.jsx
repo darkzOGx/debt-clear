@@ -59,9 +59,10 @@ export default function ChooseDebtSettlementCompanyOrangeCounty() {
             
             <p className="text-neutral-700 leading-relaxed mb-6">
               Orange County residents have access to numerous debt settlement companies, but quality varies dramatically. 
-              With over 60 companies operating in the region, choosing the right provider can mean the difference between 
+              Whether you're searching for <strong>debt settlement Irvine reviews</strong>, <strong>free debt settlement Anaheim</strong>, 
+              or <strong>best debt relief Costa Mesa</strong>, choosing the right provider can mean the difference between 
               financial freedom and falling victim to predatory practices. This guide provides a comprehensive framework 
-              for evaluating debt settlement companies in Orange County.
+              for evaluating <strong>debt settlement companies Orange County</strong> residents can trust.
             </p>
 
             <div className="bg-amber-50 border border-amber-200 p-8 mb-8">
