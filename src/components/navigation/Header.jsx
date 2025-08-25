@@ -78,11 +78,11 @@ export default function Header() {
           <div className="flex items-center">
             <Link to="/" className="flex items-center gap-3">
               <div className="w-8 h-8 bg-black flex items-center justify-center">
-                <span className="text-white font-mono text-sm font-bold">V</span>
+                <span className="text-white font-mono text-sm font-bold">OC</span>
               </div>
               <div>
-                <span className="text-xl font-light text-black">VegaX</span>
-                <span className="text-xl font-mono text-black ml-1">AI</span>
+                <span className="text-xl font-light text-black">OC Debt</span>
+                <span className="text-xl font-mono text-black ml-1">Center</span>
               </div>
             </Link>
           </div>
