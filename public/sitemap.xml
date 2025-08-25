@@ -702,4 +702,24 @@
     <priority>0.7</priority>
     <lastmod>2025-08-25</lastmod>
   </url>
+
+  <!-- Latest Blog Articles (August 2025) -->
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/divorce-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/wage-garnishment-laws-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/retirement-accounts-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
 </urlset>
