@@ -8,6 +8,30 @@ export default function BlogResources() {
   const [categoryStartIndex, setCategoryStartIndex] = useState(0);
   const articles = [
     {
+      title: "Divorce and Debt Settlement Orange County: Protecting Assets During Separation",
+      excerpt: "Navigate divorce and debt settlement in Orange County California. Learn community property laws, asset protection strategies, and how to handle marital debt during divorce proceedings.",
+      slug: "/blog/divorce-debt-settlement-orange-county",
+      date: "Aug 25, 2025",
+      readTime: "25 min read",
+      category: "Family Law & Debt"
+    },
+    {
+      title: "Orange County Wage Garnishment Laws 2025: Stop Paycheck Deductions",
+      excerpt: "Complete guide to wage garnishment laws in Orange County, California. Learn exemptions, legal limits, how to stop garnishments, and protect your paycheck through debt settlement.",
+      slug: "/blog/wage-garnishment-laws-debt-settlement-orange-county",
+      date: "Aug 24, 2025",
+      readTime: "20 min read",
+      category: "Legal Protection"
+    },
+    {
+      title: "Retirement Accounts Protection During Debt Settlement Orange County 2025",
+      excerpt: "Complete guide to protecting 401(k), IRA, and pension accounts during debt settlement in Orange County. Learn ERISA protections, California exemptions, and strategic withdrawal planning.",
+      slug: "/blog/retirement-accounts-debt-settlement-orange-county",
+      date: "Aug 24, 2025",
+      readTime: "22 min read",
+      category: "Retirement Protection"
+    },
+    {
       title: "The Complete Orange County Guide to Debt & Tax Relief: Every Option, Strategy, and Solution",
       excerpt: "Orange County residents face unique financial challenges with a median household debt of $127,000. This comprehensive guide provides every tool, strategy, and resource needed to achieve financial freedom.",
       slug: "/blog/comprehensive-debt-tax-relief-guide-orange-county",

@@ -98,6 +98,11 @@ import CaliforniaFtbDebtSettlementOrangeCounty from "./blog/CaliforniaFtbDebtSet
 import Chapter7VsDebtSettlementOrangeCounty from "./blog/Chapter7VsDebtSettlementOrangeCounty";
 import DebtManagementPlansVsDebtSettlementOrangeCounty from "./blog/DebtManagementPlansVsDebtSettlementOrangeCounty";
 
+// Latest blog post imports (August 2025)
+import RetirementAccountsDebtSettlementOrangeCounty from "./blog/RetirementAccountsDebtSettlementOrangeCounty";
+import WageGarnishmentLawsDebtSettlementOrangeCounty from "./blog/WageGarnishmentLawsDebtSettlementOrangeCounty";
+import DivorceDebtSettlementOrangeCounty from "./blog/DivorceDebtSettlementOrangeCounty";
+
 import FountainValleyDebtSettlement from "./FountainValleyDebtSettlement";
 import GardenGroveDebtSettlement from "./GardenGroveDebtSettlement";
 import FullertonDebtSettlement from "./FullertonDebtSettlement";
@@ -210,6 +215,12 @@ const PAGES = {
     SmallBusinessDebtSettlementCaseStudiesOrangeCounty: SmallBusinessDebtSettlementCaseStudiesOrangeCounty,
     SocialSecurityDebtSettlementOrangeCountySeniors: SocialSecurityDebtSettlementOrangeCountySeniors,
     TaxImplicationsDebtSettlementOrangeCounty: TaxImplicationsDebtSettlementOrangeCounty,
+    
+    // Latest blog posts (August 2025)
+    RetirementAccountsDebtSettlementOrangeCounty: RetirementAccountsDebtSettlementOrangeCounty,
+    WageGarnishmentLawsDebtSettlementOrangeCounty: WageGarnishmentLawsDebtSettlementOrangeCounty,
+    DivorceDebtSettlementOrangeCounty: DivorceDebtSettlementOrangeCounty,
+    
     FountainValleyDebtSettlement: FountainValleyDebtSettlement,
     GardenGroveDebtSettlement: GardenGroveDebtSettlement,
     FullertonDebtSettlement: FullertonDebtSettlement,
@@ -347,6 +358,11 @@ function PagesContent() {
                 <Route path="/blog/california-ftb-debt-settlement-orange-county" element={<CaliforniaFtbDebtSettlementOrangeCounty />} />
                 <Route path="/blog/chapter-7-vs-debt-settlement-orange-county" element={<Chapter7VsDebtSettlementOrangeCounty />} />
                 <Route path="/blog/debt-management-plans-vs-debt-settlement-orange-county" element={<DebtManagementPlansVsDebtSettlementOrangeCounty />} />
+                
+                {/* Latest blog post routes (August 2025) */}
+                <Route path="/blog/retirement-accounts-debt-settlement-orange-county" element={<RetirementAccountsDebtSettlementOrangeCounty />} />
+                <Route path="/blog/wage-garnishment-laws-debt-settlement-orange-county" element={<WageGarnishmentLawsDebtSettlementOrangeCounty />} />
+                <Route path="/blog/divorce-debt-settlement-orange-county" element={<DivorceDebtSettlementOrangeCounty />} />
                 
                 <Route path="/blog/test" element={<TestBlogPost />} />
                 <Route path="/test-route" element={<TestRoute />} />

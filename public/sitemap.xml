@@ -7,275 +7,699 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <!-- Homepage -->
   <url>
-    <loc>https://vegaxai.com/</loc>
+    <loc>https://www.orangecountydebtcenter.com/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   
   <!-- Blog Resources -->
   <url>
-    <loc>https://vegaxai.com/blog</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   
   <!-- City Landing Pages -->
   <url>
-    <loc>https://vegaxai.com/debt-settlement-anaheim</loc>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-anaheim</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/debt-settlement-irvine</loc>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-brea</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/debt-settlement-santa-ana</loc>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-cypress</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/debt-settlement-huntington-beach</loc>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-irvine</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/debt-settlement-newport-beach</loc>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-la-habra</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/debt-settlement-laguna-beach</loc>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-santa-ana</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/debt-settlement-yorba-linda</loc>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-huntington-beach</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/debt-settlement-dana-point</loc>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-newport-beach</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/debt-settlement-laguna-niguel</loc>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-laguna-beach</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/debt-settlement-seal-beach</loc>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-yorba-linda</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/debt-settlement-laguna-woods</loc>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-dana-point</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/debt-settlement-fountain-valley</loc>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-laguna-niguel</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-seal-beach</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-laguna-woods</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-fountain-valley</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-garden-grove</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-fullerton</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-orange</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-costa-mesa</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-mission-viejo</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-westminster</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
   </url>
   
-  <!-- FAQ and About Pages -->
+  <!-- Main Pages -->
   <url>
-    <loc>https://vegaxai.com/faq</loc>
+    <loc>https://www.orangecountydebtcenter.com/faq</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/about-us</loc>
+    <loc>https://www.orangecountydebtcenter.com/about-us</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/debt-settlement-vs-bankruptcy</loc>
+    <loc>https://www.orangecountydebtcenter.com/debt-settlement-vs-bankruptcy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/case-studies</loc>
+    <loc>https://www.orangecountydebtcenter.com/case-studies</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/orange-county-hub</loc>
+    <loc>https://www.orangecountydebtcenter.com/orange-county-hub</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/resources</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+
+  <!-- Financial Tools and Calculators -->
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/debt-tools</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/money-calculators</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/mortgage-calculators</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/auto-calculators</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/credit-calculators</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/student-loan-calculators</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+
+  <!-- Research and Study Pages -->
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/orange-county-debt-crisis-observatory</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/medical-debt-relief-hub</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/ai-vs-human-debt-settlement-study</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/national-debt-settlement-transparency-database</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-08-25</lastmod>
   </url>
   
   <!-- Blog Articles -->
   <url>
-    <loc>https://vegaxai.com/blog/orange-county-debt-settlement-laws</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/orange-county-debt-settlement-laws</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/ai-vs-traditional-debt-settlement</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/ai-vs-traditional-debt-settlement</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-08-10</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/choose-debt-settlement-company-orange-county</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/choose-debt-settlement-company-orange-county</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-08-05</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/bankruptcy-vs-debt-settlement-orange-county</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/bankruptcy-vs-debt-settlement-orange-county</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-08-01</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/medical-debt-settlement-orange-county</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/medical-debt-settlement-orange-county</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-07-28</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/credit-card-debt-settlement-orange-county</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/credit-card-debt-settlement-orange-county</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-07-25</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/small-business-debt-relief-orange-county</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/small-business-debt-relief-orange-county</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-07-20</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/tax-implications-debt-settlement-california</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/tax-implications-debt-settlement-california</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-07-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/debt-settlement-seniors-orange-county</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/debt-settlement-seniors-orange-county</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-07-12</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/student-loan-debt-relief-orange-county</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/student-loan-debt-relief-orange-county</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-07-08</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/property-protection-debt-settlement-orange-county</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/property-protection-debt-settlement-orange-county</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-07-05</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/debt-settlement-timeline-orange-county</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/debt-settlement-timeline-orange-county</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-07-01</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/debt-settlement-fees-orange-county</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/debt-settlement-fees-orange-county</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-06-28</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/credit-score-recovery-debt-settlement-orange-county</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/credit-score-recovery-debt-settlement-orange-county</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-06-25</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/debt-collection-laws-orange-county</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/debt-collection-laws-orange-county</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-06-20</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/credit-card-debt-relief-orange-county-2025</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/credit-card-debt-relief-orange-county-2025</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/medical-debt-relief-orange-county-2025</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/medical-debt-relief-orange-county-2025</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/orange-county-debt-consolidation-2025</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/orange-county-debt-consolidation-2025</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/business-debt-relief-orange-county-2025</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/business-debt-relief-orange-county-2025</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/orange-county-debt-laws-2025</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/orange-county-debt-laws-2025</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/orange-county-foreclosure-alternatives-2025</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/orange-county-foreclosure-alternatives-2025</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/orange-county-senior-debt-relief-2025</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/orange-county-senior-debt-relief-2025</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/orange-county-tax-debt-relief-2025</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/orange-county-tax-debt-relief-2025</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/orange-county-student-loan-forgiveness-2025</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/orange-county-student-loan-forgiveness-2025</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
   </url>
   <url>
-    <loc>https://vegaxai.com/blog/orange-county-bankruptcy-alternatives-2025</loc>
+    <loc>https://www.orangecountydebtcenter.com/blog/orange-county-bankruptcy-alternatives-2025</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-    <lastmod>2025-08-15</lastmod>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+
+  <!-- Additional Blog Posts from August 2025 -->
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/1099c-tax-forms-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/ai-debt-settlement-technology-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/asset-protection-trusts-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/balance-transfer-vs-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/building-credit-during-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/california-tax-implications-debt-relief-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/commercial-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/credit-card-debt-settlement-major-banks-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/credit-repair-after-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/debt-collector-harassment-rights-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/debt-consolidation-loans-comparison-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/debt-consolidation-vs-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/debt-settlement-attorney-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/debt-settlement-checklist-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/debt-settlement-negotiations-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/debt-settlement-process-guide-orange-county-2025</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/debt-settlement-scams-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/debt-settlement-success-stories-orange-county-2025</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/debt-settlement-vs-bankruptcy-cost-comparison-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/emergency-fund-building-debt-relief-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/fdcpa-consumer-protection-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/financial-planning-after-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/hidden-costs-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/high-interest-credit-card-debt-relief-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/homestead-exemption-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/hospital-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/investment-strategies-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/legal-rights-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/machine-learning-debt-relief-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/mortgage-modification-vs-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/private-student-loan-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/retirement-planning-after-debt-relief-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/small-business-debt-settlement-case-studies-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/social-security-debt-settlement-orange-county-seniors</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/tax-implications-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/short-sale-vs-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/irs-payment-plans-vs-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/california-ftb-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/chapter-7-vs-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/debt-management-plans-vs-debt-settlement-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+
+  <!-- Additional Tax and Debt Relief Articles -->
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/comprehensive-debt-tax-relief-guide-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/debt-settlement-vs-tax-relief-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/irs-tax-settlement-strategies-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/simple-comprehensive-debt-tax-relief-guide-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/simple-debt-settlement-vs-tax-relief-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/simple-irs-tax-settlement-strategies-orange-county</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+
+  <!-- City-Specific Expert Pages -->
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/brea-debt-settlement-services-2025</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/la-habra-debt-relief-solutions-2025</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.orangecountydebtcenter.com/blog/cypress-debt-settlement-experts-2025</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-08-25</lastmod>
   </url>
 </urlset>
