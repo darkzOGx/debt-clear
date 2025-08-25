@@ -8,6 +8,15 @@ export default function BlogResources() {
   const [categoryStartIndex, setCategoryStartIndex] = useState(0);
   const articles = [
     {
+      title: "Orange County Debt Settlement: Complete 2025 Guide",
+      excerpt: "Everything Orange County residents need to know about debt settlement in California, including the legal process, timeline expectations, and city-specific considerations. Comprehensive guide with AI overview content and 80+ longtail keywords integrated.",
+      slug: "/blog/orange-county-debt-settlement-guide-2025",
+      date: "Jan 15, 2025",
+      readTime: "15 min read",
+      category: "Comprehensive Guide",
+      featured: true
+    },
+    {
       title: "Divorce and Debt Settlement Orange County: Protecting Assets During Separation",
       excerpt: "Navigate divorce and debt settlement in Orange County California. Learn community property laws, asset protection strategies, and how to handle marital debt during divorce proceedings.",
       slug: "/blog/divorce-debt-settlement-orange-county",
