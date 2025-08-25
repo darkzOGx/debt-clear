@@ -19,18 +19,18 @@ export default function AiVsTraditionalDebtSettlement() {
         <meta name="description" content="Real results comparing AI-powered debt negotiation with traditional companies for Orange County families. Data from 500+ local cases shows significant differences." />
         <meta name="keywords" content="AI vs traditional debt settlement, Orange County debt settlement comparison, artificial intelligence negotiation, debt settlement case studies, AI debt relief results" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxai.com/blog/ai-vs-traditional-debt-settlement" />
+        <link rel="canonical" href="https://ocdebtcenter.com/blog/ai-vs-traditional-debt-settlement" />
         
         <meta property="og:title" content="AI vs Traditional Debt Settlement: Orange County Case Studies" />
         <meta property="og:description" content="Real results comparing AI-powered debt negotiation with traditional companies for Orange County families. Data from 500+ local cases shows significant differences." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://vegaxai.com/blog/ai-vs-traditional-debt-settlement" />
-        <meta property="og:image" content="https://vegaxai.com/og-ai-vs-traditional.jpg" />
+        <meta property="og:url" content="https://ocdebtcenter.com/blog/ai-vs-traditional-debt-settlement" />
+        <meta property="og:image" content="https://ocdebtcenter.com/og-ai-vs-traditional.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AI vs Traditional Debt Settlement: Orange County Case Studies" />
         <meta name="twitter:description" content="Real results comparing AI-powered debt negotiation with traditional companies for Orange County families. Data from 500+ local cases shows significant differences." />
-        <meta name="twitter:image" content="https://vegaxai.com/og-ai-vs-traditional.jpg" />
+        <meta name="twitter:image" content="https://ocdebtcenter.com/og-ai-vs-traditional.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -38,26 +38,26 @@ export default function AiVsTraditionalDebtSettlement() {
             "@type": "Article",
             "headline": "AI vs Traditional Debt Settlement: Orange County Case Studies",
             "description": "Real results comparing AI-powered debt negotiation with traditional companies for Orange County families. Data from 500+ local cases shows significant differences.",
-            "image": "https://vegaxai.com/og-ai-vs-traditional.jpg",
+            "image": "https://ocdebtcenter.com/og-ai-vs-traditional.jpg",
             "author": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://vegaxai.com"
+              "url": "https://ocdebtcenter.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://vegaxai.com",
+              "url": "https://ocdebtcenter.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxai.com/logo.png"
+                "url": "https://ocdebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-08-10",
             "dateModified": "2025-08-10",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://vegaxai.com/blog/ai-vs-traditional-debt-settlement"
+              "@id": "https://ocdebtcenter.com/blog/ai-vs-traditional-debt-settlement"
             },
             "articleSection": "Technology",
             "keywords": ["AI vs traditional debt settlement", "Orange County debt settlement comparison", "artificial intelligence negotiation", "debt settlement case studies"]
@@ -81,7 +81,7 @@ export default function AiVsTraditionalDebtSettlement() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 10, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>12 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Research Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Research Team</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             Real results comparing AI-powered debt negotiation with traditional companies for Orange County families. Data from 500+ local cases shows significant differences in outcomes, timeline, and cost.

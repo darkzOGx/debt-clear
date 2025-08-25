@@ -38,7 +38,7 @@ function CalculatorCard({ title, description, icon: Icon, calculator: Calculator
 }
 
 export default function AutoCalculators() {
-  useCanonicalLink('https://vegaxai.com/auto-calculators');
+  useCanonicalLink('https://ocdebtcenter.com/auto-calculators');
   const calculators = [
     {
       title: "Auto Loan Calculator",

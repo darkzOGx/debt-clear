@@ -15,7 +15,7 @@ export default function Home() {
   const consultationRef = useRef(null);
   
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://vegaxai.com/');
+  useCanonicalLink('https://ocdebtcenter.com/');
 
   const scrollToCalculator = () => {
     calculatorRef.current?.scrollIntoView({ 
@@ -42,22 +42,22 @@ export default function Home() {
         <meta property="og:title" content="Orange County Debt Settlement - AI Relief" />
         <meta property="og:description" content="Orange County debt settlement & relief. Credit card debt reduction, medical debt forgiveness, unsecured debt negotiation, bankruptcy alternatives." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://vegaxai.com/" />
-        <meta property="og:image" content="https://vegaxai.com/og-debt-settlement.jpg" />
+        <meta property="og:url" content="https://ocdebtcenter.com/" />
+        <meta property="og:image" content="https://ocdebtcenter.com/og-debt-settlement.jpg" />
         <meta property="og:site_name" content="OC Debt Center Debt Settlement" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Orange County Debt Settlement - AI Relief" />
         <meta name="twitter:description" content="Orange County debt settlement & relief. Credit card debt reduction, medical debt forgiveness, unsecured debt negotiation." />
-        <meta name="twitter:image" content="https://vegaxai.com/og-debt-settlement.jpg" />
+        <meta name="twitter:image" content="https://ocdebtcenter.com/og-debt-settlement.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "OC Debt Center Debt Settlement",
-            "url": "https://vegaxai.com",
-            "logo": "https://vegaxai.com/logo.png",
+            "url": "https://ocdebtcenter.com",
+            "logo": "https://ocdebtcenter.com/logo.png",
             "description": "Professional debt settlement services for Orange County residents using AI-powered negotiation strategies.",
             "address": {
               "@type": "PostalAddress",
@@ -71,9 +71,9 @@ export default function Home() {
               "contactType": "Customer Service"
             },
             "sameAs": [
-              "https://facebook.com/vegaxai",
-              "https://twitter.com/vegaxai",
-              "https://linkedin.com/company/vegaxai"
+              "https://facebook.com/ocdebtcenter",
+              "https://twitter.com/ocdebtcenter",
+              "https://linkedin.com/company/ocdebtcenter"
             ]
           })}
         </script>

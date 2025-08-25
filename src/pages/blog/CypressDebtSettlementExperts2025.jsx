@@ -11,7 +11,7 @@ export default function CypressDebtSettlementExperts2025() {
   const consultationRef = useRef(null);
   
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://vegaxai.com/blog/cypress-debt-settlement-experts-2025');
+  useCanonicalLink('https://ocdebtcenter.com/blog/cypress-debt-settlement-experts-2025');
 
   const scrollToConsultation = () => {
     consultationRef.current?.scrollIntoView({ 
@@ -31,20 +31,20 @@ export default function CypressDebtSettlementExperts2025() {
         <meta property="og:title" content="Cypress Debt Settlement Experts 2025" />
         <meta property="og:description" content="Expert debt settlement specialists serving Cypress, CA. Professional negotiators, AI-powered strategies, 60% debt reduction." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://vegaxai.com/blog/cypress-debt-settlement-experts-2025" />
-        <meta property="og:image" content="https://vegaxai.com/og-cypress-debt-settlement.jpg" />
+        <meta property="og:url" content="https://ocdebtcenter.com/blog/cypress-debt-settlement-experts-2025" />
+        <meta property="og:image" content="https://ocdebtcenter.com/og-cypress-debt-settlement.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Cypress Debt Settlement Experts 2025" />
         <meta name="twitter:description" content="Expert debt settlement specialists serving Cypress, CA. Professional negotiators, AI-powered strategies." />
-        <meta name="twitter:image" content="https://vegaxai.com/og-cypress-debt-settlement.jpg" />
+        <meta name="twitter:image" content="https://ocdebtcenter.com/og-cypress-debt-settlement.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "OC Debt Center Debt Settlement Experts - Cypress",
-            "image": "https://vegaxai.com/logo.png",
+            "image": "https://ocdebtcenter.com/logo.png",
             "description": "Expert debt settlement specialists serving Cypress, California residents with professional negotiation and AI-powered strategies.",
             "address": {
               "@type": "PostalAddress",
@@ -59,7 +59,7 @@ export default function CypressDebtSettlementExperts2025() {
             },
             "telephone": "(502) 232-8511",
             "serviceArea": "Cypress, California",
-            "url": "https://vegaxai.com/blog/cypress-debt-settlement-experts-2025"
+            "url": "https://ocdebtcenter.com/blog/cypress-debt-settlement-experts-2025"
           })}
         </script>
       </Helmet>

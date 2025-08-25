@@ -23,7 +23,7 @@ export default function PrivateStudentLoanSettlementOrangeCounty() {
         <meta property="og:description" content="Private student loan settlement strategies for Orange County borrowers. Negotiate significant reductions with expert guidance." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxholdings.com/blog/private-student-loan-settlement-orange-county" />
+        <link rel="canonical" href="https://ocdebtcenter.com/blog/private-student-loan-settlement-orange-county" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -33,19 +33,19 @@ export default function PrivateStudentLoanSettlementOrangeCounty() {
             "description": "Private student loan settlement for Orange County borrowers. Negotiate significant reductions on Sallie Mae, Discover, Wells Fargo private loans. Expert settlement strategies.",
             "author": {
               "@type": "Organization",
-              "name": "VegaX Holdings"
+              "name": "OC Debt Center Holdings"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX Holdings",
+              "name": "OC Debt Center Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxholdings.com/logo.png"
+                "url": "https://ocdebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-08-25",
             "dateModified": "2025-08-25",
-            "mainEntityOfPage": "https://vegaxholdings.com/blog/private-student-loan-settlement-orange-county"
+            "mainEntityOfPage": "https://ocdebtcenter.com/blog/private-student-loan-settlement-orange-county"
           })}
         </script>
       </Helmet>

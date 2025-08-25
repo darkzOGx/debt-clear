@@ -52,7 +52,7 @@ export default function ShortSaleVsDebtSettlementOrangeCounty() {
             </div>
             <div className="flex items-center gap-2">
               <User className="w-4 h-4" />
-              <span>VegaX Real Estate Team</span>
+              <span>OC Debt Center Real Estate Team</span>
             </div>
           </div>
 

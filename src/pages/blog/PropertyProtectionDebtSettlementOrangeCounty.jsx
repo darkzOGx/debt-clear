@@ -31,7 +31,7 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 5, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>12 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Asset Protection Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Asset Protection Team</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light">How to protect your Orange County home and assets during the debt settlement process using California exemptions and strategic planning.</p>
         </div>

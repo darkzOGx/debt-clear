@@ -38,7 +38,7 @@ export default function TaxImplicationsDebtSettlementCalifornia() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 15, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>8 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Tax Planning Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Tax Planning Team</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light">
             Understanding the tax consequences of debt settlement for Orange County residents and how to minimize 

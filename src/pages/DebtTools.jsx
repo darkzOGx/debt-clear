@@ -59,7 +59,7 @@ function CalculatorGroupCard({ title, description, icon: Icon, calculators, link
 }
 
 export default function DebtTools() {
-  useCanonicalLink('https://vegaxai.com/debt-tools');
+  useCanonicalLink('https://ocdebtcenter.com/debt-tools');
   const calculatorGroups = [
     {
       title: "Money Calculators",
@@ -140,8 +140,8 @@ export default function DebtTools() {
         <meta property="og:title" content="Debt Tools - Complete Financial Calculator Suite" />
         <meta property="og:description" content="Free comprehensive financial calculators for Orange County residents. Calculate mortgages, auto loans, retirement, budgets, debt payoff, student loans." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://vegaxai.com/debt-tools" />
-        <meta property="og:image" content="https://vegaxai.com/og-financial-calculators.jpg" />
+        <meta property="og:url" content="https://ocdebtcenter.com/debt-tools" />
+        <meta property="og:image" content="https://ocdebtcenter.com/og-financial-calculators.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -149,11 +149,11 @@ export default function DebtTools() {
             "@type": "WebPage",
             "name": "Debt Tools - Financial Calculator Suite",
             "description": "Comprehensive financial calculators including mortgage, auto loan, retirement, budget, and debt payoff calculators for Orange County residents.",
-            "url": "https://vegaxai.com/debt-tools",
+            "url": "https://ocdebtcenter.com/debt-tools",
             "publisher": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://vegaxai.com"
+              "url": "https://ocdebtcenter.com"
             },
             "mainEntity": {
               "@type": "SoftwareApplication",

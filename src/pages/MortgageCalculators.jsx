@@ -38,7 +38,7 @@ function CalculatorCard({ title, description, icon: Icon, calculator: Calculator
 }
 
 export default function MortgageCalculators() {
-  useCanonicalLink('https://vegaxai.com/mortgage-calculators');
+  useCanonicalLink('https://ocdebtcenter.com/mortgage-calculators');
   const calculators = [
     {
       title: "Mortgage Calculator",

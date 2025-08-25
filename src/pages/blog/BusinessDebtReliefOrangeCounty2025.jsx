@@ -19,18 +19,18 @@ export default function BusinessDebtReliefOrangeCounty2025() {
         <meta name="description" content="Comprehensive strategies for Orange County small businesses struggling with commercial debt, including SBA loan modifications, equipment financing relief, and business credit card settlements." />
         <meta name="keywords" content="Orange County business debt relief, small business debt solutions, SBA loan modifications, commercial debt settlement, business credit cards, equipment financing relief, Orange County business bankruptcy alternatives" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxai.com/blog/business-debt-relief-orange-county-2025" />
+        <link rel="canonical" href="https://ocdebtcenter.com/blog/business-debt-relief-orange-county-2025" />
         
         <meta property="og:title" content="Orange County Business Debt Relief: Small Business Solutions 2025" />
         <meta property="og:description" content="Comprehensive strategies for Orange County small businesses struggling with commercial debt, including SBA loan modifications, equipment financing relief, and business credit card settlements." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://vegaxai.com/blog/business-debt-relief-orange-county-2025" />
-        <meta property="og:image" content="https://vegaxai.com/og-business-debt-relief.jpg" />
+        <meta property="og:url" content="https://ocdebtcenter.com/blog/business-debt-relief-orange-county-2025" />
+        <meta property="og:image" content="https://ocdebtcenter.com/og-business-debt-relief.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Orange County Business Debt Relief: Small Business Solutions 2025" />
         <meta name="twitter:description" content="Comprehensive strategies for Orange County small businesses struggling with commercial debt, including SBA loan modifications, equipment financing relief, and business credit card settlements." />
-        <meta name="twitter:image" content="https://vegaxai.com/og-business-debt-relief.jpg" />
+        <meta name="twitter:image" content="https://ocdebtcenter.com/og-business-debt-relief.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -38,26 +38,26 @@ export default function BusinessDebtReliefOrangeCounty2025() {
             "@type": "Article",
             "headline": "Orange County Business Debt Relief: Small Business Solutions 2025",
             "description": "Comprehensive strategies for Orange County small businesses struggling with commercial debt, including SBA loan modifications, equipment financing relief, and business credit card settlements.",
-            "image": "https://vegaxai.com/og-business-debt-relief.jpg",
+            "image": "https://ocdebtcenter.com/og-business-debt-relief.jpg",
             "author": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://vegaxai.com"
+              "url": "https://ocdebtcenter.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://vegaxai.com",
+              "url": "https://ocdebtcenter.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxai.com/logo.png"
+                "url": "https://ocdebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-08-15",
             "dateModified": "2025-08-15",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://vegaxai.com/blog/business-debt-relief-orange-county-2025"
+              "@id": "https://ocdebtcenter.com/blog/business-debt-relief-orange-county-2025"
             },
             "articleSection": "Business Debt Relief",
             "keywords": ["Orange County business debt relief", "small business debt solutions", "SBA loan modifications", "commercial debt settlement"]
@@ -81,7 +81,7 @@ export default function BusinessDebtReliefOrangeCounty2025() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 15, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>18 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Business Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Business Team</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             Comprehensive strategies for Orange County small businesses struggling with commercial debt, 

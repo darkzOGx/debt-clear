@@ -23,7 +23,7 @@ export default function OrangeCountyDebtConsolidation2025() {
         <meta property="og:description" content="Complete guide to debt consolidation for Orange County residents. Compare all options and find the best strategy for your situation." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxholdings.com/blog/orange-county-debt-consolidation-2025" />
+        <link rel="canonical" href="https://ocdebtcenter.com/blog/orange-county-debt-consolidation-2025" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -33,19 +33,19 @@ export default function OrangeCountyDebtConsolidation2025() {
             "description": "Complete guide to debt consolidation for Orange County residents in 2025. Compare personal loans, balance transfers, and HELOC options. Find the best consolidation strategy.",
             "author": {
               "@type": "Organization",
-              "name": "VegaX Holdings"
+              "name": "OC Debt Center Holdings"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX Holdings",
+              "name": "OC Debt Center Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxholdings.com/logo.png"
+                "url": "https://ocdebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-08-15",
             "dateModified": "2025-08-15",
-            "mainEntityOfPage": "https://vegaxholdings.com/blog/orange-county-debt-consolidation-2025"
+            "mainEntityOfPage": "https://ocdebtcenter.com/blog/orange-county-debt-consolidation-2025"
           })}
         </script>
       </Helmet>
@@ -66,7 +66,7 @@ export default function OrangeCountyDebtConsolidation2025() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 15, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>16 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Financial Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Financial Team</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             Complete 2025 guide to debt consolidation options for Orange County residents, including personal loans, balance transfers, and HELOC strategies that can reduce monthly payments significantly.

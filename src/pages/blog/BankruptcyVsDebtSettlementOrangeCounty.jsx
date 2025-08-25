@@ -19,18 +19,18 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
         <meta name="description" content="Detailed analysis of bankruptcy and debt settlement options for Orange County residents, including costs, timelines, credit impact, and which option is best for different financial situations." />
         <meta name="keywords" content="Orange County bankruptcy vs debt settlement, Chapter 7 bankruptcy, Chapter 13 bankruptcy, debt settlement comparison, Orange County debt relief, California bankruptcy exemptions, debt settlement costs" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxai.com/blog/bankruptcy-vs-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://ocdebtcenter.com/blog/bankruptcy-vs-debt-settlement-orange-county" />
         
         <meta property="og:title" content="Orange County Bankruptcy vs Debt Settlement: Complete Comparison" />
         <meta property="og:description" content="Detailed analysis of bankruptcy and debt settlement options for Orange County residents, including costs, timelines, credit impact, and which option is best for different financial situations." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://vegaxai.com/blog/bankruptcy-vs-debt-settlement-orange-county" />
-        <meta property="og:image" content="https://vegaxai.com/og-bankruptcy-vs-debt-settlement.jpg" />
+        <meta property="og:url" content="https://ocdebtcenter.com/blog/bankruptcy-vs-debt-settlement-orange-county" />
+        <meta property="og:image" content="https://ocdebtcenter.com/og-bankruptcy-vs-debt-settlement.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Orange County Bankruptcy vs Debt Settlement: Complete Comparison" />
         <meta name="twitter:description" content="Detailed analysis of bankruptcy and debt settlement options for Orange County residents, including costs, timelines, credit impact, and which option is best for different financial situations." />
-        <meta name="twitter:image" content="https://vegaxai.com/og-bankruptcy-vs-debt-settlement.jpg" />
+        <meta name="twitter:image" content="https://ocdebtcenter.com/og-bankruptcy-vs-debt-settlement.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -38,26 +38,26 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
             "@type": "Article",
             "headline": "Orange County Bankruptcy vs Debt Settlement: Complete Comparison",
             "description": "Detailed analysis of bankruptcy and debt settlement options for Orange County residents, including costs, timelines, credit impact, and which option is best for different financial situations.",
-            "image": "https://vegaxai.com/og-bankruptcy-vs-debt-settlement.jpg",
+            "image": "https://ocdebtcenter.com/og-bankruptcy-vs-debt-settlement.jpg",
             "author": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://vegaxai.com"
+              "url": "https://ocdebtcenter.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://vegaxai.com",
+              "url": "https://ocdebtcenter.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxai.com/logo.png"
+                "url": "https://ocdebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-08-01",
             "dateModified": "2025-08-01",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://vegaxai.com/blog/bankruptcy-vs-debt-settlement-orange-county"
+              "@id": "https://ocdebtcenter.com/blog/bankruptcy-vs-debt-settlement-orange-county"
             },
             "articleSection": "Debt Relief",
             "keywords": ["Orange County bankruptcy vs debt settlement", "Chapter 7 bankruptcy", "Chapter 13 bankruptcy", "debt settlement comparison"]
@@ -84,7 +84,7 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 1, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>15 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Financial Planning Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Financial Planning Team</span></div>
           </div>
 
           <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">

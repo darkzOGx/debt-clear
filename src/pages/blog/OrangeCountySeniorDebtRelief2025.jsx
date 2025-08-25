@@ -23,7 +23,7 @@ export default function OrangeCountySeniorDebtRelief2025() {
         <meta property="og:description" content="Specialized debt relief for Orange County seniors. Protect retirement savings and Social Security with senior-focused debt solutions." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxholdings.com/blog/orange-county-senior-debt-relief-2025" />
+        <link rel="canonical" href="https://ocdebtcenter.com/blog/orange-county-senior-debt-relief-2025" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -33,19 +33,19 @@ export default function OrangeCountySeniorDebtRelief2025() {
             "description": "Debt relief solutions for Orange County seniors. Protect retirement savings, Social Security, and pensions with specialized programs for adults 50+. Expert senior debt guidance.",
             "author": {
               "@type": "Organization",
-              "name": "VegaX Holdings"
+              "name": "OC Debt Center Holdings"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX Holdings",
+              "name": "OC Debt Center Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxholdings.com/logo.png"
+                "url": "https://ocdebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-08-10",
             "dateModified": "2025-08-10",
-            "mainEntityOfPage": "https://vegaxholdings.com/blog/orange-county-senior-debt-relief-2025"
+            "mainEntityOfPage": "https://ocdebtcenter.com/blog/orange-county-senior-debt-relief-2025"
           })}
         </script>
       </Helmet>

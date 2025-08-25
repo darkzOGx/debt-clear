@@ -23,7 +23,7 @@ export default function MachineLearningDebtReliefOrangeCounty() {
         <meta property="og:description" content="Advanced machine learning algorithms optimize debt settlement strategies for Orange County residents. AI-powered debt relief solutions." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxholdings.com/blog/machine-learning-debt-relief-orange-county" />
+        <link rel="canonical" href="https://ocdebtcenter.com/blog/machine-learning-debt-relief-orange-county" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -33,19 +33,19 @@ export default function MachineLearningDebtReliefOrangeCounty() {
             "description": "Advanced machine learning algorithms optimize debt settlement strategies for Orange County residents. Discover how AI transforms debt relief with predictive analytics and smart negotiations.",
             "author": {
               "@type": "Organization",
-              "name": "VegaX Holdings"
+              "name": "OC Debt Center Holdings"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX Holdings",
+              "name": "OC Debt Center Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxholdings.com/logo.png"
+                "url": "https://ocdebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-07-28",
             "dateModified": "2025-07-28",
-            "mainEntityOfPage": "https://vegaxholdings.com/blog/machine-learning-debt-relief-orange-county"
+            "mainEntityOfPage": "https://ocdebtcenter.com/blog/machine-learning-debt-relief-orange-county"
           })}
         </script>
       </Helmet>

@@ -101,7 +101,7 @@ const caseStudies = [
       "Kept children in same school",
       "Avoided bankruptcy"
     ],
-    testimonial: "As educators, we were embarrassed about our debt. VegaX treated us with dignity and delivered amazing results.",
+    testimonial: "As educators, we were embarrassed about our debt. OC Debt Center treated us with dignity and delivered amazing results.",
     featured: false
   },
   {

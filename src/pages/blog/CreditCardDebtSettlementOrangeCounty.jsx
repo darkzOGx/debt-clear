@@ -39,7 +39,7 @@ export default function CreditCardDebtSettlementOrangeCounty() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 25, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>11 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Case Study Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Case Study Team</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             Real examples of credit card debt settlements for Orange County residents, including detailed timelines, negotiation strategies, and outcomes for different credit card companies and debt amounts.

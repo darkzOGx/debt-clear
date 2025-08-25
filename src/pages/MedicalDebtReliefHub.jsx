@@ -11,7 +11,7 @@ export default function MedicalDebtReliefHub() {
   const consultationRef = useRef(null);
   
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://vegaxai.com/medical-debt-relief-hub');
+  useCanonicalLink('https://ocdebtcenter.com/medical-debt-relief-hub');
 
   const scrollToConsultation = () => {
     consultationRef.current?.scrollIntoView({ 
@@ -31,13 +31,13 @@ export default function MedicalDebtReliefHub() {
         <meta property="og:title" content="Medical Debt Relief Hub - Comprehensive Solutions Center" />
         <meta property="og:description" content="Comprehensive medical debt relief resources. Hospital bill negotiation, charity care programs, payment plans, and forgiveness options." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://vegaxai.com/medical-debt-relief-hub" />
-        <meta property="og:image" content="https://vegaxai.com/og-medical-debt-relief.jpg" />
+        <meta property="og:url" content="https://ocdebtcenter.com/medical-debt-relief-hub" />
+        <meta property="og:image" content="https://ocdebtcenter.com/og-medical-debt-relief.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Medical Debt Relief Hub - Comprehensive Solutions Center" />
         <meta name="twitter:description" content="Comprehensive medical debt relief resources. Hospital bill negotiation, charity care programs, payment plans." />
-        <meta name="twitter:image" content="https://vegaxai.com/og-medical-debt-relief.jpg" />
+        <meta name="twitter:image" content="https://ocdebtcenter.com/og-medical-debt-relief.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -45,7 +45,7 @@ export default function MedicalDebtReliefHub() {
             "@type": "WebPage",
             "name": "Medical Debt Relief Hub",
             "description": "Comprehensive medical debt relief resource center providing guidance on hospital bill negotiation, charity care programs, and debt forgiveness options.",
-            "url": "https://vegaxai.com/medical-debt-relief-hub",
+            "url": "https://ocdebtcenter.com/medical-debt-relief-hub",
             "mainEntity": {
               "@type": "MedicalOrganization",
               "name": "Medical Debt Relief Hub",
@@ -54,7 +54,7 @@ export default function MedicalDebtReliefHub() {
             "publisher": {
               "@type": "Organization",
               "name": "OC Debt Center Debt Settlement",
-              "url": "https://vegaxai.com"
+              "url": "https://ocdebtcenter.com"
             }
           })}
         </script>

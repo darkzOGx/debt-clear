@@ -23,7 +23,7 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
         <meta property="og:description" content="Complete guide to student loan forgiveness programs for Orange County residents. PSLF, teacher forgiveness, SAVE plan, and more." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxholdings.com/blog/orange-county-student-loan-forgiveness-2025" />
+        <link rel="canonical" href="https://ocdebtcenter.com/blog/orange-county-student-loan-forgiveness-2025" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -33,19 +33,19 @@ export default function OrangeCountyStudentLoanForgiveness2025() {
             "description": "Complete guide to student loan forgiveness programs for Orange County residents in 2025. PSLF, teacher forgiveness, SAVE plan, and state programs. Maximize your loan forgiveness potential.",
             "author": {
               "@type": "Organization",
-              "name": "VegaX Holdings"
+              "name": "OC Debt Center Holdings"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX Holdings",
+              "name": "OC Debt Center Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxholdings.com/logo.png"
+                "url": "https://ocdebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-08-20",
             "dateModified": "2025-08-20",
-            "mainEntityOfPage": "https://vegaxholdings.com/blog/orange-county-student-loan-forgiveness-2025"
+            "mainEntityOfPage": "https://ocdebtcenter.com/blog/orange-county-student-loan-forgiveness-2025"
           })}
         </script>
       </Helmet>

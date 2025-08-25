@@ -576,7 +576,7 @@ export default function OrangeCountyHub() {
             "@type": "WebPage",
             "name": "Orange County Debt Relief Resource Hub",
             "description": "Comprehensive financial resources and debt relief solutions for Orange County residents",
-            "url": "https://vegaxai.com/orange-county-hub",
+            "url": "https://ocdebtcenter.com/orange-county-hub",
             "breadcrumb": {
               "@type": "BreadcrumbList",
               "itemListElement": [
@@ -584,13 +584,13 @@ export default function OrangeCountyHub() {
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://vegaxai.com"
+                  "item": "https://ocdebtcenter.com"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "Orange County Hub",
-                  "item": "https://vegaxai.com/orange-county-hub"
+                  "item": "https://ocdebtcenter.com/orange-county-hub"
                 }
               ]
             }

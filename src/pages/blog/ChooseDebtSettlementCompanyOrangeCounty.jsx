@@ -22,7 +22,7 @@ export default function ChooseDebtSettlementCompanyOrangeCounty() {
         <meta property="og:title" content="How to Choose a Debt Settlement Company in Orange County" />
         <meta property="og:description" content="Comprehensive guide to selecting legitimate debt settlement companies in Orange County with expert tips on licensing, fees, and success rates." />
         <meta property="og:type" content="article" />
-        <meta property="article:author" content="VegaX Consumer Protection Team" />
+        <meta property="article:author" content="OC Debt Center Consumer Protection Team" />
         <meta property="article:published_time" content="2025-08-05" />
         <meta property="article:section" content="Consumer Guide" />
         <link rel="canonical" href="https://debtclear.com/blog/choose-debt-settlement-company-orange-county" />
@@ -42,7 +42,7 @@ export default function ChooseDebtSettlementCompanyOrangeCounty() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 5, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>10 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Consumer Protection Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Consumer Protection Team</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             Essential criteria for selecting a debt settlement provider in Orange County, including licensing requirements, fee structures, success rates, and red flags to avoid when choosing professional debt relief services.

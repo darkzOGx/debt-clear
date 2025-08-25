@@ -24,17 +24,17 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "VegaX Debt Relief",
+      "name": "OC Debt Center Debt Relief",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://vegax.ai/logo.png"
+        "url": "https://ocdebtcenter.com/logo.png"
       }
     },
     "datePublished": "2025-06-15",
     "dateModified": "2025-08-24",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://vegax.ai/blog/debt-collector-harassment-rights-orange-county"
+      "@id": "https://ocdebtcenter.com/blog/debt-collector-harassment-rights-orange-county"
     },
     "articleSection": "Consumer Rights",
     "keywords": ["debt collector harassment", "Orange County consumer rights", "FDCPA", "Rosenthal Act", "debt collection violations"],
@@ -55,7 +55,7 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Orange County Debt Collector Harassment: Know Your Rights | VegaX</title>
+        <title>Orange County Debt Collector Harassment: Know Your Rights | OC Debt Center</title>
         <meta name="description" content="Complete guide to debt collector harassment protections in Orange County, including legal remedies, documentation tips, and how to stop abusive collection practices." />
         <meta name="keywords" content="debt collector harassment, Orange County consumer rights, FDCPA, Rosenthal Act, debt collection violations" />
         <meta name="author" content="Consumer Rights Attorney" />
@@ -64,7 +64,7 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
         <meta property="og:title" content="Orange County Debt Collector Harassment: Know Your Rights and Remedies" />
         <meta property="og:description" content="Complete guide to debt collector harassment protections in Orange County, including legal remedies, documentation tips, and how to stop abusive collection practices." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://vegax.ai/blog/debt-collector-harassment-rights-orange-county" />
+        <meta property="og:url" content="https://ocdebtcenter.com/blog/debt-collector-harassment-rights-orange-county" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />

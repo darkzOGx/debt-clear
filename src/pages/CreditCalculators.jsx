@@ -38,7 +38,7 @@ function CalculatorCard({ title, description, icon: Icon, calculator: Calculator
 }
 
 export default function CreditCalculators() {
-  useCanonicalLink('https://vegaxai.com/credit-calculators');
+  useCanonicalLink('https://ocdebtcenter.com/credit-calculators');
   const calculators = [
     {
       title: "Debt Repayment Calculator",

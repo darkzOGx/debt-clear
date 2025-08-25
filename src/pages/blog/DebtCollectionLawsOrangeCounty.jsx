@@ -20,21 +20,21 @@ export default function DebtCollectionLawsOrangeCounty() {
     "description": "Complete guide to debt collection regulations in Orange County, including illegal practices, consumer protections, and how to file complaints.",
     "author": {
       "@type": "Organization",
-      "name": "VegaX Consumer Rights Team"
+      "name": "OC Debt Center Consumer Rights Team"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "VegaX Debt Relief",
+      "name": "OC Debt Center Debt Relief",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://vegax.ai/logo.png"
+        "url": "https://ocdebtcenter.com/logo.png"
       }
     },
     "datePublished": "2025-06-20",
     "dateModified": "2025-08-24",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://vegax.ai/blog/debt-collection-laws-orange-county"
+      "@id": "https://ocdebtcenter.com/blog/debt-collection-laws-orange-county"
     },
     "articleSection": "Consumer Rights",
     "keywords": ["debt collection laws", "Orange County consumer rights", "FDCPA", "Rosenthal Act", "debt collector harassment"],
@@ -55,16 +55,16 @@ export default function DebtCollectionLawsOrangeCounty() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Orange County Debt Collection Laws: Know Your Rights | VegaX</title>
+        <title>Orange County Debt Collection Laws: Know Your Rights | OC Debt Center</title>
         <meta name="description" content="Complete guide to debt collection regulations in Orange County, including illegal practices, consumer protections, and how to file complaints." />
         <meta name="keywords" content="debt collection laws, Orange County consumer rights, FDCPA, Rosenthal Act, debt collector harassment" />
-        <meta name="author" content="VegaX Consumer Rights Team" />
+        <meta name="author" content="OC Debt Center Consumer Rights Team" />
         
         {/* Open Graph tags */}
         <meta property="og:title" content="Orange County Debt Collection Laws: Know Your Rights" />
         <meta property="og:description" content="Complete guide to debt collection regulations in Orange County, including illegal practices, consumer protections, and how to file complaints." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://vegax.ai/blog/debt-collection-laws-orange-county" />
+        <meta property="og:url" content="https://ocdebtcenter.com/blog/debt-collection-laws-orange-county" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -93,7 +93,7 @@ export default function DebtCollectionLawsOrangeCounty() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>June 20, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>10 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Consumer Rights Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Consumer Rights Team</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             Complete guide to debt collection regulations in Orange County, including illegal practices, consumer protections, and how to file complaints against abusive collectors.

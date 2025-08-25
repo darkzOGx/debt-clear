@@ -41,7 +41,7 @@ export default function OrangeCountyTaxDebtRelief2025() {
             </div>
             <div className="flex items-center gap-2">
               <User className="w-4 h-4" />
-              <span>VegaX Tax Resolution Team</span>
+              <span>OC Debt Center Tax Resolution Team</span>
             </div>
           </div>
 

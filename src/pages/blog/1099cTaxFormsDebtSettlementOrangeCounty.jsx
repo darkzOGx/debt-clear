@@ -19,18 +19,18 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
         <meta name="description" content="Comprehensive guide to Form 1099-C tax implications for Orange County debt settlement, including exclusions, Form 982 filing, and tax planning strategies." />
         <meta name="keywords" content="1099-C tax form Orange County, debt settlement tax implications, Form 982 California, canceled debt income, insolvency exclusion Orange County, debt settlement tax planning" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxai.com/blog/1099c-tax-forms-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://ocdebtcenter.com/blog/1099c-tax-forms-debt-settlement-orange-county" />
         
         <meta property="og:title" content="1099-C Tax Forms and Debt Settlement: Orange County Guide" />
         <meta property="og:description" content="Comprehensive guide to Form 1099-C tax implications for Orange County debt settlement, including exclusions, Form 982 filing, and tax planning strategies." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://vegaxai.com/blog/1099c-tax-forms-debt-settlement-orange-county" />
-        <meta property="og:image" content="https://vegaxai.com/og-tax-forms-debt-settlement.jpg" />
+        <meta property="og:url" content="https://ocdebtcenter.com/blog/1099c-tax-forms-debt-settlement-orange-county" />
+        <meta property="og:image" content="https://ocdebtcenter.com/og-tax-forms-debt-settlement.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="1099-C Tax Forms and Debt Settlement: Orange County Guide" />
         <meta name="twitter:description" content="Comprehensive guide to Form 1099-C tax implications for Orange County debt settlement, including exclusions, Form 982 filing, and tax planning strategies." />
-        <meta name="twitter:image" content="https://vegaxai.com/og-tax-forms-debt-settlement.jpg" />
+        <meta name="twitter:image" content="https://ocdebtcenter.com/og-tax-forms-debt-settlement.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -38,26 +38,26 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
             "@type": "Article",
             "headline": "1099-C Tax Forms and Debt Settlement: Orange County Guide",
             "description": "Comprehensive guide to Form 1099-C tax implications for Orange County debt settlement, including exclusions, Form 982 filing, and tax planning strategies.",
-            "image": "https://vegaxai.com/og-tax-forms-debt-settlement.jpg",
+            "image": "https://ocdebtcenter.com/og-tax-forms-debt-settlement.jpg",
             "author": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://vegaxai.com"
+              "url": "https://ocdebtcenter.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://vegaxai.com",
+              "url": "https://ocdebtcenter.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxai.com/logo.png"
+                "url": "https://ocdebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-06-15",
             "dateModified": "2025-06-15",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://vegaxai.com/blog/1099c-tax-forms-debt-settlement-orange-county"
+              "@id": "https://ocdebtcenter.com/blog/1099c-tax-forms-debt-settlement-orange-county"
             },
             "articleSection": "Tax Planning",
             "keywords": ["1099-C tax form Orange County", "debt settlement tax implications", "Form 982 California", "canceled debt income"]
@@ -81,7 +81,7 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>June 15, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>10 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Tax Planning Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Tax Planning Team</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             Understanding Form 1099-C is crucial for Orange County residents completing debt settlement. This form reports canceled debt to the IRS and can create unexpected tax liability.

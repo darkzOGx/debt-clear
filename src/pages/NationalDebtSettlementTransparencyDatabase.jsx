@@ -11,7 +11,7 @@ export default function NationalDebtSettlementTransparencyDatabase() {
   const consultationRef = useRef(null);
   
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://vegaxai.com/national-debt-settlement-transparency-database');
+  useCanonicalLink('https://ocdebtcenter.com/national-debt-settlement-transparency-database');
 
   const scrollToConsultation = () => {
     consultationRef.current?.scrollIntoView({ 
@@ -31,13 +31,13 @@ export default function NationalDebtSettlementTransparencyDatabase() {
         <meta property="og:title" content="National Debt Settlement Transparency Database - Industry Standards" />
         <meta property="og:description" content="Comprehensive database of debt settlement industry performance metrics, success rates, and compliance standards with 2,500+ companies nationwide." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://vegaxai.com/national-debt-settlement-transparency-database" />
-        <meta property="og:image" content="https://vegaxai.com/og-transparency-database.jpg" />
+        <meta property="og:url" content="https://ocdebtcenter.com/national-debt-settlement-transparency-database" />
+        <meta property="og:image" content="https://ocdebtcenter.com/og-transparency-database.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="National Debt Settlement Transparency Database" />
         <meta name="twitter:description" content="Industry performance metrics, success rates, and compliance standards for 2,500+ debt settlement companies." />
-        <meta name="twitter:image" content="https://vegaxai.com/og-transparency-database.jpg" />
+        <meta name="twitter:image" content="https://ocdebtcenter.com/og-transparency-database.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -45,7 +45,7 @@ export default function NationalDebtSettlementTransparencyDatabase() {
             "@type": "Dataset",
             "name": "National Debt Settlement Transparency Database",
             "description": "Comprehensive database of debt settlement industry performance metrics, success rates, and regulatory compliance data.",
-            "url": "https://vegaxai.com/national-debt-settlement-transparency-database",
+            "url": "https://ocdebtcenter.com/national-debt-settlement-transparency-database",
             "creator": {
               "@type": "Organization",
               "name": "OC Debt Center Research Division"
@@ -53,7 +53,7 @@ export default function NationalDebtSettlementTransparencyDatabase() {
             "publisher": {
               "@type": "Organization",
               "name": "OC Debt Center Debt Settlement",
-              "url": "https://vegaxai.com"
+              "url": "https://ocdebtcenter.com"
             },
             "keywords": ["debt settlement", "industry standards", "performance metrics", "consumer protection", "transparency"],
             "license": "https://creativecommons.org/licenses/by/4.0/",

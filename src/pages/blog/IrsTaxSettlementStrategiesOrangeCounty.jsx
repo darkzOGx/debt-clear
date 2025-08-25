@@ -6,7 +6,7 @@ import ConsultationForm from '../../components/consultation/ConsultationForm';
 import { useCanonicalLink } from '../../hooks/useCanonicalLink';
 
 export default function IrsTaxSettlementStrategiesOrangeCounty() {
-  useCanonicalLink('https://vegaxai.com/blog/irs-tax-settlement-strategies-orange-county');
+  useCanonicalLink('https://ocdebtcenter.com/blog/irs-tax-settlement-strategies-orange-county');
   
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');
@@ -38,13 +38,13 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
               "name": "OC Debt Center",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxai.com/logo.svg"
+                "url": "https://ocdebtcenter.com/logo.svg"
               }
             },
             "description": "Comprehensive guide to IRS tax settlement strategies, programs, and negotiation tactics for Orange County taxpayers facing tax debt.",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://vegaxai.com/blog/irs-tax-settlement-strategies-orange-county"
+              "@id": "https://ocdebtcenter.com/blog/irs-tax-settlement-strategies-orange-county"
             }
           })}
         </script>
@@ -66,7 +66,7 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 23, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>18 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Tax Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Tax Team</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             With over $3.2 billion in tax debt owed by California residents, understanding IRS settlement options is crucial. This comprehensive guide reveals proven strategies for Orange County taxpayers to resolve tax obligations and achieve financial freedom.

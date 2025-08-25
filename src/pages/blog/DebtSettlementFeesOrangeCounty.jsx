@@ -31,7 +31,7 @@ export default function DebtSettlementFeesOrangeCounty() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>June 28, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>7 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Cost Analysis Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Cost Analysis Team</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light">Transparent breakdown of debt settlement fees in Orange County, including what's legal, typical costs, and how to avoid overcharges.</p>
         </div>

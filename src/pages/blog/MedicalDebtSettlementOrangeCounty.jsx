@@ -59,7 +59,7 @@ export default function MedicalDebtSettlementOrangeCounty() {
             </div>
             <div className="flex items-center gap-2">
               <User className="w-4 h-4" />
-              <span>VegaX Medical Debt Specialists</span>
+              <span>OC Debt Center Medical Debt Specialists</span>
             </div>
           </div>
 

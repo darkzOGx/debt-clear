@@ -31,7 +31,7 @@ export default function DebtSettlementTimelineOrangeCounty() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 1, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>9 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Process Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Process Team</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light">Month-by-month breakdown of the debt settlement process for Orange County clients, from initial consultation to final completion.</p>
         </div>

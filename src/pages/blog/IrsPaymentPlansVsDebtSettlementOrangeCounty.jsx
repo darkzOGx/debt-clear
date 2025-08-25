@@ -52,7 +52,7 @@ export default function IrsPaymentPlansVsDebtSettlementOrangeCounty() {
             </div>
             <div className="flex items-center gap-2">
               <User className="w-4 h-4" />
-              <span>VegaX Tax Relief Team</span>
+              <span>OC Debt Center Tax Relief Team</span>
             </div>
           </div>
 

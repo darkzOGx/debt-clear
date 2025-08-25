@@ -23,7 +23,7 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
         <meta property="og:description" content="Professional debt relief solutions for Orange County small businesses. SBA loans, merchant advances, and commercial debt restructuring." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxholdings.com/blog/small-business-debt-relief-orange-county" />
+        <link rel="canonical" href="https://ocdebtcenter.com/blog/small-business-debt-relief-orange-county" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -33,19 +33,19 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
             "description": "Small business debt relief solutions for Orange County entrepreneurs. Navigate SBA loans, merchant cash advances, business credit lines with expert guidance and restructuring strategies.",
             "author": {
               "@type": "Organization",
-              "name": "VegaX Holdings"
+              "name": "OC Debt Center Holdings"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX Holdings",
+              "name": "OC Debt Center Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxholdings.com/logo.png"
+                "url": "https://ocdebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-08-12",
             "dateModified": "2025-08-12",
-            "mainEntityOfPage": "https://vegaxholdings.com/blog/small-business-debt-relief-orange-county"
+            "mainEntityOfPage": "https://ocdebtcenter.com/blog/small-business-debt-relief-orange-county"
           })}
         </script>
       </Helmet>

@@ -24,17 +24,17 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "VegaX Debt Relief",
+      "name": "OC Debt Center Debt Relief",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://vegax.ai/logo.png"
+        "url": "https://ocdebtcenter.com/logo.png"
       }
     },
     "datePublished": "2025-06-15",
     "dateModified": "2025-08-24",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://vegax.ai/blog/debt-consolidation-loans-comparison-orange-county"
+      "@id": "https://ocdebtcenter.com/blog/debt-consolidation-loans-comparison-orange-county"
     },
     "articleSection": "Debt Consolidation",
     "keywords": ["debt consolidation loans", "Orange County banks", "credit unions", "online lenders", "personal loans"],
@@ -55,7 +55,7 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Orange County Debt Consolidation Loans: Banks vs Credit Unions vs Online | VegaX</title>
+        <title>Orange County Debt Consolidation Loans: Banks vs Credit Unions vs Online | OC Debt Center</title>
         <meta name="description" content="Comprehensive comparison of debt consolidation loan options for Orange County residents, including rates, terms, and recommendations for banks, credit unions, and online lenders." />
         <meta name="keywords" content="debt consolidation loans, Orange County banks, credit unions, online lenders, personal loans" />
         <meta name="author" content="Lending Specialist" />
@@ -64,7 +64,7 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
         <meta property="og:title" content="Orange County Debt Consolidation Loans: Banks vs Credit Unions vs Online Lenders" />
         <meta property="og:description" content="Comprehensive comparison of debt consolidation loan options for Orange County residents, including rates, terms, and recommendations for banks, credit unions, and online lenders." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://vegax.ai/blog/debt-consolidation-loans-comparison-orange-county" />
+        <meta property="og:url" content="https://ocdebtcenter.com/blog/debt-consolidation-loans-comparison-orange-county" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />

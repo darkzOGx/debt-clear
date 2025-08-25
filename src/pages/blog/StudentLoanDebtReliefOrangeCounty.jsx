@@ -23,7 +23,7 @@ export default function StudentLoanDebtReliefOrangeCounty() {
         <meta property="og:description" content="Complete student loan debt relief solutions for Orange County residents. Federal forgiveness, private settlement, and expert guidance." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxholdings.com/blog/student-loan-debt-relief-orange-county" />
+        <link rel="canonical" href="https://ocdebtcenter.com/blog/student-loan-debt-relief-orange-county" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -33,19 +33,19 @@ export default function StudentLoanDebtReliefOrangeCounty() {
             "description": "Complete student loan debt relief for Orange County residents. Federal loan forgiveness, private loan settlement, income-driven repayment, and discharge options with expert guidance.",
             "author": {
               "@type": "Organization",
-              "name": "VegaX Holdings"
+              "name": "OC Debt Center Holdings"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX Holdings",
+              "name": "OC Debt Center Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxholdings.com/logo.png"
+                "url": "https://ocdebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-08-18",
             "dateModified": "2025-08-18",
-            "mainEntityOfPage": "https://vegaxholdings.com/blog/student-loan-debt-relief-orange-county"
+            "mainEntityOfPage": "https://ocdebtcenter.com/blog/student-loan-debt-relief-orange-county"
           })}
         </script>
       </Helmet>

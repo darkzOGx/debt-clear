@@ -31,7 +31,7 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>June 25, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>11 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Credit Recovery Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Credit Recovery Team</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light">Step-by-step guide to rebuilding credit after debt settlement, with timelines and strategies specific to Orange County residents.</p>
         </div>

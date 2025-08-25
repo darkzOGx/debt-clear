@@ -18,7 +18,7 @@ export default function MedicalDebtReliefOrangeCounty2025() {
         <title>Medical Debt Relief Orange County 2025: Hospital Bill Negotiations & Settlement</title>
         <meta name="description" content="Expert medical debt relief for Orange County residents. Hospital bill negotiations, charity care applications, and settlement strategies to eliminate healthcare debt." />
         <meta name="keywords" content="medical debt relief Orange County, hospital bill negotiation, medical debt settlement, healthcare debt solutions, charity care programs, medical bill help, hospital financial assistance, medical debt forgiveness, healthcare debt relief California" />
-        <link rel="canonical" href="https://vegaxai.com/blog/medical-debt-relief-orange-county-2025" />
+        <link rel="canonical" href="https://ocdebtcenter.com/blog/medical-debt-relief-orange-county-2025" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -36,13 +36,13 @@ export default function MedicalDebtReliefOrangeCounty2025() {
               "name": "OC Debt Center",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxai.com/logo.svg"
+                "url": "https://ocdebtcenter.com/logo.svg"
               }
             },
             "description": "Complete guide to medical debt relief for Orange County residents including hospital negotiations, charity care, and settlement strategies.",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://vegaxai.com/blog/medical-debt-relief-orange-county-2025"
+              "@id": "https://ocdebtcenter.com/blog/medical-debt-relief-orange-county-2025"
             }
           })}
         </script>
@@ -64,7 +64,7 @@ export default function MedicalDebtReliefOrangeCounty2025() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 23, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>13 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Medical Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Medical Team</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             Medical emergencies are unpredictable, but medical debt doesn't have to be permanent. Orange County residents have more options than ever to resolve healthcare debt and rebuild their financial health.

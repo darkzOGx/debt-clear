@@ -52,7 +52,7 @@ export default function CaliforniaFtbDebtSettlementOrangeCounty() {
             </div>
             <div className="flex items-center gap-2">
               <User className="w-4 h-4" />
-              <span>VegaX California Tax Team</span>
+              <span>OC Debt Center California Tax Team</span>
             </div>
           </div>
 

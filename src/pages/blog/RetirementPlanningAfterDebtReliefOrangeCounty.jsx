@@ -23,7 +23,7 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
         <meta property="og:description" content="Comprehensive retirement planning strategies for Orange County residents after debt settlement. Rebuild and optimize your retirement savings." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxholdings.com/blog/retirement-planning-after-debt-relief-orange-county" />
+        <link rel="canonical" href="https://ocdebtcenter.com/blog/retirement-planning-after-debt-relief-orange-county" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -33,19 +33,19 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
             "description": "Comprehensive retirement planning for Orange County residents after debt settlement. Maximize 401k, IRA contributions, catch-up strategies, and Social Security optimization.",
             "author": {
               "@type": "Organization",
-              "name": "VegaX Holdings"
+              "name": "OC Debt Center Holdings"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX Holdings",
+              "name": "OC Debt Center Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxholdings.com/logo.png"
+                "url": "https://ocdebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-08-05",
             "dateModified": "2025-08-05",
-            "mainEntityOfPage": "https://vegaxholdings.com/blog/retirement-planning-after-debt-relief-orange-county"
+            "mainEntityOfPage": "https://ocdebtcenter.com/blog/retirement-planning-after-debt-relief-orange-county"
           })}
         </script>
       </Helmet>

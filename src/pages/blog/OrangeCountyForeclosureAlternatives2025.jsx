@@ -23,7 +23,7 @@ export default function OrangeCountyForeclosureAlternatives2025() {
         <meta property="og:description" content="Save your Orange County home from foreclosure. Expert guidance on loan modifications, short sales, and foreclosure prevention programs." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxholdings.com/blog/orange-county-foreclosure-alternatives-2025" />
+        <link rel="canonical" href="https://ocdebtcenter.com/blog/orange-county-foreclosure-alternatives-2025" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -33,19 +33,19 @@ export default function OrangeCountyForeclosureAlternatives2025() {
             "description": "Save your Orange County home from foreclosure in 2025. Explore loan modifications, short sales, deed in lieu, and emergency assistance programs. Expert guidance available.",
             "author": {
               "@type": "Organization",
-              "name": "VegaX Holdings"
+              "name": "OC Debt Center Holdings"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX Holdings",
+              "name": "OC Debt Center Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxholdings.com/logo.png"
+                "url": "https://ocdebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-08-15",
             "dateModified": "2025-08-15",
-            "mainEntityOfPage": "https://vegaxholdings.com/blog/orange-county-foreclosure-alternatives-2025"
+            "mainEntityOfPage": "https://ocdebtcenter.com/blog/orange-county-foreclosure-alternatives-2025"
           })}
         </script>
       </Helmet>
@@ -90,7 +90,7 @@ export default function OrangeCountyForeclosureAlternatives2025() {
             </div>
             <div className="flex items-center gap-2">
               <User className="w-4 h-4" />
-              <span>VegaX Housing Team</span>
+              <span>OC Debt Center Housing Team</span>
             </div>
           </div>
 

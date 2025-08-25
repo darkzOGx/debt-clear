@@ -19,18 +19,18 @@ export default function DebtSettlementSeniorsOrangeCounty() {
         <meta name="description" content="Age-specific debt relief strategies for Orange County seniors, including asset protection, fixed income planning, and special protections available to older adults." />
         <meta name="keywords" content="Orange County senior debt settlement, elderly debt relief, senior asset protection, fixed income debt solutions, Medicare debt protection, Social Security garnishment protection, Orange County elder law" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxai.com/blog/debt-settlement-seniors-orange-county" />
+        <link rel="canonical" href="https://ocdebtcenter.com/blog/debt-settlement-seniors-orange-county" />
         
         <meta property="og:title" content="Debt Settlement for Orange County Seniors: Special Considerations" />
         <meta property="og:description" content="Age-specific debt relief strategies for Orange County seniors, including asset protection, fixed income planning, and special protections available to older adults." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://vegaxai.com/blog/debt-settlement-seniors-orange-county" />
-        <meta property="og:image" content="https://vegaxai.com/og-debt-settlement-seniors.jpg" />
+        <meta property="og:url" content="https://ocdebtcenter.com/blog/debt-settlement-seniors-orange-county" />
+        <meta property="og:image" content="https://ocdebtcenter.com/og-debt-settlement-seniors.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Debt Settlement for Orange County Seniors: Special Considerations" />
         <meta name="twitter:description" content="Age-specific debt relief strategies for Orange County seniors, including asset protection, fixed income planning, and special protections available to older adults." />
-        <meta name="twitter:image" content="https://vegaxai.com/og-debt-settlement-seniors.jpg" />
+        <meta name="twitter:image" content="https://ocdebtcenter.com/og-debt-settlement-seniors.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -38,26 +38,26 @@ export default function DebtSettlementSeniorsOrangeCounty() {
             "@type": "Article",
             "headline": "Debt Settlement for Orange County Seniors: Special Considerations",
             "description": "Age-specific debt relief strategies for Orange County seniors, including asset protection, fixed income planning, and special protections available to older adults.",
-            "image": "https://vegaxai.com/og-debt-settlement-seniors.jpg",
+            "image": "https://ocdebtcenter.com/og-debt-settlement-seniors.jpg",
             "author": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://vegaxai.com"
+              "url": "https://ocdebtcenter.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://vegaxai.com",
+              "url": "https://ocdebtcenter.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxai.com/logo.png"
+                "url": "https://ocdebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-07-12",
             "dateModified": "2025-07-12",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://vegaxai.com/blog/debt-settlement-seniors-orange-county"
+              "@id": "https://ocdebtcenter.com/blog/debt-settlement-seniors-orange-county"
             },
             "articleSection": "Debt Relief",
             "keywords": ["Orange County senior debt settlement", "elderly debt relief", "senior asset protection", "fixed income debt solutions"]
@@ -81,7 +81,7 @@ export default function DebtSettlementSeniorsOrangeCounty() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 12, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>10 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX Senior Finance Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Senior Finance Team</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             Age-specific debt relief strategies for Orange County seniors, including asset protection, 

@@ -24,17 +24,17 @@ export default function EmergencyFundBuildingDebtReliefOrangeCounty() {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "VegaX Debt Relief",
+      "name": "OC Debt Center Debt Relief",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://vegax.ai/logo.png"
+        "url": "https://ocdebtcenter.com/logo.png"
       }
     },
     "datePublished": "2025-07-23",
     "dateModified": "2025-08-24",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://vegax.ai/blog/emergency-fund-building-debt-relief-orange-county"
+      "@id": "https://ocdebtcenter.com/blog/emergency-fund-building-debt-relief-orange-county"
     },
     "articleSection": "Financial Planning",
     "keywords": ["emergency fund", "Orange County", "debt relief", "financial planning", "savings strategies"],
@@ -55,7 +55,7 @@ export default function EmergencyFundBuildingDebtReliefOrangeCounty() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Emergency Fund Building After Debt Relief: Orange County Strategies | VegaX</title>
+        <title>Emergency Fund Building After Debt Relief: Orange County Strategies | OC Debt Center</title>
         <meta name="description" content="Complete guide to building emergency funds after debt settlement for Orange County residents, including savings strategies, account options, and local cost-cutting tips." />
         <meta name="keywords" content="emergency fund, Orange County, debt relief, financial planning, savings strategies" />
         <meta name="author" content="Financial Advisor" />
@@ -64,7 +64,7 @@ export default function EmergencyFundBuildingDebtReliefOrangeCounty() {
         <meta property="og:title" content="Emergency Fund Building After Debt Relief: Orange County Strategies" />
         <meta property="og:description" content="Complete guide to building emergency funds after debt settlement for Orange County residents, including savings strategies, account options, and local cost-cutting tips." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://vegax.ai/blog/emergency-fund-building-debt-relief-orange-county" />
+        <meta property="og:url" content="https://ocdebtcenter.com/blog/emergency-fund-building-debt-relief-orange-county" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />

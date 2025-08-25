@@ -19,18 +19,18 @@ export default function AiDebtSettlementTechnologyOrangeCounty() {
         <meta name="description" content="Explore how artificial intelligence revolutionizes debt settlement in Orange County, delivering superior results through advanced algorithms and predictive modeling." />
         <meta name="keywords" content="AI debt settlement Orange County, machine learning debt relief, artificial intelligence negotiation, predictive debt modeling, automated settlement technology" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://vegaxai.com/blog/ai-debt-settlement-technology-orange-county" />
+        <link rel="canonical" href="https://ocdebtcenter.com/blog/ai-debt-settlement-technology-orange-county" />
         
         <meta property="og:title" content="How AI Debt Settlement Technology Works: Orange County Case Analysis" />
         <meta property="og:description" content="Explore how artificial intelligence revolutionizes debt settlement in Orange County, delivering superior results through advanced algorithms and predictive modeling." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://vegaxai.com/blog/ai-debt-settlement-technology-orange-county" />
-        <meta property="og:image" content="https://vegaxai.com/og-ai-debt-settlement.jpg" />
+        <meta property="og:url" content="https://ocdebtcenter.com/blog/ai-debt-settlement-technology-orange-county" />
+        <meta property="og:image" content="https://ocdebtcenter.com/og-ai-debt-settlement.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="How AI Debt Settlement Technology Works: Orange County Case Analysis" />
         <meta name="twitter:description" content="Explore how artificial intelligence revolutionizes debt settlement in Orange County, delivering superior results through advanced algorithms and predictive modeling." />
-        <meta name="twitter:image" content="https://vegaxai.com/og-ai-debt-settlement.jpg" />
+        <meta name="twitter:image" content="https://ocdebtcenter.com/og-ai-debt-settlement.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -38,26 +38,26 @@ export default function AiDebtSettlementTechnologyOrangeCounty() {
             "@type": "Article",
             "headline": "How AI Debt Settlement Technology Works: Orange County Case Analysis",
             "description": "Explore how artificial intelligence revolutionizes debt settlement in Orange County, delivering superior results through advanced algorithms and predictive modeling.",
-            "image": "https://vegaxai.com/og-ai-debt-settlement.jpg",
+            "image": "https://ocdebtcenter.com/og-ai-debt-settlement.jpg",
             "author": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://vegaxai.com"
+              "url": "https://ocdebtcenter.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://vegaxai.com",
+              "url": "https://ocdebtcenter.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://vegaxai.com/logo.png"
+                "url": "https://ocdebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-07-29",
             "dateModified": "2025-07-29",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://vegaxai.com/blog/ai-debt-settlement-technology-orange-county"
+              "@id": "https://ocdebtcenter.com/blog/ai-debt-settlement-technology-orange-county"
             },
             "articleSection": "Technology",
             "keywords": ["AI debt settlement Orange County", "machine learning debt relief", "artificial intelligence negotiation", "predictive debt modeling"]
