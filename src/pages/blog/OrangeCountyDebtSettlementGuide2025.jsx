@@ -48,8 +48,8 @@ export default function OrangeCountyDebtSettlementGuide2025() {
                 "@type": "Organization",
                 "name": "VegaX AI Debt Settlement"
               },
-              "datePublished": "2025-01-15",
-              "dateModified": "2025-01-15"
+              "datePublished": "2025-08-25",
+              "dateModified": "2025-08-25"
             }
           `}
         </script>
@@ -82,7 +82,7 @@ export default function OrangeCountyDebtSettlementGuide2025() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
-              <span>January 15, 2025</span>
+              <span>August 25, 2025</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />

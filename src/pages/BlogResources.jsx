@@ -11,7 +11,7 @@ export default function BlogResources() {
       title: "Orange County Debt Settlement: Complete 2025 Guide",
       excerpt: "Everything Orange County residents need to know about debt settlement in California, including the legal process, timeline expectations, and city-specific considerations. Comprehensive guide with AI overview content and 80+ longtail keywords integrated.",
       slug: "/blog/orange-county-debt-settlement-guide-2025",
-      date: "Jan 15, 2025",
+      date: "Aug 25, 2025",
       readTime: "15 min read",
       category: "Comprehensive Guide",
       featured: true
