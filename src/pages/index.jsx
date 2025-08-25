@@ -103,6 +103,9 @@ import RetirementAccountsDebtSettlementOrangeCounty from "./blog/RetirementAccou
 import WageGarnishmentLawsDebtSettlementOrangeCounty from "./blog/WageGarnishmentLawsDebtSettlementOrangeCounty";
 import DivorceDebtSettlementOrangeCounty from "./blog/DivorceDebtSettlementOrangeCounty";
 
+// Comprehensive Guide (January 2025)
+import OrangeCountyDebtSettlementGuide2025 from "./blog/OrangeCountyDebtSettlementGuide2025";
+
 import FountainValleyDebtSettlement from "./FountainValleyDebtSettlement";
 import GardenGroveDebtSettlement from "./GardenGroveDebtSettlement";
 import FullertonDebtSettlement from "./FullertonDebtSettlement";
@@ -220,6 +223,9 @@ const PAGES = {
     RetirementAccountsDebtSettlementOrangeCounty: RetirementAccountsDebtSettlementOrangeCounty,
     WageGarnishmentLawsDebtSettlementOrangeCounty: WageGarnishmentLawsDebtSettlementOrangeCounty,
     DivorceDebtSettlementOrangeCounty: DivorceDebtSettlementOrangeCounty,
+    
+    // Comprehensive Guide (January 2025)
+    OrangeCountyDebtSettlementGuide2025: OrangeCountyDebtSettlementGuide2025,
     
     FountainValleyDebtSettlement: FountainValleyDebtSettlement,
     GardenGroveDebtSettlement: GardenGroveDebtSettlement,
@@ -363,6 +369,9 @@ function PagesContent() {
                 <Route path="/blog/retirement-accounts-debt-settlement-orange-county" element={<RetirementAccountsDebtSettlementOrangeCounty />} />
                 <Route path="/blog/wage-garnishment-laws-debt-settlement-orange-county" element={<WageGarnishmentLawsDebtSettlementOrangeCounty />} />
                 <Route path="/blog/divorce-debt-settlement-orange-county" element={<DivorceDebtSettlementOrangeCounty />} />
+                
+                {/* Comprehensive Guide (January 2025) */}
+                <Route path="/blog/orange-county-debt-settlement-guide-2025" element={<OrangeCountyDebtSettlementGuide2025 />} />
                 
                 <Route path="/blog/test" element={<TestBlogPost />} />
                 <Route path="/test-route" element={<TestRoute />} />
