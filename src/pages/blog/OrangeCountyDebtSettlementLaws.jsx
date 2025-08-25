@@ -62,7 +62,7 @@ export default function OrangeCountyDebtSettlementLaws() {
             </div>
             <div className="flex items-center gap-2">
               <User className="w-4 h-4" />
-              <span>VegaX Legal Team</span>
+              <span>OC Debt Center Legal Team</span>
             </div>
           </div>
 
