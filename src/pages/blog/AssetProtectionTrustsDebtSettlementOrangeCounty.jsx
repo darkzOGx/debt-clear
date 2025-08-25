@@ -15,7 +15,7 @@ export default function AssetProtectionTrustsDebtSettlementOrangeCounty() {
   return (
     <>
       <Helmet>
-        <title>Orange County Asset Protection Trusts: Advanced Debt Settlement Strategies | VegaX AI</title>
+        <title>Orange County Asset Protection Trusts: Advanced Debt Settlement Strategies | OC Debt Center</title>
         <meta name="description" content="High-net-worth Orange County residents facing debt challenges need sophisticated asset protection strategies beyond basic exemptions using advanced trust structures." />
         <meta name="keywords" content="Orange County asset protection trusts, debt settlement trust strategies, California asset protection, high net worth debt relief, domestic asset protection trusts, Nevada trusts" />
         <meta name="robots" content="index, follow" />
@@ -41,12 +41,12 @@ export default function AssetProtectionTrustsDebtSettlementOrangeCounty() {
             "image": "https://vegaxai.com/og-asset-protection-trusts.jpg",
             "author": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com",
               "logo": {
                 "@type": "ImageObject",

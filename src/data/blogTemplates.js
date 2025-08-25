@@ -48,7 +48,7 @@ export const blogTemplates = {
         "Introduction to OC debt settlement landscape",
         "Review methodology and criteria",
         "Top 5 companies comparison",
-        "VegaX AI detailed review",
+        "OC Debt Center detailed review",
         "Client testimonials and case studies",
         "How to choose the right company",
         "Red flags to avoid"
@@ -194,7 +194,7 @@ export const generateBlogPost = (template) => {
     title: template.title,
     slug: template.title.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
     metaDescription: `${template.title.substring(0, 120)}... Learn more about debt settlement in Orange County.`,
-    author: "VegaX AI Team",
+    author: "OC Debt Center Team",
     publishDate: new Date().toISOString(),
     lastModified: new Date().toISOString(),
     category: template.category || "Debt Settlement",
@@ -207,7 +207,7 @@ export const generateBlogPost = (template) => {
       "headline": template.title,
       "author": {
         "@type": "Organization",
-        "name": "VegaX AI"
+        "name": "OC Debt Center"
       },
       "datePublished": new Date().toISOString(),
       "dateModified": new Date().toISOString()

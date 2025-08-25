@@ -436,7 +436,7 @@ export default function MoneyCalculators() {
   return (
     <>
       <Helmet>
-        <title>Money Calculators - Orange County Financial Planning Tools | VegaX AI</title>
+        <title>Money Calculators - Orange County Financial Planning Tools | OC Debt Center</title>
         <meta name="description" content="Free money management calculators for Orange County residents. 401k calculator, budget planner, compound interest, retirement planning, and savings goal calculators." />
         <meta name="keywords" content="money calculators, 401k calculator, budget calculator, retirement calculator, savings calculator, compound interest calculator, Orange County financial planning" />
         <meta name="robots" content="index, follow" />

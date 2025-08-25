@@ -69,7 +69,7 @@ export default function AutoCalculators() {
   return (
     <>
       <Helmet>
-        <title>Auto Calculators - Orange County Vehicle Financing Tools | VegaX AI</title>
+        <title>Auto Calculators - Orange County Vehicle Financing Tools | OC Debt Center</title>
         <meta name="description" content="Free auto loan calculators for Orange County car buyers. Calculate monthly payments, affordability, refinance savings, and lease vs buy comparisons." />
         <meta name="keywords" content="auto loan calculator, car loan calculator, vehicle financing, auto refinance calculator, lease vs buy, Orange County auto financing" />
         <meta name="robots" content="index, follow" />

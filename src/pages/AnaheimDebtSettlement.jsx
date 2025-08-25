@@ -23,7 +23,7 @@ export default function AnaheimDebtSettlement() {
   return (
     <>
       <Helmet>
-        <title>Debt Settlement Anaheim CA | Expert Debt Relief Services | VegaX AI</title>
+        <title>Debt Settlement Anaheim CA | Expert Debt Relief Services | OC Debt Center</title>
         <meta name="description" content="Professional debt settlement services for Anaheim, CA residents. AI-powered debt reduction, 50% savings, local expertise. Free consultation. Call (502) 232-8511" />
         <meta name="keywords" content="debt settlement Anaheim CA, Anaheim debt relief, California debt settlement, Anaheim debt negotiation, Orange County debt help" />
         <meta name="robots" content="index, follow" />
@@ -43,7 +43,7 @@ export default function AnaheimDebtSettlement() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "VegaX AI Debt Settlement - Anaheim",
+            "name": "OC Debt Center Debt Settlement - Anaheim",
             "image": "https://vegaxai.com/logo.png",
             "description": "Professional debt settlement services for Anaheim, California residents using AI-powered negotiation strategies.",
             "address": {
@@ -171,7 +171,7 @@ export default function AnaheimDebtSettlement() {
               <h2 className="text-4xl font-light text-black mb-8 leading-tight">
                 Why Anaheim Residents
                 <br />
-                <span className="font-mono">Choose VegaX AI</span>
+                <span className="font-mono">Choose OC Debt Center</span>
               </h2>
               
               <div className="space-y-6">
@@ -262,7 +262,7 @@ export default function AnaheimDebtSettlement() {
           </h2>
           
           <p className="text-neutral-300 mb-8 text-lg">
-            Join hundreds of Anaheim families who've eliminated their debt with VegaX AI
+            Join hundreds of Anaheim families who've eliminated their debt with OC Debt Center
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">

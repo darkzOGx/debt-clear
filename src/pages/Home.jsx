@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Orange County Debt Settlement - AI Relief | VegaX AI</title>
+        <title>Orange County Debt Settlement - AI Relief | OC Debt Center</title>
         <meta name="description" content="Orange County debt settlement & relief. Expert debt profile analysis, 50% reduction. County residents save in 12-24 months. Research-based. Call (502) 232-8511" />
         <meta name="keywords" content="Orange County debt settlement, debt relief, debt negotiation, AI debt settlement, California debt help, credit card debt relief" />
         <meta name="robots" content="index, follow" />
@@ -44,7 +44,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://vegaxai.com/" />
         <meta property="og:image" content="https://vegaxai.com/og-debt-settlement.jpg" />
-        <meta property="og:site_name" content="VegaX AI Debt Settlement" />
+        <meta property="og:site_name" content="OC Debt Center Debt Settlement" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Orange County Debt Settlement - AI Relief" />
@@ -55,7 +55,7 @@ export default function Home() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "VegaX AI Debt Settlement",
+            "name": "OC Debt Center Debt Settlement",
             "url": "https://vegaxai.com",
             "logo": "https://vegaxai.com/logo.png",
             "description": "Professional debt settlement services for Orange County residents using AI-powered negotiation strategies.",

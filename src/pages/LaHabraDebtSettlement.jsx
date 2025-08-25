@@ -127,7 +127,7 @@ export default function LaHabraDebtSettlement() {
               
               <h2 className="text-4xl font-light text-black mb-8 leading-tight">
                 Why La Habra Families<br />
-                <span className="font-mono">Choose VegaX AI</span>
+                <span className="font-mono">Choose OC Debt Center</span>
               </h2>
               
               <div className="space-y-6">
@@ -259,7 +259,7 @@ export default function LaHabraDebtSettlement() {
           </h2>
           
           <p className="text-neutral-300 mb-8 text-lg">
-            Join hundreds of La Habra families who've achieved financial freedom with VegaX AI
+            Join hundreds of La Habra families who've achieved financial freedom with OC Debt Center
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">

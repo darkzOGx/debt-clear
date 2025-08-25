@@ -15,7 +15,7 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
   return (
     <>
       <Helmet>
-        <title>Orange County Bankruptcy vs Debt Settlement: Complete Comparison | VegaX AI</title>
+        <title>Orange County Bankruptcy vs Debt Settlement: Complete Comparison | OC Debt Center</title>
         <meta name="description" content="Detailed analysis of bankruptcy and debt settlement options for Orange County residents, including costs, timelines, credit impact, and which option is best for different financial situations." />
         <meta name="keywords" content="Orange County bankruptcy vs debt settlement, Chapter 7 bankruptcy, Chapter 13 bankruptcy, debt settlement comparison, Orange County debt relief, California bankruptcy exemptions, debt settlement costs" />
         <meta name="robots" content="index, follow" />
@@ -41,12 +41,12 @@ export default function BankruptcyVsDebtSettlementOrangeCounty() {
             "image": "https://vegaxai.com/og-bankruptcy-vs-debt-settlement.jpg",
             "author": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com",
               "logo": {
                 "@type": "ImageObject",

@@ -46,7 +46,7 @@ export default function OrangeCountyDebtSettlementGuide2025() {
               "description": "Complete guide to debt settlement in Orange County, California including legal requirements and process overview",
               "author": {
                 "@type": "Organization",
-                "name": "VegaX AI Debt Settlement"
+                "name": "OC Debt Center Debt Settlement"
               },
               "datePublished": "2025-08-25",
               "dateModified": "2025-08-25"

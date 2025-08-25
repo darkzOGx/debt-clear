@@ -116,7 +116,7 @@ export default function CreditCardDebtReliefOrangeCounty2025() {
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">AI-Powered Credit Card Debt Settlement</h2>
             
             <p className="text-neutral-700 leading-relaxed mb-6">
-              VegaX AI represents the next generation of debt settlement technology, specifically designed for 
+              OC Debt Center represents the next generation of debt settlement technology, specifically designed for 
               Orange County's unique economic landscape. Our AI analyzes creditor behavior patterns, interest 
               rate trends, and settlement success rates to optimize negotiations.
             </p>
@@ -257,7 +257,7 @@ export default function CreditCardDebtReliefOrangeCounty2025() {
               <h3 className="text-xl font-semibold mb-4">Ready to Eliminate Your Credit Card Debt?</h3>
               <p className="mb-6 text-neutral-300">
                 Join hundreds of Orange County families who've reduced their credit card debt by 40-60% 
-                using VegaX AI-powered settlement technology.
+                using OC Debt Center-powered settlement technology.
               </p>
               <div className="grid md:grid-cols-2 gap-6 text-sm">
                 <div>

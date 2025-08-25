@@ -26,7 +26,7 @@ const caseStudies = [
       "Completed program 6 months ahead of schedule",
       "Now debt-free and rebuilding credit"
     ],
-    testimonial: "I thought bankruptcy was my only option. VegaX AI not only saved me $76,000 but helped me keep my home and retirement accounts intact.",
+    testimonial: "I thought bankruptcy was my only option. OC Debt Center not only saved me $76,000 but helped me keep my home and retirement accounts intact.",
     featured: true
   },
   {
@@ -51,7 +51,7 @@ const caseStudies = [
       "Maintained Laguna Woods Village residence",
       "Preserved credit for future medical needs"
     ],
-    testimonial: "We never thought we'd face financial crisis in retirement. VegaX AI gave us our life back.",
+    testimonial: "We never thought we'd face financial crisis in retirement. OC Debt Center gave us our life back.",
     featured: true
   },
   {
@@ -126,7 +126,7 @@ const caseStudies = [
       "Kept primary residence",
       "Rebuilt emergency fund"
     ],
-    testimonial: "After my divorce, I felt hopeless. VegaX AI gave me a fresh start for me and my kids.",
+    testimonial: "After my divorce, I felt hopeless. OC Debt Center gave me a fresh start for me and my kids.",
     featured: false
   }
 ];

@@ -128,7 +128,7 @@ export default function AboutUs() {
               </h2>
               
               <p className="text-lg text-neutral-700 leading-relaxed mb-6">
-                Founded in 2018, VegaX AI was created to address the growing debt crisis in Orange County. 
+                Founded in 2018, OC Debt Center was created to address the growing debt crisis in Orange County. 
                 With the region's high cost of living, many hardworking families found themselves trapped 
                 in cycles of debt despite their best efforts.
               </p>

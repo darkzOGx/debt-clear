@@ -31,11 +31,11 @@ export default function OrangeCountyTaxDebtRelief2025() {
             "dateModified": "2025-08-22",
             "author": {
               "@type": "Organization",
-              "name": "VegaX AI Financial Solutions"
+              "name": "OC Debt Center Financial Solutions"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://vegaxai.com/logo.svg"

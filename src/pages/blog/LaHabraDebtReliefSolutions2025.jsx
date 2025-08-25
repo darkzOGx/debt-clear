@@ -43,7 +43,7 @@ export default function LaHabraDebtReliefSolutions2025() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "VegaX AI Debt Relief - La Habra",
+            "name": "OC Debt Center Debt Relief - La Habra",
             "image": "https://vegaxai.com/logo.png",
             "description": "Comprehensive debt relief solutions for La Habra, California residents using AI-powered negotiation strategies.",
             "address": {

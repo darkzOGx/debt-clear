@@ -15,7 +15,7 @@ export default function AiVsTraditionalDebtSettlement() {
   return (
     <>
       <Helmet>
-        <title>AI vs Traditional Debt Settlement: Orange County Case Studies | VegaX AI</title>
+        <title>AI vs Traditional Debt Settlement: Orange County Case Studies | OC Debt Center</title>
         <meta name="description" content="Real results comparing AI-powered debt negotiation with traditional companies for Orange County families. Data from 500+ local cases shows significant differences." />
         <meta name="keywords" content="AI vs traditional debt settlement, Orange County debt settlement comparison, artificial intelligence negotiation, debt settlement case studies, AI debt relief results" />
         <meta name="robots" content="index, follow" />
@@ -41,12 +41,12 @@ export default function AiVsTraditionalDebtSettlement() {
             "image": "https://vegaxai.com/og-ai-vs-traditional.jpg",
             "author": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com",
               "logo": {
                 "@type": "ImageObject",

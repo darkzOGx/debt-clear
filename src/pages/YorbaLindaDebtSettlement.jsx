@@ -181,7 +181,7 @@ export default function YorbaLindaDebtSettlement() {
               <h2 className="text-4xl font-light text-black mb-8 leading-tight">
                 Why Yorba Linda
                 <br />
-                <span className="font-mono">Chooses VegaX AI</span>
+                <span className="font-mono">Chooses OC Debt Center</span>
               </h2>
               
               <div className="space-y-6">

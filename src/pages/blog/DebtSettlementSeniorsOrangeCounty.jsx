@@ -15,7 +15,7 @@ export default function DebtSettlementSeniorsOrangeCounty() {
   return (
     <>
       <Helmet>
-        <title>Debt Settlement for Orange County Seniors: Special Considerations | VegaX AI</title>
+        <title>Debt Settlement for Orange County Seniors: Special Considerations | OC Debt Center</title>
         <meta name="description" content="Age-specific debt relief strategies for Orange County seniors, including asset protection, fixed income planning, and special protections available to older adults." />
         <meta name="keywords" content="Orange County senior debt settlement, elderly debt relief, senior asset protection, fixed income debt solutions, Medicare debt protection, Social Security garnishment protection, Orange County elder law" />
         <meta name="robots" content="index, follow" />
@@ -41,12 +41,12 @@ export default function DebtSettlementSeniorsOrangeCounty() {
             "image": "https://vegaxai.com/og-debt-settlement-seniors.jpg",
             "author": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com",
               "logo": {
                 "@type": "ImageObject",

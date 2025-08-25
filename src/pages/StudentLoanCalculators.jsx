@@ -69,7 +69,7 @@ export default function StudentLoanCalculators() {
   return (
     <>
       <Helmet>
-        <title>Student Loan & Specialty Calculators - Orange County Education Financing | VegaX AI</title>
+        <title>Student Loan & Specialty Calculators - Orange County Education Financing | OC Debt Center</title>
         <meta name="description" content="Free student loan and specialty calculators for Orange County residents. Calculate student loan payments, refinancing, forgiveness, and boat loans." />
         <meta name="keywords" content="student loan calculator, student loan refinance, loan forgiveness calculator, boat loan calculator, education financing, Orange County" />
         <meta name="robots" content="index, follow" />

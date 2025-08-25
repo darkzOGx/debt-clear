@@ -54,7 +54,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI Debt Settlement",
+              "name": "OC Debt Center Debt Settlement",
               "url": "https://vegaxai.com"
             }
           })}

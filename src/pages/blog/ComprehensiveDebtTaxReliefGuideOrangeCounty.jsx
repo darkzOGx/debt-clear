@@ -31,11 +31,11 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
             "dateModified": "2025-08-23",
             "author": {
               "@type": "Organization",
-              "name": "VegaX AI Financial Solutions"
+              "name": "OC Debt Center Financial Solutions"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://vegaxai.com/logo.svg"
@@ -65,7 +65,7 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 23, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>22 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX AI Financial Solutions</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Financial Solutions</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             From credit card debt to IRS obligations, this comprehensive guide covers every relief option available to Orange County residents. Discover debt consolidation, settlement, tax relief programs, and create your personalized path to financial freedom.

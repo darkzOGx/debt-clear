@@ -25,7 +25,7 @@ const ReviewSystem = () => {
       settled: 28000,
       saved: 39000,
       timeframe: "16 months",
-      text: "VegaX AI helped me reduce my credit card debt by 58%. The AI system made negotiations smooth and stress-free. I'm finally debt-free!",
+      text: "OC Debt Center helped me reduce my credit card debt by 58%. The AI system made negotiations smooth and stress-free. I'm finally debt-free!",
       verified: true,
       helpful: 47,
       platform: "Google"
@@ -57,7 +57,7 @@ const ReviewSystem = () => {
       settled: 31000,
       saved: 58000,
       timeframe: "14 months",
-      text: "After my cancer treatment left us with overwhelming medical bills, VegaX AI negotiated with hospitals and saved us $58,000. We kept our retirement home!",
+      text: "After my cancer treatment left us with overwhelming medical bills, OC Debt Center negotiated with hospitals and saved us $58,000. We kept our retirement home!",
       verified: true,
       helpful: 156,
       platform: "BBB"
@@ -89,7 +89,7 @@ const ReviewSystem = () => {
       settled: 38000,
       saved: 57000,
       timeframe: "15 months",
-      text: "Post-divorce debt felt hopeless. VegaX AI gave me and my kids a fresh start. Professional, compassionate, and delivered amazing results.",
+      text: "Post-divorce debt felt hopeless. OC Debt Center gave me and my kids a fresh start. Professional, compassionate, and delivered amazing results.",
       verified: true,
       helpful: 93,
       platform: "Yelp"
@@ -410,7 +410,7 @@ const ReviewSystem = () => {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Product",
-            "name": "VegaX AI Debt Settlement",
+            "name": "OC Debt Center Debt Settlement",
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": stats.averageRating,

@@ -69,7 +69,7 @@ export default function CreditCalculators() {
   return (
     <>
       <Helmet>
-        <title>Credit Card Calculators - Orange County Debt Management Tools | VegaX AI</title>
+        <title>Credit Card Calculators - Orange County Debt Management Tools | OC Debt Center</title>
         <meta name="description" content="Free credit card calculators for Orange County residents. Calculate debt payoff time, interest costs, balance transfers, and debt elimination strategies." />
         <meta name="keywords" content="credit card calculator, debt payoff calculator, balance transfer calculator, debt snowball, credit card interest, Orange County debt relief" />
         <meta name="robots" content="index, follow" />

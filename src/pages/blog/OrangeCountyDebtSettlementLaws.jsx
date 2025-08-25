@@ -219,7 +219,7 @@ export default function OrangeCountyDebtSettlementLaws() {
                 This information is for educational purposes only and does not constitute legal advice. 
                 Debt settlement laws can be complex and individual situations vary. Always consult with 
                 a qualified attorney or financial advisor before making decisions about debt settlement. 
-                VegaX AI is not a law firm and does not provide legal advice.
+                OC Debt Center is not a law firm and does not provide legal advice.
               </p>
             </div>
 

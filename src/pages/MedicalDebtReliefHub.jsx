@@ -53,7 +53,7 @@ export default function MedicalDebtReliefHub() {
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI Debt Settlement",
+              "name": "OC Debt Center Debt Settlement",
               "url": "https://vegaxai.com"
             }
           })}

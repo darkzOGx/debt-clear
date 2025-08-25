@@ -48,11 +48,11 @@ export default function NationalDebtSettlementTransparencyDatabase() {
             "url": "https://vegaxai.com/national-debt-settlement-transparency-database",
             "creator": {
               "@type": "Organization",
-              "name": "VegaX AI Research Division"
+              "name": "OC Debt Center Research Division"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI Debt Settlement",
+              "name": "OC Debt Center Debt Settlement",
               "url": "https://vegaxai.com"
             },
             "keywords": ["debt settlement", "industry standards", "performance metrics", "consumer protection", "transparency"],

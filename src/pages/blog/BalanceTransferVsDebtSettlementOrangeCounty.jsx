@@ -15,7 +15,7 @@ export default function BalanceTransferVsDebtSettlementOrangeCounty() {
   return (
     <>
       <Helmet>
-        <title>Balance Transfer vs Debt Settlement: Orange County Resident Guide | VegaX AI</title>
+        <title>Balance Transfer vs Debt Settlement: Orange County Resident Guide | OC Debt Center</title>
         <meta name="description" content="Orange County residents facing credit card debt have two primary relief strategies: balance transfers and debt settlement. Compare qualification requirements, costs, and impacts." />
         <meta name="keywords" content="balance transfer vs debt settlement Orange County, credit card debt relief options, debt consolidation Orange County, balance transfer cards California, debt settlement comparison" />
         <meta name="robots" content="index, follow" />
@@ -41,12 +41,12 @@ export default function BalanceTransferVsDebtSettlementOrangeCounty() {
             "image": "https://vegaxai.com/og-balance-transfer-vs-settlement.jpg",
             "author": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com",
               "logo": {
                 "@type": "ImageObject",

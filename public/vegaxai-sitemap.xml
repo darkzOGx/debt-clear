@@ -6,7 +6,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
-  <!-- VegaX AI Homepage -->
+  <!-- OC Debt Center Homepage -->
   <url>
     <loc>https://www.vegaxai.com/</loc>
     <changefreq>daily</changefreq>
@@ -20,7 +20,7 @@
     <lastmod>2025-08-25</lastmod>
   </url>
 
-  <!-- Orange County Debt Center Content via VegaX AI -->
+  <!-- Orange County Debt Center Content via OC Debt Center -->
   <url>
     <loc>https://www.vegaxai.com/blog</loc>
     <changefreq>weekly</changefreq>
@@ -526,7 +526,7 @@
     <lastmod>2025-08-25</lastmod>
   </url>
 
-  <!-- VegaX AI Core Pages -->
+  <!-- OC Debt Center Core Pages -->
   <url>
     <loc>https://www.vegaxai.com/about-us</loc>
     <changefreq>monthly</changefreq>

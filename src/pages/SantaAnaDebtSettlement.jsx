@@ -241,7 +241,7 @@ export default function SantaAnaDebtSettlement() {
           </h2>
           
           <p className="text-neutral-300 mb-8 text-lg">
-            Join hundreds of Santa Ana families who've eliminated their debt with VegaX AI
+            Join hundreds of Santa Ana families who've eliminated their debt with OC Debt Center
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">

@@ -15,7 +15,7 @@ const GoogleBusinessProfile = () => {
   }, []);
 
   const businessInfo = {
-    name: "VegaX AI Debt Settlement",
+    name: "OC Debt Center Debt Settlement",
     rating: 4.9,
     reviewCount: 312,
     address: "123 Main Street, Irvine, CA 92614",
@@ -38,7 +38,7 @@ const GoogleBusinessProfile = () => {
       author: "Sarah Martinez",
       rating: 5,
       date: "2 weeks ago",
-      text: "VegaX AI helped me settle $67,000 in credit card debt for just $28,000. Their AI system made the process incredibly smooth.",
+      text: "OC Debt Center helped me settle $67,000 in credit card debt for just $28,000. Their AI system made the process incredibly smooth.",
       helpful: 12
     },
     {

@@ -15,7 +15,7 @@ export default function AiDebtSettlementTechnologyOrangeCounty() {
   return (
     <>
       <Helmet>
-        <title>How AI Debt Settlement Technology Works: Orange County Case Analysis | VegaX AI</title>
+        <title>How AI Debt Settlement Technology Works: Orange County Case Analysis | OC Debt Center</title>
         <meta name="description" content="Explore how artificial intelligence revolutionizes debt settlement in Orange County, delivering superior results through advanced algorithms and predictive modeling." />
         <meta name="keywords" content="AI debt settlement Orange County, machine learning debt relief, artificial intelligence negotiation, predictive debt modeling, automated settlement technology" />
         <meta name="robots" content="index, follow" />
@@ -41,12 +41,12 @@ export default function AiDebtSettlementTechnologyOrangeCounty() {
             "image": "https://vegaxai.com/og-ai-debt-settlement.jpg",
             "author": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com",
               "logo": {
                 "@type": "ImageObject",
@@ -81,7 +81,7 @@ export default function AiDebtSettlementTechnologyOrangeCounty() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>July 29, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>15 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX AI Technology Team</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Technology Team</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             Artificial intelligence is revolutionizing debt settlement in Orange County, delivering superior results through advanced algorithms that analyze creditor behavior patterns and optimize negotiation strategies.

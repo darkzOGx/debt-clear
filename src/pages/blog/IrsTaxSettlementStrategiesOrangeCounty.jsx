@@ -31,11 +31,11 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
             "dateModified": "2025-08-23",
             "author": {
               "@type": "Organization",
-              "name": "VegaX AI Tax Solutions"
+              "name": "OC Debt Center Tax Solutions"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://vegaxai.com/logo.svg"

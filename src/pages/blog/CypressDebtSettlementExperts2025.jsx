@@ -43,7 +43,7 @@ export default function CypressDebtSettlementExperts2025() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "VegaX AI Debt Settlement Experts - Cypress",
+            "name": "OC Debt Center Debt Settlement Experts - Cypress",
             "image": "https://vegaxai.com/logo.png",
             "description": "Expert debt settlement specialists serving Cypress, California residents with professional negotiation and AI-powered strategies.",
             "address": {

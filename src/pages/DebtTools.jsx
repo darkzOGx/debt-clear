@@ -132,7 +132,7 @@ export default function DebtTools() {
   return (
     <>
       <Helmet>
-        <title>Debt Tools - Complete Financial Calculator Suite | VegaX AI</title>
+        <title>Debt Tools - Complete Financial Calculator Suite | OC Debt Center</title>
         <meta name="description" content="Free comprehensive financial calculators for Orange County residents. Calculate mortgages, auto loans, retirement, budgets, debt payoff, student loans. Professional money management tools." />
         <meta name="keywords" content="debt tools, financial calculators, mortgage calculator, auto loan calculator, retirement calculator, budget calculator, debt calculator, student loan calculator, Orange County financial planning" />
         <meta name="robots" content="index, follow" />
@@ -152,7 +152,7 @@ export default function DebtTools() {
             "url": "https://vegaxai.com/debt-tools",
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com"
             },
             "mainEntity": {

@@ -49,11 +49,11 @@ export default function AiVsHumanDebtSettlementStudy() {
             "datePublished": "2025-08-15",
             "author": {
               "@type": "Organization",
-              "name": "VegaX AI Research Team"
+              "name": "OC Debt Center Research Team"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI Debt Settlement",
+              "name": "OC Debt Center Debt Settlement",
               "url": "https://vegaxai.com"
             },
             "mainEntity": {

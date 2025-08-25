@@ -127,7 +127,7 @@ export default function CypressDebtSettlement() {
               
               <h2 className="text-4xl font-light text-black mb-8 leading-tight">
                 Why Cypress Residents<br />
-                <span className="font-mono">Trust VegaX AI</span>
+                <span className="font-mono">Trust OC Debt Center</span>
               </h2>
               
               <div className="space-y-6">
@@ -259,7 +259,7 @@ export default function CypressDebtSettlement() {
           </h2>
           
           <p className="text-neutral-300 mb-8 text-lg">
-            Join hundreds of Cypress families who've achieved financial freedom with VegaX AI
+            Join hundreds of Cypress families who've achieved financial freedom with OC Debt Center
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">

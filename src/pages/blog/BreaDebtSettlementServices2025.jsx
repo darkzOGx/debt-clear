@@ -43,7 +43,7 @@ export default function BreaDebtSettlementServices2025() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "VegaX AI Debt Settlement - Brea",
+            "name": "OC Debt Center Debt Settlement - Brea",
             "image": "https://vegaxai.com/logo.png",
             "description": "Professional debt settlement services for Brea, California residents using AI-powered negotiation strategies.",
             "address": {
@@ -179,7 +179,7 @@ export default function BreaDebtSettlementServices2025() {
               <h2 className="text-4xl font-light text-black mb-8 leading-tight">
                 Why Brea Residents
                 <br />
-                <span className="font-mono">Choose VegaX AI</span>
+                <span className="font-mono">Choose OC Debt Center</span>
               </h2>
               
               <div className="space-y-6">
@@ -305,7 +305,7 @@ export default function BreaDebtSettlementServices2025() {
           </h2>
           
           <p className="text-neutral-300 mb-8 text-lg">
-            Join hundreds of Brea families who've eliminated their debt with VegaX AI
+            Join hundreds of Brea families who've eliminated their debt with OC Debt Center
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">

@@ -15,7 +15,7 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
   return (
     <>
       <Helmet>
-        <title>Building Credit During Debt Settlement: Orange County Strategy Guide | VegaX AI</title>
+        <title>Building Credit During Debt Settlement: Orange County Strategy Guide | OC Debt Center</title>
         <meta name="description" content="Strategic credit building minimizes long-term damage and accelerates post-settlement financial recovery for Orange County residents during active debt settlement." />
         <meta name="keywords" content="building credit during debt settlement, Orange County credit repair, debt settlement credit impact, secured credit cards, authorized user strategy, credit monitoring, Orange County financial recovery" />
         <meta name="robots" content="index, follow" />
@@ -41,12 +41,12 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
             "image": "https://vegaxai.com/og-building-credit-settlement.jpg",
             "author": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com",
               "logo": {
                 "@type": "ImageObject",

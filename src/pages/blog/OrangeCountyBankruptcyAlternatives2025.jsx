@@ -24,11 +24,11 @@ export default function OrangeCountyBankruptcyAlternatives2025() {
             "dateModified": "2025-08-23",
             "author": {
               "@type": "Organization",
-              "name": "VegaX AI Financial Solutions"
+              "name": "OC Debt Center Financial Solutions"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://vegaxai.com/logo.svg"
@@ -59,7 +59,7 @@ export default function OrangeCountyBankruptcyAlternatives2025() {
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2"><Calendar className="w-4 h-4" /><span>August 23, 2025</span></div>
             <div className="flex items-center gap-2"><Clock className="w-4 h-4" /><span>21 min read</span></div>
-            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>VegaX AI Financial Solutions</span></div>
+            <div className="flex items-center gap-2"><User className="w-4 h-4" /><span>OC Debt Center Financial Solutions</span></div>
           </div>
           <p className="text-xl text-neutral-300 leading-relaxed font-light relative z-10">
             Don't assume bankruptcy is your only option. Orange County residents have access to sophisticated alternatives that often provide better outcomes while preserving assets, credit, and future opportunities.

@@ -15,7 +15,7 @@ export default function BusinessDebtReliefOrangeCounty2025() {
   return (
     <>
       <Helmet>
-        <title>Orange County Business Debt Relief: Small Business Solutions 2025 | VegaX AI</title>
+        <title>Orange County Business Debt Relief: Small Business Solutions 2025 | OC Debt Center</title>
         <meta name="description" content="Comprehensive strategies for Orange County small businesses struggling with commercial debt, including SBA loan modifications, equipment financing relief, and business credit card settlements." />
         <meta name="keywords" content="Orange County business debt relief, small business debt solutions, SBA loan modifications, commercial debt settlement, business credit cards, equipment financing relief, Orange County business bankruptcy alternatives" />
         <meta name="robots" content="index, follow" />
@@ -41,12 +41,12 @@ export default function BusinessDebtReliefOrangeCounty2025() {
             "image": "https://vegaxai.com/og-business-debt-relief.jpg",
             "author": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "url": "https://vegaxai.com",
               "logo": {
                 "@type": "ImageObject",

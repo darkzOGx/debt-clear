@@ -172,7 +172,7 @@ export default function LagunaNiguelDebtSettlement() {
               <h2 className="text-4xl font-light text-black mb-8 leading-tight">
                 Why Laguna Niguel
                 <br />
-                <span className="font-mono">Trusts VegaX AI</span>
+                <span className="font-mono">Trusts OC Debt Center</span>
               </h2>
               
               <div className="space-y-6">

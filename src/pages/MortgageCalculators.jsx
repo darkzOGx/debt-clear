@@ -69,7 +69,7 @@ export default function MortgageCalculators() {
   return (
     <>
       <Helmet>
-        <title>Mortgage Calculators - Orange County Home Financing Tools | VegaX AI</title>
+        <title>Mortgage Calculators - Orange County Home Financing Tools | OC Debt Center</title>
         <meta name="description" content="Free mortgage calculators for Orange County home buyers. Calculate mortgage payments, affordability, refinance savings, and home equity. Professional real estate tools." />
         <meta name="keywords" content="mortgage calculator, home loan calculator, refinance calculator, home equity calculator, Orange County real estate, mortgage affordability" />
         <meta name="robots" content="index, follow" />

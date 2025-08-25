@@ -29,11 +29,11 @@ export default function MedicalDebtReliefOrangeCounty2025() {
             "dateModified": "2025-08-23",
             "author": {
               "@type": "Organization",
-              "name": "VegaX AI Financial Solutions"
+              "name": "OC Debt Center Financial Solutions"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://vegaxai.com/logo.svg"
@@ -272,7 +272,7 @@ export default function MedicalDebtReliefOrangeCounty2025() {
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">Medical Debt Settlement Success Stories</h2>
             
             <p className="text-neutral-700 leading-relaxed mb-6">
-              VegaX AI has helped hundreds of Orange County families resolve medical debt through strategic 
+              OC Debt Center has helped hundreds of Orange County families resolve medical debt through strategic 
               negotiations and automated settlement processes.
             </p>
 

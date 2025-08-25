@@ -24,11 +24,11 @@ export default function DebtSettlementVsTaxReliefOrangeCounty() {
             "dateModified": "2025-08-23",
             "author": {
               "@type": "Organization",
-              "name": "VegaX AI Debt Solutions"
+              "name": "OC Debt Center Debt Solutions"
             },
             "publisher": {
               "@type": "Organization",
-              "name": "VegaX AI",
+              "name": "OC Debt Center",
               "logo": {
                 "@type": "ImageObject",
                 "url": "https://vegaxai.com/logo.svg"
