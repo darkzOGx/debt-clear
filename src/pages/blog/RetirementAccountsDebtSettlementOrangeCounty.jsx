@@ -269,7 +269,7 @@ export default function RetirementAccountsDebtSettlementOrangeCounty() {
                     <div className="flex items-start gap-3">
                       <span className="text-green-600 font-bold">✓</span>
                       <div>
-                        <p className="font-semibold text-black">High Interest Debt (>20% APR)</p>
+                        <p className="font-semibold text-black">High Interest Debt (&gt;20% APR)</p>
                         <p className="text-neutral-600">Mathematical advantage when debt interest exceeds expected investment returns</p>
                       </div>
                     </div>
