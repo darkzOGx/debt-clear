@@ -1,22 +1,168 @@
-User-agent: *
+# Google
+User-agent: Googlebot
 Allow: /
-
-# Sitemap
-Sitemap: https://orangecountydebtcenter.com/sitemap.xml
-
-# Block admin and private areas (if any)
-Disallow: /admin/
-Disallow: /private/
-Disallow: /.env
-Disallow: /api/internal/
-
-# Allow important pages
 Allow: /blog/
 Allow: /debt-settlement-*/
 Allow: /privacy-policy
 Allow: /terms-of-service
 Allow: /about-us
 Allow: /faq
+Allow: /*.jsx
+Allow: /*.css
+Allow: /*.js
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /api/internal/
+Crawl-delay: 0
 
-# Crawl delay for better server performance
+# Bing
+User-agent: Bingbot
+Allow: /
+Allow: /blog/
+Allow: /debt-settlement-*/
+Allow: /privacy-policy
+Allow: /terms-of-service
+Allow: /about-us
+Allow: /faq
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /api/internal/
+Crawl-delay: 0
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Allow: /blog/
+Allow: /debt-settlement-*/
+Allow: /privacy-policy
+Allow: /terms-of-service
+Allow: /about-us
+Allow: /faq
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /api/internal/
+Crawl-delay: 0
+
+# OpenAI (ChatGPT)
+User-agent: GPTBot
+Allow: /
+Allow: /blog/
+Allow: /debt-settlement-*/
+Allow: /faq
+Allow: /about-us
+Allow: /privacy-policy
+Allow: /terms-of-service
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /api/internal/
+
+# OpenAI ChatGPT User
+User-agent: ChatGPT-User
+Allow: /
+Allow: /blog/
+Allow: /debt-settlement-*/
+Allow: /faq
+Allow: /about-us
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /api/internal/
+
+# Anthropic Claude
+User-agent: Claude-Web
+Allow: /
+Allow: /blog/
+Allow: /debt-settlement-*/
+Allow: /faq
+Allow: /about-us
+Allow: /privacy-policy
+Allow: /terms-of-service
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /api/internal/
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+Allow: /blog/
+Allow: /debt-settlement-*/
+Allow: /faq
+Allow: /about-us
+Allow: /privacy-policy
+Allow: /terms-of-service
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /api/internal/
+
+# Apple (Siri)
+User-agent: Applebot
+Allow: /
+Allow: /blog/
+Allow: /debt-settlement-*/
+Allow: /faq
+Allow: /about-us
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /api/internal/
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+Allow: /blog/
+Allow: /debt-settlement-*/
+Allow: /faq
+Allow: /about-us
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /api/internal/
+
+# X (Twitter) Grok
+User-agent: Twitterbot
+Allow: /
+Allow: /blog/
+Allow: /debt-settlement-*/
+Allow: /faq
+Allow: /about-us
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /api/internal/
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+Allow: /blog/
+Allow: /debt-settlement-*/
+Allow: /faq
+Allow: /about-us
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /api/internal/
+
+# All other bots
+User-agent: *
+Allow: /
+Allow: /blog/
+Allow: /debt-settlement-*/
+Allow: /privacy-policy
+Allow: /terms-of-service
+Allow: /about-us
+Allow: /faq
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.env
+Disallow: /api/internal/
 Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://orangecountydebtcenter.com/sitemap.xml
+Sitemap: https://orangecountydebtcenter.com/blog-sitemap.xml

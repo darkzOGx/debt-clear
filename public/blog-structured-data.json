@@ -1,0 +1,346 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Orange County Debt Settlement Blog",
+  "description": "Expert insights on debt settlement, bankruptcy alternatives, and financial relief for Orange County residents",
+  "url": "https://www.orangecountydebtcenter.com/blog",
+  "author": {
+    "@type": "Organization",
+    "name": "Orange County Debt Center",
+    "url": "https://www.orangecountydebtcenter.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Orange County Debt Center",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.orangecountydebtcenter.com/logo.png"
+    }
+  },
+  "blogPost": [
+    {
+      "@type": "BlogPosting",
+      "headline": "1099-C Tax Forms: Orange County Debt Settlement Tax Implications 2025",
+      "description": "Complete guide to 1099-C tax forms after debt settlement in Orange County. California tax implications, IRS requirements, and tax relief strategies.",
+      "url": "https://www.orangecountydebtcenter.com/blog/1099c-tax-forms-debt-settlement-orange-county",
+      "datePublished": "2025-01-15",
+      "dateModified": "2025-01-15",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "1099-C forms, debt settlement taxes, Orange County tax implications",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "AI Debt Settlement Technology: Orange County's Advanced Negotiation Systems",
+      "description": "How AI-powered debt settlement technology delivers superior results for Orange County residents. Machine learning negotiation strategies and success rates.",
+      "url": "https://www.orangecountydebtcenter.com/blog/ai-debt-settlement-technology-orange-county",
+      "datePublished": "2025-01-14",
+      "dateModified": "2025-01-14",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "AI debt settlement, technology, Orange County debt relief",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "AI vs Traditional Debt Settlement: Orange County Performance Comparison 2025",
+      "description": "Comprehensive analysis comparing AI-powered vs traditional debt settlement methods. Data-driven results for Orange County residents.",
+      "url": "https://www.orangecountydebtcenter.com/blog/ai-vs-traditional-debt-settlement",
+      "datePublished": "2025-01-13",
+      "dateModified": "2025-01-13",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "AI vs traditional debt settlement, Orange County comparison, debt settlement technology",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Bankruptcy vs Debt Settlement Orange County: Complete 2025 Comparison",
+      "description": "Detailed comparison of bankruptcy vs debt settlement options for Orange County residents. Costs, timeline, credit impact, and success rates.",
+      "url": "https://www.orangecountydebtcenter.com/blog/bankruptcy-vs-debt-settlement-orange-county",
+      "datePublished": "2025-01-12",
+      "dateModified": "2025-01-12",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "bankruptcy vs debt settlement, Orange County bankruptcy alternatives, debt relief options",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Credit Card Debt Settlement Orange County: 2025 Success Strategies",
+      "description": "Professional credit card debt settlement services in Orange County. Average 52% reduction, no upfront fees, licensed specialists.",
+      "url": "https://www.orangecountydebtcenter.com/blog/credit-card-debt-settlement-orange-county",
+      "datePublished": "2025-01-11",
+      "dateModified": "2025-01-11",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "credit card debt settlement, Orange County debt relief, credit card debt help",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Orange County Debt Settlement Process Guide 2025: Step-by-Step",
+      "description": "Complete debt settlement process guide for Orange County residents. Timeline, requirements, costs, and what to expect during settlement.",
+      "url": "https://www.orangecountydebtcenter.com/blog/debt-settlement-process-guide-orange-county-2025",
+      "datePublished": "2025-01-10",
+      "dateModified": "2025-01-10",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "debt settlement process, Orange County debt settlement guide, how debt settlement works",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Medical Debt Relief Orange County 2025: Hospital Debt Settlement Guide",
+      "description": "Specialized medical debt relief services for Orange County residents. Hospital debt negotiation, medical bill settlement, and forgiveness programs.",
+      "url": "https://www.orangecountydebtcenter.com/blog/medical-debt-relief-orange-county-2025",
+      "datePublished": "2025-01-09",
+      "dateModified": "2025-01-09",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "medical debt relief, Orange County medical debt, hospital debt settlement",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Orange County Debt Settlement Laws 2025: California Legal Requirements",
+      "description": "Complete guide to Orange County debt settlement laws, California regulations, DFPI licensing requirements, and consumer protection rights.",
+      "url": "https://www.orangecountydebtcenter.com/blog/orange-county-debt-settlement-laws",
+      "datePublished": "2025-01-08",
+      "dateModified": "2025-01-08",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "Orange County debt settlement laws, California debt settlement regulations, DFPI requirements",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Anaheim Debt Settlement Services 2025: Local Expert Solutions",
+      "description": "Professional debt settlement services in Anaheim, Orange County. Licensed specialists, 52% average reduction, free consultations.",
+      "url": "https://www.orangecountydebtcenter.com/blog/anaheim-debt-settlement-services-2025",
+      "datePublished": "2025-01-07",
+      "dateModified": "2025-01-07",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "Anaheim debt settlement, Anaheim debt relief, Orange County debt help",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Irvine Debt Settlement Services 2025: Local Expert Solutions",
+      "description": "Professional debt settlement services in Irvine, Orange County. Licensed specialists, 52% average reduction, free consultations.",
+      "url": "https://www.orangecountydebtcenter.com/blog/irvine-debt-settlement-experts-2025",
+      "datePublished": "2025-01-07",
+      "dateModified": "2025-01-07",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "Irvine debt settlement, Irvine debt relief, Orange County debt help",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Santa Debt Settlement Services 2025: Local Expert Solutions",
+      "description": "Professional debt settlement services in Santa, Orange County. Licensed specialists, 52% average reduction, free consultations.",
+      "url": "https://www.orangecountydebtcenter.com/blog/santa-ana-debt-relief-solutions-2025",
+      "datePublished": "2025-01-07",
+      "dateModified": "2025-01-07",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "Santa debt settlement, Santa debt relief, Orange County debt help",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Huntington Debt Settlement Services 2025: Local Expert Solutions",
+      "description": "Professional debt settlement services in Huntington, Orange County. Licensed specialists, 52% average reduction, free consultations.",
+      "url": "https://www.orangecountydebtcenter.com/blog/huntington-beach-debt-settlement-2025",
+      "datePublished": "2025-01-07",
+      "dateModified": "2025-01-07",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "Huntington debt settlement, Huntington debt relief, Orange County debt help",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Newport Debt Settlement Services 2025: Local Expert Solutions",
+      "description": "Professional debt settlement services in Newport, Orange County. Licensed specialists, 52% average reduction, free consultations.",
+      "url": "https://www.orangecountydebtcenter.com/blog/newport-beach-debt-relief-services-2025",
+      "datePublished": "2025-01-07",
+      "dateModified": "2025-01-07",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "Newport debt settlement, Newport debt relief, Orange County debt help",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Costa Debt Settlement Services 2025: Local Expert Solutions",
+      "description": "Professional debt settlement services in Costa, Orange County. Licensed specialists, 52% average reduction, free consultations.",
+      "url": "https://www.orangecountydebtcenter.com/blog/costa-mesa-debt-settlement-specialists-2025",
+      "datePublished": "2025-01-07",
+      "dateModified": "2025-01-07",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "Costa debt settlement, Costa debt relief, Orange County debt help",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Fullerton Debt Settlement Services 2025: Local Expert Solutions",
+      "description": "Professional debt settlement services in Fullerton, Orange County. Licensed specialists, 52% average reduction, free consultations.",
+      "url": "https://www.orangecountydebtcenter.com/blog/fullerton-debt-relief-experts-2025",
+      "datePublished": "2025-01-07",
+      "dateModified": "2025-01-07",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "Fullerton debt settlement, Fullerton debt relief, Orange County debt help",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Orange Debt Settlement Services 2025: Local Expert Solutions",
+      "description": "Professional debt settlement services in Orange, Orange County. Licensed specialists, 52% average reduction, free consultations.",
+      "url": "https://www.orangecountydebtcenter.com/blog/orange-debt-settlement-services-2025",
+      "datePublished": "2025-01-07",
+      "dateModified": "2025-01-07",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "Orange debt settlement, Orange debt relief, Orange County debt help",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Garden Debt Settlement Services 2025: Local Expert Solutions",
+      "description": "Professional debt settlement services in Garden, Orange County. Licensed specialists, 52% average reduction, free consultations.",
+      "url": "https://www.orangecountydebtcenter.com/blog/garden-grove-debt-relief-2025",
+      "datePublished": "2025-01-07",
+      "dateModified": "2025-01-07",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "Garden debt settlement, Garden debt relief, Orange County debt help",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Westminster Debt Settlement Services 2025: Local Expert Solutions",
+      "description": "Professional debt settlement services in Westminster, Orange County. Licensed specialists, 52% average reduction, free consultations.",
+      "url": "https://www.orangecountydebtcenter.com/blog/westminster-debt-settlement-2025",
+      "datePublished": "2025-01-07",
+      "dateModified": "2025-01-07",
+      "author": {
+        "@type": "Person",
+        "name": "Orange County Debt Center Team"
+      },
+      "keywords": "Westminster debt settlement, Westminster debt relief, Orange County debt help",
+      "articleSection": "Debt Settlement",
+      "about": {
+        "@type": "Thing",
+        "name": "Debt Settlement"
+      }
+    }
+  ]
+}

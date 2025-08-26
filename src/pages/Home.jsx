@@ -9,6 +9,9 @@ import BlogSection from '../components/blog/BlogSection';
 import ConsultationForm from '../components/consultation/ConsultationForm';
 import NewsletterSignup from '../components/newsletter/NewsletterSignup';
 import InternalLinkingHub from '../components/seo/InternalLinkingHub';
+import ReviewWidget from '../components/reviews/ReviewWidget';
+import CallToActionBanner, { StickyCTA } from '../components/cta/CallToActionBanner';
+import EnhancedFAQSchema from '../components/seo/EnhancedFAQSchema';
 
 export default function Home() {
   const calculatorRef = useRef(null);
@@ -238,11 +241,26 @@ export default function Home() {
       {/* Case Studies */}
       <TestimonialsSection />
 
+      {/* Client Reviews & Success Stories */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8">
+          <ReviewWidget />
+        </div>
+      </section>
+
       {/* Blog Section */}
       <BlogSection />
 
       {/* Internal Linking Hub */}
       <InternalLinkingHub currentPage="/" />
+
+      {/* Call to Action Banner */}
+      <CallToActionBanner 
+        variant="primary" 
+        size="large" 
+        showStats={true}
+        showMultipleOptions={true}
+      />
 
       {/* Consultation Form */}
       <div ref={consultationRef}>
@@ -251,6 +269,12 @@ export default function Home() {
 
       {/* Newsletter Signup */}
       <NewsletterSignup />
+      
+      {/* Sticky CTA */}
+      <StickyCTA />
+
+      {/* Enhanced FAQ Schema for AI Citations */}
+      <EnhancedFAQSchema pageType="general" showVisibleFAQ={false} />
 
       {/* Footer */}
       <footer className="py-12 bg-black text-white border-t border-neutral-800">

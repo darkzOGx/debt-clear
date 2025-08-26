@@ -8,6 +8,24 @@ export default function BlogResources() {
   const [categoryStartIndex, setCategoryStartIndex] = useState(0);
   const articles = [
     {
+      title: "Medical Debt Forgiveness Programs Near Me: Orange County 2025 Directory",
+      excerpt: "Complete directory of medical debt forgiveness programs in Orange County. Hospital charity care at UCI, Hoag, St. Jude, CHOC. Get 60-100% debt elimination with our expert assistance and application support.",
+      slug: "/blog/medical-debt-forgiveness-programs-2025",
+      date: "Aug 26, 2025",
+      readTime: "12 min read",
+      category: "Medical Debt Relief",
+      featured: true
+    },
+    {
+      title: "Debt Settlement After Divorce 2025: Orange County Recovery Guide",
+      excerpt: "Eliminate joint debts after divorce with Orange County's specialized settlement programs. 40-60% debt reduction, asset protection, and credit rebuilding strategies for recent divorcees.",
+      slug: "/blog/debt-settlement-after-divorce-2025",
+      date: "Aug 26, 2025",
+      readTime: "15 min read",
+      category: "Divorce Debt Relief",
+      featured: true
+    },
+    {
       title: "2025 Debt Industry Trends: Settlement, Relief & Consolidation Analysis",
       excerpt: "Comprehensive analysis of debt industry evolution in 2025. AI-powered settlement innovations are changing debt relief. New consolidation strategies emerge nationwide. Complete industry analysis with case studies and expert predictions.",
       slug: "/blog/debt-industry-trends-2025-analysis",

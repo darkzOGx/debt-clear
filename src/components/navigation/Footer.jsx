@@ -117,7 +117,11 @@ export default function Footer() {
                     <div className="ml-4 mt-1 space-y-1">
                       <div className="text-neutral-500 text-xs">• 401(k) Calculator</div>
                       <div className="text-neutral-500 text-xs">• Budget Calculator</div>
+                      <div className="text-neutral-500 text-xs">• Compound Interest Calculator</div>
                       <div className="text-neutral-500 text-xs">• Retirement Calculator</div>
+                      <div className="text-neutral-500 text-xs">• Savings Calculator</div>
+                      <div className="text-neutral-500 text-xs">• Debt Settlement vs Bankruptcy</div>
+                      <div className="text-neutral-500 text-xs">• Credit Card Debt Relief (Under $5K)</div>
                     </div>
                   </div>
                   <div>
@@ -125,7 +129,8 @@ export default function Footer() {
                       Mortgage Calculators
                     </Link>
                     <div className="ml-4 mt-1 space-y-1">
-                      <div className="text-neutral-500 text-xs">• Mortgage Payment Calculator</div>
+                      <div className="text-neutral-500 text-xs">• Mortgage Calculator</div>
+                      <div className="text-neutral-500 text-xs">• Mortgage Affordability Calculator</div>
                       <div className="text-neutral-500 text-xs">• Refinance Calculator</div>
                       <div className="text-neutral-500 text-xs">• Home Equity Calculator</div>
                     </div>
@@ -136,6 +141,7 @@ export default function Footer() {
                     </Link>
                     <div className="ml-4 mt-1 space-y-1">
                       <div className="text-neutral-500 text-xs">• Auto Loan Calculator</div>
+                      <div className="text-neutral-500 text-xs">• Auto Affordability Calculator</div>
                       <div className="text-neutral-500 text-xs">• Auto Refinance Calculator</div>
                       <div className="text-neutral-500 text-xs">• Lease vs Buy Calculator</div>
                     </div>
@@ -148,6 +154,7 @@ export default function Footer() {
                       <div className="text-neutral-500 text-xs">• Debt Repayment Calculator</div>
                       <div className="text-neutral-500 text-xs">• Credit Card Payoff Calculator</div>
                       <div className="text-neutral-500 text-xs">• Balance Transfer Calculator</div>
+                      <div className="text-neutral-500 text-xs">• Debt Snowball Calculator</div>
                     </div>
                   </div>
                   <div>
@@ -156,6 +163,7 @@ export default function Footer() {
                     </Link>
                     <div className="ml-4 mt-1 space-y-1">
                       <div className="text-neutral-500 text-xs">• Student Loan Calculator</div>
+                      <div className="text-neutral-500 text-xs">• Student Loan Refinance Calculator</div>
                       <div className="text-neutral-500 text-xs">• Loan Forgiveness Calculator</div>
                       <div className="text-neutral-500 text-xs">• Boat Loan Calculator</div>
                     </div>

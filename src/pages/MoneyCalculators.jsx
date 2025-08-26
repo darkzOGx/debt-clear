@@ -397,7 +397,239 @@ function SavingsCalculator() {
   );
 }
 
-// Debt Settlement vs Bankruptcy Calculatorfunction DebtSettlementVsBankruptcyCalculator() {  const [totalDebt, setTotalDebt] = useState(50000);  const [monthlyIncome, setMonthlyIncome] = useState(5000);  const [monthlyExpenses, setMonthlyExpenses] = useState(3500);  const [homeValue, setHomeValue] = useState(300000);  const [homeMortgage, setHomeMortgage] = useState(250000);  const [otherAssets, setOtherAssets] = useState(25000);    const disposableIncome = monthlyIncome - monthlyExpenses;  const homeEquity = Math.max(0, homeValue - homeMortgage);  const totalAssets = homeEquity + otherAssets;    // Debt Settlement Calculations  const settlementRate = 0.4; // Typically 40-50% of original debt  const settlementAmount = totalDebt * settlementRate;  const settlementMonthlyPayment = settlementAmount / 36; // 36 month average program  const settlementFees = settlementAmount * 0.25; // 25% fee  const settlementTotalCost = settlementAmount + settlementFees;    // Chapter 7 Bankruptcy Calculations  const chapter7Eligible = disposableIncome < 500; // Simplified means test  const chapter7Fees = 1500; // Court fees + attorney    // Chapter 13 Bankruptcy Calculations  const chapter13Payment = Math.min(disposableIncome * 0.8, totalDebt / 60);  const chapter13TotalPayment = chapter13Payment * 60;  const chapter13Fees = 3500;  const chapter13TotalCost = chapter13TotalPayment + chapter13Fees;    return (    <div className="space-y-6">      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">        <div>          <label className="block text-sm font-medium text-gray-700 mb-1">Total Unsecured Debt ($)</label>          <input type="number" value={totalDebt} onChange={(e) => setTotalDebt(parseInt(e.target.value))} className="w-full p-2 border rounded focus:ring-2 focus:ring-green-500" />        </div>        <div>          <label className="block text-sm font-medium text-gray-700 mb-1">Monthly Income ($)</label>          <input type="number" value={monthlyIncome} onChange={(e) => setMonthlyIncome(parseInt(e.target.value))} className="w-full p-2 border rounded focus:ring-2 focus:ring-green-500" />        </div>      </div>      <div className="grid md:grid-cols-3 gap-6">        <div className="bg-green-50 border border-green-200 rounded-lg p-4">          <h5 className="font-bold text-green-800 mb-3 text-lg">Debt Settlement</h5>          <div className="space-y-2 text-sm">            <div>Settlement Amount: <span className="font-bold">${settlementAmount.toLocaleString()}</span></div>            <div>Total Cost: <span className="font-bold text-green-600">${settlementTotalCost.toLocaleString()}</span></div>            <div>Savings: <span className="font-bold text-green-600">${(totalDebt - settlementTotalCost).toLocaleString()}</span></div>          </div>        </div>        <div className={`border rounded-lg p-4 ${chapter7Eligible ? "bg-blue-50 border-blue-200" : "bg-gray-50 border-gray-200"}`}>          <h5 className="font-bold mb-3 text-lg">Chapter 7 Bankruptcy</h5>          <div className="space-y-2 text-sm">            <div>Total Cost: <span className="font-bold">${chapter7Fees.toLocaleString()}</span></div>            <div>Debt Eliminated: <span className="font-bold">${totalDebt.toLocaleString()}</span></div>          </div>        </div>        <div className="bg-purple-50 border border-purple-200 rounded-lg p-4">          <h5 className="font-bold text-purple-800 mb-3 text-lg">Chapter 13 Bankruptcy</h5>          <div className="space-y-2 text-sm">            <div>Total Cost: <span className="font-bold">${chapter13TotalCost.toLocaleString()}</span></div>            <div>Savings: <span className="font-bold">${(totalDebt - chapter13TotalCost).toLocaleString()}</span></div>          </div>        </div>      </div>    </div>  );}// Credit Card Debt Relief Calculatorfunction CreditCardDebtReliefCalculator() {  const [totalDebt, setTotalDebt] = useState(5000);  const [averageAPR, setAverageAPR] = useState(22.5);  const [monthlyIncome, setMonthlyIncome] = useState(3500);  const disposableIncome = monthlyIncome - 2800;  const settlementAmount = totalDebt * 0.5;  const aggressivePayment = Math.min(disposableIncome * 0.8, totalDebt);    return (    <div className="space-y-4">      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">        <div>          <label className="block text-sm font-medium text-gray-700 mb-1">Credit Card Debt ($, max 5000)</label>          <input type="number" max="5000" value={totalDebt} onChange={(e) => setTotalDebt(Math.min(5000, parseInt(e.target.value)))} className="w-full p-2 border rounded focus:ring-2 focus:ring-green-500" />        </div>        <div>          <label className="block text-sm font-medium text-gray-700 mb-1">Average APR (%)</label>          <input type="number" value={averageAPR} onChange={(e) => setAverageAPR(parseFloat(e.target.value))} className="w-full p-2 border rounded focus:ring-2 focus:ring-green-500" />        </div>      </div>      <div className="grid md:grid-cols-3 gap-4">        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">          <h5 className="font-bold text-blue-800 mb-3">Aggressive Payoff</h5>          <div className="space-y-2 text-sm">            <div>Monthly Payment: <span className="font-bold">${aggressivePayment.toLocaleString()}</span></div>            <div>Time to Pay Off: <span className="font-bold">{Math.ceil(totalDebt/aggressivePayment)} months</span></div>          </div>        </div>        <div className="bg-green-50 border border-green-200 rounded-lg p-4">          <h5 className="font-bold text-green-800 mb-3">Debt Settlement</h5>          <div className="space-y-2 text-sm">            <div>Settlement Amount: <span className="font-bold">${settlementAmount.toLocaleString()}</span></div>            <div>Savings: <span className="font-bold text-green-600">${(totalDebt - settlementAmount).toLocaleString()}</span></div>          </div>        </div>        <div className="bg-purple-50 border border-purple-200 rounded-lg p-4">          <h5 className="font-bold text-purple-800 mb-3">Balance Transfer</h5>          <div className="space-y-2 text-sm">            <div>Transfer Fee: <span className="font-bold">${(totalDebt * 0.03).toLocaleString()}</span></div>            <div>Promotional APR: <span className="font-bold">0-12.9%</span></div>          </div>        </div>      </div>    </div>  );}
+// Debt Settlement vs Bankruptcy Calculator
+function DebtSettlementVsBankruptcyCalculator() {
+  const [totalDebt, setTotalDebt] = useState(50000);
+  const [monthlyIncome, setMonthlyIncome] = useState(5000);
+  const [monthlyExpenses, setMonthlyExpenses] = useState(3500);
+  const [homeValue, setHomeValue] = useState(300000);
+  const [homeMortgage, setHomeMortgage] = useState(250000);
+  const [otherAssets, setOtherAssets] = useState(25000);
+
+  const disposableIncome = monthlyIncome - monthlyExpenses;
+  const homeEquity = Math.max(0, homeValue - homeMortgage);
+  const totalAssets = homeEquity + otherAssets;
+
+  // Debt Settlement Calculations
+  const settlementRate = 0.4; // Typically 40-50% of original debt
+  const settlementAmount = totalDebt * settlementRate;
+  const settlementMonthlyPayment = settlementAmount / 36; // 36 month average program
+  const settlementFees = settlementAmount * 0.25; // 25% fee
+  const settlementTotalCost = settlementAmount + settlementFees;
+
+  // Chapter 7 Bankruptcy Calculations
+  const chapter7Eligible = disposableIncome < 500; // Simplified means test
+  const chapter7Fees = 1500; // Court fees + attorney
+
+  // Chapter 13 Bankruptcy Calculations
+  const chapter13Payment = Math.min(disposableIncome * 0.8, totalDebt / 60);
+  const chapter13TotalPayment = chapter13Payment * 60;
+  const chapter13Fees = 3500;
+  const chapter13TotalCost = chapter13TotalPayment + chapter13Fees;
+
+  return (
+    <div className="space-y-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Total Unsecured Debt ($)</label>
+          <input 
+            type="number" 
+            value={totalDebt} 
+            onChange={(e) => setTotalDebt(parseInt(e.target.value))} 
+            className="w-full p-2 border rounded focus:ring-2 focus:ring-green-500" 
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Monthly Income ($)</label>
+          <input 
+            type="number" 
+            value={monthlyIncome} 
+            onChange={(e) => setMonthlyIncome(parseInt(e.target.value))} 
+            className="w-full p-2 border rounded focus:ring-2 focus:ring-green-500" 
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Monthly Expenses ($)</label>
+          <input 
+            type="number" 
+            value={monthlyExpenses} 
+            onChange={(e) => setMonthlyExpenses(parseInt(e.target.value))} 
+            className="w-full p-2 border rounded focus:ring-2 focus:ring-green-500" 
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Home Value ($)</label>
+          <input 
+            type="number" 
+            value={homeValue} 
+            onChange={(e) => setHomeValue(parseInt(e.target.value))} 
+            className="w-full p-2 border rounded focus:ring-2 focus:ring-green-500" 
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Home Mortgage Balance ($)</label>
+          <input 
+            type="number" 
+            value={homeMortgage} 
+            onChange={(e) => setHomeMortgage(parseInt(e.target.value))} 
+            className="w-full p-2 border rounded focus:ring-2 focus:ring-green-500" 
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Other Assets ($)</label>
+          <input 
+            type="number" 
+            value={otherAssets} 
+            onChange={(e) => setOtherAssets(parseInt(e.target.value))} 
+            className="w-full p-2 border rounded focus:ring-2 focus:ring-green-500" 
+          />
+        </div>
+      </div>
+      
+      <div className="bg-gray-100 p-4 rounded-lg">
+        <h5 className="font-semibold text-gray-800 mb-2">Financial Summary:</h5>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+          <div>Disposable Income: <span className="font-bold">${disposableIncome.toLocaleString()}</span></div>
+          <div>Home Equity: <span className="font-bold">${homeEquity.toLocaleString()}</span></div>
+          <div>Total Assets: <span className="font-bold">${totalAssets.toLocaleString()}</span></div>
+        </div>
+      </div>
+      
+      <div className="grid md:grid-cols-3 gap-6">
+        <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+          <h5 className="font-bold text-green-800 mb-3 text-lg">Debt Settlement</h5>
+          <div className="space-y-2 text-sm">
+            <div>Settlement Amount: <span className="font-bold">${settlementAmount.toLocaleString()}</span></div>
+            <div>Program Fees: <span className="font-bold">${settlementFees.toLocaleString()}</span></div>
+            <div>Total Cost: <span className="font-bold text-green-600">${settlementTotalCost.toLocaleString()}</span></div>
+            <div>Savings: <span className="font-bold text-green-600">${(totalDebt - settlementTotalCost).toLocaleString()}</span></div>
+            <div>Monthly Payment: <span className="font-bold">${settlementMonthlyPayment.toLocaleString()}</span></div>
+          </div>
+        </div>
+        
+        <div className={`border rounded-lg p-4 ${chapter7Eligible ? "bg-blue-50 border-blue-200" : "bg-gray-50 border-gray-200"}`}>
+          <h5 className={`font-bold mb-3 text-lg ${chapter7Eligible ? "text-blue-800" : "text-gray-600"}`}>
+            Chapter 7 Bankruptcy
+          </h5>
+          <div className="space-y-2 text-sm">
+            <div>Eligibility: <span className={`font-bold ${chapter7Eligible ? "text-green-600" : "text-red-600"}`}>
+              {chapter7Eligible ? "Likely Eligible" : "May Not Qualify"}
+            </span></div>
+            <div>Total Cost: <span className="font-bold">${chapter7Fees.toLocaleString()}</span></div>
+            <div>Debt Eliminated: <span className="font-bold">${totalDebt.toLocaleString()}</span></div>
+            <div>Asset Risk: <span className="font-bold text-red-600">
+              {totalAssets > 25000 ? "High" : "Low"}
+            </span></div>
+          </div>
+        </div>
+        
+        <div className="bg-purple-50 border border-purple-200 rounded-lg p-4">
+          <h5 className="font-bold text-purple-800 mb-3 text-lg">Chapter 13 Bankruptcy</h5>
+          <div className="space-y-2 text-sm">
+            <div>Monthly Payment: <span className="font-bold">${chapter13Payment.toLocaleString()}</span></div>
+            <div>Total Payments: <span className="font-bold">${chapter13TotalPayment.toLocaleString()}</span></div>
+            <div>Attorney/Court Fees: <span className="font-bold">${chapter13Fees.toLocaleString()}</span></div>
+            <div>Total Cost: <span className="font-bold">${chapter13TotalCost.toLocaleString()}</span></div>
+            <div>Savings: <span className="font-bold text-purple-600">${(totalDebt - chapter13TotalCost).toLocaleString()}</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// Credit Card Debt Relief Calculator
+function CreditCardDebtReliefCalculator() {
+  const [totalDebt, setTotalDebt] = useState(5000);
+  const [averageAPR, setAverageAPR] = useState(22.5);
+  const [monthlyIncome, setMonthlyIncome] = useState(3500);
+  const [monthlyExpenses, setMonthlyExpenses] = useState(2800);
+  
+  const disposableIncome = monthlyIncome - monthlyExpenses;
+  const settlementAmount = totalDebt * 0.5;
+  const aggressivePayment = Math.min(disposableIncome * 0.8, totalDebt * 0.1);
+  
+  // Calculate payoff time with aggressive payment
+  const monthlyRate = averageAPR / 100 / 12;
+  let payoffMonths = 0;
+  if (aggressivePayment > 0 && monthlyRate > 0) {
+    payoffMonths = Math.log(1 + (totalDebt * monthlyRate) / aggressivePayment) / Math.log(1 + monthlyRate);
+  } else if (aggressivePayment > 0) {
+    payoffMonths = totalDebt / aggressivePayment;
+  }
+
+  return (
+    <div className="space-y-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Credit Card Debt ($, max 5000)</label>
+          <input 
+            type="number" 
+            max="5000" 
+            value={totalDebt} 
+            onChange={(e) => setTotalDebt(Math.min(5000, parseInt(e.target.value)))} 
+            className="w-full p-2 border rounded focus:ring-2 focus:ring-green-500" 
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Average APR (%)</label>
+          <input 
+            type="number" 
+            step="0.1"
+            value={averageAPR} 
+            onChange={(e) => setAverageAPR(parseFloat(e.target.value))} 
+            className="w-full p-2 border rounded focus:ring-2 focus:ring-green-500" 
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Monthly Income ($)</label>
+          <input 
+            type="number" 
+            value={monthlyIncome} 
+            onChange={(e) => setMonthlyIncome(parseInt(e.target.value))} 
+            className="w-full p-2 border rounded focus:ring-2 focus:ring-green-500" 
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Monthly Expenses ($)</label>
+          <input 
+            type="number" 
+            value={monthlyExpenses} 
+            onChange={(e) => setMonthlyExpenses(parseInt(e.target.value))} 
+            className="w-full p-2 border rounded focus:ring-2 focus:ring-green-500" 
+          />
+        </div>
+      </div>
+      
+      <div className="grid md:grid-cols-3 gap-4">
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+          <h5 className="font-bold text-blue-800 mb-3">Aggressive Payoff</h5>
+          <div className="space-y-2 text-sm">
+            <div>Monthly Payment: <span className="font-bold">${aggressivePayment.toLocaleString()}</span></div>
+            <div>Time to Pay Off: <span className="font-bold">{Math.ceil(payoffMonths)} months</span></div>
+            <div>Total Interest: <span className="font-bold">${((aggressivePayment * payoffMonths) - totalDebt).toLocaleString()}</span></div>
+          </div>
+        </div>
+        <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+          <h5 className="font-bold text-green-800 mb-3">Debt Settlement</h5>
+          <div className="space-y-2 text-sm">
+            <div>Settlement Amount: <span className="font-bold">${settlementAmount.toLocaleString()}</span></div>
+            <div>Savings: <span className="font-bold text-green-600">${(totalDebt - settlementAmount).toLocaleString()}</span></div>
+            <div>Credit Impact: <span className="font-bold text-red-600">Negative</span></div>
+          </div>
+        </div>
+        <div className="bg-purple-50 border border-purple-200 rounded-lg p-4">
+          <h5 className="font-bold text-purple-800 mb-3">Balance Transfer</h5>
+          <div className="space-y-2 text-sm">
+            <div>Transfer Fee: <span className="font-bold">${(totalDebt * 0.03).toLocaleString()}</span></div>
+            <div>Promotional APR: <span className="font-bold">0-12.9%</span></div>
+            <div>Promo Period: <span className="font-bold">12-21 months</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 export default function MoneyCalculators() {
   useCanonicalLink('https://ocdebtcenter.com/money-calculators');
   
