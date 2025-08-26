@@ -1,4 +1,28 @@
 {
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://orangecountydebtcenter.com/$1",
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "vegaxai.com"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://orangecountydebtcenter.com/$1",
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "www.vegaxai.com"
+        }
+      ]
+    }
+  ],
   "rewrites": [
     {
       "source": "/((?!assets/).*)",
