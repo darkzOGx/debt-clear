@@ -103,8 +103,6 @@ import DebtManagementPlansVsDebtSettlementOrangeCounty from "./blog/DebtManageme
 import RetirementAccountsDebtSettlementOrangeCounty from "./blog/RetirementAccountsDebtSettlementOrangeCounty";
 import WageGarnishmentLawsDebtSettlementOrangeCounty from "./blog/WageGarnishmentLawsDebtSettlementOrangeCounty";
 import DivorceDebtSettlementOrangeCounty from "./blog/DivorceDebtSettlementOrangeCounty";
-import DebtSettlementAfterDivorce2025 from "./blog/DebtSettlementAfterDivorce2025";
-import MedicalDebtForgivenessPrograms2025 from "./blog/MedicalDebtForgivenessPrograms2025";
 
 // Comprehensive Guide (January 2025)
 import OrangeCountyDebtSettlementGuide2025 from "./blog/OrangeCountyDebtSettlementGuide2025";
@@ -230,8 +228,6 @@ const PAGES = {
     RetirementAccountsDebtSettlementOrangeCounty: RetirementAccountsDebtSettlementOrangeCounty,
     WageGarnishmentLawsDebtSettlementOrangeCounty: WageGarnishmentLawsDebtSettlementOrangeCounty,
     DivorceDebtSettlementOrangeCounty: DivorceDebtSettlementOrangeCounty,
-    DebtSettlementAfterDivorce2025: DebtSettlementAfterDivorce2025,
-    MedicalDebtForgivenessPrograms2025: MedicalDebtForgivenessPrograms2025,
     
     // Comprehensive Guide (January 2025)
     OrangeCountyDebtSettlementGuide2025: OrangeCountyDebtSettlementGuide2025,
@@ -381,8 +377,6 @@ function PagesContent() {
                 <Route path="/blog/retirement-accounts-debt-settlement-orange-county" element={<RetirementAccountsDebtSettlementOrangeCounty />} />
                 <Route path="/blog/wage-garnishment-laws-debt-settlement-orange-county" element={<WageGarnishmentLawsDebtSettlementOrangeCounty />} />
                 <Route path="/blog/divorce-debt-settlement-orange-county" element={<DivorceDebtSettlementOrangeCounty />} />
-                <Route path="/blog/debt-settlement-after-divorce-2025" element={<DebtSettlementAfterDivorce2025 />} />
-                <Route path="/blog/medical-debt-forgiveness-programs-2025" element={<MedicalDebtForgivenessPrograms2025 />} />
                 
                 {/* Comprehensive Guide (January 2025) */}
                 <Route path="/blog/orange-county-debt-settlement-guide-2025" element={<OrangeCountyDebtSettlementGuide2025 />} />
