@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://vegaxai.com/sitemap.xml
+Sitemap: https://orangecountydebtcenter.com/sitemap.xml
 
 # Block admin and private areas (if any)
 Disallow: /admin/
@@ -13,6 +13,10 @@ Disallow: /api/internal/
 # Allow important pages
 Allow: /blog/
 Allow: /debt-settlement-*/
+Allow: /privacy-policy
+Allow: /terms-of-service
+Allow: /about-us
+Allow: /faq
 
 # Crawl delay for better server performance
 Crawl-delay: 1

@@ -24,7 +24,7 @@ export default function AnaheimDebtSettlement() {
     <>
       <Helmet>
         <title>Debt Settlement Anaheim CA | Expert Debt Relief Services | OC Debt Center</title>
-        <meta name="description" content="Professional debt settlement services for Anaheim, CA residents. AI-powered debt reduction, 50% savings, local expertise. Free consultation. Call (502) 232-8511" />
+        <meta name="description" content="Professional debt settlement services for Anaheim, CA residents. AI-powered debt reduction, 50% savings, local expertise. Free consultation. Call (844) 541-9236" />
         <meta name="keywords" content="debt settlement Anaheim CA, Anaheim debt relief, California debt settlement, Anaheim debt negotiation, Orange County debt help" />
         <meta name="robots" content="index, follow" />
         
@@ -57,7 +57,7 @@ export default function AnaheimDebtSettlement() {
               "latitude": 33.8366,
               "longitude": -117.9143
             },
-            "telephone": "(502) 232-8511",
+            "telephone": "(844) 541-9236",
             "serviceArea": "Anaheim, California",
             "url": "https://ocdebtcenter.com/debt-settlement-anaheim"
           })}

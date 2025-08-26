@@ -404,7 +404,7 @@ export default function MedicalDebtReliefHub() {
             <div className="bg-white p-6 border border-neutral-200 text-center">
               <Phone className="w-8 h-8 text-black mx-auto mb-4" />
               <h3 className="font-semibold text-black mb-3">24/7 Crisis Hotline</h3>
-              <p className="text-lg font-mono text-black mb-2">(502) 232-8511</p>
+              <p className="text-lg font-mono text-black mb-2">(844) 541-9236</p>
               <p className="text-sm text-neutral-600">
                 Immediate assistance for medical debt emergencies and collection issues
               </p>
@@ -501,10 +501,10 @@ export default function MedicalDebtReliefHub() {
               <ArrowRight className="w-4 h-4 ml-3" />
             </Button>
             <a 
-              href="tel:5022328511"
+              href="tel:8445419236"
               className="border border-black text-black px-8 py-6 hover:bg-black hover:text-white transition-colors flex items-center gap-2 font-mono text-base uppercase tracking-wide"
             >
-              Call Now: (502) 232-8511
+              Call Now: (844) 541-9236
               <Phone className="w-4 h-4" />
             </a>
           </div>

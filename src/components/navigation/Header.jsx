@@ -104,7 +104,7 @@ export default function Header() {
                     
                     {isServicesOpen && (
                       <div className="absolute top-full left-0 pt-0 w-64">
-                        <div className="bg-white border border-neutral-200 shadow-lg">
+                        <div className="bg-white border border-neutral-200 shadow-lg max-h-64 overflow-y-auto">
                           {item.submenu.map((subItem) => (
                             <Link
                               key={subItem.name}
@@ -176,7 +176,7 @@ export default function Header() {
                         <ChevronDown className={`w-4 h-4 transition-transform ${isServicesOpen ? 'rotate-180' : ''}`} />
                       </button>
                       {isServicesOpen && (
-                        <div className="mt-2 ml-4 space-y-2">
+                        <div className="mt-2 ml-4 max-h-48 overflow-y-auto space-y-2">
                           {item.submenu.map((subItem) => (
                             <Link
                               key={subItem.name}

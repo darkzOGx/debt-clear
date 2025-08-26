@@ -62,7 +62,7 @@ export default function OrangeCountyTaxDebtRelief2025() {
             including installment agreements, offers in compromise, and penalty abatement strategies.
           </p>
           <div className="flex justify-center">
-            <a href="tel:+15022328511" className="inline-flex items-center gap-2 bg-white text-black px-8 py-3 rounded hover:bg-neutral-100 transition">
+            <a href="tel:+18445419236" className="inline-flex items-center gap-2 bg-white text-black px-8 py-3 rounded hover:bg-neutral-100 transition">
               <Phone className="w-5 h-5" />
               Emergency Tax Help
             </a>

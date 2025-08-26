@@ -83,8 +83,8 @@ export default function Resources() {
               <p className="text-neutral-300 text-sm mb-4">
                 Speak with our debt settlement specialists for immediate assistance.
               </p>
-              <a href="tel:502-232-8511" className="inline-flex items-center gap-2 text-sm font-mono text-white">
-                (502) 232-8511 <ArrowRight className="w-4 h-4" />
+              <a href="tel:844-541-9236" className="inline-flex items-center gap-2 text-sm font-mono text-white">
+                (844) 541-9236 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
           </div>
@@ -94,33 +94,62 @@ export default function Resources() {
             Orange County Debt Settlement by City
           </h2>
           
-          <div className="grid md:grid-cols-4 gap-4 mb-12">
-            {[
-              { name: 'Anaheim', link: '/debt-settlement-anaheim' },
-              { name: 'Santa Ana', link: '/debt-settlement-santa-ana' },
-              { name: 'Irvine', link: '/debt-settlement-irvine' },
-              { name: 'Huntington Beach', link: '/debt-settlement-huntington-beach' },
-              { name: 'Garden Grove', link: '/debt-settlement-garden-grove' },
-              { name: 'Fullerton', link: '/debt-settlement-fullerton' },
-              { name: 'Orange', link: '/debt-settlement-orange' },
-              { name: 'Costa Mesa', link: '/debt-settlement-costa-mesa' },
-              { name: 'Mission Viejo', link: '/debt-settlement-mission-viejo' },
-              { name: 'Westminster', link: '/debt-settlement-westminster' },
-              { name: 'Newport Beach', link: '/debt-settlement-newport-beach' },
-              { name: 'Laguna Beach', link: '/debt-settlement-laguna-beach' },
-              { name: 'Fountain Valley', link: '/debt-settlement-fountain-valley' },
-              { name: 'Yorba Linda', link: '/debt-settlement-yorba-linda' },
-              { name: 'Dana Point', link: '/debt-settlement-dana-point' },
-              { name: 'Laguna Niguel', link: '/debt-settlement-laguna-niguel' }
-            ].map((city) => (
-              <Link
-                key={city.name}
-                to={city.link}
-                className="bg-white p-4 border border-neutral-200 hover:border-black transition-colors text-center"
-              >
-                <span className="text-sm font-mono text-black">{city.name}</span>
-              </Link>
-            ))}
+          <div className="bg-white border border-neutral-200 mb-12">
+            {/* Fixed header showing first 5 cities */}
+            <div className="grid grid-cols-5 gap-4 p-4 border-b border-neutral-200">
+              {[
+                { name: 'Anaheim', link: '/debt-settlement-anaheim' },
+                { name: 'Santa Ana', link: '/debt-settlement-santa-ana' },
+                { name: 'Irvine', link: '/debt-settlement-irvine' },
+                { name: 'Huntington Beach', link: '/debt-settlement-huntington-beach' },
+                { name: 'Garden Grove', link: '/debt-settlement-garden-grove' }
+              ].map((city) => (
+                <Link
+                  key={city.name}
+                  to={city.link}
+                  className="p-3 border border-neutral-200 hover:border-black transition-colors text-center"
+                >
+                  <span className="text-sm font-mono text-black">{city.name}</span>
+                </Link>
+              ))}
+            </div>
+            
+            {/* Scrollable container for remaining cities */}
+            <div className="max-h-48 overflow-y-auto">
+              <div className="grid grid-cols-4 gap-4 p-4">
+                {[
+                  { name: 'Fullerton', link: '/debt-settlement-fullerton' },
+                  { name: 'Orange', link: '/debt-settlement-orange' },
+                  { name: 'Costa Mesa', link: '/debt-settlement-costa-mesa' },
+                  { name: 'Mission Viejo', link: '/debt-settlement-mission-viejo' },
+                  { name: 'Westminster', link: '/debt-settlement-westminster' },
+                  { name: 'Newport Beach', link: '/debt-settlement-newport-beach' },
+                  { name: 'Laguna Beach', link: '/debt-settlement-laguna-beach' },
+                  { name: 'Fountain Valley', link: '/debt-settlement-fountain-valley' },
+                  { name: 'Yorba Linda', link: '/debt-settlement-yorba-linda' },
+                  { name: 'Dana Point', link: '/debt-settlement-dana-point' },
+                  { name: 'Laguna Niguel', link: '/debt-settlement-laguna-niguel' },
+                  { name: 'Brea', link: '/debt-settlement-brea' },
+                  { name: 'Cypress', link: '/debt-settlement-cypress' },
+                  { name: 'La Habra', link: '/debt-settlement-la-habra' },
+                  { name: 'Laguna Woods', link: '/debt-settlement-laguna-woods' },
+                  { name: 'Seal Beach', link: '/debt-settlement-seal-beach' }
+                ].map((city) => (
+                  <Link
+                    key={city.name}
+                    to={city.link}
+                    className="bg-neutral-50 p-3 border border-neutral-200 hover:border-black transition-colors text-center"
+                  >
+                    <span className="text-sm font-mono text-black">{city.name}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+            
+            {/* Scroll indicator */}
+            <div className="text-center py-2 text-xs text-neutral-500 bg-neutral-50">
+              Scroll up/down to view more cities
+            </div>
           </div>
 
           {/* External Resources */}
@@ -215,7 +244,7 @@ export default function Resources() {
               Irvine, CA 92618
             </p>
             <div className="flex justify-center gap-6">
-              <a href="tel:502-232-8511" className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 hover:bg-neutral-100 transition-colors">
+              <a href="tel:844-541-9236" className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 hover:bg-neutral-100 transition-colors">
                 <Phone className="w-4 h-4" />
                 <span className="font-mono text-sm uppercase tracking-wide">Call Now</span>
               </a>

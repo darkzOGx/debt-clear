@@ -196,7 +196,7 @@ const FeaturedSnippets = () => {
       <div className="hidden">
         {/* Google prefers content near the top of the page */}
         <div className="featured-snippet-target">
-          <h1>Debt Settlement Guide</h1>
+          <h2>Debt Settlement Guide</h2>
           <div className="quick-answer">
             Debt settlement reduces your total debt by 40-60% through negotiation with creditors.
           </div>

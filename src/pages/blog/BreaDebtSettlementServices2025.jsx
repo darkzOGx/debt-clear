@@ -24,7 +24,7 @@ export default function BreaDebtSettlementServices2025() {
     <>
       <Helmet>
         <title>Brea Debt Settlement Services 2025 | Local CA Experts</title>
-        <meta name="description" content="Professional debt settlement services for Brea, CA residents. Local expertise, AI-powered negotiation, 50% debt reduction. Free consultation. Call (502) 232-8511" />
+        <meta name="description" content="Professional debt settlement services for Brea, CA residents. Local expertise, AI-powered negotiation, 50% debt reduction. Free consultation. Call (844) 541-9236" />
         <meta name="keywords" content="Brea debt settlement, Brea debt relief, California debt settlement, Orange County debt help, Brea debt negotiation" />
         <meta name="robots" content="index, follow" />
         
@@ -57,7 +57,7 @@ export default function BreaDebtSettlementServices2025() {
               "latitude": 33.9166,
               "longitude": -117.9000
             },
-            "telephone": "(502) 232-8511",
+            "telephone": "(844) 541-9236",
             "serviceArea": "Brea, California",
             "url": "https://ocdebtcenter.com/blog/brea-debt-settlement-services-2025"
           })}

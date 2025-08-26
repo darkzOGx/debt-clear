@@ -24,7 +24,7 @@ export default function LaHabraDebtReliefSolutions2025() {
     <>
       <Helmet>
         <title>La Habra Debt Relief Solutions 2025 | CA Experts</title>
-        <meta name="description" content="Comprehensive debt relief solutions for La Habra, CA residents. Credit card debt, medical debt, and unsecured debt relief. Free consultation. Call (502) 232-8511" />
+        <meta name="description" content="Comprehensive debt relief solutions for La Habra, CA residents. Credit card debt, medical debt, and unsecured debt relief. Free consultation. Call (844) 541-9236" />
         <meta name="keywords" content="La Habra debt relief, La Habra debt settlement, California debt solutions, Orange County debt help, La Habra debt negotiation" />
         <meta name="robots" content="index, follow" />
         
@@ -57,7 +57,7 @@ export default function LaHabraDebtReliefSolutions2025() {
               "latitude": 33.9319,
               "longitude": -117.9461
             },
-            "telephone": "(502) 232-8511",
+            "telephone": "(844) 541-9236",
             "serviceArea": "La Habra, California",
             "url": "https://ocdebtcenter.com/blog/la-habra-debt-relief-solutions-2025"
           })}

@@ -24,7 +24,7 @@ export default function CypressDebtSettlementExperts2025() {
     <>
       <Helmet>
         <title>Cypress Debt Settlement Experts 2025 | CA Specialists</title>
-        <meta name="description" content="Expert debt settlement specialists serving Cypress, CA. Professional negotiators, AI-powered strategies, 60% debt reduction. Free consultation. Call (502) 232-8511" />
+        <meta name="description" content="Expert debt settlement specialists serving Cypress, CA. Professional negotiators, AI-powered strategies, 60% debt reduction. Free consultation. Call (844) 541-9236" />
         <meta name="keywords" content="Cypress debt settlement, Cypress debt experts, California debt specialists, Orange County debt settlement, Cypress debt negotiation" />
         <meta name="robots" content="index, follow" />
         
@@ -57,7 +57,7 @@ export default function CypressDebtSettlementExperts2025() {
               "latitude": 33.8169,
               "longitude": -118.0372
             },
-            "telephone": "(502) 232-8511",
+            "telephone": "(844) 541-9236",
             "serviceArea": "Cypress, California",
             "url": "https://ocdebtcenter.com/blog/cypress-debt-settlement-experts-2025"
           })}

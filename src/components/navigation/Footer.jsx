@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
     <footer className="bg-black text-white py-12">
-      <div className="max-w-6xl mx-auto px-6 text-center">
+      <div className="max-w-6xl mx-auto px-6 text-left">
         <div className="grid lg:grid-cols-12 gap-8">
           <div className="lg:col-span-6">
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
@@ -170,23 +170,54 @@ export default function Footer() {
               <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4">
                 Contact Information
               </div>
-              <div className="space-y-2 text-sm text-neutral-400">
-                <div className="font-semibold text-white">Call: (502) 232-8511</div>
-                <div>400 Spectrum Center Drive</div>
-                <div>Suite 1000</div>
-                <div>Irvine, CA 92618</div>
+              <div className="space-y-2 text-sm text-neutral-400" itemScope itemType="http://schema.org/Organization">
+                <div className="font-semibold text-white">
+                  <span itemProp="name">Orange County Debt Center</span>
+                </div>
+                <div className="font-semibold text-white">
+                  Call: <span itemProp="telephone">(844) 541-9236</span>
+                </div>
+                <div itemProp="address" itemScope itemType="http://schema.org/PostalAddress">
+                  <div itemProp="streetAddress">400 Spectrum Center Drive</div>
+                  <div itemProp="streetAddress">Suite 1000</div>
+                  <div>
+                    <span itemProp="addressLocality">Irvine</span>, 
+                    <span itemProp="addressRegion"> CA</span> 
+                    <span itemProp="postalCode">92618</span>
+                  </div>
+                  <meta itemProp="addressCountry" content="US" />
+                </div>
+                <div className="text-xs text-neutral-500 mt-4">
+                  <span itemProp="email">info@orangecountydebtrelief.com</span>
+                </div>
+                <div className="text-xs text-neutral-500">
+                  <span itemProp="areaServed">Orange County, California</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
         
         <div className="mt-12 pt-8 border-t border-neutral-800">
-          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-center gap-4">
+          <div className="flex flex-col lg:flex-row lg:items-center gap-4 mb-6">
+            <Link to="/privacy-policy" className="text-xs font-mono text-neutral-400 hover:text-white transition">
+              Privacy Policy
+            </Link>
+            <div className="text-neutral-600">|</div>
+            <Link to="/terms-of-service" className="text-xs font-mono text-neutral-400 hover:text-white transition">
+              Terms of Service
+            </Link>
+            <div className="text-neutral-600">|</div>
+            <Link to="/about-us" className="text-xs font-mono text-neutral-400 hover:text-white transition">
+              Contact Us
+            </Link>
+          </div>
+          <div className="flex flex-col lg:flex-row lg:items-center gap-4">
             <div className="text-xs font-mono text-neutral-500">
-              © 2025 Debt Settlement Research Laboratory. All methodologies proprietary.
+              © 2025 Orange County Debt Center. All rights reserved.
             </div>
             <div className="text-xs font-mono text-neutral-500">
-              CONFIDENTIAL • EVIDENCE-BASED • PERFORMANCE-GUARANTEED
+              Licensed • Bonded • California DFPI Certified
             </div>
           </div>
         </div>

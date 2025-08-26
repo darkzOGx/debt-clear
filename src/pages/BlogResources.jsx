@@ -8,6 +8,15 @@ export default function BlogResources() {
   const [categoryStartIndex, setCategoryStartIndex] = useState(0);
   const articles = [
     {
+      title: "2025 Debt Industry Trends: Settlement, Relief & Consolidation Analysis",
+      excerpt: "Comprehensive analysis of debt industry evolution in 2025. AI-powered settlement innovations are changing debt relief. New consolidation strategies emerge nationwide. Complete industry analysis with case studies and expert predictions.",
+      slug: "/blog/debt-industry-trends-2025-analysis",
+      date: "Aug 25, 2025",
+      readTime: "14 min read",
+      category: "Industry Analysis",
+      featured: true
+    },
+    {
       title: "Orange County Debt Settlement: Complete 2025 Guide",
       excerpt: "Everything Orange County residents need to know about debt settlement in California, including the legal process, timeline expectations, and city-specific considerations. Comprehensive guide with AI overview content and 80+ longtail keywords integrated.",
       slug: "/blog/orange-county-debt-settlement-guide-2025",

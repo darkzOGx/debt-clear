@@ -31,14 +31,34 @@ export default defineConfig({
         entryFileNames: `assets/[name]-[hash].js`,
         chunkFileNames: `assets/[name]-[hash].js`,
         assetFileNames: `assets/[name]-[hash].[ext]`,
-        manualChunks: {
-          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
-          'ui-vendor': ['framer-motion', 'lucide-react'],
+        manualChunks: (id) => {
+          if (id.includes('node_modules')) {
+            if (id.includes('react') || id.includes('react-dom') || id.includes('react-router')) {
+              return 'react-vendor';
+            }
+            if (id.includes('framer-motion') || id.includes('lucide-react')) {
+              return 'ui-vendor';
+            }
+            if (id.includes('react-helmet-async')) {
+              return 'helmet';
+            }
+            return 'vendor';
+          }
+          if (id.includes('/pages/blog/')) {
+            return 'blog-pages';
+          }
+          if (id.includes('/pages/') && !id.includes('Home.jsx') && !id.includes('index.jsx')) {
+            return 'other-pages';
+          }
+          if (id.includes('/components/')) {
+            return 'components';
+          }
         },
       },
     },
     chunkSizeWarningLimit: 1000,
     cssCodeSplit: true,
-    assetsInlineLimit: 4096,
+    assetsInlineLimit: 8192, // Increased to inline more small assets
+    cssMinify: true,
   }
 }) 
