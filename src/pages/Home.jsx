@@ -18,7 +18,7 @@ export default function Home() {
   const consultationRef = useRef(null);
   
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://debt-clear-lgxmkbe2b-hbaselabdelfa-7414s-projects.vercel.app/');
+  useCanonicalLink('https://orangecountydebtcenter.com/');
 
   const scrollToCalculator = () => {
     calculatorRef.current?.scrollIntoView({ 
@@ -45,22 +45,22 @@ export default function Home() {
         <meta property="og:title" content="Orange County Debt Settlement - AI Relief" />
         <meta property="og:description" content="Orange County debt settlement & relief. Credit card debt reduction, medical debt forgiveness, unsecured debt negotiation, bankruptcy alternatives." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://debt-clear-lgxmkbe2b-hbaselabdelfa-7414s-projects.vercel.app/" />
-        <meta property="og:image" content="https://debt-clear-lgxmkbe2b-hbaselabdelfa-7414s-projects.vercel.app/og-debt-settlement.jpg" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/" />
+        <meta property="og:image" content="https://orangecountydebtcenter.com/og-debt-settlement.jpg" />
         <meta property="og:site_name" content="OC Debt Center Debt Settlement" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Orange County Debt Settlement - AI Relief" />
         <meta name="twitter:description" content="Orange County debt settlement & relief. Credit card debt reduction, medical debt forgiveness, unsecured debt negotiation." />
-        <meta name="twitter:image" content="https://debt-clear-lgxmkbe2b-hbaselabdelfa-7414s-projects.vercel.app/og-debt-settlement.jpg" />
+        <meta name="twitter:image" content="https://orangecountydebtcenter.com/og-debt-settlement.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "OC Debt Center Debt Settlement",
-            "url": "https://debt-clear-lgxmkbe2b-hbaselabdelfa-7414s-projects.vercel.app",
-            "logo": "https://debt-clear-lgxmkbe2b-hbaselabdelfa-7414s-projects.vercel.app/logo.png",
+            "url": "https://orangecountydebtcenter.com",
+            "logo": "https://orangecountydebtcenter.com/logo.png",
             "description": "Licensed debt settlement company serving Orange County, California. We reduce debt by 52% on average. Our AI-powered strategies help families become debt-free in 12-24 months.",
             "address": {
               "@type": "PostalAddress",

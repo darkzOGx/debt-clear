@@ -164,5 +164,5 @@ Disallow: /api/internal/
 Crawl-delay: 1
 
 # Sitemaps
-Sitemap: https://debt-clear-lgxmkbe2b-hbaselabdelfa-7414s-projects.vercel.app/sitemap.xml
-Sitemap: https://debt-clear-lgxmkbe2b-hbaselabdelfa-7414s-projects.vercel.app/blog-sitemap.xml
+Sitemap: https://orangecountydebtcenter.com/sitemap.xml
+Sitemap: https://orangecountydebtcenter.com/blog-sitemap.xml

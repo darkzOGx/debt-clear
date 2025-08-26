@@ -116,7 +116,7 @@ const EnhancedFAQSchema = ({ pageType = 'general', city = '', showVisibleFAQ = f
     "publisher": {
       "@type": "Organization",
       "name": "Orange County Debt Center",
-      "url": "https://www.orangecountydebtcenter.com"
+      "url": "https://orangecountydebtcenter.com"
     },
     "datePublished": "2025-01-15",
     "dateModified": "2025-01-15"
