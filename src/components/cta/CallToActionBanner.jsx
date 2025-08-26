@@ -199,7 +199,7 @@ const CallToActionBanner = ({
                     flex items-center justify-center gap-2
                   `}
                 >
-                  <ctaOptions[0].icon className="w-5 h-5" />
+                  {React.createElement(ctaOptions[0].icon, { className: "w-5 h-5" })}
                   <div className="text-left">
                     <div className="text-sm font-bold">{ctaOptions[0].text}</div>
                     <div className="text-xs opacity-80">{ctaOptions[0].subtext}</div>
@@ -216,7 +216,7 @@ const CallToActionBanner = ({
                     flex items-center justify-center gap-2 text-sm
                   `}
                 >
-                  <ctaOptions[1].icon className="w-4 h-4" />
+                  {React.createElement(ctaOptions[1].icon, { className: "w-4 h-4" })}
                   {ctaOptions[1].text}
                   <ArrowRight className="w-4 h-4" />
                 </button>
@@ -231,7 +231,7 @@ const CallToActionBanner = ({
                   flex items-center justify-center gap-2 text-lg
                 `}
               >
-                <ctaOptions[0].icon className="w-6 h-6" />
+                {React.createElement(ctaOptions[0].icon, { className: "w-6 h-6" })}
                 {ctaOptions[0].text}
               </button>
             )}
