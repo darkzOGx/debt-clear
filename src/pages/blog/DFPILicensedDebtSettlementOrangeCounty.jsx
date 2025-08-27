@@ -8,7 +8,7 @@ import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function DFPILicensedDebtSettlementOrangeCounty() {
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://debtclear.com/blog/dfpi-licensed-debt-settlement-orange-county');
+  useCanonicalLink('https://www.orangecountydebtcenter.com/blog/dfpi-licensed-debt-settlement-orange-county');
 
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');
@@ -292,18 +292,24 @@ export default function DFPILicensedDebtSettlementOrangeCounty() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-blue-700">
+      <section className="py-16 bg-gradient-to-b from-black to-neutral-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-6">
+          <div className="flex items-center justify-center gap-3 mb-6">
+            <div className="w-2 h-2 bg-white"></div>
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
+              DEBT SETTLEMENT INSIGHTS
+            </span>
+          </div>
+          <h2 className="text-3xl font-light text-white mb-6">
             Ready to Start Your Debt-Free Journey?
           </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-neutral-300 mb-8 max-w-3xl mx-auto leading-relaxed">
             Get expert debt settlement guidance tailored to your specific situation. 
             Our DFPI-licensed specialists have helped over 2,500 Orange County families achieve financial freedom.
           </p>
           <button 
             onClick={scrollToConsultation}
-            className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transition-colors inline-flex items-center gap-2"
+            className="bg-white text-black px-8 py-4 font-semibold text-lg hover:bg-neutral-200 transition-colors inline-flex items-center gap-2"
           >
             Get Free Consultation
             <ArrowRight className="w-5 h-5" />
@@ -385,26 +391,32 @@ export default function DFPILicensedDebtSettlementOrangeCounty() {
         </div>
       </section>
 
-      {/* Schedule Debt Analysis Session Form - Moved to Bottom */}
-      <section id="consultation" className="py-20 bg-gradient-to-br from-black to-neutral-900">
+      {/* Schedule Debt Analysis Session Header */}
+      <section className="py-20 bg-gradient-to-b from-black to-neutral-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-center">
             <div className="flex items-center justify-center gap-3 mb-6">
               <div className="w-2 h-2 bg-white"></div>
               <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
                 RESEARCH CONSULTATION
               </span>
             </div>
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-light text-white mb-4">
               Schedule Debt
               <br />
               <span className="text-neutral-400">Analysis Session</span>
             </h2>
-            <p className="text-xl text-neutral-300">
+            <p className="text-xl text-neutral-300 leading-relaxed">
               Confidential consultation with certified debt specialist. Comprehensive analysis of your 
               debt profile with evidence-based reduction proposals.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Schedule Debt Analysis Form */}
+      <section id="consultation" className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <ConsultationForm />
         </div>
       </section>

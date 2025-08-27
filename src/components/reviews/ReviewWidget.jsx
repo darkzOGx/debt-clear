@@ -170,61 +170,70 @@ const ReviewWidget = ({ showHeader = true, compact = false, maxReviews = 6 }) =>
   }
 
   return (
-    <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+    <div className="bg-white border border-neutral-300 overflow-hidden">
       {showHeader && (
-        <div className="bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <Award className="w-6 h-6 text-yellow-300" />
-              <div className="text-white">
-                <h3 className="text-lg font-bold">Client Reviews & Success Stories</h3>
-                <p className="text-blue-100 text-sm">Real results from Orange County residents</p>
-              </div>
+        <div className="px-6 py-8 border-b border-neutral-300 bg-white">
+          <div className="text-center mb-8">
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <div className="w-2 h-2 bg-black"></div>
+              <span className="text-xs uppercase tracking-[0.2em] text-neutral-600 font-mono">
+                DEBT SETTLEMENT INSIGHTS
+              </span>
             </div>
             
-            <div className="text-right text-white">
-              <div className="flex items-center gap-2 mb-1">
-                <div className="flex items-center">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-yellow-300 text-yellow-300" />
-                  ))}
-                </div>
-                <span className="text-lg font-bold">{averageRating}/5</span>
+            <h3 className="text-3xl font-light text-black mb-4 leading-tight">
+              Client Reviews &
+              <br />
+              <span className="font-mono">Success Stories</span>
+            </h3>
+            
+            <p className="text-xl text-neutral-700 leading-relaxed max-w-3xl mx-auto">
+              Real results from Orange County residents
+            </p>
+          </div>
+
+          <div className="text-center text-black">
+            <div className="flex items-center justify-center gap-2 mb-2">
+              <div className="flex items-center">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 fill-black text-black" />
+                ))}
               </div>
-              <div className="text-blue-100 text-sm">{totalReviews.toLocaleString()}+ verified reviews</div>
+              <span className="text-xl font-light ml-2">{averageRating}/5</span>
             </div>
+            <div className="text-neutral-600 font-mono text-sm">{totalReviews.toLocaleString()}+ verified reviews</div>
           </div>
         </div>
       )}
 
       {/* Statistics Bar */}
-      <div className="bg-gray-50 px-6 py-3 border-b border-gray-200">
+      <div className="px-6 py-6 border-b border-neutral-300 bg-gradient-to-b from-black to-neutral-900">
         <div className="grid grid-cols-4 gap-4 text-center">
           <div>
-            <div className="text-2xl font-bold text-green-600">52%</div>
-            <div className="text-xs text-gray-600">Average Debt Reduction</div>
+            <div className="text-2xl font-mono text-white">52%</div>
+            <div className="text-xs text-neutral-300 font-mono uppercase tracking-wide">Average Debt Reduction</div>
           </div>
           <div>
-            <div className="text-2xl font-bold text-blue-600">89%</div>
-            <div className="text-xs text-gray-600">Program Completion</div>
+            <div className="text-2xl font-mono text-white">89%</div>
+            <div className="text-xs text-neutral-300 font-mono uppercase tracking-wide">Program Completion</div>
           </div>
           <div>
-            <div className="text-2xl font-bold text-purple-600">24</div>
-            <div className="text-xs text-gray-600">Months Average</div>
+            <div className="text-2xl font-mono text-white">24</div>
+            <div className="text-xs text-neutral-300 font-mono uppercase tracking-wide">Months Average</div>
           </div>
           <div>
-            <div className="text-2xl font-bold text-orange-600">$25M+</div>
-            <div className="text-xs text-gray-600">Total Debt Eliminated</div>
+            <div className="text-2xl font-mono text-white">$25M+</div>
+            <div className="text-xs text-neutral-300 font-mono uppercase tracking-wide">Total Debt Eliminated</div>
           </div>
         </div>
       </div>
 
       {/* Main Review Display */}
-      <div className="p-6">
+      <div className="p-6 bg-white">
         <div className="relative min-h-[300px]">
           <div className="absolute inset-0 transition-opacity duration-500">
             <div className="flex items-start gap-4">
-              <Quote className="w-8 h-8 text-blue-600 flex-shrink-0 mt-1" />
+              <Quote className="w-8 h-8 text-black flex-shrink-0 mt-1" />
               
               <div className="flex-1">
                 {/* Review Header */}
@@ -233,30 +242,30 @@ const ReviewWidget = ({ showHeader = true, compact = false, maxReviews = 6 }) =>
                     <div className="flex items-center gap-2 mb-2">
                       <div className="flex items-center">
                         {[...Array(5)].map((_, i) => (
-                          <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                          <Star key={i} className="w-4 h-4 fill-black text-black" />
                         ))}
                       </div>
-                      <span className="text-sm text-gray-600">
+                      <span className="text-sm text-neutral-600 font-mono">
                         {reviews[currentReviewIndex].date}
                       </span>
                       {reviews[currentReviewIndex].verified && (
-                        <div className="flex items-center gap-1 bg-green-100 px-2 py-1 rounded-full">
-                          <Shield className="w-3 h-3 text-green-600" />
-                          <span className="text-xs text-green-700 font-medium">Verified</span>
+                        <div className="flex items-center gap-1 bg-neutral-200 border border-neutral-300 px-2 py-1">
+                          <Shield className="w-3 h-3 text-black" />
+                          <span className="text-xs text-black font-mono">Verified</span>
                         </div>
                       )}
                     </div>
                     
-                    <h4 className="text-lg font-bold text-gray-900 mb-1">
+                    <h4 className="text-lg font-light text-black mb-1">
                       {reviews[currentReviewIndex].title}
                     </h4>
                     
-                    <div className="flex items-center gap-2 text-sm text-gray-600 mb-3">
+                    <div className="flex items-center gap-2 text-sm text-neutral-600 mb-3">
                       <span className="font-medium">{reviews[currentReviewIndex].name}</span>
                       <span>•</span>
                       <span>{reviews[currentReviewIndex].location}</span>
                       <span>•</span>
-                      <span className="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs">
+                      <span className="border border-neutral-300 text-neutral-700 px-2 py-1 text-xs font-mono">
                         {reviews[currentReviewIndex].serviceType}
                       </span>
                     </div>
@@ -264,35 +273,35 @@ const ReviewWidget = ({ showHeader = true, compact = false, maxReviews = 6 }) =>
                 </div>
 
                 {/* Review Content */}
-                <blockquote className="text-gray-700 leading-relaxed mb-4 italic">
+                <blockquote className="text-neutral-700 leading-relaxed mb-6 font-light">
                   "{reviews[currentReviewIndex].text}"
                 </blockquote>
 
                 {/* Results Summary */}
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 bg-gray-50 rounded-lg p-4">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 border border-neutral-700 p-4 bg-gradient-to-b from-black to-neutral-900">
                   <div className="text-center">
-                    <div className="text-lg font-bold text-gray-900">
+                    <div className="text-lg font-mono text-white">
                       {reviews[currentReviewIndex].debtAmount}
                     </div>
-                    <div className="text-xs text-gray-600">Original Debt</div>
+                    <div className="text-xs text-neutral-300 font-mono uppercase tracking-wide">Original Debt</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-lg font-bold text-green-600">
+                    <div className="text-lg font-mono text-white">
                       {reviews[currentReviewIndex].settled}
                     </div>
-                    <div className="text-xs text-gray-600">Settled Amount</div>
+                    <div className="text-xs text-neutral-300 font-mono uppercase tracking-wide">Settled Amount</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-lg font-bold text-blue-600">
+                    <div className="text-lg font-mono text-white">
                       {reviews[currentReviewIndex].savings}
                     </div>
-                    <div className="text-xs text-gray-600">Savings</div>
+                    <div className="text-xs text-neutral-300 font-mono uppercase tracking-wide">Savings</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-lg font-bold text-purple-600">
+                    <div className="text-lg font-mono text-white">
                       {reviews[currentReviewIndex].timeline}
                     </div>
-                    <div className="text-xs text-gray-600">Timeline</div>
+                    <div className="text-xs text-neutral-300 font-mono uppercase tracking-wide">Timeline</div>
                   </div>
                 </div>
               </div>
@@ -300,17 +309,20 @@ const ReviewWidget = ({ showHeader = true, compact = false, maxReviews = 6 }) =>
           </div>
         </div>
 
-        {/* Navigation Controls */}
-        <div className="flex items-center justify-between mt-6">
+      </div>
+
+      {/* Navigation Controls - White Background */}
+      <div className="p-6 bg-white">
+        <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             {reviews.slice(0, maxReviews).map((_, index) => (
               <button
                 key={index}
                 onClick={() => goToReview(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-200 ${
+                className={`w-2 h-2 transition-all duration-200 ${
                   index === currentReviewIndex 
-                    ? 'bg-blue-600' 
-                    : 'bg-gray-300 hover:bg-gray-400'
+                    ? 'bg-black w-6' 
+                    : 'bg-neutral-400 hover:bg-neutral-500'
                 }`}
                 aria-label={`Go to review ${index + 1}`}
               />
@@ -320,41 +332,49 @@ const ReviewWidget = ({ showHeader = true, compact = false, maxReviews = 6 }) =>
           <div className="flex items-center gap-2">
             <button
               onClick={prevReview}
-              className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+              className="p-2 border border-neutral-300 hover:bg-neutral-100 transition-colors"
               aria-label="Previous review"
             >
-              <ChevronLeft className="w-5 h-5 text-gray-600" />
+              <ChevronLeft className="w-5 h-5 text-black" />
             </button>
             <button
               onClick={nextReview}
-              className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+              className="p-2 border border-neutral-300 hover:bg-neutral-100 transition-colors"
               aria-label="Next review"
             >
-              <ChevronRight className="w-5 h-5 text-gray-600" />
+              <ChevronRight className="w-5 h-5 text-black" />
             </button>
           </div>
         </div>
 
         {/* Call to Action */}
-        <div className="mt-6 pt-6 border-t border-gray-200">
+        <div className="mt-8 pt-6 border-t border-neutral-300">
           <div className="text-center">
-            <p className="text-gray-700 mb-4">
-              <strong>Join {totalReviews.toLocaleString()}+ satisfied Orange County clients</strong>
+            <p className="text-neutral-700 mb-6 font-light">
+              Join <span className="text-black font-mono">{totalReviews.toLocaleString()}+</span> satisfied Orange County clients
             </p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:8445419236"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-lg"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-b from-black to-neutral-900 text-white font-semibold hover:from-neutral-900 hover:to-black transition-all"
               >
                 <ThumbsUp className="w-4 h-4" />
                 Call (844) 541-9236 - Free Consultation
               </a>
-              <a
-                href="#consultation"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition-colors"
+              <button
+                onClick={() => {
+                  const consultationSection = document.getElementById('consultation') || 
+                                            document.getElementById('home-consultation') ||
+                                            document.querySelector('[id*="consultation"]') ||
+                                            document.querySelector('form');
+                  if (consultationSection) {
+                    consultationSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  }
+                }}
+                className="inline-flex items-center gap-2 px-8 py-4 bg-white border border-neutral-300 text-black font-semibold hover:bg-neutral-100 transition-colors"
               >
                 Get Your Free Debt Analysis
-              </a>
+              </button>
             </div>
           </div>
         </div>

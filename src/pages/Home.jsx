@@ -18,7 +18,7 @@ export default function Home() {
   const consultationRef = useRef(null);
   
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://orangecountydebtcenter.com/');
+  useCanonicalLink('https://www.orangecountydebtcenter.com/');
 
   const scrollToCalculator = () => {
     calculatorRef.current?.scrollIntoView({ 
@@ -242,11 +242,12 @@ export default function Home() {
       <TestimonialsSection />
 
       {/* Client Reviews & Success Stories */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <ReviewWidget />
         </div>
       </section>
+
 
       {/* Blog Section */}
       <BlogSection />

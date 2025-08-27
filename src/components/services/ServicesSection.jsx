@@ -383,33 +383,6 @@ export default function ServicesSection({ onScrollToConsultation }) {
           )}
         </motion.div>
 
-        {/* CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="mt-16 pt-12 border-t border-neutral-200">
-
-          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
-            <div>
-              <h3 className="text-2xl font-light text-black mb-3">Schedule Personal Advisement
-
-              </h3>
-              <div className="text-sm font-mono text-neutral-600">
-                CONFIDENTIAL • NO OBLIGATION • EVIDENCE-BASED ANALYSIS
-              </div>
-            </div>
-            
-            <Button
-              onClick={onScrollToConsultation}
-              className="bg-black hover:bg-neutral-800 text-white px-8 py-6 text-sm font-mono uppercase tracking-wide shrink-0">
-
-              Schedule Session
-              <ArrowRight className="w-4 h-4 ml-3" />
-            </Button>
-          </div>
-        </motion.div>
       </div>
     </section>);
 

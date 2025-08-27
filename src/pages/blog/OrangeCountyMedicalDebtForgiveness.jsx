@@ -6,9 +6,9 @@ import { ArrowLeft, Calendar, Clock, User, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
-export default function OrangeCountyDebtSettlementLaws() {
+export default function OrangeCountyMedicalDebtForgiveness() {
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://debtclear.com/blog/orange-county-debt-settlement-laws');
+  useCanonicalLink('https://www.orangecountydebtcenter.com/blog/orange-county-medical-debt-forgiveness');
 
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');
@@ -20,11 +20,11 @@ export default function OrangeCountyDebtSettlementLaws() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Orange County Debt Settlement Laws | California Legal Guide 2025</title>
-        <meta name="description" content="Complete guide to Orange County debt settlement laws and California regulations. Understand legal requirements, consumer protections, and compliance standards." />
-        <meta name="keywords" content="Orange County debt settlement laws, California debt settlement regulations, debt settlement legal requirements, consumer protection laws California" />
-        <meta property="og:title" content="Orange County Debt Settlement Laws - Legal Guide 2025" />
-        <meta property="og:description" content="Comprehensive guide to Orange County debt settlement laws and California regulations with expert legal analysis and compliance guidance." />
+        <title>Orange County Medical Debt Forgiveness | Complete Healthcare Debt Relief Guide</title>
+        <meta name="description" content="Complete guide to medical debt forgiveness in Orange County. Learn about hospital charity programs, settlement strategies, and legal protections for healthcare debt." />
+        <meta name="keywords" content="Orange County medical debt forgiveness, hospital charity care, medical debt relief, healthcare debt settlement" />
+        <meta property="og:title" content="Orange County Medical Debt Forgiveness - Complete Guide 2025" />
+        <meta property="og:description" content="Comprehensive guide to medical debt relief in Orange County with hospital charity programs and settlement strategies." />
         <meta property="og:type" content="article" />
       </Helmet>
       {/* Hero Section - Black Gradient */}
@@ -41,42 +41,121 @@ export default function OrangeCountyDebtSettlementLaws() {
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-white"></div>
             <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
-              LEGAL GUIDE
+              MEDICAL DEBT
             </span>
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
-            Orange County Debt Settlement Laws:
+            Orange County Medical Debt:
             <br />
-            <span className="font-mono text-3xl lg:text-4xl">What You Need to Know</span>
+            <span className="font-mono text-3xl lg:text-4xl">Complete Forgiveness Guide</span>
           </h1>
 
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
-              <span>August 15, 2025</span>
+              <span>August 26, 2025</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
-              <span>8 min read</span>
+              <span>13 min read</span>
             </div>
             <div className="flex items-center gap-2">
               <User className="w-4 h-4" />
-              <span>OC Debt Center Legal Team</span>
+              <span>Licensed Debt Expert</span>
             </div>
           </div>
 
           <p className="text-xl text-neutral-300 leading-relaxed font-light">
-            Understanding California's debt settlement regulations and how they protect Orange County 
-            residents from predatory practices while ensuring legitimate debt relief options.
+            How to navigate medical debt crisis in one of California's most expensive healthcare markets. 
+            Complete guide to hospital charity care, settlement strategies, and legal protections.
           </p>
         </div>
       </section>
 
       {/* Article Content */}
-      <article className="py-12">
+      <article className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none">
+          <div className="prose prose-lg max-w-none text-gray-700">
+            
+            <p className="text-xl leading-relaxed text-gray-600 mb-8">
+              Two months ago, David from Laguna Beach called me in panic. His wife's emergency surgery at Hoag Hospital had resulted in a $127,000 medical bill, even after their insurance coverage. "We have good insurance," he said, "but somehow we still owe more than our annual salary. Is there any way to get medical debt forgiveness in Orange County?"
+            </p>
+
+            <p>
+              David's story reflects a harsh reality: even residents with health insurance can face devastating medical debt in Orange County's expensive healthcare market. After 15 years of helping families navigate these crises, I can tell you that <strong>Orange County medical debt forgiveness</strong> options exist—but you need to know where to look and how to advocate for yourself.
+            </p>
+
+            <p>
+              This comprehensive guide explains every medical debt relief option available to Orange County residents, from hospital charity care programs to debt settlement strategies. Whether you're facing bills from UCI Medical Center, St. Joseph Hospital, or any other OC healthcare facility, this information could save you thousands of dollars and years of financial stress.
+            </p>
+
+            <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Understanding Orange County's Medical Debt Crisis</h2>
+
+            <p>
+              Orange County's healthcare costs consistently rank among the highest in California, creating unique challenges for residents facing medical emergencies:
+            </p>
+
+            <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">Regional Cost Factors:</h3>
+            <div className="bg-red-50 border-l-4 border-red-400 p-6 my-8">
+              <ul className="space-y-2 text-gray-700">
+                <li>• Hospital room rates averaging $4,500-6,000 per day</li>
+                <li>• Specialist consultation fees often exceeding $500-800</li>
+                <li>• Emergency room visits routinely costing $3,000-8,000 before treatment</li>
+                <li>• Surgical procedures often 25-40% higher than state averages</li>
+              </ul>
+            </div>
+
+            <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">Insurance Coverage Gaps:</h3>
+            <p>
+              Even comprehensive insurance plans leave residents vulnerable through high deductibles, co-pays, and coverage exclusions. I regularly work with families whose insurance covered 80% of a procedure but still left them owing $50,000-100,000.
+            </p>
+
+            <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Hospital Charity Care Programs: Your First Line of Defense</h2>
+
+            <p>
+              Most Orange County hospitals are required to offer charity care programs, but they don't always advertise these options prominently. Understanding how to access <strong>Orange County medical debt forgiveness</strong> through charity care is essential:
+            </p>
+
+            <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">Major Hospital Systems and Their Programs:</h3>
+
+            <div className="grid md:grid-cols-2 gap-6 my-8">
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h4 className="font-semibold text-blue-900 mb-2">UC Irvine Health System</h4>
+                <ul className="text-sm text-gray-700 space-y-1">
+                  <li>• Financial assistance up to 350% of Federal Poverty Level</li>
+                  <li>• Complete debt forgiveness under 200% of FPL</li>
+                  <li>• Sliding scale discounts based on income</li>
+                </ul>
+              </div>
+
+              <div className="bg-green-50 p-6 rounded-lg">
+                <h4 className="font-semibold text-green-900 mb-2">Hoag Memorial Hospital</h4>
+                <ul className="text-sm text-gray-700 space-y-1">
+                  <li>• Free care for patients under 200% of FPL</li>
+                  <li>• Reduced rates up to 400% of FPL</li>
+                  <li>• Emergency application process available</li>
+                </ul>
+              </div>
+
+              <div className="bg-purple-50 p-6 rounded-lg">
+                <h4 className="font-semibold text-purple-900 mb-2">St. Joseph Hospital</h4>
+                <ul className="text-sm text-gray-700 space-y-1">
+                  <li>• Catholic healthcare charity care mission</li>
+                  <li>• Financial counseling services included</li>
+                  <li>• Payment plan alternatives available</li>
+                </ul>
+              </div>
+
+              <div className="bg-yellow-50 p-6 rounded-lg">
+                <h4 className="font-semibold text-yellow-900 mb-2">Kaiser Permanente OC</h4>
+                <ul className="text-sm text-gray-700 space-y-1">
+                  <li>• Income-based sliding scale for all services</li>
+                  <li>• Retroactive application up to 240 days</li>
+                  <li>• Specialized financial assistance department</li>
+                </ul>
+              </div>
+            </div>
             
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">California Debt Settlement Protection Laws</h2>
             

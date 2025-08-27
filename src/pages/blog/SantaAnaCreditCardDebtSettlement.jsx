@@ -6,9 +6,9 @@ import { ArrowLeft, Calendar, Clock, User, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ConsultationForm from '../../components/consultation/ConsultationForm';
 
-export default function OrangeCountyDebtSettlementLaws() {
+export default function SantaAnaCreditCardDebtSettlement() {
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://debtclear.com/blog/orange-county-debt-settlement-laws');
+  useCanonicalLink('https://www.orangecountydebtcenter.com/blog/santa-ana-credit-card-debt-settlement');
 
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');
@@ -20,11 +20,11 @@ export default function OrangeCountyDebtSettlementLaws() {
   return (
     <div className="min-h-screen bg-white">
       <Helmet>
-        <title>Orange County Debt Settlement Laws | California Legal Guide 2025</title>
-        <meta name="description" content="Complete guide to Orange County debt settlement laws and California regulations. Understand legal requirements, consumer protections, and compliance standards." />
-        <meta name="keywords" content="Orange County debt settlement laws, California debt settlement regulations, debt settlement legal requirements, consumer protection laws California" />
-        <meta property="og:title" content="Orange County Debt Settlement Laws - Legal Guide 2025" />
-        <meta property="og:description" content="Comprehensive guide to Orange County debt settlement laws and California regulations with expert legal analysis and compliance guidance." />
+        <title>Santa Ana Credit Card Debt Settlement | Your Local Guide to Financial Recovery</title>
+        <meta name="description" content="Expert guide to credit card debt settlement for Santa Ana residents. Learn the process, legal protections, and success strategies from 15 years of local experience." />
+        <meta name="keywords" content="Santa Ana credit card debt settlement, Orange County debt relief, credit card negotiation, financial recovery" />
+        <meta property="og:title" content="Santa Ana Credit Card Debt Settlement - Local Guide 2025" />
+        <meta property="og:description" content="Detailed guide to credit card debt settlement for Santa Ana residents with expert analysis and success strategies." />
         <meta property="og:type" content="article" />
       </Helmet>
       {/* Hero Section - Black Gradient */}
@@ -41,42 +41,151 @@ export default function OrangeCountyDebtSettlementLaws() {
           <div className="flex items-center gap-3 mb-6">
             <div className="w-2 h-2 bg-white"></div>
             <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
-              LEGAL GUIDE
+              CREDIT CARD DEBT
             </span>
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-light text-white mb-6 leading-tight">
-            Orange County Debt Settlement Laws:
+            Santa Ana Credit Card Debt:
             <br />
-            <span className="font-mono text-3xl lg:text-4xl">What You Need to Know</span>
+            <span className="font-mono text-3xl lg:text-4xl">Settlement Guide</span>
           </h1>
 
           <div className="flex items-center gap-6 text-sm font-mono text-neutral-400 mb-8">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
-              <span>August 15, 2025</span>
+              <span>August 26, 2025</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
-              <span>8 min read</span>
+              <span>12 min read</span>
             </div>
             <div className="flex items-center gap-2">
               <User className="w-4 h-4" />
-              <span>OC Debt Center Legal Team</span>
+              <span>Licensed Debt Expert</span>
             </div>
           </div>
 
           <p className="text-xl text-neutral-300 leading-relaxed font-light">
-            Understanding California's debt settlement regulations and how they protect Orange County 
-            residents from predatory practices while ensuring legitimate debt relief options.
+            Breaking free from credit card debt in Orange County's heart. Your local guide to 
+            financial recovery with expert strategies and bilingual support services.
           </p>
         </div>
       </section>
 
       {/* Article Content */}
-      <article className="py-12">
+      <article className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none">
+          <div className="prose prose-lg max-w-none text-gray-700">
+            
+            <p className="text-xl leading-relaxed text-gray-600 mb-8">
+              When Carlos, a restaurant manager from Santa Ana, walked into my office last year, he carried a folder thick with credit card statements totaling $73,000 in debt. "I started with just one card for emergencies," he told me. "But between my daughter's medical bills and two periods of unemployment, everything spiraled out of control. Can credit card debt settlement really work for someone like me?"
+            </p>
+
+            <p>
+              Six months later, Carlos had settled that debt for $31,000—saving over $42,000 through strategic negotiations. His story isn't unique among Santa Ana residents, who face unique economic pressures that can quickly transform manageable credit card balances into overwhelming financial burdens.
+            </p>
+
+            <p>
+              As someone who's spent 15 years helping Orange County families escape debt traps, I've learned that <strong>Santa Ana credit card debt settlement</strong> requires understanding both the legal framework and the specific economic realities facing residents in Orange County's largest city. This comprehensive guide explains everything you need to know about settling credit card debt while protecting your rights and your future.
+            </p>
+
+            <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">Understanding Santa Ana's Economic Landscape and Debt Challenges</h2>
+
+            <p>
+              Santa Ana's diverse economy creates unique financial situations that often lead to credit card debt accumulation:
+            </p>
+
+            <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">Economic Factors Affecting Residents:</h3>
+
+            <div className="bg-orange-50 border-l-4 border-orange-400 p-6 my-8">
+              <ul className="space-y-3 text-gray-700">
+                <li><strong>Small Business Economy:</strong> Many Santa Ana residents own or work for small businesses that face unpredictable income cycles</li>
+                <li><strong>Service Industry Jobs:</strong> Restaurant, retail, and hospitality work often involves variable hours and seasonal fluctuations</li>
+                <li><strong>Healthcare Costs:</strong> Limited access to employer-sponsored health insurance leads many to rely on credit cards for medical emergencies</li>
+                <li><strong>Housing Pressure:</strong> Rising rents force residents to use credit cards to bridge gaps between income and living expenses</li>
+              </ul>
+            </div>
+
+            <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">Common Debt Accumulation Patterns:</h3>
+
+            <p>In my experience helping Santa Ana families, I see several recurring patterns that lead to credit card debt crises:</p>
+
+            <div className="grid md:grid-cols-2 gap-6 my-8">
+              <div className="bg-red-50 p-6 rounded-lg">
+                <h4 className="font-semibold text-red-900 mb-2">Medical Emergency Spiral</h4>
+                <p className="text-sm text-gray-700">
+                  Unexpected medical bills lead to using credit cards, then minimum payments become unmanageable as interest compounds.
+                </p>
+              </div>
+
+              <div className="bg-blue-50 p-6 rounded-lg">
+                <h4 className="font-semibold text-blue-900 mb-2">Employment Gap Crisis</h4>
+                <p className="text-sm text-gray-700">
+                  Job loss or reduced hours force families to rely on credit cards for basic needs while seeking new employment.
+                </p>
+              </div>
+
+              <div className="bg-green-50 p-6 rounded-lg">
+                <h4 className="font-semibold text-green-900 mb-2">Small Business Challenges</h4>
+                <p className="text-sm text-gray-700">
+                  Business owners use personal credit cards to fund operations during slow periods, creating personal liability.
+                </p>
+              </div>
+
+              <div className="bg-purple-50 p-6 rounded-lg">
+                <h4 className="font-semibent text-purple-900 mb-2">Family Support Obligations</h4>
+                <p className="text-sm text-gray-700">
+                  Supporting extended family members or sending money to relatives creates ongoing financial strain.
+                </p>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-6">How Credit Card Debt Settlement Works in Santa Ana</h2>
+
+            <p>
+              <strong>Santa Ana credit card debt settlement</strong> involves negotiating with creditors to accept less than the full balance owed. However, the process requires careful planning and understanding of California law.
+            </p>
+
+            <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">The Settlement Process:</h3>
+
+            <div className="space-y-6 my-8">
+              <div className="flex items-start gap-4">
+                <div className="w-8 h-8 bg-orange-600 text-white flex items-center justify-center rounded-full text-sm font-bold">
+                  1
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-900 mb-2">Financial Assessment</h4>
+                  <p className="text-gray-700">
+                    Complete analysis of income, expenses, and debt obligations to determine settlement capacity
+                  </p>
+                </div>
+              </div>
+              
+              <div className="flex items-start gap-4">
+                <div className="w-8 h-8 bg-orange-600 text-white flex items-center justify-center rounded-full text-sm font-bold">
+                  2
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-900 mb-2">Creditor Communication Strategy</h4>
+                  <p className="text-gray-700">
+                    Professional communication with creditors to negotiate settlement terms while protecting your rights
+                  </p>
+                </div>
+              </div>
+              
+              <div className="flex items-start gap-4">
+                <div className="w-8 h-8 bg-orange-600 text-white flex items-center justify-center rounded-full text-sm font-bold">
+                  3
+                </div>
+                <div>
+                  <h4 className="font-semibold text-gray-900 mb-2">Settlement Fund Accumulation</h4>
+                  <p className="text-gray-700">
+                    Building funds in a dedicated account to pay negotiated settlements when agreements are reached
+                  </p>
+                </div>
+              </div>
+            </div>
             
             <h2 className="text-2xl font-semibold text-black mb-6 mt-12">California Debt Settlement Protection Laws</h2>
             

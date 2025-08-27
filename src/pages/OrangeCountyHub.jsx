@@ -151,15 +151,15 @@ export default function OrangeCountyHub() {
       {/* Navigation Tabs */}
       <section className="bg-neutral-50 border-b border-neutral-200 sticky top-0 z-10">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <div className="flex gap-8 overflow-x-auto py-4">
+          <div className="flex justify-center gap-8 overflow-x-auto py-4">
             {['overview', 'cities', 'statistics', 'industries', 'resources'].map((tab) => (
               <button
                 key={tab}
                 onClick={() => setSelectedTab(tab)}
                 className={`pb-4 px-2 border-b-2 transition-colors whitespace-nowrap ${
                   selectedTab === tab
-                    ? 'border-black text-black'
-                    : 'border-transparent text-neutral-600 hover:text-black'
+                    ? 'border-green-600 text-green-600'
+                    : 'border-transparent text-neutral-600 hover:text-green-600'
                 }`}
               >
                 <span className="font-mono text-sm uppercase tracking-wide">

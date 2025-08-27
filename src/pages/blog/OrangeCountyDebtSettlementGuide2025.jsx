@@ -8,7 +8,7 @@ import ConsultationForm from '../../components/consultation/ConsultationForm';
 import InternalLinkingHub from '../../components/seo/InternalLinkingHub';
 
 export default function OrangeCountyDebtSettlementGuide2025() {
-  useCanonicalLink('https://debtclear.com/blog/orange-county-debt-settlement-guide-2025');
+  useCanonicalLink('https://www.orangecountydebtcenter.com/blog/orange-county-debt-settlement-guide-2025');
 
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');

@@ -101,9 +101,9 @@ const CallToActionBanner = ({
         };
       default: // primary
         return {
-          container: 'bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-xl',
-          primaryBtn: 'bg-white text-blue-600 hover:bg-gray-100',
-          secondaryBtn: 'border-white text-white hover:bg-white hover:text-blue-600'
+          container: 'bg-gradient-to-b from-black to-neutral-900 text-white shadow-xl',
+          primaryBtn: 'bg-white text-black hover:bg-neutral-200',
+          secondaryBtn: 'border-white text-white hover:bg-white hover:text-black'
         };
     }
   };
@@ -139,21 +139,21 @@ const CallToActionBanner = ({
           {/* Main Message */}
           <div className="lg:col-span-6">
             <div className="flex items-start gap-4">
-              <div className="bg-white bg-opacity-20 rounded-full p-3 flex-shrink-0">
+              <div className="bg-white bg-opacity-10 p-3 flex-shrink-0">
                 <Shield className="w-6 h-6" />
               </div>
               
               <div>
-                <h3 className="text-xl font-bold mb-2">
+                <h3 className="text-xl font-light mb-2">
                   Stop Struggling with Debt - Get Professional Help Now
                 </h3>
-                <p className="text-sm opacity-90 mb-4">
+                <p className="text-sm text-neutral-300 font-light mb-4">
                   Licensed Orange County debt specialists ready to reduce your debt by 40-60%. 
                   Free consultation with no upfront fees. DFPI licensed & IAPDA certified.
                 </p>
                 
                 {/* Credibility indicators */}
-                <div className="flex items-center gap-4 text-xs">
+                <div className="flex items-center gap-4 text-xs font-mono text-neutral-400">
                   <div className="flex items-center gap-1">
                     <Award className="w-4 h-4" />
                     <span>DFPI Licensed</span>
@@ -176,9 +176,9 @@ const CallToActionBanner = ({
             <div className="lg:col-span-3">
               <div className="grid grid-cols-2 gap-3">
                 {stats.map((stat, index) => (
-                  <div key={index} className="text-center bg-white bg-opacity-20 rounded-lg p-3">
-                    <div className="text-lg font-bold">{stat.value}</div>
-                    <div className="text-xs opacity-90">{stat.label}</div>
+                  <div key={index} className="text-center bg-white bg-opacity-10 border border-neutral-700 p-3">
+                    <div className="text-lg font-mono font-bold">{stat.value}</div>
+                    <div className="text-xs font-mono uppercase tracking-wide opacity-90">{stat.label}</div>
                   </div>
                 ))}
               </div>
