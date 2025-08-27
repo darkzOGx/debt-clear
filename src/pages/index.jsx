@@ -114,10 +114,10 @@ import DebtIndustryTrends2025Analysis from "./blog/DebtIndustryTrends2025Analysi
 // Expert Articles (August 26, 2025)
 import ArticlesIndex from "./articles/index";
 import OrangeCountyDebtSettlementLawsArticle from "./articles/OrangeCountyDebtSettlementLaws";
-import DFPILicensedDebtSettlementArticle from "./articles/DFPILicensedDebtSettlement";
-import IrvineDebtReliefComparisonArticle from "./articles/IrvineDebtReliefComparison";
-import OrangeCountyMedicalDebtForgivenessArticle from "./articles/OrangeCountyMedicalDebtForgiveness";
-import SantaAnaCreditCardDebtSettlementArticle from "./articles/SantaAnaCreditCardDebtSettlement";
+import DFPILicensedDebtSettlementArticle from "./blog/DFPILicensedDebtSettlementOrangeCounty";
+import IrvineDebtReliefComparisonArticle from "./blog/IrvineDebtReliefCompaniesComparison";
+import OrangeCountyMedicalDebtForgivenessArticle from "./blog/OrangeCountyMedicalDebtForgiveness";
+import SantaAnaCreditCardDebtSettlementArticle from "./blog/SantaAnaCreditCardDebtSettlement";
 
 import FountainValleyDebtSettlement from "./FountainValleyDebtSettlement";
 import GardenGroveDebtSettlement from "./GardenGroveDebtSettlement";
