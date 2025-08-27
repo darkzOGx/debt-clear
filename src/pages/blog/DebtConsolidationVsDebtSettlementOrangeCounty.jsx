@@ -22,7 +22,7 @@ export default function DebtConsolidationVsDebtSettlementOrangeCounty() {
         <meta property="og:title" content="Debt Consolidation vs Debt Settlement - Orange County Comparison" />
         <meta property="og:description" content="Detailed comparison of debt consolidation and settlement options for Orange County residents with expert analysis and guidance." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/debt-consolidation-vs-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       {/* Hero Section */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">

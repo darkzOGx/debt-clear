@@ -11,7 +11,7 @@ export default function LaHabraDebtReliefSolutions2025() {
   const consultationRef = useRef(null);
   
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://ocdebtcenter.com/blog/la-habra-debt-relief-solutions-2025');
+  useCanonicalLink('https://orangecountydebtcenter.com/blog/la-habra-debt-relief-solutions-2025');
 
   const scrollToConsultation = () => {
     consultationRef.current?.scrollIntoView({ 
@@ -31,20 +31,20 @@ export default function LaHabraDebtReliefSolutions2025() {
         <meta property="og:title" content="La Habra Debt Relief Solutions 2025" />
         <meta property="og:description" content="Comprehensive debt relief solutions for La Habra, CA residents. Credit card debt, medical debt, and unsecured debt relief." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://ocdebtcenter.com/blog/la-habra-debt-relief-solutions-2025" />
-        <meta property="og:image" content="https://ocdebtcenter.com/og-la-habra-debt-relief.jpg" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/blog/la-habra-debt-relief-solutions-2025" />
+        <meta property="og:image" content="https://orangecountydebtcenter.com/og-la-habra-debt-relief.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="La Habra Debt Relief Solutions 2025" />
         <meta name="twitter:description" content="Comprehensive debt relief solutions for La Habra, CA residents. Credit card debt, medical debt, unsecured debt relief." />
-        <meta name="twitter:image" content="https://ocdebtcenter.com/og-la-habra-debt-relief.jpg" />
+        <meta name="twitter:image" content="https://orangecountydebtcenter.com/og-la-habra-debt-relief.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "OC Debt Center Debt Relief - La Habra",
-            "image": "https://ocdebtcenter.com/logo.png",
+            "image": "https://orangecountydebtcenter.com/logo.png",
             "description": "Comprehensive debt relief solutions for La Habra, California residents using AI-powered negotiation strategies.",
             "address": {
               "@type": "PostalAddress",
@@ -59,7 +59,7 @@ export default function LaHabraDebtReliefSolutions2025() {
             },
             "telephone": "(844) 541-9236",
             "serviceArea": "La Habra, California",
-            "url": "https://ocdebtcenter.com/blog/la-habra-debt-relief-solutions-2025"
+            "url": "https://orangecountydebtcenter.com/blog/la-habra-debt-relief-solutions-2025"
           })}
         </script>
       </Helmet>

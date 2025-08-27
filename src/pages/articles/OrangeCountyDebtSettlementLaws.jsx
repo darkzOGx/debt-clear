@@ -8,7 +8,7 @@ const OrangeCountyDebtSettlementLaws = () => {
         <title>Orange County Debt Settlement Laws: What Every Resident Needs to Know in 2025</title>
         <meta name="description" content="Complete guide to Orange County debt settlement laws and regulations. Understand your legal rights, DFPI licensing requirements, and consumer protections in California." />
         <meta name="keywords" content="Orange County debt settlement laws, DFPI regulations, California debt relief, legal protections, consumer rights" />
-        <link rel="canonical" href="https://orangecountydebtcenter.com/articles/orange-county-debt-settlement-laws" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       
       <div className="min-h-screen bg-white">

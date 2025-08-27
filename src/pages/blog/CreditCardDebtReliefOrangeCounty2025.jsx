@@ -22,7 +22,7 @@ export default function CreditCardDebtReliefOrangeCounty2025() {
         <meta property="og:title" content="Orange County Credit Card Debt Relief 2025 - Complete Guide" />
         <meta property="og:description" content="Discover comprehensive credit card debt relief solutions available to Orange County residents in 2025 with expert guidance and strategies." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/credit-card-debt-relief-orange-county-2025" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8">

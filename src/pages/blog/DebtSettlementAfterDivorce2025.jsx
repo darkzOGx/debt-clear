@@ -72,7 +72,7 @@ export default function DebtSettlementAfterDivorce2025() {
         <title>Debt Settlement After Divorce 2025 | Orange County Divorce Debt Relief</title>
         <meta name="description" content="Eliminate joint debts after divorce with Orange County's specialized settlement programs. 40-60% debt reduction, protect assets, rebuild credit. Free consultation for divorcees." />
         <meta name="keywords" content="debt settlement after divorce, divorce debt relief Orange County, joint debt settlement California, marital debt elimination, divorce financial recovery 2025" />
-        <link rel="canonical" href="https://orangecountydebtcenter.com/blog/debt-settlement-after-divorce-2025" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <script type="application/ld+json">
           {JSON.stringify({

@@ -22,7 +22,7 @@ export default function TaxImplicationsDebtSettlementOrangeCounty() {
         <meta property="og:title" content="Tax Implications of Debt Settlement - Orange County Guide" />
         <meta property="og:description" content="Essential tax guidance for Orange County residents pursuing debt settlement including federal and state tax implications and planning strategies." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/tax-implications-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">

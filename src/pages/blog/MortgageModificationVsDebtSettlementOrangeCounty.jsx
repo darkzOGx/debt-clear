@@ -22,7 +22,7 @@ export default function MortgageModificationVsDebtSettlementOrangeCounty() {
         <meta property="og:title" content="Mortgage Modification vs Debt Settlement - Orange County Guide" />
         <meta property="og:description" content="Detailed comparison of mortgage modification and debt settlement strategies for Orange County homeowners with expert guidance." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/mortgage-modification-vs-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       {/* Header */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">

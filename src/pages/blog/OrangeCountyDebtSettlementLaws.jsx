@@ -8,7 +8,7 @@ import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function OrangeCountyDebtSettlementLaws() {
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://debtclear.com/blog/orange-county-debt-settlement-laws');
+  useCanonicalLink('https://orangecountydebtcenter.com/blog/orange-county-debt-settlement-laws');
 
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');

@@ -23,7 +23,7 @@ export default function PrivateStudentLoanSettlementOrangeCounty() {
         <meta property="og:description" content="Private student loan settlement strategies for Orange County borrowers. Negotiate significant reductions with expert guidance." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ocdebtcenter.com/blog/private-student-loan-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -40,12 +40,12 @@ export default function PrivateStudentLoanSettlementOrangeCounty() {
               "name": "OC Debt Center Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.png"
+                "url": "https://orangecountydebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-08-25",
             "dateModified": "2025-08-25",
-            "mainEntityOfPage": "https://ocdebtcenter.com/blog/private-student-loan-settlement-orange-county"
+            "mainEntityOfPage": "https://orangecountydebtcenter.com/blog/private-student-loan-settlement-orange-county"
           })}
         </script>
       </Helmet>

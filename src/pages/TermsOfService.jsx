@@ -10,7 +10,7 @@ export default function TermsOfService() {
         <title>Terms of Service - Orange County Debt Center</title>
         <meta name="description" content="Terms of service for Orange County Debt Center debt settlement services. Legal terms, fees, and client obligations explained." />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://orangecountydebtrelief.com/terms-of-service" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       
       <div className="min-h-screen bg-white">
@@ -243,7 +243,7 @@ export default function TermsOfService() {
               
               <div className="space-y-2 text-sm text-neutral-700">
                 <div><strong>Phone:</strong> (844) 541-9236</div>
-                <div><strong>Email:</strong> info@orangecountydebtrelief.com</div>
+                <div><strong>Email:</strong> info@orangecountydebtcenter.com</div>
                 <div><strong>Mail:</strong> Orange County Debt Center<br />
                 Legal Department<br />
                 Orange County, California</div>

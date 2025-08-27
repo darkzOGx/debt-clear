@@ -27,14 +27,14 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
       "name": "OC Debt Center Debt Relief",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://ocdebtcenter.com/logo.png"
+        "url": "https://orangecountydebtcenter.com/logo.png"
       }
     },
     "datePublished": "2025-06-15",
     "dateModified": "2025-08-24",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://ocdebtcenter.com/blog/debt-collector-harassment-rights-orange-county"
+      "@id": "https://orangecountydebtcenter.com/blog/debt-collector-harassment-rights-orange-county"
     },
     "articleSection": "Consumer Rights",
     "keywords": ["debt collector harassment", "Orange County consumer rights", "FDCPA", "Rosenthal Act", "debt collection violations"],
@@ -64,7 +64,7 @@ export default function DebtCollectorHarassmentRightsOrangeCounty() {
         <meta property="og:title" content="Orange County Debt Collector Harassment: Know Your Rights and Remedies" />
         <meta property="og:description" content="Complete guide to debt collector harassment protections in Orange County, including legal remedies, documentation tips, and how to stop abusive collection practices." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://ocdebtcenter.com/blog/debt-collector-harassment-rights-orange-county" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/blog/debt-collector-harassment-rights-orange-county" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />

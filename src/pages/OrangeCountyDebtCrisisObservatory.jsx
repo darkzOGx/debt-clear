@@ -11,7 +11,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
   const consultationRef = useRef(null);
   
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://ocdebtcenter.com/orange-county-debt-crisis-observatory');
+  useCanonicalLink('https://orangecountydebtcenter.com/orange-county-debt-crisis-observatory');
 
   const scrollToConsultation = () => {
     consultationRef.current?.scrollIntoView({ 
@@ -31,13 +31,13 @@ export default function OrangeCountyDebtCrisisObservatory() {
         <meta property="og:title" content="Orange County Debt Crisis Observatory - 2025 Analysis" />
         <meta property="og:description" content="Real-time analysis of Orange County debt crisis trends, consumer statistics, and economic indicators." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://ocdebtcenter.com/orange-county-debt-crisis-observatory" />
-        <meta property="og:image" content="https://ocdebtcenter.com/og-debt-crisis-observatory.jpg" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/orange-county-debt-crisis-observatory" />
+        <meta property="og:image" content="https://orangecountydebtcenter.com/og-debt-crisis-observatory.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Orange County Debt Crisis Observatory - 2025 Analysis" />
         <meta name="twitter:description" content="Real-time analysis of Orange County debt crisis trends, consumer statistics, and economic indicators." />
-        <meta name="twitter:image" content="https://ocdebtcenter.com/og-debt-crisis-observatory.jpg" />
+        <meta name="twitter:image" content="https://orangecountydebtcenter.com/og-debt-crisis-observatory.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -45,7 +45,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
             "@type": "WebPage",
             "name": "Orange County Debt Crisis Observatory",
             "description": "Comprehensive analysis and monitoring of debt crisis trends in Orange County, California.",
-            "url": "https://ocdebtcenter.com/orange-county-debt-crisis-observatory",
+            "url": "https://orangecountydebtcenter.com/orange-county-debt-crisis-observatory",
             "mainEntity": {
               "@type": "Dataset",
               "name": "Orange County Debt Statistics 2025",
@@ -55,7 +55,7 @@ export default function OrangeCountyDebtCrisisObservatory() {
             "publisher": {
               "@type": "Organization",
               "name": "OC Debt Center Debt Settlement",
-              "url": "https://ocdebtcenter.com"
+              "url": "https://orangecountydebtcenter.com"
             }
           })}
         </script>

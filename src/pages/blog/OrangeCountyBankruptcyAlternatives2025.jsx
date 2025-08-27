@@ -6,7 +6,7 @@ import ConsultationForm from '../../components/consultation/ConsultationForm';
 import { useCanonicalLink } from '../../hooks/useCanonicalLink';
 
 export default function OrangeCountyBankruptcyAlternatives2025() {
-  useCanonicalLink('https://ocdebtcenter.com/blog/orange-county-bankruptcy-alternatives-2025');
+  useCanonicalLink('https://orangecountydebtcenter.com/blog/orange-county-bankruptcy-alternatives-2025');
   
   return (
     <div className="min-h-screen bg-white">
@@ -31,13 +31,13 @@ export default function OrangeCountyBankruptcyAlternatives2025() {
               "name": "OC Debt Center",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.svg"
+                "url": "https://orangecountydebtcenter.com/logo.svg"
               }
             },
             "description": "Complete guide to bankruptcy alternatives for Orange County residents including debt settlement, workout agreements, and asset protection strategies.",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://ocdebtcenter.com/blog/orange-county-bankruptcy-alternatives-2025"
+              "@id": "https://orangecountydebtcenter.com/blog/orange-county-bankruptcy-alternatives-2025"
             }
           })}
         </script>

@@ -23,7 +23,7 @@ export default function OrangeCountyForeclosureAlternatives2025() {
         <meta property="og:description" content="Save your Orange County home from foreclosure. Expert guidance on loan modifications, short sales, and foreclosure prevention programs." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ocdebtcenter.com/blog/orange-county-foreclosure-alternatives-2025" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -40,12 +40,12 @@ export default function OrangeCountyForeclosureAlternatives2025() {
               "name": "OC Debt Center Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.png"
+                "url": "https://orangecountydebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-08-15",
             "dateModified": "2025-08-15",
-            "mainEntityOfPage": "https://ocdebtcenter.com/blog/orange-county-foreclosure-alternatives-2025"
+            "mainEntityOfPage": "https://orangecountydebtcenter.com/blog/orange-county-foreclosure-alternatives-2025"
           })}
         </script>
       </Helmet>

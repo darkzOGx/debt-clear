@@ -23,7 +23,7 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
         <meta property="og:description" content="Comprehensive retirement planning strategies for Orange County residents after debt settlement. Rebuild and optimize your retirement savings." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ocdebtcenter.com/blog/retirement-planning-after-debt-relief-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -40,12 +40,12 @@ export default function RetirementPlanningAfterDebtReliefOrangeCounty() {
               "name": "OC Debt Center Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.png"
+                "url": "https://orangecountydebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-08-05",
             "dateModified": "2025-08-05",
-            "mainEntityOfPage": "https://ocdebtcenter.com/blog/retirement-planning-after-debt-relief-orange-county"
+            "mainEntityOfPage": "https://orangecountydebtcenter.com/blog/retirement-planning-after-debt-relief-orange-county"
           })}
         </script>
       </Helmet>

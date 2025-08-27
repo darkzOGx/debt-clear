@@ -27,14 +27,14 @@ export default function DebtCollectionLawsOrangeCounty() {
       "name": "OC Debt Center Debt Relief",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://ocdebtcenter.com/logo.png"
+        "url": "https://orangecountydebtcenter.com/logo.png"
       }
     },
     "datePublished": "2025-06-20",
     "dateModified": "2025-08-24",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://ocdebtcenter.com/blog/debt-collection-laws-orange-county"
+      "@id": "https://orangecountydebtcenter.com/blog/debt-collection-laws-orange-county"
     },
     "articleSection": "Consumer Rights",
     "keywords": ["debt collection laws", "Orange County consumer rights", "FDCPA", "Rosenthal Act", "debt collector harassment"],
@@ -64,7 +64,7 @@ export default function DebtCollectionLawsOrangeCounty() {
         <meta property="og:title" content="Orange County Debt Collection Laws: Know Your Rights" />
         <meta property="og:description" content="Complete guide to debt collection regulations in Orange County, including illegal practices, consumer protections, and how to file complaints." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://ocdebtcenter.com/blog/debt-collection-laws-orange-county" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/blog/debt-collection-laws-orange-county" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />

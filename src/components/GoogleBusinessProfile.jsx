@@ -29,7 +29,7 @@ const GoogleBusinessProfile = () => {
       saturday: "9:00 AM - 2:00 PM",
       sunday: "Closed"
     },
-    website: "https://ocdebtcenter.com",
+    website: "https://orangecountydebtcenter.com",
     placeId: "ChIJN1t_tDeuEmsRUsoyG83frY4" // Replace with actual Place ID
   };
 
@@ -236,8 +236,8 @@ const GoogleBusinessProfile = () => {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": businessInfo.name,
-            "image": "https://ocdebtcenter.com/logo.png",
-            "@id": "https://ocdebtcenter.com",
+            "image": "https://orangecountydebtcenter.com/logo.png",
+            "@id": "https://orangecountydebtcenter.com",
             "url": businessInfo.website,
             "telephone": businessInfo.phone,
             "address": {

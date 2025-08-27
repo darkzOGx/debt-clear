@@ -22,7 +22,7 @@ export default function LegalRightsDebtSettlementOrangeCounty() {
         <meta property="og:title" content="Legal Rights in Debt Settlement - Orange County Consumer Guide" />
         <meta property="og:description" content="Comprehensive guide to legal rights and consumer protections for Orange County residents during debt settlement processes." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/legal-rights-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">

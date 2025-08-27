@@ -22,7 +22,7 @@ export default function SmallBusinessDebtSettlementCaseStudiesOrangeCounty() {
         <meta property="og:title" content="Small Business Debt Settlement Case Studies - Orange County" />
         <meta property="og:description" content="Detailed case studies of successful small business debt settlements in Orange County with real results and strategic insights." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/small-business-debt-settlement-case-studies-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       {/* Header */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">

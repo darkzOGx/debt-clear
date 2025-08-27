@@ -22,7 +22,7 @@ export default function DebtSettlementScamsOrangeCounty() {
         <meta property="og:title" content="Debt Settlement Scams Orange County - Protection Guide" />
         <meta property="og:description" content="Essential guide to identifying and avoiding debt settlement scams in Orange County with expert protection strategies and warning signs." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-scams-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       {/* Hero Section */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">

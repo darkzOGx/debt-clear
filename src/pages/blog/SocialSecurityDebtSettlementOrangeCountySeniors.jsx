@@ -22,7 +22,7 @@ export default function SocialSecurityDebtSettlementOrangeCountySeniors() {
         <meta property="og:title" content="Social Security and Debt Settlement for Orange County Seniors" />
         <meta property="og:description" content="Essential guide for Orange County seniors on protecting Social Security benefits during debt settlement with specialized senior protection strategies." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/social-security-debt-settlement-orange-county-seniors" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       {/* Header */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">

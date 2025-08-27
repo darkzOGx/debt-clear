@@ -23,7 +23,7 @@ export default function HighInterestCreditCardDebtReliefOrangeCounty() {
         <meta property="og:description" content="Emergency credit card debt relief for Orange County residents. Break free from high-interest debt cycles with proven settlement strategies." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ocdebtcenter.com/blog/high-interest-credit-card-debt-relief-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -40,12 +40,12 @@ export default function HighInterestCreditCardDebtReliefOrangeCounty() {
               "name": "OC Debt Center Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.png"
+                "url": "https://orangecountydebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-06-15",
             "dateModified": "2025-06-15",
-            "mainEntityOfPage": "https://ocdebtcenter.com/blog/high-interest-credit-card-debt-relief-orange-county"
+            "mainEntityOfPage": "https://orangecountydebtcenter.com/blog/high-interest-credit-card-debt-relief-orange-county"
           })}
         </script>
       </Helmet>

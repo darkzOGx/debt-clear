@@ -22,7 +22,7 @@ export default function DebtSettlementProcessGuideOrangeCounty2025() {
         <meta property="og:title" content="Debt Settlement Process Guide Orange County 2025" />
         <meta property="og:description" content="Comprehensive step-by-step debt settlement process guide for Orange County residents with 2025 updates and expert guidance." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-process-guide-orange-county-2025" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       {/* Hero Section */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">

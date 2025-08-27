@@ -27,14 +27,14 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
       "name": "OC Debt Center Debt Relief",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://ocdebtcenter.com/logo.png"
+        "url": "https://orangecountydebtcenter.com/logo.png"
       }
     },
     "datePublished": "2025-06-15",
     "dateModified": "2025-08-24",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://ocdebtcenter.com/blog/debt-consolidation-loans-comparison-orange-county"
+      "@id": "https://orangecountydebtcenter.com/blog/debt-consolidation-loans-comparison-orange-county"
     },
     "articleSection": "Debt Consolidation",
     "keywords": ["debt consolidation loans", "Orange County banks", "credit unions", "online lenders", "personal loans"],
@@ -64,7 +64,7 @@ export default function DebtConsolidationLoansComparisonOrangeCounty() {
         <meta property="og:title" content="Orange County Debt Consolidation Loans: Banks vs Credit Unions vs Online Lenders" />
         <meta property="og:description" content="Comprehensive comparison of debt consolidation loan options for Orange County residents, including rates, terms, and recommendations for banks, credit unions, and online lenders." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://ocdebtcenter.com/blog/debt-consolidation-loans-comparison-orange-county" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/blog/debt-consolidation-loans-comparison-orange-county" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />

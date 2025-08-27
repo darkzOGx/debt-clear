@@ -14,7 +14,7 @@ export default function DebtManagementPlansVsDebtSettlementOrangeCounty() {
         <meta property="og:title" content="Debt Management Plans vs Debt Settlement Orange County - Credit Relief Comparison" />
         <meta property="og:description" content="Professional comparison of debt management plans and debt settlement strategies for Orange County residents seeking debt relief." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/debt-management-plans-vs-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
 
       {/* Hero Section - Black Gradient */}

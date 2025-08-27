@@ -14,7 +14,7 @@ export default function Chapter7VsDebtSettlementOrangeCounty() {
         <meta property="og:title" content="Chapter 7 vs Debt Settlement Orange County - Debt Relief Comparison" />
         <meta property="og:description" content="Professional comparison of Chapter 7 bankruptcy and debt settlement strategies for Orange County residents facing overwhelming debt." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/chapter-7-vs-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
 
       {/* Hero Section - Black Gradient */}

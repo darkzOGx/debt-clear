@@ -6,7 +6,7 @@ import ConsultationForm from '../../components/consultation/ConsultationForm';
 import { useCanonicalLink } from '../../hooks/useCanonicalLink';
 
 export default function OrangeCountyTaxDebtRelief2025() {
-  useCanonicalLink('https://ocdebtcenter.com/blog/orange-county-tax-debt-relief-2025');
+  useCanonicalLink('https://orangecountydebtcenter.com/blog/orange-county-tax-debt-relief-2025');
   
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');
@@ -38,13 +38,13 @@ export default function OrangeCountyTaxDebtRelief2025() {
               "name": "OC Debt Center",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.svg"
+                "url": "https://orangecountydebtcenter.com/logo.svg"
               }
             },
             "description": "Comprehensive guide to tax debt relief options for Orange County residents including IRS settlement programs and payment plans.",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://ocdebtcenter.com/blog/orange-county-tax-debt-relief-2025"
+              "@id": "https://orangecountydebtcenter.com/blog/orange-county-tax-debt-relief-2025"
             }
           })}
         </script>

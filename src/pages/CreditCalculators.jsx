@@ -38,7 +38,7 @@ function CalculatorCard({ title, description, icon: Icon, calculator: Calculator
 }
 
 export default function CreditCalculators() {
-  useCanonicalLink('https://ocdebtcenter.com/credit-calculators');
+  useCanonicalLink('https://orangecountydebtcenter.com/credit-calculators');
   const calculators = [
     {
       title: "Debt Repayment Calculator",

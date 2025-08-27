@@ -27,14 +27,14 @@ export default function EmergencyFundBuildingDebtReliefOrangeCounty() {
       "name": "OC Debt Center Debt Relief",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://ocdebtcenter.com/logo.png"
+        "url": "https://orangecountydebtcenter.com/logo.png"
       }
     },
     "datePublished": "2025-07-23",
     "dateModified": "2025-08-24",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://ocdebtcenter.com/blog/emergency-fund-building-debt-relief-orange-county"
+      "@id": "https://orangecountydebtcenter.com/blog/emergency-fund-building-debt-relief-orange-county"
     },
     "articleSection": "Financial Planning",
     "keywords": ["emergency fund", "Orange County", "debt relief", "financial planning", "savings strategies"],
@@ -64,7 +64,7 @@ export default function EmergencyFundBuildingDebtReliefOrangeCounty() {
         <meta property="og:title" content="Emergency Fund Building After Debt Relief: Orange County Strategies" />
         <meta property="og:description" content="Complete guide to building emergency funds after debt settlement for Orange County residents, including savings strategies, account options, and local cost-cutting tips." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://ocdebtcenter.com/blog/emergency-fund-building-debt-relief-orange-county" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/blog/emergency-fund-building-debt-relief-orange-county" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />

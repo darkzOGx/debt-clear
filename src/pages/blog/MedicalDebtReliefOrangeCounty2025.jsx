@@ -18,7 +18,7 @@ export default function MedicalDebtReliefOrangeCounty2025() {
         <title>Medical Debt Relief Orange County 2025: Hospital Bill Negotiations & Settlement</title>
         <meta name="description" content="Expert medical debt relief for Orange County residents. Hospital bill negotiations, charity care applications, and settlement strategies to eliminate healthcare debt." />
         <meta name="keywords" content="medical debt relief Orange County, hospital bill negotiation, medical debt settlement, healthcare debt solutions, charity care programs, medical bill help, hospital financial assistance, medical debt forgiveness, healthcare debt relief California" />
-        <link rel="canonical" href="https://ocdebtcenter.com/blog/medical-debt-relief-orange-county-2025" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -36,13 +36,13 @@ export default function MedicalDebtReliefOrangeCounty2025() {
               "name": "OC Debt Center",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.svg"
+                "url": "https://orangecountydebtcenter.com/logo.svg"
               }
             },
             "description": "Complete guide to medical debt relief for Orange County residents including hospital negotiations, charity care, and settlement strategies.",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://ocdebtcenter.com/blog/medical-debt-relief-orange-county-2025"
+              "@id": "https://orangecountydebtcenter.com/blog/medical-debt-relief-orange-county-2025"
             }
           })}
         </script>

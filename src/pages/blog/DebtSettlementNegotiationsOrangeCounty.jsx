@@ -22,7 +22,7 @@ export default function DebtSettlementNegotiationsOrangeCounty() {
         <meta property="og:title" content="Debt Settlement Negotiations - Orange County Expert Guide" />
         <meta property="og:description" content="Professional debt settlement negotiation strategies and tactics specifically designed for Orange County residents and creditors." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-negotiations-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       {/* Header */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">

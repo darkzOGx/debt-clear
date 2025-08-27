@@ -19,18 +19,18 @@ export default function DebtSettlementSeniorsOrangeCounty() {
         <meta name="description" content="Age-specific debt relief strategies for Orange County seniors, including asset protection, fixed income planning, and special protections available to older adults." />
         <meta name="keywords" content="Orange County senior debt settlement, elderly debt relief, senior asset protection, fixed income debt solutions, Medicare debt protection, Social Security garnishment protection, Orange County elder law" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ocdebtcenter.com/blog/debt-settlement-seniors-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <meta property="og:title" content="Debt Settlement for Orange County Seniors: Special Considerations" />
         <meta property="og:description" content="Age-specific debt relief strategies for Orange County seniors, including asset protection, fixed income planning, and special protections available to older adults." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://ocdebtcenter.com/blog/debt-settlement-seniors-orange-county" />
-        <meta property="og:image" content="https://ocdebtcenter.com/og-debt-settlement-seniors.jpg" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/blog/debt-settlement-seniors-orange-county" />
+        <meta property="og:image" content="https://orangecountydebtcenter.com/og-debt-settlement-seniors.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Debt Settlement for Orange County Seniors: Special Considerations" />
         <meta name="twitter:description" content="Age-specific debt relief strategies for Orange County seniors, including asset protection, fixed income planning, and special protections available to older adults." />
-        <meta name="twitter:image" content="https://ocdebtcenter.com/og-debt-settlement-seniors.jpg" />
+        <meta name="twitter:image" content="https://orangecountydebtcenter.com/og-debt-settlement-seniors.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -38,26 +38,26 @@ export default function DebtSettlementSeniorsOrangeCounty() {
             "@type": "Article",
             "headline": "Debt Settlement for Orange County Seniors: Special Considerations",
             "description": "Age-specific debt relief strategies for Orange County seniors, including asset protection, fixed income planning, and special protections available to older adults.",
-            "image": "https://ocdebtcenter.com/og-debt-settlement-seniors.jpg",
+            "image": "https://orangecountydebtcenter.com/og-debt-settlement-seniors.jpg",
             "author": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://ocdebtcenter.com"
+              "url": "https://orangecountydebtcenter.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://ocdebtcenter.com",
+              "url": "https://orangecountydebtcenter.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.png"
+                "url": "https://orangecountydebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-07-12",
             "dateModified": "2025-07-12",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://ocdebtcenter.com/blog/debt-settlement-seniors-orange-county"
+              "@id": "https://orangecountydebtcenter.com/blog/debt-settlement-seniors-orange-county"
             },
             "articleSection": "Debt Relief",
             "keywords": ["Orange County senior debt settlement", "elderly debt relief", "senior asset protection", "fixed income debt solutions"]

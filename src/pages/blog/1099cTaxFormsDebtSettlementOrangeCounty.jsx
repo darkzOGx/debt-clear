@@ -19,18 +19,18 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
         <meta name="description" content="Comprehensive guide to Form 1099-C tax implications for Orange County debt settlement, including exclusions, Form 982 filing, and tax planning strategies." />
         <meta name="keywords" content="1099-C tax form Orange County, debt settlement tax implications, Form 982 California, canceled debt income, insolvency exclusion Orange County, debt settlement tax planning" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ocdebtcenter.com/blog/1099c-tax-forms-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <meta property="og:title" content="1099-C Tax Forms and Debt Settlement: Orange County Guide" />
         <meta property="og:description" content="Comprehensive guide to Form 1099-C tax implications for Orange County debt settlement, including exclusions, Form 982 filing, and tax planning strategies." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://ocdebtcenter.com/blog/1099c-tax-forms-debt-settlement-orange-county" />
-        <meta property="og:image" content="https://ocdebtcenter.com/og-tax-forms-debt-settlement.jpg" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/blog/1099c-tax-forms-debt-settlement-orange-county" />
+        <meta property="og:image" content="https://orangecountydebtcenter.com/og-tax-forms-debt-settlement.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="1099-C Tax Forms and Debt Settlement: Orange County Guide" />
         <meta name="twitter:description" content="Comprehensive guide to Form 1099-C tax implications for Orange County debt settlement, including exclusions, Form 982 filing, and tax planning strategies." />
-        <meta name="twitter:image" content="https://ocdebtcenter.com/og-tax-forms-debt-settlement.jpg" />
+        <meta name="twitter:image" content="https://orangecountydebtcenter.com/og-tax-forms-debt-settlement.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -38,26 +38,26 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
             "@type": "Article",
             "headline": "1099-C Tax Forms and Debt Settlement: Orange County Guide",
             "description": "Comprehensive guide to Form 1099-C tax implications for Orange County debt settlement, including exclusions, Form 982 filing, and tax planning strategies.",
-            "image": "https://ocdebtcenter.com/og-tax-forms-debt-settlement.jpg",
+            "image": "https://orangecountydebtcenter.com/og-tax-forms-debt-settlement.jpg",
             "author": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://ocdebtcenter.com"
+              "url": "https://orangecountydebtcenter.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://ocdebtcenter.com",
+              "url": "https://orangecountydebtcenter.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.png"
+                "url": "https://orangecountydebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-06-15",
             "dateModified": "2025-06-15",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://ocdebtcenter.com/blog/1099c-tax-forms-debt-settlement-orange-county"
+              "@id": "https://orangecountydebtcenter.com/blog/1099c-tax-forms-debt-settlement-orange-county"
             },
             "articleSection": "Tax Planning",
             "keywords": ["1099-C tax form Orange County", "debt settlement tax implications", "Form 982 California", "canceled debt income"]

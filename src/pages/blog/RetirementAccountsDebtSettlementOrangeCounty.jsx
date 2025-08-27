@@ -29,7 +29,7 @@ export default function RetirementAccountsDebtSettlementOrangeCounty() {
         <meta property="article:tag" content="retirement protection" />
         <meta property="article:tag" content="401k debt settlement" />
         <meta property="article:tag" content="IRA protection" />
-        <link rel="canonical" href="https://www.orangecountydebtcenter.com/blog/retirement-accounts-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -46,13 +46,13 @@ export default function RetirementAccountsDebtSettlementOrangeCounty() {
               "name": "Orange County Debt Center",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.orangecountydebtcenter.com/logo.png"
+                "url": "https://orangecountydebtcenter.com/logo.png"
               }
             },
             "description": "Complete guide to protecting 401(k), IRA, and pension accounts during debt settlement in Orange County.",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://www.orangecountydebtcenter.com/blog/retirement-accounts-debt-settlement-orange-county"
+              "@id": "https://orangecountydebtcenter.com/blog/retirement-accounts-debt-settlement-orange-county"
             }
           })}
         </script>

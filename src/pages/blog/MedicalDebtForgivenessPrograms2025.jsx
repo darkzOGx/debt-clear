@@ -81,7 +81,7 @@ export default function MedicalDebtForgivenessPrograms2025() {
         <title>Medical Debt Forgiveness Programs Near Me | Orange County 2025 Directory</title>
         <meta name="description" content="Find medical debt forgiveness programs in Orange County. Hospital charity care at UCI, Hoag, St. Jude, CHOC. Get 60-100% debt elimination. Free assistance with applications." />
         <meta name="keywords" content="medical debt forgiveness programs near me, Orange County hospital charity care, emergency room bill forgiveness, UCI medical center financial assistance, Hoag charity care 2025" />
-        <link rel="canonical" href="https://orangecountydebtcenter.com/blog/medical-debt-forgiveness-programs-2025" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <script type="application/ld+json">
           {JSON.stringify({

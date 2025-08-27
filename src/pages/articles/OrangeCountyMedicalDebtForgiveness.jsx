@@ -8,7 +8,7 @@ const OrangeCountyMedicalDebtForgiveness = () => {
         <title>Orange County Medical Debt Forgiveness: Complete Healthcare Debt Relief Guide</title>
         <meta name="description" content="Complete guide to medical debt forgiveness in Orange County. Learn about hospital charity programs, settlement strategies, and legal protections for healthcare debt." />
         <meta name="keywords" content="Orange County medical debt forgiveness, hospital charity care, medical debt relief, healthcare debt settlement" />
-        <link rel="canonical" href="https://orangecountydebtcenter.com/articles/orange-county-medical-debt-forgiveness" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       
       <div className="min-h-screen bg-white">

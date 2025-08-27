@@ -6,7 +6,7 @@ import ConsultationForm from '../../components/consultation/ConsultationForm';
 import { useCanonicalLink } from '../../hooks/useCanonicalLink';
 
 export default function DebtSettlementVsTaxReliefOrangeCounty() {
-  useCanonicalLink('https://ocdebtcenter.com/blog/debt-settlement-vs-tax-relief-orange-county');
+  useCanonicalLink('https://orangecountydebtcenter.com/blog/debt-settlement-vs-tax-relief-orange-county');
   
   return (
     <div className="min-h-screen bg-white">
@@ -31,13 +31,13 @@ export default function DebtSettlementVsTaxReliefOrangeCounty() {
               "name": "OC Debt Center",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.svg"
+                "url": "https://orangecountydebtcenter.com/logo.svg"
               }
             },
             "description": "Comprehensive comparison of debt settlement and tax relief options for Orange County residents facing financial challenges.",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://ocdebtcenter.com/blog/debt-settlement-vs-tax-relief-orange-county"
+              "@id": "https://orangecountydebtcenter.com/blog/debt-settlement-vs-tax-relief-orange-county"
             }
           })}
         </script>

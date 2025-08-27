@@ -24,8 +24,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://orangecountydebtcenter.com/" />
+    <!-- Canonical URL - HARDCODED AND PROTECTED -->
+    <link rel="canonical" href="https://orangecountydebtcenter.com/" id="canonical-link" />
     
     <!-- Resource hints to reduce render blocking -->
     <link rel="preconnect" href="https://www.googletagmanager.com" />
@@ -83,8 +83,8 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Orange County Debt Center",
-      "url": "https://orangecountydebtrelief.com",
-      "logo": "https://orangecountydebtrelief.com/favicon.png",
+      "url": "https://orangecountydebtcenter.com",
+      "logo": "https://orangecountydebtcenter.com/favicon.png",
       "description": "Licensed debt settlement company serving Orange County, California. Expert debt relief specialists helping residents reduce debt by 40-60% with AI-powered negotiation strategies.",
       "foundingDate": "2018-01-01",
       "address": {
@@ -152,7 +152,7 @@
       "@type": "ProfessionalService",
       "name": "Orange County Debt Settlement Services",
       "description": "Professional debt settlement services for Orange County residents. Our licensed specialists negotiate with creditors to reduce debt by 40-60%, helping clients achieve financial freedom in 12-24 months.",
-      "url": "https://orangecountydebtrelief.com",
+      "url": "https://orangecountydebtcenter.com",
       "telephone": "+1-844-541-9236",
       "email": "info@orangecountydebtcenter.com",
       "priceRange": "15-25% of enrolled debt",
@@ -573,5 +573,63 @@
     </script>
     
     <script type="module" src="/src/main.jsx" defer></script>
+    
+    <!-- CANONICAL URL PROTECTION - PREVENTS ANY CHANGES -->
+    <script>
+      (function() {
+        const HARDCODED_CANONICAL = 'https://orangecountydebtcenter.com/';
+        
+        // Protect the canonical link on page load
+        function protectCanonical() {
+          const canonicalLink = document.querySelector('link[rel="canonical"]');
+          if (!canonicalLink) {
+            // Create canonical if it doesn't exist
+            const link = document.createElement('link');
+            link.rel = 'canonical';
+            link.href = HARDCODED_CANONICAL;
+            link.id = 'canonical-link';
+            document.head.appendChild(link);
+          } else if (canonicalLink.href !== HARDCODED_CANONICAL) {
+            // Force correct canonical if it's been changed
+            canonicalLink.href = HARDCODED_CANONICAL;
+          }
+        }
+        
+        // Run on load
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', protectCanonical);
+        } else {
+          protectCanonical();
+        }
+        
+        // Monitor for changes and prevent them
+        const observer = new MutationObserver(function(mutations) {
+          mutations.forEach(function(mutation) {
+            if (mutation.type === 'attributes' && mutation.target.rel === 'canonical') {
+              if (mutation.target.href !== HARDCODED_CANONICAL) {
+                mutation.target.href = HARDCODED_CANONICAL;
+              }
+            }
+            if (mutation.type === 'childList') {
+              // Check if canonical was removed or modified
+              const canonical = document.querySelector('link[rel="canonical"]');
+              if (!canonical) {
+                protectCanonical();
+              } else if (canonical.href !== HARDCODED_CANONICAL) {
+                canonical.href = HARDCODED_CANONICAL;
+              }
+            }
+          });
+        });
+        
+        // Start observing
+        observer.observe(document.head, {
+          childList: true,
+          subtree: true,
+          attributes: true,
+          attributeFilter: ['href']
+        });
+      })();
+    </script>
   </body>
 </html>

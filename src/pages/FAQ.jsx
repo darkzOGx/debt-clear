@@ -453,7 +453,7 @@ export default function FAQ() {
             "@type": "HowTo",
             "name": "How to Settle Debt in Orange County California",
             "description": "Complete step-by-step guide to settling debt in Orange County with professional assistance and AI-powered negotiation.",
-            "image": "https://ocdebtcenter.com/debt-settlement-process.jpg",
+            "image": "https://orangecountydebtcenter.com/debt-settlement-process.jpg",
             "totalTime": "PT24M",
             "estimatedCost": {
               "@type": "MonetaryAmount", 
@@ -476,28 +476,28 @@ export default function FAQ() {
                 "position": 1,
                 "name": "Free Debt Analysis",
                 "text": "Contact our Orange County debt specialists for free consultation. We analyze your debts, income, and expenses to determine if debt settlement is right for you.",
-                "url": "https://ocdebtcenter.com/faq#consultation"
+                "url": "https://orangecountydebtcenter.com/faq#consultation"
               },
               {
                 "@type": "HowToStep",
                 "position": 2,
                 "name": "Program Enrollment", 
                 "text": "Enroll in our debt settlement program. Stop making payments to creditors and begin depositing money into your dedicated account.",
-                "url": "https://ocdebtcenter.com/faq#enrollment"
+                "url": "https://orangecountydebtcenter.com/faq#enrollment"
               },
               {
                 "@type": "HowToStep",
                 "position": 3,
                 "name": "Negotiation Phase",
                 "text": "Our team negotiates with your creditors when sufficient funds accumulate. We aim for 40-60% debt reduction on average.",
-                "url": "https://ocdebtcenter.com/faq#negotiation"
+                "url": "https://orangecountydebtcenter.com/faq#negotiation"
               },
               {
                 "@type": "HowToStep",
                 "position": 4,
                 "name": "Settlement Completion",
                 "text": "Accept settlement offers and pay from your account. Receive confirmation letters showing debt resolution.",
-                "url": "https://ocdebtcenter.com/faq#completion"
+                "url": "https://orangecountydebtcenter.com/faq#completion"
               }
             ]
           })}
@@ -519,7 +519,7 @@ export default function FAQ() {
             "dateModified": "2024-12-15",
             "distribution": {
               "@type": "DataDownload",
-              "contentUrl": "https://ocdebtcenter.com/faq",
+              "contentUrl": "https://orangecountydebtcenter.com/faq",
               "encodingFormat": "application/ld+json"
             },
             "variableMeasured": [

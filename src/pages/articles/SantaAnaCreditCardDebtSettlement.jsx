@@ -8,7 +8,7 @@ const SantaAnaCreditCardDebtSettlement = () => {
         <title>Santa Ana Credit Card Debt Settlement: Your Local Guide to Financial Recovery</title>
         <meta name="description" content="Expert guide to credit card debt settlement for Santa Ana residents. Learn the process, legal protections, and success strategies from 15 years of local experience." />
         <meta name="keywords" content="Santa Ana credit card debt settlement, Orange County debt relief, credit card negotiation, financial recovery" />
-        <link rel="canonical" href="https://orangecountydebtcenter.com/articles/santa-ana-credit-card-debt-settlement" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       
       <div className="min-h-screen bg-white">

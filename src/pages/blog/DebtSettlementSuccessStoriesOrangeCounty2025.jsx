@@ -22,7 +22,7 @@ export default function DebtSettlementSuccessStoriesOrangeCounty2025() {
         <meta property="og:title" content="Debt Settlement Success Stories Orange County 2025" />
         <meta property="og:description" content="Inspiring real-life debt settlement success stories from Orange County residents showing actual results and financial transformation." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-success-stories-orange-county-2025" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       {/* Hero Section */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">

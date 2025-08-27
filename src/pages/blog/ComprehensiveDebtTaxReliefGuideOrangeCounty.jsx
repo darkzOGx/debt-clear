@@ -6,7 +6,7 @@ import ConsultationForm from '../../components/consultation/ConsultationForm';
 import { useCanonicalLink } from '../../hooks/useCanonicalLink';
 
 export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
-  useCanonicalLink('https://ocdebtcenter.com/blog/comprehensive-debt-tax-relief-guide-orange-county');
+  useCanonicalLink('https://orangecountydebtcenter.com/blog/comprehensive-debt-tax-relief-guide-orange-county');
   
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');
@@ -38,13 +38,13 @@ export default function ComprehensiveDebtTaxReliefGuideOrangeCounty() {
               "name": "OC Debt Center",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.svg"
+                "url": "https://orangecountydebtcenter.com/logo.svg"
               }
             },
             "description": "Complete guide covering all debt relief, debt consolidation, and tax relief options available to Orange County residents in 2025.",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://ocdebtcenter.com/blog/comprehensive-debt-tax-relief-guide-orange-county"
+              "@id": "https://orangecountydebtcenter.com/blog/comprehensive-debt-tax-relief-guide-orange-county"
             }
           })}
         </script>

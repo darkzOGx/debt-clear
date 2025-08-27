@@ -29,7 +29,7 @@ export default function DivorceDebtSettlementOrangeCounty() {
         <meta property="article:tag" content="divorce debt settlement" />
         <meta property="article:tag" content="community property" />
         <meta property="article:tag" content="marital debt" />
-        <link rel="canonical" href="https://www.orangecountydebtcenter.com/blog/divorce-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -46,13 +46,13 @@ export default function DivorceDebtSettlementOrangeCounty() {
               "name": "Orange County Debt Center",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.orangecountydebtcenter.com/logo.png"
+                "url": "https://orangecountydebtcenter.com/logo.png"
               }
             },
             "description": "Navigate divorce and debt settlement in Orange County California. Learn community property laws, asset protection strategies.",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://www.orangecountydebtcenter.com/blog/divorce-debt-settlement-orange-county"
+              "@id": "https://orangecountydebtcenter.com/blog/divorce-debt-settlement-orange-county"
             }
           })}
         </script>

@@ -38,7 +38,7 @@ function CalculatorCard({ title, description, icon: Icon, calculator: Calculator
 }
 
 export default function StudentLoanCalculators() {
-  useCanonicalLink('https://ocdebtcenter.com/student-loan-calculators');
+  useCanonicalLink('https://orangecountydebtcenter.com/student-loan-calculators');
   const calculators = [
     {
       title: "Student Loan Calculator",

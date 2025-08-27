@@ -22,7 +22,7 @@ export default function InvestmentStrategiesDebtSettlementOrangeCounty() {
         <meta property="og:title" content="Investment Strategies During Debt Settlement - Orange County" />
         <meta property="og:description" content="Expert investment guidance for Orange County residents managing debt settlement while building long-term wealth and financial stability." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/investment-strategies-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       {/* Header */}
       <section className="py-16 bg-neutral-50 border-b border-neutral-200">

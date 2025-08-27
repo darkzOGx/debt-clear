@@ -65,7 +65,7 @@ const ArticlesIndex = () => {
         <title>Orange County Debt Settlement Articles & Guides | Expert Insights</title>
         <meta name="description" content="Expert articles and guides on debt settlement, medical debt forgiveness, and financial recovery for Orange County residents. Written by licensed professionals with 15+ years experience." />
         <meta name="keywords" content="Orange County debt settlement articles, debt relief guides, financial recovery, DFPI licensed advice" />
-        <link rel="canonical" href="https://orangecountydebtcenter.com/articles" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
 
       <div className="min-h-screen bg-white">

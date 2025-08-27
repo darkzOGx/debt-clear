@@ -23,7 +23,7 @@ export default function StudentLoanDebtReliefOrangeCounty() {
         <meta property="og:description" content="Complete student loan debt relief solutions for Orange County residents. Federal forgiveness, private settlement, and expert guidance." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ocdebtcenter.com/blog/student-loan-debt-relief-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -40,12 +40,12 @@ export default function StudentLoanDebtReliefOrangeCounty() {
               "name": "OC Debt Center Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.png"
+                "url": "https://orangecountydebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-08-18",
             "dateModified": "2025-08-18",
-            "mainEntityOfPage": "https://ocdebtcenter.com/blog/student-loan-debt-relief-orange-county"
+            "mainEntityOfPage": "https://orangecountydebtcenter.com/blog/student-loan-debt-relief-orange-county"
           })}
         </script>
       </Helmet>

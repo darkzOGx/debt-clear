@@ -14,7 +14,7 @@ export default function ShortSaleVsDebtSettlementOrangeCounty() {
         <meta property="og:title" content="Short Sale vs Debt Settlement Orange County - Real Estate Debt Options" />
         <meta property="og:description" content="Professional comparison of short sale and debt settlement options for Orange County homeowners facing real estate debt challenges." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/short-sale-vs-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
 
       {/* Hero Section - Black Gradient */}

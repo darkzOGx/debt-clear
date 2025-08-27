@@ -11,7 +11,7 @@ export default function AnaheimDebtSettlement() {
   const consultationRef = useRef(null);
   
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://ocdebtcenter.com/debt-settlement-anaheim');
+  useCanonicalLink('https://orangecountydebtcenter.com/debt-settlement-anaheim');
 
   const scrollToConsultation = () => {
     consultationRef.current?.scrollIntoView({ 
@@ -31,20 +31,20 @@ export default function AnaheimDebtSettlement() {
         <meta property="og:title" content="Debt Settlement Anaheim CA | Expert Debt Relief Services" />
         <meta property="og:description" content="Professional debt settlement services for Anaheim, CA residents. AI-powered debt reduction, 50% savings, local expertise. Free consultation." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://ocdebtcenter.com/debt-settlement-anaheim" />
-        <meta property="og:image" content="https://ocdebtcenter.com/og-anaheim-debt-settlement.jpg" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/debt-settlement-anaheim" />
+        <meta property="og:image" content="https://orangecountydebtcenter.com/og-anaheim-debt-settlement.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Debt Settlement Anaheim CA | Expert Debt Relief Services" />
         <meta name="twitter:description" content="Professional debt settlement services for Anaheim, CA residents. AI-powered debt reduction, 50% savings, local expertise." />
-        <meta name="twitter:image" content="https://ocdebtcenter.com/og-anaheim-debt-settlement.jpg" />
+        <meta name="twitter:image" content="https://orangecountydebtcenter.com/og-anaheim-debt-settlement.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "OC Debt Center Debt Settlement - Anaheim",
-            "image": "https://ocdebtcenter.com/logo.png",
+            "image": "https://orangecountydebtcenter.com/logo.png",
             "description": "Professional debt settlement services for Anaheim, California residents using AI-powered negotiation strategies.",
             "address": {
               "@type": "PostalAddress",
@@ -59,7 +59,7 @@ export default function AnaheimDebtSettlement() {
             },
             "telephone": "(844) 541-9236",
             "serviceArea": "Anaheim, California",
-            "url": "https://ocdebtcenter.com/debt-settlement-anaheim"
+            "url": "https://orangecountydebtcenter.com/debt-settlement-anaheim"
           })}
         </script>
       </Helmet>

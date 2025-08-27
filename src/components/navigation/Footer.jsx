@@ -196,7 +196,7 @@ export default function Footer() {
                   <meta itemProp="addressCountry" content="US" />
                 </div>
                 <div className="text-xs text-neutral-500 mt-4">
-                  <span itemProp="email">info@orangecountydebtrelief.com</span>
+                  <span itemProp="email">info@orangecountydebtcenter.com</span>
                 </div>
                 <div className="text-xs text-neutral-500">
                   <span itemProp="areaServed">Orange County, California</span>

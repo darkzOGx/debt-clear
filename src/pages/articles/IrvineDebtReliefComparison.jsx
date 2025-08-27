@@ -8,7 +8,7 @@ const IrvineDebtReliefComparison = () => {
         <title>Irvine Debt Relief Companies Comparison: Your 2025 Guide</title>
         <meta name="description" content="Compare debt relief companies serving Irvine residents. Expert guide to choosing the right partner for your financial recovery in Orange County's tech capital." />
         <meta name="keywords" content="Irvine debt relief companies comparison, Orange County debt settlement, tech worker debt relief, Irvine financial services" />
-        <link rel="canonical" href="https://orangecountydebtcenter.com/articles/irvine-debt-relief-companies-comparison" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       
       <div className="min-h-screen bg-white">

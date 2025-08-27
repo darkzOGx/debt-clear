@@ -8,7 +8,7 @@ import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function SantaAnaCreditCardDebtSettlement() {
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://www.orangecountydebtcenter.com/blog/santa-ana-credit-card-debt-settlement');
+  useCanonicalLink('https://orangecountydebtcenter.com/blog/santa-ana-credit-card-debt-settlement');
 
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');

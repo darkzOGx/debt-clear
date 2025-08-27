@@ -8,7 +8,7 @@ import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function DFPILicensedDebtSettlementOrangeCounty() {
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://www.orangecountydebtcenter.com/blog/dfpi-licensed-debt-settlement-orange-county');
+  useCanonicalLink('https://orangecountydebtcenter.com/blog/dfpi-licensed-debt-settlement-orange-county');
 
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');

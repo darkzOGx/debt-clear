@@ -21,7 +21,7 @@ export default function DebtSettlementTimelineOrangeCounty() {
         <meta property="og:title" content="Debt Settlement Timeline Orange County - Complete Guide" />
         <meta property="og:description" content="Comprehensive timeline guide for debt settlement process in Orange County with phase-by-phase expectations and milestones." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-timeline-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8">

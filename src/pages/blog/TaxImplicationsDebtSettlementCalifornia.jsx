@@ -21,7 +21,7 @@ export default function TaxImplicationsDebtSettlementCalifornia() {
         <meta property="og:title" content="Tax Implications of Debt Settlement California - State Tax Guide" />
         <meta property="og:description" content="Comprehensive guide to California state tax implications of debt settlement with expert planning strategies and compliance guidance." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/tax-implications-debt-settlement-california" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8">

@@ -66,7 +66,7 @@ export default function SimpleDebtSettlementVsTaxReliefOrangeCounty() {
             <p>Schedule a free consultation to discuss your specific situation and create a personalized recovery plan.</p>
             <p className="mt-4">
               <strong>Phone:</strong> (844) 541-9236<br/>
-              <strong>Email:</strong> info@ocdebtcenter.com<br/>
+              <strong>Email:</strong> info@orangecountydebtcenter.com<br/>
               <strong>Consultation:</strong> Always free and confidential
             </p>
           </div>

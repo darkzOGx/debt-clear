@@ -19,18 +19,18 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
         <meta name="description" content="Strategic credit building minimizes long-term damage and accelerates post-settlement financial recovery for Orange County residents during active debt settlement." />
         <meta name="keywords" content="building credit during debt settlement, Orange County credit repair, debt settlement credit impact, secured credit cards, authorized user strategy, credit monitoring, Orange County financial recovery" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ocdebtcenter.com/blog/building-credit-during-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <meta property="og:title" content="Building Credit During Debt Settlement: Orange County Strategy Guide" />
         <meta property="og:description" content="Strategic credit building minimizes long-term damage and accelerates post-settlement financial recovery for Orange County residents during active debt settlement." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://ocdebtcenter.com/blog/building-credit-during-debt-settlement-orange-county" />
-        <meta property="og:image" content="https://ocdebtcenter.com/og-building-credit-settlement.jpg" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/blog/building-credit-during-debt-settlement-orange-county" />
+        <meta property="og:image" content="https://orangecountydebtcenter.com/og-building-credit-settlement.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Building Credit During Debt Settlement: Orange County Strategy Guide" />
         <meta name="twitter:description" content="Strategic credit building minimizes long-term damage and accelerates post-settlement financial recovery for Orange County residents during active debt settlement." />
-        <meta name="twitter:image" content="https://ocdebtcenter.com/og-building-credit-settlement.jpg" />
+        <meta name="twitter:image" content="https://orangecountydebtcenter.com/og-building-credit-settlement.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -38,26 +38,26 @@ export default function BuildingCreditDuringDebtSettlementOrangeCounty() {
             "@type": "Article",
             "headline": "Building Credit During Debt Settlement: Orange County Strategy Guide",
             "description": "Strategic credit building minimizes long-term damage and accelerates post-settlement financial recovery for Orange County residents during active debt settlement.",
-            "image": "https://ocdebtcenter.com/og-building-credit-settlement.jpg",
+            "image": "https://orangecountydebtcenter.com/og-building-credit-settlement.jpg",
             "author": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://ocdebtcenter.com"
+              "url": "https://orangecountydebtcenter.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://ocdebtcenter.com",
+              "url": "https://orangecountydebtcenter.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.png"
+                "url": "https://orangecountydebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-06-12",
             "dateModified": "2025-06-12",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://ocdebtcenter.com/blog/building-credit-during-debt-settlement-orange-county"
+              "@id": "https://orangecountydebtcenter.com/blog/building-credit-during-debt-settlement-orange-county"
             },
             "articleSection": "Credit & Consumer Rights",
             "keywords": ["building credit during debt settlement", "Orange County credit repair", "debt settlement credit impact", "secured credit cards"]

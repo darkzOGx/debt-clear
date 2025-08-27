@@ -11,7 +11,7 @@ export default function BreaDebtSettlementServices2025() {
   const consultationRef = useRef(null);
   
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://ocdebtcenter.com/blog/brea-debt-settlement-services-2025');
+  useCanonicalLink('https://orangecountydebtcenter.com/blog/brea-debt-settlement-services-2025');
 
   const scrollToConsultation = () => {
     consultationRef.current?.scrollIntoView({ 
@@ -31,20 +31,20 @@ export default function BreaDebtSettlementServices2025() {
         <meta property="og:title" content="Brea Debt Settlement Services 2025" />
         <meta property="og:description" content="Professional debt settlement services for Brea, CA residents. Local expertise, AI-powered negotiation, 50% debt reduction." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://ocdebtcenter.com/blog/brea-debt-settlement-services-2025" />
-        <meta property="og:image" content="https://ocdebtcenter.com/og-brea-debt-settlement.jpg" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/blog/brea-debt-settlement-services-2025" />
+        <meta property="og:image" content="https://orangecountydebtcenter.com/og-brea-debt-settlement.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Brea Debt Settlement Services 2025" />
         <meta name="twitter:description" content="Professional debt settlement services for Brea, CA residents. Local expertise, AI-powered negotiation." />
-        <meta name="twitter:image" content="https://ocdebtcenter.com/og-brea-debt-settlement.jpg" />
+        <meta name="twitter:image" content="https://orangecountydebtcenter.com/og-brea-debt-settlement.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "OC Debt Center Debt Settlement - Brea",
-            "image": "https://ocdebtcenter.com/logo.png",
+            "image": "https://orangecountydebtcenter.com/logo.png",
             "description": "Professional debt settlement services for Brea, California residents using AI-powered negotiation strategies.",
             "address": {
               "@type": "PostalAddress",
@@ -59,7 +59,7 @@ export default function BreaDebtSettlementServices2025() {
             },
             "telephone": "(844) 541-9236",
             "serviceArea": "Brea, California",
-            "url": "https://ocdebtcenter.com/blog/brea-debt-settlement-services-2025"
+            "url": "https://orangecountydebtcenter.com/blog/brea-debt-settlement-services-2025"
           })}
         </script>
       </Helmet>

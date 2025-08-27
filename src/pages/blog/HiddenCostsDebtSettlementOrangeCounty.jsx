@@ -22,7 +22,7 @@ export default function HiddenCostsDebtSettlementOrangeCounty() {
         <meta property="og:title" content="Hidden Costs of Debt Settlement Orange County - Fee Analysis" />
         <meta property="og:description" content="Comprehensive analysis of hidden costs and fees in debt settlement for Orange County residents with expert guidance on avoiding unexpected expenses." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/hidden-costs-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       {/* Header */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">

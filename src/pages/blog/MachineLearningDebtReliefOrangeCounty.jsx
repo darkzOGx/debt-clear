@@ -23,7 +23,7 @@ export default function MachineLearningDebtReliefOrangeCounty() {
         <meta property="og:description" content="Advanced machine learning algorithms optimize debt settlement strategies for Orange County residents. AI-powered debt relief solutions." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ocdebtcenter.com/blog/machine-learning-debt-relief-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -40,12 +40,12 @@ export default function MachineLearningDebtReliefOrangeCounty() {
               "name": "OC Debt Center Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.png"
+                "url": "https://orangecountydebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-07-28",
             "dateModified": "2025-07-28",
-            "mainEntityOfPage": "https://ocdebtcenter.com/blog/machine-learning-debt-relief-orange-county"
+            "mainEntityOfPage": "https://orangecountydebtcenter.com/blog/machine-learning-debt-relief-orange-county"
           })}
         </script>
       </Helmet>

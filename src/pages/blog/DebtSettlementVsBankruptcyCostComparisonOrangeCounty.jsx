@@ -22,7 +22,7 @@ export default function DebtSettlementVsBankruptcyCostComparisonOrangeCounty() {
         <meta property="og:title" content="Debt Settlement vs Bankruptcy Cost Comparison - Orange County" />
         <meta property="og:description" content="Detailed cost analysis comparing debt settlement and bankruptcy options for Orange County residents with expert financial guidance." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/debt-settlement-vs-bankruptcy-cost-comparison-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       {/* Header */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">

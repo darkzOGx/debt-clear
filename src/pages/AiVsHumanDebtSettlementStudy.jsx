@@ -11,7 +11,7 @@ export default function AiVsHumanDebtSettlementStudy() {
   const consultationRef = useRef(null);
   
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://ocdebtcenter.com/ai-vs-human-debt-settlement-study');
+  useCanonicalLink('https://orangecountydebtcenter.com/ai-vs-human-debt-settlement-study');
 
   const scrollToConsultation = () => {
     consultationRef.current?.scrollIntoView({ 
@@ -31,13 +31,13 @@ export default function AiVsHumanDebtSettlementStudy() {
         <meta property="og:title" content="AI vs Human Debt Settlement Study - Comprehensive Analysis 2025" />
         <meta property="og:description" content="Comprehensive research study comparing AI-powered debt settlement vs traditional human-only approaches with 50,000+ case studies." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://ocdebtcenter.com/ai-vs-human-debt-settlement-study" />
-        <meta property="og:image" content="https://ocdebtcenter.com/og-ai-debt-settlement-study.jpg" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/ai-vs-human-debt-settlement-study" />
+        <meta property="og:image" content="https://orangecountydebtcenter.com/og-ai-debt-settlement-study.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="AI vs Human Debt Settlement Study - Comprehensive Analysis" />
         <meta name="twitter:description" content="Research study comparing AI-powered debt settlement vs traditional approaches with 50,000+ case studies." />
-        <meta name="twitter:image" content="https://ocdebtcenter.com/og-ai-debt-settlement-study.jpg" />
+        <meta name="twitter:image" content="https://orangecountydebtcenter.com/og-ai-debt-settlement-study.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -45,7 +45,7 @@ export default function AiVsHumanDebtSettlementStudy() {
             "@type": "ScholarlyArticle",
             "name": "AI vs Human Debt Settlement Study: Comprehensive Analysis 2025",
             "description": "Research study comparing artificial intelligence-powered debt settlement approaches versus traditional human-only negotiation methods.",
-            "url": "https://ocdebtcenter.com/ai-vs-human-debt-settlement-study",
+            "url": "https://orangecountydebtcenter.com/ai-vs-human-debt-settlement-study",
             "datePublished": "2025-08-15",
             "author": {
               "@type": "Organization",
@@ -54,7 +54,7 @@ export default function AiVsHumanDebtSettlementStudy() {
             "publisher": {
               "@type": "Organization",
               "name": "OC Debt Center Debt Settlement",
-              "url": "https://ocdebtcenter.com"
+              "url": "https://orangecountydebtcenter.com"
             },
             "mainEntity": {
               "@type": "Dataset",

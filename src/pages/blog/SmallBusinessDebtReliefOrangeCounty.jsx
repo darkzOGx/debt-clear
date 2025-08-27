@@ -23,7 +23,7 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
         <meta property="og:description" content="Professional debt relief solutions for Orange County small businesses. SBA loans, merchant advances, and commercial debt restructuring." />
         <meta property="og:type" content="article" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ocdebtcenter.com/blog/small-business-debt-relief-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -40,12 +40,12 @@ export default function SmallBusinessDebtReliefOrangeCounty() {
               "name": "OC Debt Center Holdings",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.png"
+                "url": "https://orangecountydebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-08-12",
             "dateModified": "2025-08-12",
-            "mainEntityOfPage": "https://ocdebtcenter.com/blog/small-business-debt-relief-orange-county"
+            "mainEntityOfPage": "https://orangecountydebtcenter.com/blog/small-business-debt-relief-orange-county"
           })}
         </script>
       </Helmet>

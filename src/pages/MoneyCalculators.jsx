@@ -631,7 +631,7 @@ function CreditCardDebtReliefCalculator() {
   );
 }
 export default function MoneyCalculators() {
-  useCanonicalLink('https://ocdebtcenter.com/money-calculators');
+  useCanonicalLink('https://orangecountydebtcenter.com/money-calculators');
   
   const calculators = [
     {
@@ -678,7 +678,7 @@ export default function MoneyCalculators() {
         <meta property="og:title" content="Money Calculators - Orange County Financial Planning Tools" />
         <meta property="og:description" content="Free money management calculators for Orange County residents. 401k, budget, retirement, and savings calculators." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://ocdebtcenter.com/money-calculators" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/money-calculators" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -686,7 +686,7 @@ export default function MoneyCalculators() {
             "@type": "WebPage",
             "name": "Money Calculators",
             "description": "Comprehensive money management calculators including 401k, budget, retirement, and savings calculators for Orange County residents.",
-            "url": "https://ocdebtcenter.com/money-calculators"
+            "url": "https://orangecountydebtcenter.com/money-calculators"
           })}
         </script>
       </Helmet>

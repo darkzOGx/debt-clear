@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
         <title>Privacy Policy - Orange County Debt Center</title>
         <meta name="description" content="Privacy policy for Orange County Debt Center. Learn how we protect your personal information and comply with California privacy laws." />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://orangecountydebtrelief.com/privacy-policy" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       
       <div className="min-h-screen bg-white">
@@ -178,8 +178,8 @@ export default function PrivacyPolicy() {
 
               <p className="mt-6">
                 To exercise these rights, contact us at{' '}
-                <a href="mailto:privacy@orangecountydebtrelief.com" className="text-black underline">
-                  privacy@orangecountydebtrelief.com
+                <a href="mailto:privacy@orangecountydebtcenter.com" className="text-black underline">
+                  privacy@orangecountydebtcenter.com
                 </a>{' '}
                 or call (844) 541-9236.
               </p>
@@ -213,7 +213,7 @@ export default function PrivacyPolicy() {
               </p>
               
               <div className="space-y-2 text-sm text-neutral-700">
-                <div><strong>Email:</strong> privacy@orangecountydebtrelief.com</div>
+                <div><strong>Email:</strong> privacy@orangecountydebtcenter.com</div>
                 <div><strong>Phone:</strong> (844) 541-9236</div>
                 <div><strong>Mail:</strong> Orange County Debt Center<br />
                 Privacy Officer<br />

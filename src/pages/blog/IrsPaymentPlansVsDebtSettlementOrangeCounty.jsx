@@ -14,7 +14,7 @@ export default function IrsPaymentPlansVsDebtSettlementOrangeCounty() {
         <meta property="og:title" content="IRS Payment Plans vs Debt Settlement Orange County - Tax Relief Options" />
         <meta property="og:description" content="Professional comparison of IRS payment plans and debt settlement strategies for Orange County taxpayers facing tax obligations." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/irs-payment-plans-vs-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
 
       {/* Hero Section - Black Gradient */}

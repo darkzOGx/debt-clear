@@ -6,7 +6,7 @@ import ConsultationForm from '../../components/consultation/ConsultationForm';
 import { useCanonicalLink } from '../../hooks/useCanonicalLink';
 
 export default function IrsTaxSettlementStrategiesOrangeCounty() {
-  useCanonicalLink('https://ocdebtcenter.com/blog/irs-tax-settlement-strategies-orange-county');
+  useCanonicalLink('https://orangecountydebtcenter.com/blog/irs-tax-settlement-strategies-orange-county');
   
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');
@@ -38,13 +38,13 @@ export default function IrsTaxSettlementStrategiesOrangeCounty() {
               "name": "OC Debt Center",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.svg"
+                "url": "https://orangecountydebtcenter.com/logo.svg"
               }
             },
             "description": "Comprehensive guide to IRS tax settlement strategies, programs, and negotiation tactics for Orange County taxpayers facing tax debt.",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://ocdebtcenter.com/blog/irs-tax-settlement-strategies-orange-county"
+              "@id": "https://orangecountydebtcenter.com/blog/irs-tax-settlement-strategies-orange-county"
             }
           })}
         </script>

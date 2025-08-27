@@ -19,18 +19,18 @@ export default function BalanceTransferVsDebtSettlementOrangeCounty() {
         <meta name="description" content="Orange County residents facing credit card debt have two primary relief strategies: balance transfers and debt settlement. Compare qualification requirements, costs, and impacts." />
         <meta name="keywords" content="balance transfer vs debt settlement Orange County, credit card debt relief options, debt consolidation Orange County, balance transfer cards California, debt settlement comparison" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ocdebtcenter.com/blog/balance-transfer-vs-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <meta property="og:title" content="Balance Transfer vs Debt Settlement: Orange County Resident Guide" />
         <meta property="og:description" content="Orange County residents facing credit card debt have two primary relief strategies: balance transfers and debt settlement. Compare qualification requirements, costs, and impacts." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://ocdebtcenter.com/blog/balance-transfer-vs-debt-settlement-orange-county" />
-        <meta property="og:image" content="https://ocdebtcenter.com/og-balance-transfer-vs-settlement.jpg" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/blog/balance-transfer-vs-debt-settlement-orange-county" />
+        <meta property="og:image" content="https://orangecountydebtcenter.com/og-balance-transfer-vs-settlement.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Balance Transfer vs Debt Settlement: Orange County Resident Guide" />
         <meta name="twitter:description" content="Orange County residents facing credit card debt have two primary relief strategies: balance transfers and debt settlement. Compare qualification requirements, costs, and impacts." />
-        <meta name="twitter:image" content="https://ocdebtcenter.com/og-balance-transfer-vs-settlement.jpg" />
+        <meta name="twitter:image" content="https://orangecountydebtcenter.com/og-balance-transfer-vs-settlement.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -38,26 +38,26 @@ export default function BalanceTransferVsDebtSettlementOrangeCounty() {
             "@type": "Article",
             "headline": "Balance Transfer vs Debt Settlement: Orange County Resident Guide",
             "description": "Orange County residents facing credit card debt have two primary relief strategies: balance transfers and debt settlement. Compare qualification requirements, costs, and impacts.",
-            "image": "https://ocdebtcenter.com/og-balance-transfer-vs-settlement.jpg",
+            "image": "https://orangecountydebtcenter.com/og-balance-transfer-vs-settlement.jpg",
             "author": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://ocdebtcenter.com"
+              "url": "https://orangecountydebtcenter.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://ocdebtcenter.com",
+              "url": "https://orangecountydebtcenter.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.png"
+                "url": "https://orangecountydebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-06-15",
             "dateModified": "2025-06-15",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://ocdebtcenter.com/blog/balance-transfer-vs-debt-settlement-orange-county"
+              "@id": "https://orangecountydebtcenter.com/blog/balance-transfer-vs-debt-settlement-orange-county"
             },
             "articleSection": "Debt Consolidation",
             "keywords": ["balance transfer vs debt settlement Orange County", "credit card debt relief options", "debt consolidation Orange County", "balance transfer cards California"]

@@ -22,7 +22,7 @@ export default function MedicalDebtSettlementOrangeCounty() {
         <meta property="og:title" content="Medical Debt Settlement Orange County - Healthcare Relief Guide" />
         <meta property="og:description" content="Expert guidance for Orange County residents dealing with medical debt including settlement strategies and patient financial assistance options." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/medical-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       {/* Hero Section - Black Gradient */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">

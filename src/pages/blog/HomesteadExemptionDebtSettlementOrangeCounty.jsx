@@ -22,7 +22,7 @@ export default function HomesteadExemptionDebtSettlementOrangeCounty() {
         <meta property="og:title" content="Homestead Exemption and Debt Settlement - Orange County Guide" />
         <meta property="og:description" content="Essential guide to protecting your Orange County home during debt settlement using California homestead exemption laws and strategies." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/homestead-exemption-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       {/* Header */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">

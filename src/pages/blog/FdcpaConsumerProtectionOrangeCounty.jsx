@@ -27,14 +27,14 @@ export default function FdcpaConsumerProtectionOrangeCounty() {
       "name": "OC Debt Center Debt Relief",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://ocdebtcenter.com/logo.png"
+        "url": "https://orangecountydebtcenter.com/logo.png"
       }
     },
     "datePublished": "2025-06-15",
     "dateModified": "2025-08-24",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://ocdebtcenter.com/blog/fdcpa-consumer-protection-orange-county"
+      "@id": "https://orangecountydebtcenter.com/blog/fdcpa-consumer-protection-orange-county"
     },
     "articleSection": "Consumer Rights",
     "keywords": ["FDCPA", "Fair Debt Collection Practices Act", "Orange County consumer rights", "debt collector violations", "consumer protection"],
@@ -64,7 +64,7 @@ export default function FdcpaConsumerProtectionOrangeCounty() {
         <meta property="og:title" content="Fair Debt Collection Practices Act: Orange County Consumer Protection" />
         <meta property="og:description" content="Complete guide to FDCPA protections for Orange County residents, including rights, violations, enforcement, and how to file complaints against debt collectors." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://ocdebtcenter.com/blog/fdcpa-consumer-protection-orange-county" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/blog/fdcpa-consumer-protection-orange-county" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />

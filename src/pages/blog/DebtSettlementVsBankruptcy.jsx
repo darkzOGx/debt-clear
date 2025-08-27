@@ -11,7 +11,7 @@ export default function DebtSettlementVsBankruptcy() {
         <title>Debt Settlement vs Bankruptcy in Orange County: Complete 2025 Guide</title>
         <meta name="description" content="Compare debt settlement vs bankruptcy for Orange County residents. Learn costs, credit impact, timeline, and which option saves more money. Free consultation available." />
         <meta name="keywords" content="debt settlement vs bankruptcy Orange County, Chapter 7 bankruptcy California, Chapter 13 bankruptcy OC, debt relief options comparison, bankruptcy alternatives Orange County" />
-        <link rel="canonical" href="https://orangecountydebtcenter.com/blog/debt-settlement-vs-bankruptcy" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <script type="application/ld+json">
           {JSON.stringify({

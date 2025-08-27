@@ -8,7 +8,7 @@ const DFPILicensedDebtSettlement = () => {
         <title>DFPI Licensed Debt Settlement Orange County: Why Licensing Matters</title>
         <meta name="description" content="Learn why DFPI licensing is crucial for Orange County debt settlement. Understand the difference between licensed and unlicensed companies and protect your financial future." />
         <meta name="keywords" content="DFPI licensed debt settlement Orange County, California debt relief licensing, licensed debt settlement companies" />
-        <link rel="canonical" href="https://orangecountydebtcenter.com/articles/dfpi-licensed-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       
       <div className="min-h-screen bg-white">

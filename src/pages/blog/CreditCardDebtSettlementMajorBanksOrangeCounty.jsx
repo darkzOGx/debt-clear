@@ -22,7 +22,7 @@ export default function CreditCardDebtSettlementMajorBanksOrangeCounty() {
         <meta property="og:title" content="Credit Card Debt Settlement with Major Banks - Orange County" />
         <meta property="og:description" content="Specialized guidance for Orange County residents negotiating credit card debt settlements with major banking institutions." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/credit-card-debt-settlement-major-banks-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8">

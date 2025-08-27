@@ -14,7 +14,7 @@ export default function CaliforniaFtbDebtSettlementOrangeCounty() {
         <meta property="og:title" content="California FTB Debt Settlement Orange County - State Tax Relief Guide" />
         <meta property="og:description" content="Comprehensive guide to California Franchise Tax Board debt settlement and payment options for Orange County residents." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/california-ftb-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
 
       {/* Hero Section - Black Gradient */}

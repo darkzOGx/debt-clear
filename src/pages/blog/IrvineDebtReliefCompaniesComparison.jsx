@@ -8,7 +8,7 @@ import ConsultationForm from '../../components/consultation/ConsultationForm';
 
 export default function IrvineDebtReliefCompaniesComparison() {
   // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://www.orangecountydebtcenter.com/blog/irvine-debt-relief-companies-comparison');
+  useCanonicalLink('https://orangecountydebtcenter.com/blog/irvine-debt-relief-companies-comparison');
 
   const scrollToConsultation = () => {
     const consultationSection = document.getElementById('consultation');

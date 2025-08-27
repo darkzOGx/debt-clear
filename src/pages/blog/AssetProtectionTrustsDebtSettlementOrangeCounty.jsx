@@ -19,18 +19,18 @@ export default function AssetProtectionTrustsDebtSettlementOrangeCounty() {
         <meta name="description" content="High-net-worth Orange County residents facing debt challenges need sophisticated asset protection strategies beyond basic exemptions using advanced trust structures." />
         <meta name="keywords" content="Orange County asset protection trusts, debt settlement trust strategies, California asset protection, high net worth debt relief, domestic asset protection trusts, Nevada trusts" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ocdebtcenter.com/blog/asset-protection-trusts-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <meta property="og:title" content="Orange County Asset Protection Trusts: Advanced Debt Settlement Strategies" />
         <meta property="og:description" content="High-net-worth Orange County residents facing debt challenges need sophisticated asset protection strategies beyond basic exemptions using advanced trust structures." />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://ocdebtcenter.com/blog/asset-protection-trusts-debt-settlement-orange-county" />
-        <meta property="og:image" content="https://ocdebtcenter.com/og-asset-protection-trusts.jpg" />
+        <meta property="og:url" content="https://orangecountydebtcenter.com/blog/asset-protection-trusts-debt-settlement-orange-county" />
+        <meta property="og:image" content="https://orangecountydebtcenter.com/og-asset-protection-trusts.jpg" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Orange County Asset Protection Trusts: Advanced Debt Settlement Strategies" />
         <meta name="twitter:description" content="High-net-worth Orange County residents facing debt challenges need sophisticated asset protection strategies beyond basic exemptions using advanced trust structures." />
-        <meta name="twitter:image" content="https://ocdebtcenter.com/og-asset-protection-trusts.jpg" />
+        <meta name="twitter:image" content="https://orangecountydebtcenter.com/og-asset-protection-trusts.jpg" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -38,26 +38,26 @@ export default function AssetProtectionTrustsDebtSettlementOrangeCounty() {
             "@type": "Article",
             "headline": "Orange County Asset Protection Trusts: Advanced Debt Settlement Strategies",
             "description": "High-net-worth Orange County residents facing debt challenges need sophisticated asset protection strategies beyond basic exemptions using advanced trust structures.",
-            "image": "https://ocdebtcenter.com/og-asset-protection-trusts.jpg",
+            "image": "https://orangecountydebtcenter.com/og-asset-protection-trusts.jpg",
             "author": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://ocdebtcenter.com"
+              "url": "https://orangecountydebtcenter.com"
             },
             "publisher": {
               "@type": "Organization",
               "name": "OC Debt Center",
-              "url": "https://ocdebtcenter.com",
+              "url": "https://orangecountydebtcenter.com",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.png"
+                "url": "https://orangecountydebtcenter.com/logo.png"
               }
             },
             "datePublished": "2025-06-15",
             "dateModified": "2025-06-15",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://ocdebtcenter.com/blog/asset-protection-trusts-debt-settlement-orange-county"
+              "@id": "https://orangecountydebtcenter.com/blog/asset-protection-trusts-debt-settlement-orange-county"
             },
             "articleSection": "Asset Protection",
             "keywords": ["Orange County asset protection trusts", "debt settlement trust strategies", "California asset protection", "high net worth debt relief"]

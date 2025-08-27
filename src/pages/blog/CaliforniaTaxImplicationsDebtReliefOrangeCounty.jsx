@@ -25,7 +25,7 @@ export default function CaliforniaTaxImplicationsDebtReliefOrangeCounty() {
         <meta property="article:author" content="California Tax Specialist" />
         <meta property="article:published_time" content="2025-06-15" />
         <meta property="article:section" content="Tax Planning" />
-        <link rel="canonical" href="https://debtclear.com/blog/california-tax-implications-debt-relief-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8">

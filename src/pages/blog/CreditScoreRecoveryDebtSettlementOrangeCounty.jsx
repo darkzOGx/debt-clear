@@ -21,7 +21,7 @@ export default function CreditScoreRecoveryDebtSettlementOrangeCounty() {
         <meta property="og:title" content="Credit Score Recovery After Debt Settlement - Orange County" />
         <meta property="og:description" content="Professional guidance for Orange County residents recovering credit scores after debt settlement with proven rebuilding strategies." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/credit-score-recovery-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8">

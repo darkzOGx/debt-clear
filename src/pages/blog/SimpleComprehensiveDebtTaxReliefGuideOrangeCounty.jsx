@@ -30,7 +30,7 @@ export default function SimpleComprehensiveDebtTaxReliefGuideOrangeCounty() {
             <p>Contact our Orange County debt relief specialists for a free consultation and personalized strategy.</p>
             <p className="mt-4">
               <strong>Phone:</strong> (844) 541-9236<br/>
-              <strong>Email:</strong> info@ocdebtcenter.com
+              <strong>Email:</strong> info@orangecountydebtcenter.com
             </p>
           </div>
         </div>

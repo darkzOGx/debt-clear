@@ -21,7 +21,7 @@ export default function PropertyProtectionDebtSettlementOrangeCounty() {
         <meta property="og:title" content="Property Protection During Debt Settlement - Orange County" />
         <meta property="og:description" content="Essential property protection strategies for Orange County residents during debt settlement with expert guidance on asset safeguards." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/property-protection-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8">

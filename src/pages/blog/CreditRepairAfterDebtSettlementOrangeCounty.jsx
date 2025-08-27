@@ -22,7 +22,7 @@ export default function CreditRepairAfterDebtSettlementOrangeCounty() {
         <meta property="og:title" content="Credit Repair After Debt Settlement - Orange County Guide" />
         <meta property="og:description" content="Expert strategies for Orange County residents to rebuild and repair credit scores after completing debt settlement programs." />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href="https://debtclear.com/blog/credit-repair-after-debt-settlement-orange-county" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
       </Helmet>
       {/* Header */}
       <section className="relative py-24 bg-gradient-to-b from-black to-neutral-900 text-white overflow-hidden border-b border-neutral-800">

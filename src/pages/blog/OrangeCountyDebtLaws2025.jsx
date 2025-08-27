@@ -18,7 +18,7 @@ export default function OrangeCountyDebtLaws2025() {
         <title>Orange County Debt Laws 2025: Complete Consumer Protection Guide</title>
         <meta name="description" content="Comprehensive guide to California debt collection laws, Orange County court procedures, and consumer rights. Know your legal protections and how to defend against debt collectors." />
         <meta name="keywords" content="Orange County debt laws, California debt collection laws, consumer protection rights, FDCPA violations, debt collector harassment, wage garnishment laws, statute of limitations debt, Orange County court system, debt settlement regulations, consumer rights California" />
-        <link rel="canonical" href="https://ocdebtcenter.com/blog/orange-county-debt-laws-2025" />
+        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
         
         <script type="application/ld+json">
           {JSON.stringify({
@@ -36,13 +36,13 @@ export default function OrangeCountyDebtLaws2025() {
               "name": "OC Debt Center",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://ocdebtcenter.com/logo.svg"
+                "url": "https://orangecountydebtcenter.com/logo.svg"
               }
             },
             "description": "Complete guide to debt collection laws and consumer rights in Orange County, California including court procedures and legal protections.",
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://ocdebtcenter.com/blog/orange-county-debt-laws-2025"
+              "@id": "https://orangecountydebtcenter.com/blog/orange-county-debt-laws-2025"
             }
           })}
         </script>
