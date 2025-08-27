@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Phone, Mail, MapPin } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -178,28 +179,58 @@ export default function Footer() {
               <div className="text-xs font-mono uppercase tracking-[0.15em] text-neutral-500 mb-4">
                 Contact Information
               </div>
-              <div className="space-y-2 text-sm text-neutral-400" itemScope itemType="http://schema.org/Organization">
-                <div className="font-semibold text-white">
+              <div className="space-y-4 text-sm text-neutral-400" itemScope itemType="http://schema.org/Organization">
+                <div className="font-semibold text-white mb-6">
                   <span itemProp="name">Orange County Debt Center</span>
                 </div>
-                <div className="font-semibold text-white">
-                  Call: <span itemProp="telephone">(844) 541-9236</span>
-                </div>
-                <div itemProp="address" itemScope itemType="http://schema.org/PostalAddress">
-                  <div itemProp="streetAddress">400 Spectrum Center Drive</div>
-                  <div itemProp="streetAddress">Suite 1000</div>
-                  <div>
-                    <span itemProp="addressLocality">Irvine</span>, 
-                    <span itemProp="addressRegion"> CA</span> 
-                    <span itemProp="postalCode">92618</span>
+                
+                {/* Phone Contact */}
+                <div className="flex items-center gap-3">
+                  <Phone className="w-4 h-4 text-neutral-500" />
+                  <div className="font-semibold text-white">
+                    <span itemProp="telephone">(844) 541-9236</span>
                   </div>
-                  <meta itemProp="addressCountry" content="US" />
                 </div>
-                <div className="text-xs text-neutral-500 mt-4">
-                  <span itemProp="email">info@orangecountydebtcenter.com</span>
+                
+                {/* Email Contacts */}
+                <div className="space-y-2">
+                  <div className="flex items-center gap-3">
+                    <Mail className="w-4 h-4 text-neutral-500" />
+                    <div>
+                      <div className="text-white font-medium">
+                        <span itemProp="email">contact@orangecountydebtcenter.com</span>
+                      </div>
+                      <div className="text-xs text-neutral-500">Direct Contact</div>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <Mail className="w-4 h-4 text-neutral-600" />
+                    <div>
+                      <div className="text-neutral-300">
+                        info@orangecountydebtcenter.com
+                      </div>
+                      <div className="text-xs text-neutral-500">General Inquiries</div>
+                    </div>
+                  </div>
                 </div>
-                <div className="text-xs text-neutral-500">
-                  <span itemProp="areaServed">Orange County, California</span>
+                
+                {/* Address */}
+                <div className="flex items-start gap-3" itemProp="address" itemScope itemType="http://schema.org/PostalAddress">
+                  <MapPin className="w-4 h-4 text-neutral-500 mt-0.5" />
+                  <div>
+                    <div itemProp="streetAddress" className="text-neutral-300">400 Spectrum Center Drive</div>
+                    <div itemProp="streetAddress" className="text-neutral-300">Suite 1000</div>
+                    <div className="text-neutral-300">
+                      <span itemProp="addressLocality">Irvine</span>, 
+                      <span itemProp="addressRegion"> CA</span> 
+                      <span itemProp="postalCode"> 92618</span>
+                    </div>
+                    <meta itemProp="addressCountry" content="US" />
+                  </div>
+                </div>
+                
+                <div className="text-xs text-neutral-500 pt-2 border-t border-neutral-800">
+                  <span itemProp="areaServed">Serving Orange County, California</span>
                 </div>
               </div>
             </div>

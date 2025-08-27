@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown, Phone, Mail } from 'lucide-react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -135,8 +135,20 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden md:flex items-center">
+          {/* CTA Buttons */}
+          <div className="hidden md:flex items-center gap-4">
+            <div className="flex items-center gap-2 text-sm text-neutral-600">
+              <Phone className="w-4 h-4" />
+              <span className="font-mono">(844) 541-9236</span>
+            </div>
+            <div className="w-px h-6 bg-neutral-300"></div>
+            <a 
+              href="mailto:contact@orangecountydebtcenter.com"
+              className="flex items-center gap-2 text-sm text-neutral-600 hover:text-black transition-colors"
+            >
+              <Mail className="w-4 h-4" />
+              <span className="font-mono">Contact</span>
+            </a>
             <button
               onClick={handleConsultationClick}
               className="bg-black text-white px-6 py-2 text-sm font-mono uppercase tracking-wide hover:bg-neutral-800 transition-colors"
@@ -209,8 +221,21 @@ export default function Header() {
                 </div>
               ))}
               
-              {/* Mobile CTA */}
-              <div className="pt-4 border-t border-neutral-200">
+              {/* Mobile Contact & CTA */}
+              <div className="pt-4 border-t border-neutral-200 space-y-4">
+                <div className="flex items-center justify-center gap-6">
+                  <div className="flex items-center gap-2 text-sm text-neutral-600">
+                    <Phone className="w-4 h-4" />
+                    <span className="font-mono">(844) 541-9236</span>
+                  </div>
+                  <a 
+                    href="mailto:contact@orangecountydebtcenter.com"
+                    className="flex items-center gap-2 text-sm text-neutral-600 hover:text-black transition-colors"
+                  >
+                    <Mail className="w-4 h-4" />
+                    <span className="font-mono">Email</span>
+                  </a>
+                </div>
                 <button
                   onClick={(e) => {
                     handleConsultationClick(e);
