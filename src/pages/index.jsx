@@ -111,6 +111,14 @@ import OrangeCountyDebtSettlementGuide2025 from "./blog/OrangeCountyDebtSettleme
 // Latest Industry Analysis (August 2025)
 import DebtIndustryTrends2025Analysis from "./blog/DebtIndustryTrends2025Analysis";
 
+// Expert Articles (August 26, 2025)
+import ArticlesIndex from "./articles/index";
+import OrangeCountyDebtSettlementLawsArticle from "./articles/OrangeCountyDebtSettlementLaws";
+import DFPILicensedDebtSettlementArticle from "./articles/DFPILicensedDebtSettlement";
+import IrvineDebtReliefComparisonArticle from "./articles/IrvineDebtReliefComparison";
+import OrangeCountyMedicalDebtForgivenessArticle from "./articles/OrangeCountyMedicalDebtForgiveness";
+import SantaAnaCreditCardDebtSettlementArticle from "./articles/SantaAnaCreditCardDebtSettlement";
+
 import FountainValleyDebtSettlement from "./FountainValleyDebtSettlement";
 import GardenGroveDebtSettlement from "./GardenGroveDebtSettlement";
 import FullertonDebtSettlement from "./FullertonDebtSettlement";
@@ -258,6 +266,14 @@ DebtSettlementAfterDivorce2025: DebtSettlementAfterDivorce2025,    MedicalDebtFo
     MedicalDebtReliefHub: MedicalDebtReliefHub,
     AiVsHumanDebtSettlementStudy: AiVsHumanDebtSettlementStudy,
     NationalDebtSettlementTransparencyDatabase: NationalDebtSettlementTransparencyDatabase,
+    
+    // Expert Articles (August 26, 2025)
+    ArticlesIndex: ArticlesIndex,
+    OrangeCountyDebtSettlementLawsArticle: OrangeCountyDebtSettlementLawsArticle,
+    DFPILicensedDebtSettlementArticle: DFPILicensedDebtSettlementArticle,
+    IrvineDebtReliefComparisonArticle: IrvineDebtReliefComparisonArticle,
+    OrangeCountyMedicalDebtForgivenessArticle: OrangeCountyMedicalDebtForgivenessArticle,
+    SantaAnaCreditCardDebtSettlementArticle: SantaAnaCreditCardDebtSettlementArticle,
 }
 
 function _getCurrentPage(url) {
@@ -419,6 +435,14 @@ function PagesContent() {
                 <Route path="/medical-debt-relief-hub" element={<MedicalDebtReliefHub />} />
                 <Route path="/ai-vs-human-debt-settlement-study" element={<AiVsHumanDebtSettlementStudy />} />
                 <Route path="/national-debt-settlement-transparency-database" element={<NationalDebtSettlementTransparencyDatabase />} />
+                
+                {/* Expert Articles Section (August 26, 2025) */}
+                <Route path="/articles" element={<ArticlesIndex />} />
+                <Route path="/articles/orange-county-debt-settlement-laws" element={<OrangeCountyDebtSettlementLawsArticle />} />
+                <Route path="/articles/dfpi-licensed-debt-settlement-orange-county" element={<DFPILicensedDebtSettlementArticle />} />
+                <Route path="/articles/irvine-debt-relief-companies-comparison" element={<IrvineDebtReliefComparisonArticle />} />
+                <Route path="/articles/orange-county-medical-debt-forgiveness" element={<OrangeCountyMedicalDebtForgivenessArticle />} />
+                <Route path="/articles/santa-ana-credit-card-debt-settlement" element={<SantaAnaCreditCardDebtSettlementArticle />} />
                 
             </Routes>
         </Layout>
