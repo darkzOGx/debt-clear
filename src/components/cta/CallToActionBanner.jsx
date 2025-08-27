@@ -31,7 +31,7 @@ const CallToActionBanner = ({
     },
     {
       icon: MessageSquare,
-      action: "#contact-form",
+      action: "#calculator",
       text: "Get Free Analysis", 
       subtext: "Quick Online Form",
       primary: false,
@@ -39,7 +39,7 @@ const CallToActionBanner = ({
     },
     {
       icon: Calculator,
-      action: "#debt-calculator",
+      action: "#calculator",
       text: "Debt Calculator",
       subtext: "Estimate Your Savings",
       primary: false,
