@@ -136,18 +136,20 @@ export default function Header() {
           </nav>
 
           {/* CTA Buttons */}
-          <div className="hidden md:flex items-center gap-4">
-            <div className="flex items-center gap-2 text-sm text-neutral-600">
-              <Phone className="w-4 h-4" />
-              <span className="font-mono">(844) 541-9236</span>
-            </div>
-            <div className="w-px h-6 bg-neutral-300"></div>
+          <div className="hidden md:flex items-center gap-3">
+            <a 
+              href="tel:(844) 541-9236"
+              className="p-2 text-neutral-600 hover:text-black transition-colors"
+              title="Call (844) 541-9236"
+            >
+              <Phone className="w-5 h-5" />
+            </a>
             <a 
               href="mailto:contact@orangecountydebtcenter.com"
-              className="flex items-center gap-2 text-sm text-neutral-600 hover:text-black transition-colors"
+              className="p-2 text-neutral-600 hover:text-black transition-colors"
+              title="Email contact@orangecountydebtcenter.com"
             >
-              <Mail className="w-4 h-4" />
-              <span className="font-mono">Contact</span>
+              <Mail className="w-5 h-5" />
             </a>
             <button
               onClick={handleConsultationClick}
@@ -223,17 +225,22 @@ export default function Header() {
               
               {/* Mobile Contact & CTA */}
               <div className="pt-4 border-t border-neutral-200 space-y-4">
-                <div className="flex items-center justify-center gap-6">
-                  <div className="flex items-center gap-2 text-sm text-neutral-600">
-                    <Phone className="w-4 h-4" />
-                    <span className="font-mono">(844) 541-9236</span>
-                  </div>
+                <div className="flex items-center justify-center gap-8">
+                  <a 
+                    href="tel:(844) 541-9236"
+                    className="flex flex-col items-center gap-1 text-neutral-600 hover:text-black transition-colors"
+                    title="Call (844) 541-9236"
+                  >
+                    <Phone className="w-6 h-6" />
+                    <span className="text-xs font-mono">Call</span>
+                  </a>
                   <a 
                     href="mailto:contact@orangecountydebtcenter.com"
-                    className="flex items-center gap-2 text-sm text-neutral-600 hover:text-black transition-colors"
+                    className="flex flex-col items-center gap-1 text-neutral-600 hover:text-black transition-colors"
+                    title="Email Us"
                   >
-                    <Mail className="w-4 h-4" />
-                    <span className="font-mono">Email</span>
+                    <Mail className="w-6 h-6" />
+                    <span className="text-xs font-mono">Email</span>
                   </a>
                 </div>
                 <button
