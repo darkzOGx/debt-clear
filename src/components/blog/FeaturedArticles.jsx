@@ -117,7 +117,7 @@ const FeaturedArticles = () => {
           <div className="grid lg:grid-cols-3 gap-8 w-full">
           {visibleArticles.map((article, index) => (
             <motion.article
-              key={`${article.slug}-${currentIndex}-${index}`}
+              key={article.slug}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
