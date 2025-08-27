@@ -75,6 +75,12 @@ const FeaturedArticles = () => {
   };
 
   const visibleArticles = featuredArticles.slice(currentIndex, currentIndex + 3);
+  
+  // Debug logging
+  console.log('FeaturedArticles - Total articles:', featuredArticles.length);
+  console.log('FeaturedArticles - CurrentIndex:', currentIndex);
+  console.log('FeaturedArticles - VisibleArticles count:', visibleArticles.length);
+  console.log('FeaturedArticles - VisibleArticles titles:', visibleArticles.map(a => a.title.substring(0, 30) + '...'));
 
   return (
     <section className="py-16 bg-gradient-to-br from-blue-50 to-white border-y border-blue-100">
