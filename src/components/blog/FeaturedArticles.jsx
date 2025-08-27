@@ -146,7 +146,7 @@ const FeaturedArticles = () => {
                     
                     {/* Title */}
                     <h3 className="text-xl font-bold text-gray-900 mb-3 leading-tight group-hover:text-blue-600 transition-colors">
-                      {article.title}
+                      {article.title} [{article.id}]
                     </h3>
                     
                     {/* Excerpt */}
