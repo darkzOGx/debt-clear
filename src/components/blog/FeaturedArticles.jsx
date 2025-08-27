@@ -65,24 +65,16 @@ const FeaturedArticles = () => {
   ];
 
   const goToPrevious = () => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex === 0 ? featuredArticles.length - 3 : prevIndex - 1
-    );
+    setCurrentIndex((prevIndex) => Math.max(0, prevIndex - 1));
   };
 
   const goToNext = () => {
     setCurrentIndex((prevIndex) => 
-      prevIndex >= featuredArticles.length - 3 ? 0 : prevIndex + 1
+      Math.min(featuredArticles.length - 3, prevIndex + 1)
     );
   };
 
   const visibleArticles = featuredArticles.slice(currentIndex, currentIndex + 3);
-  
-  // If we don't have 3 articles to show, wrap around
-  if (visibleArticles.length < 3) {
-    const remaining = 3 - visibleArticles.length;
-    visibleArticles.push(...featuredArticles.slice(0, remaining));
-  }
 
   return (
     <section className="py-16 bg-gradient-to-br from-blue-50 to-white border-y border-blue-100">
@@ -108,17 +100,31 @@ const FeaturedArticles = () => {
           <div className="flex items-center gap-2">
             <button
               onClick={goToPrevious}
-              className="p-2 rounded-full border border-gray-300 hover:bg-blue-50 hover:border-blue-300 transition-colors"
+              disabled={currentIndex === 0}
+              className={`p-2 rounded-full border transition-colors ${
+                currentIndex === 0 
+                  ? 'border-gray-200 cursor-not-allowed opacity-50' 
+                  : 'border-gray-300 hover:bg-blue-50 hover:border-blue-300'
+              }`}
               aria-label="Previous articles"
             >
-              <ChevronLeft className="w-5 h-5 text-gray-600" />
+              <ChevronLeft className={`w-5 h-5 ${
+                currentIndex === 0 ? 'text-gray-400' : 'text-gray-600'
+              }`} />
             </button>
             <button
               onClick={goToNext}
-              className="p-2 rounded-full border border-gray-300 hover:bg-blue-50 hover:border-blue-300 transition-colors"
+              disabled={currentIndex >= featuredArticles.length - 3}
+              className={`p-2 rounded-full border transition-colors ${
+                currentIndex >= featuredArticles.length - 3
+                  ? 'border-gray-200 cursor-not-allowed opacity-50' 
+                  : 'border-gray-300 hover:bg-blue-50 hover:border-blue-300'
+              }`}
               aria-label="Next articles"
             >
-              <ChevronRight className="w-5 h-5 text-gray-600" />
+              <ChevronRight className={`w-5 h-5 ${
+                currentIndex >= featuredArticles.length - 3 ? 'text-gray-400' : 'text-gray-600'
+              }`} />
             </button>
           </div>
         </div>
@@ -198,16 +204,16 @@ const FeaturedArticles = () => {
 
         {/* Progress Indicators */}
         <div className="flex justify-center mt-8 gap-2">
-          {Array.from({ length: Math.ceil(featuredArticles.length / 3) }, (_, i) => (
+          {Array.from({ length: featuredArticles.length - 2 }, (_, i) => (
             <button
               key={i}
-              onClick={() => setCurrentIndex(i * 3)}
+              onClick={() => setCurrentIndex(i)}
               className={`w-2 h-2 rounded-full transition-all ${
-                Math.floor(currentIndex / 3) === i 
+                currentIndex === i 
                   ? 'bg-blue-600 w-6' 
                   : 'bg-gray-300 hover:bg-gray-400'
               }`}
-              aria-label={`Go to slide ${i + 1}`}
+              aria-label={`Go to position ${i + 1}`}
             />
           ))}
         </div>
