@@ -81,56 +81,40 @@ const FeaturedArticles = () => {
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="flex items-center justify-between mb-12">
-          <div>
-            <div className="flex items-center gap-2 mb-2">
-              <Star className="w-5 h-5 text-blue-600 fill-current" />
-              <span className="text-sm font-medium text-blue-600 uppercase tracking-wide">Featured Articles</span>
-            </div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">
-              Expert Debt Settlement Insights
-            </h2>
-            <p className="text-gray-600 max-w-2xl">
-              In-depth guides from 15+ years of helping Orange County families achieve financial freedom. 
-              All articles written by DFPI-licensed professionals.
-            </p>
+        <div className="mb-12">
+          <div className="flex items-center gap-2 mb-2">
+            <Star className="w-5 h-5 text-blue-600 fill-current" />
+            <span className="text-sm font-medium text-blue-600 uppercase tracking-wide">Featured Articles</span>
           </div>
-          
-          {/* Navigation Controls */}
-          <div className="flex items-center gap-2">
-            <button
-              onClick={goToPrevious}
-              disabled={currentIndex === 0}
-              className={`p-2 rounded-full border transition-colors ${
-                currentIndex === 0 
-                  ? 'border-gray-200 cursor-not-allowed opacity-50' 
-                  : 'border-gray-300 hover:bg-blue-50 hover:border-blue-300'
-              }`}
-              aria-label="Previous articles"
-            >
-              <ChevronLeft className={`w-5 h-5 ${
-                currentIndex === 0 ? 'text-gray-400' : 'text-gray-600'
-              }`} />
-            </button>
-            <button
-              onClick={goToNext}
-              disabled={currentIndex >= featuredArticles.length - 3}
-              className={`p-2 rounded-full border transition-colors ${
-                currentIndex >= featuredArticles.length - 3
-                  ? 'border-gray-200 cursor-not-allowed opacity-50' 
-                  : 'border-gray-300 hover:bg-blue-50 hover:border-blue-300'
-              }`}
-              aria-label="Next articles"
-            >
-              <ChevronRight className={`w-5 h-5 ${
-                currentIndex >= featuredArticles.length - 3 ? 'text-gray-400' : 'text-gray-600'
-              }`} />
-            </button>
-          </div>
+          <h2 className="text-3xl font-bold text-gray-900 mb-2">
+            Expert Debt Settlement Insights
+          </h2>
+          <p className="text-gray-600 max-w-2xl">
+            In-depth guides from 15+ years of helping Orange County families achieve financial freedom. 
+            All articles written by DFPI-licensed professionals.
+          </p>
         </div>
 
-        {/* Articles Grid */}
-        <div className="grid lg:grid-cols-3 gap-8">
+        {/* Articles Grid with Side Navigation */}
+        <div className="relative flex items-center">
+          {/* Left Navigation Button */}
+          <button
+            onClick={goToPrevious}
+            disabled={currentIndex === 0}
+            className={`absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 p-3 rounded-full bg-white shadow-lg border transition-all ${
+              currentIndex === 0 
+                ? 'border-gray-200 cursor-not-allowed opacity-50' 
+                : 'border-gray-300 hover:bg-blue-50 hover:border-blue-300 hover:shadow-xl'
+            }`}
+            aria-label="Previous articles"
+          >
+            <ChevronLeft className={`w-6 h-6 ${
+              currentIndex === 0 ? 'text-gray-400' : 'text-gray-600'
+            }`} />
+          </button>
+
+          {/* Articles Grid */}
+          <div className="grid lg:grid-cols-3 gap-8 w-full">
           {visibleArticles.map((article, index) => (
             <motion.article
               key={`${article.slug}-${currentIndex}-${index}`}
@@ -200,6 +184,23 @@ const FeaturedArticles = () => {
               </Link>
             </motion.article>
           ))}
+          </div>
+
+          {/* Right Navigation Button */}
+          <button
+            onClick={goToNext}
+            disabled={currentIndex >= featuredArticles.length - 3}
+            className={`absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 p-3 rounded-full bg-white shadow-lg border transition-all ${
+              currentIndex >= featuredArticles.length - 3
+                ? 'border-gray-200 cursor-not-allowed opacity-50' 
+                : 'border-gray-300 hover:bg-blue-50 hover:border-blue-300 hover:shadow-xl'
+            }`}
+            aria-label="Next articles"
+          >
+            <ChevronRight className={`w-6 h-6 ${
+              currentIndex >= featuredArticles.length - 3 ? 'text-gray-400' : 'text-gray-600'
+            }`} />
+          </button>
         </div>
 
         {/* Progress Indicators */}
