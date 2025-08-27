@@ -67,20 +67,29 @@ const FEATURED_ARTICLES = [
 ];
 
 const FeaturedArticles = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentPage, setCurrentPage] = useState(0);
+  
+  // Calculate how many pages we need (5 articles, 3 per page = 2 pages)
+  const articlesPerPage = 3;
+  const totalPages = Math.ceil(FEATURED_ARTICLES.length / articlesPerPage);
   
   const goToPrevious = () => {
-    setCurrentIndex((prevIndex) => Math.max(0, prevIndex - 1));
+    setCurrentPage((prevPage) => Math.max(0, prevPage - 1));
   };
 
   const goToNext = () => {
-    setCurrentIndex((prevIndex) => 
-      Math.min(FEATURED_ARTICLES.length - 3, prevIndex + 1)
-    );
+    setCurrentPage((prevPage) => Math.min(totalPages - 1, prevPage + 1));
   };
 
-  const visibleArticles = FEATURED_ARTICLES.slice(currentIndex, currentIndex + 3);
-  const maxIndex = Math.max(0, FEATURED_ARTICLES.length - 3);
+  // Get the articles for current page
+  const startIndex = currentPage * articlesPerPage;
+  const endIndex = Math.min(startIndex + articlesPerPage, FEATURED_ARTICLES.length);
+  const visibleArticles = FEATURED_ARTICLES.slice(startIndex, endIndex);
+  
+  // Pad with empty slots if we have fewer than 3 articles on the last page
+  while (visibleArticles.length < articlesPerPage && currentPage === totalPages - 1) {
+    visibleArticles.push(null);
+  }
 
   return (
     <section className="py-16 bg-gradient-to-br from-blue-50 to-white border-y border-blue-100">
@@ -106,121 +115,125 @@ const FeaturedArticles = () => {
           {/* Left Navigation Button */}
           <button
             onClick={goToPrevious}
-            disabled={currentIndex === 0}
+            disabled={currentPage === 0}
             className={`absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 p-3 rounded-full bg-white shadow-lg border transition-all ${
-              currentIndex === 0 
+              currentPage === 0 
                 ? 'border-gray-200 cursor-not-allowed opacity-50' 
                 : 'border-gray-300 hover:bg-blue-50 hover:border-blue-300 hover:shadow-xl'
             }`}
             aria-label="Previous articles"
           >
             <ChevronLeft className={`w-6 h-6 ${
-              currentIndex === 0 ? 'text-gray-400' : 'text-gray-600'
+              currentPage === 0 ? 'text-gray-400' : 'text-gray-600'
             }`} />
           </button>
 
           {/* Articles Grid */}
           <div className="grid lg:grid-cols-3 gap-8 w-full">
           {visibleArticles.map((article, index) => (
-            <motion.article
-              key={article.id}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4, delay: index * 0.1 }}
-              className="group"
-            >
-              <Link to={article.slug} className="block h-full">
-                <div className="bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 h-full flex flex-col">
-                  
-                  {/* Article Header */}
-                  <div className="p-6 flex-1">
-                    {/* Badge & Category */}
-                    <div className="flex items-center gap-3 mb-4">
-                      <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-medium">
-                        {article.badge}
-                      </span>
-                      <span className="text-blue-600 text-sm font-medium">
-                        {article.category}
-                      </span>
-                    </div>
+            article ? (
+              <motion.article
+                key={article.id}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: index * 0.1 }}
+                className="group"
+              >
+                <Link to={article.slug} className="block h-full">
+                  <div className="bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 h-full flex flex-col">
                     
-                    {/* Title */}
-                    <h3 className="text-xl font-bold text-gray-900 mb-3 leading-tight group-hover:text-blue-600 transition-colors">
-                      {article.title} [{article.id}]
-                    </h3>
-                    
-                    {/* Excerpt */}
-                    <p className="text-gray-600 mb-6 leading-relaxed line-clamp-3">
-                      {article.excerpt}
-                    </p>
-                    
-                    {/* Author */}
-                    <div className="flex items-center gap-2 mb-4">
-                      <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
-                        <span className="text-blue-600 font-medium text-sm">DE</span>
-                      </div>
-                      <div>
-                        <p className="text-sm font-medium text-gray-900">{article.author}</p>
-                        <p className="text-xs text-gray-500">15+ Years Experience</p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* Article Footer */}
-                  <div className="p-6 pt-0">
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-4 text-sm text-gray-500">
-                        <div className="flex items-center gap-1">
-                          <Calendar className="w-4 h-4" />
-                          <span>{article.date}</span>
-                        </div>
-                        <div className="flex items-center gap-1">
-                          <Clock className="w-4 h-4" />
-                          <span>{article.readTime}</span>
-                        </div>
+                    {/* Article Header */}
+                    <div className="p-6 flex-1">
+                      {/* Badge & Category */}
+                      <div className="flex items-center gap-3 mb-4">
+                        <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-medium">
+                          {article.badge}
+                        </span>
+                        <span className="text-blue-600 text-sm font-medium">
+                          {article.category}
+                        </span>
                       </div>
                       
-                      <div className="flex items-center gap-2 text-blue-600 font-medium text-sm group-hover:text-blue-700">
-                        Read Article
-                        <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                      {/* Title */}
+                      <h3 className="text-xl font-bold text-gray-900 mb-3 leading-tight group-hover:text-blue-600 transition-colors">
+                        {article.title}
+                      </h3>
+                      
+                      {/* Excerpt */}
+                      <p className="text-gray-600 mb-6 leading-relaxed line-clamp-3">
+                        {article.excerpt}
+                      </p>
+                      
+                      {/* Author */}
+                      <div className="flex items-center gap-2 mb-4">
+                        <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
+                          <span className="text-blue-600 font-medium text-sm">DE</span>
+                        </div>
+                        <div>
+                          <p className="text-sm font-medium text-gray-900">{article.author}</p>
+                          <p className="text-xs text-gray-500">15+ Years Experience</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Article Footer */}
+                    <div className="p-6 pt-0">
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-4 text-sm text-gray-500">
+                          <div className="flex items-center gap-1">
+                            <Calendar className="w-4 h-4" />
+                            <span>{article.date}</span>
+                          </div>
+                          <div className="flex items-center gap-1">
+                            <Clock className="w-4 h-4" />
+                            <span>{article.readTime}</span>
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-center gap-2 text-blue-600 font-medium text-sm group-hover:text-blue-700">
+                          Read Article
+                          <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </Link>
-            </motion.article>
+                </Link>
+              </motion.article>
+            ) : (
+              <div key={`empty-${index}`} className="invisible" />
+            )
           ))}
           </div>
 
           {/* Right Navigation Button */}
           <button
             onClick={goToNext}
-            disabled={currentIndex >= maxIndex}
+            disabled={currentPage >= totalPages - 1}
             className={`absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 p-3 rounded-full bg-white shadow-lg border transition-all ${
-              currentIndex >= maxIndex
+              currentPage >= totalPages - 1
                 ? 'border-gray-200 cursor-not-allowed opacity-50' 
                 : 'border-gray-300 hover:bg-blue-50 hover:border-blue-300 hover:shadow-xl'
             }`}
             aria-label="Next articles"
           >
             <ChevronRight className={`w-6 h-6 ${
-              currentIndex >= maxIndex ? 'text-gray-400' : 'text-gray-600'
+              currentPage >= totalPages - 1 ? 'text-gray-400' : 'text-gray-600'
             }`} />
           </button>
         </div>
 
         {/* Progress Indicators */}
         <div className="flex justify-center mt-8 gap-2">
-          {Array.from({ length: maxIndex + 1 }, (_, i) => (
+          {Array.from({ length: totalPages }, (_, i) => (
             <button
               key={i}
-              onClick={() => setCurrentIndex(i)}
+              onClick={() => setCurrentPage(i)}
               className={`w-2 h-2 rounded-full transition-all ${
-                currentIndex === i 
+                currentPage === i 
                   ? 'bg-blue-600 w-6' 
                   : 'bg-gray-300 hover:bg-gray-400'
               }`}
-              aria-label={`Go to position ${i + 1}`}
+              aria-label={`Go to page ${i + 1}`}
             />
           ))}
         </div>
