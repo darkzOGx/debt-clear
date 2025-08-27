@@ -31,7 +31,7 @@ const CallToActionBanner = ({
     },
     {
       icon: MessageSquare,
-      action: "#calculator",
+      action: "#home-consultation",
       text: "Get Free Analysis", 
       subtext: "Quick Online Form",
       primary: false,
