@@ -145,11 +145,11 @@ const FeaturedArticles = () => {
                     {/* Article Header */}
                     <div className="p-6 flex-1">
                       {/* Badge & Category */}
-                      <div className="flex items-center gap-3 mb-4">
-                        <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-medium">
+                      <div className="flex items-center gap-2 mb-3">
+                        <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-semibold">
                           {article.badge}
                         </span>
-                        <span className="text-blue-600 text-sm font-medium">
+                        <span className="text-gray-600 text-sm">
                           {article.category}
                         </span>
                       </div>
@@ -238,16 +238,6 @@ const FeaturedArticles = () => {
           ))}
         </div>
 
-        {/* View All Articles CTA */}
-        <div className="text-center mt-8">
-          <Link
-            to="/blog"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            Browse All Articles
-            <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
 
       </div>
     </section>
