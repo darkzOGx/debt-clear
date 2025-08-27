@@ -401,6 +401,13 @@ function PagesContent() {
                 <Route path="/blog/orange-county-debt-settlement-guide-2025" element={<OrangeCountyDebtSettlementGuide2025 />} />
                 <Route path="/blog/debt-industry-trends-2025-analysis" element={<DebtIndustryTrends2025Analysis />} />
                 
+                {/* Featured Expert Articles (August 26, 2025) - Blog Routes */}
+                <Route path="/blog/orange-county-debt-settlement-laws" element={<OrangeCountyDebtSettlementLawsArticle />} />
+                <Route path="/blog/dfpi-licensed-debt-settlement-orange-county" element={<DFPILicensedDebtSettlementArticle />} />
+                <Route path="/blog/irvine-debt-relief-companies-comparison" element={<IrvineDebtReliefComparisonArticle />} />
+                <Route path="/blog/orange-county-medical-debt-forgiveness" element={<OrangeCountyMedicalDebtForgivenessArticle />} />
+                <Route path="/blog/santa-ana-credit-card-debt-settlement" element={<SantaAnaCreditCardDebtSettlementArticle />} />
+                
                 <Route path="/blog/test" element={<TestBlogPost />} />
                 <Route path="/test-route" element={<TestRoute />} />
                 <Route path="/debt-tools" element={<DebtTools />} />

@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Calendar, Clock, ArrowLeft, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import FeaturedArticles from '../components/blog/FeaturedArticles';
 
 export default function BlogResources() {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -638,6 +639,9 @@ export default function BlogResources() {
           </p>
         </div>
       </section>
+
+      {/* Featured Articles Section */}
+      <FeaturedArticles />
 
       {/* Browse by Category */}
       <section className="py-12 bg-neutral-50 border-t border-neutral-200">
