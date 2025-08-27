@@ -94,22 +94,22 @@ export default function AiVsTraditionalDebtSettlement() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
-              <Brain className="w-12 h-12 text-black mx-auto mb-4" />
-              <div className="text-3xl font-bold text-black mb-2">58%</div>
-              <div className="text-sm font-medium text-black mb-1">AI Debt Reduction</div>
-              <div className="text-xs text-black">vs 43% traditional average</div>
+              <Brain className="w-12 h-12 text-white mx-auto mb-4" />
+              <div className="text-3xl font-bold text-white mb-2">58%</div>
+              <div className="text-sm font-medium text-white mb-1">AI Debt Reduction</div>
+              <div className="text-xs text-white">vs 43% traditional average</div>
             </div>
             <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
-              <TrendingUp className="w-12 h-12 text-black mx-auto mb-4" />
-              <div className="text-3xl font-bold text-black mb-2">89%</div>
-              <div className="text-sm font-medium text-black mb-1">AI Success Rate</div>
-              <div className="text-xs text-black">vs 67% traditional</div>
+              <TrendingUp className="w-12 h-12 text-white mx-auto mb-4" />
+              <div className="text-3xl font-bold text-white mb-2">89%</div>
+              <div className="text-sm font-medium text-white mb-1">AI Success Rate</div>
+              <div className="text-xs text-white">vs 67% traditional</div>
             </div>
             <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
-              <Users className="w-12 h-12 text-black mx-auto mb-4" />
-              <div className="text-3xl font-bold text-black mb-2">500</div>
-              <div className="text-sm font-medium text-black mb-1">Cases Analyzed</div>
-              <div className="text-xs text-black">Orange County residents</div>
+              <Users className="w-12 h-12 text-white mx-auto mb-4" />
+              <div className="text-3xl font-bold text-white mb-2">500</div>
+              <div className="text-sm font-medium text-white mb-1">Cases Analyzed</div>
+              <div className="text-xs text-white">Orange County residents</div>
             </div>
             <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-amber-200 hover:shadow-lg transition-all duration-300">
               <DollarSign className="w-12 h-12 text-amber-600 mx-auto mb-4" />

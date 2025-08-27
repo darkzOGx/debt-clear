@@ -94,28 +94,28 @@ export default function TaxFormsDebtSettlementOrangeCounty() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
-              <FileText className="w-12 h-12 text-black mx-auto mb-4" />
-              <div className="text-3xl font-bold text-black mb-2">$600</div>
-              <div className="text-sm font-medium text-black mb-1">Minimum Reporting</div>
-              <div className="text-xs text-black">1099-C threshold</div>
+              <FileText className="w-12 h-12 text-white mx-auto mb-4" />
+              <div className="text-3xl font-bold text-white mb-2">$600</div>
+              <div className="text-sm font-medium text-white mb-1">Minimum Reporting</div>
+              <div className="text-xs text-white">1099-C threshold</div>
             </div>
             <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
-              <Calculator className="w-12 h-12 text-black mx-auto mb-4" />
-              <div className="text-3xl font-bold text-black mb-2">45%</div>
-              <div className="text-sm font-medium text-black mb-1">Max Tax Rate</div>
-              <div className="text-xs text-black">Federal + CA combined</div>
+              <Calculator className="w-12 h-12 text-white mx-auto mb-4" />
+              <div className="text-3xl font-bold text-white mb-2">45%</div>
+              <div className="text-sm font-medium text-white mb-1">Max Tax Rate</div>
+              <div className="text-xs text-white">Federal + CA combined</div>
             </div>
             <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
-              <CheckCircle className="w-12 h-12 text-black mx-auto mb-4" />
-              <div className="text-3xl font-bold text-black mb-2">100%</div>
-              <div className="text-sm font-medium text-black mb-1">Insolvency Exclusion</div>
-              <div className="text-xs text-black">When properly documented</div>
+              <CheckCircle className="w-12 h-12 text-white mx-auto mb-4" />
+              <div className="text-3xl font-bold text-white mb-2">100%</div>
+              <div className="text-sm font-medium text-white mb-1">Insolvency Exclusion</div>
+              <div className="text-xs text-white">When properly documented</div>
             </div>
             <div className="text-center p-8 bg-gradient-to-br from-black to-neutral-900 rounded-lg border border-neutral-200 hover:shadow-lg transition-all duration-300">
-              <AlertTriangle className="w-12 h-12 text-black mx-auto mb-4" />
-              <div className="text-3xl font-bold text-black mb-2">Form 982</div>
-              <div className="text-sm font-medium text-black mb-1">Required Filing</div>
-              <div className="text-xs text-black">For exclusions</div>
+              <AlertTriangle className="w-12 h-12 text-white mx-auto mb-4" />
+              <div className="text-3xl font-bold text-white mb-2">Form 982</div>
+              <div className="text-sm font-medium text-white mb-1">Required Filing</div>
+              <div className="text-xs text-white">For exclusions</div>
             </div>
           </div>
         </div>
