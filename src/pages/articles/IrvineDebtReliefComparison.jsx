@@ -226,6 +226,17 @@ const IrvineDebtReliefComparison = () => {
               Remember, companies claiming dramatically better results than these ranges are likely being misleading. Legitimate firms will explain that results depend on numerous factors specific to your situation.
             </p>
 
+            <h2>Resources for Orange County Residents</h2>
+
+            <p>If you're considering debt settlement in Orange County, take advantage of these local resources:</p>
+
+            <ul>
+              <li><a href="https://www.ocbar.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-semibold">Orange County Bar Association</a>: Lawyer referral service for debt and bankruptcy attorneys</li>
+              <li><a href="https://dfpi.ca.gov" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-semibold">California Department of Financial Protection</a>: Verify company licensing and file complaints</li>
+              <li><a href="https://www.bbb.org/us/ca/santa-ana" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-semibold">Better Business Bureau</a>: Check company ratings and complaint history</li>
+              <li><a href="https://www.nfcc.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-semibold">National Foundation for Credit Counseling</a>: Free nonprofit credit counseling services</li>
+            </ul>
+
             <h2>The Importance of Local Market Knowledge</h2>
 
             <p><strong>Irvine debt relief companies comparison</strong> should heavily weight local market knowledge. Here's why this matters:</p>

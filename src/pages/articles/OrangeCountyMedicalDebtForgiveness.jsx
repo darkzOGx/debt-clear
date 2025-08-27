@@ -271,6 +271,17 @@ const OrangeCountyMedicalDebtForgiveness = () => {
               A family from Lake Forest filed Chapter 7 bankruptcy after their child's cancer treatment resulted in $340,000 in medical debt despite insurance coverage. The bankruptcy eliminated the medical debt entirely, allowing them to focus on their child's recovery rather than financial stress.
             </p>
 
+            <h2>Resources for Orange County Residents</h2>
+
+            <p>If you're considering debt settlement in Orange County, take advantage of these local resources:</p>
+
+            <ul>
+              <li><a href="https://www.ocbar.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-semibold">Orange County Bar Association</a>: Lawyer referral service for debt and bankruptcy attorneys</li>
+              <li><a href="https://dfpi.ca.gov" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-semibold">California Department of Financial Protection</a>: Verify company licensing and file complaints</li>
+              <li><a href="https://www.bbb.org/us/ca/santa-ana" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-semibold">Better Business Bureau</a>: Check company ratings and complaint history</li>
+              <li><a href="https://www.nfcc.org" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-semibold">National Foundation for Credit Counseling</a>: Free nonprofit credit counseling services</li>
+            </ul>
+
             <h2>Creating Payment Plans That Work</h2>
 
             <p>When <strong>Orange County medical debt forgiveness</strong> isn't possible, strategic payment planning can make debt manageable:</p>
