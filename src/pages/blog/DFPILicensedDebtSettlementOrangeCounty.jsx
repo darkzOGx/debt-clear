@@ -229,21 +229,6 @@ export default function DFPILicensedDebtSettlementOrangeCounty() {
         </div>
       </article>
 
-      {/* Schedule Debt Analysis Session Form */}
-      <section id="consultation" className="py-20 bg-gradient-to-br from-gray-50 to-white border-y">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Schedule Your Free Debt Analysis Session
-            </h2>
-            <p className="text-xl text-gray-600">
-              Confidential consultation with certified debt specialist. Comprehensive analysis of your 
-              debt profile with evidence-based reduction proposals.
-            </p>
-          </div>
-          <ConsultationForm />
-        </div>
-      </section>
 
       {/* How to Verify Section */}
       <section className="py-16 bg-white">
@@ -397,6 +382,30 @@ export default function DFPILicensedDebtSettlementOrangeCounty() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Schedule Debt Analysis Session Form - Moved to Bottom */}
+      <section id="consultation" className="py-20 bg-gradient-to-br from-black to-neutral-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <div className="w-2 h-2 bg-white"></div>
+              <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-mono">
+                RESEARCH CONSULTATION
+              </span>
+            </div>
+            <h2 className="text-3xl font-bold text-white mb-4">
+              Schedule Debt
+              <br />
+              <span className="text-neutral-400">Analysis Session</span>
+            </h2>
+            <p className="text-xl text-neutral-300">
+              Confidential consultation with certified debt specialist. Comprehensive analysis of your 
+              debt profile with evidence-based reduction proposals.
+            </p>
+          </div>
+          <ConsultationForm />
         </div>
       </section>
 
