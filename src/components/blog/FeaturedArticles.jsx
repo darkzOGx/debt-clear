@@ -3,84 +3,84 @@ import { motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Calendar, Clock, ArrowRight, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+const FEATURED_ARTICLES = [
+  {
+    id: 1,
+    title: "Orange County Debt Settlement Laws: What Every Resident Needs to Know in 2025",
+    excerpt: "Complete guide to understanding California debt settlement regulations, DFPI licensing requirements, and your legal rights as an Orange County resident.",
+    slug: "/blog/orange-county-debt-settlement-laws",
+    date: "Aug 26, 2025",
+    readTime: "12 min read",
+    category: "Legal & Regulations",
+    author: "Licensed Debt Settlement Expert",
+    featured: true,
+    badge: "Expert Guide"
+  },
+  {
+    id: 2,
+    title: "DFPI Licensed Debt Settlement Orange County: Why Licensing Matters",
+    excerpt: "Learn the critical differences between licensed and unlicensed debt settlement companies and how DFPI licensing protects your financial future.",
+    slug: "/blog/dfpi-licensed-debt-settlement-orange-county",
+    date: "Aug 26, 2025", 
+    readTime: "10 min read",
+    category: "Licensing & Protection",
+    author: "Licensed Debt Settlement Expert",
+    featured: true,
+    badge: "Consumer Protection"
+  },
+  {
+    id: 3,
+    title: "Irvine Debt Relief Companies Comparison: Your 2025 Guide",
+    excerpt: "Expert comparison of debt relief options for Irvine residents, including national vs. local companies and what to look for when choosing a partner.",
+    slug: "/blog/irvine-debt-relief-companies-comparison",
+    date: "Aug 26, 2025",
+    readTime: "11 min read", 
+    category: "Local Guides",
+    author: "Licensed Debt Settlement Expert",
+    featured: true,
+    badge: "Local Expert"
+  },
+  {
+    id: 4,
+    title: "Orange County Medical Debt Forgiveness: Complete Healthcare Debt Relief Guide",
+    excerpt: "Comprehensive guide to medical debt relief in Orange County, including hospital charity programs, settlement strategies, and legal protections.",
+    slug: "/blog/orange-county-medical-debt-forgiveness",
+    date: "Aug 26, 2025",
+    readTime: "13 min read",
+    category: "Medical Debt",
+    author: "Licensed Debt Settlement Expert", 
+    featured: true,
+    badge: "Medical Debt Specialist"
+  },
+  {
+    id: 5,
+    title: "Santa Ana Credit Card Debt Settlement: Your Local Guide to Financial Recovery",
+    excerpt: "Detailed guide to credit card debt settlement for Santa Ana residents, covering the process, legal protections, and success strategies.",
+    slug: "/blog/santa-ana-credit-card-debt-settlement",
+    date: "Aug 26, 2025",
+    readTime: "12 min read",
+    category: "Credit Card Debt",
+    author: "Licensed Debt Settlement Expert",
+    featured: true,
+    badge: "Bilingual Services"
+  }
+];
+
 const FeaturedArticles = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   
-  const featuredArticles = [
-    {
-      title: "Orange County Debt Settlement Laws: What Every Resident Needs to Know in 2025",
-      excerpt: "Complete guide to understanding California debt settlement regulations, DFPI licensing requirements, and your legal rights as an Orange County resident.",
-      slug: "/blog/orange-county-debt-settlement-laws",
-      date: "Aug 26, 2025",
-      readTime: "12 min read",
-      category: "Legal & Regulations",
-      author: "Licensed Debt Settlement Expert",
-      featured: true,
-      badge: "Expert Guide"
-    },
-    {
-      title: "DFPI Licensed Debt Settlement Orange County: Why Licensing Matters",
-      excerpt: "Learn the critical differences between licensed and unlicensed debt settlement companies and how DFPI licensing protects your financial future.",
-      slug: "/blog/dfpi-licensed-debt-settlement-orange-county",
-      date: "Aug 26, 2025", 
-      readTime: "10 min read",
-      category: "Licensing & Protection",
-      author: "Licensed Debt Settlement Expert",
-      featured: true,
-      badge: "Consumer Protection"
-    },
-    {
-      title: "Irvine Debt Relief Companies Comparison: Your 2025 Guide",
-      excerpt: "Expert comparison of debt relief options for Irvine residents, including national vs. local companies and what to look for when choosing a partner.",
-      slug: "/blog/irvine-debt-relief-companies-comparison",
-      date: "Aug 26, 2025",
-      readTime: "11 min read", 
-      category: "Local Guides",
-      author: "Licensed Debt Settlement Expert",
-      featured: true,
-      badge: "Local Expert"
-    },
-    {
-      title: "Orange County Medical Debt Forgiveness: Complete Healthcare Debt Relief Guide",
-      excerpt: "Comprehensive guide to medical debt relief in Orange County, including hospital charity programs, settlement strategies, and legal protections.",
-      slug: "/blog/orange-county-medical-debt-forgiveness",
-      date: "Aug 26, 2025",
-      readTime: "13 min read",
-      category: "Medical Debt",
-      author: "Licensed Debt Settlement Expert", 
-      featured: true,
-      badge: "Medical Debt Specialist"
-    },
-    {
-      title: "Santa Ana Credit Card Debt Settlement: Your Local Guide to Financial Recovery",
-      excerpt: "Detailed guide to credit card debt settlement for Santa Ana residents, covering the process, legal protections, and success strategies.",
-      slug: "/blog/santa-ana-credit-card-debt-settlement",
-      date: "Aug 26, 2025",
-      readTime: "12 min read",
-      category: "Credit Card Debt",
-      author: "Licensed Debt Settlement Expert",
-      featured: true,
-      badge: "Bilingual Services"
-    }
-  ];
-
   const goToPrevious = () => {
     setCurrentIndex((prevIndex) => Math.max(0, prevIndex - 1));
   };
 
   const goToNext = () => {
     setCurrentIndex((prevIndex) => 
-      Math.min(featuredArticles.length - 3, prevIndex + 1)
+      Math.min(FEATURED_ARTICLES.length - 3, prevIndex + 1)
     );
   };
 
-  const visibleArticles = featuredArticles.slice(currentIndex, currentIndex + 3);
-  
-  // Debug logging
-  console.log('FeaturedArticles - Total articles:', featuredArticles.length);
-  console.log('FeaturedArticles - CurrentIndex:', currentIndex);
-  console.log('FeaturedArticles - VisibleArticles count:', visibleArticles.length);
-  console.log('FeaturedArticles - VisibleArticles titles:', visibleArticles.map(a => a.title.substring(0, 30) + '...'));
+  const visibleArticles = FEATURED_ARTICLES.slice(currentIndex, currentIndex + 3);
+  const maxIndex = Math.max(0, FEATURED_ARTICLES.length - 3);
 
   return (
     <section className="py-16 bg-gradient-to-br from-blue-50 to-white border-y border-blue-100">
@@ -123,7 +123,7 @@ const FeaturedArticles = () => {
           <div className="grid lg:grid-cols-3 gap-8 w-full">
           {visibleArticles.map((article, index) => (
             <motion.article
-              key={article.slug}
+              key={article.id}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
@@ -195,23 +195,23 @@ const FeaturedArticles = () => {
           {/* Right Navigation Button */}
           <button
             onClick={goToNext}
-            disabled={currentIndex >= featuredArticles.length - 3}
+            disabled={currentIndex >= maxIndex}
             className={`absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 p-3 rounded-full bg-white shadow-lg border transition-all ${
-              currentIndex >= featuredArticles.length - 3
+              currentIndex >= maxIndex
                 ? 'border-gray-200 cursor-not-allowed opacity-50' 
                 : 'border-gray-300 hover:bg-blue-50 hover:border-blue-300 hover:shadow-xl'
             }`}
             aria-label="Next articles"
           >
             <ChevronRight className={`w-6 h-6 ${
-              currentIndex >= featuredArticles.length - 3 ? 'text-gray-400' : 'text-gray-600'
+              currentIndex >= maxIndex ? 'text-gray-400' : 'text-gray-600'
             }`} />
           </button>
         </div>
 
         {/* Progress Indicators */}
         <div className="flex justify-center mt-8 gap-2">
-          {Array.from({ length: featuredArticles.length - 2 }, (_, i) => (
+          {Array.from({ length: maxIndex + 1 }, (_, i) => (
             <button
               key={i}
               onClick={() => setCurrentIndex(i)}
