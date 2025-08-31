@@ -404,47 +404,6 @@ export default function FAQ() {
         <meta name="description" content="Orange County debt settlement frequently asked questions. Expert answers on debt relief, settlement costs, timelines, and California regulations." />
         <meta name="keywords" content="Orange County debt settlement FAQ, debt relief questions, settlement costs, California debt laws, AI debt negotiation" />
         
-        {/* FAQ Schema for AI Systems */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "What is debt settlement and how does it work in California?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Debt settlement reduces your total debt through negotiation with creditors. We negotiate with creditors to accept 40-60% of what you owe. California regulates this process through DFPI licensing. You deposit money monthly into your own account. We negotiate settlements when sufficient funds accumulate. California law prohibits upfront fees. You only pay after successful settlements."
-                }
-              },
-              {
-                "@type": "Question", 
-                "name": "How does debt settlement work step by step?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Step 1: Free consultation to analyze your debts. Step 2: Enroll in our program and stop payments to creditors. Step 3: Make monthly deposits to your dedicated account. Step 4: We negotiate with creditors when funds accumulate. Step 5: Accept settlement offers (typically 40-60% savings). Step 6: Pay settlements from your account. Step 7: Receive settlement confirmation letters. Average timeline: 24-36 months for Orange County clients."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What percentage of debt is usually forgiven through settlement?", 
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "In Orange County, our clients typically see 40-60% of their debt forgiven through settlement. Credit card debt often settles for 35-50% of the balance, medical debt for 25-40%, and personal loans for 45-60%. According to our 2024 data, the average settlement across all debt types is 48% of the original balance, meaning clients save 52% on average."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Why does debt settlement work better than other options?",
-                "acceptedAnswer": {
-                  "@type": "Answer", 
-                  "text": "Debt settlement works because creditors prefer partial payment over no payment. Banks often sell charged-off debts for 5-15 cents on the dollar. This gives room for negotiation. Settlement reduces total debt by 40-60%. Bankruptcy may eliminate debt but damages credit for 10 years. Debt consolidation requires good credit and full repayment. Settlement helps people who cannot afford minimum payments become debt-free faster."
-                }
-              }
-            ]
-          })}
-        </script>
 
         {/* HowTo Schema for Debt Settlement Process */}
         <script type="application/ld+json">
