@@ -2,10 +2,9 @@ import { useEffect } from 'react';
 import { getCanonicalUrl } from '../constants/canonical';
 
 /**
- * HARDCODED CANONICAL HOOK
- * This hook ALWAYS sets the canonical URL to https://orangecountydebtcenter.com
- * regardless of what href is passed to it. This prevents dynamic canonical URLs
- * and ensures Google always sees the same canonical domain.
+ * PAGE-SPECIFIC CANONICAL HOOK
+ * Sets the correct canonical URL for each page to prevent Google indexing issues
+ * Uses the current page path to generate proper canonical URLs
  */
 export const useCanonicalLink = (href) => {
   useEffect(() => {
@@ -15,9 +14,9 @@ export const useCanonicalLink = (href) => {
       existingCanonical.remove();
     }
 
-    // ALWAYS use the hardcoded canonical URL - ignore any passed href
-    // This consolidates all SEO authority to the main domain
-    const canonicalUrl = getCanonicalUrl();
+    // Use page-specific canonical URL or current path
+    const currentPath = window.location.pathname;
+    const canonicalUrl = href ? getCanonicalUrl(href) : getCanonicalUrl(currentPath);
     
     const link = document.createElement('link');
     link.rel = 'canonical';
@@ -31,5 +30,5 @@ export const useCanonicalLink = (href) => {
         currentCanonical.remove();
       }
     };
-  }, []); // No dependencies - canonical never changes
+  }, [href]); // Re-run when href changes
 };

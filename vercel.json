@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://orangecountydebtcenter.com/$1",
+      "destination": "https://www.orangecountydebtcenter.com/$1",
       "permanent": true,
       "has": [
         {
@@ -13,12 +13,38 @@
     },
     {
       "source": "/(.*)",
-      "destination": "https://orangecountydebtcenter.com/$1",
+      "destination": "https://www.orangecountydebtcenter.com/$1",
       "permanent": true,
       "has": [
         {
           "type": "host",
           "value": "www.vegaxai.com"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://www.orangecountydebtcenter.com/$1",
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "orangecountydebtcenter.com"
+        }
+      ]
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.orangecountydebtcenter.com/$1>; rel=\"canonical\""
         }
       ]
     }

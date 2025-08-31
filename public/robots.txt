@@ -163,6 +163,10 @@ Disallow: /.env
 Disallow: /api/internal/
 Crawl-delay: 1
 
-# Sitemaps
-Sitemap: https://orangecountydebtcenter.com/sitemap.xml
-Sitemap: https://orangecountydebtcenter.com/blog-sitemap.xml
+# Sitemaps - Use www version as canonical domain
+Sitemap: https://www.orangecountydebtcenter.com/sitemap.xml
+Sitemap: https://www.orangecountydebtcenter.com/blog-sitemap.xml
+
+# Additional directives for redirect handling
+# Note: Non-www URLs redirect to www version with 301 permanent redirect
+# This is the preferred canonical domain structure

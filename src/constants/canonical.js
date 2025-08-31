@@ -4,8 +4,8 @@
  * and prevents Google's "no user-declared canonical" error
  */
 
-// NEVER CHANGE THIS URL - IT MUST ALWAYS BE orangecountydebtcenter.com
-export const CANONICAL_BASE_URL = 'https://orangecountydebtcenter.com';
+// CANONICAL BASE URL - MUST MATCH THE DOMAIN WHERE SITE IS HOSTED  
+export const CANONICAL_BASE_URL = 'https://www.orangecountydebtcenter.com';
 
 // Hardcoded canonical URLs for all major pages
 export const CANONICAL_URLS = {
@@ -22,13 +22,20 @@ export const CANONICAL_URLS = {
 };
 
 /**
- * Get the hardcoded canonical URL for any page
- * This function ignores the current URL and always returns the base canonical
- * to ensure all link equity flows to the main domain
+ * Get the correct canonical URL for any page
+ * Returns page-specific canonical URLs to prevent Google indexing issues
  */
 export const getCanonicalUrl = (path = '') => {
-  // Always return the base URL regardless of path to consolidate SEO authority
-  return CANONICAL_BASE_URL;
+  // If no path provided, return base URL
+  if (!path || path === '/' || path === '') {
+    return `${CANONICAL_BASE_URL}/`;
+  }
+  
+  // Clean the path and ensure it starts with /
+  const cleanPath = path.startsWith('/') ? path : `/${path}`;
+  
+  // Return the full canonical URL for the specific page
+  return `${CANONICAL_BASE_URL}${cleanPath}`;
 };
 
 /**

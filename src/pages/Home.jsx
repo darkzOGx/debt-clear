@@ -17,8 +17,8 @@ export default function Home() {
   const calculatorRef = useRef(null);
   const consultationRef = useRef(null);
   
-  // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://orangecountydebtcenter.com/');
+  // Use custom canonical link hook for homepage canonical URL  
+  useCanonicalLink('/');
 
   const scrollToCalculator = () => {
     calculatorRef.current?.scrollIntoView({ 

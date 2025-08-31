@@ -10,8 +10,8 @@ import ConsultationForm from '../components/consultation/ConsultationForm';
 export default function AnaheimDebtSettlement() {
   const consultationRef = useRef(null);
   
-  // Use custom canonical link hook to avoid data-rh attributes
-  useCanonicalLink('https://orangecountydebtcenter.com/debt-settlement-anaheim');
+  // Use custom canonical link hook for page-specific canonical URL
+  useCanonicalLink('/debt-settlement-anaheim');
 
   const scrollToConsultation = () => {
     consultationRef.current?.scrollIntoView({ 

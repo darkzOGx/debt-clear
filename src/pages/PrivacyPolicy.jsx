@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
         <title>Privacy Policy - Orange County Debt Center</title>
         <meta name="description" content="Privacy policy for Orange County Debt Center. Learn how we protect your personal information and comply with California privacy laws." />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
+        <link rel="canonical" href="https://www.orangecountydebtcenter.com/privacy-policy" />
       </Helmet>
       
       <div className="min-h-screen bg-white">

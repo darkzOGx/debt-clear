@@ -10,7 +10,7 @@ export default function TermsOfService() {
         <title>Terms of Service - Orange County Debt Center</title>
         <meta name="description" content="Terms of service for Orange County Debt Center debt settlement services. Legal terms, fees, and client obligations explained." />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://orangecountydebtcenter.com/" />
+        <link rel="canonical" href="https://www.orangecountydebtcenter.com/terms-of-service" />
       </Helmet>
       
       <div className="min-h-screen bg-white">
